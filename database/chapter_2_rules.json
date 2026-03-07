@@ -1,0 +1,53 @@
+{
+    "chapter_code": "02",
+    "inclusions": [
+        "Meat and edible meat offal"
+    ],
+    "exclusions": [
+        {
+            "condition": "Products unfit or unsuitable for human consumption",
+            "action": "Redirect to Chapter 5 or Chapter 23",
+            "keywords": [
+                "unfit",
+                "unsuitable",
+                "human consumption"
+            ]
+        },
+        {
+            "condition": "Edible, non-living insects",
+            "action": "Redirect to Heading 04.10",
+            "keywords": [
+                "edible insects",
+                "non-living insects",
+                "04.10"
+            ]
+        },
+        {
+            "condition": "Guts, bladders or stomachs of animals",
+            "action": "Redirect to Heading 05.04",
+            "keywords": [
+                "guts",
+                "bladders",
+                "stomachs",
+                "05.04"
+            ]
+        },
+        {
+            "condition": "Animal blood",
+            "action": "Redirect to Heading 05.11 or 30.02",
+            "keywords": [
+                "animal blood",
+                "05.11",
+                "30.02"
+            ]
+        },
+        {
+            "condition": "Animal fat, other than products of heading 02.09",
+            "action": "Redirect to Chapter 15",
+            "keywords": [
+                "animal fat",
+                "chapter 15"
+            ]
+        }
+    ]
+}

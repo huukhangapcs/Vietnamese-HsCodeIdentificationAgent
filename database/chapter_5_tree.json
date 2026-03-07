@@ -1,0 +1,273 @@
+[
+  {
+    "level": 0,
+    "hs_code": "05010000",
+    "description_en": "Human hair, unworked, whether or not washed or scoured; waste of human hair",
+    "children": [],
+    "semantic_path": "Human hair, unworked, whether or not washed or scoured; waste of human hair"
+  },
+  {
+    "level": 0,
+    "hs_code": "0502",
+    "description_en": "Pigs’, hogs’ or boars’ bristles and hair; badger hair and other brush making hair; waste of such bristles or hair",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "05021000",
+        "description_en": "Pigs’, hogs’ or boars’ bristles and hair and waste thereof",
+        "children": [],
+        "semantic_path": "Pigs’, hogs’ or boars’ bristles and hair; badger hair and other brush making hair; waste of such bristles or hair > Pigs’, hogs’ or boars’ bristles and hair and waste thereof"
+      },
+      {
+        "level": 1,
+        "hs_code": "05029000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Pigs’, hogs’ or boars’ bristles and hair; badger hair and other brush making hair; waste of such bristles or hair > Other"
+      }
+    ],
+    "semantic_path": "Pigs’, hogs’ or boars’ bristles and hair; badger hair and other brush making hair; waste of such bristles or hair"
+  },
+  {
+    "level": 0,
+    "hs_code": "05040000",
+    "description_en": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked",
+    "children": [],
+    "semantic_path": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked"
+  },
+  {
+    "level": 0,
+    "hs_code": "0505",
+    "description_en": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "050510",
+        "description_en": "Feathers of a kind used for stuffing; down:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "05051010",
+            "description_en": "Duck feathers",
+            "children": [],
+            "semantic_path": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers > Feathers of a kind used for stuffing; down: > Duck feathers"
+          },
+          {
+            "level": 2,
+            "hs_code": "05051090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers > Feathers of a kind used for stuffing; down: > Other"
+          }
+        ],
+        "semantic_path": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers > Feathers of a kind used for stuffing; down:"
+      },
+      {
+        "level": 1,
+        "hs_code": "050590",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "05059010",
+            "description_en": "Duck feathers",
+            "children": [],
+            "semantic_path": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers > Other: > Duck feathers"
+          },
+          {
+            "level": 2,
+            "hs_code": "05059090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers > Other: > Other"
+          }
+        ],
+        "semantic_path": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers > Other:"
+      }
+    ],
+    "semantic_path": "Skins and other parts of birds, with their feathers or down, feathers and parts of feathers (whether or not with trimmed edges) and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers"
+  },
+  {
+    "level": 0,
+    "hs_code": "0506",
+    "description_en": "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "05061000",
+        "description_en": "Ossein and bones treated with acid",
+        "children": [],
+        "semantic_path": "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products > Ossein and bones treated with acid"
+      },
+      {
+        "level": 1,
+        "hs_code": "05069000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products > Other"
+      }
+    ],
+    "semantic_path": "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), treated with acid or degelatinised; powder and waste of these products"
+  },
+  {
+    "level": 0,
+    "hs_code": "0507",
+    "description_en": "Ivory, tortoise-shell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "05071000",
+        "description_en": "Ivory; ivory powder and waste",
+        "children": [],
+        "semantic_path": "Ivory, tortoise-shell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products > Ivory; ivory powder and waste"
+      },
+      {
+        "level": 1,
+        "hs_code": "050790",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "05079020",
+            "description_en": "Tortoise-shell",
+            "children": [],
+            "semantic_path": "Ivory, tortoise-shell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products > Other: > Tortoise-shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "05079090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Ivory, tortoise-shell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products > Other: > Other"
+          }
+        ],
+        "semantic_path": "Ivory, tortoise-shell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products > Other:"
+      }
+    ],
+    "semantic_path": "Ivory, tortoise-shell, whalebone and whalebone hair, horns, antlers, hooves, nails, claws and beaks, unworked or simply prepared but not cut to shape; powder and waste of these products"
+  },
+  {
+    "level": 0,
+    "hs_code": "0508",
+    "description_en": "Coral and similar materials, unworked or simply prepared but not otherwise worked; shells of molluscs, crustaceans or echinoderms and cuttle-bone, unworked or simply prepared but not cut to shape, powder and waste thereof",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "05080020",
+        "description_en": "Shells of molluscs, crustaceans or echinoderms",
+        "children": [],
+        "semantic_path": "Coral and similar materials, unworked or simply prepared but not otherwise worked; shells of molluscs, crustaceans or echinoderms and cuttle-bone, unworked or simply prepared but not cut to shape, powder and waste thereof > Shells of molluscs, crustaceans or echinoderms"
+      },
+      {
+        "level": 1,
+        "hs_code": "05080090",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Coral and similar materials, unworked or simply prepared but not otherwise worked; shells of molluscs, crustaceans or echinoderms and cuttle-bone, unworked or simply prepared but not cut to shape, powder and waste thereof > Other"
+      }
+    ],
+    "semantic_path": "Coral and similar materials, unworked or simply prepared but not otherwise worked; shells of molluscs, crustaceans or echinoderms and cuttle-bone, unworked or simply prepared but not cut to shape, powder and waste thereof"
+  },
+  {
+    "level": 0,
+    "hs_code": "05100000",
+    "description_en": "Ambergris, castoreum, civet and musk; cantharides; bile, whether or not dried; glands and other animal products used in the preparation of pharmaceutical products, fresh, chilled, frozen or otherwise provisionally preserved",
+    "children": [],
+    "semantic_path": "Ambergris, castoreum, civet and musk; cantharides; bile, whether or not dried; glands and other animal products used in the preparation of pharmaceutical products, fresh, chilled, frozen or otherwise provisionally preserved"
+  },
+  {
+    "level": 0,
+    "hs_code": "0511",
+    "description_en": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "05111000",
+        "description_en": "Bovine semen",
+        "children": [],
+        "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Bovine semen"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "051191",
+            "description_en": "Products of fish or crustaceans, molluscs or other aquatic invertebrates; dead animals of Chapter 3:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "05119110",
+                "description_en": "Roes and milt",
+                "children": [],
+                "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Products of fish or crustaceans, molluscs or other aquatic invertebrates; dead animals of Chapter 3: > Roes and milt"
+              },
+              {
+                "level": 3,
+                "hs_code": "05119120",
+                "description_en": "Artemia egg (Brine shrimp egg)",
+                "children": [],
+                "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Products of fish or crustaceans, molluscs or other aquatic invertebrates; dead animals of Chapter 3: > Artemia egg (Brine shrimp egg)"
+              },
+              {
+                "level": 3,
+                "hs_code": "05119130",
+                "description_en": "Fish skin",
+                "children": [],
+                "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Products of fish or crustaceans, molluscs or other aquatic invertebrates; dead animals of Chapter 3: > Fish skin"
+              },
+              {
+                "level": 3,
+                "hs_code": "05119190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Products of fish or crustaceans, molluscs or other aquatic invertebrates; dead animals of Chapter 3: > Other"
+              }
+            ],
+            "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Products of fish or crustaceans, molluscs or other aquatic invertebrates; dead animals of Chapter 3:"
+          },
+          {
+            "level": 2,
+            "hs_code": "051199",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "05119910",
+                "description_en": "Domestic animal semen",
+                "children": [],
+                "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Other: > Domestic animal semen"
+              },
+              {
+                "level": 3,
+                "hs_code": "05119920",
+                "description_en": "Silk worm eggs",
+                "children": [],
+                "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Other: > Silk worm eggs"
+              },
+              {
+                "level": 3,
+                "hs_code": "05119930",
+                "description_en": "Natural sponges",
+                "children": [],
+                "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Other: > Natural sponges"
+              },
+              {
+                "level": 3,
+                "hs_code": "05119990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other: > Other:"
+          }
+        ],
+        "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption > Other:"
+      }
+    ],
+    "semantic_path": "Animal products not elsewhere specified or included; dead animals of Chapter 1 or 3, unfit for human consumption"
+  }
+]

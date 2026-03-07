@@ -1,0 +1,806 @@
+[
+  {
+    "level": 0,
+    "hs_code": "0401",
+    "description_en": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "040110",
+        "description_en": "Of a fat content, by weight, not exceeding 1%:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04011010",
+            "description_en": "In liquid form",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, not exceeding 1%: > In liquid form"
+          },
+          {
+            "level": 2,
+            "hs_code": "04011090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, not exceeding 1%: > Other"
+          }
+        ],
+        "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, not exceeding 1%:"
+      },
+      {
+        "level": 1,
+        "hs_code": "040120",
+        "description_en": "Of a fat content, by weight, exceeding 1% but not exceeding 6%:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04012010",
+            "description_en": "In liquid form",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 1% but not exceeding 6%: > In liquid form"
+          },
+          {
+            "level": 2,
+            "hs_code": "04012090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 1% but not exceeding 6%: > Other"
+          }
+        ],
+        "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 1% but not exceeding 6%:"
+      },
+      {
+        "level": 1,
+        "hs_code": "040140",
+        "description_en": "Of a fat content, by weight, exceeding 6% but not exceeding 10%:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04014010",
+            "description_en": "Milk in liquid form",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 6% but not exceeding 10%: > Milk in liquid form"
+          },
+          {
+            "level": 2,
+            "hs_code": "04014020",
+            "description_en": "Milk in frozen form",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 6% but not exceeding 10%: > Milk in frozen form"
+          },
+          {
+            "level": 2,
+            "hs_code": "04014090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 6% but not exceeding 10%: > Other"
+          }
+        ],
+        "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 6% but not exceeding 10%:"
+      },
+      {
+        "level": 1,
+        "hs_code": "040150",
+        "description_en": "Of a fat content, by weight, exceeding 10%:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04015010",
+            "description_en": "In liquid form",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 10%: > In liquid form"
+          },
+          {
+            "level": 2,
+            "hs_code": "04015090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 10%: > Other"
+          }
+        ],
+        "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter > Of a fat content, by weight, exceeding 10%:"
+      }
+    ],
+    "semantic_path": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter"
+  },
+  {
+    "level": 0,
+    "hs_code": "0402",
+    "description_en": "Milk and cream, concentrated or containing added sugar or other sweetening matter",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "040210",
+        "description_en": "In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_0",
+            "description_en": "Not containing added sugar or other sweetening matter:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04021041",
+                "description_en": "In containers of a net weight of 20 kg or more",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: > Not containing added sugar or other sweetening matter: > In containers of a net weight of 20 kg or more"
+              },
+              {
+                "level": 3,
+                "hs_code": "04021042",
+                "description_en": "In containers of a net weight of 2 kg or less",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: > Not containing added sugar or other sweetening matter: > In containers of a net weight of 2 kg or less"
+              },
+              {
+                "level": 3,
+                "hs_code": "04021049",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: > Not containing added sugar or other sweetening matter: > Other"
+              }
+            ],
+            "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: > Not containing added sugar or other sweetening matter:"
+          },
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_1",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04021091",
+                "description_en": "In containers of a net weight of 20 kg or more",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: > Other: > In containers of a net weight of 20 kg or more"
+              },
+              {
+                "level": 3,
+                "hs_code": "04021092",
+                "description_en": "In containers of a net weight of 2 kg or less",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: > Other: > In containers of a net weight of 2 kg or less"
+              },
+              {
+                "level": 3,
+                "hs_code": "04021099",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: > Other:"
+          }
+        ],
+        "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "040221",
+            "description_en": "Not containing added sugar or other sweetening matter:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04022120",
+                "description_en": "In containers of a net weight of 20 kg or more",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: > Not containing added sugar or other sweetening matter: > In containers of a net weight of 20 kg or more"
+              },
+              {
+                "level": 3,
+                "hs_code": "04022130",
+                "description_en": "In containers of a net weight of 2 kg or less",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: > Not containing added sugar or other sweetening matter: > In containers of a net weight of 2 kg or less"
+              },
+              {
+                "level": 3,
+                "hs_code": "04022190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: > Not containing added sugar or other sweetening matter: > Other"
+              }
+            ],
+            "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: > Not containing added sugar or other sweetening matter:"
+          },
+          {
+            "level": 2,
+            "hs_code": "040229",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04022920",
+                "description_en": "In containers of a net weight of 20 kg or more",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: > Other: > In containers of a net weight of 20 kg or more"
+              },
+              {
+                "level": 3,
+                "hs_code": "04022930",
+                "description_en": "In containers of a net weight of 2 kg or less",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: > Other: > In containers of a net weight of 2 kg or less"
+              },
+              {
+                "level": 3,
+                "hs_code": "04022990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: > Other:"
+          }
+        ],
+        "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04029100",
+            "description_en": "Not containing added sugar or other sweetening matter",
+            "children": [],
+            "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > Other: > Not containing added sugar or other sweetening matter"
+          },
+          {
+            "level": 2,
+            "hs_code": "04029900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > Other: > Other"
+          }
+        ],
+        "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter > Other:"
+      }
+    ],
+    "semantic_path": "Milk and cream, concentrated or containing added sugar or other sweetening matter"
+  },
+  {
+    "level": 0,
+    "hs_code": "0403",
+    "description_en": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "040320",
+        "description_en": "Yogurt:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_0",
+            "description_en": "In liquid form, whether or not condensed:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04032011",
+                "description_en": "Flavoured or containing added fruits (including pulp and jams), nuts or cocoa",
+                "children": [],
+                "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Yogurt: > In liquid form, whether or not condensed: > Flavoured or containing added fruits (including pulp and jams), nuts or cocoa"
+              },
+              {
+                "level": 3,
+                "hs_code": "04032019",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Yogurt: > In liquid form, whether or not condensed: > Other"
+              }
+            ],
+            "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Yogurt: > In liquid form, whether or not condensed:"
+          },
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_1",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04032091",
+                "description_en": "Flavoured or containing added fruits (including pulp and jams), nuts or cocoa",
+                "children": [],
+                "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Yogurt: > Other: > Flavoured or containing added fruits (including pulp and jams), nuts or cocoa"
+              },
+              {
+                "level": 3,
+                "hs_code": "04032099",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Yogurt: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Yogurt: > Other:"
+          }
+        ],
+        "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Yogurt:"
+      },
+      {
+        "level": 1,
+        "hs_code": "040390",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04039010",
+            "description_en": "Buttermilk",
+            "children": [],
+            "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Other: > Buttermilk"
+          },
+          {
+            "level": 2,
+            "hs_code": "04039090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Other: > Other"
+          }
+        ],
+        "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa > Other:"
+      }
+    ],
+    "semantic_path": "Yogurt; buttermilk, curdled milk and cream, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa"
+  },
+  {
+    "level": 0,
+    "hs_code": "0404",
+    "description_en": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "040410",
+        "description_en": "Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_0",
+            "description_en": "In powder form:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04041011",
+                "description_en": "Whey, fit for human consumption",
+                "children": [],
+                "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included > Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter: > In powder form: > Whey, fit for human consumption"
+              },
+              {
+                "level": 3,
+                "hs_code": "04041019",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included > Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter: > In powder form: > Other"
+              }
+            ],
+            "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included > Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter: > In powder form:"
+          },
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_1",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04041091",
+                "description_en": "Whey, fit for human consumption",
+                "children": [],
+                "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included > Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter: > Other: > Whey, fit for human consumption"
+              },
+              {
+                "level": 3,
+                "hs_code": "04041099",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included > Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included > Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter: > Other:"
+          }
+        ],
+        "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included > Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter:"
+      },
+      {
+        "level": 1,
+        "hs_code": "04049000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included > Other"
+      }
+    ],
+    "semantic_path": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included"
+  },
+  {
+    "level": 0,
+    "hs_code": "0405",
+    "description_en": "Butter and other fats and oils derived from milk; dairy spreads",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "04051000",
+        "description_en": "Butter",
+        "children": [],
+        "semantic_path": "Butter and other fats and oils derived from milk; dairy spreads > Butter"
+      },
+      {
+        "level": 1,
+        "hs_code": "04052000",
+        "description_en": "Dairy spreads",
+        "children": [],
+        "semantic_path": "Butter and other fats and oils derived from milk; dairy spreads > Dairy spreads"
+      },
+      {
+        "level": 1,
+        "hs_code": "040590",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04059010",
+            "description_en": "Anhydrous butterfat",
+            "children": [],
+            "semantic_path": "Butter and other fats and oils derived from milk; dairy spreads > Other: > Anhydrous butterfat"
+          },
+          {
+            "level": 2,
+            "hs_code": "04059020",
+            "description_en": "Butteroil",
+            "children": [],
+            "semantic_path": "Butter and other fats and oils derived from milk; dairy spreads > Other: > Butteroil"
+          },
+          {
+            "level": 2,
+            "hs_code": "04059030",
+            "description_en": "Ghee",
+            "children": [],
+            "semantic_path": "Butter and other fats and oils derived from milk; dairy spreads > Other: > Ghee"
+          },
+          {
+            "level": 2,
+            "hs_code": "04059090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Butter and other fats and oils derived from milk; dairy spreads > Other: > Other"
+          }
+        ],
+        "semantic_path": "Butter and other fats and oils derived from milk; dairy spreads > Other:"
+      }
+    ],
+    "semantic_path": "Butter and other fats and oils derived from milk; dairy spreads"
+  },
+  {
+    "level": 0,
+    "hs_code": "0406",
+    "description_en": "Cheese and curd",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "040610",
+        "description_en": "Fresh (unripened or uncured) cheese, including whey cheese, and curd:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04061010",
+            "description_en": "Fresh (unripened or uncured) cheese, including whey cheese",
+            "children": [],
+            "semantic_path": "Cheese and curd > Fresh (unripened or uncured) cheese, including whey cheese, and curd: > Fresh (unripened or uncured) cheese, including whey cheese"
+          },
+          {
+            "level": 2,
+            "hs_code": "04061020",
+            "description_en": "Curd",
+            "children": [],
+            "semantic_path": "Cheese and curd > Fresh (unripened or uncured) cheese, including whey cheese, and curd: > Curd"
+          }
+        ],
+        "semantic_path": "Cheese and curd > Fresh (unripened or uncured) cheese, including whey cheese, and curd:"
+      },
+      {
+        "level": 1,
+        "hs_code": "040620",
+        "description_en": "Grated or powdered cheese, of all kinds:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04062010",
+            "description_en": "In packages of a gross weight exceeding 20 kg",
+            "children": [],
+            "semantic_path": "Cheese and curd > Grated or powdered cheese, of all kinds: > In packages of a gross weight exceeding 20 kg"
+          },
+          {
+            "level": 2,
+            "hs_code": "04062090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Cheese and curd > Grated or powdered cheese, of all kinds: > Other"
+          }
+        ],
+        "semantic_path": "Cheese and curd > Grated or powdered cheese, of all kinds:"
+      },
+      {
+        "level": 1,
+        "hs_code": "04063000",
+        "description_en": "Processed cheese, not grated or powdered",
+        "children": [],
+        "semantic_path": "Cheese and curd > Processed cheese, not grated or powdered"
+      },
+      {
+        "level": 1,
+        "hs_code": "04064000",
+        "description_en": "Blue-veined cheese and other cheese containing veins produced by Penicillium roqueforti",
+        "children": [],
+        "semantic_path": "Cheese and curd > Blue-veined cheese and other cheese containing veins produced by Penicillium roqueforti"
+      },
+      {
+        "level": 1,
+        "hs_code": "04069000",
+        "description_en": "Other cheese",
+        "children": [],
+        "semantic_path": "Cheese and curd > Other cheese"
+      }
+    ],
+    "semantic_path": "Cheese and curd"
+  },
+  {
+    "level": 0,
+    "hs_code": "0407",
+    "description_en": "Birds’ eggs, in shell, fresh, preserved or cooked",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Fertilised eggs for incubation:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "040711",
+            "description_en": "Of fowls of the species Gallus domesticus:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04071110",
+                "description_en": "For breeding",
+                "children": [],
+                "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Of fowls of the species Gallus domesticus: > For breeding"
+              },
+              {
+                "level": 3,
+                "hs_code": "04071190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Of fowls of the species Gallus domesticus: > Other"
+              }
+            ],
+            "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Of fowls of the species Gallus domesticus:"
+          },
+          {
+            "level": 2,
+            "hs_code": "040719",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "PSEUDO_NODE_3_0",
+                "description_en": "Of ducks:",
+                "children": [
+                  {
+                    "level": 4,
+                    "hs_code": "04071911",
+                    "description_en": "For breeding",
+                    "children": [],
+                    "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Other: > Of ducks: > For breeding"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "04071919",
+                    "description_en": "Other",
+                    "children": [],
+                    "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Other: > Of ducks: > Other"
+                  }
+                ],
+                "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Other: > Of ducks:"
+              },
+              {
+                "level": 3,
+                "hs_code": "PSEUDO_NODE_3_1",
+                "description_en": "Other:",
+                "children": [
+                  {
+                    "level": 4,
+                    "hs_code": "04071991",
+                    "description_en": "For breeding",
+                    "children": [],
+                    "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Other: > Other: > For breeding"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "04071999",
+                    "description_en": "Other",
+                    "children": [],
+                    "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Other: > Other: > Other"
+                  }
+                ],
+                "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Other: > Other:"
+              }
+            ],
+            "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation: > Other:"
+          }
+        ],
+        "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Fertilised eggs for incubation:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Other fresh eggs:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04072100",
+            "description_en": "Of fowls of the species Gallus domesticus",
+            "children": [],
+            "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other fresh eggs: > Of fowls of the species Gallus domesticus"
+          },
+          {
+            "level": 2,
+            "hs_code": "040729",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "04072910",
+                "description_en": "Of ducks",
+                "children": [],
+                "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other fresh eggs: > Other: > Of ducks"
+              },
+              {
+                "level": 3,
+                "hs_code": "04072990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other fresh eggs: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other fresh eggs: > Other:"
+          }
+        ],
+        "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other fresh eggs:"
+      },
+      {
+        "level": 1,
+        "hs_code": "040790",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04079010",
+            "description_en": "Of fowls of the species Gallus domesticus",
+            "children": [],
+            "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other: > Of fowls of the species Gallus domesticus"
+          },
+          {
+            "level": 2,
+            "hs_code": "04079020",
+            "description_en": "Of ducks",
+            "children": [],
+            "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other: > Of ducks"
+          },
+          {
+            "level": 2,
+            "hs_code": "04079090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other: > Other"
+          }
+        ],
+        "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked > Other:"
+      }
+    ],
+    "semantic_path": "Birds’ eggs, in shell, fresh, preserved or cooked"
+  },
+  {
+    "level": 0,
+    "hs_code": "0408",
+    "description_en": "Birds’ eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Egg yolks:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04081100",
+            "description_en": "Dried",
+            "children": [],
+            "semantic_path": "Birds’ eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter > Egg yolks: > Dried"
+          },
+          {
+            "level": 2,
+            "hs_code": "04081900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Birds’ eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter > Egg yolks: > Other"
+          }
+        ],
+        "semantic_path": "Birds’ eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter > Egg yolks:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04089100",
+            "description_en": "Dried",
+            "children": [],
+            "semantic_path": "Birds’ eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter > Other: > Dried"
+          },
+          {
+            "level": 2,
+            "hs_code": "04089900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Birds’ eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter > Other: > Other"
+          }
+        ],
+        "semantic_path": "Birds’ eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter > Other:"
+      }
+    ],
+    "semantic_path": "Birds’ eggs, not in shell, and egg yolks, fresh, dried, cooked by steaming or by boiling in water, moulded, frozen or otherwise preserved, whether or not containing added sugar or other sweetening matter"
+  },
+  {
+    "level": 0,
+    "hs_code": "04090000",
+    "description_en": "Natural honey",
+    "children": [],
+    "semantic_path": "Natural honey"
+  },
+  {
+    "level": 0,
+    "hs_code": "0410",
+    "description_en": "Insects and other edible products of animal origin, not elsewhere specified or included",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "04101000",
+        "description_en": "Insects",
+        "children": [],
+        "semantic_path": "Insects and other edible products of animal origin, not elsewhere specified or included > Insects"
+      },
+      {
+        "level": 1,
+        "hs_code": "041090",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "04109010",
+            "description_en": "Birds' nests",
+            "children": [],
+            "semantic_path": "Insects and other edible products of animal origin, not elsewhere specified or included > Other: > Birds' nests"
+          },
+          {
+            "level": 2,
+            "hs_code": "04109020",
+            "description_en": "Turtles' eggs",
+            "children": [],
+            "semantic_path": "Insects and other edible products of animal origin, not elsewhere specified or included > Other: > Turtles' eggs"
+          },
+          {
+            "level": 2,
+            "hs_code": "04109090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Insects and other edible products of animal origin, not elsewhere specified or included > Other: > Other"
+          }
+        ],
+        "semantic_path": "Insects and other edible products of animal origin, not elsewhere specified or included > Other:"
+      }
+    ],
+    "semantic_path": "Insects and other edible products of animal origin, not elsewhere specified or included"
+  }
+]

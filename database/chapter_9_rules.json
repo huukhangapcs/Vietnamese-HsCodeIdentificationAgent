@@ -1,0 +1,18 @@
+{
+  "chapter_code": "09",
+  "inclusions": [
+    "Coffee, tea, maté and spices",
+    "Mixtures of two or more of the products of the same heading (09.04 to 09.10) are classified in that heading",
+    "Mixtures of two or more of the products of different headings (from 09.04 to 09.10) are classified in heading 09.10"
+  ],
+  "exclusions": [
+    {
+      "condition": "The item is EXPLICITLY described as a 'mixed condiment' or 'mixed seasoning', OR it is explicitly stated that it has LOST the essential character of spices from 09.04-09.10. CRITICAL: DO NOT apply this exclusion to simple mixtures of spices which belong in 09.10.",
+      "action": "Redirect to heading 21.03"
+    },
+    {
+      "condition": "Cubeb pepper (Piper cubeba) or other products of heading 12.11",
+      "action": "Redirect to heading 12.11"
+    }
+  ]
+}

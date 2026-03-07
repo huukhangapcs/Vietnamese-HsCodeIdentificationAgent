@@ -1,0 +1,1022 @@
+[
+  {
+    "level": 0,
+    "hs_code": "0801",
+    "description_en": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Coconuts:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08011100",
+            "description_en": "Desiccated",
+            "children": [],
+            "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Coconuts: > Desiccated"
+          },
+          {
+            "level": 2,
+            "hs_code": "08011200",
+            "description_en": "In the inner shell (endocarp)",
+            "children": [],
+            "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Coconuts: > In the inner shell (endocarp)"
+          },
+          {
+            "level": 2,
+            "hs_code": "080119",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "08011910",
+                "description_en": "Young coconut",
+                "children": [],
+                "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Coconuts: > Other: > Young coconut"
+              },
+              {
+                "level": 3,
+                "hs_code": "08011990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Coconuts: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Coconuts: > Other:"
+          }
+        ],
+        "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Coconuts:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Brazil nuts:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08012100",
+            "description_en": "In shell",
+            "children": [],
+            "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Brazil nuts: > In shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "08012200",
+            "description_en": "Shelled",
+            "children": [],
+            "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Brazil nuts: > Shelled"
+          }
+        ],
+        "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Brazil nuts:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Cashew nuts:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08013100",
+            "description_en": "In shell",
+            "children": [],
+            "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Cashew nuts: > In shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "08013200",
+            "description_en": "Shelled",
+            "children": [],
+            "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Cashew nuts: > Shelled"
+          }
+        ],
+        "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled > Cashew nuts:"
+      }
+    ],
+    "semantic_path": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0802",
+    "description_en": "Other nuts, fresh or dried, whether or not shelled or peeled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Almonds:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08021100",
+            "description_en": "In shell",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Almonds: > In shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "080212",
+            "description_en": "Shelled:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "08021210",
+                "description_en": "Blanched",
+                "children": [],
+                "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Almonds: > Shelled: > Blanched"
+              },
+              {
+                "level": 3,
+                "hs_code": "08021290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Almonds: > Shelled: > Other"
+              }
+            ],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Almonds: > Shelled:"
+          }
+        ],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Almonds:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Hazelnuts or filberts (Corylus spp.):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08022100",
+            "description_en": "In shell",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Hazelnuts or filberts (Corylus spp.): > In shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "08022200",
+            "description_en": "Shelled",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Hazelnuts or filberts (Corylus spp.): > Shelled"
+          }
+        ],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Hazelnuts or filberts (Corylus spp.):"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Walnuts:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08023100",
+            "description_en": "In shell",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Walnuts: > In shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "08023200",
+            "description_en": "Shelled",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Walnuts: > Shelled"
+          }
+        ],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Walnuts:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_3",
+        "description_en": "Chestnuts (Castanea spp.):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08024100",
+            "description_en": "In shell",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Chestnuts (Castanea spp.): > In shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "08024200",
+            "description_en": "Shelled",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Chestnuts (Castanea spp.): > Shelled"
+          }
+        ],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Chestnuts (Castanea spp.):"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_4",
+        "description_en": "Pistachios:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08025100",
+            "description_en": "In shell",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Pistachios: > In shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "08025200",
+            "description_en": "Shelled",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Pistachios: > Shelled"
+          }
+        ],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Pistachios:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_5",
+        "description_en": "Macadamia nuts:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08026100",
+            "description_en": "In shell",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Macadamia nuts: > In shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "08026200",
+            "description_en": "Shelled",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Macadamia nuts: > Shelled"
+          }
+        ],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Macadamia nuts:"
+      },
+      {
+        "level": 1,
+        "hs_code": "08027000",
+        "description_en": "Kola nuts (Cola spp.)",
+        "children": [],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Kola nuts (Cola spp.)"
+      },
+      {
+        "level": 1,
+        "hs_code": "08028000",
+        "description_en": "Areca nuts",
+        "children": [],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Areca nuts"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_8",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08029100",
+            "description_en": "Pine nuts, in shell",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Other: > Pine nuts, in shell"
+          },
+          {
+            "level": 2,
+            "hs_code": "08029200",
+            "description_en": "Pine nuts, shelled",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Other: > Pine nuts, shelled"
+          },
+          {
+            "level": 2,
+            "hs_code": "08029900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Other: > Other"
+          }
+        ],
+        "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled > Other:"
+      }
+    ],
+    "semantic_path": "Other nuts, fresh or dried, whether or not shelled or peeled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0803",
+    "description_en": "Bananas, including plantains, fresh or dried",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "080310",
+        "description_en": "Plantains:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08031010",
+            "description_en": "Fresh",
+            "children": [],
+            "semantic_path": "Bananas, including plantains, fresh or dried > Plantains: > Fresh"
+          },
+          {
+            "level": 2,
+            "hs_code": "08031020",
+            "description_en": "Dried",
+            "children": [],
+            "semantic_path": "Bananas, including plantains, fresh or dried > Plantains: > Dried"
+          }
+        ],
+        "semantic_path": "Bananas, including plantains, fresh or dried > Plantains:"
+      },
+      {
+        "level": 1,
+        "hs_code": "080390",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08039010",
+            "description_en": "Lady's finger banana",
+            "children": [],
+            "semantic_path": "Bananas, including plantains, fresh or dried > Other: > Lady's finger banana"
+          },
+          {
+            "level": 2,
+            "hs_code": "08039020",
+            "description_en": "Cavendish banana (Musa acuminata)",
+            "children": [],
+            "semantic_path": "Bananas, including plantains, fresh or dried > Other: > Cavendish banana (Musa acuminata)"
+          },
+          {
+            "level": 2,
+            "hs_code": "08039030",
+            "description_en": "Chestnut banana (hybrid of Musa acuminata and Musa balbisiana, cultivar Berangan)",
+            "children": [],
+            "semantic_path": "Bananas, including plantains, fresh or dried > Other: > Chestnut banana (hybrid of Musa acuminata and Musa balbisiana, cultivar Berangan)"
+          },
+          {
+            "level": 2,
+            "hs_code": "08039090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Bananas, including plantains, fresh or dried > Other: > Other"
+          }
+        ],
+        "semantic_path": "Bananas, including plantains, fresh or dried > Other:"
+      }
+    ],
+    "semantic_path": "Bananas, including plantains, fresh or dried"
+  },
+  {
+    "level": 0,
+    "hs_code": "0804",
+    "description_en": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "08041000",
+        "description_en": "Dates",
+        "children": [],
+        "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Dates"
+      },
+      {
+        "level": 1,
+        "hs_code": "08042000",
+        "description_en": "Figs",
+        "children": [],
+        "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Figs"
+      },
+      {
+        "level": 1,
+        "hs_code": "08043000",
+        "description_en": "Pineapples",
+        "children": [],
+        "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Pineapples"
+      },
+      {
+        "level": 1,
+        "hs_code": "08044000",
+        "description_en": "Avocados",
+        "children": [],
+        "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Avocados"
+      },
+      {
+        "level": 1,
+        "hs_code": "080450",
+        "description_en": "Guavas, mangoes and mangosteens:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08045010",
+            "description_en": "Guavas",
+            "children": [],
+            "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Guavas, mangoes and mangosteens: > Guavas"
+          },
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_1",
+            "description_en": "Mangoes:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "08045021",
+                "description_en": "Fresh",
+                "children": [],
+                "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Guavas, mangoes and mangosteens: > Mangoes: > Fresh"
+              },
+              {
+                "level": 3,
+                "hs_code": "08045022",
+                "description_en": "Dried",
+                "children": [],
+                "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Guavas, mangoes and mangosteens: > Mangoes: > Dried"
+              }
+            ],
+            "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Guavas, mangoes and mangosteens: > Mangoes:"
+          },
+          {
+            "level": 2,
+            "hs_code": "08045030",
+            "description_en": "Mangosteens",
+            "children": [],
+            "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Guavas, mangoes and mangosteens: > Mangosteens"
+          }
+        ],
+        "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried > Guavas, mangoes and mangosteens:"
+      }
+    ],
+    "semantic_path": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried"
+  },
+  {
+    "level": 0,
+    "hs_code": "0805",
+    "description_en": "Citrus fruit, fresh or dried",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "080510",
+        "description_en": "Oranges:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08051010",
+            "description_en": "Fresh",
+            "children": [],
+            "semantic_path": "Citrus fruit, fresh or dried > Oranges: > Fresh"
+          },
+          {
+            "level": 2,
+            "hs_code": "08051020",
+            "description_en": "Dried",
+            "children": [],
+            "semantic_path": "Citrus fruit, fresh or dried > Oranges: > Dried"
+          }
+        ],
+        "semantic_path": "Citrus fruit, fresh or dried > Oranges:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Mandarins (including tangerines and satsumas); clementines, wilkings and similar citrus hybrids:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08052100",
+            "description_en": "Mandarins (including tangerines and satsumas)",
+            "children": [],
+            "semantic_path": "Citrus fruit, fresh or dried > Mandarins (including tangerines and satsumas); clementines, wilkings and similar citrus hybrids: > Mandarins (including tangerines and satsumas)"
+          },
+          {
+            "level": 2,
+            "hs_code": "08052200",
+            "description_en": "Clementines",
+            "children": [],
+            "semantic_path": "Citrus fruit, fresh or dried > Mandarins (including tangerines and satsumas); clementines, wilkings and similar citrus hybrids: > Clementines"
+          },
+          {
+            "level": 2,
+            "hs_code": "08052900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Citrus fruit, fresh or dried > Mandarins (including tangerines and satsumas); clementines, wilkings and similar citrus hybrids: > Other"
+          }
+        ],
+        "semantic_path": "Citrus fruit, fresh or dried > Mandarins (including tangerines and satsumas); clementines, wilkings and similar citrus hybrids:"
+      },
+      {
+        "level": 1,
+        "hs_code": "08054000",
+        "description_en": "Grapefruit and pomelos",
+        "children": [],
+        "semantic_path": "Citrus fruit, fresh or dried > Grapefruit and pomelos"
+      },
+      {
+        "level": 1,
+        "hs_code": "080550",
+        "description_en": "Lemons (Citrus limon, Citrus limonum) and limes (Citrus aurantifolia, Citrus latifolia):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08055010",
+            "description_en": "Lemons (Citrus limon, Citrus limonum)",
+            "children": [],
+            "semantic_path": "Citrus fruit, fresh or dried > Lemons (Citrus limon, Citrus limonum) and limes (Citrus aurantifolia, Citrus latifolia): > Lemons (Citrus limon, Citrus limonum)"
+          },
+          {
+            "level": 2,
+            "hs_code": "08055020",
+            "description_en": "Limes (Citrus aurantifolia, Citrus latifolia)",
+            "children": [],
+            "semantic_path": "Citrus fruit, fresh or dried > Lemons (Citrus limon, Citrus limonum) and limes (Citrus aurantifolia, Citrus latifolia): > Limes (Citrus aurantifolia, Citrus latifolia)"
+          }
+        ],
+        "semantic_path": "Citrus fruit, fresh or dried > Lemons (Citrus limon, Citrus limonum) and limes (Citrus aurantifolia, Citrus latifolia):"
+      },
+      {
+        "level": 1,
+        "hs_code": "08059000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Citrus fruit, fresh or dried > Other"
+      }
+    ],
+    "semantic_path": "Citrus fruit, fresh or dried"
+  },
+  {
+    "level": 0,
+    "hs_code": "0806",
+    "description_en": "Grapes, fresh or dried",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "08061000",
+        "description_en": "Fresh",
+        "children": [],
+        "semantic_path": "Grapes, fresh or dried > Fresh"
+      },
+      {
+        "level": 1,
+        "hs_code": "08062000",
+        "description_en": "Dried",
+        "children": [],
+        "semantic_path": "Grapes, fresh or dried > Dried"
+      }
+    ],
+    "semantic_path": "Grapes, fresh or dried"
+  },
+  {
+    "level": 0,
+    "hs_code": "0807",
+    "description_en": "Melons (including watermelons) and papaws (papayas), fresh",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Melons (including watermelons):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08071100",
+            "description_en": "Watermelons",
+            "children": [],
+            "semantic_path": "Melons (including watermelons) and papaws (papayas), fresh > Melons (including watermelons): > Watermelons"
+          },
+          {
+            "level": 2,
+            "hs_code": "08071900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Melons (including watermelons) and papaws (papayas), fresh > Melons (including watermelons): > Other"
+          }
+        ],
+        "semantic_path": "Melons (including watermelons) and papaws (papayas), fresh > Melons (including watermelons):"
+      },
+      {
+        "level": 1,
+        "hs_code": "08072000",
+        "description_en": "Papaws (papayas)",
+        "children": [],
+        "semantic_path": "Melons (including watermelons) and papaws (papayas), fresh > Papaws (papayas)"
+      }
+    ],
+    "semantic_path": "Melons (including watermelons) and papaws (papayas), fresh"
+  },
+  {
+    "level": 0,
+    "hs_code": "0808",
+    "description_en": "Apples, pears and quinces, fresh",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "08081000",
+        "description_en": "Apples",
+        "children": [],
+        "semantic_path": "Apples, pears and quinces, fresh > Apples"
+      },
+      {
+        "level": 1,
+        "hs_code": "08083000",
+        "description_en": "Pears",
+        "children": [],
+        "semantic_path": "Apples, pears and quinces, fresh > Pears"
+      },
+      {
+        "level": 1,
+        "hs_code": "08084000",
+        "description_en": "Quinces",
+        "children": [],
+        "semantic_path": "Apples, pears and quinces, fresh > Quinces"
+      }
+    ],
+    "semantic_path": "Apples, pears and quinces, fresh"
+  },
+  {
+    "level": 0,
+    "hs_code": "0809",
+    "description_en": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "08091000",
+        "description_en": "Apricots",
+        "children": [],
+        "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh > Apricots"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Cherries:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08092100",
+            "description_en": "Sour cherries (Prunus cerasus)",
+            "children": [],
+            "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh > Cherries: > Sour cherries (Prunus cerasus)"
+          },
+          {
+            "level": 2,
+            "hs_code": "08092900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh > Cherries: > Other"
+          }
+        ],
+        "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh > Cherries:"
+      },
+      {
+        "level": 1,
+        "hs_code": "08093000",
+        "description_en": "Peaches, including nectarines",
+        "children": [],
+        "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh > Peaches, including nectarines"
+      },
+      {
+        "level": 1,
+        "hs_code": "080940",
+        "description_en": "Plums and sloes:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08094010",
+            "description_en": "Plums",
+            "children": [],
+            "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh > Plums and sloes: > Plums"
+          },
+          {
+            "level": 2,
+            "hs_code": "08094020",
+            "description_en": "Sloes",
+            "children": [],
+            "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh > Plums and sloes: > Sloes"
+          }
+        ],
+        "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh > Plums and sloes:"
+      }
+    ],
+    "semantic_path": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh"
+  },
+  {
+    "level": 0,
+    "hs_code": "0810",
+    "description_en": "Other fruit, fresh",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "08101000",
+        "description_en": "Strawberries",
+        "children": [],
+        "semantic_path": "Other fruit, fresh > Strawberries"
+      },
+      {
+        "level": 1,
+        "hs_code": "08102000",
+        "description_en": "Raspberries, blackberries, mulberries and loganberries",
+        "children": [],
+        "semantic_path": "Other fruit, fresh > Raspberries, blackberries, mulberries and loganberries"
+      },
+      {
+        "level": 1,
+        "hs_code": "08103000",
+        "description_en": "Black, white or red currants and gooseberries",
+        "children": [],
+        "semantic_path": "Other fruit, fresh > Black, white or red currants and gooseberries"
+      },
+      {
+        "level": 1,
+        "hs_code": "08104000",
+        "description_en": "Cranberries, bilberries and other fruits of the genus Vaccinium",
+        "children": [],
+        "semantic_path": "Other fruit, fresh > Cranberries, bilberries and other fruits of the genus Vaccinium"
+      },
+      {
+        "level": 1,
+        "hs_code": "08105000",
+        "description_en": "Kiwifruit",
+        "children": [],
+        "semantic_path": "Other fruit, fresh > Kiwifruit"
+      },
+      {
+        "level": 1,
+        "hs_code": "08106000",
+        "description_en": "Durians",
+        "children": [],
+        "semantic_path": "Other fruit, fresh > Durians"
+      },
+      {
+        "level": 1,
+        "hs_code": "08107000",
+        "description_en": "Persimmons",
+        "children": [],
+        "semantic_path": "Other fruit, fresh > Persimmons"
+      },
+      {
+        "level": 1,
+        "hs_code": "081090",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08109010",
+            "description_en": "Longans; Mata Kucing",
+            "children": [],
+            "semantic_path": "Other fruit, fresh > Other: > Longans; Mata Kucing"
+          },
+          {
+            "level": 2,
+            "hs_code": "08109020",
+            "description_en": "Lychees",
+            "children": [],
+            "semantic_path": "Other fruit, fresh > Other: > Lychees"
+          },
+          {
+            "level": 2,
+            "hs_code": "08109030",
+            "description_en": "Rambutan",
+            "children": [],
+            "semantic_path": "Other fruit, fresh > Other: > Rambutan"
+          },
+          {
+            "level": 2,
+            "hs_code": "08109040",
+            "description_en": "Langsat (Lanzones)",
+            "children": [],
+            "semantic_path": "Other fruit, fresh > Other: > Langsat (Lanzones)"
+          },
+          {
+            "level": 2,
+            "hs_code": "08109050",
+            "description_en": "Jackfruit (including Cempedak and Nangka)",
+            "children": [],
+            "semantic_path": "Other fruit, fresh > Other: > Jackfruit (including Cempedak and Nangka)"
+          },
+          {
+            "level": 2,
+            "hs_code": "08109060",
+            "description_en": "Tamarinds",
+            "children": [],
+            "semantic_path": "Other fruit, fresh > Other: > Tamarinds"
+          },
+          {
+            "level": 2,
+            "hs_code": "08109070",
+            "description_en": "Starfruit",
+            "children": [],
+            "semantic_path": "Other fruit, fresh > Other: > Starfruit"
+          },
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_7",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "08109091",
+                "description_en": "Salacca (snake fruit)",
+                "children": [],
+                "semantic_path": "Other fruit, fresh > Other: > Other: > Salacca (snake fruit)"
+              },
+              {
+                "level": 3,
+                "hs_code": "08109092",
+                "description_en": "Dragon fruit",
+                "children": [],
+                "semantic_path": "Other fruit, fresh > Other: > Other: > Dragon fruit"
+              },
+              {
+                "level": 3,
+                "hs_code": "08109093",
+                "description_en": "Sapodilla (ciku fruit)",
+                "children": [],
+                "semantic_path": "Other fruit, fresh > Other: > Other: > Sapodilla (ciku fruit)"
+              },
+              {
+                "level": 3,
+                "hs_code": "08109094",
+                "description_en": "Pomegranate (Punica spp.), soursop or sweetsops (Annona spp.), bell fruit (Syzygium spp., Eugenia spp.), marian plum (Bouea spp.), passion fruit (Passiflora spp.), cottonfruit (Sandoricum spp.), jujube (Ziziphus spp.) and tampoi or rambai (Baccaurea spp.)",
+                "children": [],
+                "semantic_path": "Other fruit, fresh > Other: > Other: > Pomegranate (Punica spp.), soursop or sweetsops (Annona spp.), bell fruit (Syzygium spp., Eugenia spp.), marian plum (Bouea spp.), passion fruit (Passiflora spp.), cottonfruit (Sandoricum spp.), jujube (Ziziphus spp.) and tampoi or rambai (Baccaurea spp.)"
+              },
+              {
+                "level": 3,
+                "hs_code": "08109099",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Other fruit, fresh > Other: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Other fruit, fresh > Other: > Other:"
+          }
+        ],
+        "semantic_path": "Other fruit, fresh > Other:"
+      }
+    ],
+    "semantic_path": "Other fruit, fresh"
+  },
+  {
+    "level": 0,
+    "hs_code": "0811",
+    "description_en": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "08111000",
+        "description_en": "Strawberries",
+        "children": [],
+        "semantic_path": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter > Strawberries"
+      },
+      {
+        "level": 1,
+        "hs_code": "08112000",
+        "description_en": "Raspberries, blackberries, mulberries, loganberries, black, white or red currants and gooseberries",
+        "children": [],
+        "semantic_path": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter > Raspberries, blackberries, mulberries, loganberries, black, white or red currants and gooseberries"
+      },
+      {
+        "level": 1,
+        "hs_code": "08119000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter > Other"
+      }
+    ],
+    "semantic_path": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter"
+  },
+  {
+    "level": 0,
+    "hs_code": "0812",
+    "description_en": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "08121000",
+        "description_en": "Cherries",
+        "children": [],
+        "semantic_path": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption > Cherries"
+      },
+      {
+        "level": 1,
+        "hs_code": "081290",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08129010",
+            "description_en": "Strawberries",
+            "children": [],
+            "semantic_path": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption > Other: > Strawberries"
+          },
+          {
+            "level": 2,
+            "hs_code": "08129090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption > Other: > Other"
+          }
+        ],
+        "semantic_path": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption > Other:"
+      }
+    ],
+    "semantic_path": "Fruit and nuts provisionally preserved, but unsuitable in that state for immediate consumption"
+  },
+  {
+    "level": 0,
+    "hs_code": "0813",
+    "description_en": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "08131000",
+        "description_en": "Apricots",
+        "children": [],
+        "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Apricots"
+      },
+      {
+        "level": 1,
+        "hs_code": "08132000",
+        "description_en": "Prunes",
+        "children": [],
+        "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Prunes"
+      },
+      {
+        "level": 1,
+        "hs_code": "08133000",
+        "description_en": "Apples",
+        "children": [],
+        "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Apples"
+      },
+      {
+        "level": 1,
+        "hs_code": "081340",
+        "description_en": "Other fruit:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08134010",
+            "description_en": "Longans",
+            "children": [],
+            "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Other fruit: > Longans"
+          },
+          {
+            "level": 2,
+            "hs_code": "08134020",
+            "description_en": "Tamarinds",
+            "children": [],
+            "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Other fruit: > Tamarinds"
+          },
+          {
+            "level": 2,
+            "hs_code": "08134090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Other fruit: > Other"
+          }
+        ],
+        "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Other fruit:"
+      },
+      {
+        "level": 1,
+        "hs_code": "081350",
+        "description_en": "Mixtures of nuts or dried fruits of this Chapter:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "08135010",
+            "description_en": "Of which cashew nuts or Brazil nuts predominate by weight",
+            "children": [],
+            "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Mixtures of nuts or dried fruits of this Chapter: > Of which cashew nuts or Brazil nuts predominate by weight"
+          },
+          {
+            "level": 2,
+            "hs_code": "08135020",
+            "description_en": "Of which other nuts predominate by weight",
+            "children": [],
+            "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Mixtures of nuts or dried fruits of this Chapter: > Of which other nuts predominate by weight"
+          },
+          {
+            "level": 2,
+            "hs_code": "08135030",
+            "description_en": "Of which dates predominate by weight",
+            "children": [],
+            "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Mixtures of nuts or dried fruits of this Chapter: > Of which dates predominate by weight"
+          },
+          {
+            "level": 2,
+            "hs_code": "08135040",
+            "description_en": "Of which avocados or oranges or mandarins (including tangerines and satsumas) predominate by weight",
+            "children": [],
+            "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Mixtures of nuts or dried fruits of this Chapter: > Of which avocados or oranges or mandarins (including tangerines and satsumas) predominate by weight"
+          },
+          {
+            "level": 2,
+            "hs_code": "08135090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Mixtures of nuts or dried fruits of this Chapter: > Other"
+          }
+        ],
+        "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter > Mixtures of nuts or dried fruits of this Chapter:"
+      }
+    ],
+    "semantic_path": "Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter"
+  },
+  {
+    "level": 0,
+    "hs_code": "08140000",
+    "description_en": "Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions",
+    "children": [],
+    "semantic_path": "Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions"
+  }
+]

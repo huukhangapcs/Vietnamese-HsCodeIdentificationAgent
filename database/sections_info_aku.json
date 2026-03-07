@@ -1,0 +1,1073 @@
+{
+    "SECTION_I": {
+        "title": "SECTION I: LIVE ANIMALS; ANIMAL PRODUCTS",
+        "short_title": "SECTION I: LIVE ANIMALS; ANIMAL PRODUCTS",
+        "raw_notes": "1. Any reference in this Section to a particular genus or species of an animal, except where the context otherwise requires, includes a reference to the young of that genus or species.\n2. Except where the context otherwise requires, throughout the Nomenclature any reference to “dried” products also covers products which have been dehydrated, evaporated or freeze-dried.",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [
+                {
+                    "term": "particular genus or species of an animal",
+                    "meaning": "Includes a reference to the young of that genus or species, except where the context otherwise requires."
+                },
+                {
+                    "term": "dried",
+                    "meaning": "Covers products which have been dehydrated, evaporated or freeze-dried, except where the context otherwise requires."
+                }
+            ],
+            "classification_rules": []
+        }
+    },
+    "SECTION_II": {
+        "title": "SECTION II: VEGETABLE PRODUCTS",
+        "short_title": "SECTION II: VEGETABLE PRODUCTS",
+        "raw_notes": "1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [
+                {
+                    "term": "pellets",
+                    "meaning": "products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight"
+                }
+            ],
+            "classification_rules": []
+        }
+    },
+    "SECTION_III": {
+        "title": "SECTION III: ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES",
+        "short_title": "SECTION III: FATS, OILS AND THEIR PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_IV": {
+        "title": "SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY",
+        "short_title": "SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND NICOTINE PRODUCTS",
+        "raw_notes": "1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [
+                {
+                    "term": "pellets",
+                    "meaning": "products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight"
+                }
+            ],
+            "classification_rules": []
+        }
+    },
+    "SECTION_V": {
+        "title": "SECTION V: MINERAL PRODUCTS",
+        "short_title": "SECTION V: MINERAL PRODUCTS",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_VI": {
+        "title": "SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+        "short_title": "SECTION VI: PRODUCTS OF THE CHEMICAL INDUSTRIES",
+        "raw_notes": "1. (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.\n(B) Subject to paragraph (A) above, goods answering to a description in heading 28.43, 28.46 or 28.52 are to be classified in those headings and in no other heading of this Section.\n2. Subject to Note 1 above, goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale are to be classified in those headings and in no other heading of the Nomenclature.\n3. Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:\n(a) having regard to the manner in which they are put up, clearly identifiable as being intended to be used together without first being repacked;\n(b) presented together; and\n(c) identifiable, whether by their nature or by the relative proportions in which they are present, as being complementary one to another.\n4. Where a product answers to a description in one or more of the headings in Section VI by virtue of being described by name or function and also to heading 38.27, then it is classifiable in a heading that references the product by name or function and not under heading 38.27.",
+        "structured_notes": {
+            "exclusions": [
+                {
+                    "condition": "Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45",
+                    "action": "Classified in those headings and in no other heading of the Nomenclature",
+                    "keywords": [
+                        "28.44",
+                        "28.45",
+                        "radioactive ores"
+                    ]
+                },
+                {
+                    "condition": "Goods answering to a description in heading 28.43, 28.46 or 28.52 (subject to the above exclusion for 28.44/28.45)",
+                    "action": "Classified in those headings and in no other heading of this Section",
+                    "keywords": [
+                        "28.43",
+                        "28.46",
+                        "28.52"
+                    ]
+                },
+                {
+                    "condition": "Goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale",
+                    "action": "Classified in those headings and in no other heading of the Nomenclature",
+                    "keywords": [
+                        "measured doses",
+                        "retail sale",
+                        "30.04",
+                        "30.05",
+                        "30.06",
+                        "32.12",
+                        "33.03",
+                        "33.04",
+                        "33.05",
+                        "33.06",
+                        "33.07",
+                        "35.06",
+                        "37.07",
+                        "38.08"
+                    ]
+                },
+                {
+                    "condition": "Product answers to a description in one or more headings in Section VI by name or function and also to heading 38.27",
+                    "action": "Classified in a heading that references the product by name or function and not under heading 38.27",
+                    "keywords": [
+                        "Section VI",
+                        "38.27",
+                        "by name or function"
+                    ]
+                }
+            ],
+            "definitions": [],
+            "classification_rules": [
+                {
+                    "rule": "Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided the constituents are: (a) clearly identifiable as being intended to be used together without first being repacked; (b) presented together; and (c) identifiable as being complementary one to another by their nature or relative proportions."
+                }
+            ]
+        }
+    },
+    "SECTION_VII": {
+        "title": "SECTION VII: PLASTICS AND ARTICLES THEREOF; RUBBER AND ARTICLES THEREOF",
+        "short_title": "SECTION VII: PLASTICS, RUBBER AND ARTICLES THEREOF",
+        "raw_notes": "1. Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:\n(a) having regard to the manner in which they are put up, clearly identifiable as being intended to be used together without first being repacked;\n(b) presented together; and\n(c) identifiable, whether by their nature or by the relative proportions in which they are present, as being complementary one to another.\n2. Except for the goods of heading 39.18 or 39.19, plastics, rubber, and articles thereof, printed with motifs, characters or pictorial representations, which are not merely subsidiary to the primary use of the goods, fall in Chapter 49.",
+        "structured_notes": {
+            "exclusions": [
+                {
+                    "condition": "Plastics, rubber, and articles thereof, printed with motifs, characters or pictorial representations, which are not merely subsidiary to the primary use of the goods",
+                    "action": "Fall in Chapter 49",
+                    "keywords": [
+                        "printed",
+                        "motifs",
+                        "characters",
+                        "pictorial representations",
+                        "not merely subsidiary"
+                    ]
+                }
+            ],
+            "definitions": [],
+            "classification_rules": [
+                {
+                    "rule": "Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are: (a) clearly identifiable as being intended to be used together without first being repacked; (b) presented together; and (c) identifiable, whether by their nature or by the relative proportions, as being complementary one to another."
+                }
+            ]
+        }
+    },
+    "SECTION_VIII": {
+        "title": "SECTION VIII: RAW HIDES AND SKINS, LEATHER, FURSKINS AND ARTICLES THEREOF; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILK-WORM GUT)",
+        "short_title": "SECTION VIII: HIDES, SKINS, LEATHER, FURSKINS AND ARTICLES THEREOF; SADDLERY; TRAVEL GOODS, BAGS; ARTICLES OF ANIMAL GUT",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_IX": {
+        "title": "SECTION IX: WOOD AND ARTICLES OF WOOD; WOOD CHARCOAL; CORK AND ARTICLES OF CORK; MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK",
+        "short_title": "SECTION IX: WOOD, CORK, ARTICLES OF WOOD AND CORK, AND PRODUCTS OF PLAITING MATERIALS",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_X": {
+        "title": "SECTION X: PULP OF WOOD OR OF OTHER FIBROUS CELLULOSIC MATERIAL; RECOVERED (WASTE AND SCRAP) PAPER OR PAPERBOARD; PAPER AND PAPERBOARD AND ARTICLES THEREOF",
+        "short_title": "SECTION X: PULP, PAPER, PAPERBOARD AND ARTICLES THEREOF",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_XI": {
+        "title": "SECTION XI: TEXTILES AND TEXTILE ARTICLES",
+        "short_title": "SECTION XI: TEXTILES AND TEXTILE ARTICLES",
+        "raw_notes": "1. This Section does not cover:\n(a) Animal brush making bristles or hair (heading 05.02); horsehair or horsehair waste (heading 05.11);\n(b) Human hair or articles of human hair (heading 05.01, 67.03 or 67.04), except filtering or straining cloth of a kind commonly used in oil presses or the like (heading 59.11);\n(c) Cotton linters or other vegetable materials of Chapter 14;\n(d) Asbestos of heading 25.24 or articles of asbestos or other products of heading 68.12 or 68.13;\n(e) Articles of heading 30.05 or 30.06; yarn used to clean between the teeth (dental floss), in individual retail packages, of heading 33.06;\n(f) Sensitised textiles of headings 37.01 to 37.04;\n(g) Monofilament of which any cross-sectional dimension exceeds 1 mm or strip or the like (for example, artificial straw) of an apparent width exceeding 5 mm, of plastics (Chapter 39), or plaits or fabrics or other basketware or wickerwork of such monofilament or strip (Chapter 46);\n(h) Woven, knitted or crocheted fabrics, felt or nonwovens, impregnated, coated, covered or laminated with plastics, or articles thereof, of Chapter 39;\n(ij) Woven, knitted or crocheted fabrics, felt or nonwovens, impregnated, coated, covered or laminated with rubber, or articles thereof, of Chapter 40;\n(k) Hides or skins with their hair or wool on (Chapter 41 or 43) or articles of furskin, artificial fur or articles thereof, of heading 43.03 or 43.04;\n(l) Articles of textile materials of heading 42.01 or 42.02;\n(m) Products or articles of Chapter 48 (for example, cellulose wadding);\n(n) Footwear or parts of footwear, gaiters or leggings or similar articles of Chapter 64;\n(o) Hair-nets or other headgear or parts thereof of Chapter 65;\n(p) Goods of Chapter 67;\n(q) Abrasive-coated textile material (heading 68.05) and also carbon fibres or articles of carbon fibres of heading 68.15;\n(r) Glass fibres or articles of glass fibres, other than embroidery with glass thread on a visible ground of fabric (Chapter 70);\n(s) Articles of Chapter 94 (for example, furniture, bedding, luminaires and lighting fittings);\n(t) Articles of Chapter 95 (for example, toys, games, sports requisites and nets);\n(u) Articles of Chapter 96 (for example, brushes, travel sets for sewing, slide fasteners, typewriter ribbons, sanitary towels (pads) and tampons, napkins (diapers) and napkin liners); or\n(v) Articles of Chapter 97.\n2. (A) Goods classifiable in Chapters 50 to 55 or in heading 58.09 or 59.02 and of a mixture of two or more textile materials are to be classified as if consisting wholly of that one textile material which predominates by weight over any other single textile material.\nWhen no one textile material predominates by weight, the goods are to be classified as if consisting wholly of that one textile material which is covered by the heading which occurs last in numerical order among those which equally merit consideration.\n(B) For the purposes of the above rule:\n(a) Gimped horsehair yarn (heading 51.10) and metallised yarn (heading 56.05) are to be treated as a single textile material the weight of which is to be taken as the aggregate of the weights of its components; for the classification of woven fabrics, metal thread is to be regarded as a textile material;\n(b) The choice of appropriate heading shall be effected by determining first the Chapter and then the applicable heading within that Chapter, disregarding any materials not classified in that Chapter;\n(c) When both Chapters 54 and 55 are involved with any other Chapter, Chapters 54 and 55 are to be treated as a single Chapter;\n(d) Where a Chapter or a heading refers to goods of different textile materials, such materials are to be treated as a single textile material.\n(C) The provisions of paragraphs (A) and (B) above apply also to the yarns referred to in Note 3, 4, 5 or 6 below.\n3. (A) For the purposes of this Section, and subject to the exceptions in paragraph (B) below, yarns (single, multiple (folded) or cabled) of the following descriptions are to be treated as “twine, cordage, ropes and cables”:\n(a) Of silk or waste silk, measuring more than 20,000 decitex;\n(b) Of man-made fibres (including yarn of two or more monofilaments of Chapter 54), measuring more than 10,000 decitex;\n(c) Of true hemp or flax:\n(i) Polished or glazed, measuring 1,429 decitex or more; or\n(ii) Not polished or glazed, measuring more than 20,000 decitex;\n(d) Of coir, consisting of three or more plies;\n(e) Of other vegetable fibres, measuring more than 20,000 decitex; or\n(f) Reinforced with metal thread.\n(B) Exceptions:\n(a) Yarn of wool or other animal hair and paper yarn, other than yarn reinforced with metal thread;\n(b) Man-made filament tow of Chapter 55 and multifilament yarn without twist or with a twist of less than 5 turns per metre of Chapter 54;\n(c) Silk worm gut of heading 50.06, and monofilaments of Chapter 54;\n(d) Metallised yarn of heading 56.05; yarn reinforced with metal thread is subject to paragraph (A) (f) above; and\n(e) Chenille yarn, gimped yarn and loop wale-yarn of heading 56.06.\n4. (A) For the purposes of Chapters 50, 51, 52, 54 and 55, the expression “put up for retail sale” in relation to yarn means, subject to the exceptions in paragraph (B) below, yarn (single, multiple (folded) or cabled) put up:\n(a) On cards, reels, tubes or similar supports, of a weight (including support) not exceeding:\n(i) 85 g in the case of silk, waste silk or man-made filament yarn; or\n(ii) 125 g in other cases;\n(b) In balls, hanks or skeins of a weight not exceeding:\n(i) 85 g in the case of man-made filament yarn of less than 3,000 decitex, silk or silk waste;\n(ii) 125 g in the case of all other yarns of less than 2,000 decitex; or\n(iii) 500 g in other cases;\n(c) In hanks or skeins comprising several smaller hanks or skeins separated by dividing threads which render them independent one of the other, each of uniform weight not exceeding:\n(i) 85 g in the case of silk, waste silk or man-made filament yarn; or\n(ii) 125 g in other cases.\n(B) Exceptions:\n(a) Single yarn of any textile material, except:\n(i) Single yarn of wool or fine animal hair, unbleached; and\n(ii) Single yarn of wool or fine animal hair, bleached, dyed or printed, measuring more than 5,000 decitex;\n(b) Multiple (folded) or cabled yarn, unbleached:\n(i) Of silk or waste silk, however put up; or\n(ii) Of other textile material except wool or fine animal hair, in hanks or skeins;\n(c) Multiple (folded) or cabled yarn of silk or waste silk, bleached, dyed or printed, measuring 133 decitex or less; and\n(d) Single, multiple (folded) or cabled yarn of any textile material:\n(i) In cross-reeled hanks or skeins; or\n(ii) Put up on supports or in some other manner indicating its use in the textile industry (for example, on cops, twisting mill tubes, pirns, conical bobbins or spindles, or reeled in the form of cocoons for embroidery looms).\n5. For the purposes of headings 52.04, 54.01 and 55.08, the expression “sewing thread” means multiple (folded) or cabled yarn:\n(a) Put up on supports (for example, reels, tubes) of a weight (including support) not exceeding 1,000 g;\n(b) Dressed for use as sewing thread; and\n(c) With a final “Z” twist.\n6. For the purposes of this Section, the expression “high tenacity yarn” means yarn having a tenacity, expressed in cN/tex (centinewtons per tex), greater than the following:\nSingle yarn of nylon or other polyamides, or of polyesters....... ................................. 60 cN/tex\nMultiple (folded) or cabled yarn of nylon or other polyamides, or of polyesters................................................ ...................... 53 cN/tex\nSingle, multiple (folded) or cabled yarn of viscose rayon .................................. 27 cN/tex.\n7. For the purposes of this Section, the expression “made up” means:\n(a) Cut otherwise than into squares or rectangles;\n(b) Produced in the finished state, ready for use (or merely needing separation by cutting dividing threads) without sewing or other working (for example, certain dusters, towels, table cloths, scarf squares, blankets);\n(c) Cut to size and with at least one heat-sealed edge with a visibly tapered or compressed border and the other edges treated as described in any other subparagraph of this Note, but excluding fabrics the cut edges of which have been prevented from unravelling by hot cutting or by other simple means;\n(d) Hemmed or with rolled edges, or with a knotted fringe at any of the edges, but excluding fabrics the cut edges of which have been prevented from unravelling by whipping or by other simple means;\n(e) Cut to size and having undergone a process of drawn thread work;\n(f) Assembled by sewing, gumming or otherwise (other than piece goods consisting of two or more lengths of identical material joined end to end and piece goods composed of two or more textiles assembled in layers, whether or not padded);\n(g) Knitted or crocheted to shape, whether presented as separate items or in the form of a number of items in the length.\n8. For the purposes of Chapters 50 to 60:\n(a) Chapters 50 to 55 and 60 and, except where the context otherwise requires, Chapters 56 to 59 do not apply to goods made up within the meaning of Note 7 above; and\n(b) Chapters 50 to 55 and 60 do not apply to goods of Chapters 56 to 59.\n9. The woven fabrics of Chapters 50 to 55 include fabrics consisting of layers of parallel textile yarns superimposed on each other at acute or right angles. These layers are bonded at the intersections of the yarns by an adhesive or by thermal bonding.\n10. Elastic products consisting of textile materials combined with rubber threads are classified in this Section.\n11. For the purposes of this Section, the expression “impregnated” includes “dipped”.\n12. For the purposes of this Section, the expression “polyamides” includes “aramids”.\n13. For the purposes of this Section and, where applicable, throughout the Nomenclature, the expression \"elastomeric yarn\" means filament yarn, including monofilament, of synthetic textile material, other than textured yarn, which does not break on being extended to three times its original length and which returns, after being extended to twice its original length, within a period of five minutes, to a length not greater than one and a half times its original length.\n14. Unless the context otherwise requires, textile garments of different headings are to be classified in their own headings even if put up in sets for retail sale. For the purposes of this Note, the expression “textile garments” means garments of headings 61.01 to 61.14 and headings 62.01 to 62.11.\n15. Subject to Note 1 to Section XI, textiles, garments and other textile articles, incorporating chemical, mechanical or electronic components for additional functionality, whether incorporated as built-in components or within the fibre or fabric, are classified in their respective headings in Section XI provided that they retain the essential character of the goods of this Section.\nSubheading Notes\n1. In this Section and, where applicable, throughout the Nomenclature, the following expressions have the meanings hereby assigned to them:\n(a) Unbleached yarn\nYarn which:\n(i) has the natural colour of its constituent fibres and has not been bleached, dyed (whether or not in the mass) or printed; or\n(ii) is of indeterminate colour (“grey yarn”), manufactured from garneted stock.\nSuch yarn may have been treated with a colourless dressing or fugitive dye (which disappears after simple washing with soap) and, in the case of man-made fibres, treated in the mass with delustring agents (for example, titanium dioxide).\n(b) Bleached yarn\nYarn which:\n(i) has undergone a bleaching process, is made of bleached fibres or, unless the context otherwise requires, has been dyed white (whether or not in the mass) or treated with a white dressing;\n(ii) consists of a mixture of unbleached and bleached fibres; or\n(iii) is multiple (folded) or cabled and consists of unbleached and bleached yarns.\n(c) Coloured (dyed or printed) yarn\nYarn which:\n(i) is dyed (whether or not in the mass) other than white or in a fugitive colour, or printed, or made from dyed or printed fibres;\n(ii) consists of a mixture of dyed fibres of different colours or of a mixture of unbleached or bleached fibres with coloured fibres (marl or mixture yarns), or is printed in one or more colours at intervals to give the impression of dots;\n(iii) is obtained from slivers or rovings which have been printed; or\n(iv) is multiple (folded) or cabled and consists of unbleached or bleached yarn and coloured yarn.\nThe above definitions also apply, mutatis mutandis, to monofilament and to strip or the like of Chapter 54.\n(d) Unbleached woven fabric\nWoven fabric made from unbleached yarn and which has not been bleached, dyed or printed. Such fabric may have been treated with a colourless dressing or a fugitive dye.\n(e) Bleached woven fabric\nWoven fabric which:\n(i) has been bleached or, unless the context otherwise requires, dyed white or treated with a white dressing, in the piece;\n(ii) consists of bleached yarn; or\n(iii) consists of unbleached and bleached yarn.\n(f) Dyed woven fabric\nWoven fabric which:\n(i) is dyed a single uniform colour other than white (unless the context otherwise requires) or has been treated with a coloured finish other than white (unless the context otherwise requires), in the piece; or\n(ii) consists of coloured yarn of a single uniform colour.\n(g) Woven fabric of yarns of different colours\nWoven fabric (other than printed woven fabric) which:\n(i) consists of yarns of different colours or yarns of different shades of the same colour (other than the natural colour of the constituent fibres);\n(ii) consists of unbleached or bleached yarn and coloured yarn; or\n(iii) consists of marl or mixture yarns.\n(In all cases, the yarn used in selvedges and piece ends is not taken into consideration.)\n(h) Printed woven fabric\nWoven fabric which has been printed in the piece, whether or not made from yarns of different colours.\n(The following are also regarded as printed woven fabrics: woven fabrics bearing designs made, for example, with a brush or spray gun, by means of transfer paper, by flocking or by the batik process.)\nThe process of mercerisation does not affect the classification of yarns or fabrics within the above categories.\nThe definitions at (d) to (h) above apply, mutatis mutandis, to knitted or crocheted fabrics.\n(ij) Plain weave\nA fabric construction in which each yarn of the weft passes alternately over and under successive yarns of the warp and each yarn of the warp passes alternately over and under successive yarns of the weft.\n2. (A) Products of Chapters 56 to 63 containing two or more textile materials are to be regarded as consisting wholly of that textile material which would be selected under Note 2 to this Section for the classification of a product of Chapters 50 to 55 or of heading 58.09 consisting of the same textile materials.\n(B) For the application of this rule:\n(a) where appropriate, only the part which determines the classification under Interpretative Rule 3 shall be taken into account;\n(b) in the case of textile products consisting of a ground fabric and a pile or looped surface no account shall be taken of the ground fabric;\n(c) in the case of embroidery of heading 58.10 and goods thereof, only the ground fabric shall be taken into account. However, embroidery without visible ground, and goods thereof, shall be classified with reference to the embroidering threads alone.",
+        "structured_notes": {
+            "exclusions": [
+                {
+                    "condition": "Animal brush making bristles or hair",
+                    "action": "Classified in heading 05.02",
+                    "keywords": [
+                        "animal",
+                        "brush",
+                        "bristles",
+                        "hair",
+                        "05.02"
+                    ]
+                },
+                {
+                    "condition": "Horsehair or horsehair waste",
+                    "action": "Classified in heading 05.11",
+                    "keywords": [
+                        "horsehair",
+                        "waste",
+                        "05.11"
+                    ]
+                },
+                {
+                    "condition": "Human hair or articles of human hair (except filtering/straining cloth for oil presses)",
+                    "action": "Classified in heading 05.01, 67.03 or 67.04",
+                    "keywords": [
+                        "human hair",
+                        "05.01",
+                        "67.03",
+                        "67.04"
+                    ]
+                },
+                {
+                    "condition": "Filtering or straining cloth of a kind commonly used in oil presses or the like",
+                    "action": "Classified in heading 59.11 (i.e., remains in Section XI)",
+                    "keywords": [
+                        "filtering cloth",
+                        "straining cloth",
+                        "oil presses",
+                        "59.11"
+                    ]
+                },
+                {
+                    "condition": "Cotton linters or other vegetable materials",
+                    "action": "Classified in Chapter 14",
+                    "keywords": [
+                        "cotton linters",
+                        "vegetable materials",
+                        "Chapter 14"
+                    ]
+                },
+                {
+                    "condition": "Asbestos (heading 25.24) or articles of asbestos/products of heading 68.12 or 68.13",
+                    "action": "Classified in heading 25.24, 68.12 or 68.13",
+                    "keywords": [
+                        "asbestos",
+                        "25.24",
+                        "68.12",
+                        "68.13"
+                    ]
+                },
+                {
+                    "condition": "Articles of heading 30.05 or 30.06",
+                    "action": "Classified in heading 30.05 or 30.06",
+                    "keywords": [
+                        "30.05",
+                        "30.06"
+                    ]
+                },
+                {
+                    "condition": "Yarn used to clean between teeth (dental floss) in individual retail packages",
+                    "action": "Classified in heading 33.06",
+                    "keywords": [
+                        "dental floss",
+                        "33.06"
+                    ]
+                },
+                {
+                    "condition": "Sensitised textiles",
+                    "action": "Classified in headings 37.01 to 37.04",
+                    "keywords": [
+                        "sensitised textiles",
+                        "37.01",
+                        "37.02",
+                        "37.03",
+                        "37.04"
+                    ]
+                },
+                {
+                    "condition": "Monofilament (cross-section >1mm) or strip (apparent width >5mm) of plastics, or plaits/fabrics/basketware of such",
+                    "action": "Classified in Chapter 39 or Chapter 46",
+                    "keywords": [
+                        "monofilament",
+                        "strip",
+                        "plastics",
+                        "Chapter 39",
+                        "Chapter 46"
+                    ]
+                },
+                {
+                    "condition": "Woven, knitted, crocheted fabrics, felt or nonwovens, impregnated/coated/covered/laminated with plastics, or articles thereof",
+                    "action": "Classified in Chapter 39",
+                    "keywords": [
+                        "impregnated",
+                        "coated",
+                        "laminated",
+                        "plastics",
+                        "Chapter 39"
+                    ]
+                },
+                {
+                    "condition": "Woven, knitted, crocheted fabrics, felt or nonwovens, impregnated/coated/covered/laminated with rubber, or articles thereof",
+                    "action": "Classified in Chapter 40",
+                    "keywords": [
+                        "impregnated",
+                        "coated",
+                        "laminated",
+                        "rubber",
+                        "Chapter 40"
+                    ]
+                },
+                {
+                    "condition": "Hides or skins with hair/wool on",
+                    "action": "Classified in Chapter 41 or 43",
+                    "keywords": [
+                        "hides",
+                        "skins",
+                        "hair",
+                        "wool",
+                        "Chapter 41",
+                        "Chapter 43"
+                    ]
+                },
+                {
+                    "condition": "Articles of furskin, artificial fur or articles thereof",
+                    "action": "Classified in heading 43.03 or 43.04",
+                    "keywords": [
+                        "furskin",
+                        "artificial fur",
+                        "43.03",
+                        "43.04"
+                    ]
+                },
+                {
+                    "condition": "Articles of textile materials of heading 42.01 or 42.02",
+                    "action": "Classified in heading 42.01 or 42.02",
+                    "keywords": [
+                        "42.01",
+                        "42.02"
+                    ]
+                },
+                {
+                    "condition": "Products or articles of Chapter 48 (e.g., cellulose wadding)",
+                    "action": "Classified in Chapter 48",
+                    "keywords": [
+                        "Chapter 48",
+                        "cellulose wadding"
+                    ]
+                },
+                {
+                    "condition": "Footwear or parts, gaiters, leggings or similar",
+                    "action": "Classified in Chapter 64",
+                    "keywords": [
+                        "footwear",
+                        "gaiters",
+                        "leggings",
+                        "Chapter 64"
+                    ]
+                },
+                {
+                    "condition": "Hair-nets, other headgear or parts",
+                    "action": "Classified in Chapter 65",
+                    "keywords": [
+                        "hair-nets",
+                        "headgear",
+                        "Chapter 65"
+                    ]
+                },
+                {
+                    "condition": "Goods of Chapter 67",
+                    "action": "Classified in Chapter 67",
+                    "keywords": [
+                        "Chapter 67"
+                    ]
+                },
+                {
+                    "condition": "Abrasive-coated textile material",
+                    "action": "Classified in heading 68.05",
+                    "keywords": [
+                        "abrasive-coated",
+                        "68.05"
+                    ]
+                },
+                {
+                    "condition": "Carbon fibres or articles of carbon fibres",
+                    "action": "Classified in heading 68.15",
+                    "keywords": [
+                        "carbon fibres",
+                        "68.15"
+                    ]
+                },
+                {
+                    "condition": "Glass fibres or articles of glass fibres (except embroidery with glass thread on visible fabric ground)",
+                    "action": "Classified in Chapter 70",
+                    "keywords": [
+                        "glass fibres",
+                        "Chapter 70"
+                    ]
+                },
+                {
+                    "condition": "Embroidery with glass thread on a visible ground of fabric",
+                    "action": "Remains in Section XI",
+                    "keywords": [
+                        "embroidery",
+                        "glass thread"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 94 (e.g., furniture, bedding, luminaires)",
+                    "action": "Classified in Chapter 94",
+                    "keywords": [
+                        "furniture",
+                        "bedding",
+                        "luminaires",
+                        "Chapter 94"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 95 (e.g., toys, games, sports requisites, nets)",
+                    "action": "Classified in Chapter 95",
+                    "keywords": [
+                        "toys",
+                        "games",
+                        "sports",
+                        "nets",
+                        "Chapter 95"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 96 (e.g., brushes, travel sewing sets, slide fasteners, typewriter ribbons, sanitary towels, tampons, napkins)",
+                    "action": "Classified in Chapter 96",
+                    "keywords": [
+                        "brushes",
+                        "slide fasteners",
+                        "sanitary towels",
+                        "tampons",
+                        "napkins",
+                        "Chapter 96"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 97",
+                    "action": "Classified in Chapter 97",
+                    "keywords": [
+                        "Chapter 97"
+                    ]
+                }
+            ],
+            "definitions": [
+                {
+                    "term": "put up for retail sale (for yarn in Chapters 50, 51, 52, 54, 55)",
+                    "meaning": "Yarn (single, multiple, cabled) put up: (a) on cards/reels/tubes etc., weight (incl. support) ≤85g for silk/waste silk/man-made filament, ≤125g others; (b) in balls/hanks/skeins weight ≤85g for man-made filament <3000 dtex/silk, ≤125g for other yarns <2000 dtex, ≤500g others; (c) in hanks/skeins with dividing threads, each uniform weight ≤85g for silk/waste silk/man-made filament, ≤125g others. Subject to exceptions in Note 4(B)."
+                },
+                {
+                    "term": "sewing thread (for headings 52.04, 54.01, 55.08)",
+                    "meaning": "Multiple (folded) or cabled yarn: (a) put up on supports (e.g., reels, tubes) weight (incl. support) ≤1000g; (b) dressed for use as sewing thread; (c) with a final 'Z' twist."
+                },
+                {
+                    "term": "high tenacity yarn",
+                    "meaning": "Yarn having tenacity > specified values: Single yarn of nylon/polyamides/polyesters >60 cN/tex; Multiple/cabled yarn of nylon/polyamides/polyesters >53 cN/tex; Single/multiple/cabled yarn of viscose rayon >27 cN/tex."
+                },
+                {
+                    "term": "made up",
+                    "meaning": "Textile products that are: (a) cut otherwise than into squares/rectangles; (b) produced finished, ready for use (or merely needing separation by cutting dividing threads); (c) cut to size with at least one heat-sealed tapered/compressed edge and other edges treated; (d) hemmed, rolled, or knotted fringe edges (excluding simply whipped edges); (e) cut to size with drawn thread work; (f) assembled by sewing/gumming etc. (excluding joined piece goods or layered textiles); (g) knitted/crocheted to shape."
+                },
+                {
+                    "term": "impregnated",
+                    "meaning": "Includes 'dipped'."
+                },
+                {
+                    "term": "polyamides",
+                    "meaning": "Includes 'aramids'."
+                },
+                {
+                    "term": "elastomeric yarn",
+                    "meaning": "Filament yarn (incl. monofilament) of synthetic textile material (other than textured yarn) which does not break on extension to 3x original length and returns, after extension to 2x original length within 5 min, to ≤1.5x original length."
+                },
+                {
+                    "term": "textile garments",
+                    "meaning": "Garments of headings 61.01 to 61.14 and 62.01 to 62.11."
+                },
+                {
+                    "term": "unbleached yarn",
+                    "meaning": "Yarn with natural fibre colour, not bleached/dyed/printed; or indeterminate colour ('grey yarn') from garneted stock. May have colourless dressing/fugitive dye; man-made fibres may have delustring agents."
+                },
+                {
+                    "term": "bleached yarn",
+                    "meaning": "Yarn that: (i) is bleached, made of bleached fibres, dyed white, or treated with white dressing; (ii) is a mixture of unbleached and bleached fibres; (iii) is multiple/cabled and consists of unbleached and bleached yarns."
+                },
+                {
+                    "term": "coloured (dyed or printed) yarn",
+                    "meaning": "Yarn that: (i) is dyed (not white/fugitive) or printed, or made from dyed/printed fibres; (ii) is a mixture of dyed fibres of different colours or unbleached/bleached with coloured fibres (marl/mixture), or printed at intervals; (iii) is from printed slivers/rovings; (iv) is multiple/cabled and consists of unbleached/bleached and coloured yarn."
+                },
+                {
+                    "term": "unbleached woven fabric",
+                    "meaning": "Woven fabric from unbleached yarn, not bleached/dyed/printed. May have colourless dressing/fugitive dye."
+                },
+                {
+                    "term": "bleached woven fabric",
+                    "meaning": "Woven fabric that: (i) is bleached, dyed white, or treated with white dressing in the piece; (ii) consists of bleached yarn; (iii) consists of unbleached and bleached yarn."
+                },
+                {
+                    "term": "dyed woven fabric",
+                    "meaning": "Woven fabric that: (i) is dyed a single uniform colour (not white) or treated with coloured finish (not white) in the piece; (ii) consists of coloured yarn of a single uniform colour."
+                },
+                {
+                    "term": "woven fabric of yarns of different colours",
+                    "meaning": "Woven fabric (not printed) that: (i) consists of yarns of different colours/shades (not natural fibre colour); (ii) consists of unbleached/bleached and coloured yarn; (iii) consists of marl/mixture yarns. (Selvedges/piece ends not considered.)"
+                },
+                {
+                    "term": "printed woven fabric",
+                    "meaning": "Woven fabric printed in the piece, whether or not from yarns of different colours. Includes designs made by brush/spray/transfer paper/flocking/batik."
+                },
+                {
+                    "term": "plain weave",
+                    "meaning": "Fabric construction where each weft yarn passes alternately over/under successive warp yarns and each warp yarn passes alternately over/under successive weft yarns."
+                }
+            ],
+            "classification_rules": [
+                {
+                    "rule": "For goods classifiable in Chapters 50 to 55 or heading 58.09 or 59.02 of a mixture of textile materials: classify as if consisting wholly of the one textile material that predominates by weight. If no single material predominates by weight, classify as if consisting wholly of the material covered by the heading which occurs last in numerical order among those which equally merit consideration."
+                },
+                {
+                    "rule": "For the mixture rule: (a) Gimped horsehair yarn (51.10) and metallised yarn (56.05) are treated as a single textile material (weight = aggregate). For woven fabrics, metal thread is regarded as a textile material. (b) Determine Chapter first, then heading within that Chapter, disregarding materials not in that Chapter. (c) When Chapters 54 and 55 are involved with any other Chapter, treat 54 and 55 as a single Chapter. (d) Where a Chapter/heading refers to goods of different textile materials, treat those materials as a single textile material."
+                },
+                {
+                    "rule": "The mixture rules (Note 2(A) and (B)) also apply to yarns referred to in Notes 3, 4, 5, or 6."
+                },
+                {
+                    "rule": "For purposes of Section XI, certain yarns are treated as 'twine, cordage, ropes and cables' if they meet specified descriptions (e.g., silk >20,000 dtex, man-made fibres >10,000 dtex, true hemp/flax polished/glazed ≥1,429 dtex or not polished/glazed >20,000 dtex, coir of ≥3 plies, other veg fibres >20,000 dtex, or reinforced with metal thread). Exceptions listed in Note 3(B)."
+                },
+                {
+                    "rule": "Chapters 50 to 55 and 60, and (except where context otherwise requires) Chapters 56 to 59, do not apply to goods 'made up' within meaning of Note 7."
+                },
+                {
+                    "rule": "Chapters 50 to 55 and 60 do not apply to goods of Chapters 56 to 59."
+                },
+                {
+                    "rule": "Woven fabrics of Chapters 50 to 55 include fabrics consisting of layers of parallel yarns superimposed at acute/right angles, bonded at intersections by adhesive or thermal bonding."
+                },
+                {
+                    "rule": "Elastic products consisting of textile materials combined with rubber threads are classified in Section XI."
+                },
+                {
+                    "rule": "Unless context otherwise requires, textile garments (headings 61.01-61.14, 62.01-62.11) of different headings are classified in their own headings even if put up in sets for retail sale."
+                },
+                {
+                    "rule": "Subject to Note 1 to Section XI, textiles, garments and other textile articles incorporating chemical/mechanical/electronic components for additional functionality (whether built-in or within fibre/fabric) are classified in their respective headings in Section XI provided they retain the essential character of goods of this Section."
+                },
+                {
+                    "rule": "For products of Chapters 56 to 63 containing two or more textile materials: regard as consisting wholly of that textile material which would be selected under Note 2 for classification of a product of Chapters 50-55 or heading 58.09 consisting of the same textile materials."
+                },
+                {
+                    "rule": "For applying the rule for Chapters 56-63: (a) where appropriate, only the part determining classification under Interpretative Rule 3 is taken into account; (b) for products with ground fabric and pile/looped surface, no account is taken of ground fabric; (c) for embroidery of heading 58.10 and goods thereof, only ground fabric is taken into account (but embroidery without visible ground is classified with reference to embroidering threads alone)."
+                }
+            ]
+        }
+    },
+    "SECTION_XII": {
+        "title": "SECTION XII: FOOTWEAR, HEADGEAR, UMBRELLAS, SUN UMBRELLAS, WALKING- STICKS, SEAT-STICKS, WHIPS, RIDING-CROPS AND PARTS THEREOF; PREPARED FEATHERS AND ARTICLES MADE THEREWITH; ARTIFICIAL FLOWERS; ARTICLES OF HUMAN HAIR",
+        "short_title": "SECTION XII: FOOTWEAR, HEADGEAR, UMBRELLAS, WALKING-STICKS AND PARTS; PREPARED FEATHERS; ARTIFICIAL FLOWERS; ARTICLES OF HUMAN HAIR",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_XIII": {
+        "title": "SECTION XIII: ARTICLES OF STONE, PLASTER, CEMENT, ASBESTOS, MICA OR SIMILAR MATERIALS; CERAMIC PRODUCTS; GLASS AND GLASSWARE",
+        "short_title": "SECTION XIII: ARTICLES OF STONE, PLASTER, CEMENT, SIMILAR MATERIALS; CERAMICS; GLASS AND GLASSWARE",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_XIV": {
+        "title": "SECTION XIV: NATURAL OR CULTURED PEARLS, PRECIOUS OR SEMI-PRECIOUS STONES, PRECIOUS METALS, METALS CLAD WITH PRECIOUS METAL, AND ARTICLES THEREOF; IMITATION JEWELLERY; COIN",
+        "short_title": "SECTION XIV: PEARLS, PRECIOUS STONES AND METALS, AND ARTICLES THEREOF; JEWELLERY; COIN",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_XV": {
+        "title": "SECTION XV: BASE METALS AND ARTICLES OF BASE METAL",
+        "short_title": "SECTION XV: BASE METALS AND ARTICLES",
+        "raw_notes": "1. This Section does not cover:\n(a) Prepared paints, inks or other products with a basis of metallic flakes or powder (headings 32.07 to 32.10, 32.12, 32.13 or 32.15);\n(b) Ferro-cerium or other pyrophoric alloys (heading 36.06);\n(c) Headgear or parts thereof of heading 65.06 or 65.07;\n(d) Umbrella frames or other articles of heading 66.03;\n(e) Goods of Chapter 71 (for example, precious metal alloys, base metal clad with precious metal, imitation jewellery);\n(f) Articles of Section XVI (machinery, mechanical appliances and electrical goods);\n(g) Assembled railway or tramway track (heading 86.08) or other articles of Section XVII (vehicles, ships and boats, aircraft);\n(h) Instruments or apparatus of Section XVIII, including clock or watch springs;\n(ij) Lead shot prepared for ammunition (heading 93.06) or other articles of Section XIX (arms and ammunition);\n(k) Articles of Chapter 94 (for example, furniture, mattress supports, luminaires and lighting fittings, illuminated signs, prefabricated buildings);\n(l) Articles of Chapter 95 (for example, toys, games, sports requisites);\n(m) Hand sieves, buttons, pens, pencil-holders, pen nibs, monopods, bipods, tripods and similar articles or other articles of Chapter 96 (miscellaneous manufactured articles); or\n(n) Articles of Chapter 97 (for example, works of art).\n2. Throughout the Nomenclature, the expression “parts of general use” means:\n(a) Articles of heading 73.07, 73.12, 73.15, 73.17 or 73.18 and similar articles of other base metal, other than articles specially designed for use exclusively in implants in medical, surgical, dental or veterinary sciences (heading 90.21);\n(b) Springs and leaves for springs, of base metal, other than clock or watch springs (heading 91.14); and\n(c) Articles of headings 83.01, 83.02, 83.08, 83.10 and frames and mirrors, of base metal, of heading 83.06.\nIn Chapters 73 to 76 and 78 to 82 (but not in heading 73.15) references to parts of goods do not include references to parts of general use as defined above.\nSubject to the preceding paragraph and to Note 1 to Chapter 83, the articles of Chapter 82 or 83 are excluded from Chapters 72 to 76 and 78 to 81.\n3. Throughout the Nomenclature, the expression “base metals” means: iron and steel, copper, nickel, aluminium, lead, zinc, tin, tungsten (wolfram), molybdenum, tantalum, magnesium, cobalt, bismuth, cadmium, titanium, zirconium, antimony, manganese, beryllium, chromium, germanium, vanadium, gallium, hafnium, indium, niobium (columbium), rhenium and thallium.\n4. Throughout the Nomenclature, the term “cermets” means products containing a microscopic heterogeneous combination of a metallic component and a ceramic component. The term “cermets” includes sintered metal carbides (metalcarbides sintered with a metal).\n5. Classification of alloys (other than ferro-alloys and master alloys as defined in Chapters 72 and 74):\n(a) An alloy of base metals is to be classified as an alloy of the metal which predominates by weight over each of the other metals;\n(b) An alloy composed of base metals of this Section and of elements not falling within this Section is to be treated as an alloy of base metals of this Section if the total weight of such metals equals or exceeds the total weight of the other elements present;\n(c) In this Section the term “alloys” includes sintered mixtures of metal powders, heterogeneous intimate mixtures obtained by melting (other than cermets) and intermetallic compounds.\n6. Unless the context otherwise requires, any reference in the Nomenclature to a base metal includes a reference to alloys which, by virtue of Note 5 above, are to be classified as alloys of that metal.\n7. Classification of composite articles:\nExcept where the headings otherwise require, articles of base metal (including articles of mixed materials treated as articles of base metal under the General Interpretative Rules) containing two or more base metals are to be treated as articles of the base metal predominating by weight over each of the other metals.\nFor this purpose:\n(a) Iron and steel, or different kinds of iron or steel, are regarded as one and the same metal;\n(b) An alloy is regarded as being entirely composed of that metal as an alloy of which, by virtue of Note 5, it is classified; and\n(c) A cermet of heading 81.13 is regarded as a single base metal.\n8. In this Section, the following expressions have the meanings hereby assigned to them:\n(a) Waste and scrap\n(i) All metal waste and scrap;\n(ii) Metal goods definitely not usable as such because of breakage, cutting-up, wear or other reasons.\n(b) Powders\nProducts of which 90% or more by weight passes through a sieve having a mesh aperture of 1 mm.\n9. For the purposes of Chapters 74 to 76 and 78 to 81, the following expressions have the meanings hereby assigned to them:\n(a) Bars and rods\nRolled, extruded, drawn or forged products, not in coils, which have a uniform solid cross-section along their whole length in the shape of circles, ovals, rectangles (including squares), equilateral triangles or regular convex polygons (including “flattened circles” and “modified rectangles”, of which two opposite sides are convex arcs, the other two sides being straight, of equal length and parallel). Products with a rectangular (including square), triangular or polygonal cross-section may have corners rounded along their whole length. The thickness of such products which have a rectangular (including “modified rectangular”) cross-section exceeds one-tenth of the width. The expression also covers cast or sintered products, of the same forms and dimensions, which have been subsequently worked after production (otherwise than by simple trimming or de-scaling), provided that they have not thereby assumed the character of articles or products of other headings.\nWire-bars and billets of Chapter 74 with their ends tapered or otherwise worked simply to facilitate their entry into machines for converting them into, for example, drawing stock (wire-rod) or tubes, are however to be taken to be unwrought copper of heading 74.03. This provision applies mutatis mutandis to the products of Chapter 81.\n(b) Profiles\nRolled, extruded, drawn, forged or formed products, coiled or not, of a uniform cross-section along their whole length, which do not conform to any of the definitions of bars, rods, wire, plates, sheets, strip, foil, tubes or pipes. The expression also covers cast or sintered products, of the same forms, which have been subsequently worked after production (otherwise than by simple trimming or de-scaling), provided that they have not thereby assumed the character of articles or products of other headings.\n(c) Wire\nRolled, extruded or drawn products, in coils, which have a uniform solid cross-section along their whole length in the shape of circles, ovals, rectangles (including squares), equilateral triangles or regular convex polygons (including “flattened circles” and “modified rectangles”, of which two opposite sides are convex arcs, the other two sides being straight, of equal length and parallel). Products with a rectangular (including square), triangular or polygonal cross-section may have corners rounded along their whole length. The thickness of such products which have a rectangular (including “modified rectangular”) cross-section exceeds one-tenth of the width.\n(d) Plates, sheets, strip and foil\nFlat-surfaced products (other than the unwrought products), coiled or not, of solid rectangular (other than square) cross-section with or without rounded corners (including “modified rectangles” of which two opposite sides are convex arcs, the other two sides being straight, of equal length and parallel) of a uniform thickness, which are:\n- of rectangular (including square) shape with a thickness not exceeding one-tenth of the width;\n- of a shape other than rectangular or square, of any size, provided that they do not assume the character of articles or products of other headings.\nHeadings for plates, sheets, strip, and foil apply, inter alia, to plates, sheets, strip, and foil with patterns (for example, grooves, ribs, chequers, tears, buttons, lozenges) and to such products which have been perforated, corrugated, polished or coated, provided that they do not thereby assume the character of articles or products of other headings.\n(e) Tubes and pipes\nHollow products, coiled or not, which have a uniform cross-section with only one enclosed void along their whole length in the shape of circles, ovals, rectangles (including squares), equilateral triangles or regular convex polygons, and which have a uniform wall thickness. Products with a rectangular (including square), equilateral triangular or regular convex polygonal cross-section, which may have corners rounded along their whole length, are also to be considered as tubes and pipes provided the inner and outer cross-sections are concentric and have the same form and orientation. Tubes and pipes of the foregoing cross-sections may be polished, coated, bent, threaded, drilled, waisted, expanded, cone-shaped or fitted with flanges, collars or rings.",
+        "structured_notes": {
+            "exclusions": [
+                {
+                    "condition": "Prepared paints, inks or other products with a basis of metallic flakes or powder",
+                    "action": "Classified in headings 32.07 to 32.10, 32.12, 32.13 or 32.15",
+                    "keywords": [
+                        "paints",
+                        "inks",
+                        "metallic flakes",
+                        "powder"
+                    ]
+                },
+                {
+                    "condition": "Ferro-cerium or other pyrophoric alloys",
+                    "action": "Classified in heading 36.06",
+                    "keywords": [
+                        "ferro-cerium",
+                        "pyrophoric alloys"
+                    ]
+                },
+                {
+                    "condition": "Headgear or parts thereof of heading 65.06 or 65.07",
+                    "action": "Classified in heading 65.06 or 65.07",
+                    "keywords": [
+                        "headgear"
+                    ]
+                },
+                {
+                    "condition": "Umbrella frames or other articles of heading 66.03",
+                    "action": "Classified in heading 66.03",
+                    "keywords": [
+                        "umbrella frames"
+                    ]
+                },
+                {
+                    "condition": "Goods of Chapter 71 (e.g., precious metal alloys, base metal clad with precious metal, imitation jewellery)",
+                    "action": "Classified in Chapter 71",
+                    "keywords": [
+                        "precious metal alloys",
+                        "base metal clad with precious metal",
+                        "imitation jewellery"
+                    ]
+                },
+                {
+                    "condition": "Articles of Section XVI (machinery, mechanical appliances and electrical goods)",
+                    "action": "Classified in Section XVI",
+                    "keywords": [
+                        "machinery",
+                        "mechanical appliances",
+                        "electrical goods"
+                    ]
+                },
+                {
+                    "condition": "Assembled railway or tramway track (heading 86.08) or other articles of Section XVII (vehicles, ships and boats, aircraft)",
+                    "action": "Classified in heading 86.08 or Section XVII",
+                    "keywords": [
+                        "railway track",
+                        "tramway track",
+                        "vehicles",
+                        "ships",
+                        "boats",
+                        "aircraft"
+                    ]
+                },
+                {
+                    "condition": "Instruments or apparatus of Section XVIII, including clock or watch springs",
+                    "action": "Classified in Section XVIII",
+                    "keywords": [
+                        "instruments",
+                        "apparatus",
+                        "clock springs",
+                        "watch springs"
+                    ]
+                },
+                {
+                    "condition": "Lead shot prepared for ammunition (heading 93.06) or other articles of Section XIX (arms and ammunition)",
+                    "action": "Classified in heading 93.06 or Section XIX",
+                    "keywords": [
+                        "lead shot",
+                        "ammunition",
+                        "arms"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 94 (e.g., furniture, mattress supports, luminaires and lighting fittings, illuminated signs, prefabricated buildings)",
+                    "action": "Classified in Chapter 94",
+                    "keywords": [
+                        "furniture",
+                        "mattress supports",
+                        "luminaires",
+                        "lighting fittings",
+                        "illuminated signs",
+                        "prefabricated buildings"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 95 (e.g., toys, games, sports requisites)",
+                    "action": "Classified in Chapter 95",
+                    "keywords": [
+                        "toys",
+                        "games",
+                        "sports requisites"
+                    ]
+                },
+                {
+                    "condition": "Hand sieves, buttons, pens, pencil-holders, pen nibs, monopods, bipods, tripods and similar articles or other articles of Chapter 96 (miscellaneous manufactured articles)",
+                    "action": "Classified in Chapter 96",
+                    "keywords": [
+                        "hand sieves",
+                        "buttons",
+                        "pens",
+                        "pencil-holders",
+                        "pen nibs",
+                        "monopods",
+                        "bipods",
+                        "tripods"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 97 (e.g., works of art)",
+                    "action": "Classified in Chapter 97",
+                    "keywords": [
+                        "works of art"
+                    ]
+                }
+            ],
+            "definitions": [
+                {
+                    "term": "parts of general use",
+                    "meaning": "Articles of heading 73.07, 73.12, 73.15, 73.17 or 73.18 and similar articles of other base metal (excluding articles for medical implants in heading 90.21); springs and leaves for springs, of base metal (excluding clock or watch springs in heading 91.14); articles of headings 83.01, 83.02, 83.08, 83.10 and frames and mirrors, of base metal, of heading 83.06."
+                },
+                {
+                    "term": "base metals",
+                    "meaning": "Iron and steel, copper, nickel, aluminium, lead, zinc, tin, tungsten (wolfram), molybdenum, tantalum, magnesium, cobalt, bismuth, cadmium, titanium, zirconium, antimony, manganese, beryllium, chromium, germanium, vanadium, gallium, hafnium, indium, niobium (columbium), rhenium and thallium."
+                },
+                {
+                    "term": "cermets",
+                    "meaning": "Products containing a microscopic heterogeneous combination of a metallic component and a ceramic component. Includes sintered metal carbides (metal carbides sintered with a metal)."
+                },
+                {
+                    "term": "alloys",
+                    "meaning": "Includes sintered mixtures of metal powders, heterogeneous intimate mixtures obtained by melting (other than cermets) and intermetallic compounds."
+                },
+                {
+                    "term": "waste and scrap",
+                    "meaning": "All metal waste and scrap; metal goods definitely not usable as such because of breakage, cutting-up, wear or other reasons."
+                },
+                {
+                    "term": "powders",
+                    "meaning": "Products of which 90% or more by weight passes through a sieve having a mesh aperture of 1 mm."
+                },
+                {
+                    "term": "bars and rods",
+                    "meaning": "Rolled, extruded, drawn or forged products, not in coils, with a uniform solid cross-section along their whole length in specific shapes (circles, ovals, rectangles, equilateral triangles, regular convex polygons). Thickness of rectangular cross-section exceeds one-tenth of the width. Includes cast or sintered products subsequently worked (not assuming character of other articles)."
+                },
+                {
+                    "term": "profiles",
+                    "meaning": "Rolled, extruded, drawn, forged or formed products, coiled or not, of a uniform cross-section along their whole length, which do not conform to definitions of bars, rods, wire, plates, sheets, strip, foil, tubes or pipes. Includes cast or sintered products subsequently worked (not assuming character of other articles)."
+                },
+                {
+                    "term": "wire",
+                    "meaning": "Rolled, extruded or drawn products, in coils, with a uniform solid cross-section along their whole length in specific shapes (circles, ovals, rectangles, equilateral triangles, regular convex polygons). Thickness of rectangular cross-section exceeds one-tenth of the width."
+                },
+                {
+                    "term": "plates, sheets, strip and foil",
+                    "meaning": "Flat-surfaced products (other than unwrought), coiled or not, of solid rectangular (other than square) cross-section with a uniform thickness. Rectangular shape: thickness not exceeding one-tenth of the width. Other shapes: any size, provided they do not assume character of other articles. Includes patterned, perforated, corrugated, polished or coated products if not assuming character of other articles."
+                },
+                {
+                    "term": "tubes and pipes",
+                    "meaning": "Hollow products, coiled or not, with a uniform cross-section with only one enclosed void along their whole length in specific shapes (circles, ovals, rectangles, equilateral triangles, regular convex polygons), and a uniform wall thickness. Includes products with polished, coated, bent, threaded, drilled, waisted, expanded, cone-shaped or fitted with flanges, collars or rings."
+                }
+            ],
+            "classification_rules": [
+                {
+                    "rule": "In Chapters 73 to 76 and 78 to 82 (but not in heading 73.15), references to parts of goods do not include references to parts of general use."
+                },
+                {
+                    "rule": "Subject to the preceding paragraph and to Note 1 to Chapter 83, the articles of Chapter 82 or 83 are excluded from Chapters 72 to 76 and 78 to 81."
+                },
+                {
+                    "rule": "Classification of alloys (other than ferro-alloys and master alloys as defined in Chapters 72 and 74): (a) An alloy of base metals is classified as an alloy of the metal which predominates by weight over each of the other metals. (b) An alloy composed of base metals of this Section and of elements not falling within this Section is treated as an alloy of base metals of this Section if the total weight of such metals equals or exceeds the total weight of the other elements present."
+                },
+                {
+                    "rule": "Unless the context otherwise requires, any reference to a base metal includes a reference to alloys which, by virtue of Note 5, are to be classified as alloys of that metal."
+                },
+                {
+                    "rule": "Classification of composite articles: Except where the headings otherwise require, articles of base metal (including articles of mixed materials treated as articles of base metal under the General Interpretative Rules) containing two or more base metals are treated as articles of the base metal predominating by weight over each of the other metals. For this purpose: (a) Iron and steel, or different kinds of iron or steel, are regarded as one and the same metal; (b) An alloy is regarded as being entirely composed of that metal as an alloy of which, by virtue of Note 5, it is classified; and (c) A cermet of heading 81.13 is regarded as a single base metal."
+                }
+            ]
+        }
+    },
+    "SECTION_XVI": {
+        "title": "SECTION XVI: MACHINERY AND MECHANICAL APPLIANCES; ELECTRICAL EQUIPMENT; PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES",
+        "short_title": "SECTION XVI: MACHINERY, MECHANICAL AND ELECTRICAL EQUIPMENT, ELECTRONIC APPARATUS AND PARTS",
+        "raw_notes": "1. This Section does not cover:\n(a) Transmission or conveyor belts or belting, of plastics of Chapter 39, or of vulcanised rubber (heading 40.10), or other articles of a kind used in machinery or mechanical or electrical appliances or for other technical uses, of vulcanised rubber other than hard rubber (heading 40.16);\n(b) Articles of leather or of composition leather (heading 42.05) or of furskin (heading 43.03), of a kind used in machinery or mechanical appliances or for other technical uses;\n(c) Bobbins, spools, cops, cones, cores, reels or similar supports, of any material (for example, Chapter 39, 40, 44 or 48 or Section XV);\n(d) Perforated cards for Jacquard or similar machines (for example, Chapter 39 or 48 or Section XV);\n(e) Transmission or conveyor belts or belting of textile material (heading 59.10) or other articles of textile material for technical uses (heading 59.11);\n(f) Precious or semi-precious stones (natural, synthetic or reconstructed) of headings 71.02 to 71.04, or articles wholly of such stones of heading 71.16, except unmounted worked sapphires and diamonds for styli (heading 85.22);\n(g) Parts of general use, as defined in Note 2 to Section XV, of base metal (Section XV), or similar goods of plastics (Chapter 39);\n(h) Drill pipe (heading 73.04);\n(ij) Endless belts of metal wire or strip (Section XV);\n(k) Articles of Chapter 82 or 83;\n(l) Articles of Section XVII;\n(m) Articles of Chapter 90;\n(n) Clocks, watches or other articles of Chapter 91;\n(o) Interchangeable tools of heading 82.07 or brushes of a kind used as parts of machines (heading 96.03); similar interchangeable tools are to be classified according to the constituent material of their working part (for example, in Chapter 40, 42, 43, 45 or 59 or heading 68.04 or 69.09);\n(p) Articles of Chapter 95; or\n(q) Typewriter or similar ribbons, whether or not on spools or in cartridges (classified according to their constituent material, or in heading 96.12 if inked or otherwise prepared for giving impressions), or monopods, bipods, tripods and similar articles, of heading 96.20.\n2. Subject to Note 1 to this Section, Note 1 to Chapter 84 and Note 1 to Chapter 85, parts of machines (not being parts of the articles of heading 84.84, 85.44, 85.45, 85.46 or 85.47) are to be classified according to the following rules:\n(a) Parts which are goods included in any of the headings of Chapter 84 or 85 (other than headings 84.09, 84.31, 84.48, 84.66, 84.73, 84.87, 85.03, 85.22, 85.29, 85.38 and 85.48) are in all cases to be classified in their respective headings;\n(b) Other parts, if suitable for use solely or principally with a particular kind of machine, or with a number of machines of the same heading (including a machine of heading 84.79 or 85.43) are to be classified with the machines of that kind or in heading 84.09, 84.31, 84.48, 84.66, 84.73, 85.03, 85.22, 85.29 or 85.38 as appropriate. However, parts which are equally suitable for use principally with the goods of headings 85.17 and 85.25 to 85.28 are to be classified in heading 85.17, and parts which are suitable for use solely or principally with the goods of heading 85.24 are to be classified in heading 85.29;\n(c) All other parts are to be classified in heading 84.09, 84.31, 84.48, 84.66, 84.73, 85.03, 85.22, 85.29 or 85.38 as appropriate or, failing that, in heading 84.87 or 85.48.\n3. Unless the context otherwise requires, composite machines consisting of two or more machines fitted together to form a whole and other machines designed for the purpose of performing two or more complementary or alternative functions are to be classified as if consisting only of that component or as being that machine which performs the principal function.\n4. Where a machine (including a combination of machines) consists of individual components (whether separate or interconnected by piping, by transmission devices, by electric cables or by other devices) intended to contribute together to a clearly defined function covered by one of the headings in Chapter 84 or Chapter 85, then the whole falls to be classified in the heading appropriate to that function.\n5. For the purposes of these Notes, the expression “machine” means any machine, machinery, plant, equipment, apparatus or appliance cited in the headings of Chapter 84 or 85.\n6. (A) Throughout the Nomenclature, the expression “electrical and electronic waste and scrap” means electrical and electronic assemblies, printed circuit boards, and electrical or electronic articles that:\n(i) have been rendered unusable for their original purposes by breakage, cutting-up or other processes or are economically unsuitable for repair, refurbishment or renovation to render them fit for their original purposes; and\n(ii) are packaged or shipped in a manner not intended to protect individual articles from damage during transportation, loading and unloading operations.\n(B) Mixed consignments of “electrical and electronic waste and scrap” and other waste and scrap are to be classified in heading 85.49.\n(C) This Section does not cover municipal waste, as defined in Note 4 to Chapter 38.",
+        "structured_notes": {
+            "exclusions": [
+                {
+                    "condition": "Transmission or conveyor belts or belting, of plastics",
+                    "action": "Classified in Chapter 39",
+                    "keywords": [
+                        "transmission belts",
+                        "conveyor belts",
+                        "belting",
+                        "plastics"
+                    ]
+                },
+                {
+                    "condition": "Transmission or conveyor belts or belting, of vulcanised rubber",
+                    "action": "Classified in heading 40.10",
+                    "keywords": [
+                        "transmission belts",
+                        "conveyor belts",
+                        "belting",
+                        "vulcanised rubber"
+                    ]
+                },
+                {
+                    "condition": "Other articles of vulcanised rubber (other than hard rubber) used in machinery or for technical uses",
+                    "action": "Classified in heading 40.16",
+                    "keywords": [
+                        "articles",
+                        "vulcanised rubber",
+                        "machinery",
+                        "technical uses"
+                    ]
+                },
+                {
+                    "condition": "Articles of leather, composition leather, or furskin used in machinery or for technical uses",
+                    "action": "Classified in heading 42.05 (leather) or 43.03 (furskin)",
+                    "keywords": [
+                        "leather",
+                        "composition leather",
+                        "furskin",
+                        "machinery",
+                        "technical uses"
+                    ]
+                },
+                {
+                    "condition": "Bobbins, spools, cops, cones, cores, reels or similar supports of any material",
+                    "action": "Classified according to their material (e.g., Chapter 39, 40, 44, 48, or Section XV)",
+                    "keywords": [
+                        "bobbins",
+                        "spools",
+                        "cops",
+                        "cones",
+                        "cores",
+                        "reels",
+                        "supports"
+                    ]
+                },
+                {
+                    "condition": "Perforated cards for Jacquard or similar machines",
+                    "action": "Classified according to their material (e.g., Chapter 39, 48, or Section XV)",
+                    "keywords": [
+                        "perforated cards",
+                        "Jacquard machines"
+                    ]
+                },
+                {
+                    "condition": "Transmission or conveyor belts or belting of textile material",
+                    "action": "Classified in heading 59.10",
+                    "keywords": [
+                        "transmission belts",
+                        "conveyor belts",
+                        "belting",
+                        "textile material"
+                    ]
+                },
+                {
+                    "condition": "Other articles of textile material for technical uses",
+                    "action": "Classified in heading 59.11",
+                    "keywords": [
+                        "articles",
+                        "textile material",
+                        "technical uses"
+                    ]
+                },
+                {
+                    "condition": "Precious or semi-precious stones (natural, synthetic or reconstructed) of headings 71.02 to 71.04, or articles wholly of such stones of heading 71.16",
+                    "action": "Classified in Chapter 71, except unmounted worked sapphires and diamonds for styli (heading 85.22)",
+                    "keywords": [
+                        "precious stones",
+                        "semi-precious stones",
+                        "sapphires",
+                        "diamonds",
+                        "styli"
+                    ]
+                },
+                {
+                    "condition": "Parts of general use, as defined in Note 2 to Section XV, of base metal",
+                    "action": "Classified in Section XV",
+                    "keywords": [
+                        "parts of general use",
+                        "base metal"
+                    ]
+                },
+                {
+                    "condition": "Similar goods of plastics to parts of general use",
+                    "action": "Classified in Chapter 39",
+                    "keywords": [
+                        "parts of general use",
+                        "plastics"
+                    ]
+                },
+                {
+                    "condition": "Drill pipe",
+                    "action": "Classified in heading 73.04",
+                    "keywords": [
+                        "drill pipe"
+                    ]
+                },
+                {
+                    "condition": "Endless belts of metal wire or strip",
+                    "action": "Classified in Section XV",
+                    "keywords": [
+                        "endless belts",
+                        "metal wire",
+                        "metal strip"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 82 or 83",
+                    "action": "Classified in Chapter 82 or 83",
+                    "keywords": [
+                        "tools",
+                        "cutlery",
+                        "locks",
+                        "hardware"
+                    ]
+                },
+                {
+                    "condition": "Articles of Section XVII",
+                    "action": "Classified in Section XVII",
+                    "keywords": [
+                        "vehicles",
+                        "aircraft",
+                        "vessels"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 90",
+                    "action": "Classified in Chapter 90",
+                    "keywords": [
+                        "optical",
+                        "medical",
+                        "surgical",
+                        "instruments",
+                        "apparatus"
+                    ]
+                },
+                {
+                    "condition": "Clocks, watches or other articles of Chapter 91",
+                    "action": "Classified in Chapter 91",
+                    "keywords": [
+                        "clocks",
+                        "watches"
+                    ]
+                },
+                {
+                    "condition": "Interchangeable tools of heading 82.07 or brushes of a kind used as parts of machines (heading 96.03)",
+                    "action": "Classified in heading 82.07 or 96.03, respectively. Similar interchangeable tools classified by material of working part (e.g., Chapter 40, 42, 43, 45, 59, 68.04, 69.09)",
+                    "keywords": [
+                        "interchangeable tools",
+                        "brushes",
+                        "parts of machines"
+                    ]
+                },
+                {
+                    "condition": "Articles of Chapter 95",
+                    "action": "Classified in Chapter 95",
+                    "keywords": [
+                        "toys",
+                        "games",
+                        "sports equipment"
+                    ]
+                },
+                {
+                    "condition": "Typewriter or similar ribbons, whether or not on spools or in cartridges",
+                    "action": "Classified by constituent material, or heading 96.12 if inked/prepared",
+                    "keywords": [
+                        "typewriter ribbons",
+                        "inked ribbons"
+                    ]
+                },
+                {
+                    "condition": "Monopods, bipods, tripods and similar articles",
+                    "action": "Classified in heading 96.20",
+                    "keywords": [
+                        "monopods",
+                        "bipods",
+                        "tripods"
+                    ]
+                },
+                {
+                    "condition": "Municipal waste, as defined in Note 4 to Chapter 38",
+                    "action": "Not covered by this Section",
+                    "keywords": [
+                        "municipal waste"
+                    ]
+                }
+            ],
+            "definitions": [
+                {
+                    "term": "machine",
+                    "meaning": "Any machine, machinery, plant, equipment, apparatus or appliance cited in the headings of Chapter 84 or 85."
+                },
+                {
+                    "term": "electrical and electronic waste and scrap",
+                    "meaning": "Electrical and electronic assemblies, printed circuit boards, and electrical or electronic articles that: (i) have been rendered unusable for their original purposes by breakage, cutting-up or other processes or are economically unsuitable for repair, refurbishment or renovation to render them fit for their original purposes; and (ii) are packaged or shipped in a manner not intended to protect individual articles from damage during transportation, loading and unloading operations."
+                }
+            ],
+            "classification_rules": [
+                {
+                    "rule": "Subject to Note 1 and the chapter notes, parts of machines (not being parts of articles of heading 84.84, 85.44, 85.45, 85.46 or 85.47) are classified as follows: (a) Parts included in any heading of Chapter 84 or 85 (except specified exclusions) are classified in their respective headings. (b) Other parts suitable for use solely/principally with a particular kind of machine or machines of the same heading are classified with those machines or in specified residual headings (e.g., 84.09, 85.03). Parts equally suitable for use principally with goods of headings 85.17 and 85.25-85.28 go to 85.17. Parts suitable for use solely/principally with goods of heading 85.24 go to 85.29. (c) All other parts are classified in specified residual headings (e.g., 84.09, 85.03) or, failing that, in heading 84.87 or 85.48."
+                },
+                {
+                    "rule": "Composite machines consisting of two or more machines fitted together to form a whole, and machines designed to perform two or more complementary or alternative functions, are classified as if consisting only of the component or being the machine which performs the principal function."
+                },
+                {
+                    "rule": "Where a machine (including a combination) consists of individual components intended to contribute together to a clearly defined function covered by one heading in Chapter 84 or 85, the whole is classified in the heading appropriate to that function."
+                },
+                {
+                    "rule": "Mixed consignments of 'electrical and electronic waste and scrap' and other waste and scrap are to be classified in heading 85.49."
+                }
+            ]
+        }
+    },
+    "SECTION_XVII": {
+        "title": "SECTION XVII: VEHICLES, AIRCRAFT, VESSELS AND ASSOCIATED TRANSPORT EQUIPMENT",
+        "short_title": "SECTION XVII: TRANSPORT EQUIPMENT",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_XVIII": {
+        "title": "SECTION XVIII: OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; CLOCKS AND WATCHES; MUSICAL INSTRUMENTS; PARTS AND ACCESSORIES THEREOF",
+        "short_title": "SECTION XVIII: OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, MEDICAL INSTRUMENTS; CLOCKS AND WATCHES; MUSICAL INSTRUMENTS AND PARTS",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_XIX": {
+        "title": "SECTION XIX: ARMS AND AMMUNITION; PARTS AND ACCESSORIES THEREOF",
+        "short_title": "SECTION XIX: ARMS AND AMMUNITION; PARTS AND ACCESSORIES THEREOF",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_XX": {
+        "title": "SECTION XX: MISCELLANEOUS MANUFACTURED ARTICLES",
+        "short_title": "SECTION XX: MISCELLANEOUS MANUFACTURED ARTICLES",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    },
+    "SECTION_XXI": {
+        "title": "SECTION XXI: WORKS OF ART, COLLECTORS’ PIECES AND ANTIQUES",
+        "short_title": "SECTION XXI: WORKS OF ART, COLLECTORS’ PIECES AND ANTIQUES",
+        "raw_notes": "",
+        "structured_notes": {
+            "exclusions": [],
+            "definitions": [],
+            "classification_rules": []
+        }
+    }
+}

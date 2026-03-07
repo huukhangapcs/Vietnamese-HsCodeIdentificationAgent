@@ -1,0 +1,777 @@
+[
+  {
+    "level": 0,
+    "hs_code": "0901",
+    "description_en": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Coffee, not roasted:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "090111",
+            "description_en": "Not decaffeinated:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09011120",
+                "description_en": "Arabica",
+                "children": [],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, not roasted: > Not decaffeinated: > Arabica"
+              },
+              {
+                "level": 3,
+                "hs_code": "09011130",
+                "description_en": "Robusta",
+                "children": [],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, not roasted: > Not decaffeinated: > Robusta"
+              },
+              {
+                "level": 3,
+                "hs_code": "09011190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, not roasted: > Not decaffeinated: > Other"
+              }
+            ],
+            "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, not roasted: > Not decaffeinated:"
+          },
+          {
+            "level": 2,
+            "hs_code": "090112",
+            "description_en": "Decaffeinated:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09011220",
+                "description_en": "Arabica or Robusta",
+                "children": [],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, not roasted: > Decaffeinated: > Arabica or Robusta"
+              },
+              {
+                "level": 3,
+                "hs_code": "09011290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, not roasted: > Decaffeinated: > Other"
+              }
+            ],
+            "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, not roasted: > Decaffeinated:"
+          }
+        ],
+        "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, not roasted:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Coffee, roasted:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "090121",
+            "description_en": "Not decaffeinated:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "PSEUDO_NODE_3_0",
+                "description_en": "Unground:",
+                "children": [
+                  {
+                    "level": 4,
+                    "hs_code": "09012111",
+                    "description_en": "Arabica",
+                    "children": [],
+                    "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Not decaffeinated: > Unground: > Arabica"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "09012112",
+                    "description_en": "Robusta",
+                    "children": [],
+                    "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Not decaffeinated: > Unground: > Robusta"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "09012119",
+                    "description_en": "Other",
+                    "children": [],
+                    "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Not decaffeinated: > Unground: > Other"
+                  }
+                ],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Not decaffeinated: > Unground:"
+              },
+              {
+                "level": 3,
+                "hs_code": "09012120",
+                "description_en": "Ground",
+                "children": [],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Not decaffeinated: > Ground"
+              }
+            ],
+            "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Not decaffeinated:"
+          },
+          {
+            "level": 2,
+            "hs_code": "090122",
+            "description_en": "Decaffeinated:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09012210",
+                "description_en": "Unground",
+                "children": [],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Decaffeinated: > Unground"
+              },
+              {
+                "level": 3,
+                "hs_code": "09012220",
+                "description_en": "Ground",
+                "children": [],
+                "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Decaffeinated: > Ground"
+              }
+            ],
+            "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted: > Decaffeinated:"
+          }
+        ],
+        "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Coffee, roasted:"
+      },
+      {
+        "level": 1,
+        "hs_code": "090190",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09019010",
+            "description_en": "Coffee husks and skins",
+            "children": [],
+            "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Other: > Coffee husks and skins"
+          },
+          {
+            "level": 2,
+            "hs_code": "09019020",
+            "description_en": "Coffee substitutes containing coffee",
+            "children": [],
+            "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Other: > Coffee substitutes containing coffee"
+          }
+        ],
+        "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion > Other:"
+      }
+    ],
+    "semantic_path": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion"
+  },
+  {
+    "level": 0,
+    "hs_code": "0902",
+    "description_en": "Tea, whether or not flavoured",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "090210",
+        "description_en": "Green tea (not fermented) in immediate packings of a content not exceeding 3 kg:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09021010",
+            "description_en": "Leaves",
+            "children": [],
+            "semantic_path": "Tea, whether or not flavoured > Green tea (not fermented) in immediate packings of a content not exceeding 3 kg: > Leaves"
+          },
+          {
+            "level": 2,
+            "hs_code": "09021090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Tea, whether or not flavoured > Green tea (not fermented) in immediate packings of a content not exceeding 3 kg: > Other"
+          }
+        ],
+        "semantic_path": "Tea, whether or not flavoured > Green tea (not fermented) in immediate packings of a content not exceeding 3 kg:"
+      },
+      {
+        "level": 1,
+        "hs_code": "090220",
+        "description_en": "Other green tea (not fermented):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09022010",
+            "description_en": "Leaves",
+            "children": [],
+            "semantic_path": "Tea, whether or not flavoured > Other green tea (not fermented): > Leaves"
+          },
+          {
+            "level": 2,
+            "hs_code": "09022090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Tea, whether or not flavoured > Other green tea (not fermented): > Other"
+          }
+        ],
+        "semantic_path": "Tea, whether or not flavoured > Other green tea (not fermented):"
+      },
+      {
+        "level": 1,
+        "hs_code": "090230",
+        "description_en": "Black tea (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3 kg:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09023010",
+            "description_en": "Leaves",
+            "children": [],
+            "semantic_path": "Tea, whether or not flavoured > Black tea (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3 kg: > Leaves"
+          },
+          {
+            "level": 2,
+            "hs_code": "09023090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Tea, whether or not flavoured > Black tea (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3 kg: > Other"
+          }
+        ],
+        "semantic_path": "Tea, whether or not flavoured > Black tea (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3 kg:"
+      },
+      {
+        "level": 1,
+        "hs_code": "090240",
+        "description_en": "Other black tea (fermented) and other partly fermented tea:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09024010",
+            "description_en": "Leaves",
+            "children": [],
+            "semantic_path": "Tea, whether or not flavoured > Other black tea (fermented) and other partly fermented tea: > Leaves"
+          },
+          {
+            "level": 2,
+            "hs_code": "09024090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Tea, whether or not flavoured > Other black tea (fermented) and other partly fermented tea: > Other"
+          }
+        ],
+        "semantic_path": "Tea, whether or not flavoured > Other black tea (fermented) and other partly fermented tea:"
+      }
+    ],
+    "semantic_path": "Tea, whether or not flavoured"
+  },
+  {
+    "level": 0,
+    "hs_code": "09030000",
+    "description_en": "Maté",
+    "children": [],
+    "semantic_path": "Maté"
+  },
+  {
+    "level": 0,
+    "hs_code": "0904",
+    "description_en": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Pepper:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "090411",
+            "description_en": "Neither crushed nor ground:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09041110",
+                "description_en": "White",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper: > Neither crushed nor ground: > White"
+              },
+              {
+                "level": 3,
+                "hs_code": "09041120",
+                "description_en": "Black",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper: > Neither crushed nor ground: > Black"
+              },
+              {
+                "level": 3,
+                "hs_code": "09041190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper: > Neither crushed nor ground: > Other"
+              }
+            ],
+            "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper: > Neither crushed nor ground:"
+          },
+          {
+            "level": 2,
+            "hs_code": "090412",
+            "description_en": "Crushed or ground:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09041210",
+                "description_en": "White",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper: > Crushed or ground: > White"
+              },
+              {
+                "level": 3,
+                "hs_code": "09041220",
+                "description_en": "Black",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper: > Crushed or ground: > Black"
+              },
+              {
+                "level": 3,
+                "hs_code": "09041290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper: > Crushed or ground: > Other"
+              }
+            ],
+            "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper: > Crushed or ground:"
+          }
+        ],
+        "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Pepper:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Fruits of the genus Capsicum or of the genus Pimenta:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "090421",
+            "description_en": "Dried, neither crushed nor ground:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09042110",
+                "description_en": "Chillies (Fruits of the genus Capsicum)",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Fruits of the genus Capsicum or of the genus Pimenta: > Dried, neither crushed nor ground: > Chillies (Fruits of the genus Capsicum)"
+              },
+              {
+                "level": 3,
+                "hs_code": "09042190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Fruits of the genus Capsicum or of the genus Pimenta: > Dried, neither crushed nor ground: > Other"
+              }
+            ],
+            "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Fruits of the genus Capsicum or of the genus Pimenta: > Dried, neither crushed nor ground:"
+          },
+          {
+            "level": 2,
+            "hs_code": "090422",
+            "description_en": "Crushed or ground:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09042210",
+                "description_en": "Chillies (Fruits of the genus Capsicum)",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Fruits of the genus Capsicum or of the genus Pimenta: > Crushed or ground: > Chillies (Fruits of the genus Capsicum)"
+              },
+              {
+                "level": 3,
+                "hs_code": "09042290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Fruits of the genus Capsicum or of the genus Pimenta: > Crushed or ground: > Other"
+              }
+            ],
+            "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Fruits of the genus Capsicum or of the genus Pimenta: > Crushed or ground:"
+          }
+        ],
+        "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta > Fruits of the genus Capsicum or of the genus Pimenta:"
+      }
+    ],
+    "semantic_path": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta"
+  },
+  {
+    "level": 0,
+    "hs_code": "0905",
+    "description_en": "Vanilla",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "09051000",
+        "description_en": "Neither crushed nor ground",
+        "children": [],
+        "semantic_path": "Vanilla > Neither crushed nor ground"
+      },
+      {
+        "level": 1,
+        "hs_code": "09052000",
+        "description_en": "Crushed or ground",
+        "children": [],
+        "semantic_path": "Vanilla > Crushed or ground"
+      }
+    ],
+    "semantic_path": "Vanilla"
+  },
+  {
+    "level": 0,
+    "hs_code": "0906",
+    "description_en": "Cinnamon and cinnamon-tree flowers",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Neither crushed nor ground:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09061100",
+            "description_en": "Cinnamon (Cinnamomum zeylanicum Blume)",
+            "children": [],
+            "semantic_path": "Cinnamon and cinnamon-tree flowers > Neither crushed nor ground: > Cinnamon (Cinnamomum zeylanicum Blume)"
+          },
+          {
+            "level": 2,
+            "hs_code": "09061900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Cinnamon and cinnamon-tree flowers > Neither crushed nor ground: > Other"
+          }
+        ],
+        "semantic_path": "Cinnamon and cinnamon-tree flowers > Neither crushed nor ground:"
+      },
+      {
+        "level": 1,
+        "hs_code": "09062000",
+        "description_en": "Crushed or ground",
+        "children": [],
+        "semantic_path": "Cinnamon and cinnamon-tree flowers > Crushed or ground"
+      }
+    ],
+    "semantic_path": "Cinnamon and cinnamon-tree flowers"
+  },
+  {
+    "level": 0,
+    "hs_code": "0907",
+    "description_en": "Cloves (whole fruit, cloves and stems)",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "09071000",
+        "description_en": "Neither crushed nor ground",
+        "children": [],
+        "semantic_path": "Cloves (whole fruit, cloves and stems) > Neither crushed nor ground"
+      },
+      {
+        "level": 1,
+        "hs_code": "09072000",
+        "description_en": "Crushed or ground",
+        "children": [],
+        "semantic_path": "Cloves (whole fruit, cloves and stems) > Crushed or ground"
+      }
+    ],
+    "semantic_path": "Cloves (whole fruit, cloves and stems)"
+  },
+  {
+    "level": 0,
+    "hs_code": "0908",
+    "description_en": "Nutmeg, mace and cardamoms",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Nutmeg:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09081100",
+            "description_en": "Neither crushed nor ground",
+            "children": [],
+            "semantic_path": "Nutmeg, mace and cardamoms > Nutmeg: > Neither crushed nor ground"
+          },
+          {
+            "level": 2,
+            "hs_code": "09081200",
+            "description_en": "Crushed or ground",
+            "children": [],
+            "semantic_path": "Nutmeg, mace and cardamoms > Nutmeg: > Crushed or ground"
+          }
+        ],
+        "semantic_path": "Nutmeg, mace and cardamoms > Nutmeg:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Mace:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09082100",
+            "description_en": "Neither crushed nor ground",
+            "children": [],
+            "semantic_path": "Nutmeg, mace and cardamoms > Mace: > Neither crushed nor ground"
+          },
+          {
+            "level": 2,
+            "hs_code": "09082200",
+            "description_en": "Crushed or ground",
+            "children": [],
+            "semantic_path": "Nutmeg, mace and cardamoms > Mace: > Crushed or ground"
+          }
+        ],
+        "semantic_path": "Nutmeg, mace and cardamoms > Mace:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Cardamoms:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09083100",
+            "description_en": "Neither crushed nor ground",
+            "children": [],
+            "semantic_path": "Nutmeg, mace and cardamoms > Cardamoms: > Neither crushed nor ground"
+          },
+          {
+            "level": 2,
+            "hs_code": "09083200",
+            "description_en": "Crushed or ground",
+            "children": [],
+            "semantic_path": "Nutmeg, mace and cardamoms > Cardamoms: > Crushed or ground"
+          }
+        ],
+        "semantic_path": "Nutmeg, mace and cardamoms > Cardamoms:"
+      }
+    ],
+    "semantic_path": "Nutmeg, mace and cardamoms"
+  },
+  {
+    "level": 0,
+    "hs_code": "0909",
+    "description_en": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Seeds of coriander:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09092100",
+            "description_en": "Neither crushed nor ground",
+            "children": [],
+            "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of coriander: > Neither crushed nor ground"
+          },
+          {
+            "level": 2,
+            "hs_code": "09092200",
+            "description_en": "Crushed or ground",
+            "children": [],
+            "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of coriander: > Crushed or ground"
+          }
+        ],
+        "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of coriander:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Seeds of cumin:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09093100",
+            "description_en": "Neither crushed nor ground",
+            "children": [],
+            "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of cumin: > Neither crushed nor ground"
+          },
+          {
+            "level": 2,
+            "hs_code": "09093200",
+            "description_en": "Crushed or ground",
+            "children": [],
+            "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of cumin: > Crushed or ground"
+          }
+        ],
+        "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of cumin:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Seeds of anise, badian, caraway or fennel; juniper berries:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "090961",
+            "description_en": "Neither crushed nor ground:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09096110",
+                "description_en": "Of anise",
+                "children": [],
+                "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Neither crushed nor ground: > Of anise"
+              },
+              {
+                "level": 3,
+                "hs_code": "09096120",
+                "description_en": "Of badian",
+                "children": [],
+                "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Neither crushed nor ground: > Of badian"
+              },
+              {
+                "level": 3,
+                "hs_code": "09096130",
+                "description_en": "Of caraway",
+                "children": [],
+                "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Neither crushed nor ground: > Of caraway"
+              },
+              {
+                "level": 3,
+                "hs_code": "09096190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Neither crushed nor ground: > Other"
+              }
+            ],
+            "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Neither crushed nor ground:"
+          },
+          {
+            "level": 2,
+            "hs_code": "090962",
+            "description_en": "Crushed or ground:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09096210",
+                "description_en": "Of anise",
+                "children": [],
+                "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Crushed or ground: > Of anise"
+              },
+              {
+                "level": 3,
+                "hs_code": "09096220",
+                "description_en": "Of badian",
+                "children": [],
+                "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Crushed or ground: > Of badian"
+              },
+              {
+                "level": 3,
+                "hs_code": "09096230",
+                "description_en": "Of caraway",
+                "children": [],
+                "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Crushed or ground: > Of caraway"
+              },
+              {
+                "level": 3,
+                "hs_code": "09096290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Crushed or ground: > Other"
+              }
+            ],
+            "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries: > Crushed or ground:"
+          }
+        ],
+        "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries > Seeds of anise, badian, caraway or fennel; juniper berries:"
+      }
+    ],
+    "semantic_path": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries"
+  },
+  {
+    "level": 0,
+    "hs_code": "0910",
+    "description_en": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Ginger:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "09101100",
+            "description_en": "Neither crushed nor ground",
+            "children": [],
+            "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Ginger: > Neither crushed nor ground"
+          },
+          {
+            "level": 2,
+            "hs_code": "09101200",
+            "description_en": "Crushed or ground",
+            "children": [],
+            "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Ginger: > Crushed or ground"
+          }
+        ],
+        "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Ginger:"
+      },
+      {
+        "level": 1,
+        "hs_code": "09102000",
+        "description_en": "Saffron",
+        "children": [],
+        "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Saffron"
+      },
+      {
+        "level": 1,
+        "hs_code": "09103000",
+        "description_en": "Turmeric (curcuma)",
+        "children": [],
+        "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Turmeric (curcuma)"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_3",
+        "description_en": "Other spices:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "091091",
+            "description_en": "Mixtures referred to in Note 1(b) to this Chapter:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09109110",
+                "description_en": "Curry",
+                "children": [],
+                "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Other spices: > Mixtures referred to in Note 1(b) to this Chapter: > Curry"
+              },
+              {
+                "level": 3,
+                "hs_code": "09109190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Other spices: > Mixtures referred to in Note 1(b) to this Chapter: > Other"
+              }
+            ],
+            "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Other spices: > Mixtures referred to in Note 1(b) to this Chapter:"
+          },
+          {
+            "level": 2,
+            "hs_code": "091099",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "09109910",
+                "description_en": "Thyme; bay leaves",
+                "children": [],
+                "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Other spices: > Other: > Thyme; bay leaves"
+              },
+              {
+                "level": 3,
+                "hs_code": "09109990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Other spices: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Other spices: > Other:"
+          }
+        ],
+        "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices > Other spices:"
+      }
+    ],
+    "semantic_path": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices"
+  }
+]

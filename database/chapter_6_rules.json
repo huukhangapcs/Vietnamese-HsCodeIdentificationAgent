@@ -1,0 +1,43 @@
+{
+    "chapter_code": "06",
+    "inclusions": [
+        "Live trees and other plants",
+        "Bulbs, roots and the like",
+        "Cut flowers and ornamental foliage",
+        "Cultures of micro-organisms and other products of heading 30.02",
+        "Live trees and goods (including seedling vegetables) of a kind commonly supplied by nursery gardeners or florists for planting or for ornamental use",
+        "Bouquets, floral baskets, wreaths and similar articles made wholly or partly of goods of heading 06.03 or 06.04"
+    ],
+    "exclusions": [
+        {
+            "condition": "Potatoes, onions, shallots, garlic or other products of Chapter 7",
+            "action": "Redirect to Chapter 7",
+            "keywords": [
+                "potatoes",
+                "onions",
+                "shallots",
+                "garlic",
+                "chapter 7"
+            ]
+        },
+        {
+            "condition": "Collages or similar decorative plaques of heading 97.01 made wholly or partly of flowers/leaves",
+            "action": "Redirect to Heading 97.01",
+            "keywords": [
+                "collages",
+                "decorative plaques",
+                "97.01"
+            ]
+        },
+        {
+            "condition": "Roots of heading 12.12 (e.g. chicory roots, manioc roots if not falling in Chapter 6)",
+            "action": "Redirect to Heading 12.12",
+            "keywords": [
+                "roots",
+                "chicory roots",
+                "manioc roots",
+                "12.12"
+            ]
+        }
+    ]
+}

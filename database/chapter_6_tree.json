@@ -1,0 +1,271 @@
+[
+  {
+    "level": 0,
+    "hs_code": "0601",
+    "description_en": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "06011000",
+        "description_en": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant",
+        "children": [],
+        "semantic_path": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12 > Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant"
+      },
+      {
+        "level": 1,
+        "hs_code": "060120",
+        "description_en": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower; chicory plants and roots:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "06012010",
+            "description_en": "Chicory plants",
+            "children": [],
+            "semantic_path": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12 > Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower; chicory plants and roots: > Chicory plants"
+          },
+          {
+            "level": 2,
+            "hs_code": "06012020",
+            "description_en": "Chicory roots",
+            "children": [],
+            "semantic_path": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12 > Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower; chicory plants and roots: > Chicory roots"
+          },
+          {
+            "level": 2,
+            "hs_code": "06012090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12 > Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower; chicory plants and roots: > Other"
+          }
+        ],
+        "semantic_path": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12 > Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower; chicory plants and roots:"
+      }
+    ],
+    "semantic_path": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12"
+  },
+  {
+    "level": 0,
+    "hs_code": "0602",
+    "description_en": "Other live plants (including their roots), cuttings and slips; mushroom spawn",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "060210",
+        "description_en": "Unrooted cuttings and slips:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "06021010",
+            "description_en": "Of orchids",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Unrooted cuttings and slips: > Of orchids"
+          },
+          {
+            "level": 2,
+            "hs_code": "06021020",
+            "description_en": "Of rubber trees",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Unrooted cuttings and slips: > Of rubber trees"
+          },
+          {
+            "level": 2,
+            "hs_code": "06021090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Unrooted cuttings and slips: > Other"
+          }
+        ],
+        "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Unrooted cuttings and slips:"
+      },
+      {
+        "level": 1,
+        "hs_code": "06022000",
+        "description_en": "Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts",
+        "children": [],
+        "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts"
+      },
+      {
+        "level": 1,
+        "hs_code": "06023000",
+        "description_en": "Rhododendrons and azaleas, grafted or not",
+        "children": [],
+        "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Rhododendrons and azaleas, grafted or not"
+      },
+      {
+        "level": 1,
+        "hs_code": "06024000",
+        "description_en": "Roses, grafted or not",
+        "children": [],
+        "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Roses, grafted or not"
+      },
+      {
+        "level": 1,
+        "hs_code": "060290",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "06029010",
+            "description_en": "Rooted orchid cuttings and slips",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Other: > Rooted orchid cuttings and slips"
+          },
+          {
+            "level": 2,
+            "hs_code": "06029020",
+            "description_en": "Orchid seedlings",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Other: > Orchid seedlings"
+          },
+          {
+            "level": 2,
+            "hs_code": "06029040",
+            "description_en": "Budded stumps of the genus Hevea",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Other: > Budded stumps of the genus Hevea"
+          },
+          {
+            "level": 2,
+            "hs_code": "06029050",
+            "description_en": "Seedlings of the genus Hevea",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Other: > Seedlings of the genus Hevea"
+          },
+          {
+            "level": 2,
+            "hs_code": "06029060",
+            "description_en": "Budwood of the genus Hevea",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Other: > Budwood of the genus Hevea"
+          },
+          {
+            "level": 2,
+            "hs_code": "06029090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Other: > Other"
+          }
+        ],
+        "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn > Other:"
+      }
+    ],
+    "semantic_path": "Other live plants (including their roots), cuttings and slips; mushroom spawn"
+  },
+  {
+    "level": 0,
+    "hs_code": "0603",
+    "description_en": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Fresh:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "06031100",
+            "description_en": "Roses",
+            "children": [],
+            "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh: > Roses"
+          },
+          {
+            "level": 2,
+            "hs_code": "06031200",
+            "description_en": "Carnations",
+            "children": [],
+            "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh: > Carnations"
+          },
+          {
+            "level": 2,
+            "hs_code": "06031300",
+            "description_en": "Orchids",
+            "children": [],
+            "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh: > Orchids"
+          },
+          {
+            "level": 2,
+            "hs_code": "06031400",
+            "description_en": "Chrysanthemums",
+            "children": [],
+            "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh: > Chrysanthemums"
+          },
+          {
+            "level": 2,
+            "hs_code": "06031500",
+            "description_en": "Lilies (Lilium spp.)",
+            "children": [],
+            "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh: > Lilies (Lilium spp.)"
+          },
+          {
+            "level": 2,
+            "hs_code": "06031900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh: > Other"
+          }
+        ],
+        "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh:"
+      },
+      {
+        "level": 1,
+        "hs_code": "06039000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Other"
+      }
+    ],
+    "semantic_path": "Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+  },
+  {
+    "level": 0,
+    "hs_code": "0604",
+    "description_en": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "060420",
+        "description_en": "Fresh:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "06042010",
+            "description_en": "Mosses and lichens",
+            "children": [],
+            "semantic_path": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh: > Mosses and lichens"
+          },
+          {
+            "level": 2,
+            "hs_code": "06042090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh: > Other"
+          }
+        ],
+        "semantic_path": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Fresh:"
+      },
+      {
+        "level": 1,
+        "hs_code": "060490",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "06049010",
+            "description_en": "Mosses and lichens",
+            "children": [],
+            "semantic_path": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Other: > Mosses and lichens"
+          },
+          {
+            "level": 2,
+            "hs_code": "06049090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Other: > Other"
+          }
+        ],
+        "semantic_path": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared > Other:"
+      }
+    ],
+    "semantic_path": "Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared"
+  }
+]

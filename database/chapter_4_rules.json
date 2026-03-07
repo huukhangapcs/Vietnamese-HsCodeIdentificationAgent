@@ -1,0 +1,71 @@
+{
+  "chapter_code": "04",
+  "inclusions": [
+    "Dairy produce",
+    "Birds' eggs",
+    "Natural honey",
+    "Edible products of animal origin, not elsewhere specified or included",
+    "Edible non-living insects (whole or in parts, fresh, chilled, frozen, dried, smoked, salted or in brine, as well as flours and meals of insects, fit for human consumption)"
+  ],
+  "exclusions": [
+    {
+      "condition": "Non-living insects, unfit for human consumption",
+      "action": "Redirect to Heading 05.11",
+      "keywords": [
+        "insects",
+        "unfit",
+        "human consumption",
+        "05.11"
+      ]
+    },
+    {
+      "condition": "Products obtained from whey, containing by weight more than 95% lactose, expressed as anhydrous lactose calculated on the dry matter",
+      "action": "Redirect to Heading 17.02",
+      "keywords": [
+        "whey",
+        "lactose",
+        "anhydrous lactose",
+        "17.02"
+      ]
+    },
+    {
+      "condition": "Products obtained from milk by replacing one or more of its natural constituents (e.g., butyric fats) by another substance (e.g., oleic fats)",
+      "action": "Redirect to Heading 19.01 or 21.06",
+      "keywords": [
+        "milk",
+        "replace constituent",
+        "butyric fats",
+        "oleic fats",
+        "19.01",
+        "21.06"
+      ]
+    },
+    {
+      "condition": "Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter)",
+      "action": "Redirect to Heading 35.02",
+      "keywords": [
+        "albumins",
+        "whey proteins",
+        "35.02"
+      ]
+    },
+    {
+      "condition": "Globulins",
+      "action": "Redirect to Heading 35.04",
+      "keywords": [
+        "globulins",
+        "35.04"
+      ]
+    },
+    {
+      "condition": "Edible non-living insects otherwise prepared or preserved",
+      "action": "Redirect to Section IV",
+      "keywords": [
+        "edible insects",
+        "prepared",
+        "preserved",
+        "section iv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "chapter_code": "08",
+  "inclusions": [
+    "Edible fruit and nuts; peel of citrus fruit or melons"
+  ],
+  "exclusions": [
+    {
+      "condition": "The item is specifically described as INEDIBLE nuts or fruits",
+      "action": "Redirect to another heading (not in Chapter 8)"
+    }
+  ]
+}

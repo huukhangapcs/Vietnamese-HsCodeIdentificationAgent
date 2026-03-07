@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HS Code Agentic AI</title>
+    <!-- Use Outfit font for a premium tech feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f1115;
+            --surface-color: rgba(25, 28, 36, 0.7);
+            --surface-border: rgba(255, 255, 255, 0.08);
+            --primary-accent: #3b82f6;
+            --primary-glow: rgba(59, 130, 246, 0.5);
+            --secondary-accent: #8b5cf6;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        /* Background animated gradient */
+        .bg-gradient {
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.15), transparent 40%),
+                radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.15), transparent 30%);
+            z-index: -1;
+            animation: pulse-bg 15s infinite alternate ease-in-out;
+            pointer-events: none;
+        }
+
+        @keyframes pulse-bg {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.05) translate(2%, 2%);
+            }
+        }
+
+        /* Layout */
+        header {
+            padding: 24px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--surface-border);
+            background: rgba(15, 17, 21, 0.8);
+            backdrop-filter: blur(12px);
+            z-index: 10;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 800;
+            background: linear-gradient(90deg, #60a5fa, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+            gap: 24px;
+        }
+
+        /* Search Section */
+        .search-box {
+            position: relative;
+            display: flex;
+            gap: 16px;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .search-box input {
+            flex: 1;
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            padding: 20px 24px;
+            border-radius: 16px;
+            color: var(--text-main);
+            font-size: 18px;
+            font-family: inherit;
+            outline: none;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary-accent);
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15), 0 4px 20px rgba(0, 0, 0, 0.3);
+            background: rgba(30, 35, 45, 0.8);
+        }
+
+        .search-box button {
+            background: linear-gradient(135deg, var(--primary-accent), var(--secondary-accent));
+            color: white;
+            border: none;
+            padding: 0 32px;
+            border-radius: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            box-shadow: 0 4px 20px var(--primary-glow);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .search-box button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(139, 92, 246, 0.6);
+        }
+
+        .search-box button:active {
+            transform: translateY(1px);
+        }
+
+        .search-box button.loading::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transform: translateX(-100%);
+            animation: shimmer 1.5s infinite;
+        }
+
+        @keyframes shimmer {
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        .workspace {
+            display: flex;
+            flex: 1;
+            gap: 24px;
+            min-height: 400px;
+            /* flex grow space */
+        }
+
+        /* Console */
+        .console-container {
+            flex: 2;
+            background: #090a0c;
+            border: 1px solid var(--surface-border);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .console-header {
+            padding: 12px 20px;
+            background: #111317;
+            border-bottom: 1px solid var(--surface-border);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--text-muted);
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+
+        .status-dot.active {
+            background: var(--primary-accent);
+            box-shadow: 0 0 10px var(--primary-accent);
+            animation: blink 1s infinite alternate;
+        }
+
+        @keyframes blink {
+            100% {
+                opacity: 0.5;
+            }
+        }
+
+        .terminal {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            font-family: 'Fira Code', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        /* Terminal Items */
+        .log-entry {
+            margin-bottom: 8px;
+            opacity: 0;
+            animation: fade-in-up 0.4s forwards;
+        }
+
+        .log-info {
+            color: #a1a1aa;
+        }
+
+        .log-action {
+            color: #60a5fa;
+            padding-left: 16px;
+            border-left: 2px solid #3b82f6;
+            margin-top: 12px;
+        }
+
+        .log-observation {
+            color: #34d399;
+            font-style: italic;
+            padding-left: 16px;
+        }
+
+        .log-error {
+            color: #f87171;
+            font-weight: bold;
+        }
+
+        .log-final {
+            color: #e879f9;
+            padding: 12px;
+            background: rgba(232, 121, 249, 0.1);
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+
+        .json-block {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            color: #d1d5db;
+            white-space: pre-wrap;
+            word-break: break-all;
+            margin: 4px 0 12px 16px;
+            border-left: 2px solid var(--text-muted);
+        }
+
+        @keyframes fade-in-up {
+            0% {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Interactive Clarification Options */
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 16px 0 20px 16px;
+            padding-left: 10px;
+            border-left: 2px solid var(--warning-color);
+        }
+
+        .option-btn {
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            color: #fbbf24;
+            padding: 10px 16px;
+            border-radius: 8px;
+            text-align: left;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .option-btn:hover {
+            background: rgba(245, 158, 11, 0.2);
+            border-color: rgba(245, 158, 11, 0.6);
+            transform: translateX(4px);
+        }
+
+        .option-btn.disabled {
+            opacity: 0.5;
+            pointer-events: none;
+            cursor: not-allowed;
+            background: transparent;
+            border-color: var(--surface-border);
+            color: var(--text-muted);
+        }
+
+        /* Results Panel */
+        .results-panel {
+            flex: 1;
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            backdrop-filter: blur(12px);
+            opacity: 0.7;
+            transform: scale(0.98);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            pointer-events: none;
+            overflow-y: auto;
+        }
+
+        .results-panel.active {
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: auto;
+            border-color: rgba(59, 130, 246, 0.4);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .result-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 16px;
+            background: rgba(59, 130, 246, 0.2);
+            color: #60a5fa;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            align-self: flex-start;
+        }
+
+        .result-badge.fast {
+            background: rgba(16, 185, 129, 0.2);
+            color: #34d399;
+        }
+
+        .section-code {
+            font-size: 48px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .confidence-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--surface-border);
+        }
+
+        .reasoning-box {
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--text-muted);
+            white-space: pre-wrap;
+        }
+
+        .approve-btn {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: #34d399;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .approve-btn:hover {
+            background: rgba(16, 185, 129, 0.2);
+            border-color: rgba(16, 185, 129, 0.6);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
+        }
+
+        .approve-btn.saved {
+            background: rgba(16, 185, 129, 0.3);
+            color: #fff;
+            pointer-events: none;
+        }
+
+        .log-success {
+            color: #34d399;
+            font-weight: bold;
+        }
+
+        /* Auto-scroll anchor */
+        #anchor {
+            height: 1px;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-gradient"></div>
+
+    <header>
+        <h1>Agentic Customs Classifier</h1>
+        <div style="font-size: 14px; color: var(--text-muted);">v2.0 Hybrid Architecture</div>
+    </header>
+
+    <div class="container">
+        <!-- Input Form -->
+        <form class="search-box" id="searchForm">
+            <input type="text" id="queryInput" placeholder="VD: Gà tây sống nguyên con nặng 1.5kg, trừ gà chọi..."
+                autocomplete="off" required>
+            <button type="submit" id="submitBtn">PHÂN LOẠI</button>
+        </form>
+
+        <div class="workspace">
+            <!-- Agent Terminal -->
+            <div class="console-container">
+                <div class="console-header">
+                    <div class="status-dot" id="agentStatus"></div>
+                    <span id="agentStatusText">SYSTEM IDLE</span>
+                </div>
+                <div class="terminal" id="terminal">
+                    <div class="log-entry log-info">Welcome to the HS Code Agent. Type a product description to begin
+                        classification.</div>
+                    <div id="anchor"></div>
+                </div>
+            </div>
+
+            <!-- Final Result Box -->
+            <div class="results-panel" id="resultPanel">
+                <div class="result-badge" id="pathBadge">Agentic Path</div>
+                <div>
+                    <div style="font-size: 14px; color: var(--text-muted); margin-bottom: 8px;">FINAL HS CODE / SECTION
+                    </div>
+                    <div class="section-code" id="sectionCode">UNKNOWN</div>
+                </div>
+                <div class="confidence-row">
+                    <span style="color: var(--text-muted);">Confidence Score</span>
+                    <strong style="color: var(--success-color);" id="confidenceScore">0%</strong>
+                </div>
+                <div>
+                    <div style="font-size: 14px; color: var(--text-muted); margin-bottom: 8px;">REASONING</div>
+                    <div class="reasoning-box" id="reasoningText">...</div>
+                </div>
+                <!-- Approve Button -->
+                <button class="approve-btn" id="approveBtn" onclick="approveResult()" style="display: none;">Approve &
+                    Save Cache</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('searchForm');
+        const input = document.getElementById('queryInput');
+        const btn = document.getElementById('submitBtn');
+        const terminal = document.getElementById('terminal');
+        const anchor = document.getElementById('anchor');
+
+        // UI Elements for result
+        const panel = document.getElementById('resultPanel');
+        const pathBadge = document.getElementById('pathBadge');
+        const sectionCode = document.getElementById('sectionCode');
+        const confidenceScore = document.getElementById('confidenceScore');
+        const reasoningText = document.getElementById('reasoningText');
+        const statusDot = document.getElementById('agentStatus');
+        const statusText = document.getElementById('agentStatusText');
+        const approveBtn = document.getElementById('approveBtn');
+
+        let eventSource = null;
+        let currentSessionId = "";
+        let lastQuery = "";
+        let lastHsCode = "";
+
+        function appendLog(htmlContent, className) {
+            const el = document.createElement('div');
+            el.className = `log-entry ${className}`;
+            el.innerHTML = htmlContent;
+            terminal.insertBefore(el, anchor);
+            anchor.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function resetUI() {
+            // Clean terminal except first message
+            while (terminal.firstChild && terminal.firstChild !== anchor) {
+                terminal.removeChild(terminal.firstChild);
+            }
+            appendLog('Initializing connection to Agent...', 'log-info');
+
+            panel.classList.remove('active');
+            btn.classList.add('loading');
+            btn.disabled = true;
+            input.disabled = true;
+
+            statusDot.classList.add('active');
+            statusText.textContent = "AGENT THINKING...";
+
+            approveBtn.style.display = 'none';
+            approveBtn.className = 'approve-btn';
+            approveBtn.textContent = 'Approve & Save Cache';
+        }
+
+        function finalizeUI() {
+            btn.classList.remove('loading');
+            btn.disabled = false;
+            input.disabled = false;
+            input.focus();
+
+            statusDot.classList.remove('active');
+            statusText.textContent = "IDLE";
+            if (eventSource) {
+                eventSource.close();
+            }
+        }
+
+        function displayResult(data, isFastPath) {
+            pathBadge.textContent = isFastPath ? "FAST PATH EVAL" : "DEEP AGENTIC PATH";
+            pathBadge.className = `result-badge ${isFastPath ? 'fast' : ''}`;
+
+            sectionCode.textContent = data.final_section_id || "ERROR";
+            confidenceScore.textContent = data.confidence || "N/A";
+
+            // Format reasoning: replace newlines with <br>
+            const text = data.reasoning || "Không có lời giải.";
+            reasoningText.innerHTML = text.replace(/\n/g, '<br>');
+
+            // Save variables for Cache approval
+            let finalQueryStr = input.value.trim();
+            if (data.clarifications && data.clarifications.length > 0) {
+                const clarifText = data.clarifications.map(c => `Q: ${c.question} A: ${c.answer}`).join(' - ');
+                finalQueryStr += ` [${clarifText}]`;
+            }
+
+            lastQuery = finalQueryStr;
+            lastHsCode = data.final_section_id || "ERROR";
+            approveBtn.style.display = 'block';
+
+            panel.classList.add('active');
+            appendLog(`[SYSTEM] Trả kết quả lên giao diện thành công.`, 'log-success');
+        }
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const query = input.value.trim();
+            if (!query) return;
+
+            resetUI();
+
+            // Close old connection if exists
+            if (eventSource) eventSource.close();
+
+            // Sinh ngẫu nhiên mã phiên (Session ID) cho Request này
+            currentSessionId = (crypto && crypto.randomUUID) ? crypto.randomUUID() : Date.now().toString(36);
+
+            // Establish Server-Sent Events Connection có mang Session
+            eventSource = new EventSource(`/stream?q=${encodeURIComponent(query)}&session_id=${currentSessionId}`);
+
+            eventSource.onmessage = (e) => {
+                const payload = JSON.parse(e.data);
+
+                switch (payload.type) {
+                    case 'info':
+                        appendLog(payload.message, 'log-info');
+                        break;
+                    case 'error':
+                        appendLog(payload.message, 'log-error');
+                        finalizeUI();
+                        break;
+                    case 'action':
+                        appendLog(`▶ Gọi công cụ: <strong>${payload.function}</strong>`, 'log-action');
+                        // try to format JSON arguments
+                        try {
+                            const argsObj = JSON.parse(payload.arguments);
+                            appendLog(JSON.stringify(argsObj, null, 2), 'json-block');
+                        } catch (err) {
+                            appendLog(payload.arguments, 'json-block');
+                        }
+                        break;
+                    case 'observation':
+                        appendLog(`✔ Có kết quả API (${payload.length} bytes)`, 'log-observation');
+                        // Show raw observation
+                        let obsText = payload.data;
+                        if (obsText.length > 300) obsText = obsText.substring(0, 300) + "... [truncated]";
+                        appendLog(obsText, 'json-block');
+                        break;
+                    case 'final':
+                        appendLog(`★ Đưa ra quyết định cuối cùng`, 'log-final');
+                        break;
+                    case 'clarification_request':
+                        appendLog(`🛑 <strong>HỆ THỐNG CẦN BẠN TRẢ LỜI:</strong> ${payload.question}`, 'log-error');
+                        // Render action buttons
+                        if (payload.options && payload.options.length > 0) {
+                            const optionContainerId = 'options-' + Date.now();
+                            let html = `<div class="options-container" id="${optionContainerId}">`;
+                            html += payload.options.map(opt => `<button class="option-btn" onclick="submitAnswer('${optionContainerId}', '${opt.replace(/'/g, "\\'")}')">${opt}</button>`).join('');
+                            html += `</div>`;
+                            appendLog(html, '');
+
+                            statusDot.classList.add('active');
+                            statusDot.style.background = 'var(--warning-color)';
+                            statusDot.style.boxShadow = '0 0 10px var(--warning-color)';
+                            statusText.textContent = "WAITING FOR USER...";
+                        }
+                        break;
+                    case 'fast_path_result':
+                        displayResult(payload.data, true);
+                        finalizeUI();
+                        break;
+                    case 'slow_path_result':
+                        displayResult(payload.data, false);
+                        finalizeUI();
+                        break;
+                }
+            };
+
+            eventSource.onerror = (err) => {
+                console.error("SSE Error:", err);
+                appendLog("Connection closed or errored.", "log-error");
+                finalizeUI();
+            };
+        });
+
+        // Gắn hàm Call API gửi Answer từ phía người dùng về Background Thread
+        async function submitAnswer(containerId, answer) {
+            // Vô hiệu hóa nút bấm tránh spam, tốt nhất nên ẩn luôn (display none)
+            const container = document.getElementById(containerId);
+            if (container) {
+                container.style.display = 'none';
+            }
+
+            appendLog(`👤 Bạn đã chọn: <em>${answer}</em>. Hệ thống đang tiếp tục suy luận...`, 'log-observation');
+
+            statusDot.style.background = '';
+            statusDot.style.boxShadow = '';
+            statusText.textContent = "RESUMING AGENT...";
+
+            try {
+                const res = await fetch('/submit_answer', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        session_id: currentSessionId,
+                        answer: answer
+                    })
+                });
+
+                const responseData = await res.json();
+                if (responseData.status === "error") {
+                    appendLog(`Lỗi xử lý Data: ${responseData.message}`, 'log-error');
+                }
+            } catch (error) {
+                appendLog(`Lỗi Network: ${error}`, 'log-error');
+            }
+        }
+
+        async function approveResult() {
+            if (!lastQuery || !lastHsCode) return;
+
+            approveBtn.textContent = 'Saving...';
+            approveBtn.classList.add('saved');
+
+            try {
+                const res = await fetch('/approve_hs', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        query: lastQuery,
+                        hs_code: lastHsCode
+                    })
+                });
+                const data = await res.json();
+                if (data.status === 'success') {
+                    approveBtn.textContent = 'Saved ✓';
+                    appendLog('📦 Đã lưu Cache thành công vào cơ sở dữ liệu!', 'log-success');
+                } else {
+                    approveBtn.textContent = 'Lỗi lưu Cache';
+                    appendLog('Lỗi lưu Cache: ' + data.message, 'log-error');
+                    approveBtn.classList.remove('saved');
+                }
+            } catch (err) {
+                approveBtn.textContent = 'Network Error';
+                appendLog('Lỗi Network: ' + err, 'log-error');
+                approveBtn.classList.remove('saved');
+            }
+        }
+    </script>
+</body>
+
+</html>

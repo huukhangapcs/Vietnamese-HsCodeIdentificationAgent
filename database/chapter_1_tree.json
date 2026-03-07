@@ -1,0 +1,621 @@
+[
+  {
+    "level": 0,
+    "hs_code": "0101",
+    "description_en": "Live horses, asses, mules and hinnies",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Horses:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01012100",
+            "description_en": "Pure-bred breeding animals",
+            "children": [],
+            "semantic_path": "Live horses, asses, mules and hinnies > Horses: > Pure-bred breeding animals"
+          },
+          {
+            "level": 2,
+            "hs_code": "01012900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Live horses, asses, mules and hinnies > Horses: > Other"
+          }
+        ],
+        "semantic_path": "Live horses, asses, mules and hinnies > Horses:"
+      },
+      {
+        "level": 1,
+        "hs_code": "010130",
+        "description_en": "Asses:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01013010",
+            "description_en": "Pure-bred breeding animals",
+            "children": [],
+            "semantic_path": "Live horses, asses, mules and hinnies > Asses: > Pure-bred breeding animals"
+          },
+          {
+            "level": 2,
+            "hs_code": "01013090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Live horses, asses, mules and hinnies > Asses: > Other"
+          }
+        ],
+        "semantic_path": "Live horses, asses, mules and hinnies > Asses:"
+      },
+      {
+        "level": 1,
+        "hs_code": "01019000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Live horses, asses, mules and hinnies > Other"
+      }
+    ],
+    "semantic_path": "Live horses, asses, mules and hinnies"
+  },
+  {
+    "level": 0,
+    "hs_code": "0102",
+    "description_en": "Live bovine animals",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Cattle:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01022100",
+            "description_en": "Pure-bred breeding animals",
+            "children": [],
+            "semantic_path": "Live bovine animals > Cattle: > Pure-bred breeding animals"
+          },
+          {
+            "level": 2,
+            "hs_code": "010229",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "PSEUDO_NODE_3_0",
+                "description_en": "Male cattle:",
+                "children": [
+                  {
+                    "level": 4,
+                    "hs_code": "01022911",
+                    "description_en": "Oxen",
+                    "children": [],
+                    "semantic_path": "Live bovine animals > Cattle: > Other: > Male cattle: > Oxen"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "01022919",
+                    "description_en": "Other",
+                    "children": [],
+                    "semantic_path": "Live bovine animals > Cattle: > Other: > Male cattle: > Other"
+                  }
+                ],
+                "semantic_path": "Live bovine animals > Cattle: > Other: > Male cattle:"
+              },
+              {
+                "level": 3,
+                "hs_code": "01022990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Live bovine animals > Cattle: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Live bovine animals > Cattle: > Other:"
+          }
+        ],
+        "semantic_path": "Live bovine animals > Cattle:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Buffalo:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01023100",
+            "description_en": "Pure-bred breeding animals",
+            "children": [],
+            "semantic_path": "Live bovine animals > Buffalo: > Pure-bred breeding animals"
+          },
+          {
+            "level": 2,
+            "hs_code": "01023900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Live bovine animals > Buffalo: > Other"
+          }
+        ],
+        "semantic_path": "Live bovine animals > Buffalo:"
+      },
+      {
+        "level": 1,
+        "hs_code": "010290",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01029010",
+            "description_en": "Pure-bred breeding animals",
+            "children": [],
+            "semantic_path": "Live bovine animals > Other: > Pure-bred breeding animals"
+          },
+          {
+            "level": 2,
+            "hs_code": "01029090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Live bovine animals > Other: > Other"
+          }
+        ],
+        "semantic_path": "Live bovine animals > Other:"
+      }
+    ],
+    "semantic_path": "Live bovine animals"
+  },
+  {
+    "level": 0,
+    "hs_code": "0103",
+    "description_en": "Live swine",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "01031000",
+        "description_en": "Pure-bred breeding animals",
+        "children": [],
+        "semantic_path": "Live swine > Pure-bred breeding animals"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01039100",
+            "description_en": "Weighing less than 50 kg",
+            "children": [],
+            "semantic_path": "Live swine > Other: > Weighing less than 50 kg"
+          },
+          {
+            "level": 2,
+            "hs_code": "01039200",
+            "description_en": "Weighing 50 kg or more",
+            "children": [],
+            "semantic_path": "Live swine > Other: > Weighing 50 kg or more"
+          }
+        ],
+        "semantic_path": "Live swine > Other:"
+      }
+    ],
+    "semantic_path": "Live swine"
+  },
+  {
+    "level": 0,
+    "hs_code": "0104",
+    "description_en": "Live sheep and goats",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "010410",
+        "description_en": "Sheep:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01041010",
+            "description_en": "Pure-bred breeding animals",
+            "children": [],
+            "semantic_path": "Live sheep and goats > Sheep: > Pure-bred breeding animals"
+          },
+          {
+            "level": 2,
+            "hs_code": "01041090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Live sheep and goats > Sheep: > Other"
+          }
+        ],
+        "semantic_path": "Live sheep and goats > Sheep:"
+      },
+      {
+        "level": 1,
+        "hs_code": "010420",
+        "description_en": "Goats:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01042010",
+            "description_en": "Pure-bred breeding animals",
+            "children": [],
+            "semantic_path": "Live sheep and goats > Goats: > Pure-bred breeding animals"
+          },
+          {
+            "level": 2,
+            "hs_code": "01042090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Live sheep and goats > Goats: > Other"
+          }
+        ],
+        "semantic_path": "Live sheep and goats > Goats:"
+      }
+    ],
+    "semantic_path": "Live sheep and goats"
+  },
+  {
+    "level": 0,
+    "hs_code": "0105",
+    "description_en": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Weighing not more than 185 g:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "010511",
+            "description_en": "Fowls of the species Gallus domesticus:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "01051110",
+                "description_en": "Breeding fowls",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Fowls of the species Gallus domesticus: > Breeding fowls"
+              },
+              {
+                "level": 3,
+                "hs_code": "01051190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Fowls of the species Gallus domesticus: > Other"
+              }
+            ],
+            "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Fowls of the species Gallus domesticus:"
+          },
+          {
+            "level": 2,
+            "hs_code": "010512",
+            "description_en": "Turkeys:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "01051210",
+                "description_en": "Breeding turkeys",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Turkeys: > Breeding turkeys"
+              },
+              {
+                "level": 3,
+                "hs_code": "01051290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Turkeys: > Other"
+              }
+            ],
+            "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Turkeys:"
+          },
+          {
+            "level": 2,
+            "hs_code": "010513",
+            "description_en": "Ducks:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "01051310",
+                "description_en": "Breeding ducklings",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Ducks: > Breeding ducklings"
+              },
+              {
+                "level": 3,
+                "hs_code": "01051390",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Ducks: > Other"
+              }
+            ],
+            "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Ducks:"
+          },
+          {
+            "level": 2,
+            "hs_code": "010514",
+            "description_en": "Geese:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "01051410",
+                "description_en": "Breeding goslings",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Geese: > Breeding goslings"
+              },
+              {
+                "level": 3,
+                "hs_code": "01051490",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Geese: > Other"
+              }
+            ],
+            "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Geese:"
+          },
+          {
+            "level": 2,
+            "hs_code": "010515",
+            "description_en": "Guinea fowls:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "01051510",
+                "description_en": "Breeding guinea fowls",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Guinea fowls: > Breeding guinea fowls"
+              },
+              {
+                "level": 3,
+                "hs_code": "01051590",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Guinea fowls: > Other"
+              }
+            ],
+            "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g: > Guinea fowls:"
+          }
+        ],
+        "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Weighing not more than 185 g:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "010594",
+            "description_en": "Fowls of the species Gallus domesticus:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "01059410",
+                "description_en": "Breeding fowls, other than fighting cocks",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Fowls of the species Gallus domesticus: > Breeding fowls, other than fighting cocks"
+              },
+              {
+                "level": 3,
+                "hs_code": "PSEUDO_NODE_3_1",
+                "description_en": "Fighting cocks:",
+                "children": [
+                  {
+                    "level": 4,
+                    "hs_code": "01059441",
+                    "description_en": "Weighing not more than 2 kg",
+                    "children": [],
+                    "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Fowls of the species Gallus domesticus: > Fighting cocks: > Weighing not more than 2 kg"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "01059449",
+                    "description_en": "Other",
+                    "children": [],
+                    "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Fowls of the species Gallus domesticus: > Fighting cocks: > Other"
+                  }
+                ],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Fowls of the species Gallus domesticus: > Fighting cocks:"
+              },
+              {
+                "level": 3,
+                "hs_code": "PSEUDO_NODE_3_2",
+                "description_en": "Other:",
+                "children": [
+                  {
+                    "level": 4,
+                    "hs_code": "01059491",
+                    "description_en": "Weighing not more than 2 kg",
+                    "children": [],
+                    "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Fowls of the species Gallus domesticus: > Other: > Weighing not more than 2 kg"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "01059499",
+                    "description_en": "Other",
+                    "children": [],
+                    "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Fowls of the species Gallus domesticus: > Other: > Other"
+                  }
+                ],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Fowls of the species Gallus domesticus: > Other:"
+              }
+            ],
+            "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Fowls of the species Gallus domesticus:"
+          },
+          {
+            "level": 2,
+            "hs_code": "010599",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "01059910",
+                "description_en": "Breeding ducks",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Other: > Breeding ducks"
+              },
+              {
+                "level": 3,
+                "hs_code": "01059920",
+                "description_en": "Other ducks",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Other: > Other ducks"
+              },
+              {
+                "level": 3,
+                "hs_code": "01059930",
+                "description_en": "Breeding geese, turkeys and guinea fowls",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Other: > Breeding geese, turkeys and guinea fowls"
+              },
+              {
+                "level": 3,
+                "hs_code": "01059940",
+                "description_en": "Other geese, turkeys and guinea fowls",
+                "children": [],
+                "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Other: > Other geese, turkeys and guinea fowls"
+              }
+            ],
+            "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other: > Other:"
+          }
+        ],
+        "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls > Other:"
+      }
+    ],
+    "semantic_path": "Live poultry, that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls"
+  },
+  {
+    "level": 0,
+    "hs_code": "0106",
+    "description_en": "Other live animals",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Mammals:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01061100",
+            "description_en": "Primates",
+            "children": [],
+            "semantic_path": "Other live animals > Mammals: > Primates"
+          },
+          {
+            "level": 2,
+            "hs_code": "010612",
+            "description_en": "Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia):",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "01061210",
+                "description_en": "Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia)",
+                "children": [],
+                "semantic_path": "Other live animals > Mammals: > Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia): > Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia)"
+              },
+              {
+                "level": 3,
+                "hs_code": "01061220",
+                "description_en": "Seals, sea lions and walruses (mammals of the suborder Pinnipedia)",
+                "children": [],
+                "semantic_path": "Other live animals > Mammals: > Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia): > Seals, sea lions and walruses (mammals of the suborder Pinnipedia)"
+              }
+            ],
+            "semantic_path": "Other live animals > Mammals: > Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia):"
+          },
+          {
+            "level": 2,
+            "hs_code": "01061300",
+            "description_en": "Camels and other camelids (Camelidae)",
+            "children": [],
+            "semantic_path": "Other live animals > Mammals: > Camels and other camelids (Camelidae)"
+          },
+          {
+            "level": 2,
+            "hs_code": "01061400",
+            "description_en": "Rabbits and hares",
+            "children": [],
+            "semantic_path": "Other live animals > Mammals: > Rabbits and hares"
+          },
+          {
+            "level": 2,
+            "hs_code": "01061900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other live animals > Mammals: > Other"
+          }
+        ],
+        "semantic_path": "Other live animals > Mammals:"
+      },
+      {
+        "level": 1,
+        "hs_code": "01062000",
+        "description_en": "Reptiles (including snakes and turtles)",
+        "children": [],
+        "semantic_path": "Other live animals > Reptiles (including snakes and turtles)"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Birds:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01063100",
+            "description_en": "Birds of prey",
+            "children": [],
+            "semantic_path": "Other live animals > Birds: > Birds of prey"
+          },
+          {
+            "level": 2,
+            "hs_code": "01063200",
+            "description_en": "Psittaciformes (including parrots, parakeets, macaws and cockatoos)",
+            "children": [],
+            "semantic_path": "Other live animals > Birds: > Psittaciformes (including parrots, parakeets, macaws and cockatoos)"
+          },
+          {
+            "level": 2,
+            "hs_code": "01063300",
+            "description_en": "Ostriches; emus (Dromaius novaehollandiae)",
+            "children": [],
+            "semantic_path": "Other live animals > Birds: > Ostriches; emus (Dromaius novaehollandiae)"
+          },
+          {
+            "level": 2,
+            "hs_code": "01063900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other live animals > Birds: > Other"
+          }
+        ],
+        "semantic_path": "Other live animals > Birds:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_3",
+        "description_en": "Insects:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "01064100",
+            "description_en": "Bees",
+            "children": [],
+            "semantic_path": "Other live animals > Insects: > Bees"
+          },
+          {
+            "level": 2,
+            "hs_code": "01064900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other live animals > Insects: > Other"
+          }
+        ],
+        "semantic_path": "Other live animals > Insects:"
+      },
+      {
+        "level": 1,
+        "hs_code": "01069000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Other live animals > Other"
+      }
+    ],
+    "semantic_path": "Other live animals"
+  }
+]

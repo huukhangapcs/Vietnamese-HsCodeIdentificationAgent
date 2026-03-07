@@ -1,0 +1,58 @@
+{
+    "chapter_code": "03",
+    "inclusions": [
+        "Fish and crustaceans, molluscs and other aquatic invertebrates",
+        "Pellets of fish, crustaceans, molluscs or other aquatic invertebrates fit for human consumption (03.09)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Mammals (e.g., whales, dolphins, seals)",
+            "action": "Redirect to Heading 01.06",
+            "keywords": [
+                "mammals",
+                "whales",
+                "dolphins",
+                "seals",
+                "01.06"
+            ]
+        },
+        {
+            "condition": "Meat of mammals of heading 01.06",
+            "action": "Redirect to Heading 02.08 or 02.10",
+            "keywords": [
+                "meat of mammals",
+                "02.08",
+                "02.10"
+            ]
+        },
+        {
+            "condition": "Fish, crustaceans, molluscs or other aquatic invertebrates, dead and unfit or unsuitable for human consumption by reason of their species or condition",
+            "action": "Redirect to Chapter 5",
+            "keywords": [
+                "unfit",
+                "unsuitable",
+                "human consumption",
+                "chapter 5"
+            ]
+        },
+        {
+            "condition": "Flours, meals or pellets of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption",
+            "action": "Redirect to Heading 23.01",
+            "keywords": [
+                "unfit flours",
+                "unfit meals",
+                "unfit pellets",
+                "23.01"
+            ]
+        },
+        {
+            "condition": "Caviar or caviar substitutes prepared from fish eggs",
+            "action": "Redirect to Heading 16.04",
+            "keywords": [
+                "caviar",
+                "caviar substitutes",
+                "16.04"
+            ]
+        }
+    ]
+}

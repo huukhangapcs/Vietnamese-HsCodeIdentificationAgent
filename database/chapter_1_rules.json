@@ -1,0 +1,40 @@
+{
+  "chapter_code": "01",
+  "inclusions": [
+    "All live animals"
+  ],
+  "exclusions": [
+    {
+      "condition": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+      "action": "Redirect to Heading 03.01, 03.06, 03.07 or 03.08",
+      "keywords": [
+        "fish",
+        "crustaceans",
+        "molluscs",
+        "aquatic invertebrates",
+        "03.01",
+        "03.06",
+        "03.07",
+        "03.08"
+      ]
+    },
+    {
+      "condition": "Cultures of micro-organisms and other products of heading 30.02",
+      "action": "Redirect to Heading 30.02",
+      "keywords": [
+        "cultures",
+        "micro-organisms",
+        "30.02"
+      ]
+    },
+    {
+      "condition": "Animals of travelling circuses and travelling menageries",
+      "action": "Redirect to Heading 95.08",
+      "keywords": [
+        "circus",
+        "menagerie",
+        "95.08"
+      ]
+    }
+  ]
+}

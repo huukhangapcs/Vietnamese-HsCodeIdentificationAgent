@@ -1,0 +1,42 @@
+{
+    "GIR_1": {
+        "title": "Quy tắc 1 (Giá trị tối cao của Chú giải và Nhóm)",
+        "description": "Tên của Phần, Chương hoặc Phân chương được đưa ra chỉ nhằm mục đích dễ tra cứu. Để đảm bảo tính pháp lý, việc phân loại hàng hóa phải được xác định theo nội dung của từng nhóm và bất cứ chú giải của các Phần, Chương liên quan."
+    },
+    "GIR_2a": {
+        "title": "Quy tắc 2a (Hàng chưa hoàn thiện, chưa lắp ráp)",
+        "description": "Một mặt hàng được phân loại vào một nhóm hàng thì mặt hàng đó ở dạng chưa hoàn chỉnh hoặc chưa hoàn thiện cũng thuộc nhóm đó, nếu đã có đặc trưng cơ bản của hàng hóa đó khi đã hoàn chỉnh hoặc hoàn thiện. Cũng phân loại như vậy đối với hàng hóa chưa lắp ráp hoặc tháo rời."
+    },
+    "GIR_2b": {
+        "title": "Quy tắc 2b (Hàng hỗn hợp, hợp chất)",
+        "description": "Một nguyên liệu, một chất được phân loại trong một nhóm nào đó thì hỗn hợp hay hợp chất của nguyên liệu hoặc chất đó với những nguyên liệu hoặc chất khác cũng thuộc nhóm đó. Việc phân loại những hàng hóa làm bằng hai loại nguyên liệu hay hai chất trở lên phải tuân theo Quy tắc 3."
+    },
+    "GIR_3a": {
+        "title": "Quy tắc 3a (Nhóm mô tả cụ thể nhất)",
+        "description": "Nhóm có mô tả cụ thể, đặc trưng nhất sẽ được ưu tiên hơn các nhóm có mô tả khái quát. (Ví dụ: Thảm dệt cho ô tô phân vào 'Thảm' chứ không phân vào 'Phụ tùng ô tô'). Tuy nhiên, nếu hai nhóm cùng chỉ mô tả một phần của hỗn hợp/bộ sản phẩm, chúng được coi là ngang nhau và chuyển sang dùng Quy tắc 3b."
+    },
+    "GIR_3b": {
+        "title": "Quy tắc 3b (Đặc trưng cơ bản của bộ/hỗn hợp)",
+        "description": "Khi không dùng được 3a. Hàng hỗn hợp, hoặc cấu tạo từ nhiều nguyên liệu/bộ phận khác nhau, hoặc ở dạng BỘ ĐÓNG GÓI ĐỂ BÁN LẺ, sẽ được phân loại theo nguyên liệu hoặc bộ phận tạo ra 'đặc tính cơ bản' của chúng. (Ví dụ: Bộ đồ cắt tóc đựng trong túi da thì phân loại theo tông đơ/kéo chứ không theo túi da)."
+    },
+    "GIR_3c": {
+        "title": "Quy tắc 3c (Thứ tự đánh số sau cùng)",
+        "description": "Khi không thể phân loại theo Quy tắc 3a (không tìm được mô tả cụ thể nhất) hoặc 3b (không xác định được đâu là đặc trưng cơ bản), thì phân loại vào nhóm có Thứ Tự Số Sau Cùng trong số các nhóm cùng được xem xét."
+    },
+    "GIR_4": {
+        "title": "Quy tắc 4 (Emergency Fallback - Hàng hoá giống nhất/Most Akin)",
+        "description": "CHỈ ĐƯỢC PHÉP ÁP DỤNG khi hàng hóa hoàn toàn mới lạ (ví dụ phát minh tương lai) và KHÔNG THỂ phân loại theo Quy tắc 1 (Kể cả vào các nhóm 'Other'), Quy tắc 2, hay Quy tắc 3. Hàng hóa này sẽ được phân loại vào nhóm phù hợp với loại hàng hóa 'giống chúng nhất' (Most Akin) dựa trên mô tả cơ vật lý, đặc điểm, tính chất, hoặc mục đích sử dụng."
+    },
+    "GIR_5a": {
+        "title": "Quy tắc 5a (Hộp đựng đặc biệt)",
+        "description": "Hộp, bao, túi đựng (ví dụ: hộp đựng nhạc cụ, bao súng, hộp trang sức) có hình dáng đặc biệt để chứa mặt hàng đó, dùng được lâu dài và đi kèm sản phẩm khi bán, thì ĐƯỢC PHÂN LOẠI CÙNG VỚI SẢN PHẨM bên trong. Ngược lại, nếu bản thân cái hộp mang tính chất cơ bản nổi trội hơn sản phẩm (ví dụ: Hộp chè bằng bạc nguyên khối đựng trà dỏm), thì phân loại theo cái hộp."
+    },
+    "GIR_5b": {
+        "title": "Quy tắc 5b (Bao bì đóng gói thông thường)",
+        "description": "Bao bì đóng gói thông thường (ví dụ: hộp bìa carton, túi nilon) được phân loại cùng với hàng hóa mà nó chứa đựng. Tuy nhiên, nếu kiện hàng/bao bì đó thuộc loại dùng lặp đi lặp lại nhiều lần (ví dụ: Bình phế liệu bằng thép chứa khí gas, Container), thì bao bì đó phải được tách ra phân loại riêng độc lập với hàng bên trong."
+    },
+    "GIR_6": {
+        "title": "Quy tắc 6 (Đối chiếu các Phân nhóm cùng cấp)",
+        "description": "Để đảm bảo pháp lý, chỉ được so sánh các 'phân nhóm cùng cấp độ' (ví dụ: chỉ so sánh phân nhóm 1 gạch với 1 gạch, hoặc 2 gạch với 2 gạch) trong cùng một nhóm cha. Không được lấy phân nhóm con so với phân nhóm khác nhánh. Khi giải nghĩa phân nhóm, 'Chú giải Phân nhóm' (Subheading Notes) có tính pháp lý cao nhất và SẼ GHI ĐÈ lên Chú giải Chương (Chapter Notes) nếu có mâu thuẫn."
+    }
+}

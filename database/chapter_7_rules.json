@@ -1,0 +1,80 @@
+{
+    "chapter_code": "07",
+    "inclusions": [
+        "Edible vegetables and certain roots and tubers (potatoes, tomatoes, onions, cabbages, lettuces, carrots, cucumbers, leguminous vegetables, etc.)",
+        "Edible mushrooms, truffles, olives, capers, marrows, pumpkins, aubergines, sweet corn (Zea mays var. saccharata)",
+        "Fruits of the genus Capsicum or of the genus Pimenta (fresh, chilled, or provisionally preserved)",
+        "Herbs used as vegetables: fennel, parsley, chervil, tarragon, cress and sweet marjoram",
+        "Vegetables that are fresh, chilled, frozen (uncooked or cooked by steaming or boiling in water), provisionally preserved (unsuitable for immediate consumption), or dried (whole, cut, sliced, broken or in powder)",
+        "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content (fresh, chilled, frozen or dried)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Forage products (e.g., swedes, mangolds, fodder roots, hay, lucerne) intended for animal feed",
+            "action": "Redirect to Heading 12.14",
+            "keywords": [
+                "forage",
+                "fodder",
+                "animal feed"
+            ]
+        },
+        {
+            "condition": "Sweet corn in the forms of flour, groats, meal, or pellets",
+            "action": "Redirect to Headings 11.02 to 11.04",
+            "keywords": [
+                "sweet corn flour",
+                "sweet corn meal",
+                "sweet corn groats",
+                "sweet corn pellets",
+                "11.02",
+                "11.04"
+            ]
+        },
+        {
+            "condition": "Flour, meal, powder, flakes, granules and pellets of potatoes",
+            "action": "Redirect to Heading 11.05",
+            "keywords": [
+                "potato flour",
+                "potato meal",
+                "potato powder",
+                "potato flakes",
+                "potato pellets",
+                "11.05"
+            ]
+        },
+        {
+            "condition": "Flour, meal and powder of the dried leguminous vegetables (beans, peas, lentils, etc.)",
+            "action": "Redirect to Heading 11.06",
+            "keywords": [
+                "bean flour",
+                "pea flour",
+                "leguminous powder",
+                "lentil flour",
+                "11.06"
+            ]
+        },
+        {
+            "condition": "Dried, or crushed, or ground fruits of the genus Capsicum or Pimenta (dried peppers, paprika powder)",
+            "action": "Redirect to Heading 09.04",
+            "keywords": [
+                "dried capsicum",
+                "crushed pimenta",
+                "ground pepper",
+                "dried pepper",
+                "paprika",
+                "09.04"
+            ]
+        },
+        {
+            "condition": "Vegetables treated or prepared such that they are suitable for immediate consumption (e.g., canned, pickled to be eaten directly)",
+            "action": "Redirect to Chapter 20 (Preparations of vegetables)",
+            "keywords": [
+                "prepared",
+                "immediate consumption",
+                "ready to eat",
+                "canned",
+                "chapter 20"
+            ]
+        }
+    ]
+}

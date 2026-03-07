@@ -1,0 +1,54 @@
+{
+  "chapter_code": "05",
+  "inclusions": [
+    "Products of animal origin, not elsewhere specified or included",
+    "Guts, bladders and stomachs of animals, whole and pieces thereof",
+    "Animal blood, liquid or dried",
+    "Ivory (elephant, hippopotamus, walrus, narwhal and wild boar tusks, rhinoceros horns and the teeth of all animals)",
+    "Horsehair (hair of the manes or tails of equine or bovine animals) and horsehair waste"
+  ],
+  "exclusions": [
+    {
+      "condition": "Edible products (other than guts, bladders and stomachs of animals, and animal blood)",
+      "action": "Redirect to Chapter 2, 3, or 4",
+      "keywords": [
+        "edible",
+        "meat",
+        "fish",
+        "dairy"
+      ]
+    },
+    {
+      "condition": "Hides or skins (including furskins) other than goods of heading 05.05 and parings and similar waste of raw hides or skins of heading 05.11",
+      "action": "Redirect to Chapter 41 or 43",
+      "keywords": [
+        "hides",
+        "skins",
+        "furskins",
+        "chapter 41",
+        "chapter 43"
+      ]
+    },
+    {
+      "condition": "Animal textile materials, other than horsehair and horsehair waste",
+      "action": "Redirect to Section XI",
+      "keywords": [
+        "textile materials",
+        "wool",
+        "silk",
+        "section xi"
+      ]
+    },
+    {
+      "condition": "Prepared knots or tufts for broom or brush making",
+      "action": "Redirect to Heading 96.03",
+      "keywords": [
+        "prepared knots",
+        "tufts",
+        "broom",
+        "brush making",
+        "96.03"
+      ]
+    }
+  ]
+}

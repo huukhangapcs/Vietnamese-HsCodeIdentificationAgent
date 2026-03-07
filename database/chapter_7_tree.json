@@ -1,0 +1,1380 @@
+[
+  {
+    "level": 0,
+    "hs_code": "0701",
+    "description_en": "Potatoes, fresh or chilled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "07011000",
+        "description_en": "Seed",
+        "children": [],
+        "semantic_path": "Potatoes, fresh or chilled > Seed"
+      },
+      {
+        "level": 1,
+        "hs_code": "070190",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07019010",
+            "description_en": "Chipping potatoes",
+            "children": [],
+            "semantic_path": "Potatoes, fresh or chilled > Other: > Chipping potatoes"
+          },
+          {
+            "level": 2,
+            "hs_code": "07019090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Potatoes, fresh or chilled > Other: > Other"
+          }
+        ],
+        "semantic_path": "Potatoes, fresh or chilled > Other:"
+      }
+    ],
+    "semantic_path": "Potatoes, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "07020000",
+    "description_en": "Tomatoes, fresh or chilled",
+    "children": [],
+    "semantic_path": "Tomatoes, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0703",
+    "description_en": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "070310",
+        "description_en": "Onions and shallots:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_0",
+            "description_en": "Onions:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07031011",
+                "description_en": "Bulbs for propagation",
+                "children": [],
+                "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Onions and shallots: > Onions: > Bulbs for propagation"
+              },
+              {
+                "level": 3,
+                "hs_code": "07031019",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Onions and shallots: > Onions: > Other"
+              }
+            ],
+            "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Onions and shallots: > Onions:"
+          },
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_1",
+            "description_en": "Shallots:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07031021",
+                "description_en": "Bulbs for propagation",
+                "children": [],
+                "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Onions and shallots: > Shallots: > Bulbs for propagation"
+              },
+              {
+                "level": 3,
+                "hs_code": "07031029",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Onions and shallots: > Shallots: > Other"
+              }
+            ],
+            "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Onions and shallots: > Shallots:"
+          }
+        ],
+        "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Onions and shallots:"
+      },
+      {
+        "level": 1,
+        "hs_code": "070320",
+        "description_en": "Garlic:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07032010",
+            "description_en": "Bulbs for propagation",
+            "children": [],
+            "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Garlic: > Bulbs for propagation"
+          },
+          {
+            "level": 2,
+            "hs_code": "07032090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Garlic: > Other"
+          }
+        ],
+        "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Garlic:"
+      },
+      {
+        "level": 1,
+        "hs_code": "070390",
+        "description_en": "Leeks and other alliaceous vegetables:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07039010",
+            "description_en": "Bulbs for propagation",
+            "children": [],
+            "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Leeks and other alliaceous vegetables: > Bulbs for propagation"
+          },
+          {
+            "level": 2,
+            "hs_code": "07039090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Leeks and other alliaceous vegetables: > Other"
+          }
+        ],
+        "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled > Leeks and other alliaceous vegetables:"
+      }
+    ],
+    "semantic_path": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0704",
+    "description_en": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "070410",
+        "description_en": "Cauliflowers and broccoli:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07041010",
+            "description_en": "Cauliflowers",
+            "children": [],
+            "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Cauliflowers and broccoli: > Cauliflowers"
+          },
+          {
+            "level": 2,
+            "hs_code": "07041020",
+            "description_en": "Headed broccoli",
+            "children": [],
+            "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Cauliflowers and broccoli: > Headed broccoli"
+          },
+          {
+            "level": 2,
+            "hs_code": "07041090",
+            "description_en": "Other broccoli",
+            "children": [],
+            "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Cauliflowers and broccoli: > Other broccoli"
+          }
+        ],
+        "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Cauliflowers and broccoli:"
+      },
+      {
+        "level": 1,
+        "hs_code": "07042000",
+        "description_en": "Brussels sprouts",
+        "children": [],
+        "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Brussels sprouts"
+      },
+      {
+        "level": 1,
+        "hs_code": "070490",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07049010",
+            "description_en": "Round (drumhead) cabbages",
+            "children": [],
+            "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Other: > Round (drumhead) cabbages"
+          },
+          {
+            "level": 2,
+            "hs_code": "07049020",
+            "description_en": "Chinese mustard",
+            "children": [],
+            "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Other: > Chinese mustard"
+          },
+          {
+            "level": 2,
+            "hs_code": "07049030",
+            "description_en": "Other cabbages",
+            "children": [],
+            "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Other: > Other cabbages"
+          },
+          {
+            "level": 2,
+            "hs_code": "07049090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Other: > Other"
+          }
+        ],
+        "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled > Other:"
+      }
+    ],
+    "semantic_path": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0705",
+    "description_en": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Lettuce:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07051100",
+            "description_en": "Cabbage lettuce (head lettuce)",
+            "children": [],
+            "semantic_path": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled > Lettuce: > Cabbage lettuce (head lettuce)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07051900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled > Lettuce: > Other"
+          }
+        ],
+        "semantic_path": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled > Lettuce:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Chicory:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07052100",
+            "description_en": "Witloof chicory (Cichorium intybus var. foliosum)",
+            "children": [],
+            "semantic_path": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled > Chicory: > Witloof chicory (Cichorium intybus var. foliosum)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07052900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled > Chicory: > Other"
+          }
+        ],
+        "semantic_path": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled > Chicory:"
+      }
+    ],
+    "semantic_path": "Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0706",
+    "description_en": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "070610",
+        "description_en": "Carrots and turnips:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07061010",
+            "description_en": "Carrots",
+            "children": [],
+            "semantic_path": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled > Carrots and turnips: > Carrots"
+          },
+          {
+            "level": 2,
+            "hs_code": "07061020",
+            "description_en": "Turnips",
+            "children": [],
+            "semantic_path": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled > Carrots and turnips: > Turnips"
+          }
+        ],
+        "semantic_path": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled > Carrots and turnips:"
+      },
+      {
+        "level": 1,
+        "hs_code": "07069000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled > Other"
+      }
+    ],
+    "semantic_path": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "07070000",
+    "description_en": "Cucumbers and gherkins, fresh or chilled",
+    "children": [],
+    "semantic_path": "Cucumbers and gherkins, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0708",
+    "description_en": "Leguminous vegetables, shelled or unshelled, fresh or chilled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "07081000",
+        "description_en": "Peas (Pisum sativum)",
+        "children": [],
+        "semantic_path": "Leguminous vegetables, shelled or unshelled, fresh or chilled > Peas (Pisum sativum)"
+      },
+      {
+        "level": 1,
+        "hs_code": "070820",
+        "description_en": "Beans (Vigna spp., Phaseolus spp.):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07082010",
+            "description_en": "French beans",
+            "children": [],
+            "semantic_path": "Leguminous vegetables, shelled or unshelled, fresh or chilled > Beans (Vigna spp., Phaseolus spp.): > French beans"
+          },
+          {
+            "level": 2,
+            "hs_code": "07082020",
+            "description_en": "Long beans",
+            "children": [],
+            "semantic_path": "Leguminous vegetables, shelled or unshelled, fresh or chilled > Beans (Vigna spp., Phaseolus spp.): > Long beans"
+          },
+          {
+            "level": 2,
+            "hs_code": "07082090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Leguminous vegetables, shelled or unshelled, fresh or chilled > Beans (Vigna spp., Phaseolus spp.): > Other"
+          }
+        ],
+        "semantic_path": "Leguminous vegetables, shelled or unshelled, fresh or chilled > Beans (Vigna spp., Phaseolus spp.):"
+      },
+      {
+        "level": 1,
+        "hs_code": "07089000",
+        "description_en": "Other leguminous vegetables",
+        "children": [],
+        "semantic_path": "Leguminous vegetables, shelled or unshelled, fresh or chilled > Other leguminous vegetables"
+      }
+    ],
+    "semantic_path": "Leguminous vegetables, shelled or unshelled, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0709",
+    "description_en": "Other vegetables, fresh or chilled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "07092000",
+        "description_en": "Asparagus",
+        "children": [],
+        "semantic_path": "Other vegetables, fresh or chilled > Asparagus"
+      },
+      {
+        "level": 1,
+        "hs_code": "07093000",
+        "description_en": "Aubergines (egg-plants)",
+        "children": [],
+        "semantic_path": "Other vegetables, fresh or chilled > Aubergines (egg-plants)"
+      },
+      {
+        "level": 1,
+        "hs_code": "07094000",
+        "description_en": "Celery other than celeriac",
+        "children": [],
+        "semantic_path": "Other vegetables, fresh or chilled > Celery other than celeriac"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_3",
+        "description_en": "Mushrooms and truffles:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07095100",
+            "description_en": "Mushrooms of the genus Agaricus",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Mushrooms of the genus Agaricus"
+          },
+          {
+            "level": 2,
+            "hs_code": "07095200",
+            "description_en": "Mushrooms of the genus Boletus",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Mushrooms of the genus Boletus"
+          },
+          {
+            "level": 2,
+            "hs_code": "07095300",
+            "description_en": "Mushrooms of the genus Cantharellus",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Mushrooms of the genus Cantharellus"
+          },
+          {
+            "level": 2,
+            "hs_code": "07095400",
+            "description_en": "Shiitake (Lentinus edodes)",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Shiitake (Lentinus edodes)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07095500",
+            "description_en": "Matsutake (Tricholoma matsutake, Tricholoma magnivelare, Tricholoma anatolicum, Tricholoma dulciolens, Tricholoma caligatum)",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Matsutake (Tricholoma matsutake, Tricholoma magnivelare, Tricholoma anatolicum, Tricholoma dulciolens, Tricholoma caligatum)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07095600",
+            "description_en": "Truffles (Tuber spp.)",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Truffles (Tuber spp.)"
+          },
+          {
+            "level": 2,
+            "hs_code": "070959",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07095920",
+                "description_en": "Truffles, other than Tuber spp.",
+                "children": [],
+                "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Other: > Truffles, other than Tuber spp."
+              },
+              {
+                "level": 3,
+                "hs_code": "07095990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles: > Other:"
+          }
+        ],
+        "semantic_path": "Other vegetables, fresh or chilled > Mushrooms and truffles:"
+      },
+      {
+        "level": 1,
+        "hs_code": "070960",
+        "description_en": "Fruits of the genus Capsicum or of the genus Pimenta:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07096010",
+            "description_en": "Chillies (fruits of genus Capsicum)",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Fruits of the genus Capsicum or of the genus Pimenta: > Chillies (fruits of genus Capsicum)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07096090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Fruits of the genus Capsicum or of the genus Pimenta: > Other"
+          }
+        ],
+        "semantic_path": "Other vegetables, fresh or chilled > Fruits of the genus Capsicum or of the genus Pimenta:"
+      },
+      {
+        "level": 1,
+        "hs_code": "07097000",
+        "description_en": "Spinach, New Zealand spinach and orache spinach (garden spinach)",
+        "children": [],
+        "semantic_path": "Other vegetables, fresh or chilled > Spinach, New Zealand spinach and orache spinach (garden spinach)"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_6",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07099100",
+            "description_en": "Globe artichokes",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Other: > Globe artichokes"
+          },
+          {
+            "level": 2,
+            "hs_code": "07099200",
+            "description_en": "Olives",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Other: > Olives"
+          },
+          {
+            "level": 2,
+            "hs_code": "07099300",
+            "description_en": "Pumpkins, squash and gourds (Cucurbita spp.)",
+            "children": [],
+            "semantic_path": "Other vegetables, fresh or chilled > Other: > Pumpkins, squash and gourds (Cucurbita spp.)"
+          },
+          {
+            "level": 2,
+            "hs_code": "070999",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07099910",
+                "description_en": "Sweet corn",
+                "children": [],
+                "semantic_path": "Other vegetables, fresh or chilled > Other: > Other: > Sweet corn"
+              },
+              {
+                "level": 3,
+                "hs_code": "07099920",
+                "description_en": "Lady's finger (Okra)",
+                "children": [],
+                "semantic_path": "Other vegetables, fresh or chilled > Other: > Other: > Lady's finger (Okra)"
+              },
+              {
+                "level": 3,
+                "hs_code": "07099990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Other vegetables, fresh or chilled > Other: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Other vegetables, fresh or chilled > Other: > Other:"
+          }
+        ],
+        "semantic_path": "Other vegetables, fresh or chilled > Other:"
+      }
+    ],
+    "semantic_path": "Other vegetables, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0710",
+    "description_en": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "07101000",
+        "description_en": "Potatoes",
+        "children": [],
+        "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Potatoes"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Leguminous vegetables, shelled or unshelled:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07102100",
+            "description_en": "Peas (Pisum sativum)",
+            "children": [],
+            "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Leguminous vegetables, shelled or unshelled: > Peas (Pisum sativum)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07102200",
+            "description_en": "Beans (Vigna spp., Phaseolus spp.)",
+            "children": [],
+            "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Leguminous vegetables, shelled or unshelled: > Beans (Vigna spp., Phaseolus spp.)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07102900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Leguminous vegetables, shelled or unshelled: > Other"
+          }
+        ],
+        "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Leguminous vegetables, shelled or unshelled:"
+      },
+      {
+        "level": 1,
+        "hs_code": "07103000",
+        "description_en": "Spinach, New Zealand spinach and orache spinach (garden spinach)",
+        "children": [],
+        "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Spinach, New Zealand spinach and orache spinach (garden spinach)"
+      },
+      {
+        "level": 1,
+        "hs_code": "07104000",
+        "description_en": "Sweet corn",
+        "children": [],
+        "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Sweet corn"
+      },
+      {
+        "level": 1,
+        "hs_code": "07108000",
+        "description_en": "Other vegetables",
+        "children": [],
+        "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Other vegetables"
+      },
+      {
+        "level": 1,
+        "hs_code": "07109000",
+        "description_en": "Mixtures of vegetables",
+        "children": [],
+        "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen > Mixtures of vegetables"
+      }
+    ],
+    "semantic_path": "Vegetables (uncooked or cooked by steaming or boiling in water), frozen"
+  },
+  {
+    "level": 0,
+    "hs_code": "0711",
+    "description_en": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "071120",
+        "description_en": "Olives:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07112010",
+            "description_en": "Preserved by sulphur dioxide gas",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Olives: > Preserved by sulphur dioxide gas"
+          },
+          {
+            "level": 2,
+            "hs_code": "07112090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Olives: > Other"
+          }
+        ],
+        "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Olives:"
+      },
+      {
+        "level": 1,
+        "hs_code": "071140",
+        "description_en": "Cucumbers and gherkins:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07114010",
+            "description_en": "Preserved by sulphur dioxide gas",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Cucumbers and gherkins: > Preserved by sulphur dioxide gas"
+          },
+          {
+            "level": 2,
+            "hs_code": "07114090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Cucumbers and gherkins: > Other"
+          }
+        ],
+        "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Cucumbers and gherkins:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Mushrooms and truffles:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "071151",
+            "description_en": "Mushrooms of the genus Agaricus:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07115110",
+                "description_en": "Preserved by sulphur dioxide gas",
+                "children": [],
+                "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Mushrooms and truffles: > Mushrooms of the genus Agaricus: > Preserved by sulphur dioxide gas"
+              },
+              {
+                "level": 3,
+                "hs_code": "07115190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Mushrooms and truffles: > Mushrooms of the genus Agaricus: > Other"
+              }
+            ],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Mushrooms and truffles: > Mushrooms of the genus Agaricus:"
+          },
+          {
+            "level": 2,
+            "hs_code": "071159",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07115910",
+                "description_en": "Preserved by sulphur dioxide gas",
+                "children": [],
+                "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Mushrooms and truffles: > Other: > Preserved by sulphur dioxide gas"
+              },
+              {
+                "level": 3,
+                "hs_code": "07115990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Mushrooms and truffles: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Mushrooms and truffles: > Other:"
+          }
+        ],
+        "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Mushrooms and truffles:"
+      },
+      {
+        "level": 1,
+        "hs_code": "071190",
+        "description_en": "Other vegetables; mixtures of vegetables:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07119010",
+            "description_en": "Sweet corn",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Other vegetables; mixtures of vegetables: > Sweet corn"
+          },
+          {
+            "level": 2,
+            "hs_code": "07119020",
+            "description_en": "Chillies (fruits of genus Capsicum)",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Other vegetables; mixtures of vegetables: > Chillies (fruits of genus Capsicum)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07119030",
+            "description_en": "Capers",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Other vegetables; mixtures of vegetables: > Capers"
+          },
+          {
+            "level": 2,
+            "hs_code": "07119040",
+            "description_en": "Onions, preserved by sulphur dioxide gas",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Other vegetables; mixtures of vegetables: > Onions, preserved by sulphur dioxide gas"
+          },
+          {
+            "level": 2,
+            "hs_code": "07119050",
+            "description_en": "Onions, preserved other than by sulphur dioxide gas",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Other vegetables; mixtures of vegetables: > Onions, preserved other than by sulphur dioxide gas"
+          },
+          {
+            "level": 2,
+            "hs_code": "07119060",
+            "description_en": "Other, preserved by sulphur dioxide gas",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Other vegetables; mixtures of vegetables: > Other, preserved by sulphur dioxide gas"
+          },
+          {
+            "level": 2,
+            "hs_code": "07119090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Other vegetables; mixtures of vegetables: > Other"
+          }
+        ],
+        "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption > Other vegetables; mixtures of vegetables:"
+      }
+    ],
+    "semantic_path": "Vegetables provisionally preserved, but unsuitable in that state for immediate consumption"
+  },
+  {
+    "level": 0,
+    "hs_code": "0712",
+    "description_en": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "07122000",
+        "description_en": "Onions",
+        "children": [],
+        "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Onions"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07123100",
+            "description_en": "Mushrooms of the genus Agaricus",
+            "children": [],
+            "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles: > Mushrooms of the genus Agaricus"
+          },
+          {
+            "level": 2,
+            "hs_code": "07123200",
+            "description_en": "Wood ears (Auricularia spp.)",
+            "children": [],
+            "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles: > Wood ears (Auricularia spp.)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07123300",
+            "description_en": "Jelly fungi (Tremella spp.)",
+            "children": [],
+            "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles: > Jelly fungi (Tremella spp.)"
+          },
+          {
+            "level": 2,
+            "hs_code": "07123400",
+            "description_en": "Shiitake (Lentinus edodes)",
+            "children": [],
+            "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles: > Shiitake (Lentinus edodes)"
+          },
+          {
+            "level": 2,
+            "hs_code": "071239",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07123910",
+                "description_en": "Truffles",
+                "children": [],
+                "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles: > Other: > Truffles"
+              },
+              {
+                "level": 3,
+                "hs_code": "07123990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles: > Other:"
+          }
+        ],
+        "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Mushrooms, wood ears (Auricularia spp.), jelly fungi (Tremella spp.) and truffles:"
+      },
+      {
+        "level": 1,
+        "hs_code": "071290",
+        "description_en": "Other vegetables; mixtures of vegetables:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07129010",
+            "description_en": "Garlic",
+            "children": [],
+            "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Other vegetables; mixtures of vegetables: > Garlic"
+          },
+          {
+            "level": 2,
+            "hs_code": "07129020",
+            "description_en": "Sweet corn",
+            "children": [],
+            "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Other vegetables; mixtures of vegetables: > Sweet corn"
+          },
+          {
+            "level": 2,
+            "hs_code": "07129090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Other vegetables; mixtures of vegetables: > Other"
+          }
+        ],
+        "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared > Other vegetables; mixtures of vegetables:"
+      }
+    ],
+    "semantic_path": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared"
+  },
+  {
+    "level": 0,
+    "hs_code": "0713",
+    "description_en": "Dried leguminous vegetables, shelled, whether or not skinned or split",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "071310",
+        "description_en": "Peas (Pisum sativum):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07131010",
+            "description_en": "Suitable for sowing",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Peas (Pisum sativum): > Suitable for sowing"
+          },
+          {
+            "level": 2,
+            "hs_code": "07131090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Peas (Pisum sativum): > Other"
+          }
+        ],
+        "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Peas (Pisum sativum):"
+      },
+      {
+        "level": 1,
+        "hs_code": "071320",
+        "description_en": "Chickpeas (garbanzos):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07132010",
+            "description_en": "Suitable for sowing",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Chickpeas (garbanzos): > Suitable for sowing"
+          },
+          {
+            "level": 2,
+            "hs_code": "07132090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Chickpeas (garbanzos): > Other"
+          }
+        ],
+        "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Chickpeas (garbanzos):"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Beans (Vigna spp., Phaseolus spp.):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "071331",
+            "description_en": "Beans of the species Vigna mungo (L.) Hepper or Vigna radiata (L.) Wilczek:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07133110",
+                "description_en": "Suitable for sowing",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Beans of the species Vigna mungo (L.) Hepper or Vigna radiata (L.) Wilczek: > Suitable for sowing"
+              },
+              {
+                "level": 3,
+                "hs_code": "07133190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Beans of the species Vigna mungo (L.) Hepper or Vigna radiata (L.) Wilczek: > Other"
+              }
+            ],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Beans of the species Vigna mungo (L.) Hepper or Vigna radiata (L.) Wilczek:"
+          },
+          {
+            "level": 2,
+            "hs_code": "071332",
+            "description_en": "Small red (Adzuki) beans (Phaseolus or Vigna angularis):",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07133210",
+                "description_en": "Suitable for sowing",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Small red (Adzuki) beans (Phaseolus or Vigna angularis): > Suitable for sowing"
+              },
+              {
+                "level": 3,
+                "hs_code": "07133290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Small red (Adzuki) beans (Phaseolus or Vigna angularis): > Other"
+              }
+            ],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Small red (Adzuki) beans (Phaseolus or Vigna angularis):"
+          },
+          {
+            "level": 2,
+            "hs_code": "071333",
+            "description_en": "Kidney beans, including white pea beans (Phaseolus vulgaris):",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07133310",
+                "description_en": "Suitable for sowing",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Kidney beans, including white pea beans (Phaseolus vulgaris): > Suitable for sowing"
+              },
+              {
+                "level": 3,
+                "hs_code": "07133390",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Kidney beans, including white pea beans (Phaseolus vulgaris): > Other"
+              }
+            ],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Kidney beans, including white pea beans (Phaseolus vulgaris):"
+          },
+          {
+            "level": 2,
+            "hs_code": "071334",
+            "description_en": "Bambara beans (Vigna subterranea or Voandzeia subterranea):",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07133410",
+                "description_en": "Suitable for sowing",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Bambara beans (Vigna subterranea or Voandzeia subterranea): > Suitable for sowing"
+              },
+              {
+                "level": 3,
+                "hs_code": "07133490",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Bambara beans (Vigna subterranea or Voandzeia subterranea): > Other"
+              }
+            ],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Bambara beans (Vigna subterranea or Voandzeia subterranea):"
+          },
+          {
+            "level": 2,
+            "hs_code": "071335",
+            "description_en": "Cow peas (Vigna unguiculata):",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07133510",
+                "description_en": "Suitable for sowing",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Cow peas (Vigna unguiculata): > Suitable for sowing"
+              },
+              {
+                "level": 3,
+                "hs_code": "07133590",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Cow peas (Vigna unguiculata): > Other"
+              }
+            ],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Cow peas (Vigna unguiculata):"
+          },
+          {
+            "level": 2,
+            "hs_code": "071339",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07133910",
+                "description_en": "Suitable for sowing",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Other: > Suitable for sowing"
+              },
+              {
+                "level": 3,
+                "hs_code": "07133990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Other: > Other"
+              }
+            ],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.): > Other:"
+          }
+        ],
+        "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Beans (Vigna spp., Phaseolus spp.):"
+      },
+      {
+        "level": 1,
+        "hs_code": "071340",
+        "description_en": "Lentils:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07134010",
+            "description_en": "Suitable for sowing",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Lentils: > Suitable for sowing"
+          },
+          {
+            "level": 2,
+            "hs_code": "07134090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Lentils: > Other"
+          }
+        ],
+        "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Lentils:"
+      },
+      {
+        "level": 1,
+        "hs_code": "071350",
+        "description_en": "Broad beans (Vicia faba var. major) and horse beans (Vicia faba var. equina, Vicia faba var. minor):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07135010",
+            "description_en": "Suitable for sowing",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Broad beans (Vicia faba var. major) and horse beans (Vicia faba var. equina, Vicia faba var. minor): > Suitable for sowing"
+          },
+          {
+            "level": 2,
+            "hs_code": "07135090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Broad beans (Vicia faba var. major) and horse beans (Vicia faba var. equina, Vicia faba var. minor): > Other"
+          }
+        ],
+        "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Broad beans (Vicia faba var. major) and horse beans (Vicia faba var. equina, Vicia faba var. minor):"
+      },
+      {
+        "level": 1,
+        "hs_code": "071360",
+        "description_en": "Pigeon peas (Cajanus cajan):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07136010",
+            "description_en": "Suitable for sowing",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Pigeon peas (Cajanus cajan): > Suitable for sowing"
+          },
+          {
+            "level": 2,
+            "hs_code": "07136090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Pigeon peas (Cajanus cajan): > Other"
+          }
+        ],
+        "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Pigeon peas (Cajanus cajan):"
+      },
+      {
+        "level": 1,
+        "hs_code": "071390",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07139010",
+            "description_en": "Suitable for sowing",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Other: > Suitable for sowing"
+          },
+          {
+            "level": 2,
+            "hs_code": "07139090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Other: > Other"
+          }
+        ],
+        "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split > Other:"
+      }
+    ],
+    "semantic_path": "Dried leguminous vegetables, shelled, whether or not skinned or split"
+  },
+  {
+    "level": 0,
+    "hs_code": "0714",
+    "description_en": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "071410",
+        "description_en": "Manioc (cassava):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_0",
+            "description_en": "Sliced or in the form of pellets:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07141011",
+                "description_en": "Dried chips",
+                "children": [],
+                "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Manioc (cassava): > Sliced or in the form of pellets: > Dried chips"
+              },
+              {
+                "level": 3,
+                "hs_code": "07141019",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Manioc (cassava): > Sliced or in the form of pellets: > Other"
+              }
+            ],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Manioc (cassava): > Sliced or in the form of pellets:"
+          },
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_1",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07141091",
+                "description_en": "Frozen",
+                "children": [],
+                "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Manioc (cassava): > Other: > Frozen"
+              },
+              {
+                "level": 3,
+                "hs_code": "07141099",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Manioc (cassava): > Other: > Other"
+              }
+            ],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Manioc (cassava): > Other:"
+          }
+        ],
+        "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Manioc (cassava):"
+      },
+      {
+        "level": 1,
+        "hs_code": "071420",
+        "description_en": "Sweet potatoes:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07142010",
+            "description_en": "Frozen",
+            "children": [],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Sweet potatoes: > Frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "07142090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Sweet potatoes: > Other"
+          }
+        ],
+        "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Sweet potatoes:"
+      },
+      {
+        "level": 1,
+        "hs_code": "071430",
+        "description_en": "Yams (Dioscorea spp.):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07143010",
+            "description_en": "Frozen",
+            "children": [],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Yams (Dioscorea spp.): > Frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "07143090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Yams (Dioscorea spp.): > Other"
+          }
+        ],
+        "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Yams (Dioscorea spp.):"
+      },
+      {
+        "level": 1,
+        "hs_code": "071440",
+        "description_en": "Taro (Colocasia spp.):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07144010",
+            "description_en": "Frozen",
+            "children": [],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Taro (Colocasia spp.): > Frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "07144090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Taro (Colocasia spp.): > Other"
+          }
+        ],
+        "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Taro (Colocasia spp.):"
+      },
+      {
+        "level": 1,
+        "hs_code": "071450",
+        "description_en": "Yautia (Xanthosoma spp.):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "07145010",
+            "description_en": "Frozen",
+            "children": [],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Yautia (Xanthosoma spp.): > Frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "07145090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Yautia (Xanthosoma spp.): > Other"
+          }
+        ],
+        "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Yautia (Xanthosoma spp.):"
+      },
+      {
+        "level": 1,
+        "hs_code": "071490",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_0",
+            "description_en": "Sago pith:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07149011",
+                "description_en": "Frozen",
+                "children": [],
+                "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Other: > Sago pith: > Frozen"
+              },
+              {
+                "level": 3,
+                "hs_code": "07149019",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Other: > Sago pith: > Other"
+              }
+            ],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Other: > Sago pith:"
+          },
+          {
+            "level": 2,
+            "hs_code": "PSEUDO_NODE_2_1",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "07149091",
+                "description_en": "Frozen",
+                "children": [],
+                "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Other: > Other: > Frozen"
+              },
+              {
+                "level": 3,
+                "hs_code": "07149099",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Other: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Other: > Other:"
+          }
+        ],
+        "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith > Other:"
+      }
+    ],
+    "semantic_path": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
+  }
+]

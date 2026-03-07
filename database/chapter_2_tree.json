@@ -1,0 +1,847 @@
+[
+  {
+    "level": 0,
+    "hs_code": "0201",
+    "description_en": "Meat of bovine animals, fresh or chilled",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "02011000",
+        "description_en": "Carcasses and half-carcasses",
+        "children": [],
+        "semantic_path": "Meat of bovine animals, fresh or chilled > Carcasses and half-carcasses"
+      },
+      {
+        "level": 1,
+        "hs_code": "02012000",
+        "description_en": "Other cuts with bone in",
+        "children": [],
+        "semantic_path": "Meat of bovine animals, fresh or chilled > Other cuts with bone in"
+      },
+      {
+        "level": 1,
+        "hs_code": "02013000",
+        "description_en": "Boneless",
+        "children": [],
+        "semantic_path": "Meat of bovine animals, fresh or chilled > Boneless"
+      }
+    ],
+    "semantic_path": "Meat of bovine animals, fresh or chilled"
+  },
+  {
+    "level": 0,
+    "hs_code": "0202",
+    "description_en": "Meat of bovine animals, frozen",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "02021000",
+        "description_en": "Carcasses and half-carcasses",
+        "children": [],
+        "semantic_path": "Meat of bovine animals, frozen > Carcasses and half-carcasses"
+      },
+      {
+        "level": 1,
+        "hs_code": "02022000",
+        "description_en": "Other cuts with bone in",
+        "children": [],
+        "semantic_path": "Meat of bovine animals, frozen > Other cuts with bone in"
+      },
+      {
+        "level": 1,
+        "hs_code": "02023000",
+        "description_en": "Boneless",
+        "children": [],
+        "semantic_path": "Meat of bovine animals, frozen > Boneless"
+      }
+    ],
+    "semantic_path": "Meat of bovine animals, frozen"
+  },
+  {
+    "level": 0,
+    "hs_code": "0203",
+    "description_en": "Meat of swine, fresh, chilled or frozen",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Fresh or chilled:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02031100",
+            "description_en": "Carcasses and half-carcasses",
+            "children": [],
+            "semantic_path": "Meat of swine, fresh, chilled or frozen > Fresh or chilled: > Carcasses and half-carcasses"
+          },
+          {
+            "level": 2,
+            "hs_code": "02031200",
+            "description_en": "Hams, shoulders and cuts thereof, with bone in",
+            "children": [],
+            "semantic_path": "Meat of swine, fresh, chilled or frozen > Fresh or chilled: > Hams, shoulders and cuts thereof, with bone in"
+          },
+          {
+            "level": 2,
+            "hs_code": "02031900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Meat of swine, fresh, chilled or frozen > Fresh or chilled: > Other"
+          }
+        ],
+        "semantic_path": "Meat of swine, fresh, chilled or frozen > Fresh or chilled:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Frozen:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02032100",
+            "description_en": "Carcasses and half-carcasses",
+            "children": [],
+            "semantic_path": "Meat of swine, fresh, chilled or frozen > Frozen: > Carcasses and half-carcasses"
+          },
+          {
+            "level": 2,
+            "hs_code": "02032200",
+            "description_en": "Hams, shoulders and cuts thereof, with bone in",
+            "children": [],
+            "semantic_path": "Meat of swine, fresh, chilled or frozen > Frozen: > Hams, shoulders and cuts thereof, with bone in"
+          },
+          {
+            "level": 2,
+            "hs_code": "02032900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Meat of swine, fresh, chilled or frozen > Frozen: > Other"
+          }
+        ],
+        "semantic_path": "Meat of swine, fresh, chilled or frozen > Frozen:"
+      }
+    ],
+    "semantic_path": "Meat of swine, fresh, chilled or frozen"
+  },
+  {
+    "level": 0,
+    "hs_code": "0204",
+    "description_en": "Meat of sheep or goats, fresh, chilled or frozen",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "02041000",
+        "description_en": "Carcasses and half-carcasses of lamb, fresh or chilled",
+        "children": [],
+        "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Carcasses and half-carcasses of lamb, fresh or chilled"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Other meat of sheep, fresh or chilled:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02042100",
+            "description_en": "Carcasses and half-carcasses",
+            "children": [],
+            "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Other meat of sheep, fresh or chilled: > Carcasses and half-carcasses"
+          },
+          {
+            "level": 2,
+            "hs_code": "02042200",
+            "description_en": "Other cuts with bone in",
+            "children": [],
+            "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Other meat of sheep, fresh or chilled: > Other cuts with bone in"
+          },
+          {
+            "level": 2,
+            "hs_code": "02042300",
+            "description_en": "Boneless",
+            "children": [],
+            "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Other meat of sheep, fresh or chilled: > Boneless"
+          }
+        ],
+        "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Other meat of sheep, fresh or chilled:"
+      },
+      {
+        "level": 1,
+        "hs_code": "02043000",
+        "description_en": "Carcasses and half-carcasses of lamb, frozen",
+        "children": [],
+        "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Carcasses and half-carcasses of lamb, frozen"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_3",
+        "description_en": "Other meat of sheep, frozen:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02044100",
+            "description_en": "Carcasses and half-carcasses",
+            "children": [],
+            "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Other meat of sheep, frozen: > Carcasses and half-carcasses"
+          },
+          {
+            "level": 2,
+            "hs_code": "02044200",
+            "description_en": "Other cuts with bone in",
+            "children": [],
+            "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Other meat of sheep, frozen: > Other cuts with bone in"
+          },
+          {
+            "level": 2,
+            "hs_code": "02044300",
+            "description_en": "Boneless",
+            "children": [],
+            "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Other meat of sheep, frozen: > Boneless"
+          }
+        ],
+        "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Other meat of sheep, frozen:"
+      },
+      {
+        "level": 1,
+        "hs_code": "02045000",
+        "description_en": "Meat of goats",
+        "children": [],
+        "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen > Meat of goats"
+      }
+    ],
+    "semantic_path": "Meat of sheep or goats, fresh, chilled or frozen"
+  },
+  {
+    "level": 0,
+    "hs_code": "02050000",
+    "description_en": "Meat of horses, asses, mules or hinnies, fresh, chilled or frozen",
+    "children": [],
+    "semantic_path": "Meat of horses, asses, mules or hinnies, fresh, chilled or frozen"
+  },
+  {
+    "level": 0,
+    "hs_code": "0206",
+    "description_en": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "02061000",
+        "description_en": "Of bovine animals, fresh or chilled",
+        "children": [],
+        "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of bovine animals, fresh or chilled"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Of bovine animals, frozen:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02062100",
+            "description_en": "Tongues",
+            "children": [],
+            "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of bovine animals, frozen: > Tongues"
+          },
+          {
+            "level": 2,
+            "hs_code": "02062200",
+            "description_en": "Livers",
+            "children": [],
+            "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of bovine animals, frozen: > Livers"
+          },
+          {
+            "level": 2,
+            "hs_code": "02062900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of bovine animals, frozen: > Other"
+          }
+        ],
+        "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of bovine animals, frozen:"
+      },
+      {
+        "level": 1,
+        "hs_code": "02063000",
+        "description_en": "Of swine, fresh or chilled",
+        "children": [],
+        "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of swine, fresh or chilled"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_3",
+        "description_en": "Of swine, frozen:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02064100",
+            "description_en": "Livers",
+            "children": [],
+            "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of swine, frozen: > Livers"
+          },
+          {
+            "level": 2,
+            "hs_code": "02064900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of swine, frozen: > Other"
+          }
+        ],
+        "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Of swine, frozen:"
+      },
+      {
+        "level": 1,
+        "hs_code": "02068000",
+        "description_en": "Other, fresh or chilled",
+        "children": [],
+        "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Other, fresh or chilled"
+      },
+      {
+        "level": 1,
+        "hs_code": "02069000",
+        "description_en": "Other, frozen",
+        "children": [],
+        "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen > Other, frozen"
+      }
+    ],
+    "semantic_path": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen"
+  },
+  {
+    "level": 0,
+    "hs_code": "0207",
+    "description_en": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Of fowls of the species Gallus domesticus:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02071100",
+            "description_en": "Not cut in pieces, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Not cut in pieces, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "02071200",
+            "description_en": "Not cut in pieces, frozen",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Not cut in pieces, frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "02071300",
+            "description_en": "Cuts and offal, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Cuts and offal, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "020714",
+            "description_en": "Cuts and offal, frozen:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "02071410",
+                "description_en": "Wings",
+                "children": [],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Cuts and offal, frozen: > Wings"
+              },
+              {
+                "level": 3,
+                "hs_code": "02071420",
+                "description_en": "Thighs",
+                "children": [],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Cuts and offal, frozen: > Thighs"
+              },
+              {
+                "level": 3,
+                "hs_code": "02071430",
+                "description_en": "Livers",
+                "children": [],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Cuts and offal, frozen: > Livers"
+              },
+              {
+                "level": 3,
+                "hs_code": "PSEUDO_NODE_3_3",
+                "description_en": "Other:",
+                "children": [
+                  {
+                    "level": 4,
+                    "hs_code": "02071491",
+                    "description_en": "Mechanically deboned or separated meat",
+                    "children": [],
+                    "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Cuts and offal, frozen: > Other: > Mechanically deboned or separated meat"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "02071499",
+                    "description_en": "Other",
+                    "children": [],
+                    "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Cuts and offal, frozen: > Other: > Other"
+                  }
+                ],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Cuts and offal, frozen: > Other:"
+              }
+            ],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus: > Cuts and offal, frozen:"
+          }
+        ],
+        "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of fowls of the species Gallus domesticus:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_1",
+        "description_en": "Of turkeys:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02072400",
+            "description_en": "Not cut in pieces, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys: > Not cut in pieces, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "02072500",
+            "description_en": "Not cut in pieces, frozen",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys: > Not cut in pieces, frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "02072600",
+            "description_en": "Cuts and offal, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys: > Cuts and offal, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "020727",
+            "description_en": "Cuts and offal, frozen:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "02072710",
+                "description_en": "Livers",
+                "children": [],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys: > Cuts and offal, frozen: > Livers"
+              },
+              {
+                "level": 3,
+                "hs_code": "PSEUDO_NODE_3_1",
+                "description_en": "Other:",
+                "children": [
+                  {
+                    "level": 4,
+                    "hs_code": "02072791",
+                    "description_en": "Mechanically deboned or separated meat",
+                    "children": [],
+                    "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys: > Cuts and offal, frozen: > Other: > Mechanically deboned or separated meat"
+                  },
+                  {
+                    "level": 4,
+                    "hs_code": "02072799",
+                    "description_en": "Other",
+                    "children": [],
+                    "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys: > Cuts and offal, frozen: > Other: > Other"
+                  }
+                ],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys: > Cuts and offal, frozen: > Other:"
+              }
+            ],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys: > Cuts and offal, frozen:"
+          }
+        ],
+        "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of turkeys:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Of ducks:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02074100",
+            "description_en": "Not cut in pieces, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of ducks: > Not cut in pieces, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "02074200",
+            "description_en": "Not cut in pieces, frozen",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of ducks: > Not cut in pieces, frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "02074300",
+            "description_en": "Fatty livers, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of ducks: > Fatty livers, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "02074400",
+            "description_en": "Other, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of ducks: > Other, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "020745",
+            "description_en": "Other, frozen:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "02074510",
+                "description_en": "Fatty livers",
+                "children": [],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of ducks: > Other, frozen: > Fatty livers"
+              },
+              {
+                "level": 3,
+                "hs_code": "02074590",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of ducks: > Other, frozen: > Other"
+              }
+            ],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of ducks: > Other, frozen:"
+          }
+        ],
+        "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of ducks:"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_3",
+        "description_en": "Of geese:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02075100",
+            "description_en": "Not cut in pieces, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of geese: > Not cut in pieces, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "02075200",
+            "description_en": "Not cut in pieces, frozen",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of geese: > Not cut in pieces, frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "02075300",
+            "description_en": "Fatty livers, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of geese: > Fatty livers, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "02075400",
+            "description_en": "Other, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of geese: > Other, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "020755",
+            "description_en": "Other, frozen:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "02075510",
+                "description_en": "Fatty livers",
+                "children": [],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of geese: > Other, frozen: > Fatty livers"
+              },
+              {
+                "level": 3,
+                "hs_code": "02075590",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of geese: > Other, frozen: > Other"
+              }
+            ],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of geese: > Other, frozen:"
+          }
+        ],
+        "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of geese:"
+      },
+      {
+        "level": 1,
+        "hs_code": "020760",
+        "description_en": "Of guinea fowls:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02076010",
+            "description_en": "Not cut in pieces, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of guinea fowls: > Not cut in pieces, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "02076020",
+            "description_en": "Not cut in pieces, frozen",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of guinea fowls: > Not cut in pieces, frozen"
+          },
+          {
+            "level": 2,
+            "hs_code": "02076030",
+            "description_en": "Cuts and offal, fresh or chilled",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of guinea fowls: > Cuts and offal, fresh or chilled"
+          },
+          {
+            "level": 2,
+            "hs_code": "02076040",
+            "description_en": "Cuts and offal, frozen",
+            "children": [],
+            "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of guinea fowls: > Cuts and offal, frozen"
+          }
+        ],
+        "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen > Of guinea fowls:"
+      }
+    ],
+    "semantic_path": "Meat and edible offal, of the poultry of heading 01.05, fresh, chilled or frozen"
+  },
+  {
+    "level": 0,
+    "hs_code": "0208",
+    "description_en": "Other meat and edible meat offal, fresh, chilled or frozen",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "02081000",
+        "description_en": "Of rabbits or hares",
+        "children": [],
+        "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Of rabbits or hares"
+      },
+      {
+        "level": 1,
+        "hs_code": "02083000",
+        "description_en": "Of primates",
+        "children": [],
+        "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Of primates"
+      },
+      {
+        "level": 1,
+        "hs_code": "020840",
+        "description_en": "Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals, sea lions and walruses (mammals of the suborder Pinnipedia):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02084010",
+            "description_en": "Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia)",
+            "children": [],
+            "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals, sea lions and walruses (mammals of the suborder Pinnipedia): > Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia)"
+          },
+          {
+            "level": 2,
+            "hs_code": "02084090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals, sea lions and walruses (mammals of the suborder Pinnipedia): > Other"
+          }
+        ],
+        "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals, sea lions and walruses (mammals of the suborder Pinnipedia):"
+      },
+      {
+        "level": 1,
+        "hs_code": "02085000",
+        "description_en": "Of reptiles (including snakes and turtles)",
+        "children": [],
+        "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Of reptiles (including snakes and turtles)"
+      },
+      {
+        "level": 1,
+        "hs_code": "02086000",
+        "description_en": "Of camels and other camelids (Camelidae)",
+        "children": [],
+        "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Of camels and other camelids (Camelidae)"
+      },
+      {
+        "level": 1,
+        "hs_code": "020890",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02089010",
+            "description_en": "Frogs' legs",
+            "children": [],
+            "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Other: > Frogs' legs"
+          },
+          {
+            "level": 2,
+            "hs_code": "02089090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Other: > Other"
+          }
+        ],
+        "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen > Other:"
+      }
+    ],
+    "semantic_path": "Other meat and edible meat offal, fresh, chilled or frozen"
+  },
+  {
+    "level": 0,
+    "hs_code": "0209",
+    "description_en": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "02091000",
+        "description_en": "Of pigs",
+        "children": [],
+        "semantic_path": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked > Of pigs"
+      },
+      {
+        "level": 1,
+        "hs_code": "02099000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked > Other"
+      }
+    ],
+    "semantic_path": "Pig fat, free of lean meat, and poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked"
+  },
+  {
+    "level": 0,
+    "hs_code": "0210",
+    "description_en": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_0",
+        "description_en": "Meat of swine:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02101100",
+            "description_en": "Hams, shoulders and cuts thereof, with bone in",
+            "children": [],
+            "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Meat of swine: > Hams, shoulders and cuts thereof, with bone in"
+          },
+          {
+            "level": 2,
+            "hs_code": "02101200",
+            "description_en": "Bellies (streaky) and cuts thereof",
+            "children": [],
+            "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Meat of swine: > Bellies (streaky) and cuts thereof"
+          },
+          {
+            "level": 2,
+            "hs_code": "021019",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "02101930",
+                "description_en": "Bacon; boneless hams",
+                "children": [],
+                "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Meat of swine: > Other: > Bacon; boneless hams"
+              },
+              {
+                "level": 3,
+                "hs_code": "02101990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Meat of swine: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Meat of swine: > Other:"
+          }
+        ],
+        "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Meat of swine:"
+      },
+      {
+        "level": 1,
+        "hs_code": "02102000",
+        "description_en": "Meat of bovine animals",
+        "children": [],
+        "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Meat of bovine animals"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_1_2",
+        "description_en": "Other, including edible flours and meals of meat or meat offal:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "02109100",
+            "description_en": "Of primates",
+            "children": [],
+            "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Of primates"
+          },
+          {
+            "level": 2,
+            "hs_code": "021092",
+            "description_en": "Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals, sea lions and walruses (mammals of the suborder Pinnipedia):",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "02109210",
+                "description_en": "Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia)",
+                "children": [],
+                "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals, sea lions and walruses (mammals of the suborder Pinnipedia): > Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia)"
+              },
+              {
+                "level": 3,
+                "hs_code": "02109290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals, sea lions and walruses (mammals of the suborder Pinnipedia): > Other"
+              }
+            ],
+            "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Of whales, dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals, sea lions and walruses (mammals of the suborder Pinnipedia):"
+          },
+          {
+            "level": 2,
+            "hs_code": "02109300",
+            "description_en": "Of reptiles (including snakes and turtles)",
+            "children": [],
+            "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Of reptiles (including snakes and turtles)"
+          },
+          {
+            "level": 2,
+            "hs_code": "021099",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "02109910",
+                "description_en": "Freeze-dried diced chicken",
+                "children": [],
+                "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Other: > Freeze-dried diced chicken"
+              },
+              {
+                "level": 3,
+                "hs_code": "02109920",
+                "description_en": "Dried pork skin",
+                "children": [],
+                "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Other: > Dried pork skin"
+              },
+              {
+                "level": 3,
+                "hs_code": "02109990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Other: > Other"
+              }
+            ],
+            "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal: > Other:"
+          }
+        ],
+        "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal > Other, including edible flours and meals of meat or meat offal:"
+      }
+    ],
+    "semantic_path": "Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal"
+  }
+]

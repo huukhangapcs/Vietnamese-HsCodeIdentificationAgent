@@ -1,0 +1,39 @@
+# === SECRETS & KEYS ===
+key_deepseek
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# === NODE ===
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# === DATABASE & SENSITIVE DATA ===
+database/approved_cache.json
+
+# === IDE & OS ===
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# === LOGS ===
+*.log
+logs/
+hsdata.csv
