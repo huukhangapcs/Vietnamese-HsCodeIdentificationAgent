@@ -81,6 +81,7 @@
             font-weight: 800;
             background: linear-gradient(90deg, #60a5fa, #c084fc);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             letter-spacing: 1px;
         }
@@ -382,6 +383,7 @@
             font-weight: 800;
             background: linear-gradient(135deg, #fff, #94a3b8);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             margin: 0;
             line-height: 1.1;
@@ -599,7 +601,8 @@
             sectionCode.textContent = data.final_section_id || "ERROR";
             confidenceScore.textContent = data.confidence || "N/A";
 
-            // XSS FIX: safeRenderText() thay vì .replace trực tiếp
+            // XSS FIX: safeRenderText() escape HTML rồi mới render
+            const text = data.reasoning || "Không có lời giải.";
             reasoningText.innerHTML = safeRenderText(text);
 
             // Save variables for Cache approval

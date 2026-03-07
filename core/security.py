@@ -13,16 +13,20 @@ _INJECTION_PATTERNS = [
     "ignore previous instructions",
     "disregard all instructions",
     "forget your instructions",
-    "you are now",
-    "act as",
+    "disregard your instructions",
+    "you are now a",          # Cụ thể hơn "you are now" để tránh false positive
+    "act as a",               # Cụ thể hơn "act as" để tránh "tác dụng kép" / "act as catalyst"
+    "act as an",
     "you must now",
     "new instruction:",
     "system prompt:",
-    "override:",
+    "system:override",
+    "override instruction",
     "<|im_start|>",
     "<|system|>",
     "###instruction",
     "---new task---",
+    "[system]",
 ]
 
 def sanitize_input(text: str) -> str:
