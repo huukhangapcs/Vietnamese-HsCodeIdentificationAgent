@@ -1,12 +1,12 @@
 import sys
 import os
-import json
+import re
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
-from core.llm_provider import get_llm_client
-from tools.knowledge_tools import get_chapter_rules
+from tools.knowledge_tools import get_section_for_chapter, query_legal_notes
+
 
 class HSGatekeeper:
     def __init__(self):
@@ -29,90 +29,62 @@ class HSGatekeeper:
                 "error_msg": "Động vật sống (live animal) phải nằm ở Chương 01, 03 hoặc 95 (trường hợp ngoại lệ)."
             }
         ]
-        
-        self.client = get_llm_client()
-        self.model = "deepseek-chat"
-        
-    def _check_json_exclusions(self, hs_code: str, item_description: str) -> tuple:
+
+    def _check_semantic_exclusions(self, hs_code: str, item_description: str) -> tuple:
         """
-        Uses LLM as a neuro-symbolic router to check the item_description against
-        the structured JSON exclusions for the chapter.
+        [OPTIMIZED — NO LLM]
+        Uses ChromaDB vector search (query_legal_notes) to find semantically relevant
+        exclusion rules, then checks them with pure Python logic.
+        Zero API calls, near-zero latency.
         """
         chapter_prefix = hs_code[:2]
-        # Remove hardcoded Chapter 01 restriction to allow dynamic chapters
-            
-        rules = get_chapter_rules(chapter_prefix)
-        # Handle dict format where chapter_rules contains exclusions
-        if isinstance(rules, dict) and "chapter_rules" in rules:
-            exclusions = rules.get("chapter_rules", {}).get("exclusions", [])
-        else:
-            exclusions = rules.get("exclusions", []) if isinstance(rules, dict) else []
-        
-        if not exclusions:
-            return True, "PASS"
-            
-        system_prompt = """You are the strict Customs Exclusion Linter.
-Given an item description and a list of structured EXCLUSION conditions.
-Evaluate if the item matches ANY of the exclusion conditions exactly.
-If it matches, you MUST FAIL it and return the specific 'action' from the JSON.
-Return JSON:
-{
-  "excluded": true/false,
-  "action": "The action string if excluded, else empty string",
-  "reason": "Why it matched the exclusion"
-}
-"""
-        user_prompt = f"""
-[ITEM DESCRIPTION]
-{item_description}
+        section_id = get_section_for_chapter(chapter_prefix)
 
-[EXCLUSION RULES JSON]
-{json.dumps(exclusions, ensure_ascii=False, indent=2)}
-"""
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt}
-                ],
-                temperature=0.0
-            )
-            content = response.choices[0].message.content.strip()
-            if content.startswith("```json"):
-                content = content[7:-3].strip()
-            elif content.startswith("```"):
-                content = content[3:-3].strip()
-                
-            res = json.loads(content)
-            
-            if res.get("excluded"):
-                return False, f"Vi phạm Exclusion Rule JSON: {res.get('reason')} -> Đề xuất: {res.get('action')}"
-                
-            return True, "PASS"
+            results = query_legal_notes(item_description, section_id, chapter_prefix)
         except Exception as e:
-            print(f"[Gatekeeper] Parsing warning: {e}")
-            # If parsing fails, let QA catch it later rather than blocking the pipeline
+            print(f"[Gatekeeper] ChromaDB query warning: {e}. Skipping exclusion check.")
             return True, "PASS"
+
+        if "error" in results:
+            # ChromaDB not available or chapter not indexed — pass through silently
+            return True, "PASS"
+
+        relevant_notes = results.get("relevant_chapter_rules", []) + results.get("relevant_section_notes", [])
+
+        for note in relevant_notes:
+            note_lower = str(note).lower()
+            # If the note is an exclusion AND it mentions routing to a DIFFERENT chapter
+            if "exclusion:" in note_lower:
+                # Extract "see X.XX" or "heading XX" patterns as chapter redirect signals
+                redirect_chapters = re.findall(r'\b(\d{2})\.\d{2}\b', note)
+                for redirect_ch in redirect_chapters:
+                    if redirect_ch != chapter_prefix and hs_code.startswith(chapter_prefix):
+                        # This exclusion rule points to a DIFFERENT heading family
+                        action_text = note.split("->")[-1].strip() if "->" in note else note
+                        return False, f"Vi phạm Exclusion Rule (Semantic): {note[:200]} → Xem xét: {action_text}"
+
+        return True, "PASS"
 
     def check(self, hs_code: str, item_description: str, extracted_features: dict):
         """
-        Check if the proposed HS code violates any hardcoded rules or JSON exclusion rules.
+        Check if the proposed HS code violates any hardcoded rules or exclusion rules.
         """
         if hs_code == "UNKNOWN":
             return False, "HS Code is UNKNOWN or agent failed to predict."
-            
+
         for rule in self.rules:
             if rule["condition"](extracted_features):
                 if not rule["action"](hs_code):
                     return False, f"Hardcoded Linter Error: {rule['error_msg']}"
-                    
-        # Neuro-symbolic JSON Exclusion Check
-        is_valid, msg = self._check_json_exclusions(hs_code, item_description)
+
+        # [OPTIMIZED] Semantic exclusion check via ChromaDB — no LLM call
+        is_valid, msg = self._check_semantic_exclusions(hs_code, item_description)
         if not is_valid:
             return False, msg
-                    
+
         return True, "PASS"
+
 
 if __name__ == "__main__":
     gatekeeper = HSGatekeeper()

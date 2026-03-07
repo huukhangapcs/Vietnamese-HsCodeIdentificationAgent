@@ -47,7 +47,7 @@ class HSCoderAgent:
         else:
             return f"Error: function {function_name} not found."
 
-    def classify_item(self, item_description: str, starting_node_id: str, max_steps: int = 8, current_feedback: str = "", stream_callback=None, input_callback=None) -> dict:
+    def classify_item(self, item_description: str, starting_node_id: str, max_steps: int = 5, current_feedback: str = "", stream_callback=None, input_callback=None) -> dict:
         """
         Runs the ReAct loop to classify the item, starting straight from a localized node.
         """
@@ -72,8 +72,9 @@ Focus on the essence of the good, NEVER be overly influenced by marketing names.
 3. VECTOR SEARCH NAVIGATION: DO NOT GUESS HS CODES. You MUST call search_hs_nodes(query, chapter_id) using a highly descriptive semantic query (e.g. 'smartwatch bluetooth electronic') to retrieve the top 5 relevant subheadings from the database. 
 4. CHAPTER JUMPING: If the vector search returns highly relevant Results with distances < 1.0 that belong to a DIFFERENT Chapter, and they fit your Material/Function analysis better, you ARE AUTHORIZED to switch your focus to that new Chapter.
 5. If stuck between distinct valid options to move forward and lacking info, CALL ask_user_clarification(question).
+6. ANTI-LOOP MECHANISM: If you have called `search_hs_nodes` 2 or 3 times and still cannot find a perfectly matching HS code, DO NOT keep searching. STOP searching immediately. Use your best expert judgment based on the context you have gathered to determine the most likely 4, 6, or 8-digit HS code and return your final answer.
 
-Once you reach a leaf node OR hit an explicit Exclusion Rule, return your final answer in JSON format:
+Once you reach a leaf node, hit an explicit Exclusion Rule, or exhaust your 3 search attempts, return your final answer in JSON format:
 {{"hs_code": "01012100", "reasoning": "Detailed explanation citing the specific heading texts and any Legal Notes applied..."}}
 Do not return any other markdown outside the JSON block.
 """
@@ -167,23 +168,52 @@ Do not return any other markdown outside the JSON block.
                                 return {"hs_code": "CLARIFICATION_NEEDED", "question": question, "options": options, "reasoning": "Need more info from user."}
                     
                     # ---------------------------------------------------------
-                    # STRATEGY 1: MESSAGE PRUNING (Token Optimization)
-                    # Giữ History ngắn gọn, tránh nổ Token. Nếu lịch sử quá dài (vượt quá 6 messages trao đổi), cắt bỏ các tool calls cũ.
+                    # STRATEGY: SUMMARIZATION MEMORY (thay Hard Pruning)
+                    # Thay vì xóa cứng các message cũ (dễ làm Agent "mất trí nhớ"),
+                    # ta tóm tắt lại các bước đã đi thành 1 context message gọn.
                     # ---------------------------------------------------------
-                    if len(messages) > 8:
-                        # Giữ nguyên System (index 0) và Original User Prompt (index 1)
-                        # Xóa bỏ 2 messages cũ nhất của bot (một cặp ASSISTANT ToolCall + TOOL Result)
-                        messages.pop(2)
-                        messages.pop(2)
-                    
-                    # Add newest tool call and result to messages in FULL
+                    HISTORY_THRESHOLD = 10  # Tăng lên 10 để cho Agent nhiều context hơn
+                    if len(messages) > HISTORY_THRESHOLD:
+                        # Thu thập tất cả các tool calls + results cũ (trừ system + user prompt gốc)
+                        old_pairs = messages[2:]  # Bỏ qua index 0 (system) và 1 (user prompt)
+                        
+                        # Tóm tắt gọn lại: chỉ giữ function name, args ngắn gọn, và kết quả quan trọng
+                        summary_lines = []
+                        for msg in old_pairs:
+                            if msg.get("role") == "assistant" and msg.get("tool_calls"):
+                                for tc in msg["tool_calls"]:
+                                    try:
+                                        args_obj = json.loads(tc.function.arguments)
+                                        # Lấy tham số quan trọng nhất (node_id, chapter_id, query...)
+                                        key_arg = (args_obj.get("node_id") or args_obj.get("chapter_id") 
+                                                   or args_obj.get("query", "")[:40] or "")
+                                        summary_lines.append(f"• Called {tc.function.name}({key_arg})")
+                                    except Exception:
+                                        summary_lines.append(f"• Called {tc.function.name}")
+                            elif msg.get("role") == "tool":
+                                # Chỉ giữ phần đầu của kết quả (quan trọng nhất)
+                                content_preview = str(msg.get("content", ""))[:150].replace("\n", " ")
+                                summary_lines.append(f"  → Result: {content_preview}")
+
+                        if summary_lines:
+                            summary_text = "CONTEXT MEMORY (Các bước đã thực hiện):\n" + "\n".join(summary_lines[-20:])  # Max 20 dòng
+                            # Reset messages: giữ system + user prompt gốc + summary
+                            messages = [
+                                messages[0],  # system
+                                messages[1],  # user original prompt
+                                {"role": "system", "content": summary_text}
+                            ]
+                            print(f"  📝 [Memory] Đã tóm tắt {len(old_pairs)} messages cũ thành context summary.")
+
+                    # Add newest tool call and result to messages
                     messages.append({"role": "assistant", "tool_calls": [tool_call]})
                     messages.append({
                         "role": "tool",
                         "tool_call_id": tool_call.id,
                         "name": function_name,
-                        "content": str(tool_result)[:1000] # Bắt 1000 kí tự để tiết kiệm token
+                        "content": str(tool_result)[:1500]  # Tăng giới hạn lên 1500 ký tự để đọc đầy đủ hơn
                     })
+
             else:
                 # No more tool calls, it should be the final answer
                 content = response_msg.content

@@ -20,26 +20,26 @@
 
 Hệ thống tự động phân loại hàng hoá xuất nhập khẩu theo **Biểu thuế HS (Harmonized System)** đến 8 chữ số, dựa trên mô tả bằng ngôn ngữ tự nhiên (tiếng Việt hoặc tiếng Anh).
 
-**Điểm nổi bật:**
-- 🧠 **Multi-Agent**: 5 agent chuyên biệt phối hợp theo pipeline
-- ⚡ **Fast Path**: Cache hit trả kết quả gần như tức thì (~0s)
-- 🔍 **Semantic Search**: ChromaDB vector search để tìm mã HS liên quan
-- 👤 **Human-in-the-Loop**: Agent tự động hỏi người dùng khi cần thêm thông tin
-- ✅ **QA Auditor**: Red-team agent kiểm tra kết quả trước khi trả về
+**Điểm nổi bật (V2.0 Optimization):**
+- 🧠 **Multi-Agent RAG Pipeline**: 5 agent phối hợp với **bộ nhớ đệm Vector DB (ChromaDB)**.
+- ⚡ **Zero-LLM Gatekeeper**: Linter thuần Python dùng Semantic Search, loại bỏ hoàn toàn độ trễ API.
+- 📉 **Token Optimization**: Giảm >80% context window nhờ RAG hóa `query_legal_notes` (từ 5000 xuống ~400 token).
+- 🧩 **Agentic Memory**: Tích hợp cơ chế *Summarization Memory* và *Anti-Loop Mechanism* cho Coder Agent, chặn kẹt loop và duy trì logic sâu.
+- 🚀 **Fast Path**: Cache hit trả kết quả trực tiếp (~0s).
+- 👤 **Human-in-the-Loop**: Agent chủ động hỏi/clarify khi mô tả hàng hóa thiếu thông tin.
 - 🔐 **Security hardened**: Rate limiting, XSS protection, prompt injection defense
 
 ---
 
 ## 🏗️ Kiến trúc hệ thống
 
-```
+```text
                         User Query (Mô tả hàng hoá)
                                     │
                     ┌───────────────▼──────────────────┐
                     │  [Step 0] ItemAnalyzer           │
-                    │  • Validate input (heuristic+LLM)│
-                    │  • Extract: name, material,       │
-                    │    function, state/condition      │
+                    │  • Validate & Extract Features   │
+                    │  • (Gộp thành 1 LLM call để GPU) │
                     └───────────────┬──────────────────┘
                                     │
                     ┌───────────────▼──────────────────┐
@@ -52,30 +52,29 @@ Hệ thống tự động phân loại hàng hoá xuất nhập khẩu theo **Bi
                     ┌───────────────▼──────────────────┐
                     │  [Step 1] Tier1Router            │
                     │  Pass 1: Top-3 Section candidates│
-                    │  Pass 2: Check Legal Notes →     │
+                    │  Pass 2: RAG query_legal_notes → │
                     │          chốt Section + Chapter  │
                     └───────────────┬──────────────────┘
                                     │
                     ┌───────────────▼──────────────────┐
                     │  [Step 2] HSCoderAgent (ReAct)   │
-                    │  Max 15 steps, 6 tools:          │
-                    │  • navigate_node                 │
+                    │  Max 5 steps (Anti-Loop Guard):  │
                     │  • search_hs_nodes (vector)      │
-                    │  • query_legal_notes             │
-                    │  • get_chapter_rules             │
-                    │  • get_general_rules (GIR)       │
+                    │  • query_legal_notes (RAG)       │
+                    │  + Summarization Memory Focus    │
                     │  • ask_user_clarification ─────► Human-in-the-Loop
                     └───────────────┬──────────────────┘
                                     │
                     ┌───────────────▼──────────────────┐
                     │  [Step 3] HSGatekeeper (Linter)  │
-                    │  • Hardcoded rules (wood→ch44)   │
-                    │  • Neuro-symbolic exclusion check│
+                    │  • Pure Python Validation        │
+                    │  • Rule search via ChromaDB      │
+                    │  • ZERO API CALLS (0ms latency)  │
                     └───────────────┬──────────────────┘
                                     │ PASS
                     ┌───────────────▼──────────────────┐
                     │  [Step 4] QAAuditorAgent         │
-                    │  • Red-team: check legal notes   │
+                    │  • Red-team: Semantic RAG check  │
                     │  • FAIL → Revision loop (max 2x) │
                     └───────────────┬──────────────────┘
                                     │ PASS

@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
 from core.llm_provider import get_llm_client
-from tools.knowledge_tools import get_all_sections, get_chapters_for_section, get_chapter_title
+from tools.knowledge_tools import get_all_sections, get_chapters_for_section, get_chapter_title, SECTION_TO_CHAPTERS
 
 class Tier1Router:
     """
@@ -87,17 +87,23 @@ Do not return any other text outside the JSON block."""
             stream_callback({"type": "info", "message": f"  ✅ Đã khoanh vùng Top {len(candidates)} Sections tiềm năng: {', '.join(candidates)}"})
         
         # 2. Check Notes and Pick the Best One
-        from tools.knowledge_tools import get_section_notes
+        from tools.knowledge_tools import query_legal_notes
+        # [OPTIMIZED] Thay vì dump TOÀN BỘ exclusions của từng section (có thể hàng trăm rules),
+        # chỉ semantic-search lấy ~3 notes THỰC SỰ liên quan đến item này.
         notes_context = ""
         for cand in candidates:
-            cand_notes = get_section_notes(cand)
-            if "error" not in cand_notes:
-                excl = cand_notes.get("structured_notes", {}).get("exclusions", [])
-                if excl:
-                    notes_context += f"\n--- {cand} EXCLUSIONS (Loại trừ) ---\n"
-                    for e in excl:
-                        notes_context += f"- {e.get('condition')} -> {e.get('action')}\n"
-        
+            section_id_for_query = cand
+            try:
+                rag_result = query_legal_notes(item_description, section_id_for_query, "")
+                relevant = rag_result.get("relevant_section_notes", [])
+                if relevant:
+                    notes_context += f"\n--- {cand} RELEVANT NOTES (Semantic RAG) ---\n"
+                    for note in relevant:
+                        notes_context += f"- {note}\n"
+            except Exception:
+                pass  # ChromaDB not available — skip silently
+
+
         options_text = "\n".join([f"- {s['id']}: {s['title']} ({s.get('description', '')})" for s in sections if s['id'] in candidates])
         
         feedback_prompt = f"\n\nWARNING/FEEDBACK FROM PREVIOUS ATTEMPT:\n{current_feedback}\nPlease pick a DIFFERENT Section or reconsider." if current_feedback else ""
@@ -164,10 +170,25 @@ Do not respond with anything else. No reasoning, no markdown formatting."""
             
         options_text = "\n".join(options_list)
         
+        # [OPTIMIZED] Dùng Semantic RAG thay vì dump full section_notes vào prompt
+        # section_notes param (chuỗi text thô lớn từ pipeline.py) bị bỏ qua.
+        # Thay vào đó, chỉ lấy top 3 notes liên quan đến item này qua ChromaDB.
+        notes_rag_text = ""
+        try:
+            from tools.knowledge_tools import query_legal_notes
+            rag = query_legal_notes(item_description, section_id, "")
+            relevant = rag.get("relevant_section_notes", [])
+            if relevant:
+                notes_rag_text = "RELEVANT SECTION NOTES (Legal Authority):\n"
+                notes_rag_text += "\n".join(f"- {n}" for n in relevant)
+        except Exception:
+            pass  # ChromaDB not ready — skip
+
         feedback_prompt = f"\n\nWARNING/FEEDBACK FROM PREVIOUS ATTEMPT:\n{current_feedback}\nPlease pick a DIFFERENT Chapter or reconsider." if current_feedback else ""
-        
-        notes_prompt = f"\n\nSECTION NOTES & EXCLUSIONS (CRITICAL):\n{section_notes}\nDO NOT route to a chapter if it is explicitly excluded in the notes above." if section_notes else ""
-        
+
+        notes_prompt = f"\n\n{notes_rag_text}\nDO NOT route to a chapter if it is explicitly excluded in the notes above." if notes_rag_text else ""
+
+
         system_prompt = f"""You are the Tier-1 Router for Customs HS Code Classification.
 Your task is to route the item to the correct Chapter (Chương) within the established Section {section_id}.
 [CRITICAL ROUTING INSTRUCTIONS]
@@ -207,9 +228,20 @@ Remember, you must ONLY output the EXACT Chapter ID from the list above. No reas
                     stream_callback({"type": "info", "message": f"  🎯 Đã khoá mục tiêu Chương: {chapter_id}"})
                 return chapter_id
             else:
-                fallback_ch = chapters[0] if chapters else "UNKNOWN"
-                print(f"  ❌ LLM trả về mã rác: {chapter_id}, ép về {fallback_ch}")
-                return fallback_ch
+                # [BUG FIX] Kiểm tra xem chapter LLM gợi ý có hợp lệ toàn cục không.
+                # Nếu có, có thể Router đã chọn sai Section — trust LLM chapter gợi ý.
+                all_valid_chapters = [ch for chs in SECTION_TO_CHAPTERS.values() for ch in chs]
+                ch_normalized = str(chapter_id).zfill(2)
+                if ch_normalized in all_valid_chapters:
+                    print(f"  ⚠️ LLM đề xuất '{ch_normalized}' nằm ngoài {section_id}, nhưng hợp lệ toàn cục → Trust LLM.")
+                    if stream_callback:
+                        stream_callback({"type": "info", "message": f"  ⚠️ Cross-section chapter detected: {ch_normalized} → Trust LLM."})
+                    return ch_normalized
+                else:
+                    fallback_ch = chapters[0] if chapters else "UNKNOWN"
+                    print(f"  ❌ LLM trả về mã không hợp lệ: '{chapter_id}', fallback về {fallback_ch}")
+                    return fallback_ch
+
         except Exception as e:
             print(f"  ❌ Lỗi kết nối API: {e}")
             return "UNKNOWN"
