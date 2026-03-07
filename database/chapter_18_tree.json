@@ -1,0 +1,162 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1801",
+        "description_en": "Cocoa beans, whole or broken, raw or roasted",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "18010010",
+                "description_en": "Fermented",
+                "children": [],
+                "semantic_path": "Cocoa beans, whole or broken, raw or roasted > Fermented"
+            },
+            {
+                "level": 1,
+                "hs_code": "18010090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Cocoa beans, whole or broken, raw or roasted > Other"
+            }
+        ],
+        "semantic_path": "Cocoa beans, whole or broken, raw or roasted"
+    },
+    {
+        "level": 0,
+        "hs_code": "18020000",
+        "description_en": "Cocoa shells, husks, skins and other cocoa waste",
+        "children": [],
+        "semantic_path": "Cocoa shells, husks, skins and other cocoa waste"
+    },
+    {
+        "level": 0,
+        "hs_code": "1803",
+        "description_en": "Cocoa paste, whether or not defatted",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "18031000",
+                "description_en": "Not defatted",
+                "children": [],
+                "semantic_path": "Cocoa paste, whether or not defatted > Not defatted"
+            },
+            {
+                "level": 1,
+                "hs_code": "18032000",
+                "description_en": "Wholly or partly defatted",
+                "children": [],
+                "semantic_path": "Cocoa paste, whether or not defatted > Wholly or partly defatted"
+            }
+        ],
+        "semantic_path": "Cocoa paste, whether or not defatted"
+    },
+    {
+        "level": 0,
+        "hs_code": "18040000",
+        "description_en": "Cocoa butter, fat and oil",
+        "children": [],
+        "semantic_path": "Cocoa butter, fat and oil"
+    },
+    {
+        "level": 0,
+        "hs_code": "18050000",
+        "description_en": "Cocoa powder, not containing added sugar or other sweetening matter",
+        "children": [],
+        "semantic_path": "Cocoa powder, not containing added sugar or other sweetening matter"
+    },
+    {
+        "level": 0,
+        "hs_code": "1806",
+        "description_en": "Chocolate and other food preparations containing cocoa",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "18061000",
+                "description_en": "Cocoa powder, containing added sugar or other sweetening matter",
+                "children": [],
+                "semantic_path": "Chocolate and other food preparations containing cocoa > Cocoa powder, containing added sugar or other sweetening matter"
+            },
+            {
+                "level": 1,
+                "hs_code": "180620",
+                "description_en": "Other preparations in blocks, slabs or bars weighing more than 2 kg or in liquid, paste, powder, granular or other bulk form in containers or immediate packings, of a content exceeding 2 kg:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "18062010",
+                        "description_en": "Chocolate confectionery in blocks, slabs or bars",
+                        "children": [],
+                        "semantic_path": "Chocolate and other food preparations containing cocoa > Other preparations in blocks, slabs or bars weighing more than 2 kg or in bulk form exceeding 2 kg: > Chocolate confectionery in blocks, slabs or bars"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "18062090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Chocolate and other food preparations containing cocoa > Other preparations in blocks, slabs or bars weighing more than 2 kg or in bulk form exceeding 2 kg: > Other"
+                    }
+                ],
+                "semantic_path": "Chocolate and other food preparations containing cocoa > Other preparations in blocks, slabs or bars weighing more than 2 kg or in bulk form exceeding 2 kg:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Other, in blocks, slabs or bars:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "18063100",
+                        "description_en": "Filled",
+                        "children": [],
+                        "semantic_path": "Chocolate and other food preparations containing cocoa > Other, in blocks, slabs or bars: > Filled"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "18063200",
+                        "description_en": "Not filled",
+                        "children": [],
+                        "semantic_path": "Chocolate and other food preparations containing cocoa > Other, in blocks, slabs or bars: > Not filled"
+                    }
+                ],
+                "semantic_path": "Chocolate and other food preparations containing cocoa > Other, in blocks, slabs or bars:"
+            },
+            {
+                "level": 1,
+                "hs_code": "180690",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "18069010",
+                        "description_en": "Chocolate confectionery in tablets or pastilles",
+                        "children": [],
+                        "semantic_path": "Chocolate and other food preparations containing cocoa > Other: > Chocolate confectionery in tablets or pastilles"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "18069030",
+                        "description_en": "Food preparations of flour, meal, starch or malt extract, containing 40% or more but not exceeding 50% by weight of cocoa calculated on a totally defatted basis",
+                        "children": [],
+                        "semantic_path": "Chocolate and other food preparations containing cocoa > Other: > Food preparations of flour, meal, starch or malt extract, containing 40% or more but not exceeding 50% cocoa (totally defatted basis)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "18069040",
+                        "description_en": "Food preparations of goods of headings 04.01 to 04.04, containing 5% or more but not exceeding 10% by weight of cocoa calculated on a totally defatted basis, specially prepared for infants or young children, not put up for retail sale",
+                        "children": [],
+                        "semantic_path": "Chocolate and other food preparations containing cocoa > Other: > Food preparations from dairy products (04.01-04.04), containing 5-10% cocoa (totally defatted basis), for infants or young children, not put up for retail sale"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "18069090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Chocolate and other food preparations containing cocoa > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Chocolate and other food preparations containing cocoa > Other:"
+            }
+        ],
+        "semantic_path": "Chocolate and other food preparations containing cocoa"
+    }
+]

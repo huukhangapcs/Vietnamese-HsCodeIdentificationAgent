@@ -1,0 +1,110 @@
+{
+    "chapter_code": "19",
+    "inclusions": [
+        "Malt extract",
+        "Food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40% cocoa (totally defatted basis), not elsewhere specified or included",
+        "Food preparations of dairy products (headings 04.01 to 04.04), not containing cocoa or containing less than 5% cocoa (totally defatted basis), not elsewhere specified or included",
+        "Preparations suitable for infants or young children, put up for retail sale",
+        "Medical foods for infants and young children",
+        "Mixes and doughs for the preparation of bakers' wares of heading 19.05",
+        "Soya-based preparations",
+        "Pasta (spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni), whether or not cooked, stuffed or otherwise prepared",
+        "Couscous, whether or not prepared",
+        "Rice vermicelli, transparent vermicelli (miến), instant noodles",
+        "Stuffed pasta (even if containing more than 20% meat or fish)",
+        "Tapioca and substitutes therefor prepared from starch, in the form of flakes, grains, pearls, siftings or similar forms",
+        "Prepared foods from swelling or roasting of cereals (corn flakes, muesli, puffed rice)",
+        "Pre-cooked or otherwise prepared cereals (bulgur wheat, pre-cooked rice)",
+        "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa",
+        "Crispbread, gingerbread, sweet biscuits, waffles, wafers",
+        "Rusks, toasted bread and similar toasted products",
+        "Unsweetened teething biscuits",
+        "Cakes, pastries, flourless bakers' wares",
+        "Empty cachets of a kind suitable for pharmaceutical use",
+        "Communion wafers, sealing wafers, rice paper (banh da) and similar products",
+        "Crisp savoury food products"
+    ],
+    "exclusions": [
+        {
+            "condition": "Food preparations containing more than 20% by weight of meat, fish, seafood etc. — EXCEPT stuffed pasta of heading 19.02",
+            "action": "Redirect to Chapter 16 (except stuffed pasta stays in 19.02)",
+            "keywords": [
+                "more than 20%",
+                "meat",
+                "fish",
+                "seafood",
+                "chapter 16"
+            ]
+        },
+        {
+            "condition": "Biscuits or articles made from flour or starch, specially prepared for animal feeding",
+            "action": "Redirect to Heading 23.09",
+            "keywords": [
+                "animal feed",
+                "pet food",
+                "23.09"
+            ]
+        },
+        {
+            "condition": "Medicaments or other products of Chapter 30",
+            "action": "Redirect to Chapter 30",
+            "keywords": [
+                "medicament",
+                "pharmaceutical",
+                "chapter 30"
+            ]
+        },
+        {
+            "condition": "Flour of dried vegetables (heading 07.12), potatoes (heading 11.05) or dried leguminous vegetables (heading 11.06) — not considered 'flour' for 1901 purposes",
+            "action": "Redirect to Heading 07.12, 11.05 or 11.06",
+            "keywords": [
+                "dried vegetable flour",
+                "potato flour",
+                "07.12",
+                "11.05",
+                "11.06"
+            ]
+        },
+        {
+            "condition": "Prepared foods of heading 19.04 containing more than 6% cocoa (totally defatted basis) or completely coated with chocolate of heading 18.06",
+            "action": "Redirect to Heading 18.06",
+            "keywords": [
+                "more than 6% cocoa",
+                "chocolate coated",
+                "18.06"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Stuffed pasta exception (19.02)",
+            "description": "Stuffed pasta of heading 19.02 (e.g., ravioli, tortellini, cannelloni filled with meat) remains in 19.02 EVEN IF it contains more than 20% meat, fish or seafood by weight. This is an explicit exception to the Chapter 16 rule.",
+            "priority": 1
+        },
+        {
+            "rule": "Cocoa threshold for 1901 vs 18.06",
+            "description": "For flour/starch/malt extract preparations: if cocoa content (totally defatted basis) is LESS THAN 40% → 1901; 40% or more → 18.06. For dairy (04.01-04.04) preparations: if cocoa is LESS THAN 5% → 1901; 5% or more → 18.06.",
+            "priority": 2
+        },
+        {
+            "rule": "Cocoa threshold for 1904 vs 18.06",
+            "description": "Prepared cereal foods of heading 19.04 must NOT contain more than 6% cocoa (totally defatted basis) and must NOT be completely coated with chocolate (18.06). If either condition is exceeded → 18.06.",
+            "priority": 3
+        },
+        {
+            "rule": "Definition of flour/meal for 1901",
+            "description": "For heading 19.01, 'flour' and 'meal' include: (1) cereal flour/meal of Chapter 11, and (2) flour/meal/powder of vegetable origin from ANY Chapter — EXCEPT flour of dried vegetables (07.12), potatoes (11.05), or dried leguminous vegetables (11.06).",
+            "priority": 4
+        },
+        {
+            "rule": "Infant preparations retail vs non-retail split",
+            "description": "Infant/young children preparations PUT UP FOR RETAIL SALE → 1901.10. Infant/young children preparations NOT put up for retail sale → 1901.90.",
+            "priority": 5
+        },
+        {
+            "rule": "Otherwise prepared cereals (1904)",
+            "description": "'Otherwise prepared' in heading 19.04 means prepared or processed to an extent BEYOND what is provided for in Chapter 10 (cereals) or Chapter 11 (milling products). Simple cleaning, husking or polishing is not sufficient.",
+            "priority": 6
+        }
+    ]
+}

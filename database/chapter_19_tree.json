@@ -1,0 +1,600 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1901",
+        "description_en": "Malt extract; food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40% by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included; food preparations of goods of headings 04.01 to 04.04, not containing cocoa or containing less than 5% by weight of cocoa calculated on a totally defatted basis, not elsewhere specified or included",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "190110",
+                "description_en": "Preparations suitable for infants or young children, put up for retail sale:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19011010",
+                        "description_en": "Of malt extract",
+                        "children": [],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Preparations suitable for infants or young children, put up for retail sale: > Of malt extract"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19011020",
+                        "description_en": "Of goods of headings 04.01 to 04.04",
+                        "children": [],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Preparations suitable for infants or young children, put up for retail sale: > Of goods of headings 04.01 to 04.04"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19011030",
+                        "description_en": "Of soya-bean powder",
+                        "children": [],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Preparations suitable for infants or young children, put up for retail sale: > Of soya-bean powder"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "19011091",
+                                "description_en": "Medical foods",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Preparations suitable for infants or young children, put up for retail sale: > Other: > Medical foods"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19011092",
+                                "description_en": "Other, for children age over 1 year but not exceeding 3 years",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Preparations suitable for infants or young children, put up for retail sale: > Other: > Other, for children age over 1 year but not exceeding 3 years"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19011099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Preparations suitable for infants or young children, put up for retail sale: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Preparations suitable for infants or young children, put up for retail sale: > Other:"
+                    }
+                ],
+                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Preparations suitable for infants or young children, put up for retail sale:"
+            },
+            {
+                "level": 1,
+                "hs_code": "190120",
+                "description_en": "Mixes and doughs for the preparation of bakers' wares of heading 19.05:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19012010",
+                        "description_en": "Of flour, groats, meal, starch or malt extract, not containing cocoa",
+                        "children": [],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Mixes and doughs for the preparation of bakers' wares of heading 19.05: > Of flour, groats, meal, starch or malt extract, not containing cocoa"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19012020",
+                        "description_en": "Of flour, groats, meal, starch or malt extract, containing cocoa",
+                        "children": [],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Mixes and doughs for the preparation of bakers' wares of heading 19.05: > Of flour, groats, meal, starch or malt extract, containing cocoa"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19012030",
+                        "description_en": "Other, not containing cocoa",
+                        "children": [],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Mixes and doughs for the preparation of bakers' wares of heading 19.05: > Other, not containing cocoa"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19012040",
+                        "description_en": "Other, containing cocoa",
+                        "children": [],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Mixes and doughs for the preparation of bakers' wares of heading 19.05: > Other, containing cocoa"
+                    }
+                ],
+                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Mixes and doughs for the preparation of bakers' wares of heading 19.05:"
+            },
+            {
+                "level": 1,
+                "hs_code": "190190",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_1",
+                        "description_en": "Preparations suitable for infants or young children, not put up for retail sale:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "19019011",
+                                "description_en": "Medical foods",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Preparations suitable for infants or young children, not put up for retail sale: > Medical foods"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19019019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Preparations suitable for infants or young children, not put up for retail sale: > Other"
+                            }
+                        ],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Preparations suitable for infants or young children, not put up for retail sale:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19019020",
+                        "description_en": "Malt extract",
+                        "children": [],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Malt extract"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_2",
+                        "description_en": "Other, of goods of headings 04.01 to 04.04:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "19019031",
+                                "description_en": "Filled milk",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other, of goods of headings 04.01 to 04.04: > Filled milk"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19019032",
+                                "description_en": "Other, containing cocoa powder",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other, of goods of headings 04.01 to 04.04: > Other, containing cocoa powder"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19019039",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other, of goods of headings 04.01 to 04.04: > Other"
+                            }
+                        ],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other, of goods of headings 04.01 to 04.04:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_3",
+                        "description_en": "Other soya-based preparations:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "19019041",
+                                "description_en": "In powder form",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other soya-based preparations: > In powder form"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19019049",
+                                "description_en": "In other forms",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other soya-based preparations: > In other forms"
+                            }
+                        ],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other soya-based preparations:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_4",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "19019091",
+                                "description_en": "Medical foods",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other: > Medical foods"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19019099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Malt extract; food preparations of flour/starch/malt extract (<40% cocoa); food preparations of dairy (<5% cocoa) > Other:"
+            }
+        ],
+        "semantic_path": "Malt extract; food preparations of flour, groats, meal, starch or malt extract, not containing cocoa or containing less than 40% cocoa (totally defatted basis); food preparations of goods of headings 04.01 to 04.04, not containing cocoa or containing less than 5% cocoa (totally defatted basis)"
+    },
+    {
+        "level": 0,
+        "hs_code": "1902",
+        "description_en": "Pasta, whether or not cooked or stuffed (with meat or other substances) or otherwise prepared, such as spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Uncooked pasta, not stuffed or otherwise prepared:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19021100",
+                        "description_en": "Containing eggs",
+                        "children": [],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Uncooked pasta, not stuffed or otherwise prepared: > Containing eggs"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "190219",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "19021920",
+                                "description_en": "Rice vermicelli (including bee hoon)",
+                                "children": [],
+                                "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Uncooked pasta, not stuffed or otherwise prepared: > Other: > Rice vermicelli (including bee hoon)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19021930",
+                                "description_en": "Transparent vermicelli",
+                                "children": [],
+                                "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Uncooked pasta, not stuffed or otherwise prepared: > Other: > Transparent vermicelli"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19021940",
+                                "description_en": "Other noodles",
+                                "children": [],
+                                "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Uncooked pasta, not stuffed or otherwise prepared: > Other: > Other noodles"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19021990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Uncooked pasta, not stuffed or otherwise prepared: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Uncooked pasta, not stuffed or otherwise prepared: > Other:"
+                    }
+                ],
+                "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Uncooked pasta, not stuffed or otherwise prepared:"
+            },
+            {
+                "level": 1,
+                "hs_code": "190220",
+                "description_en": "Stuffed pasta, whether or not cooked or otherwise prepared:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19022010",
+                        "description_en": "Stuffed with meat or meat offal",
+                        "children": [],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Stuffed pasta, whether or not cooked or otherwise prepared: > Stuffed with meat or meat offal"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19022030",
+                        "description_en": "Stuffed with fish, crustaceans or molluscs",
+                        "children": [],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Stuffed pasta, whether or not cooked or otherwise prepared: > Stuffed with fish, crustaceans or molluscs"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19022090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Stuffed pasta, whether or not cooked or otherwise prepared: > Other"
+                    }
+                ],
+                "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Stuffed pasta, whether or not cooked or otherwise prepared:"
+            },
+            {
+                "level": 1,
+                "hs_code": "190230",
+                "description_en": "Other pasta:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19023020",
+                        "description_en": "Rice vermicelli (including bee hoon)",
+                        "children": [],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Other pasta: > Rice vermicelli (including bee hoon)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19023030",
+                        "description_en": "Transparent vermicelli",
+                        "children": [],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Other pasta: > Transparent vermicelli"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19023040",
+                        "description_en": "Other instant noodles",
+                        "children": [],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Other pasta: > Other instant noodles"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19023090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Other pasta: > Other"
+                    }
+                ],
+                "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Other pasta:"
+            },
+            {
+                "level": 1,
+                "hs_code": "19024000",
+                "description_en": "Couscous",
+                "children": [],
+                "semantic_path": "Pasta, whether or not cooked or stuffed or otherwise prepared; couscous > Couscous"
+            }
+        ],
+        "semantic_path": "Pasta, whether or not cooked or stuffed (with meat or other substances) or otherwise prepared, such as spaghetti, macaroni, noodles, lasagne, gnocchi, ravioli, cannelloni; couscous, whether or not prepared"
+    },
+    {
+        "level": 0,
+        "hs_code": "19030000",
+        "description_en": "Tapioca and substitutes therefor prepared from starch, in the form of flakes, grains, pearls, siftings or in similar forms",
+        "children": [],
+        "semantic_path": "Tapioca and substitutes therefor prepared from starch, in the form of flakes, grains, pearls, siftings or in similar forms"
+    },
+    {
+        "level": 0,
+        "hs_code": "1904",
+        "description_en": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize (corn)), in grain form or in the form of flakes or other worked grains (except flour, groats and meal), pre-cooked or otherwise prepared, not elsewhere specified or included",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "190410",
+                "description_en": "Prepared foods obtained by the swelling or roasting of cereals or cereal products:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19041010",
+                        "description_en": "Containing cocoa",
+                        "children": [],
+                        "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Prepared foods obtained by the swelling or roasting of cereals or cereal products: > Containing cocoa"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19041090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Prepared foods obtained by the swelling or roasting of cereals or cereal products: > Other"
+                    }
+                ],
+                "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Prepared foods obtained by the swelling or roasting of cereals or cereal products:"
+            },
+            {
+                "level": 1,
+                "hs_code": "190420",
+                "description_en": "Prepared foods obtained from unroasted cereal flakes or from mixtures of unroasted cereal flakes and roasted cereal flakes or swelled cereals:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19042010",
+                        "description_en": "Prepared foods obtained from unroasted cereal flakes",
+                        "children": [],
+                        "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Prepared foods obtained from unroasted cereal flakes or from mixtures: > Prepared foods obtained from unroasted cereal flakes"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19042090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Prepared foods obtained from unroasted cereal flakes or from mixtures: > Other"
+                    }
+                ],
+                "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Prepared foods obtained from unroasted cereal flakes or from mixtures:"
+            },
+            {
+                "level": 1,
+                "hs_code": "19043000",
+                "description_en": "Bulgur wheat",
+                "children": [],
+                "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Bulgur wheat"
+            },
+            {
+                "level": 1,
+                "hs_code": "190490",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19049010",
+                        "description_en": "Rice preparations, including pre-cooked rice",
+                        "children": [],
+                        "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Other: > Rice preparations, including pre-cooked rice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19049090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Prepared foods from swelling or roasting of cereals; pre-cooked cereals > Other:"
+            }
+        ],
+        "semantic_path": "Prepared foods obtained by the swelling or roasting of cereals or cereal products (for example, corn flakes); cereals (other than maize), pre-cooked or otherwise prepared, not elsewhere specified or included"
+    },
+    {
+        "level": 0,
+        "hs_code": "1905",
+        "description_en": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "19051000",
+                "description_en": "Crispbread",
+                "children": [],
+                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets, rice paper > Crispbread"
+            },
+            {
+                "level": 1,
+                "hs_code": "19052000",
+                "description_en": "Gingerbread and the like",
+                "children": [],
+                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets, rice paper > Gingerbread and the like"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Sweet biscuits; waffles and wafers:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "190531",
+                        "description_en": "Sweet biscuits:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "19053110",
+                                "description_en": "Not containing cocoa",
+                                "children": [],
+                                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Sweet biscuits; waffles and wafers: > Sweet biscuits: > Not containing cocoa"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19053120",
+                                "description_en": "Containing cocoa",
+                                "children": [],
+                                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Sweet biscuits; waffles and wafers: > Sweet biscuits: > Containing cocoa"
+                            }
+                        ],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Sweet biscuits; waffles and wafers: > Sweet biscuits:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "190532",
+                        "description_en": "Waffles and wafers:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "19053210",
+                                "description_en": "Waffles",
+                                "children": [],
+                                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Sweet biscuits; waffles and wafers: > Waffles and wafers: > Waffles"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "19053220",
+                                "description_en": "Wafers",
+                                "children": [],
+                                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Sweet biscuits; waffles and wafers: > Waffles and wafers: > Wafers"
+                            }
+                        ],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Sweet biscuits; waffles and wafers: > Waffles and wafers:"
+                    }
+                ],
+                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Sweet biscuits; waffles and wafers:"
+            },
+            {
+                "level": 1,
+                "hs_code": "190540",
+                "description_en": "Rusks, toasted bread and similar toasted products:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19054010",
+                        "description_en": "Not containing added sugar, honey, eggs, fats, cheese or fruit",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Rusks, toasted bread and similar toasted products: > Not containing added sugar, honey, eggs, fats, cheese or fruit"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19054090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Rusks, toasted bread and similar toasted products: > Other"
+                    }
+                ],
+                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Rusks, toasted bread and similar toasted products:"
+            },
+            {
+                "level": 1,
+                "hs_code": "190590",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "19059010",
+                        "description_en": "Unsweetened teething biscuits",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Unsweetened teething biscuits"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19059020",
+                        "description_en": "Other unsweetened biscuits",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Other unsweetened biscuits"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19059030",
+                        "description_en": "Cakes",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Cakes"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19059040",
+                        "description_en": "Pastries",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Pastries"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19059050",
+                        "description_en": "Flourless bakers' wares",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Flourless bakers' wares"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19059060",
+                        "description_en": "Empty cachets and similar products of a kind suitable for pharmaceutical use",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Empty cachets and similar products of a kind suitable for pharmaceutical use"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19059070",
+                        "description_en": "Communion wafers, sealing wafers, rice paper and similar products",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Communion wafers, sealing wafers, rice paper and similar products"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19059080",
+                        "description_en": "Other crisp savoury food products",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Other crisp savoury food products"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "19059090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares > Other:"
+            }
+        ],
+        "semantic_path": "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers, empty cachets of a kind suitable for pharmaceutical use, sealing wafers, rice paper and similar products"
+    }
+]

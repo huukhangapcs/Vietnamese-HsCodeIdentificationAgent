@@ -1,267 +1,278 @@
-# 🤖 HS Code Identification Agent
+# 🛃 HS Code Identification Agent v2
 
-> Hệ thống phân loại mã HS Code tự động dựa trên **Multi-Agent Agentic Pipeline** kết hợp LLM DeepSeek + Vector Database.
-
----
-
-## 📋 Mục lục
-- [Tổng quan](#-tổng-quan)
-- [Kiến trúc hệ thống](#-kiến-trúc-hệ-thống)
-- [Cài đặt](#-cài-đặt)
-- [Cấu hình](#-cấu-hình)
-- [Chạy ứng dụng](#-chạy-ứng-dụng)
-- [Cấu trúc thư mục](#-cấu-trúc-thư-mục)
-- [API Reference](#-api-reference)
-- [Bảo mật](#-bảo-mật)
+An **agentic AI system** for automatic HS (Harmonized System) Code classification of import/export goods — with a two-path architecture (Fast Path & Slow Path), streaming interface, and a curated Vietnamese customs knowledge base.
 
 ---
 
-## 🎯 Tổng quan
+## 📐 Architecture Overview
 
-Hệ thống tự động phân loại hàng hoá xuất nhập khẩu theo **Biểu thuế HS (Harmonized System)** đến 8 chữ số, dựa trên mô tả bằng ngôn ngữ tự nhiên (tiếng Việt hoặc tiếng Anh).
-
-**Điểm nổi bật (V2.0 Optimization):**
-- 🧠 **Multi-Agent RAG Pipeline**: 5 agent phối hợp với **bộ nhớ đệm Vector DB (ChromaDB)**.
-- ⚡ **Zero-LLM Gatekeeper**: Linter thuần Python dùng Semantic Search, loại bỏ hoàn toàn độ trễ API.
-- 📉 **Token Optimization**: Giảm >80% context window nhờ RAG hóa `query_legal_notes` (từ 5000 xuống ~400 token).
-- 🧩 **Agentic Memory**: Tích hợp cơ chế *Summarization Memory* và *Anti-Loop Mechanism* cho Coder Agent, chặn kẹt loop và duy trì logic sâu.
-- 🚀 **Fast Path**: Cache hit trả kết quả trực tiếp (~0s).
-- 👤 **Human-in-the-Loop**: Agent chủ động hỏi/clarify khi mô tả hàng hóa thiếu thông tin.
-- 🔐 **Security hardened**: Rate limiting, XSS protection, prompt injection defense
-
----
-
-## 🏗️ Kiến trúc hệ thống
-
-```text
-                        User Query (Mô tả hàng hoá)
-                                    │
-                    ┌───────────────▼──────────────────┐
-                    │  [Step 0] ItemAnalyzer (Phase 1+2)
-                    │  • Validate & Extract Features   │
-                    │  • Generate English Keywords     │
-                    └───────────────┬──────────────────┘
-                                    │
-                    ┌───────────────▼──────────────────┐
-                    │  [Step 0.5] CacheManager         │
-                    │  • Exact-match lookup            │
-                    │  • HIT → Return immediately      │
-                    └───────────────┬──────────────────┘
-                                    │ MISS
-                    ┌───────────────▼──────────────────┐
-                    │  [Step 0.8] Fast-Track Search    │
-                    │  • Phase 3: Fuzz Match English   │
-                    │    Keywords on `hsdata` DB       │
-                    │  • Phase 4: QA Auditor check     │
-                    │  • PASS → Return Fast Path (~2s) │
-                    └───────────────┬──────────────────┘
-                                    │ FAIL/MISS
-                    ┌───────────────▼──────────────────┐
-                    │  [Step 1] Tier1Router            │
-                    │  Pass 1: Top-3 Section candidates│
-                    │  Pass 2: RAG query_legal_notes → │
-                    │          chốt Section + Chapter  │
-                    └───────────────┬──────────────────┘
-                                    │
-                    ┌───────────────▼──────────────────┐
-                    │  [Step 2] HSCoderAgent (ReAct)   │
-                    │  Max 5 steps (Anti-Loop Guard):  │
-                    │  • search_hs_nodes (vector)      │
-                    │  • query_legal_notes (RAG)       │
-                    │  + Summarization Memory Focus    │
-                    │  • ask_user_clarification ─────► Human-in-the-Loop
-                    └───────────────┬──────────────────┘
-                                    │
-                    ┌───────────────▼──────────────────┐
-                    │  [Step 3] HSGatekeeper (Linter)  │
-                    │  • Pure Python Validation        │
-                    │  • Rule search via ChromaDB      │
-                    │  • ZERO API CALLS (0ms latency)  │
-                    └───────────────┬──────────────────┘
-                                    │ PASS
-                    ┌───────────────▼──────────────────┐
-                    │  [Step 4] QAAuditorAgent         │
-                    │  • Red-team: Semantic RAG check  │
-                    │  • FAIL → Revision loop (max 2x) │
-                    └───────────────┬──────────────────┘
-                                    │ PASS
-                    ┌───────────────▼──────────────────┐
-                    │  Final HS Code (8 chữ số) ✅     │
-                    │  + Write-back to Cache           │
-                    └──────────────────────────────────┘
 ```
-
-### Stack công nghệ
-| Layer | Công nghệ |
-|-------|-----------|
-| **LLM** | DeepSeek Chat (via OpenAI-compatible API) |
-| **Vector DB** | ChromaDB + `paraphrase-multilingual-MiniLM-L12-v2` |
-| **Backend** | FastAPI + SSE (Server-Sent Events) |
-| **Frontend** | Vanilla HTML/CSS/JS, dark mode, glassmorphism |
-| **Database** | JSON files (HS tree, rules, cache) |
-
----
-
-## ⚙️ Cài đặt
-
-### Yêu cầu
-- Python 3.10+
-- pip
-
-### Cài dependencies
-
-```bash
-# Tạo virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate  # Windows
-
-# Cài packages
-pip install fastapi uvicorn openai chromadb sentence-transformers pydantic
-```
-
-### Build Vector Database (lần đầu tiên)
-
-```bash
-python database/build_vector_db.py
+User Query (Vietnamese/English)
+        │
+        ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                        FastAPI Server (app.py)                   │
+│  SSE Streaming  │  Session Management  │  Rate Limiting + Auth   │
+└────────────────────────────┬────────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                      HSPipeline (core/pipeline.py)              │
+│                                                                  │
+│  Step 0: ItemAnalyzer ──► Validate + Extract Features (1 LLM)   │
+│              │                                                   │
+│              ├─── Invalid ──► FAST REJECT                        │
+│              │                                                   │
+│              ▼                                                   │
+│  Step 0.5: CacheManager ──► Cache Hit? ──► Return Cached Result  │
+│              │                                                   │
+│              ▼                                                   │
+│  Step 0.8: Keyword Search (RapidFuzz) ─────────────────────────►│
+│              │                            ┌─── Gate A (no LLM)  │
+│              │  Score ≥ 75/80?            │   Hardcoded rules    │
+│              │                            │   Chapter exclusions │
+│              ├── YES ──► Gate A ──PASS──► Gate B (QA Auditor)   │
+│              │              │              1 LLM + ChromaDB      │
+│              │           FAIL             │                      │
+│              │              │             ├── PASS ──► Return ✅  │
+│              │              ▼             └── FAIL ──► Slow Path │
+│              │         Slow Path                                  │
+│              └── NO ──► Slow Path                                │
+│                              │                                   │
+│  ┌───────────────────────────▼──────────────────────────────┐   │
+│  │                      SLOW PATH                            │   │
+│  │                                                           │   │
+│  │  Tier1Router: Section → Chapter (2 LLM + RAG ChromaDB)   │   │
+│  │        │                                                  │   │
+│  │        ▼                                                  │   │
+│  │  HSCoderAgent: Tree traversal + Human-in-the-Loop         │   │
+│  │        │         (up to 8 steps, clarification Q&A)       │   │
+│  │        ▼                                                  │   │
+│  │  HSGatekeeper (Linter): Hardcoded rule check              │   │
+│  │        │── FAIL ──► Revision (max 2) ──► back to Router   │   │
+│  │        ▼                                                  │   │
+│  │  QAAuditorAgent: Red-team verification (1 LLM + ChromaDB) │   │
+│  │        │── FAIL ──► Revision                              │   │
+│  │        └── PASS ──► Cache + Return ✅                     │   │
+│  └───────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🔧 Cấu hình
-
-### API Key DeepSeek (bắt buộc)
-
-**Cách an toàn — dùng environment variable:**
-
-```bash
-# Thêm vào ~/.zshrc hoặc ~/.bashrc
-export DEEPSEEK_API_KEY="sk-your-key-here"
-source ~/.zshrc
-```
-
-> ⚠️ **KHÔNG** lưu key trực tiếp vào file và commit lên git.
-
-### API Key bảo vệ endpoint (tuỳ chọn, cho production)
-
-```bash
-export HSCODE_API_KEY="your-secret-api-key"
-# Frontend sẽ cần gửi header: X-API-Key: your-secret-api-key
-```
-
----
-
-## 🚀 Chạy ứng dụng
-
-```bash
-# Development (local only)
-python app.py
-# Hoặc
-bash run.sh
-
-# Truy cập tại: http://localhost:8000
-```
-
----
-
-## 📁 Cấu trúc thư mục
+## 📁 Project Structure
 
 ```
 hscodever3/
-├── app.py                   # FastAPI server, SSE streaming, auth, rate limiting
-├── run.sh                   # Script khởi động nhanh
-├── index.html               # Frontend (SPA, dark mode, real-time terminal)
+│
+├── app.py                    # FastAPI server — SSE streaming, session mgmt, endpoints
 │
 ├── core/
-│   ├── pipeline.py          # Orchestrator chính (5-step pipeline)
-│   ├── llm_provider.py      # LLM client factory (env var → file fallback)
-│   ├── cache_manager.py     # JSON-based cache với atomic write
-│   ├── schemas.py           # Pydantic schemas & tool definitions
-│   └── security.py          # Rate limiter, prompt injection sanitizer
+│   ├── pipeline.py           # HSPipeline — orchestrates all steps
+│   ├── cache_manager.py      # Redis-backed (or in-memory) LRU cache
+│   ├── llm_provider.py       # LLM client factory (DeepSeek-compatible OpenAI API)
+│   ├── schemas.py            # Pydantic request/response schemas
+│   └── security.py           # Rate limiting, input sanitization, prompt injection defense
 │
 ├── agents/
-│   ├── analyzer.py          # Step 0: validate + extract features
-│   ├── tier1_router.py      # Step 1: zero-shot Section/Chapter routing
-│   └── coder.py             # Step 2: ReAct loop (max 15 steps)
+│   ├── analyzer.py           # ItemAnalyzer — Step 0: validate + extract features (1 LLM call)
+│   ├── tier1_router.py       # Tier1Router — Section → Chapter routing (2 LLM + RAG)
+│   └── coder.py              # HSCoderAgent — recursive HS tree traversal + clarification loop
 │
 ├── linter/
-│   └── gatekeeper.py        # Step 3: hardcoded rules + LLM exclusion check
+│   └── gatekeeper.py         # HSGatekeeper — deterministic hardcoded rule enforcement
 │
 ├── qa/
-│   └── auditor.py           # Step 4: red-team QA agent
+│   └── auditor.py            # QAAuditorAgent — red-team LLM + ChromaDB verification
 │
 ├── tools/
-│   ├── knowledge_tools.py   # ChromaDB search + JSON tree navigation
-│   ├── extract_aku.py       # Tool build knowledge base
-│   └── optimize_db.py       # Tool tối ưu vector DB
+│   ├── knowledge_tools.py    # Core RAG engine: ChromaDB queries, chapter rules loader, keyword search
+│   ├── extract_aku.py        # Batch AKU extraction from raw HS data
+│   ├── migrate_searchable_db.py  # Builds hsdata_searchable.json from hsdata.csv
+│   └── optimize_db.py        # ChromaDB optimization utilities
 │
 ├── database/
-│   ├── chapter_*_tree.json  # HS nomenclature tree (chương 1-9)
-│   ├── chapter_*_rules.json # Legal notes & exclusion rules
-│   ├── general_rules.json   # 6 General Interpretative Rules (GIR)
-│   ├── sections_info_aku.json # 21 Sections metadata
-│   ├── hs_cache.json        # Cache LLM results (fast path)
-│   └── approved_cache.json  # Human-approved results history
+│   ├── chapter_X_rules.json  # Chapters 1–20: classification rules (inclusions, exclusions, logic)
+│   ├── chapter_X_tree.json   # Chapters 1–20: full HS code tree with semantic_path
+│   ├── general_rules.json    # Global HS classification rules (GRI rules)
+│   ├── sections_info_aku.json # Section-level notes and AKUs (Atomic Knowledge Units)
+│   ├── hsdata_searchable.json # Full searchable HS database (12MB)
+│   ├── hs_cache.json         # Persistent result cache
+│   ├── approved_cache.json   # User-approved results (fine-tuning signal)
+│   ├── build_vector_db.py    # Script to populate ChromaDB from JSON data
+│   └── chroma_db/            # ChromaDB vector store (legal notes embeddings)
 │
-├── tests/                   # Integration test scripts
-├── 6quytac/                 # 6 General Interpretive Rules reference docs
-└── .gitignore               # Bảo vệ secrets, venv, node_modules, cache
+├── index.html                # Single-page webapp frontend
+├── Dockerfile / docker-compose.yml / nginx/   # Production deployment
+└── requirements.txt
 ```
 
 ---
 
-## 📡 API Reference
+## 🔄 Classification Pipeline — Detailed Steps
 
-### `GET /stream`
-Phân loại hàng hoá (SSE streaming real-time).
+### ⚡ Fast Path (< 5s)
 
-| Param | Type | Mô tả |
-|-------|------|--------|
-| `q` | string | Mô tả hàng hoá (max 2000 ký tự) |
-| `session_id` | UUID | Session ID do frontend tạo |
+| Step | Component | Description |
+|------|-----------|-------------|
+| 0 | `ItemAnalyzer` | Heuristic fast-fail → 1 LLM call: validate input + extract 4 features + generate search keywords |
+| 0.5 | `CacheManager` | Redis/in-memory cache lookup. Cache hit → instant return |
+| 0.8 | Keyword Search | RapidFuzz fuzzy search on `hsdata_searchable.json`. Score ≥ 75 (2+ results) or ≥ 80 (1 result) → Fast Path |
+| Gate A | `_fast_path_gate_a` | **0 LLM**: check hardcoded linter rules + JSON chapter exclusion keywords |
+| Gate B | `QAAuditorAgent` | **1 LLM + ChromaDB**: red-team audit of keyword match candidate |
 
-**SSE Event types:** `info`, `action`, `observation`, `clarification_request`, `fast_path_result`, `slow_path_result`, `error`
+### 🧠 Slow Path (10–30s)
+
+| Step | Component | Description |
+|------|-----------|-------------|
+| 1 | `Tier1Router` | 2-step zero-shot routing: Top-3 Sections → RAG legal notes → final Section → Chapter |
+| 2 | `HSCoderAgent` | Recursive tree traversal from target Chapter. Up to 8 steps. Human-in-the-loop clarification via SSE |
+| 3 | `HSGatekeeper` | Deterministic linting. FAIL → revision loop (max 2 revisions) |
+| 4 | `QAAuditorAgent` | Final red-team LLM audit + ChromaDB. PASS → cache write + return |
 
 ---
 
-### `POST /submit_answer`
-Gửi câu trả lời khi agent cần clarification (Human-in-the-Loop).
+## 🗄️ Knowledge Base
 
+The `database/` directory contains structured JSON knowledge for **Chapters 1–20** of Section I–IV (Live animals, Food & Agriculture):
+
+### `chapter_X_rules.json`
 ```json
-{ "session_id": "uuid", "answer": "Câu trả lời của user" }
+{
+  "chapter_code": "16",
+  "inclusions": ["..."],
+  "exclusions": [
+    {
+      "condition": "...",
+      "action": "Redirect to Chapter X",
+      "keywords": ["keyword1", "keyword2"]
+    }
+  ],
+  "classification_rules": [
+    { "rule": "...", "description": "...", "priority": 1 }
+  ]
+}
 ```
 
----
-
-### `POST /approve_hs`
-Lưu kết quả phê duyệt vào approved cache.
-
+### `chapter_X_tree.json`
 ```json
-{ "query": "Mô tả hàng hoá", "hs_code": "01012100" }
+[
+  {
+    "level": 0,
+    "hs_code": "1601",
+    "description_en": "Sausages and similar products...",
+    "children": [...],
+    "semantic_path": "Sausages and similar products > ..."
+  }
+]
 ```
 
 ---
 
-## 🔐 Bảo mật
+## 🚀 Getting Started
 
-| Lớp | Biện pháp |
-|-----|-----------|
-| **API Key** | Lưu qua env var `DEEPSEEK_API_KEY`, KHÔNG commit file key |
-| **Authentication** | Optional `HSCODE_API_KEY` via `X-API-Key` header |
-| **Rate Limiting** | 15 request/phút per IP (in-memory, thread-safe) |
-| **XSS** | Frontend dùng `textContent` + `safeRenderText()`, không `innerHTML` trực tiếp |
-| **Prompt Injection** | `sanitize_input()` detect 14 injection patterns |
-| **Input Validation** | Query max 2000 ký tự, UUID session_id, hs_code format check |
-| **Atomic Writes** | `hs_cache.json` và `approved_cache.json` dùng tmp+rename pattern |
+### Prerequisites
+- Python 3.11+
+- DeepSeek API key (or any OpenAI-compatible API)
+
+### Installation
+
+```bash
+# Clone and install
+pip install -r requirements.txt
+
+# Set API key
+echo "your-deepseek-api-key" > key_deepseek
+
+# Build vector database (first time only)
+cd database
+python build_vector_db.py
+
+# Run development server
+uvicorn app:app --host 127.0.0.1 --port 8000 --reload
+```
+
+### Docker Deployment
+
+```bash
+docker-compose up -d
+```
+
+The app runs behind **Nginx** as reverse proxy on port 80.
 
 ---
 
-## 📊 Coverage hiện tại
+## 🌐 API Endpoints
 
-| Phạm vi | Trạng thái |
-|---------|-----------|
-| Chương 1–14 (JSON tree + rules) | ✅ Đầy đủ |
-| ChromaDB vector index | ⚠️ Một phần chương |
-| Chương 15–97 | 🔴 `UNSUPPORTED_CHAPTER` |
+| Method | Path | Description |
+|--------|------|-------------|
+| `GET` | `/` | Web UI (single-page app) |
+| `GET` | `/stream?q=...&session_id=...` | **SSE**: stream classification events |
+| `POST` | `/submit_answer` | Human-in-the-loop: submit clarification answer |
+| `POST` | `/approve_hs` | Save user-approved HS code to cache |
+| `GET` | `/health` | Health check |
 
-> Để mở rộng: thêm file `chapter_N_tree.json` và `chapter_N_rules.json` vào `database/`, rồi chạy lại `build_vector_db.py`.
+### SSE Event Types
+
+```javascript
+{ "type": "info",             "message": "Step log..." }
+{ "type": "fast_path_result", "data": { "final_section_id": "17011200", ... } }
+{ "type": "slow_path_result", "data": { "final_section_id": "17011200", ... } }
+{ "type": "error",            "message": "Error details" }
+```
+
+---
+
+## 🔒 Security Features
+
+- **Rate limiting**: 30 req/min per IP (configurable)
+- **API Key auth**: Optional via `HSCODE_API_KEY` env var
+- **Input sanitization**: Prompt injection defense in `ItemAnalyzer`
+- **Session TTL**: 30-minute session cleanup to prevent memory leaks
+- **Atomic file writes**: Temp-file rename pattern for cache integrity
+- **Input length limits**: 2000 chars for queries, 3000 for approve payloads
+
+---
+
+## ⚙️ Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `HSCODE_API_KEY` | `""` (disabled) | Optional API key for auth |
+| `ALLOWED_ORIGINS` | `http://localhost:8000` | CORS allowed origins (comma-separated) |
+| `REDIS_URL` | `None` | Redis URL for distributed cache (optional) |
+
+---
+
+## 🧪 Testing
+
+```bash
+pytest tests/ -v
+```
+
+---
+
+## 📊 Chapters Covered
+
+| Section | Chapters | Description |
+|---------|----------|-------------|
+| Section I | 1–5 | Live animals; animal products |
+| Section II | 6–14 | Vegetable products |
+| Section III | 15 | Animal or vegetable fats and oils |
+| Section IV | 16–24 | Prepared foodstuffs *(Ch. 16–20 complete)* |
+
+> Chapters 21–97 are handled by the LLM reasoning path without local JSON rules (use ChromaDB + raw HS nomenclature).
+
+---
+
+## 🏗️ Adding a New Chapter
+
+1. Add `chapter_N_raw.txt` and `chapter_N_notes.txt` to the project root
+2. Run analysis and generate `database/chapter_N_rules.json` + `database/chapter_N_tree.json`
+3. Re-run `database/build_vector_db.py` to index new data into ChromaDB
+
+---
+
+## 📄 License
+
+Internal use — Vietnamese Customs HS Code Classification System.

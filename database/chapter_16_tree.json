@@ -1,0 +1,935 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1601",
+        "description_en": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "16010010",
+                "description_en": "In airtight containers for retail sale",
+                "children": [],
+                "semantic_path": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products > In airtight containers for retail sale"
+            },
+            {
+                "level": 1,
+                "hs_code": "16010090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products > Other"
+            }
+        ],
+        "semantic_path": "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products"
+    },
+    {
+        "level": 0,
+        "hs_code": "1602",
+        "description_en": "Other prepared or preserved meat, meat offal, blood or insects",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "160210",
+                "description_en": "Homogenised preparations:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "16021010",
+                        "description_en": "Containing pork, in airtight containers for retail sale",
+                        "children": [],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Homogenised preparations: > Containing pork, in airtight containers for retail sale"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16021090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Homogenised preparations: > Other"
+                    }
+                ],
+                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Homogenised preparations:"
+            },
+            {
+                "level": 1,
+                "hs_code": "16022000",
+                "description_en": "Of liver of any animal",
+                "children": [],
+                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of liver of any animal"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Of poultry of heading 01.05:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "160231",
+                        "description_en": "Of turkeys:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16023110",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Of turkeys: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16023191",
+                                        "description_en": "Of mechanically deboned or separated meat",
+                                        "children": [],
+                                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Of turkeys: > Other: > Of mechanically deboned or separated meat"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16023199",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Of turkeys: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Of turkeys: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Of turkeys:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160232",
+                        "description_en": "Of fowls of the species Gallus domesticus:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16023210",
+                                "description_en": "Chicken curry, in airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Of fowls of the species Gallus domesticus: > Chicken curry, in airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16023290",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Of fowls of the species Gallus domesticus: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Of fowls of the species Gallus domesticus:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16023900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05: > Other"
+                    }
+                ],
+                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of poultry of heading 01.05:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Of swine:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "160241",
+                        "description_en": "Hams and cuts thereof:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16024110",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Hams and cuts thereof: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16024190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Hams and cuts thereof: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Hams and cuts thereof:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160242",
+                        "description_en": "Shoulders and cuts thereof:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16024210",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Shoulders and cuts thereof: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16024290",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Shoulders and cuts thereof: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Shoulders and cuts thereof:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160249",
+                        "description_en": "Other, including mixtures:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_1",
+                                "description_en": "Luncheon meat:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16024911",
+                                        "description_en": "In airtight containers for retail sale",
+                                        "children": [],
+                                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Other, including mixtures: > Luncheon meat: > In airtight containers for retail sale"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16024919",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Other, including mixtures: > Luncheon meat: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Other, including mixtures: > Luncheon meat:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_2",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16024991",
+                                        "description_en": "In airtight containers for retail sale",
+                                        "children": [],
+                                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Other, including mixtures: > Other: > In airtight containers for retail sale"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16024999",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Other, including mixtures: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Other, including mixtures: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine: > Other, including mixtures:"
+                    }
+                ],
+                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of swine:"
+            },
+            {
+                "level": 1,
+                "hs_code": "160250",
+                "description_en": "Of bovine animals:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "16025010",
+                        "description_en": "In airtight containers for retail sale",
+                        "children": [],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of bovine animals: > In airtight containers for retail sale"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16025090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of bovine animals: > Other"
+                    }
+                ],
+                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Of bovine animals:"
+            },
+            {
+                "level": 1,
+                "hs_code": "160290",
+                "description_en": "Other, including preparations of blood of any animal:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "16029010",
+                        "description_en": "Mutton curry, in airtight containers for retail sale",
+                        "children": [],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Other, including preparations of blood of any animal: > Mutton curry, in airtight containers for retail sale"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16029020",
+                        "description_en": "Preparations of blood",
+                        "children": [],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Other, including preparations of blood of any animal: > Preparations of blood"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16029090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Other, including preparations of blood of any animal: > Other"
+                    }
+                ],
+                "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects > Other, including preparations of blood of any animal:"
+            }
+        ],
+        "semantic_path": "Other prepared or preserved meat, meat offal, blood or insects"
+    },
+    {
+        "level": 0,
+        "hs_code": "1603",
+        "description_en": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "16030010",
+                "description_en": "Of meat",
+                "children": [],
+                "semantic_path": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates > Of meat"
+            },
+            {
+                "level": 1,
+                "hs_code": "16030090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates > Other"
+            }
+        ],
+        "semantic_path": "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates"
+    },
+    {
+        "level": 0,
+        "hs_code": "1604",
+        "description_en": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_2",
+                "description_en": "Fish, whole or in pieces, but not minced:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "160411",
+                        "description_en": "Salmon:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16041110",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Salmon: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16041190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Salmon: > Other"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Salmon:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160412",
+                        "description_en": "Herrings:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16041210",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Herrings: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16041290",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Herrings: > Other"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Herrings:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160413",
+                        "description_en": "Sardines, sardinella and brisling or sprats:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_3",
+                                "description_en": "Sardines:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041311",
+                                        "description_en": "In airtight containers for retail sale",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Sardines, sardinella and brisling or sprats: > Sardines: > In airtight containers for retail sale"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041319",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Sardines, sardinella and brisling or sprats: > Sardines: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Sardines, sardinella and brisling or sprats: > Sardines:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_4",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041391",
+                                        "description_en": "In airtight containers for retail sale",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Sardines, sardinella and brisling or sprats: > Other: > In airtight containers for retail sale"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041399",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Sardines, sardinella and brisling or sprats: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Sardines, sardinella and brisling or sprats: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Sardines, sardinella and brisling or sprats:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160414",
+                        "description_en": "Tunas, skipjack tuna and bonito (Sarda spp.):",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_5",
+                                "description_en": "In airtight containers for retail sale:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041411",
+                                        "description_en": "Tunas",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Tunas, skipjack tuna and bonito (Sarda spp.): > In airtight containers for retail sale: > Tunas"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041419",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Tunas, skipjack tuna and bonito (Sarda spp.): > In airtight containers for retail sale: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Tunas, skipjack tuna and bonito (Sarda spp.): > In airtight containers for retail sale:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_6",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041491",
+                                        "description_en": "Pre-cooked tunas",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Tunas, skipjack tuna and bonito (Sarda spp.): > Other: > Pre-cooked tunas"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041499",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Tunas, skipjack tuna and bonito (Sarda spp.): > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Tunas, skipjack tuna and bonito (Sarda spp.): > Other:"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Tunas, skipjack tuna and bonito (Sarda spp.):"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160415",
+                        "description_en": "Mackerel:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16041510",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Mackerel: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16041590",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Mackerel: > Other"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Mackerel:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160416",
+                        "description_en": "Anchovies:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16041610",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Anchovies: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16041690",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Anchovies: > Other"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Anchovies:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160417",
+                        "description_en": "Eels:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16041710",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Eels: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16041790",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Eels: > Other"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Eels:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160418",
+                        "description_en": "Shark fins:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16041810",
+                                "description_en": "Ready for immediate consumption",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Shark fins: > Ready for immediate consumption"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_7",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041891",
+                                        "description_en": "In airtight containers for retail sale",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Shark fins: > Other: > In airtight containers for retail sale"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "16041899",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Shark fins: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Shark fins: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Shark fins:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160419",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16041920",
+                                "description_en": "Horse mackerel, in airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Other: > Horse mackerel, in airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16041930",
+                                "description_en": "Other, in airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Other: > Other, in airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16041990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced: > Other:"
+                    }
+                ],
+                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Fish, whole or in pieces, but not minced:"
+            },
+            {
+                "level": 1,
+                "hs_code": "160420",
+                "description_en": "Other prepared or preserved fish:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "16042020",
+                        "description_en": "Fish sausages",
+                        "children": [],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Other prepared or preserved fish: > Fish sausages"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16042030",
+                        "description_en": "Fish ball",
+                        "children": [],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Other prepared or preserved fish: > Fish ball"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16042040",
+                        "description_en": "Fish paste",
+                        "children": [],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Other prepared or preserved fish: > Fish paste"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16042091",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Other prepared or preserved fish: > Other: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16042099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Other prepared or preserved fish: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Other prepared or preserved fish: > Other:"
+                    }
+                ],
+                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Other prepared or preserved fish:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_3",
+                "description_en": "Caviar and caviar substitutes:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "16043100",
+                        "description_en": "Caviar",
+                        "children": [],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Caviar and caviar substitutes: > Caviar"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16043200",
+                        "description_en": "Caviar substitutes",
+                        "children": [],
+                        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Caviar and caviar substitutes: > Caviar substitutes"
+                    }
+                ],
+                "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs > Caviar and caviar substitutes:"
+            }
+        ],
+        "semantic_path": "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs"
+    },
+    {
+        "level": 0,
+        "hs_code": "1605",
+        "description_en": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "160510",
+                "description_en": "Crab:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_1",
+                        "description_en": "In airtight containers for retail sale:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16051011",
+                                "description_en": "Swimming crabs (crabs of the family Portunidae)",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Crab: > In airtight containers for retail sale: > Swimming crabs (crabs of the family Portunidae)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16051012",
+                                "description_en": "King crabs (crabs of the family Lithodidae)",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Crab: > In airtight containers for retail sale: > King crabs (crabs of the family Lithodidae)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16051013",
+                                "description_en": "Snow crabs (crabs of the family Oregoniidae)",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Crab: > In airtight containers for retail sale: > Snow crabs (crabs of the family Oregoniidae)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16051014",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Crab: > In airtight containers for retail sale: > Other"
+                            }
+                        ],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Crab: > In airtight containers for retail sale:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16051090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Crab: > Other"
+                    }
+                ],
+                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Crab:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_4",
+                "description_en": "Shrimps and prawns:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "16052100",
+                        "description_en": "Not in airtight container",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Shrimps and prawns: > Not in airtight container"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160529",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16052920",
+                                "description_en": "Shrimp ball",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Shrimps and prawns: > Other: > Shrimp ball"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16052930",
+                                "description_en": "Breaded shrimp",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Shrimps and prawns: > Other: > Breaded shrimp"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16052990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Shrimps and prawns: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Shrimps and prawns: > Other:"
+                    }
+                ],
+                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Shrimps and prawns:"
+            },
+            {
+                "level": 1,
+                "hs_code": "16053000",
+                "description_en": "Lobster",
+                "children": [],
+                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Lobster"
+            },
+            {
+                "level": 1,
+                "hs_code": "16054000",
+                "description_en": "Other crustaceans",
+                "children": [],
+                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Other crustaceans"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_5",
+                "description_en": "Molluscs:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "16055100",
+                        "description_en": "Oysters",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Oysters"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16055200",
+                        "description_en": "Scallops, including queen scallops",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Scallops, including queen scallops"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16055300",
+                        "description_en": "Mussels",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Mussels"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160554",
+                        "description_en": "Cuttle fish and squid:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16055410",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Cuttle fish and squid: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16055490",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Cuttle fish and squid: > Other"
+                            }
+                        ],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Cuttle fish and squid:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16055500",
+                        "description_en": "Octopus",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Octopus"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16055600",
+                        "description_en": "Clams, cockles and arkshells",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Clams, cockles and arkshells"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "160557",
+                        "description_en": "Abalone:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "16055710",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Abalone: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "16055790",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Abalone: > Other"
+                            }
+                        ],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Abalone:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16055800",
+                        "description_en": "Snails, other than sea snails",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Snails, other than sea snails"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16055900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs: > Other"
+                    }
+                ],
+                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Molluscs:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_6",
+                "description_en": "Other aquatic invertebrates:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "16056100",
+                        "description_en": "Sea cucumbers",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Other aquatic invertebrates: > Sea cucumbers"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16056200",
+                        "description_en": "Sea urchins",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Other aquatic invertebrates: > Sea urchins"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16056300",
+                        "description_en": "Jellyfish",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Other aquatic invertebrates: > Jellyfish"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "16056900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Other aquatic invertebrates: > Other"
+                    }
+                ],
+                "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved > Other aquatic invertebrates:"
+            }
+        ],
+        "semantic_path": "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved"
+    }
+]

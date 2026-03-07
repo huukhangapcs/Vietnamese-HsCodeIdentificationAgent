@@ -1,0 +1,87 @@
+{
+    "chapter_code": "17",
+    "inclusions": [
+        "Cane or beet sugar and chemically pure sucrose, in solid form",
+        "Raw sugar (polarimeter reading less than 99.5° in dry state)",
+        "Refined sugar (sucrose content corresponds to polarimeter reading of 99.5° or more)",
+        "Sugar with added flavouring or colouring matter",
+        "Other sugars including chemically pure lactose, maltose, glucose and fructose, in solid form",
+        "Sugar syrups not containing added flavouring or colouring matter",
+        "Artificial honey, whether or not mixed with natural honey",
+        "Caramel",
+        "Maple sugar and maple syrup",
+        "Invert sugar",
+        "Palm sugar including coconut sap sugar",
+        "Molasses resulting from the extraction or refining of sugar",
+        "Sugar confectionery (including white chocolate), not containing cocoa",
+        "Chewing gum, whether or not sugar-coated",
+        "Medicated pastilles and drops",
+        "Soft candy containing gelatin"
+    ],
+    "exclusions": [
+        {
+            "condition": "Sugar confectionery containing cocoa",
+            "action": "Redirect to Heading 18.06",
+            "keywords": [
+                "chocolate",
+                "cocoa",
+                "18.06",
+                "candy with cocoa"
+            ]
+        },
+        {
+            "condition": "Chemically pure sugars other than sucrose, lactose, maltose, glucose and fructose",
+            "action": "Redirect to Heading 29.40",
+            "keywords": [
+                "chemically pure",
+                "29.40",
+                "pure sugar",
+                "chemical"
+            ]
+        },
+        {
+            "condition": "Other products of heading 29.40",
+            "action": "Redirect to Heading 29.40",
+            "keywords": [
+                "29.40"
+            ]
+        },
+        {
+            "condition": "Medicaments or other products of Chapter 30",
+            "action": "Redirect to Chapter 30",
+            "keywords": [
+                "medicament",
+                "pharmaceutical",
+                "chapter 30",
+                "drug"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Raw sugar definition (1701.12, 1701.13, 1701.14)",
+            "description": "Raw sugar means sugar whose content of sucrose by weight, in the dry state, corresponds to a polarimeter reading of LESS THAN 99.5°.",
+            "priority": 1
+        },
+        {
+            "rule": "Special cane sugar (1701.13)",
+            "description": "Subheading 1701.13 covers ONLY cane sugar obtained WITHOUT centrifugation, with sucrose content corresponding to a polarimeter reading of 69° or more but less than 93°. The product contains only natural anhedral microcrystals of irregular shape, not visible to the naked eye, surrounded by residues of molasses.",
+            "priority": 2
+        },
+        {
+            "rule": "Glucose/fructose classification by fructose content",
+            "description": "Glucose and glucose syrup are split by fructose content: (a) less than 20% fructose → 1702.30; (b) 20% to less than 50% fructose (excl. invert sugar) → 1702.40; (c) more than 50% fructose (excl. invert sugar) → 1702.60.",
+            "priority": 3
+        },
+        {
+            "rule": "White chocolate classification",
+            "description": "White chocolate does NOT contain cocoa, so it falls under 1704.90 (sugar confectionery not containing cocoa), NOT under 18.06.",
+            "priority": 4
+        },
+        {
+            "rule": "Medicated pastilles and drops",
+            "description": "Medicated pastilles and drops (throat lozenges, cough drops) are classified under 1704.90.10, NOT under Chapter 30, as they are primarily confectionery products.",
+            "priority": 5
+        }
+    ]
+}

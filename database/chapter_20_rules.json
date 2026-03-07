@@ -1,0 +1,130 @@
+{
+    "chapter_code": "20",
+    "inclusions": [
+        "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid",
+        "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid (including tomato paste, tomato powder)",
+        "Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid",
+        "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen",
+        "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen (including homogenised vegetables, potatoes, peas, beans, asparagus, olives, sweet corn, bamboo shoots)",
+        "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",
+        "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking",
+        "Homogenised fruit preparations for infants or young children or dietetic purposes (subheading 2007.10)",
+        "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or spirit, NESOI (roasted nuts, peanut butter, canned fruit, lychees, longans, palm hearts, cranberries)",
+        "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit (orange, grapefruit, pineapple, tomato, grape, apple, mango, coconut water)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Vegetables, fruit or nuts prepared or preserved by processes specified in Chapter 7, 8 or 11 (e.g., simply dried, frozen without further processing, reduced to flour/powder)",
+            "action": "Redirect to Chapter 7, 8 or 11",
+            "keywords": [
+                "chapter 7",
+                "chapter 8",
+                "chapter 11",
+                "dried vegetable",
+                "frozen fruit"
+            ]
+        },
+        {
+            "condition": "Vegetable fats and oils",
+            "action": "Redirect to Chapter 15",
+            "keywords": [
+                "vegetable oil",
+                "vegetable fat",
+                "chapter 15"
+            ]
+        },
+        {
+            "condition": "Food preparations containing more than 20% by weight of meat, fish, seafood, etc.",
+            "action": "Redirect to Chapter 16",
+            "keywords": [
+                "more than 20%",
+                "meat",
+                "fish",
+                "seafood",
+                "chapter 16"
+            ]
+        },
+        {
+            "condition": "Bakers' wares and other products of heading 19.05",
+            "action": "Redirect to Heading 19.05",
+            "keywords": [
+                "bread",
+                "biscuit",
+                "cake",
+                "pastry",
+                "19.05"
+            ]
+        },
+        {
+            "condition": "Homogenised composite food preparations of heading 21.04",
+            "action": "Redirect to Heading 21.04",
+            "keywords": [
+                "homogenised composite",
+                "21.04",
+                "soup"
+            ]
+        },
+        {
+            "condition": "Fruit jellies, fruit pastes, sugar-coated almonds in the form of sugar confectionery",
+            "action": "Redirect to Heading 17.04 (sugar confectionery) or 18.06 (chocolate confectionery)",
+            "keywords": [
+                "sugar confectionery",
+                "chocolate confectionery",
+                "sugar-coated almond",
+                "17.04",
+                "18.06"
+            ]
+        },
+        {
+            "condition": "Flour, meal or powder derived from products of Chapter 8 (fruit flour)",
+            "action": "Redirect to appropriate heading in Chapter 8 or 11",
+            "keywords": [
+                "fruit flour",
+                "fruit powder",
+                "chapter 8"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Tomato juice dry weight threshold (2002 vs 2009)",
+            "description": "Tomato juice with dry weight content of 7% or more → classified in heading 20.02 (not 20.09). Tomato juice with dry weight LESS THAN 7% → heading 20.09 (Tomato juice).",
+            "priority": 1
+        },
+        {
+            "rule": "Homogenised vegetables priority (2005.10)",
+            "description": "Homogenised vegetables: finely homogenised, for infants/young children or dietetic purposes, in retail containers NOT EXCEEDING 250g. Subheading 2005.10 takes precedence over ALL other subheadings of heading 20.05.",
+            "priority": 2
+        },
+        {
+            "rule": "Homogenised fruit preparations priority (2007.10)",
+            "description": "Homogenised fruit preparations: finely homogenised, for infants/young children or dietetic purposes, in retail containers NOT EXCEEDING 250g. Subheading 2007.10 takes precedence over ALL other subheadings of heading 20.07.",
+            "priority": 3
+        },
+        {
+            "rule": "Obtained by cooking definition (2007)",
+            "description": "'Obtained by cooking' for heading 20.07 means obtained by heat treatment at atmospheric pressure or under reduced pressure to increase viscosity through reduction of water content or other means.",
+            "priority": 4
+        },
+        {
+            "rule": "Unfermented juice definition (2009)",
+            "description": "For heading 20.09, 'juices, unfermented and not containing added spirit' means juices of alcoholic strength NOT EXCEEDING 0.5% vol. Juices with more than 0.5% alcohol → Chapter 22.",
+            "priority": 5
+        },
+        {
+            "rule": "Brix value measurement (2009 subheadings)",
+            "description": "Brix value = direct reading of degrees Brix from a Brix hydrometer OR refractive index expressed as percentage sucrose content from a refractometer, at 20°C (or corrected to 20°C). Applies to subheadings 2009.12, 2009.21, 2009.31, 2009.41, 2009.61 and 2009.71.",
+            "priority": 6
+        },
+        {
+            "rule": "2001/2004/2005 scope restriction",
+            "description": "Headings 20.01, 20.04 and 20.05 cover only products of Chapter 7 or heading 11.05 or 11.06 (other than flour, meal and powder of products of Chapter 8) which have been prepared or preserved by processes OTHER THAN those in Note 1(a).",
+            "priority": 7
+        },
+        {
+            "rule": "2007/2008 exclude sugar/chocolate confectionery",
+            "description": "Headings 20.07 and 20.08 do NOT apply to fruit jellies, fruit pastes, sugar-coated almonds or similar products in the form of sugar confectionery (17.04) or chocolate confectionery (18.06).",
+            "priority": 8
+        }
+    ]
+}

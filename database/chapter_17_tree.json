@@ -1,0 +1,377 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1701",
+        "description_en": "Cane or beet sugar and chemically pure sucrose, in solid form",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Raw sugar not containing added flavouring or colouring matter:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "17011200",
+                        "description_en": "Beet sugar",
+                        "children": [],
+                        "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Raw sugar not containing added flavouring or colouring matter: > Beet sugar"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17011300",
+                        "description_en": "Cane sugar specified in Subheading Note 2 to this Chapter",
+                        "children": [],
+                        "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Raw sugar not containing added flavouring or colouring matter: > Cane sugar specified in Subheading Note 2 to this Chapter"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17011400",
+                        "description_en": "Other cane sugar",
+                        "children": [],
+                        "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Raw sugar not containing added flavouring or colouring matter: > Other cane sugar"
+                    }
+                ],
+                "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Raw sugar not containing added flavouring or colouring matter:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "17019100",
+                        "description_en": "Containing added flavouring or colouring matter",
+                        "children": [],
+                        "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Other: > Containing added flavouring or colouring matter"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "170199",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "17019910",
+                                "description_en": "Refined sugar",
+                                "children": [],
+                                "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Other: > Other: > Refined sugar"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "17019990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form > Other:"
+            }
+        ],
+        "semantic_path": "Cane or beet sugar and chemically pure sucrose, in solid form"
+    },
+    {
+        "level": 0,
+        "hs_code": "1702",
+        "description_en": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_2",
+                "description_en": "Lactose and lactose syrup:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "17021100",
+                        "description_en": "Containing by weight 99% or more lactose, expressed as anhydrous lactose, calculated on the dry matter",
+                        "children": [],
+                        "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Lactose and lactose syrup: > Containing by weight 99% or more lactose, expressed as anhydrous lactose, calculated on the dry matter"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17021900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Lactose and lactose syrup: > Other"
+                    }
+                ],
+                "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Lactose and lactose syrup:"
+            },
+            {
+                "level": 1,
+                "hs_code": "17022000",
+                "description_en": "Maple sugar and maple syrup",
+                "children": [],
+                "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Maple sugar and maple syrup"
+            },
+            {
+                "level": 1,
+                "hs_code": "170230",
+                "description_en": "Glucose and glucose syrup, not containing fructose or containing in the dry state less than 20% by weight of fructose:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "17023010",
+                        "description_en": "Glucose",
+                        "children": [],
+                        "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Glucose and glucose syrup, not containing fructose or containing less than 20% fructose: > Glucose"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17023020",
+                        "description_en": "Glucose syrup",
+                        "children": [],
+                        "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Glucose and glucose syrup, not containing fructose or containing less than 20% fructose: > Glucose syrup"
+                    }
+                ],
+                "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Glucose and glucose syrup, not containing fructose or containing less than 20% fructose:"
+            },
+            {
+                "level": 1,
+                "hs_code": "17024000",
+                "description_en": "Glucose and glucose syrup, containing in the dry state at least 20% but less than 50% by weight of fructose, excluding invert sugar",
+                "children": [],
+                "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Glucose and glucose syrup, containing at least 20% but less than 50% fructose, excluding invert sugar"
+            },
+            {
+                "level": 1,
+                "hs_code": "17025000",
+                "description_en": "Chemically pure fructose",
+                "children": [],
+                "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Chemically pure fructose"
+            },
+            {
+                "level": 1,
+                "hs_code": "170260",
+                "description_en": "Other fructose and fructose syrup, containing in the dry state more than 50% by weight of fructose, excluding invert sugar:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "17026010",
+                        "description_en": "Fructose",
+                        "children": [],
+                        "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Other fructose and fructose syrup, more than 50% fructose: > Fructose"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17026020",
+                        "description_en": "Fructose syrup",
+                        "children": [],
+                        "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Other fructose and fructose syrup, more than 50% fructose: > Fructose syrup"
+                    }
+                ],
+                "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel > Other fructose and fructose syrup, more than 50% fructose:"
+            },
+            {
+                "level": 1,
+                "hs_code": "170290",
+                "description_en": "Other, including invert sugar and other sugar and sugar syrup blends containing in the dry state 50% by weight of fructose:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Maltose and maltose syrups:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "17029011",
+                                "description_en": "Chemically pure maltose",
+                                "children": [],
+                                "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Maltose and maltose syrups: > Chemically pure maltose"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "17029019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Maltose and maltose syrups: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Maltose and maltose syrups:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17029020",
+                        "description_en": "Artificial honey, whether or not mixed with natural honey",
+                        "children": [],
+                        "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Artificial honey, whether or not mixed with natural honey"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17029030",
+                        "description_en": "Flavoured or coloured sugars (excluding maltose)",
+                        "children": [],
+                        "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Flavoured or coloured sugars (excluding maltose)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17029040",
+                        "description_en": "Caramel",
+                        "children": [],
+                        "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Caramel"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_1",
+                        "description_en": "Palm sugar:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "17029051",
+                                "description_en": "Coconut sap sugar",
+                                "children": [],
+                                "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Palm sugar: > Coconut sap sugar"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "17029059",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Palm sugar: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Palm sugar:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_2",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "17029091",
+                                "description_en": "Sugar syrups",
+                                "children": [],
+                                "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Other: > Sugar syrups"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "17029099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar: > Other:"
+                    }
+                ],
+                "semantic_path": "Other sugars; sugar syrups; artificial honey; caramel > Other, including invert sugar:"
+            }
+        ],
+        "semantic_path": "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel"
+    },
+    {
+        "level": 0,
+        "hs_code": "1703",
+        "description_en": "Molasses resulting from the extraction or refining of sugar",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "170310",
+                "description_en": "Cane molasses:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "17031010",
+                        "description_en": "Containing added flavouring or colouring matter",
+                        "children": [],
+                        "semantic_path": "Molasses resulting from the extraction or refining of sugar > Cane molasses: > Containing added flavouring or colouring matter"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17031090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Molasses resulting from the extraction or refining of sugar > Cane molasses: > Other"
+                    }
+                ],
+                "semantic_path": "Molasses resulting from the extraction or refining of sugar > Cane molasses:"
+            },
+            {
+                "level": 1,
+                "hs_code": "170390",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "17039010",
+                        "description_en": "Containing added flavouring or colouring matter",
+                        "children": [],
+                        "semantic_path": "Molasses resulting from the extraction or refining of sugar > Other: > Containing added flavouring or colouring matter"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17039090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Molasses resulting from the extraction or refining of sugar > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Molasses resulting from the extraction or refining of sugar > Other:"
+            }
+        ],
+        "semantic_path": "Molasses resulting from the extraction or refining of sugar"
+    },
+    {
+        "level": 0,
+        "hs_code": "1704",
+        "description_en": "Sugar confectionery (including white chocolate), not containing cocoa",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "17041000",
+                "description_en": "Chewing gum, whether or not sugar-coated",
+                "children": [],
+                "semantic_path": "Sugar confectionery (including white chocolate), not containing cocoa > Chewing gum, whether or not sugar-coated"
+            },
+            {
+                "level": 1,
+                "hs_code": "170490",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "17049010",
+                        "description_en": "Medicated pastilles and drops",
+                        "children": [],
+                        "semantic_path": "Sugar confectionery (including white chocolate), not containing cocoa > Other: > Medicated pastilles and drops"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "17049020",
+                        "description_en": "White chocolate",
+                        "children": [],
+                        "semantic_path": "Sugar confectionery (including white chocolate), not containing cocoa > Other: > White chocolate"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_3",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "17049091",
+                                "description_en": "Soft, containing gelatin",
+                                "children": [],
+                                "semantic_path": "Sugar confectionery (including white chocolate), not containing cocoa > Other: > Other: > Soft, containing gelatin"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "17049099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Sugar confectionery (including white chocolate), not containing cocoa > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Sugar confectionery (including white chocolate), not containing cocoa > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Sugar confectionery (including white chocolate), not containing cocoa > Other:"
+            }
+        ],
+        "semantic_path": "Sugar confectionery (including white chocolate), not containing cocoa"
+    }
+]

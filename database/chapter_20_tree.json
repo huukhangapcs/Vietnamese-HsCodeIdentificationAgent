@@ -1,0 +1,993 @@
+[
+    {
+        "level": 0,
+        "hs_code": "2001",
+        "description_en": "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "20011000",
+                "description_en": "Cucumbers and gherkins",
+                "children": [],
+                "semantic_path": "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid > Cucumbers and gherkins"
+            },
+            {
+                "level": 1,
+                "hs_code": "200190",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20019010",
+                        "description_en": "Onions",
+                        "children": [],
+                        "semantic_path": "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid > Other: > Onions"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20019090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid > Other:"
+            }
+        ],
+        "semantic_path": "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid"
+    },
+    {
+        "level": 0,
+        "hs_code": "2002",
+        "description_en": "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "20021000",
+                "description_en": "Tomatoes, whole or in pieces",
+                "children": [],
+                "semantic_path": "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid > Tomatoes, whole or in pieces"
+            },
+            {
+                "level": 1,
+                "hs_code": "200290",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20029010",
+                        "description_en": "Tomato paste",
+                        "children": [],
+                        "semantic_path": "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid > Other: > Tomato paste"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20029020",
+                        "description_en": "Tomato powder",
+                        "children": [],
+                        "semantic_path": "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid > Other: > Tomato powder"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20029090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid > Other:"
+            }
+        ],
+        "semantic_path": "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid"
+    },
+    {
+        "level": 0,
+        "hs_code": "2003",
+        "description_en": "Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "20031000",
+                "description_en": "Mushrooms of the genus Agaricus",
+                "children": [],
+                "semantic_path": "Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid > Mushrooms of the genus Agaricus"
+            },
+            {
+                "level": 1,
+                "hs_code": "200390",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20039010",
+                        "description_en": "Truffles",
+                        "children": [],
+                        "semantic_path": "Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid > Other: > Truffles"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20039090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid > Other:"
+            }
+        ],
+        "semantic_path": "Mushrooms and truffles, prepared or preserved otherwise than by vinegar or acetic acid"
+    },
+    {
+        "level": 0,
+        "hs_code": "2004",
+        "description_en": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading 20.06",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "20041000",
+                "description_en": "Potatoes",
+                "children": [],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading 20.06 > Potatoes"
+            },
+            {
+                "level": 1,
+                "hs_code": "200490",
+                "description_en": "Other vegetables and mixtures of vegetables:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20049010",
+                        "description_en": "Suitable for infants or young children",
+                        "children": [],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen > Other vegetables and mixtures of vegetables: > Suitable for infants or young children"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20049090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen > Other vegetables and mixtures of vegetables: > Other"
+                    }
+                ],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen > Other vegetables and mixtures of vegetables:"
+            }
+        ],
+        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, frozen, other than products of heading 20.06"
+    },
+    {
+        "level": 0,
+        "hs_code": "2005",
+        "description_en": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading 20.06",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "200510",
+                "description_en": "Homogenised vegetables:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20051020",
+                        "description_en": "Suitable for infants or young children",
+                        "children": [],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Homogenised vegetables: > Suitable for infants or young children"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20051030",
+                        "description_en": "Suitable for dietetic purposes",
+                        "children": [],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Homogenised vegetables: > Suitable for dietetic purposes"
+                    }
+                ],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Homogenised vegetables:"
+            },
+            {
+                "level": 1,
+                "hs_code": "200520",
+                "description_en": "Potatoes:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "In sticks form:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20052011",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Potatoes: > In sticks form: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20052019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Potatoes: > In sticks form: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Potatoes: > In sticks form:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_1",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20052091",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Potatoes: > Other: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20052099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Potatoes: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Potatoes: > Other:"
+                    }
+                ],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Potatoes:"
+            },
+            {
+                "level": 1,
+                "hs_code": "20054000",
+                "description_en": "Peas (Pisum sativum)",
+                "children": [],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Peas (Pisum sativum)"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Beans (Vigna spp., Phaseolus spp.):",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20055100",
+                        "description_en": "Beans, shelled",
+                        "children": [],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Beans (Vigna spp., Phaseolus spp.): > Beans, shelled"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "200559",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20055910",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Beans (Vigna spp., Phaseolus spp.): > Other: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20055990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Beans (Vigna spp., Phaseolus spp.): > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Beans (Vigna spp., Phaseolus spp.): > Other:"
+                    }
+                ],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Beans (Vigna spp., Phaseolus spp.):"
+            },
+            {
+                "level": 1,
+                "hs_code": "20056000",
+                "description_en": "Asparagus",
+                "children": [],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Asparagus"
+            },
+            {
+                "level": 1,
+                "hs_code": "20057000",
+                "description_en": "Olives",
+                "children": [],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Olives"
+            },
+            {
+                "level": 1,
+                "hs_code": "20058000",
+                "description_en": "Sweet corn (Zea mays var. saccharata)",
+                "children": [],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Sweet corn (Zea mays var. saccharata)"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Other vegetables and mixtures of vegetables:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20059100",
+                        "description_en": "Bamboo shoots",
+                        "children": [],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Other vegetables and mixtures of vegetables: > Bamboo shoots"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "200599",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20059910",
+                                "description_en": "In airtight containers for retail sale",
+                                "children": [],
+                                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Other vegetables and mixtures of vegetables: > Other: > In airtight containers for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20059990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Other vegetables and mixtures of vegetables: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Other vegetables and mixtures of vegetables: > Other:"
+                    }
+                ],
+                "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen > Other vegetables and mixtures of vegetables:"
+            }
+        ],
+        "semantic_path": "Other vegetables prepared or preserved otherwise than by vinegar or acetic acid, not frozen, other than products of heading 20.06"
+    },
+    {
+        "level": 0,
+        "hs_code": "20060000",
+        "description_en": "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)",
+        "children": [],
+        "semantic_path": "Vegetables, fruit, nuts, fruit-peel and other parts of plants, preserved by sugar (drained, glace or crystallised)"
+    },
+    {
+        "level": 0,
+        "hs_code": "2007",
+        "description_en": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "20071000",
+                "description_en": "Homogenised preparations",
+                "children": [],
+                "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking > Homogenised preparations"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_2",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20079100",
+                        "description_en": "Citrus fruit",
+                        "children": [],
+                        "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking > Other: > Citrus fruit"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "200799",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20079910",
+                                "description_en": "Fruit pastes other than of mangoes, pineapples or strawberries",
+                                "children": [],
+                                "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking > Other: > Other: > Fruit pastes other than of mangoes, pineapples or strawberries"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20079920",
+                                "description_en": "Jams and fruit jellies",
+                                "children": [],
+                                "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking > Other: > Other: > Jams and fruit jellies"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20079930",
+                                "description_en": "Mango puree",
+                                "children": [],
+                                "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking > Other: > Other: > Mango puree"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20079990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking > Other:"
+            }
+        ],
+        "semantic_path": "Jams, fruit jellies, marmalades, fruit or nut puree and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or other sweetening matter"
+    },
+    {
+        "level": 0,
+        "hs_code": "2008",
+        "description_en": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_3",
+                "description_en": "Nuts, ground-nuts and other seeds, whether or not mixed together:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "200811",
+                        "description_en": "Ground-nuts:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20081110",
+                                "description_en": "Roasted",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Ground-nuts: > Roasted"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20081120",
+                                "description_en": "Peanut butter",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Ground-nuts: > Peanut butter"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20081190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Ground-nuts: > Other"
+                            }
+                        ],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Ground-nuts:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "200819",
+                        "description_en": "Other, including mixtures:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20081910",
+                                "description_en": "Cashew nuts",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Other, including mixtures: > Cashew nuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "20081991",
+                                        "description_en": "Roasted",
+                                        "children": [],
+                                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Other, including mixtures: > Other: > Roasted"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "20081999",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Other, including mixtures: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Other, including mixtures: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds: > Other, including mixtures:"
+                    }
+                ],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Nuts, ground-nuts and other seeds:"
+            },
+            {
+                "level": 1,
+                "hs_code": "200820",
+                "description_en": "Pineapples:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20082010",
+                        "description_en": "In airtight containers for retail sale",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Pineapples: > In airtight containers for retail sale"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20082090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Pineapples: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Pineapples:"
+            },
+            {
+                "level": 1,
+                "hs_code": "200830",
+                "description_en": "Citrus fruit:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20083010",
+                        "description_en": "Containing added sugar or other sweetening matter or spirit",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Citrus fruit: > Containing added sugar or other sweetening matter or spirit"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20083090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Citrus fruit: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Citrus fruit:"
+            },
+            {
+                "level": 1,
+                "hs_code": "20084000",
+                "description_en": "Pears",
+                "children": [],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Pears"
+            },
+            {
+                "level": 1,
+                "hs_code": "20085000",
+                "description_en": "Apricots",
+                "children": [],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Apricots"
+            },
+            {
+                "level": 1,
+                "hs_code": "200860",
+                "description_en": "Cherries:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20086010",
+                        "description_en": "Containing added sugar or other sweetening matter or spirit",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Cherries: > Containing added sugar or other sweetening matter or spirit"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20086090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Cherries: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Cherries:"
+            },
+            {
+                "level": 1,
+                "hs_code": "200870",
+                "description_en": "Peaches, including nectarines:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20087010",
+                        "description_en": "Containing added sugar or other sweetening matter or spirit",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Peaches, including nectarines: > Containing added sugar or other sweetening matter or spirit"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20087090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Peaches, including nectarines: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Peaches, including nectarines:"
+            },
+            {
+                "level": 1,
+                "hs_code": "20088000",
+                "description_en": "Strawberries",
+                "children": [],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Strawberries"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_4",
+                "description_en": "Other, including mixtures other than those of subheading 2008.19:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20089100",
+                        "description_en": "Palm hearts",
+                        "children": [],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Palm hearts"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "200893",
+                        "description_en": "Cranberries (Vaccinium macrocarpon, Vaccinium oxycoccos); lingonberries (Vaccinium vitis-idaea):",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20089310",
+                                "description_en": "Containing added sugar or other sweetening matter or spirit",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Cranberries; lingonberries: > Containing added sugar or other sweetening matter or spirit"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20089390",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Cranberries; lingonberries: > Other"
+                            }
+                        ],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Cranberries; lingonberries:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "200897",
+                        "description_en": "Mixtures:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20089710",
+                                "description_en": "Of stems, roots and other edible parts of plants, not including fruits or nuts, whether or not containing added sugar or other sweetening matter or spirit",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Mixtures: > Of stems, roots and other edible parts of plants, not including fruits or nuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20089720",
+                                "description_en": "Other, containing added sugar or other sweetening matter or spirit",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Mixtures: > Other, containing added sugar or other sweetening matter or spirit"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20089790",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Mixtures: > Other"
+                            }
+                        ],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Mixtures:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "200899",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20089910",
+                                "description_en": "Lychees",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Other: > Lychees"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20089920",
+                                "description_en": "Longans",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Other: > Longans"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20089930",
+                                "description_en": "Of stems, roots and other edible parts of plants, not including fruits or nuts, whether or not containing added sugar or other sweetening matter or spirit",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Other: > Of stems, roots and other edible parts of plants, not including fruits or nuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20089940",
+                                "description_en": "Other, containing added sugar or other sweetening matter or spirit",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Other: > Other, containing added sugar or other sweetening matter or spirit"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20089990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures: > Other:"
+                    }
+                ],
+                "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, NESOI > Other, including mixtures other than those of subheading 2008.19:"
+            }
+        ],
+        "semantic_path": "Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included"
+    },
+    {
+        "level": 0,
+        "hs_code": "2009",
+        "description_en": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_5",
+                "description_en": "Orange juice:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20091100",
+                        "description_en": "Frozen",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Orange juice: > Frozen"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20091200",
+                        "description_en": "Not frozen, of a Brix value not exceeding 20",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Orange juice: > Not frozen, of a Brix value not exceeding 20"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20091900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Orange juice: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Orange juice:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_6",
+                "description_en": "Grapefruit juice; pomelo juice:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20092100",
+                        "description_en": "Of a Brix value not exceeding 20",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Grapefruit juice; pomelo juice: > Of a Brix value not exceeding 20"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20092900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Grapefruit juice; pomelo juice: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Grapefruit juice; pomelo juice:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_7",
+                "description_en": "Juice of any other single citrus fruit:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20093100",
+                        "description_en": "Of a Brix value not exceeding 20",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single citrus fruit: > Of a Brix value not exceeding 20"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20093900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single citrus fruit: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single citrus fruit:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_8",
+                "description_en": "Pineapple juice:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20094100",
+                        "description_en": "Of a Brix value not exceeding 20",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Pineapple juice: > Of a Brix value not exceeding 20"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20094900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Pineapple juice: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Pineapple juice:"
+            },
+            {
+                "level": 1,
+                "hs_code": "20095000",
+                "description_en": "Tomato juice",
+                "children": [],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Tomato juice"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_9",
+                "description_en": "Grape juice (including grape must):",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20096100",
+                        "description_en": "Of a Brix value not exceeding 30",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Grape juice (including grape must): > Of a Brix value not exceeding 30"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20096900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Grape juice (including grape must): > Other"
+                    }
+                ],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Grape juice (including grape must):"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_10",
+                "description_en": "Apple juice:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20097100",
+                        "description_en": "Of a Brix value not exceeding 20",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Apple juice: > Of a Brix value not exceeding 20"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "20097900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Apple juice: > Other"
+                    }
+                ],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Apple juice:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_11",
+                "description_en": "Juice of any other single fruit, nut or vegetable:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "200981",
+                        "description_en": "Cranberry (Vaccinium macrocarpon, Vaccinium oxycoccos) juice; lingonberry (Vaccinium vitis-idaea) juice:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20098110",
+                                "description_en": "Suitable for infants or young children",
+                                "children": [],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Cranberry juice; lingonberry juice: > Suitable for infants or young children"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20098190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Cranberry juice; lingonberry juice: > Other"
+                            }
+                        ],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Cranberry juice; lingonberry juice:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "200989",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20098910",
+                                "description_en": "Blackcurrant juice",
+                                "children": [],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Other: > Blackcurrant juice"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20098920",
+                                "description_en": "Coconut water",
+                                "children": [],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Other: > Coconut water"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20098930",
+                                "description_en": "Coconut water concentrate",
+                                "children": [],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Other: > Coconut water concentrate"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20098940",
+                                "description_en": "Mango juice concentrate",
+                                "children": [],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Other: > Mango juice concentrate"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_1",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "20098991",
+                                        "description_en": "Suitable for infants or young children",
+                                        "children": [],
+                                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Other: > Other: > Suitable for infants or young children"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "20098999",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Other: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Other: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable: > Other:"
+                    }
+                ],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Juice of any other single fruit, nut or vegetable:"
+            },
+            {
+                "level": 1,
+                "hs_code": "200990",
+                "description_en": "Mixtures of juices:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "20099010",
+                        "description_en": "Suitable for infants or young children",
+                        "children": [],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Mixtures of juices: > Suitable for infants or young children"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_2",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "20099091",
+                                "description_en": "Ready for immediate consumption",
+                                "children": [],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Mixtures of juices: > Other: > Ready for immediate consumption"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "20099099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Mixtures of juices: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Mixtures of juices: > Other:"
+                    }
+                ],
+                "semantic_path": "Fruit or nut juices and vegetable juices, unfermented and not containing added spirit > Mixtures of juices:"
+            }
+        ],
+        "semantic_path": "Fruit or nut juices (including grape must and coconut water) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter"
+    }
+]

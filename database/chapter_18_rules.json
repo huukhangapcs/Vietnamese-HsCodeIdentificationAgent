@@ -1,0 +1,155 @@
+{
+    "chapter_code": "18",
+    "inclusions": [
+        "Cocoa beans, whole or broken, raw or roasted",
+        "Cocoa shells, husks, skins and other cocoa waste",
+        "Cocoa paste (cocoa mass/liquor), whether or not defatted",
+        "Cocoa butter, fat and oil",
+        "Cocoa powder, not containing added sugar or other sweetening matter",
+        "Cocoa powder containing added sugar or other sweetening matter (heading 18.06)",
+        "Chocolate and other food preparations containing cocoa",
+        "Sugar confectionery containing cocoa (heading 18.06)",
+        "Chocolate confectionery in blocks, slabs or bars",
+        "Chocolate in tablets or pastilles",
+        "Food preparations from flour, starch or malt extract containing 40-50% cocoa (defatted basis)",
+        "Food preparations from dairy products (04.01-04.04) containing 5-10% cocoa (defatted basis), for infants, not put up for retail sale"
+    ],
+    "exclusions": [
+        {
+            "condition": "Food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, insects, fish, crustaceans, molluscs or other aquatic invertebrates",
+            "action": "Redirect to Chapter 16",
+            "keywords": [
+                "meat",
+                "fish",
+                "seafood",
+                "chapter 16",
+                "more than 20%"
+            ]
+        },
+        {
+            "condition": "Preparations of heading 04.03 (buttermilk, yogurt, kephir)",
+            "action": "Redirect to Heading 04.03",
+            "keywords": [
+                "buttermilk",
+                "yogurt",
+                "yoghurt",
+                "kephir",
+                "04.03"
+            ]
+        },
+        {
+            "condition": "Preparations of heading 19.01 (malt extract, food preparations of flour with cocoa)",
+            "action": "Redirect to Heading 19.01",
+            "keywords": [
+                "malt extract",
+                "19.01",
+                "flour preparation"
+            ]
+        },
+        {
+            "condition": "Preparations of heading 19.02 (pasta, noodles)",
+            "action": "Redirect to Heading 19.02",
+            "keywords": [
+                "pasta",
+                "noodle",
+                "stuffed pasta",
+                "19.02"
+            ]
+        },
+        {
+            "condition": "Preparations of heading 19.04 (expanded or roasted cereals)",
+            "action": "Redirect to Heading 19.04",
+            "keywords": [
+                "19.04",
+                "expanded cereal",
+                "cereal bar"
+            ]
+        },
+        {
+            "condition": "Preparations of heading 19.05 (bread, biscuits, waffles, pastry)",
+            "action": "Redirect to Heading 19.05",
+            "keywords": [
+                "bread",
+                "biscuit",
+                "waffle",
+                "pastry",
+                "cake",
+                "19.05"
+            ]
+        },
+        {
+            "condition": "Preparations of heading 21.05 (ice cream and other edible ice)",
+            "action": "Redirect to Heading 21.05",
+            "keywords": [
+                "ice cream",
+                "edible ice",
+                "21.05"
+            ]
+        },
+        {
+            "condition": "Preparations of heading 22.02 (waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured)",
+            "action": "Redirect to Heading 22.02",
+            "keywords": [
+                "chocolate drink",
+                "cocoa drink",
+                "beverage",
+                "22.02"
+            ]
+        },
+        {
+            "condition": "Preparations of heading 22.08 (spirits, liqueurs and other spirituous beverages)",
+            "action": "Redirect to Heading 22.08",
+            "keywords": [
+                "liqueur",
+                "spirit",
+                "chocolate liqueur",
+                "22.08"
+            ]
+        },
+        {
+            "condition": "Medicaments of heading 30.03 or 30.04",
+            "action": "Redirect to Heading 30.03 or 30.04",
+            "keywords": [
+                "medicament",
+                "pharmaceutical",
+                "30.03",
+                "30.04"
+            ]
+        },
+        {
+            "condition": "White chocolate (does not contain cocoa)",
+            "action": "Redirect to Heading 17.04 (sugar confectionery not containing cocoa)",
+            "keywords": [
+                "white chocolate",
+                "17.04"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Heading 18.06 catch-all scope",
+            "description": "Heading 18.06 covers ALL sugar confectionery containing cocoa AND all other food preparations containing cocoa — subject to the exclusions in Note 1. It is the residual heading for cocoa-containing food products not specifically excluded.",
+            "priority": 1
+        },
+        {
+            "rule": "Cocoa powder split: 18.05 vs 18.06",
+            "description": "Cocoa powder WITHOUT added sugar or sweetening → 18.05. Cocoa powder WITH added sugar or other sweetening matter → 18.06.10.",
+            "priority": 2
+        },
+        {
+            "rule": "Chocolate block/bar size split",
+            "description": "Chocolate preparations in blocks, slabs or bars: weight MORE THAN 2 kg → 1806.20; weight 2 kg or less, filled → 1806.31; weight 2 kg or less, not filled → 1806.32.",
+            "priority": 3
+        },
+        {
+            "rule": "Infant dairy-cocoa preparation (1806.90.40)",
+            "description": "Food preparations made from dairy products of headings 04.01–04.04, containing 5% or more but not exceeding 10% cocoa (defatted basis), specially prepared for infants or young children, and NOT put up for retail sale → 1806.90.40.",
+            "priority": 4
+        },
+        {
+            "rule": "Flour/starch/malt extract with 40-50% cocoa (1806.90.30)",
+            "description": "Food preparations of flour, meal, starch or malt extract containing 40% or more but not exceeding 50% cocoa by weight (totally defatted basis) → 1806.90.30.",
+            "priority": 5
+        }
+    ]
+}

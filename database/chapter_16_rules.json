@@ -1,0 +1,98 @@
+{
+    "chapter_code": "16",
+    "inclusions": [
+        "Sausages and similar products, of meat, meat offal, blood or insects",
+        "Food preparations based on sausages, meat, meat offal, blood or insects",
+        "Homogenised preparations of meat, meat offal, blood or insects, for infants or dietetic use, in containers not exceeding 250g (subheading 1602.10)",
+        "Other prepared or preserved meat, meat offal, blood or insects",
+        "Extracts and juices of meat, fish or crustaceans, molluscs or other aquatic invertebrates",
+        "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs",
+        "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",
+        "Food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, insects, fish, crustaceans, molluscs or other aquatic invertebrates"
+    ],
+    "exclusions": [
+        {
+            "condition": "Meat, meat offal, fish, crustaceans, molluscs or other aquatic invertebrates, or insects prepared or preserved by processes specified in Chapter 2 or 3",
+            "action": "Redirect to Chapter 2 or Chapter 3",
+            "keywords": [
+                "chilled",
+                "frozen",
+                "salted",
+                "dried",
+                "smoked",
+                "chapter 2",
+                "chapter 3"
+            ]
+        },
+        {
+            "condition": "Products prepared or preserved by processes of Note 6 to Chapter 4",
+            "action": "Redirect to Chapter 4",
+            "keywords": [
+                "chapter 4",
+                "dairy",
+                "note 6"
+            ]
+        },
+        {
+            "condition": "Products prepared or preserved by processes of heading 05.04",
+            "action": "Redirect to Heading 05.04",
+            "keywords": [
+                "05.04",
+                "guts",
+                "bladders",
+                "stomachs"
+            ]
+        },
+        {
+            "condition": "Stuffed products of heading 19.02 (e.g., stuffed pasta), even if containing more than 20% meat/fish",
+            "action": "Redirect to Heading 19.02",
+            "keywords": [
+                "stuffed pasta",
+                "ravioli",
+                "tortellini",
+                "19.02"
+            ]
+        },
+        {
+            "condition": "Food preparations of heading 21.03 (sauces, mixed condiments) even if containing more than 20% meat/fish",
+            "action": "Redirect to Heading 21.03",
+            "keywords": [
+                "sauce",
+                "condiment",
+                "21.03"
+            ]
+        },
+        {
+            "condition": "Food preparations of heading 21.04 (soups, broths, composite homogenised preparations) even if containing more than 20% meat/fish",
+            "action": "Redirect to Heading 21.04",
+            "keywords": [
+                "soup",
+                "broth",
+                "composite homogenised",
+                "21.04"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "20% threshold rule",
+            "description": "Food preparations fall in Chapter 16 only if they contain MORE THAN 20% by weight of sausage, meat, meat offal, blood, insects, fish, crustaceans, molluscs or aquatic invertebrates, or any combination thereof.",
+            "priority": 1
+        },
+        {
+            "rule": "Predominant component rule",
+            "description": "When a preparation contains two or more qualifying ingredients, it is classified in the heading of Chapter 16 corresponding to the component or components which predominate BY WEIGHT.",
+            "priority": 2
+        },
+        {
+            "rule": "Homogenised preparations priority",
+            "description": "Subheading 1602.10 (homogenised preparations) takes precedence over ALL other subheadings of heading 16.02. Applies to finely homogenised preparations, for infants/young children or dietetic purposes, in retail containers of net weight NOT exceeding 250g.",
+            "priority": 3
+        },
+        {
+            "rule": "Species name equivalence",
+            "description": "Fish, crustaceans, molluscs and other aquatic invertebrates specified in subheadings of 16.04 or 16.05 under their common names only, are of the SAME species as those mentioned in Chapter 3 under the same name.",
+            "priority": 4
+        }
+    ]
+}
