@@ -1,0 +1,40 @@
+{
+    "chapter_code": "36",
+    "inclusions": [
+        "Heading 36.01 — Propellent powders (propellants)",
+        "Heading 36.02 — Prepared explosives, other than propellent powders",
+        "Heading 36.03 — Safety fuses; detonating fuses; percussion or detonating caps; igniters; electric detonators",
+        "Heading 36.04 — Fireworks, signalling flares, rain rockets, fog signals and other pyrotechnic articles",
+        "Heading 36.05 — Matches, other than pyrotechnic articles of heading 36.04",
+        "Heading 36.06 — Ferro-cerium and other pyrophoric alloys in all forms; articles of combustible materials (Note 2): (a) metaldehyde, hexamethylenetetramine and similar substances in tablet/stick/similar forms for use as fuels; fuels with basis of alcohol and similar prepared fuels in solid or semi-solid form; (b) liquid or liquefied-gas fuels in containers ≤300 cm3 for cigarette or similar lighters; (c) resin torches, firelighters and the like"
+    ],
+    "exclusions": [
+        {
+            "condition": "Separate chemically defined compounds NOT described in Note 2(a) or (b) — e.g., TNT, RDX, nitroglycerin, picric acid as pure/bulk chemicals",
+            "action": "Redirect to Chapter 29 (organic) or Chapter 28 (inorganic). Ch.36 Note 1 explicitly excludes all separate chemically defined compounds EXCEPT those covered by Note 2(a)(b)",
+            "keywords": ["TNT chemically pure", "RDX pure", "nitroglycerin pure", "PETN pure", "picric acid"]
+        },
+        {
+            "condition": "Metaldehyde, hexamethylenetetramine or similar substances put up as FUELS (tablets, sticks, or small container liquefied gas ≤300cm3 for lighters)",
+            "action": "These specifically go to 36.06, NOT to Chapter 29 — Ch.29 Note 2(ij) explicitly excludes them from Ch.29",
+            "keywords": []
+        },
+        {
+            "condition": "Percussion caps, toy pistol caps — not detonating for industrial use",
+            "action": "Toy caps → heading 95.03 (toys); industrial detonating caps → 36.03",
+            "keywords": ["toy caps", "cap gun", "toy pistol cap", "95.03"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Chapter 36 covers exclusively energetic and pyrotechnic materials",
+            "description": "Chapter 36 is narrowly scoped to explosives, pyrotechnics, matches and related combustion articles. The scope is defined by the energetic nature of the product (explosive, deflagrating, pyrotechnic, combustible by design). General chemicals that happen to be flammable do NOT go here.",
+            "priority": 1
+        },
+        {
+            "rule": "36.06 captures solid/liquid fuels for lighters and fire-lighting per Ch.29 Note 2(ij)",
+            "description": "Metaldehyde (solid fuel tablets), hexamethylenetetramine fuel tablets, and similar, when put up as fuels for camping/cooking → 36.06. Liquid/liquefied gas fuels in containers ≤300 cm3 for cigarette or similar lighters → 36.06. This OVERRIDES their possible classification in Ch.29.",
+            "priority": 2
+        }
+    ]
+}

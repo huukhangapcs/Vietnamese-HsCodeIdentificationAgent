@@ -1,0 +1,226 @@
+[
+  {
+    "level": 0,
+    "hs_code": "3601",
+    "description_en": "Propellent powders",
+    "description_vi": "Bột nổ đẩy",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "36010000",
+        "description_en": "Propellent powders",
+        "description_vi": "Bột nổ đẩy",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Propellent powders"
+      }
+    ],
+    "semantic_path": "Explosives & pyrotechnics > Propellent powders"
+  },
+  {
+    "level": 0,
+    "hs_code": "3602",
+    "description_en": "Prepared explosives, other than propellent powders",
+    "description_vi": "Thuốc nổ đã điều chế, trừ bột nổ đẩy",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "36020000",
+        "description_en": "Prepared explosives, other than propellent powders",
+        "description_vi": "Thuốc nổ đã điều chế, trừ bột nổ đẩy",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Prepared explosives (excl. propellent powders)"
+      }
+    ],
+    "semantic_path": "Explosives & pyrotechnics > Prepared explosives (excl. propellent powders)"
+  },
+  {
+    "level": 0,
+    "hs_code": "3603",
+    "description_en": "Safety fuses; detonating cords; percussion or detonating caps; igniters; electric detonators",
+    "description_vi": "Dây cháy chậm; dây nổ; nụ xòe hoặc kíp nổ; bộ phận đánh lửa; kíp nổ điện",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "36031000",
+        "description_en": "Safety fuses",
+        "description_vi": "Dây cháy chậm",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Fuses; caps; igniters; detonators > Safety fuses"
+      },
+      {
+        "level": 1,
+        "hs_code": "36032000",
+        "description_en": "Detonating cords",
+        "description_vi": "Dây nổ",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Fuses; caps; igniters; detonators > Detonating cords"
+      },
+      {
+        "level": 1,
+        "hs_code": "36033000",
+        "description_en": "Percussion caps",
+        "description_vi": "Nụ xòe",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Fuses; caps; igniters; detonators > Percussion caps"
+      },
+      {
+        "level": 1,
+        "hs_code": "36034000",
+        "description_en": "Detonating caps",
+        "description_vi": "Kíp nổ",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Fuses; caps; igniters; detonators > Detonating caps"
+      },
+      {
+        "level": 1,
+        "hs_code": "36035000",
+        "description_en": "Igniters",
+        "description_vi": "Bộ phận đánh lửa",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Fuses; caps; igniters; detonators > Igniters"
+      },
+      {
+        "level": 1,
+        "hs_code": "36036000",
+        "description_en": "Electric detonators",
+        "description_vi": "Kíp nổ điện",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Fuses; caps; igniters; detonators > Electric detonators"
+      }
+    ],
+    "semantic_path": "Explosives & pyrotechnics > Fuses; caps; igniters; detonators"
+  },
+  {
+    "level": 0,
+    "hs_code": "3604",
+    "description_en": "Fireworks, signalling flares, rain rockets, fog signals and other pyrotechnic articles",
+    "description_vi": "Pháo hoa, pháo hiệu, pháo mưa, pháo hiệu sương mù và các sản phẩm pháo khác",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "36041000",
+        "description_en": "Fireworks",
+        "description_vi": "Pháo hoa",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Fireworks; signalling flares; pyrotechnic articles > Fireworks"
+      },
+      {
+        "level": 1,
+        "hs_code": "360490",
+        "description_en": "Other:",
+        "description_vi": "Loại khác:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "36049020",
+            "description_en": "Miniature pyrotechnic munitions and percussion caps for toys",
+            "description_vi": "Pháo hoa nhỏ và kíp nổ dùng làm đồ chơi",
+            "children": [],
+            "semantic_path": "Explosives & pyrotechnics > Fireworks; signalling flares; pyrotechnic articles > Other > Miniature pyrotechnic munitions and percussion caps for toys"
+          },
+          {
+            "level": 2,
+            "hs_code": "36049040",
+            "description_en": "Signalling flares",
+            "description_vi": "Pháo hiệu",
+            "children": [],
+            "semantic_path": "Explosives & pyrotechnics > Fireworks; signalling flares; pyrotechnic articles > Other > Signalling flares"
+          },
+          {
+            "level": 2,
+            "hs_code": "36049050",
+            "description_en": "Signalling rockets",
+            "description_vi": "Pháo thăng thiên (tín hiệu)",
+            "children": [],
+            "semantic_path": "Explosives & pyrotechnics > Fireworks; signalling flares; pyrotechnic articles > Other > Signalling rockets"
+          },
+          {
+            "level": 2,
+            "hs_code": "36049090",
+            "description_en": "Other",
+            "description_vi": "Loại khác",
+            "children": [],
+            "semantic_path": "Explosives & pyrotechnics > Fireworks; signalling flares; pyrotechnic articles > Other > Other"
+          }
+        ],
+        "semantic_path": "Explosives & pyrotechnics > Fireworks; signalling flares; pyrotechnic articles > Other"
+      }
+    ],
+    "semantic_path": "Explosives & pyrotechnics > Fireworks; signalling flares; pyrotechnic articles"
+  },
+  {
+    "level": 0,
+    "hs_code": "3605",
+    "description_en": "Matches, other than pyrotechnic articles of heading 36.04",
+    "description_vi": "Diêm, trừ các sản phẩm pháo thuộc nhóm 36.04",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "36050000",
+        "description_en": "Matches, other than pyrotechnic articles of heading 36.04",
+        "description_vi": "Diêm, trừ các sản phẩm pháo thuộc nhóm 36.04",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Matches (excl. pyrotechnic articles)"
+      }
+    ],
+    "semantic_path": "Explosives & pyrotechnics > Matches (excl. pyrotechnic articles)"
+  },
+  {
+    "level": 0,
+    "hs_code": "3606",
+    "description_en": "Ferro-cerium and other pyrophoric alloys in all forms; articles of combustible materials as specified in Note 2 to this Chapter",
+    "description_vi": "Hợp kim xeri-sắt và các hợp kim tự cháy khác ở tất cả các dạng; các sản phẩm làm từ vật liệu dễ cháy",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "36061000",
+        "description_en": "Liquid or liquefied-gas fuels in containers of a kind used for filling or refilling cigarette or similar lighters and of a capacity not exceeding 300 cm3",
+        "description_vi": "Nhiên liệu lỏng hoặc nhiên liệu khí hóa lỏng trong vật chứa dùng để nạp bật lửa, dung tích không quá 300 cm3",
+        "children": [],
+        "semantic_path": "Explosives & pyrotechnics > Pyrophoric alloys; combustible articles > Liquid/liquefied-gas lighter fuel (≤300 cm3 containers)"
+      },
+      {
+        "level": 1,
+        "hs_code": "360690",
+        "description_en": "Other:",
+        "description_vi": "Loại khác:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "36069010",
+            "description_en": "Solid or semi-solid fuels, solidified alcohol and similar prepared fuels",
+            "description_vi": "Nhiên liệu rắn hoặc bán rắn, cồn rắn và các nhiên liệu được điều chế tương tự",
+            "children": [],
+            "semantic_path": "Explosives & pyrotechnics > Pyrophoric alloys; combustible articles > Other > Solid/semi-solid fuels; solidified alcohol; prepared fuels (metaldehyde, hexamine tablets)"
+          },
+          {
+            "level": 2,
+            "hs_code": "36069020",
+            "description_en": "Lighter flints",
+            "description_vi": "Đá lửa dùng cho bật lửa",
+            "children": [],
+            "semantic_path": "Explosives & pyrotechnics > Pyrophoric alloys; combustible articles > Other > Lighter flints"
+          },
+          {
+            "level": 2,
+            "hs_code": "36069030",
+            "description_en": "Other ferro-cerium and other pyrophoric alloys in all forms",
+            "description_vi": "Hợp kim xeri-sắt và các hợp kim tự cháy khác ở tất cả các dạng",
+            "children": [],
+            "semantic_path": "Explosives & pyrotechnics > Pyrophoric alloys; combustible articles > Other > Ferro-cerium and other pyrophoric alloys"
+          },
+          {
+            "level": 2,
+            "hs_code": "36069090",
+            "description_en": "Other",
+            "description_vi": "Loại khác",
+            "children": [],
+            "semantic_path": "Explosives & pyrotechnics > Pyrophoric alloys; combustible articles > Other > Other"
+          }
+        ],
+        "semantic_path": "Explosives & pyrotechnics > Pyrophoric alloys; combustible articles > Other"
+      }
+    ],
+    "semantic_path": "Explosives & pyrotechnics > Pyrophoric alloys; combustible articles"
+  }
+]

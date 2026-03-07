@@ -1,0 +1,153 @@
+[
+  {
+    "level": 0, "hs_code": "2843",
+    "description_en": "Colloidal precious metals; inorganic or organic compounds of precious metals, whether or not chemically defined; amalgams of precious metals",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Colloidal precious metals; compounds of precious metals; amalgams of precious metals",
+    "children": [
+      {"level": 1, "hs_code": "28431000", "description_en": "Colloidal precious metals (colloidal gold, colloidal silver, colloidal platinum)", "children": [], "semantic_path": "Miscellaneous > Precious metal compounds; amalgams > Colloidal precious metals"},
+      {
+        "level": 1, "hs_code": "PSEUDO_2843_1", "description_en": "Silver compounds:",
+        "semantic_path": "Miscellaneous > Precious metal compounds > Silver compounds:",
+        "children": [
+          {"level": 2, "hs_code": "28432100", "description_en": "Silver nitrate (AgNO3)", "children": [], "semantic_path": "Miscellaneous > Silver compounds: > Silver nitrate (AgNO3)"},
+          {"level": 2, "hs_code": "28432900", "description_en": "Other silver compounds (AgCl, AgBr, Ag2S, Ag2O, AgF, silver acetate, silver carbonate, etc.)", "children": [], "semantic_path": "Miscellaneous > Silver compounds: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28433000", "description_en": "Gold compounds (HAuCl4 chloroauric acid, AuCN, gold trichloride, gold(I) compounds, etc.)", "children": [], "semantic_path": "Miscellaneous > Precious metal compounds > Gold compounds"},
+      {"level": 1, "hs_code": "28439000", "description_en": "Other compounds; amalgams (Pt, Pd, Rh, Ir, Os, Ru compounds; amalgams of Ag, Au, Pt with Hg)", "children": [], "semantic_path": "Miscellaneous > Precious metal compounds > Other compounds; amalgams of precious metals"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2844",
+    "description_en": "Radioactive chemical elements and radioactive isotopes (including fissile or fertile elements and isotopes) and their compounds; mixtures and residues containing these products",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Radioactive chemical elements and isotopes; their compounds; mixtures and residues",
+    "children": [
+      {
+        "level": 1, "hs_code": "284410",
+        "description_en": "Natural uranium and its compounds; alloys, dispersions (incl. cermets), ceramic products and mixtures containing natural uranium or natural uranium compounds:",
+        "semantic_path": "Miscellaneous > Radioactive elements/isotopes > Natural uranium; its compounds; alloys/mixtures:",
+        "children": [
+          {"level": 2, "hs_code": "28441010", "description_en": "Natural uranium and its compounds (UO2, UO3, UF4, UF6, uranium tetrachloride, etc.)", "children": [], "semantic_path": "Miscellaneous > Radioactive > Natural uranium: > Natural U and its compounds"},
+          {"level": 2, "hs_code": "28441090", "description_en": "Other (alloys, cermets, ceramics, mixtures containing natural uranium)", "children": [], "semantic_path": "Miscellaneous > Radioactive > Natural uranium: > Other"}
+        ]
+      },
+      {
+        "level": 1, "hs_code": "284420",
+        "description_en": "Uranium enriched in U-235 and its compounds; plutonium and its compounds; alloys, dispersions (incl. cermets), ceramic products and mixtures containing U-235 or Pu:",
+        "semantic_path": "Miscellaneous > Radioactive elements/isotopes > Enriched U-235; Pu; their compounds; alloys/mixtures:",
+        "children": [
+          {"level": 2, "hs_code": "28442010", "description_en": "Uranium enriched in U-235 and its compounds; plutonium and its compounds (UO2 enriched, UF6 enriched, PuO2, etc.)", "children": [], "semantic_path": "Miscellaneous > Radioactive > Enriched U-235; Pu: > Enriched U-235 and Pu and their compounds"},
+          {"level": 2, "hs_code": "28442090", "description_en": "Other (alloys, cermets, ceramics, mixtures containing enriched U-235 or Pu)", "children": [], "semantic_path": "Miscellaneous > Radioactive > Enriched U-235; Pu: > Other"}
+        ]
+      },
+      {
+        "level": 1, "hs_code": "284430",
+        "description_en": "Uranium depleted in U-235 and its compounds; thorium and its compounds; alloys, dispersions (incl. cermets), ceramic products and mixtures containing depleted U-235 or Th:",
+        "semantic_path": "Miscellaneous > Radioactive elements/isotopes > Depleted U-235; Th; their compounds; alloys/mixtures:",
+        "children": [
+          {"level": 2, "hs_code": "28443010", "description_en": "Uranium depleted in U-235 and its compounds; thorium and its compounds (ThO2, ThF4, depleted UF6, etc.)", "children": [], "semantic_path": "Miscellaneous > Radioactive > Depleted U-235; Th: > Depleted U-235 and Th and their compounds"},
+          {"level": 2, "hs_code": "28443090", "description_en": "Other (alloys, cermets, ceramics, mixtures containing depleted U-235 or Th)", "children": [], "semantic_path": "Miscellaneous > Radioactive > Depleted U-235; Th: > Other"}
+        ]
+      },
+      {
+        "level": 1, "hs_code": "PSEUDO_2844_1",
+        "description_en": "Radioactive elements/isotopes/compounds other than 2844.10/20/30; alloys, dispersions, mixtures; radioactive residues:",
+        "semantic_path": "Miscellaneous > Radioactive elements/isotopes > Other radioactive elements/isotopes/compounds; radioactive residues:",
+        "children": [
+          {"level": 2, "hs_code": "28444100", "description_en": "Tritium (³H) and its compounds; alloys, dispersions, ceramics, mixtures containing tritium", "children": [], "semantic_path": "Miscellaneous > Other radioactive elements: > Tritium and its compounds"},
+          {"level": 2, "hs_code": "28444200", "description_en": "Ac-225, Ac-227, Cf-253, Cm-240/241/242/243/244, Es-253/254, Gd-148, Po-208/209/210, Ra-223, U-230/232 and their compounds; alloys/mixtures (high-value medical/industrial isotopes)", "children": [], "semantic_path": "Miscellaneous > Other radioactive elements: > Specific high-value isotopes (Ac, Cf, Cm, Es, Gd, Po, Ra, U-230/232)"},
+          {"level": 2, "hs_code": "28444300", "description_en": "Other radioactive elements and isotopes and compounds; other alloys/dispersions/ceramics/mixtures (I-131, Co-60, Sr-90, Cs-137, Ir-192, etc.)", "children": [], "semantic_path": "Miscellaneous > Other radioactive elements: > Other radioactive elements, isotopes, compounds and mixtures"},
+          {"level": 2, "hs_code": "28444400", "description_en": "Radioactive residues (scrap/waste from nuclear operations having specific radioactivity)", "children": [], "semantic_path": "Miscellaneous > Other radioactive elements: > Radioactive residues"}
+        ]
+      },
+      {"level": 1, "hs_code": "28445000", "description_en": "Spent (irradiated) fuel elements (cartridges) of nuclear reactors", "children": [], "semantic_path": "Miscellaneous > Radioactive elements/isotopes > Spent fuel elements (cartridges) of nuclear reactors"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2845",
+    "description_en": "Isotopes other than those of heading 28.44; compounds, inorganic or organic, of such isotopes, whether or not chemically defined",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Stable isotopes (other than 28.44) and their compounds",
+    "children": [
+      {"level": 1, "hs_code": "28451000", "description_en": "Heavy water (deuterium oxide, D2O)", "children": [], "semantic_path": "Miscellaneous > Stable isotopes (other than 28.44) > Heavy water (D2O)"},
+      {"level": 1, "hs_code": "28452000", "description_en": "Boron enriched in boron-10 and its compounds (¹⁰B — neutron absorber in reactors)", "children": [], "semantic_path": "Miscellaneous > Stable isotopes (other than 28.44) > Boron enriched in ¹⁰B and its compounds"},
+      {"level": 1, "hs_code": "28453000", "description_en": "Lithium enriched in lithium-6 and its compounds (⁶Li — thermonuclear application)", "children": [], "semantic_path": "Miscellaneous > Stable isotopes (other than 28.44) > Lithium enriched in ⁶Li and its compounds"},
+      {"level": 1, "hs_code": "28454000", "description_en": "Helium-3 (³He — neutron detection, cryogenics)", "children": [], "semantic_path": "Miscellaneous > Stable isotopes (other than 28.44) > Helium-3 (³He)"},
+      {"level": 1, "hs_code": "28459000", "description_en": "Other (D2, deuterium-labelled compounds, C-13, N-15, O-18, S-34, other enriched stable isotopes)", "children": [], "semantic_path": "Miscellaneous > Stable isotopes (other than 28.44) > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2846",
+    "description_en": "Compounds, inorganic or organic, of rare-earth metals, of yttrium or of scandium or of mixtures of these metals",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Inorganic or organic compounds of rare-earth metals, Y or Sc, or mixtures",
+    "children": [
+      {"level": 1, "hs_code": "28461000", "description_en": "Cerium compounds (CeO2, Ce2(SO4)3, CeCl3, cerium misc. salts — polishing, catalysts)", "children": [], "semantic_path": "Miscellaneous > Rare-earth compounds > Cerium compounds"},
+      {"level": 1, "hs_code": "28469000", "description_en": "Other (La, Pr, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Y, Sc compounds and mixtures of RE compounds)", "children": [], "semantic_path": "Miscellaneous > Rare-earth compounds > Other (La, Pr, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Y, Sc compounds)"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2847",
+    "description_en": "Hydrogen peroxide, whether or not solidified with urea",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Hydrogen peroxide (H2O2), whether or not solidified with urea",
+    "children": [
+      {"level": 1, "hs_code": "28470010", "description_en": "In liquid form (H2O2 solution — 35%, 50%, 70%, etc.)", "children": [], "semantic_path": "Miscellaneous > Hydrogen peroxide > In liquid form"},
+      {"level": 1, "hs_code": "28470090", "description_en": "Other (H2O2 solidified with urea — percarbamide / urea hydrogen peroxide UHP)", "children": [], "semantic_path": "Miscellaneous > Hydrogen peroxide > Other (solidified with urea, UHP)"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2849",
+    "description_en": "Carbides, whether or not chemically defined",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Carbides, whether or not chemically defined",
+    "children": [
+      {"level": 1, "hs_code": "28491000", "description_en": "Of calcium (calcium carbide, CaC2 — acetylene generator)", "children": [], "semantic_path": "Miscellaneous > Carbides > Of calcium (CaC2)"},
+      {"level": 1, "hs_code": "28492000", "description_en": "Of silicon (silicon carbide, SiC — abrasive, refractory)", "children": [], "semantic_path": "Miscellaneous > Carbides > Of silicon (SiC)"},
+      {"level": 1, "hs_code": "28499000", "description_en": "Other (B4C, TiC, WC, TaC, NbC, MoC, Cr3C2, etc. — NOT sintered with metal; pure carbide powders)", "children": [], "semantic_path": "Miscellaneous > Carbides > Other (B4C, TiC, WC, TaC, NbC, Cr3C2, etc.)"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "28500000",
+    "description_en": "Hydrides, nitrides, azides, silicides and borides, whether or not chemically defined, other than compounds which are also carbides of heading 28.49",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Hydrides, nitrides, azides, silicides and borides (excl. carbides of 28.49)",
+    "children": []
+  },
+  {
+    "level": 0, "hs_code": "2852",
+    "description_en": "Inorganic or organic compounds of mercury, whether or not chemically defined, excluding amalgams",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Inorganic or organic compounds of mercury, excl. amalgams",
+    "children": [
+      {
+        "level": 1, "hs_code": "285210", "description_en": "Chemically defined:",
+        "semantic_path": "Miscellaneous > Mercury compounds (excl. amalgams) > Chemically defined:",
+        "children": [
+          {"level": 2, "hs_code": "28521010", "description_en": "Mercury sulphates (HgSO4, Hg2SO4)", "children": [], "semantic_path": "Miscellaneous > Mercury compounds (chemically defined): > Mercury sulphates"},
+          {"level": 2, "hs_code": "28521020", "description_en": "Mercury compounds of a kind used as luminophores (HgS vermilion, etc.)", "children": [], "semantic_path": "Miscellaneous > Mercury compounds (chemically defined): > Mercury compounds used as luminophores"},
+          {"level": 2, "hs_code": "28521090", "description_en": "Other chemically defined mercury compounds (HgCl2, Hg2Cl2 calomel, HgO, HgI2, Hg(NO3)2, HgF2, etc.)", "children": [], "semantic_path": "Miscellaneous > Mercury compounds (chemically defined): > Other"}
+        ]
+      },
+      {
+        "level": 1, "hs_code": "285290", "description_en": "Other:",
+        "semantic_path": "Miscellaneous > Mercury compounds (excl. amalgams) > Other:",
+        "children": [
+          {"level": 2, "hs_code": "28529010", "description_en": "Mercury tannates", "children": [], "semantic_path": "Miscellaneous > Mercury compounds (other): > Mercury tannates"},
+          {"level": 2, "hs_code": "28529020", "description_en": "Mercury sulphides; mercury polysulphides; mercury polyphosphates; mercury carbides; heterocyclic mercury compounds (subheading 2934.99.90); mercury peptone derivatives; other protein derivatives of mercury", "children": [], "semantic_path": "Miscellaneous > Mercury compounds (other): > Hg sulphides/polysulphides/polyphosphates/carbides/heterocyclic/peptone derivatives"},
+          {"level": 2, "hs_code": "28529090", "description_en": "Other (other non-chemically-defined mercury compounds NESOI)", "children": [], "semantic_path": "Miscellaneous > Mercury compounds (other): > Other"}
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2853",
+    "description_en": "Phosphides (excl. ferrophosphorus); other inorganic compounds (incl. distilled/conductivity water); liquid air; compressed air; amalgams other than amalgams of precious metals",
+    "semantic_path": "Sub-Chapter VI: Miscellaneous > Phosphides (excl. ferrophosphorus); other inorganic compounds; distilled water; liquid air; compressed air; non-precious amalgams",
+    "children": [
+      {"level": 1, "hs_code": "28531000", "description_en": "Cyanogen chloride (chlorcyan, ClCN)", "children": [], "semantic_path": "Miscellaneous > Phosphides; other inorganic compounds; water; air; amalgams > Cyanogen chloride (ClCN)"},
+      {
+        "level": 1, "hs_code": "285390", "description_en": "Other:",
+        "semantic_path": "Miscellaneous > Phosphides; other inorganic compounds; water; air; amalgams > Other:",
+        "children": [
+          {"level": 2, "hs_code": "28539010", "description_en": "Demineralized waters (distilled water, deionised water, conductivity water, ultrapure water)", "children": [], "semantic_path": "Miscellaneous > Other inorganic compounds: > Demineralized waters"},
+          {"level": 2, "hs_code": "28539090", "description_en": "Other (phosphides Ca3P2 AlP Zn3P2 etc.; liquid air; compressed air; non-precious amalgams; copper phosphide >15% P; carbon oxysulphide; cyanogen; cyanamide derivatives; thiocarbonyl halides; other inorganic compounds NESOI)", "children": [], "semantic_path": "Miscellaneous > Other inorganic compounds: > Other (phosphides, liquid air, compressed air, non-precious amalgams, other)"}
+        ]
+      }
+    ]
+  }
+]

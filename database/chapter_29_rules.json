@@ -1,0 +1,178 @@
+{
+    "chapter_code": "29",
+    "inclusions": [
+        "Sub-Chapter I — Hydrocarbons and their halogenated, sulphonated, nitrated or nitrosated derivatives (29.01–29.03): acyclic hydrocarbons (alkanes, alkenes, alkynes); cyclanic/cyclenic/cyclo-terpenic hydrocarbons; aromatic hydrocarbons (benzene, toluene, xylene, styrene, naphthalene, anthracene, etc.); halogenated derivatives of hydrocarbons",
+        "Sub-Chapter II — Alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives (29.05–29.06): acyclic alcohols (methanol, ethanol, propanol, glycerol, etc.); cyclanic/cyclenic/cyclo-terpenic alcohols; aromatic alcohols; halogenated/sulphonated/nitrated/nitrosated derivatives",
+        "Sub-Chapter III — Phenols, phenol-alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives (29.07–29.08)",
+        "Sub-Chapter IV — Ethers, alcohol peroxides, ether peroxides, epoxides, acetals and hemiacetals (29.09–29.11)",
+        "Sub-Chapter V — Aldehyde-function compounds (29.12–29.13): acyclic/cyclic aldehydes; aldehyde derivatives",
+        "Sub-Chapter VI — Ketone-function and quinone-function compounds (29.14)",
+        "Sub-Chapter VII — Carboxylic acids and their anhydrides, halides, peroxides and peroxyacids; halogenated, sulphonated, nitrated or nitrosated derivatives (29.15–29.20): saturated acyclic monocarboxylic acids; unsaturated/cyclic acids; polycarboxylic acids; carboxylic acids with additional oxygen function; esters of inorganic acids",
+        "Sub-Chapter VIII — Nitrogen-function compounds (29.21–29.29): amines; amino compounds with oxygen function; quaternary ammonium; carboxyamide function; carboxyimide function; imines; nitrile function; diazo/azo/azoxy compounds; organic derivatives of hydrazine; nitro/nitroso compounds",
+        "Sub-Chapter IX — Organo-sulphur compounds (29.30)",
+        "Sub-Chapter X — Other organo-inorganic compounds (29.31): organo-arsenic, organo-mercury, organo-lead, organo-tin, organo-phosphorus, etc.",
+        "Sub-Chapter XI — Heterocyclic compounds (29.32–29.34); nucleic acids and their salts (29.34); provitamins/vitamins/hormones/glycosides/alkaloids/enzymes/antibiotics (29.36–29.41)",
+        "Separate chemically defined organic compounds, whether or not containing impurities",
+        "Mixtures of two or more isomers of the same organic compound, whether or not containing impurities (except mixtures of acyclic hydrocarbon isomers other than stereoisomers → Chapter 27)",
+        "Products of headings 29.36–29.39 (vitamins, hormones, glycosides, alkaloids) whether or not chemically defined",
+        "Sugar ethers, sugar acetals and sugar esters, and their salts (29.40); antibiotics (29.41)",
+        "Above products dissolved in water or in other solvents (if dissolution is normal/necessary for safety or transport only and solvent does not create specific use)",
+        "Above products with added stabiliser (anti-caking agent) for preservation/transport",
+        "Above products with added anti-dusting agent, colouring or odoriferous substance or emetic for identification or safety (provided no specific use is created)",
+        "Diazonium salts, couplers for azo dyes, diazotisable amines and their salts — diluted to standard strengths for production of azo dyes"
+    ],
+    "exclusions": [
+        {
+            "condition": "Goods of heading 15.04 (fats/oils of fish or marine mammals) or crude glycerol of heading 15.20",
+            "action": "Redirect to heading 15.04 or 15.20 (Chapter 15 — Fats and Oils)",
+            "keywords": ["fish oil", "marine mammal fat", "crude glycerol", "glycerol crude", "15.04", "15.20"]
+        },
+        {
+            "condition": "Ethyl alcohol (ethanol)",
+            "action": "Redirect to heading 22.07 (undenatured ethyl alcohol ≥80%) or 22.08 (undenatured ethyl alcohol <80% or denatured)",
+            "keywords": ["ethyl alcohol", "ethanol", "cồn etylic", "cồn ethanol", "22.07", "22.08"]
+        },
+        {
+            "condition": "Methane or propane (as separate chemically defined compounds of Chapter 27)",
+            "action": "Redirect to heading 27.11 (petroleum gases)",
+            "keywords": ["methane", "propane", "methane gas", "propane gas", "27.11"]
+        },
+        {
+            "condition": "Compounds of carbon explicitly listed in Note 2 to Chapter 28 (CO, CO2, HCN, CS2, phosgene, cyanogen, cyanamide derivatives, etc.)",
+            "action": "Redirect to Chapter 28 — inorganic compounds of carbon are excluded from Chapter 29",
+            "keywords": ["carbon dioxide", "carbon monoxide", "hydrogen cyanide", "HCN", "CO2", "carbon disulphide", "CS2", "phosgene", "cyanogen", "cyanamide", "chapter 28"]
+        },
+        {
+            "condition": "Immunological products of heading 30.02 (antisera, vaccines, toxins, blood fractions)",
+            "action": "Redirect to heading 30.02 (Chapter 30 — Pharmaceutical products)",
+            "keywords": ["antiserum", "vaccine", "toxin", "blood fraction", "immunological", "antitoxin", "30.02"]
+        },
+        {
+            "condition": "Urea (whether or not pure)",
+            "action": "Redirect to heading 31.02 (nitrogenous fertilisers) or 31.05 (mixed fertilisers), NOT Chapter 29",
+            "keywords": ["urea", "urê", "carbamide", "31.02", "31.05"]
+        },
+        {
+            "condition": "Colouring matter of vegetable or animal origin",
+            "action": "Redirect to heading 32.03",
+            "keywords": ["natural dye", "vegetable dye", "animal dye", "plant colouring", "natural colouring matter", "32.03"]
+        },
+        {
+            "condition": "Synthetic organic colouring matter, fluorescent brightening agents or luminophores",
+            "action": "Redirect to heading 32.04",
+            "keywords": ["synthetic dye", "organic dye", "azo dye finished", "fluorescent brightening", "optical brightener", "luminophore", "32.04"]
+        },
+        {
+            "condition": "Dyes or other colouring matter put up in forms or packings for retail sale",
+            "action": "Redirect to heading 32.12",
+            "keywords": ["dye retail", "colouring matter retail", "ink retail", "paint retail", "32.12"]
+        },
+        {
+            "condition": "Enzymes (finished enzyme preparations)",
+            "action": "Redirect to heading 35.07",
+            "keywords": ["enzyme", "enzym", "lipase", "protease", "amylase", "lactase", "cellulase", "35.07"]
+        },
+        {
+            "condition": "Metaldehyde, hexamethylenetetramine or similar substances put up as solid fuels (tablets, sticks) or liquid/liquefied-gas fuels in small containers (≤300 cm3) for cigarette lighters",
+            "action": "Redirect to heading 36.06",
+            "keywords": ["metaldehyde", "hexamethylenetetramine", "fuel tablet", "lighter fuel", "solid fuel", "36.06"]
+        },
+        {
+            "condition": "Products put up as charges for fire-extinguishers or fire-extinguishing grenades",
+            "action": "Redirect to heading 38.13",
+            "keywords": ["fire extinguisher charge", "fire extinguishing", "38.13"]
+        },
+        {
+            "condition": "Ink removers put up in packings for retail sale",
+            "action": "Redirect to heading 38.24",
+            "keywords": ["ink remover", "stain remover retail", "38.24"]
+        },
+        {
+            "condition": "Optical elements made of organic compounds (e.g., ethylenediamine tartrate lenses/prisms)",
+            "action": "Redirect to heading 90.01",
+            "keywords": ["optical element", "optical lens organic", "prism organic", "ethylenediamine tartrate", "90.01"]
+        },
+        {
+            "condition": "Mixtures of acyclic hydrocarbon isomers (other than stereoisomers), whether or not saturated",
+            "action": "Redirect to Chapter 27 — petroleum fractions/hydrocarbon mixtures belong to Chapter 27",
+            "keywords": ["hydrocarbon mixture", "isomer mixture acyclic", "petroleum fraction", "alkane mixture", "chapter 27"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Scope: chemically defined organic compounds only",
+            "description": "Chapter 29 headings apply ONLY to separate chemically defined organic compounds (with permitted additives such as stabilisers, anti-dusting agents, colouring for identification — but only if additions do NOT create a specific-use suitability). Mixtures of different organic substances intended for a specific use → typically Chapter 38 or the relevant application chapter.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Carbon compounds belong to Chapter 28, not 29",
+            "description": "The following inorganic carbon compounds are excluded from Chapter 29 and remain in Chapter 28: oxides of carbon (CO, CO2); hydrogen cyanide (HCN) and other cyanogen acids; halide oxides of carbon (phosgene COCl2); carbon disulphide (CS2); thiocarbonates/selenocarbonates/complex cyanates of inorganic bases; hydrogen peroxide solidified with urea; carbon oxysulphide, thiocarbonyl halides, cyanogen, cyanogen halides, cyanamide and its metal derivatives.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 3 — Tie-break: last heading wins",
+            "description": "If a product could be classified in two or more headings of Chapter 29, it must be classified in the heading that occurs LAST in numerical order. Example: a compound with both ketone and carboxylic acid functions that fits both 29.14 and 29.18 → 29.18.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 4 — Compound derivatives in 29.04–29.06, 29.08–29.11, 29.13–29.20",
+            "description": "In headings 29.04–29.06, 29.08–29.11, and 29.13–29.20, references to halogenated/sulphonated/nitrated/nitrosated derivatives INCLUDE compound derivatives (e.g., sulphohalogenated, nitrohalogenated, nitrosulphonated). IMPORTANT: Nitro and nitroso groups are NOT 'nitrogen-functions' for heading 29.29. The 'oxygen function' in 29.11/29.12/29.14/29.18/29.22 is restricted to oxygen-functions of headings 29.05–29.20.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 5A — Esters: classified with the last-numbered component",
+            "description": "Esters of acid-function organic compounds (Sub-Chapters I–VII) with organic compounds of these sub-chapters → classified in the heading occurring LAST in numerical order among those appropriate to the two components.",
+            "priority": 5
+        },
+        {
+            "rule": "Note 5B — Esters of ethyl alcohol: classified with the acid",
+            "description": "Esters of ethyl alcohol with acid-function organic compounds of Sub-Chapters I–VII → classified in the same heading as the corresponding acid-function compound (NOT with ethanol which is excluded from Chapter 29 anyway).",
+            "priority": 6
+        },
+        {
+            "rule": "Note 5C — Salts: inorganic salts of organic compounds follow the organic compound",
+            "description": "(1) Inorganic salts of organic acid/phenol/enol compounds or organic bases → classified with the organic compound. (2) Salts of two organic compounds → classified in the heading occurring LAST in numerical order (base or acid, whichever is later). (3) Co-ordination compounds (other than 29.41 antibiotics or Sub-Chapter XI) → heading occurring LAST after cleaving all metal bonds (except metal-carbon bonds).",
+            "priority": 7
+        },
+        {
+            "rule": "Note 5D/5E — Metal alcoholates and acid halides",
+            "description": "(D) Metal alcoholates → same heading as the corresponding alcohol, EXCEPT ethanol alcoholates → heading 29.05 (not excluded with ethanol). (E) Halides of carboxylic acids → same heading as the corresponding carboxylic acid.",
+            "priority": 8
+        },
+        {
+            "rule": "Note 6 — Organo-sulphur (29.30) and other organo-inorganic (29.31): boundary with sulphonated/halogenated derivatives",
+            "description": "Headings 29.30 and 29.31 cover organic compounds whose molecules contain atoms of non-metals or metals (S, As, Pb, etc.) DIRECTLY bonded to carbon. They do NOT include sulphonated or halogenated derivatives where the only heteroatom directly bonded to carbon is sulphur (giving sulphonate character) or halogen (giving halogenated derivative character) — those go in the regular sulphonation/halogenation derivative headings (29.04–29.06, etc.).",
+            "priority": 9
+        },
+        {
+            "rule": "Note 7 — Heterocyclic headings 29.32–29.34 exclusions",
+            "description": "Headings 29.32, 29.33 and 29.34 do NOT include: (a) epoxides with a 3-membered ring; (b) ketone peroxides; (c) cyclic polymers of aldehydes or thioaldehydes; (d) anhydrides of polybasic carboxylic acids; (e) cyclic esters of polyhydric alcohols or phenols with polybasic acids; (f) imides of polybasic acids. These provisions apply only when ring-position hetero-atoms result SOLELY from the listed cyclising functions.",
+            "priority": 10
+        },
+        {
+            "rule": "Note 8 — Hormones (heading 29.37): broad definition",
+            "description": "The term 'hormones' in heading 29.37 includes hormone-RELEASING factors, hormone-STIMULATING factors, hormone INHIBITORS, and hormone ANTAGONISTS (anti-hormones). The expression 'used primarily as hormones' covers both (a) hormone derivatives/structural analogues used for hormonal effect, AND (b) derivatives/analogues used primarily as INTERMEDIATES in synthesising heading 29.37 products.",
+            "priority": 11
+        },
+        {
+            "rule": "Subheading Note 1 — Derivatives classified with parent compound within a heading",
+            "description": "Within any single heading of Chapter 29, derivatives of a chemical compound (or group of compounds) are classified in the SAME subheading as that compound, provided: (a) they are not more specifically covered by another subheading, AND (b) there is no residual 'Other' subheading in the series. This rule enables derivative compounds to follow their parent without explicit enumeration.",
+            "priority": 12
+        },
+        {
+            "rule": "Subheading Note 2 — Note 3 (last heading wins) does NOT apply at sub-heading level",
+            "description": "The Chapter Note 3 tie-break rule (last heading in numerical order) applies only at HEADING level (4-digit). It does NOT apply for choosing between subheadings (6-digit or 8-digit) within a heading.",
+            "priority": 13
+        },
+        {
+            "rule": "Key boundary: Chapter 29 vs Chapter 30 (pharmaceuticals)",
+            "description": "Chemically defined organic compounds are in Chapter 29 even if used pharmaceutically, UNLESS they are put up in measured doses or in forms/packings for retail sale as medicaments → then redirect to Chapter 30 (heading 30.03 or 30.04). Immunological products (30.02) regardless of form always go to Chapter 30.",
+            "priority": 14
+        },
+        {
+            "rule": "Key boundary: Chapter 29 vs Chapter 38 (miscellaneous chemical products)",
+            "description": "Mixtures of organic chemical compounds that are not separate chemically defined substances, put up for a specific use (e.g., mixed solvents, cleaning preparations, cutting fluids) → typically Chapter 38, NOT Chapter 29. The key test: is it a single, chemically defined compound? If yes → Chapter 29. If it's a formulated mixture for a specific purpose → elsewhere.",
+            "priority": 15
+        }
+    ]
+}

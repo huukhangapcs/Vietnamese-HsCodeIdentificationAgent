@@ -1,0 +1,146 @@
+{
+    "chapter_code": "21",
+    "inclusions": [
+        "Extracts, essences and concentrates of coffee, and preparations with a basis of these or with a basis of coffee (including instant coffee, coffee paste with vegetable fats, coffee preparations with sugar)",
+        "Extracts, essences and concentrates of tea or maté, and preparations thereof (including tea extract powder, tea mixed with milk powder and sugar)",
+        "Roasted chicory and other roasted coffee substitutes (not containing coffee), and their extracts, essences and concentrates",
+        "Active yeasts (fresh or dry)",
+        "Inactive yeasts and other dead single-cell micro-organisms (excluding vaccines of heading 30.02)",
+        "Prepared baking powders",
+        "Sauces and preparations therefor (soya sauce, tomato ketchup, fish sauce, chili sauce, shrimp paste, other sauces)",
+        "Mixed condiments and mixed seasonings",
+        "Mustard flour, meal and prepared mustard",
+        "Soups and broths and preparations therefor (containing or not containing meat, for infants or general use)",
+        "Homogenised composite food preparations: finely homogenised mixture of 2+ basic ingredients, retail containers not exceeding 250g, for infants/young children or dietetic purposes",
+        "Ice cream and other edible ice, whether or not containing cocoa",
+        "Food preparations not elsewhere specified or included: protein concentrates, textured protein substances, beancurd (tofu), powdered alcohol, non-dairy creamer, autolysed yeast extracts, beverage preparations, food supplements, flavoured syrups, coconut milk, tempeh, medical foods"
+    ],
+    "exclusions": [
+        {
+            "condition": "Mixed vegetables of heading 07.12",
+            "action": "Redirect to Heading 07.12",
+            "keywords": [
+                "mixed vegetables",
+                "dried vegetables",
+                "07.12"
+            ]
+        },
+        {
+            "condition": "Roasted coffee substitutes containing coffee in any proportion",
+            "action": "Redirect to Heading 09.01 (coffee)",
+            "keywords": [
+                "coffee substitute",
+                "roasted substitute",
+                "containing coffee",
+                "09.01"
+            ]
+        },
+        {
+            "condition": "Flavoured tea",
+            "action": "Redirect to Heading 09.02",
+            "keywords": [
+                "flavoured tea",
+                "flavored tea",
+                "09.02"
+            ]
+        },
+        {
+            "condition": "Spices or other products of headings 09.04 to 09.10 (pepper, cinnamon, cloves, nutmeg, ginger, saffron, etc.)",
+            "action": "Redirect to Headings 09.04–09.10",
+            "keywords": [
+                "pepper",
+                "cinnamon",
+                "clove",
+                "nutmeg",
+                "ginger",
+                "saffron",
+                "spice",
+                "09.04",
+                "09.05",
+                "09.06",
+                "09.07",
+                "09.08",
+                "09.09",
+                "09.10"
+            ]
+        },
+        {
+            "condition": "Food preparations (OTHER than heading 21.03 or 21.04) containing more than 20% by weight of meat, fish, seafood, etc.",
+            "action": "Redirect to Chapter 16 — Note: heading 21.03 (sauces) and 21.04 (soups/homogenised) are EXEMPT from this 20% rule",
+            "keywords": [
+                "more than 20%",
+                "meat",
+                "fish",
+                "seafood",
+                "sausage",
+                "chapter 16"
+            ]
+        },
+        {
+            "condition": "Products of heading 24.04 (tobacco substitutes / nicotine products)",
+            "action": "Redirect to Heading 24.04",
+            "keywords": [
+                "tobacco",
+                "nicotine",
+                "24.04"
+            ]
+        },
+        {
+            "condition": "Yeast put up as a medicament or other products of heading 30.03 or 30.04",
+            "action": "Redirect to Heading 30.03 or 30.04 (pharmaceuticals)",
+            "keywords": [
+                "medicament",
+                "pharmaceutical",
+                "yeast tablet",
+                "30.03",
+                "30.04"
+            ]
+        },
+        {
+            "condition": "Prepared enzymes of heading 35.07",
+            "action": "Redirect to Heading 35.07",
+            "keywords": [
+                "enzyme",
+                "prepared enzyme",
+                "35.07"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Coffee substitute extract exception (Note 2)",
+            "description": "Roasted coffee substitutes CONTAINING COFFEE → heading 09.01. BUT: extracts/essences/concentrates derived from those substitutes → heading 21.01 (Note 2 exception). Key: the physical form (extract vs. roasted whole) determines Chapter 21 vs Chapter 9.",
+            "priority": 1
+        },
+        {
+            "rule": "Homogenised composite food preparations definition (21.04)",
+            "description": "For heading 21.04: 'homogenised composite food preparations' = finely homogenised mixture of TWO OR MORE basic ingredients (meat, fish, vegetables, fruit, nuts). Must be in retail containers NOT EXCEEDING 250g. Must be suitable for infants/young children or dietetic purposes. Small quantities of seasoning/preservation ingredients ignored. May contain small visible pieces.",
+            "priority": 2
+        },
+        {
+            "rule": "21.03 and 21.04 exempt from 20% meat rule",
+            "description": "The 20% meat/fish rule (Note 1e) that sends food preparations to Chapter 16 does NOT apply to heading 21.03 (sauces/condiments) and heading 21.04 (soups/homogenised). These two headings are explicitly excluded from the 20% rule, so fish sauce, meat soups, etc. remain in Chapter 21.",
+            "priority": 3
+        },
+        {
+            "rule": "Yeast classification path",
+            "description": "Active yeasts → 21.02.10. Inactive yeasts / dead single-cell micro-organisms → 21.02.20. Prepared baking powders → 21.02.30. HOWEVER: yeast packaged as a medicament → 30.03 or 30.04. Vaccines (even if containing micro-organisms) → 30.02.",
+            "priority": 4
+        },
+        {
+            "rule": "Coffee preparations — extract basis vs. ground roasted coffee basis",
+            "description": "Under heading 21.01, preparations must be distinguished by their basis: (a) basis of coffee extracts/essences/concentrates → 2101.12 subheadings ending .91/.92 by sugar content; (b) basis of ground roasted coffee (paste with vegetable fat) → 2101.12.10. Instant coffee (pure extract) → 2101.11.",
+            "priority": 5
+        },
+        {
+            "rule": "Food preparations NESOI scope (21.06)",
+            "description": "Heading 21.06 is a residual/catch-all for food preparations not covered elsewhere. Must verify the product is not classifiable under any other heading first. Includes: protein concentrates (2106.10), beancurd/tofu (2106.90.11-19), non-dairy creamer (2106.90.30), food supplements (2106.90.71-72), flavoured syrups (2106.90.92), coconut milk (2106.90.93), tempeh (2106.90.97), homogenised infant formulas for lactase-deficient infants (2106.90.81).",
+            "priority": 6
+        },
+        {
+            "rule": "Beverage preparations in 21.06 — alcoholic vs. non-alcoholic",
+            "description": "Heading 21.06 covers both alcoholic and non-alcoholic preparations used for making or manufacturing beverages. Distinguish: non-alcoholic raw materials → 2106.90.53-55; alcoholic raw materials → 2106.90.61-67. Composite concentrates for simple dilution with water → 2106.90.55 (non-alc) or 2106.90.64-65 (alc).",
+            "priority": 7
+        }
+    ]
+}

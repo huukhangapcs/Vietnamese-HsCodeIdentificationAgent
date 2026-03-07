@@ -1,0 +1,121 @@
+[
+  {
+    "level": 0, "hs_code": "2814",
+    "description_en": "Ammonia, anhydrous or in aqueous solution",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides, Hydroxides, Peroxides > Ammonia, anhydrous or in aqueous solution",
+    "children": [
+      {"level": 1, "hs_code": "28141000", "description_en": "Anhydrous ammonia", "children": [], "semantic_path": "Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Ammonia > Anhydrous ammonia"},
+      {"level": 1, "hs_code": "28142000", "description_en": "Ammonia in aqueous solution (ammonium hydroxide)", "children": [], "semantic_path": "Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Ammonia > Ammonia in aqueous solution"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2815",
+    "description_en": "Sodium hydroxide (caustic soda); potassium hydroxide (caustic potash); peroxides of sodium or potassium",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides, Hydroxides, Peroxides > NaOH (caustic soda); KOH (caustic potash); Na/K peroxides",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2815_1",
+        "description_en": "Sodium hydroxide (caustic soda):",
+        "semantic_path": "Inorganic Bases > NaOH; KOH; Na/K peroxides > Sodium hydroxide (caustic soda):",
+        "children": [
+          {"level": 2, "hs_code": "28151100", "description_en": "Solid (caustic soda flakes/beads/prill)", "children": [], "semantic_path": "Inorganic Bases > NaOH > Solid"},
+          {"level": 2, "hs_code": "28151200", "description_en": "In aqueous solution (soda lye or liquid soda)", "children": [], "semantic_path": "Inorganic Bases > NaOH > In aqueous solution (soda lye / liquid soda)"}
+        ]
+      },
+      {"level": 1, "hs_code": "28152000", "description_en": "Potassium hydroxide (caustic potash, KOH)", "children": [], "semantic_path": "Inorganic Bases > NaOH; KOH; Na/K peroxides > Potassium hydroxide (caustic potash)"},
+      {"level": 1, "hs_code": "28153000", "description_en": "Peroxides of sodium or potassium (Na2O2, K2O2)", "children": [], "semantic_path": "Inorganic Bases > NaOH; KOH; Na/K peroxides > Peroxides of sodium or potassium"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2816",
+    "description_en": "Hydroxide and peroxide of magnesium; oxides, hydroxides and peroxides, of strontium or barium",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Mg hydroxide/peroxide; Sr/Ba oxides/hydroxides/peroxides",
+    "children": [
+      {"level": 1, "hs_code": "28161000", "description_en": "Hydroxide and peroxide of magnesium (Mg(OH)2, MgO2)", "children": [], "semantic_path": "Inorganic Bases > Mg/Sr/Ba oxides/hydroxides > Mg hydroxide and peroxide"},
+      {"level": 1, "hs_code": "28164000", "description_en": "Oxides, hydroxides and peroxides of strontium or barium (SrO, Sr(OH)2, BaO, Ba(OH)2, BaO2)", "children": [], "semantic_path": "Inorganic Bases > Mg/Sr/Ba oxides/hydroxides > Oxides, hydroxides and peroxides of Sr or Ba"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2817",
+    "description_en": "Zinc oxide; zinc peroxide",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Zinc oxide; zinc peroxide",
+    "children": [
+      {"level": 1, "hs_code": "28170010", "description_en": "Zinc oxide (ZnO)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Zinc oxide; zinc peroxide > ZnO"},
+      {"level": 1, "hs_code": "28170020", "description_en": "Zinc peroxide (ZnO2)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Zinc oxide; zinc peroxide > ZnO2"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2818",
+    "description_en": "Artificial corundum, whether or not chemically defined; aluminium oxide; aluminium hydroxide",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Artificial corundum; Al2O3; Al(OH)3",
+    "children": [
+      {"level": 1, "hs_code": "28181000", "description_en": "Artificial corundum (fused alumina), whether or not chemically defined", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Artificial corundum; Al2O3; Al(OH)3 > Artificial corundum"},
+      {"level": 1, "hs_code": "28182000", "description_en": "Aluminium oxide, other than artificial corundum (calcined alumina, Al2O3)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Artificial corundum; Al2O3; Al(OH)3 > Aluminium oxide (other than artificial corundum)"},
+      {"level": 1, "hs_code": "28183000", "description_en": "Aluminium hydroxide (Al(OH)3, gibbsite, ATH)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Artificial corundum; Al2O3; Al(OH)3 > Aluminium hydroxide"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2819",
+    "description_en": "Chromium oxides and hydroxides",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Chromium oxides and hydroxides",
+    "children": [
+      {"level": 1, "hs_code": "28191000", "description_en": "Chromium trioxide (CrO3, chromic acid anhydride)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Chromium oxides and hydroxides > Chromium trioxide (CrO3)"},
+      {"level": 1, "hs_code": "28199000", "description_en": "Other (Cr2O3 chromic oxide, Cr(OH)3, chromyl chloride)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Chromium oxides and hydroxides > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2820",
+    "description_en": "Manganese oxides",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Manganese oxides",
+    "children": [
+      {"level": 1, "hs_code": "28201000", "description_en": "Manganese dioxide (MnO2, battery-grade and other)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Manganese oxides > MnO2 (manganese dioxide)"},
+      {"level": 1, "hs_code": "28209000", "description_en": "Other (MnO, Mn2O3, Mn3O4)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Manganese oxides > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2821",
+    "description_en": "Iron oxides and hydroxides; earth colours containing 70% or more by weight of combined iron evaluated as Fe2O3",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Iron oxides and hydroxides; earth colours ≥70% Fe as Fe2O3",
+    "children": [
+      {"level": 1, "hs_code": "28211000", "description_en": "Iron oxides and hydroxides (Fe2O3, Fe3O4, FeO, Fe(OH)3 — chemically defined)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Iron oxides/hydroxides; earth colours ≥70% Fe2O3 > Iron oxides and hydroxides"},
+      {"level": 1, "hs_code": "28212000", "description_en": "Earth colours containing 70% or more by weight of combined iron evaluated as Fe2O3", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Iron oxides/hydroxides; earth colours ≥70% Fe2O3 > Earth colours (≥70% Fe as Fe2O3)"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "28220000",
+    "description_en": "Cobalt oxides and hydroxides; commercial cobalt oxides",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Cobalt oxides and hydroxides; commercial cobalt oxides",
+    "children": []
+  },
+  {
+    "level": 0, "hs_code": "28230000",
+    "description_en": "Titanium oxides (TiO2 and other titanium oxides)",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Titanium oxides (TiO2)",
+    "children": []
+  },
+  {
+    "level": 0, "hs_code": "2824",
+    "description_en": "Lead oxides; red lead and orange lead",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Lead oxides; red lead and orange lead",
+    "children": [
+      {"level": 1, "hs_code": "28241000", "description_en": "Lead monoxide (litharge / massicot, PbO)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Lead oxides; red lead and orange lead > Lead monoxide (PbO)"},
+      {"level": 1, "hs_code": "28249000", "description_en": "Other (red lead Pb3O4, orange lead, lead dioxide PbO2)", "children": [], "semantic_path": "Metal Oxides/Hydroxides > Lead oxides; red lead and orange lead > Other (red lead, orange lead, PbO2)"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2825",
+    "description_en": "Hydrazine and hydroxylamine and their inorganic salts; other inorganic bases; other metal oxides, hydroxides and peroxides",
+    "semantic_path": "Sub-Chapter IV: Inorganic Bases; Metal Oxides/Hydroxides/Peroxides > Hydrazine; hydroxylamine and inorganic salts; other inorganic bases; other metal oxides/hydroxides/peroxides",
+    "children": [
+      {"level": 1, "hs_code": "28251000", "description_en": "Hydrazine and hydroxylamine and their inorganic salts (N2H4, NH2OH)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Hydrazine; hydroxylamine and their inorganic salts"},
+      {"level": 1, "hs_code": "28252000", "description_en": "Lithium oxide and hydroxide (Li2O, LiOH)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Lithium oxide and hydroxide"},
+      {"level": 1, "hs_code": "28253000", "description_en": "Vanadium oxides and hydroxides (V2O5, V2O3, VO2, VOH)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Vanadium oxides and hydroxides"},
+      {"level": 1, "hs_code": "28254000", "description_en": "Nickel oxides and hydroxides (NiO, Ni2O3, Ni(OH)2)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Nickel oxides and hydroxides"},
+      {"level": 1, "hs_code": "28255000", "description_en": "Copper oxides and hydroxides (CuO, Cu2O, Cu(OH)2)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Copper oxides and hydroxides"},
+      {"level": 1, "hs_code": "28256000", "description_en": "Germanium oxides and zirconium dioxide (GeO2, ZrO2)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Germanium oxides and zirconium dioxide"},
+      {"level": 1, "hs_code": "28257000", "description_en": "Molybdenum oxides and hydroxides (MoO3, MoO2)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Molybdenum oxides and hydroxides"},
+      {"level": 1, "hs_code": "28258000", "description_en": "Antimony oxides (Sb2O3, Sb2O4, Sb2O5)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Antimony oxides"},
+      {"level": 1, "hs_code": "28259000", "description_en": "Other (W, Sn, Bi, In, Se, Te, Re, Os, Ir oxides/hydroxides; mercury oxide; other)", "children": [], "semantic_path": "Inorganic Bases; other metal oxides > Other"}
+    ]
+  }
+]

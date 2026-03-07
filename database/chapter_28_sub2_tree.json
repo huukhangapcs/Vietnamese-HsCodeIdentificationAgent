@@ -1,0 +1,123 @@
+[
+  {
+    "level": 0, "hs_code": "2806",
+    "description_en": "Hydrogen chloride (hydrochloric acid); chlorosulphuric acid",
+    "semantic_path": "Sub-Chapter II: Inorganic Acids & Inorganic O-Compounds of Non-metals > Hydrogen chloride (hydrochloric acid); chlorosulphuric acid",
+    "children": [
+      {"level": 1, "hs_code": "28061000", "description_en": "Hydrogen chloride (hydrochloric acid)", "children": [], "semantic_path": "Inorganic Acids > HCl; chlorosulphuric acid > Hydrogen chloride (hydrochloric acid)"},
+      {"level": 1, "hs_code": "28062000", "description_en": "Chlorosulphuric acid", "children": [], "semantic_path": "Inorganic Acids > HCl; chlorosulphuric acid > Chlorosulphuric acid"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2807",
+    "description_en": "Sulphuric acid; oleum",
+    "semantic_path": "Sub-Chapter II: Inorganic Acids & Inorganic O-Compounds of Non-metals > Sulphuric acid; oleum",
+    "children": [
+      {"level": 1, "hs_code": "28070010", "description_en": "Sulphuric acid containing by weight more than 80% of H2SO4", "children": [], "semantic_path": "Inorganic Acids > Sulphuric acid; oleum > Sulphuric acid >80% H2SO4"},
+      {"level": 1, "hs_code": "28070090", "description_en": "Other (sulphuric acid ≤80% H2SO4; oleum)", "children": [], "semantic_path": "Inorganic Acids > Sulphuric acid; oleum > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "28080000",
+    "description_en": "Nitric acid; sulphonitric acids",
+    "semantic_path": "Sub-Chapter II: Inorganic Acids & Inorganic O-Compounds of Non-metals > Nitric acid; sulphonitric acids",
+    "children": []
+  },
+  {
+    "level": 0, "hs_code": "2809",
+    "description_en": "Diphosphorous pentaoxide; phosphoric acid; polyphosphoric acids, whether or not chemically defined",
+    "semantic_path": "Sub-Chapter II: Inorganic Acids & Inorganic O-Compounds of Non-metals > P2O5; phosphoric acid; polyphosphoric acids",
+    "children": [
+      {"level": 1, "hs_code": "28091000", "description_en": "Diphosphorus pentaoxide (P2O5)", "children": [], "semantic_path": "Inorganic Acids > P2O5; H3PO4; polyphosphoric acids > Diphosphorus pentaoxide"},
+      {
+        "level": 1, "hs_code": "280920",
+        "description_en": "Phosphoric acid and polyphosphoric acids:",
+        "semantic_path": "Inorganic Acids > P2O5; H3PO4; polyphosphoric acids > Phosphoric acid and polyphosphoric acids:",
+        "children": [
+          {
+            "level": 2, "hs_code": "PSEUDO_2809_1",
+            "description_en": "Food grade:",
+            "semantic_path": "Inorganic Acids > H3PO4 > Phosphoric acid and polyphosphoric acids: > Food grade:",
+            "children": [
+              {"level": 3, "hs_code": "28092031", "description_en": "Hypophosphoric acid (food grade)", "children": [], "semantic_path": "Inorganic Acids > H3PO4 > Food grade: > Hypophosphoric acid"},
+              {"level": 3, "hs_code": "28092032", "description_en": "Phosphoric acid (food grade)", "children": [], "semantic_path": "Inorganic Acids > H3PO4 > Food grade: > Phosphoric acid"},
+              {"level": 3, "hs_code": "28092039", "description_en": "Other (food grade polyphosphoric acids)", "children": [], "semantic_path": "Inorganic Acids > H3PO4 > Food grade: > Other"}
+            ]
+          },
+          {
+            "level": 2, "hs_code": "PSEUDO_2809_2",
+            "description_en": "Other:",
+            "semantic_path": "Inorganic Acids > H3PO4 > Phosphoric acid and polyphosphoric acids: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28092091", "description_en": "Hypophosphoric acid (non-food grade)", "children": [], "semantic_path": "Inorganic Acids > H3PO4 > Other: > Hypophosphoric acid"},
+              {"level": 3, "hs_code": "28092092", "description_en": "Phosphoric acid (non-food grade)", "children": [], "semantic_path": "Inorganic Acids > H3PO4 > Other: > Phosphoric acid"},
+              {"level": 3, "hs_code": "28092099", "description_en": "Other (polyphosphoric acids, non-food grade)", "children": [], "semantic_path": "Inorganic Acids > H3PO4 > Other: > Other"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2810",
+    "description_en": "Oxides of boron; boric acids",
+    "semantic_path": "Sub-Chapter II: Inorganic Acids & Inorganic O-Compounds of Non-metals > Oxides of boron; boric acids",
+    "children": [
+      {"level": 1, "hs_code": "28100010", "description_en": "Oxides of boron (B2O3)", "children": [], "semantic_path": "Inorganic Acids > Oxides of boron; boric acids > Oxides of boron"},
+      {"level": 1, "hs_code": "28100020", "description_en": "Boric acids (H3BO3, metaboric acid)", "children": [], "semantic_path": "Inorganic Acids > Oxides of boron; boric acids > Boric acids"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2811",
+    "description_en": "Other inorganic acids and other inorganic oxygen compounds of non-metals",
+    "semantic_path": "Sub-Chapter II: Inorganic Acids & Inorganic O-Compounds of Non-metals > Other inorganic acids; other inorganic oxygen compounds of non-metals",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2811_1",
+        "description_en": "Other inorganic acids:",
+        "semantic_path": "Inorganic Acids > Other inorganic acids; other O-compounds of non-metals > Other inorganic acids:",
+        "children": [
+          {"level": 2, "hs_code": "28111100", "description_en": "Hydrogen fluoride (hydrofluoric acid, HF)", "children": [], "semantic_path": "Inorganic Acids > Other inorganic acids: > HF (hydrofluoric acid)"},
+          {"level": 2, "hs_code": "28111200", "description_en": "Hydrogen cyanide (hydrocyanic acid, HCN)", "children": [], "semantic_path": "Inorganic Acids > Other inorganic acids: > HCN (hydrocyanic acid)"},
+          {
+            "level": 2, "hs_code": "281119",
+            "description_en": "Other:",
+            "semantic_path": "Inorganic Acids > Other inorganic acids: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28111910", "description_en": "Arsenic acid (H3AsO4)", "children": [], "semantic_path": "Inorganic Acids > Other inorganic acids: > Other: > Arsenic acid"},
+              {"level": 3, "hs_code": "28111920", "description_en": "Aminosulphonic acid (sulphamic acid, H3NSO3)", "children": [], "semantic_path": "Inorganic Acids > Other inorganic acids: > Other: > Sulphamic acid"},
+              {"level": 3, "hs_code": "28111990", "description_en": "Other (other inorganic acids NESOI)", "children": [], "semantic_path": "Inorganic Acids > Other inorganic acids: > Other: > Other"}
+            ]
+          }
+        ]
+      },
+      {
+        "level": 1, "hs_code": "PSEUDO_2811_2",
+        "description_en": "Other inorganic oxygen compounds of non-metals:",
+        "semantic_path": "Inorganic Acids > Other inorganic acids; other O-compounds of non-metals > Other inorganic oxygen compounds of non-metals:",
+        "children": [
+          {"level": 2, "hs_code": "28112100", "description_en": "Carbon dioxide (CO2)", "children": [], "semantic_path": "Inorganic O-compounds of non-metals > CO2"},
+          {
+            "level": 2, "hs_code": "281122",
+            "description_en": "Silicon dioxide (SiO2):",
+            "semantic_path": "Inorganic O-compounds of non-metals > Silicon dioxide (SiO2):",
+            "children": [
+              {"level": 3, "hs_code": "28112210", "description_en": "In powder form (fumed/pyrogenic/precipitated silica)", "children": [], "semantic_path": "Inorganic O-compounds > SiO2: > In powder form"},
+              {"level": 3, "hs_code": "28112290", "description_en": "Other (SiO2 in other forms)", "children": [], "semantic_path": "Inorganic O-compounds > SiO2: > Other"}
+            ]
+          },
+          {
+            "level": 2, "hs_code": "281129",
+            "description_en": "Other:",
+            "semantic_path": "Inorganic O-compounds of non-metals > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28112910", "description_en": "Diarsenic pentaoxide (As2O5)", "children": [], "semantic_path": "Inorganic O-compounds > Other: > Diarsenic pentaoxide (As2O5)"},
+              {"level": 3, "hs_code": "28112920", "description_en": "Sulphur dioxide (SO2)", "children": [], "semantic_path": "Inorganic O-compounds > Other: > Sulphur dioxide (SO2)"},
+              {"level": 3, "hs_code": "28112990", "description_en": "Other (SO3, N2O3, N2O5, P2O3, etc.)", "children": [], "semantic_path": "Inorganic O-compounds > Other: > Other"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,705 @@
+[
+    {
+        "level": 0,
+        "hs_code": "2101",
+        "description_en": "Extracts, essences and concentrates, of coffee, tea or maté, and preparations with a basis of these products or with a basis of coffee, tea or maté; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Extracts, essences and concentrates, of coffee, and preparations with a basis of these extracts, essences or concentrates or with a basis of coffee:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "210111",
+                        "description_en": "Extracts, essences and concentrates:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Instant coffee:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21011111",
+                                        "description_en": "In packings of a net weight not less than 20 kg",
+                                        "children": [],
+                                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Extracts, essences and concentrates: > Instant coffee: > In packings of a net weight not less than 20 kg"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21011119",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Extracts, essences and concentrates: > Instant coffee: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Extracts, essences and concentrates: > Instant coffee:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21011190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Extracts, essences and concentrates: > Other"
+                            }
+                        ],
+                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Extracts, essences and concentrates:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "210112",
+                        "description_en": "Preparations with a basis of extracts, essences or concentrates or with a basis of coffee:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21011210",
+                                "description_en": "Mixtures in paste form with a basis of ground roasted coffee, containing vegetable fats",
+                                "children": [],
+                                "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Preparations with a basis of extracts or with a basis of coffee: > Mixtures in paste form with a basis of ground roasted coffee, containing vegetable fats"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_1",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21011291",
+                                        "description_en": "Coffee preparation with a basis of extracts, essences or concentrate containing added sugar, whether or not containing creamer",
+                                        "children": [],
+                                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Preparations with a basis of extracts or with a basis of coffee: > Other: > Coffee preparation (extract basis) containing added sugar, whether or not containing creamer"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21011292",
+                                        "description_en": "Coffee preparation with a basis of ground roasted coffee containing added sugar, whether or not containing creamer",
+                                        "children": [],
+                                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Preparations with a basis of extracts or with a basis of coffee: > Other: > Coffee preparation (ground roasted coffee basis) containing added sugar, whether or not containing creamer"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21011299",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Preparations with a basis of extracts or with a basis of coffee: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Preparations with a basis of extracts or with a basis of coffee: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates: > Preparations with a basis of extracts or with a basis of coffee:"
+                    }
+                ],
+                "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Coffee extracts, essences and concentrates:"
+            },
+            {
+                "level": 1,
+                "hs_code": "210120",
+                "description_en": "Extracts, essences and concentrates, of tea or maté, and preparations with a basis of these extracts, essences or concentrates or with a basis of tea or maté:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "21012020",
+                        "description_en": "Tea extracts for the manufacture of tea preparations, in powder form",
+                        "children": [],
+                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Tea or maté extracts, essences and concentrates: > Tea extracts for the manufacture of tea preparations, in powder form"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "21012030",
+                        "description_en": "Preparations of tea consisting of a mixture of tea, milk powder and sugar",
+                        "children": [],
+                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Tea or maté extracts, essences and concentrates: > Preparations of tea consisting of a mixture of tea, milk powder and sugar"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "21012090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Tea or maté extracts, essences and concentrates: > Other"
+                    }
+                ],
+                "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Tea or maté extracts, essences and concentrates:"
+            },
+            {
+                "level": 1,
+                "hs_code": "21013000",
+                "description_en": "Roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof",
+                "children": [],
+                "semantic_path": "Extracts, essences and concentrates of coffee, tea or maté > Roasted chicory and other roasted coffee substitutes (not containing coffee), and their extracts, essences and concentrates"
+            }
+        ],
+        "semantic_path": "Extracts, essences and concentrates, of coffee, tea or maté, and preparations with a basis of these products; roasted chicory and other roasted coffee substitutes, and extracts, essences and concentrates thereof"
+    },
+    {
+        "level": 0,
+        "hs_code": "2102",
+        "description_en": "Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading 30.02); prepared baking powders",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "21021000",
+                "description_en": "Active yeasts",
+                "children": [],
+                "semantic_path": "Yeasts (active or inactive); other single-cell micro-organisms, dead; prepared baking powders > Active yeasts"
+            },
+            {
+                "level": 1,
+                "hs_code": "210220",
+                "description_en": "Inactive yeasts; other single-cell micro-organisms, dead:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "21022010",
+                        "description_en": "Of a kind used in animal feeding",
+                        "children": [],
+                        "semantic_path": "Yeasts (active or inactive); other single-cell micro-organisms, dead; prepared baking powders > Inactive yeasts; other single-cell micro-organisms, dead: > Of a kind used in animal feeding"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "21022090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Yeasts (active or inactive); other single-cell micro-organisms, dead; prepared baking powders > Inactive yeasts; other single-cell micro-organisms, dead: > Other"
+                    }
+                ],
+                "semantic_path": "Yeasts (active or inactive); other single-cell micro-organisms, dead; prepared baking powders > Inactive yeasts; other single-cell micro-organisms, dead:"
+            },
+            {
+                "level": 1,
+                "hs_code": "21023000",
+                "description_en": "Prepared baking powders",
+                "children": [],
+                "semantic_path": "Yeasts (active or inactive); other single-cell micro-organisms, dead; prepared baking powders > Prepared baking powders"
+            }
+        ],
+        "semantic_path": "Yeasts (active or inactive); other single-cell micro-organisms, dead (but not including vaccines of heading 30.02); prepared baking powders"
+    },
+    {
+        "level": 0,
+        "hs_code": "2103",
+        "description_en": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "21031000",
+                "description_en": "Soya sauce",
+                "children": [],
+                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Soya sauce"
+            },
+            {
+                "level": 1,
+                "hs_code": "21032000",
+                "description_en": "Tomato ketchup and other tomato sauces",
+                "children": [],
+                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Tomato ketchup and other tomato sauces"
+            },
+            {
+                "level": 1,
+                "hs_code": "21033000",
+                "description_en": "Mustard flour and meal and prepared mustard",
+                "children": [],
+                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Mustard flour and meal and prepared mustard"
+            },
+            {
+                "level": 1,
+                "hs_code": "210390",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Sauces and preparations therefor:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21039011",
+                                "description_en": "Chili sauce",
+                                "children": [],
+                                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other: > Sauces and preparations therefor: > Chili sauce"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21039012",
+                                "description_en": "Fish sauce",
+                                "children": [],
+                                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other: > Sauces and preparations therefor: > Fish sauce"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21039013",
+                                "description_en": "Other sauces",
+                                "children": [],
+                                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other: > Sauces and preparations therefor: > Other sauces"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21039019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other: > Sauces and preparations therefor: > Other"
+                            }
+                        ],
+                        "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other: > Sauces and preparations therefor:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_1",
+                        "description_en": "Mixed condiments and mixed seasonings:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21039021",
+                                "description_en": "Shrimp paste including belachan (blachan)",
+                                "children": [],
+                                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other: > Mixed condiments and mixed seasonings: > Shrimp paste including belachan (blachan)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21039029",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other: > Mixed condiments and mixed seasonings: > Other"
+                            }
+                        ],
+                        "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other: > Mixed condiments and mixed seasonings:"
+                    }
+                ],
+                "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard > Other:"
+            }
+        ],
+        "semantic_path": "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard"
+    },
+    {
+        "level": 0,
+        "hs_code": "2104",
+        "description_en": "Soups and broths and preparations therefor; homogenised composite food preparations",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "210410",
+                "description_en": "Soups and broths and preparations therefor:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_2",
+                        "description_en": "Containing meat:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21041011",
+                                "description_en": "Suitable for infants or young children",
+                                "children": [],
+                                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Soups and broths and preparations therefor: > Containing meat: > Suitable for infants or young children"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21041019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Soups and broths and preparations therefor: > Containing meat: > Other"
+                            }
+                        ],
+                        "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Soups and broths and preparations therefor: > Containing meat:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_3",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21041091",
+                                "description_en": "Suitable for infants or young children",
+                                "children": [],
+                                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Soups and broths and preparations therefor: > Other: > Suitable for infants or young children"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21041099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Soups and broths and preparations therefor: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Soups and broths and preparations therefor: > Other:"
+                    }
+                ],
+                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Soups and broths and preparations therefor:"
+            },
+            {
+                "level": 1,
+                "hs_code": "210420",
+                "description_en": "Homogenised composite food preparations:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_4",
+                        "description_en": "Containing meat:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21042011",
+                                "description_en": "Suitable for infants or young children",
+                                "children": [],
+                                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Homogenised composite food preparations: > Containing meat: > Suitable for infants or young children"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21042019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Homogenised composite food preparations: > Containing meat: > Other"
+                            }
+                        ],
+                        "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Homogenised composite food preparations: > Containing meat:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_5",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21042091",
+                                "description_en": "Suitable for infants or young children",
+                                "children": [],
+                                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Homogenised composite food preparations: > Other: > Suitable for infants or young children"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21042099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Homogenised composite food preparations: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Homogenised composite food preparations: > Other:"
+                    }
+                ],
+                "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations > Homogenised composite food preparations:"
+            }
+        ],
+        "semantic_path": "Soups and broths and preparations therefor; homogenised composite food preparations"
+    },
+    {
+        "level": 0,
+        "hs_code": "21050000",
+        "description_en": "Ice cream and other edible ice, whether or not containing cocoa",
+        "children": [],
+        "semantic_path": "Ice cream and other edible ice, whether or not containing cocoa"
+    },
+    {
+        "level": 0,
+        "hs_code": "2106",
+        "description_en": "Food preparations not elsewhere specified or included",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "21061000",
+                "description_en": "Protein concentrates and textured protein substances",
+                "children": [],
+                "semantic_path": "Food preparations not elsewhere specified or included > Protein concentrates and textured protein substances"
+            },
+            {
+                "level": 1,
+                "hs_code": "210690",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_6",
+                        "description_en": "Beancurd:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21069011",
+                                "description_en": "Dried bean curd and dried bean curd stick",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Beancurd: > Dried bean curd and dried bean curd stick"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069012",
+                                "description_en": "Fresh soybean curd (tofu)",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Beancurd: > Fresh soybean curd (tofu)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Beancurd: > Other"
+                            }
+                        ],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Beancurd:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "21069020",
+                        "description_en": "Powdered alcohol",
+                        "children": [],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Powdered alcohol"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "21069030",
+                        "description_en": "Non-dairy creamer",
+                        "children": [],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Non-dairy creamer"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_7",
+                        "description_en": "Autolysed yeast extracts:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21069041",
+                                "description_en": "In powder form",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Autolysed yeast extracts: > In powder form"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069049",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Autolysed yeast extracts: > Other"
+                            }
+                        ],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Autolysed yeast extracts:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_8",
+                        "description_en": "Other, non-alcoholic preparations of a kind used for the making or manufacture of beverages:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21069053",
+                                "description_en": "Ginseng based products",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Non-alcoholic beverage preparations: > Ginseng based products"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069054",
+                                "description_en": "Other preparations of a kind used as raw material for the manufacture of composite concentrates",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Non-alcoholic beverage preparations: > Other preparations of a kind used as raw material for the manufacture of composite concentrates"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069055",
+                                "description_en": "Other, composite concentrates for simple dilution with water to make beverages",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Non-alcoholic beverage preparations: > Other, composite concentrates for simple dilution with water to make beverages"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069059",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Non-alcoholic beverage preparations: > Other"
+                            }
+                        ],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Non-alcoholic preparations of a kind used for the making or manufacture of beverages:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_9",
+                        "description_en": "Other, alcoholic preparations of a kind used for the making or manufacture of beverages:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_2",
+                                "description_en": "Preparations of a kind used as raw material for the manufacture of composite concentrates:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21069061",
+                                        "description_en": "Of a kind used for the manufacture of alcoholic beverages, in liquid form",
+                                        "children": [],
+                                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Raw material for composite concentrates: > Of a kind used for the manufacture of alcoholic beverages, in liquid form"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21069062",
+                                        "description_en": "Of a kind used for the manufacture of alcoholic beverages, in other forms",
+                                        "children": [],
+                                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Raw material for composite concentrates: > Of a kind used for the manufacture of alcoholic beverages, in other forms"
+                                    }
+                                ],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Preparations of a kind used as raw material for the manufacture of composite concentrates:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_3",
+                                "description_en": "Composite concentrates for simple dilution with water to make beverages:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21069064",
+                                        "description_en": "Of a kind used for making alcoholic beverages, in liquid form",
+                                        "children": [],
+                                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Composite concentrates for simple dilution with water: > Of a kind used for making alcoholic beverages, in liquid form"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "21069065",
+                                        "description_en": "Of a kind used for making alcoholic beverages, in other forms",
+                                        "children": [],
+                                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Composite concentrates for simple dilution with water: > Of a kind used for making alcoholic beverages, in other forms"
+                                    }
+                                ],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Composite concentrates for simple dilution with water to make beverages:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069066",
+                                "description_en": "Other, of a kind used for the manufacture of alcoholic beverages, in liquid form",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Other, of a kind used for the manufacture of alcoholic beverages, in liquid form"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069067",
+                                "description_en": "Other, of a kind used for the manufacture of alcoholic beverages, in other forms",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Other, of a kind used for the manufacture of alcoholic beverages, in other forms"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069069",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic beverage preparations: > Other"
+                            }
+                        ],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Alcoholic preparations of a kind used for the making or manufacture of beverages:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_10",
+                        "description_en": "Other food supplements; fortificant premixes:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21069071",
+                                "description_en": "Food supplements based on ginseng",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other food supplements; fortificant premixes: > Food supplements based on ginseng"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069072",
+                                "description_en": "Other food supplements",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other food supplements; fortificant premixes: > Other food supplements"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069073",
+                                "description_en": "Fortificant premixes",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other food supplements; fortificant premixes: > Fortificant premixes"
+                            }
+                        ],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other food supplements; fortificant premixes:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_11",
+                        "description_en": "Food preparations for use by infants or young children:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21069081",
+                                "description_en": "Food preparations for lactase deficient infants or young children",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Food preparations for use by infants or young children: > Food preparations for lactase deficient infants or young children"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069089",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Food preparations for use by infants or young children: > Other"
+                            }
+                        ],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Food preparations for use by infants or young children:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_12",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "21069091",
+                                "description_en": "Other, mixtures of chemicals with foodstuffs or other substances with nutritive value, of a kind used for food processing",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other: > Mixtures of chemicals with foodstuffs or other substances with nutritive value, of a kind used for food processing"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069092",
+                                "description_en": "Flavoured or coloured syrups",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other: > Flavoured or coloured syrups"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069093",
+                                "description_en": "Coconut milk, whether or not powdered",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other: > Coconut milk, whether or not powdered"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069095",
+                                "description_en": "Seri kaya",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other: > Seri kaya"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069096",
+                                "description_en": "Other medical foods",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other: > Other medical foods"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069097",
+                                "description_en": "Tempeh",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other: > Tempeh"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069098",
+                                "description_en": "Other flavouring preparations",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other: > Other flavouring preparations"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "21069099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Food preparations not elsewhere specified or included > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Food preparations not elsewhere specified or included > Other:"
+            }
+        ],
+        "semantic_path": "Food preparations not elsewhere specified or included"
+    }
+]

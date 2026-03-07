@@ -1,0 +1,46 @@
+{
+    "chapter_code": "37",
+    "inclusions": [
+        "Heading 37.01 — Photographic plates and film in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in the flat, sensitised, unexposed, whether or not in packs",
+        "Heading 37.02 — Photographic film in rolls, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in rolls, sensitised, unexposed",
+        "Heading 37.03 — Photographic paper, paperboard and textiles, sensitised, unexposed",
+        "Heading 37.04 — Photographic plates, film, paper, paperboard and textiles, exposed but not developed",
+        "Heading 37.05 — Photographic plates and film, exposed and developed, other than cinematographic film",
+        "Heading 37.06 — Cinematographic film, exposed and developed, whether or not incorporating soundtrack or consisting only of soundtrack",
+        "Heading 37.07 — Chemical preparations for photographic uses (other than varnishes, glues, adhesives and similar preparations); unmixed products for photographic uses, put up in measured portions or put up for retail sale in a form ready for use"
+    ],
+    "exclusions": [
+        {
+            "condition": "Separate chemically defined photographic chemicals (developers, fixers, sensitisers) not put up in retail form or measured portions",
+            "action": "Redirect to Ch.28 (inorganic) or Ch.29 (organic) for bulk chemicals. 37.07 only covers preparations put up for photographic use in retail/measured form",
+            "keywords": ["bulk silver nitrate", "bulk sodium thiosulfate", "bulk hydroquinone developer", "bulk potassium bromide"]
+        },
+        {
+            "condition": "Waste or scrap of photographic materials (exposed/unexposed film scraps, waste photographic paper, spent fixer/developer solutions)",
+            "action": "Chapter 37 Note 1 explicitly excludes waste or scrap — redirect to the appropriate waste heading (e.g., 84.19 for chemical processing equipment waste, or relevant waste chapter)",
+            "keywords": ["waste film", "scrap film", "photographic waste", "film scrap", "spent fixer", "spent developer", "waste photographic paper"]
+        },
+        {
+            "condition": "Cinematographic film that is unrecorded (blank) — not exposed",
+            "action": "Unexposed blank film → 37.02 (unexposed film). Only exposed AND developed film goes to 37.06",
+            "keywords": []
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "State-based classification: unexposed → exposed not developed → exposed and developed",
+            "description": "The photographic material's state determines its heading: (1) Sensitised but UNEXPOSED → 37.01 (flat) or 37.02 (roll) for film; 37.03 for paper/textile. (2) Exposed but NOT DEVELOPED → 37.04. (3) Exposed AND DEVELOPED (processed) → 37.05 (photo plates/film) or 37.06 (cinema film). Classification entirely follows which stage of the photographic process the material is at.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Broad definition of 'photographic'",
+            "description": "The word 'photographic' in Chapter 37 covers the process of forming visible images directly or indirectly by the action of LIGHT OR OTHER FORMS OF RADIATION on photosensitive surfaces, INCLUDING THERMOSENSITIVE SURFACES. This means thermal imaging materials (heat-sensitive papers, thermal fax paper) are also within scope of Chapter 37, not just traditional light-sensitive materials.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 1 — Waste or scrap excluded from Chapter 37",
+            "description": "Chapter 37 does NOT cover waste or scrap of photographic articles. Waste/scrap photographic materials go to their appropriate waste headings in other chapters.",
+            "priority": 4
+        }
+    ]
+}

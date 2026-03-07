@@ -1,0 +1,255 @@
+[
+    {
+        "level": 0, "hs_code": "2501",
+        "description_en": "Salt (including table salt and denatured salt) and pure sodium chloride, whether or not in aqueous solution or containing added anti-caking or free-flowing agents; sea water",
+        "children": [
+            {"level": 1, "hs_code": "25010010", "description_en": "Table salt", "children": [], "semantic_path": "Salt; pure sodium chloride; sea water > Table salt"},
+            {"level": 1, "hs_code": "25010020", "description_en": "Unprocessed rock salt", "children": [], "semantic_path": "Salt; pure sodium chloride; sea water > Unprocessed rock salt"},
+            {"level": 1, "hs_code": "25010050", "description_en": "Sea water", "children": [], "semantic_path": "Salt; pure sodium chloride; sea water > Sea water"},
+            {"level": 1, "hs_code": "PSEUDO_NODE_1_0", "description_en": "Other:", "children": [
+                {"level": 2, "hs_code": "25010091", "description_en": "With sodium chloride content more than 60% but less than 97% (dry basis), fortified with iodine", "children": [], "semantic_path": "Salt; pure sodium chloride; sea water > Other: > NaCl 60–97% (dry basis), iodised"},
+                {"level": 2, "hs_code": "25010093", "description_en": "With sodium chloride content 97% or more, calculated on a dry basis", "children": [], "semantic_path": "Salt; pure sodium chloride; sea water > Other: > NaCl 97% or more (dry basis)"},
+                {"level": 2, "hs_code": "25010099", "description_en": "Other", "children": [], "semantic_path": "Salt; pure sodium chloride; sea water > Other: > Other"}
+            ], "semantic_path": "Salt; pure sodium chloride; sea water > Other:"}
+        ],
+        "semantic_path": "Salt (including table salt and denatured salt) and pure sodium chloride; sea water"
+    },
+    {"level": 0, "hs_code": "25020000", "description_en": "Unroasted iron pyrites", "children": [], "semantic_path": "Unroasted iron pyrites"},
+    {"level": 0, "hs_code": "25030000", "description_en": "Sulphur of all kinds, other than sublimed sulphur, precipitated sulphur and colloidal sulphur", "children": [], "semantic_path": "Sulphur of all kinds, other than sublimed sulphur, precipitated sulphur and colloidal sulphur"},
+    {
+        "level": 0, "hs_code": "2504", "description_en": "Natural graphite",
+        "children": [
+            {"level": 1, "hs_code": "25041000", "description_en": "In powder or in flakes", "children": [], "semantic_path": "Natural graphite > In powder or in flakes"},
+            {"level": 1, "hs_code": "25049000", "description_en": "Other", "children": [], "semantic_path": "Natural graphite > Other"}
+        ],
+        "semantic_path": "Natural graphite"
+    },
+    {
+        "level": 0, "hs_code": "2505", "description_en": "Natural sands of all kinds, whether or not coloured, other than metal-bearing sands of Chapter 26",
+        "children": [
+            {"level": 1, "hs_code": "25051000", "description_en": "Silica sands and quartz sands", "children": [], "semantic_path": "Natural sands (excl. metal-bearing sands of Chapter 26) > Silica sands and quartz sands"},
+            {"level": 1, "hs_code": "25059000", "description_en": "Other", "children": [], "semantic_path": "Natural sands (excl. metal-bearing sands of Chapter 26) > Other"}
+        ],
+        "semantic_path": "Natural sands of all kinds, whether or not coloured, other than metal-bearing sands of Chapter 26"
+    },
+    {
+        "level": 0, "hs_code": "2506", "description_en": "Quartz (other than natural sands); quartzite, whether or not roughly trimmed or merely cut into blocks or slabs of a rectangular (including square) shape",
+        "children": [
+            {"level": 1, "hs_code": "25061000", "description_en": "Quartz", "children": [], "semantic_path": "Quartz (other than natural sands); quartzite — blocks/slabs > Quartz"},
+            {"level": 1, "hs_code": "25062000", "description_en": "Quartzite", "children": [], "semantic_path": "Quartz (other than natural sands); quartzite — blocks/slabs > Quartzite"}
+        ],
+        "semantic_path": "Quartz (other than natural sands); quartzite, whether or not roughly trimmed or merely cut into blocks or slabs of a rectangular shape"
+    },
+    {"level": 0, "hs_code": "25070000", "description_en": "Kaolin and other kaolinic clays, whether or not calcined", "children": [], "semantic_path": "Kaolin and other kaolinic clays, whether or not calcined"},
+    {
+        "level": 0, "hs_code": "2508", "description_en": "Other clays (not including expanded clays of heading 68.06), andalusite, kyanite and sillimanite, whether or not calcined; mullite; chamotte or dinas earths",
+        "children": [
+            {"level": 1, "hs_code": "25081000", "description_en": "Bentonite", "children": [], "semantic_path": "Other clays; andalusite; kyanite; sillimanite; mullite; chamotte > Bentonite"},
+            {"level": 1, "hs_code": "25083000", "description_en": "Fire-clay", "children": [], "semantic_path": "Other clays; andalusite; kyanite; sillimanite; mullite; chamotte > Fire-clay"},
+            {"level": 1, "hs_code": "250840", "description_en": "Other clays:", "children": [
+                {"level": 2, "hs_code": "25084010", "description_en": "Fuller's earth", "children": [], "semantic_path": "Other clays; andalusite; kyanite; sillimanite; mullite; chamotte > Other clays: > Fuller's earth"},
+                {"level": 2, "hs_code": "25084090", "description_en": "Other", "children": [], "semantic_path": "Other clays; andalusite; kyanite; sillimanite; mullite; chamotte > Other clays: > Other"}
+            ], "semantic_path": "Other clays; andalusite; kyanite; sillimanite; mullite; chamotte > Other clays:"},
+            {"level": 1, "hs_code": "25085000", "description_en": "Andalusite, kyanite and sillimanite", "children": [], "semantic_path": "Other clays; andalusite; kyanite; sillimanite; mullite; chamotte > Andalusite, kyanite and sillimanite"},
+            {"level": 1, "hs_code": "25086000", "description_en": "Mullite", "children": [], "semantic_path": "Other clays; andalusite; kyanite; sillimanite; mullite; chamotte > Mullite"},
+            {"level": 1, "hs_code": "25087000", "description_en": "Chamotte or dinas earths", "children": [], "semantic_path": "Other clays; andalusite; kyanite; sillimanite; mullite; chamotte > Chamotte or dinas earths"}
+        ],
+        "semantic_path": "Other clays (excl. expanded clays of heading 68.06), andalusite, kyanite and sillimanite, whether or not calcined; mullite; chamotte or dinas earths"
+    },
+    {"level": 0, "hs_code": "25090000", "description_en": "Chalk", "children": [], "semantic_path": "Chalk"},
+    {
+        "level": 0, "hs_code": "2510", "description_en": "Natural calcium phosphates, natural aluminium calcium phosphates and phosphatic chalk",
+        "children": [
+            {"level": 1, "hs_code": "251010", "description_en": "Unground:", "children": [
+                {"level": 2, "hs_code": "25101010", "description_en": "Apatite", "children": [], "semantic_path": "Natural calcium phosphates; phosphatic chalk > Unground: > Apatite"},
+                {"level": 2, "hs_code": "25101090", "description_en": "Other", "children": [], "semantic_path": "Natural calcium phosphates; phosphatic chalk > Unground: > Other"}
+            ], "semantic_path": "Natural calcium phosphates; phosphatic chalk > Unground:"},
+            {"level": 1, "hs_code": "251020", "description_en": "Ground:", "children": [
+                {"level": 2, "hs_code": "25102010", "description_en": "Apatite", "children": [], "semantic_path": "Natural calcium phosphates; phosphatic chalk > Ground: > Apatite"},
+                {"level": 2, "hs_code": "25102090", "description_en": "Other", "children": [], "semantic_path": "Natural calcium phosphates; phosphatic chalk > Ground: > Other"}
+            ], "semantic_path": "Natural calcium phosphates; phosphatic chalk > Ground:"}
+        ],
+        "semantic_path": "Natural calcium phosphates, natural aluminium calcium phosphates and phosphatic chalk"
+    },
+    {
+        "level": 0, "hs_code": "2511", "description_en": "Natural barium sulphate (barytes); natural barium carbonate (witherite), whether or not calcined, other than barium oxide of heading 28.16",
+        "children": [
+            {"level": 1, "hs_code": "25111000", "description_en": "Natural barium sulphate (barytes)", "children": [], "semantic_path": "Natural barytes; natural witherite > Natural barium sulphate (barytes)"},
+            {"level": 1, "hs_code": "25112000", "description_en": "Natural barium carbonate (witherite)", "children": [], "semantic_path": "Natural barytes; natural witherite > Natural barium carbonate (witherite)"}
+        ],
+        "semantic_path": "Natural barium sulphate (barytes); natural barium carbonate (witherite), whether or not calcined"
+    },
+    {"level": 0, "hs_code": "25120000", "description_en": "Siliceous fossil meals (for example, kieselguhr, tripolite and diatomite) and similar siliceous earths, whether or not calcined, of an apparent specific gravity of 1 or less", "children": [], "semantic_path": "Siliceous fossil meals (kieselguhr, tripolite, diatomite) and similar siliceous earths of apparent SG of 1 or less"},
+    {
+        "level": 0, "hs_code": "2513", "description_en": "Pumice stone; emery; natural corundum, natural garnet and other natural abrasives, whether or not heat-treated",
+        "children": [
+            {"level": 1, "hs_code": "25131000", "description_en": "Pumice stone", "children": [], "semantic_path": "Pumice stone; emery; natural corundum; natural garnet; other natural abrasives > Pumice stone"},
+            {"level": 1, "hs_code": "25132000", "description_en": "Emery, natural corundum, natural garnet and other natural abrasives", "children": [], "semantic_path": "Pumice stone; emery; natural corundum; natural garnet; other natural abrasives > Emery, natural corundum, natural garnet and other natural abrasives"}
+        ],
+        "semantic_path": "Pumice stone; emery; natural corundum, natural garnet and other natural abrasives, whether or not heat-treated"
+    },
+    {"level": 0, "hs_code": "25140000", "description_en": "Slate, whether or not roughly trimmed or merely cut into blocks or slabs of a rectangular (including square) shape", "children": [], "semantic_path": "Slate, whether or not roughly trimmed or merely cut into blocks or slabs of a rectangular shape"},
+    {
+        "level": 0, "hs_code": "2515", "description_en": "Marble, travertine, ecaussine and other calcareous monumental or building stone of an apparent specific gravity of 2.5 or more, and alabaster — crude, roughly trimmed or merely cut into blocks or slabs of a rectangular shape",
+        "children": [
+            {"level": 1, "hs_code": "PSEUDO_NODE_1_1", "description_en": "Marble and travertine:", "children": [
+                {"level": 2, "hs_code": "25151100", "description_en": "Crude or roughly trimmed", "children": [], "semantic_path": "Marble; travertine; ecaussine; alabaster — crude/cut > Marble and travertine: > Crude or roughly trimmed"},
+                {"level": 2, "hs_code": "251512", "description_en": "Merely cut into blocks or slabs of a rectangular (including square) shape:", "children": [
+                    {"level": 3, "hs_code": "25151210", "description_en": "Blocks", "children": [], "semantic_path": "Marble; travertine; ecaussine; alabaster — crude/cut > Marble and travertine: > Merely cut — rectangular: > Blocks"},
+                    {"level": 3, "hs_code": "25151220", "description_en": "Slabs", "children": [], "semantic_path": "Marble; travertine; ecaussine; alabaster — crude/cut > Marble and travertine: > Merely cut — rectangular: > Slabs"}
+                ], "semantic_path": "Marble; travertine; ecaussine; alabaster — crude/cut > Marble and travertine: > Merely cut into blocks or slabs of a rectangular shape:"}
+            ], "semantic_path": "Marble; travertine; ecaussine; alabaster — crude/cut > Marble and travertine:"},
+            {"level": 1, "hs_code": "25152000", "description_en": "Ecaussine and other calcareous monumental or building stone; alabaster", "children": [], "semantic_path": "Marble; travertine; ecaussine; alabaster — crude/cut > Ecaussine and other calcareous monumental or building stone; alabaster"}
+        ],
+        "semantic_path": "Marble, travertine, ecaussine and other calcareous monumental or building stone (SG≥2.5), and alabaster — crude, roughly trimmed or merely cut into rectangular blocks or slabs"
+    },
+    {
+        "level": 0, "hs_code": "2516", "description_en": "Granite, porphyry, basalt, sandstone and other monumental or building stone, whether or not roughly trimmed or merely cut into blocks or slabs of a rectangular (including square) shape",
+        "children": [
+            {"level": 1, "hs_code": "PSEUDO_NODE_1_2", "description_en": "Granite:", "children": [
+                {"level": 2, "hs_code": "25161100", "description_en": "Crude or roughly trimmed", "children": [], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Granite: > Crude or roughly trimmed"},
+                {"level": 2, "hs_code": "251612", "description_en": "Merely cut into blocks or slabs of a rectangular (including square) shape:", "children": [
+                    {"level": 3, "hs_code": "25161210", "description_en": "Blocks", "children": [], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Granite: > Merely cut — rectangular: > Blocks"},
+                    {"level": 3, "hs_code": "25161220", "description_en": "Slabs", "children": [], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Granite: > Merely cut — rectangular: > Slabs"}
+                ], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Granite: > Merely cut into blocks or slabs of a rectangular shape:"}
+            ], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Granite:"},
+            {"level": 1, "hs_code": "251620", "description_en": "Sandstone:", "children": [
+                {"level": 2, "hs_code": "25162010", "description_en": "Crude or roughly trimmed", "children": [], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Sandstone: > Crude or roughly trimmed"},
+                {"level": 2, "hs_code": "25162020", "description_en": "Merely cut into blocks or slabs of a rectangular (including square) shape", "children": [], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Sandstone: > Merely cut into blocks or slabs of a rectangular shape"}
+            ], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Sandstone:"},
+            {"level": 1, "hs_code": "25169000", "description_en": "Other monumental or building stone", "children": [], "semantic_path": "Granite; porphyry; basalt; sandstone; other building stone — crude/cut > Other monumental or building stone"}
+        ],
+        "semantic_path": "Granite, porphyry, basalt, sandstone and other monumental or building stone, whether or not roughly trimmed or merely cut into blocks or slabs of a rectangular shape"
+    },
+    {
+        "level": 0, "hs_code": "2517", "description_en": "Pebbles, gravel, broken or crushed stone, of a kind commonly used for concrete aggregates, for road metalling or for railway or other ballast, shingle and flint; macadam of slag, dross or similar industrial waste; tarred macadam; granules, chippings and powder, of stones of heading 25.15 or 25.16",
+        "children": [
+            {"level": 1, "hs_code": "25171000", "description_en": "Pebbles, gravel, broken or crushed stone of a kind commonly used for concrete aggregates, road metalling or railway/other ballast, shingle and flint, whether or not heat-treated", "children": [], "semantic_path": "Pebbles, gravel, crushed stone (concrete/road/ballast); macadam; tarred macadam; granules/powder of 25.15/25.16 [Priority heading] > Pebbles, gravel, broken or crushed stone for concrete/road/railway/ballast"},
+            {"level": 1, "hs_code": "25172000", "description_en": "Macadam of slag, dross or similar industrial waste", "children": [], "semantic_path": "Pebbles, gravel, crushed stone (concrete/road/ballast); macadam; tarred macadam; granules/powder of 25.15/25.16 [Priority heading] > Macadam of slag, dross or similar industrial waste"},
+            {"level": 1, "hs_code": "25173000", "description_en": "Tarred macadam", "children": [], "semantic_path": "Pebbles, gravel, crushed stone (concrete/road/ballast); macadam; tarred macadam; granules/powder of 25.15/25.16 [Priority heading] > Tarred macadam"},
+            {"level": 1, "hs_code": "PSEUDO_NODE_1_3", "description_en": "Granules, chippings and powder, of stones of heading 25.15 or 25.16, whether or not heat-treated:", "children": [
+                {"level": 2, "hs_code": "25174100", "description_en": "Of marble", "children": [], "semantic_path": "Pebbles, gravel, crushed stone (concrete/road/ballast); macadam; granules/powder of 25.15/25.16 [Priority heading] > Granules, chippings and powder of 25.15/25.16: > Of marble"},
+                {"level": 2, "hs_code": "25174900", "description_en": "Other", "children": [], "semantic_path": "Pebbles, gravel, crushed stone (concrete/road/ballast); macadam; granules/powder of 25.15/25.16 [Priority heading] > Granules, chippings and powder of 25.15/25.16: > Other"}
+            ], "semantic_path": "Pebbles, gravel, crushed stone (concrete/road/ballast); macadam; granules/powder of 25.15/25.16 [Priority heading] > Granules, chippings and powder of stones of heading 25.15 or 25.16:"}
+        ],
+        "semantic_path": "Pebbles, gravel, broken or crushed stone for concrete/road/ballast; macadam of slag; tarred macadam; granules, chippings and powder of stones of heading 25.15 or 25.16 [PRIORITY HEADING per Note 3]"
+    },
+    {
+        "level": 0, "hs_code": "2518", "description_en": "Dolomite, whether or not calcined or sintered, including dolomite roughly trimmed or merely cut into blocks or slabs of a rectangular (including square) shape",
+        "children": [
+            {"level": 1, "hs_code": "25181000", "description_en": "Dolomite, not calcined or sintered", "children": [], "semantic_path": "Dolomite (whether or not calcined or sintered) > Dolomite, not calcined or sintered"},
+            {"level": 1, "hs_code": "25182000", "description_en": "Calcined or sintered dolomite", "children": [], "semantic_path": "Dolomite (whether or not calcined or sintered) > Calcined or sintered dolomite"}
+        ],
+        "semantic_path": "Dolomite, whether or not calcined or sintered, including dolomite roughly trimmed or merely cut into blocks or slabs of a rectangular shape"
+    },
+    {
+        "level": 0, "hs_code": "2519", "description_en": "Natural magnesium carbonate (magnesite); fused magnesia; dead-burned (sintered) magnesia; other magnesium oxide, whether or not pure",
+        "children": [
+            {"level": 1, "hs_code": "25191000", "description_en": "Natural magnesium carbonate (magnesite)", "children": [], "semantic_path": "Natural magnesite; fused magnesia; dead-burned magnesia; other MgO > Natural magnesium carbonate (magnesite)"},
+            {"level": 1, "hs_code": "251990", "description_en": "Other:", "children": [
+                {"level": 2, "hs_code": "25199010", "description_en": "Fused magnesia; dead-burned (sintered) magnesia", "children": [], "semantic_path": "Natural magnesite; fused magnesia; dead-burned magnesia; other MgO > Other: > Fused magnesia; dead-burned (sintered) magnesia"},
+                {"level": 2, "hs_code": "25199090", "description_en": "Other", "children": [], "semantic_path": "Natural magnesite; fused magnesia; dead-burned magnesia; other MgO > Other: > Other"}
+            ], "semantic_path": "Natural magnesite; fused magnesia; dead-burned magnesia; other MgO > Other:"}
+        ],
+        "semantic_path": "Natural magnesium carbonate (magnesite); fused magnesia; dead-burned (sintered) magnesia; other magnesium oxide, whether or not pure"
+    },
+    {
+        "level": 0, "hs_code": "2520", "description_en": "Gypsum; anhydrite; plasters (consisting of calcined gypsum or calcium sulphate) whether or not coloured, with or without small quantities of accelerators or retarders",
+        "children": [
+            {"level": 1, "hs_code": "25201000", "description_en": "Gypsum; anhydrite", "children": [], "semantic_path": "Gypsum; anhydrite; plasters > Gypsum; anhydrite"},
+            {"level": 1, "hs_code": "252020", "description_en": "Plasters:", "children": [
+                {"level": 2, "hs_code": "25202010", "description_en": "Of a kind suitable for use in dentistry", "children": [], "semantic_path": "Gypsum; anhydrite; plasters > Plasters: > Of a kind suitable for use in dentistry"},
+                {"level": 2, "hs_code": "25202090", "description_en": "Other", "children": [], "semantic_path": "Gypsum; anhydrite; plasters > Plasters: > Other"}
+            ], "semantic_path": "Gypsum; anhydrite; plasters > Plasters:"}
+        ],
+        "semantic_path": "Gypsum; anhydrite; plasters (consisting of calcined gypsum or calcium sulphate) whether or not coloured"
+    },
+    {"level": 0, "hs_code": "25210000", "description_en": "Limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of lime or cement", "children": [], "semantic_path": "Limestone flux; limestone and other calcareous stone for manufacture of lime or cement"},
+    {
+        "level": 0, "hs_code": "2522", "description_en": "Quicklime, slaked lime and hydraulic lime, other than calcium oxide and hydroxide of heading 28.25",
+        "children": [
+            {"level": 1, "hs_code": "25221000", "description_en": "Quicklime", "children": [], "semantic_path": "Quicklime; slaked lime; hydraulic lime (excl. pure CaO and Ca(OH)2 of 28.25) > Quicklime"},
+            {"level": 1, "hs_code": "25222000", "description_en": "Slaked lime", "children": [], "semantic_path": "Quicklime; slaked lime; hydraulic lime (excl. pure CaO and Ca(OH)2 of 28.25) > Slaked lime"},
+            {"level": 1, "hs_code": "25223000", "description_en": "Hydraulic lime", "children": [], "semantic_path": "Quicklime; slaked lime; hydraulic lime (excl. pure CaO and Ca(OH)2 of 28.25) > Hydraulic lime"}
+        ],
+        "semantic_path": "Quicklime, slaked lime and hydraulic lime, other than calcium oxide and hydroxide of heading 28.25"
+    },
+    {
+        "level": 0, "hs_code": "2523", "description_en": "Portland cement, aluminous cement, slag cement, supersulphate cement and similar hydraulic cements, whether or not coloured or in the form of clinkers",
+        "children": [
+            {"level": 1, "hs_code": "252310", "description_en": "Cement clinkers:", "children": [
+                {"level": 2, "hs_code": "25231010", "description_en": "Of a kind used in the manufacture of white cement", "children": [], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Cement clinkers: > Of a kind used in the manufacture of white cement"},
+                {"level": 2, "hs_code": "25231090", "description_en": "Other", "children": [], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Cement clinkers: > Other"}
+            ], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Cement clinkers:"},
+            {"level": 1, "hs_code": "PSEUDO_NODE_1_4", "description_en": "Portland cement:", "children": [
+                {"level": 2, "hs_code": "25232100", "description_en": "White cement, whether or not artificially coloured", "children": [], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Portland cement: > White cement"},
+                {"level": 2, "hs_code": "252329", "description_en": "Other:", "children": [
+                    {"level": 3, "hs_code": "25232910", "description_en": "Coloured cement", "children": [], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Portland cement: > Other: > Coloured cement"},
+                    {"level": 3, "hs_code": "25232990", "description_en": "Other (ordinary grey Portland cement)", "children": [], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Portland cement: > Other: > Other (ordinary grey Portland cement)"}
+                ], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Portland cement: > Other:"}
+            ], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Portland cement:"},
+            {"level": 1, "hs_code": "25233000", "description_en": "Aluminous cement", "children": [], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Aluminous cement"},
+            {"level": 1, "hs_code": "25239000", "description_en": "Other hydraulic cements", "children": [], "semantic_path": "Portland cement; aluminous cement; slag cement; hydraulic cements; clinkers > Other hydraulic cements"}
+        ],
+        "semantic_path": "Portland cement, aluminous cement, slag cement, supersulphate cement and similar hydraulic cements, whether or not coloured or in the form of clinkers"
+    },
+    {
+        "level": 0, "hs_code": "2524", "description_en": "Asbestos",
+        "children": [
+            {"level": 1, "hs_code": "25241000", "description_en": "Crocidolite", "children": [], "semantic_path": "Asbestos > Crocidolite"},
+            {"level": 1, "hs_code": "25249000", "description_en": "Other", "children": [], "semantic_path": "Asbestos > Other"}
+        ],
+        "semantic_path": "Asbestos"
+    },
+    {
+        "level": 0, "hs_code": "2525", "description_en": "Mica, including splittings; mica waste",
+        "children": [
+            {"level": 1, "hs_code": "25251000", "description_en": "Crude mica and mica rifted into sheets or splittings", "children": [], "semantic_path": "Mica, including splittings; mica waste > Crude mica and mica rifted into sheets or splittings"},
+            {"level": 1, "hs_code": "25252000", "description_en": "Mica powder", "children": [], "semantic_path": "Mica, including splittings; mica waste > Mica powder"},
+            {"level": 1, "hs_code": "25253000", "description_en": "Mica waste", "children": [], "semantic_path": "Mica, including splittings; mica waste > Mica waste"}
+        ],
+        "semantic_path": "Mica, including splittings; mica waste"
+    },
+    {
+        "level": 0, "hs_code": "2526", "description_en": "Natural steatite, whether or not roughly trimmed or merely cut into blocks or slabs of a rectangular (including square) shape; talc",
+        "children": [
+            {"level": 1, "hs_code": "25261000", "description_en": "Not crushed, not powdered", "children": [], "semantic_path": "Natural steatite; talc > Not crushed, not powdered"},
+            {"level": 1, "hs_code": "252620", "description_en": "Crushed or powdered:", "children": [
+                {"level": 2, "hs_code": "25262010", "description_en": "Talc powder", "children": [], "semantic_path": "Natural steatite; talc > Crushed or powdered: > Talc powder"},
+                {"level": 2, "hs_code": "25262090", "description_en": "Other", "children": [], "semantic_path": "Natural steatite; talc > Crushed or powdered: > Other"}
+            ], "semantic_path": "Natural steatite; talc > Crushed or powdered:"}
+        ],
+        "semantic_path": "Natural steatite, whether or not roughly trimmed or merely cut into blocks or slabs of a rectangular shape; talc"
+    },
+    {"level": 0, "hs_code": "25280000", "description_en": "Natural borates and concentrates thereof (whether or not calcined), but not including borates separated from natural brine; natural boric acid containing not more than 85% of H3BO3 calculated on the dry weight", "children": [], "semantic_path": "Natural borates and concentrates (whether or not calcined); natural boric acid not more than 85% H3BO3"},
+    {
+        "level": 0, "hs_code": "2529", "description_en": "Feldspar; leucite; nepheline and nepheline syenite; fluorspar",
+        "children": [
+            {"level": 1, "hs_code": "252910", "description_en": "Feldspar:", "children": [
+                {"level": 2, "hs_code": "25291010", "description_en": "Potash feldspar; soda feldspar", "children": [], "semantic_path": "Feldspar; leucite; nepheline; nepheline syenite; fluorspar > Feldspar: > Potash feldspar; soda feldspar"},
+                {"level": 2, "hs_code": "25291090", "description_en": "Other", "children": [], "semantic_path": "Feldspar; leucite; nepheline; nepheline syenite; fluorspar > Feldspar: > Other"}
+            ], "semantic_path": "Feldspar; leucite; nepheline; nepheline syenite; fluorspar > Feldspar:"},
+            {"level": 1, "hs_code": "PSEUDO_NODE_1_5", "description_en": "Fluorspar:", "children": [
+                {"level": 2, "hs_code": "25292100", "description_en": "Containing by weight 97% or less of calcium fluoride", "children": [], "semantic_path": "Feldspar; leucite; nepheline; nepheline syenite; fluorspar > Fluorspar: > Containing by weight 97% or less of calcium fluoride"},
+                {"level": 2, "hs_code": "25292200", "description_en": "Containing by weight more than 97% of calcium fluoride", "children": [], "semantic_path": "Feldspar; leucite; nepheline; nepheline syenite; fluorspar > Fluorspar: > Containing by weight more than 97% of calcium fluoride"}
+            ], "semantic_path": "Feldspar; leucite; nepheline; nepheline syenite; fluorspar > Fluorspar:"},
+            {"level": 1, "hs_code": "25293000", "description_en": "Leucite; nepheline and nepheline syenite", "children": [], "semantic_path": "Feldspar; leucite; nepheline; nepheline syenite; fluorspar > Leucite; nepheline and nepheline syenite"}
+        ],
+        "semantic_path": "Feldspar; leucite; nepheline and nepheline syenite; fluorspar"
+    },
+    {
+        "level": 0, "hs_code": "2530", "description_en": "Mineral substances not elsewhere specified or included",
+        "children": [
+            {"level": 1, "hs_code": "25301000", "description_en": "Vermiculite, perlite and chlorites, unexpanded", "children": [], "semantic_path": "Mineral substances NESOI > Vermiculite, perlite and chlorites, unexpanded"},
+            {"level": 1, "hs_code": "253020", "description_en": "Kieserite, epsomite (natural magnesium sulphates):", "children": [
+                {"level": 2, "hs_code": "25302010", "description_en": "Kieserite", "children": [], "semantic_path": "Mineral substances NESOI > Kieserite, epsomite (natural magnesium sulphates): > Kieserite"},
+                {"level": 2, "hs_code": "25302020", "description_en": "Epsomite (natural magnesium sulphates)", "children": [], "semantic_path": "Mineral substances NESOI > Kieserite, epsomite (natural magnesium sulphates): > Epsomite (natural magnesium sulphates)"}
+            ], "semantic_path": "Mineral substances NESOI > Kieserite, epsomite (natural magnesium sulphates):"},
+            {"level": 1, "hs_code": "253090", "description_en": "Other:", "children": [
+                {"level": 2, "hs_code": "25309010", "description_en": "Micronized zircon sand (zirconium silicate) of a kind used as an opacifier", "children": [], "semantic_path": "Mineral substances NESOI > Other: > Micronized zircon sand (zirconium silicate) used as opacifier"},
+                {"level": 2, "hs_code": "25309090", "description_en": "Other", "children": [], "semantic_path": "Mineral substances NESOI > Other: > Other"}
+            ], "semantic_path": "Mineral substances NESOI > Other:"}
+        ],
+        "semantic_path": "Mineral substances not elsewhere specified or included"
+    }
+]

@@ -1,0 +1,90 @@
+{
+    "chapter_code": "27",
+    "inclusions": [
+        "Coal (anthracite, bituminous, other), whether or not pulverised but not agglomerated; briquettes, ovoids and similar solid fuels manufactured from coal",
+        "Lignite (brown coal), whether or not agglomerated, excluding jet",
+        "Peat (including peat litter), whether or not agglomerated",
+        "Coke and semi-coke of coal, of lignite or of peat, whether or not agglomerated; retort carbon",
+        "Coal gas, water gas, producer gas and similar gases — other than petroleum gases and other gaseous hydrocarbons",
+        "Tar distilled from coal, from lignite or from peat, and other mineral tars, whether or not dehydrated or partially distilled, including reconstituted tars",
+        "Oils and other products of distillation of high temperature coal tar; similar products in which the weight of AROMATIC constituents EXCEEDS that of NON-AROMATIC constituents (benzene, toluene, xylenes, naphthalene, creosote oils, carbon black feedstock)",
+        "Pitch and pitch coke obtained from coal tar or from other mineral tars",
+        "Petroleum oils and oils obtained from bituminous minerals — CRUDE (including crude petroleum, condensates)",
+        "Petroleum oils and oils obtained from bituminous minerals — NON-CRUDE; preparations NESOI containing ≥70% by weight of petroleum oils; waste oils (light oils/motor spirit/diesel/jet fuel/lubricating oils/kerosene; biodiesel-containing preparations; waste oils including PCB/PCT/PBB waste)",
+        "Petroleum gases and other gaseous hydrocarbons — liquefied (LNG, propane, butane, ethylene, etc.) or in gaseous state (CNG, other)",
+        "Petroleum jelly; paraffin wax; microcrystalline wax; slack wax; ozokerite; lignite wax; peat wax; other mineral waxes; similar synthetic products",
+        "Petroleum coke (calcined and not calcined); petroleum bitumen; other residues of petroleum oils",
+        "Bitumen and asphalt, natural; bituminous or oil shale and tar sands; asphaltites and asphaltic rocks",
+        "Bituminous mixtures based on natural asphalt, natural bitumen, petroleum bitumen, mineral tar or mineral tar pitch (mastics, cut-backs)",
+        "Electrical energy"
+    ],
+    "exclusions": [
+        {
+            "condition": "Separate chemically defined organic compounds — EXCEPT pure methane and pure propane which go to heading 27.11",
+            "action": "Redirect to Chapter 29 (organic chemicals) or appropriate chapter. Only pure methane and propane → 27.11",
+            "keywords": ["chemically defined", "pure organic compound", "chapter 29"]
+        },
+        {
+            "condition": "Medicaments",
+            "action": "Redirect to Heading 30.03 or 30.04",
+            "keywords": ["medicament", "pharmaceutical", "30.03", "30.04"]
+        },
+        {
+            "condition": "Mixed unsaturated hydrocarbons of heading 33.01, 33.02 or 38.05",
+            "action": "Redirect to Heading 33.01, 33.02 or 38.05",
+            "keywords": ["mixed unsaturated hydrocarbons", "33.01", "33.02", "38.05"]
+        },
+        {
+            "condition": "Liquid synthetic polyolefins of which less than 60% by volume distils at 300°C (at 1,013 millibars reduced-pressure)",
+            "action": "Redirect to Chapter 39 (plastics) — these are NOT petroleum oils under heading 27.10 even if they resemble petroleum oils",
+            "keywords": ["synthetic polyolefin", "liquid polyolefin", "polyolefin oil", "chapter 39"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Only pure methane and propane among chemically defined compounds belong in Ch.27",
+            "description": "Chapter 27 excludes separate chemically defined organic compounds. The only two exceptions are PURE methane and PURE propane → heading 27.11. All other chemically pure organic compounds → Chapter 29 or other relevant chapters.",
+            "priority": 1
+        },
+        {
+            "rule": "Anthracite definition (Subheading Note 1) — volatile matter threshold",
+            "description": "Anthracite (subheading 2701.11) = coal with volatile matter limit NOT EXCEEDING 14% on a DRY, MINERAL-MATTER-FREE basis. Bituminous coal (2701.12) = volatile matter EXCEEDING 14% + calorific value ≥5,833 kcal/kg (moist, mineral-matter-free basis). Other coal = 2701.19.",
+            "priority": 2
+        },
+        {
+            "rule": "Crude vs. non-crude petroleum — 27.09 vs. 27.10",
+            "description": "CRUDE petroleum oils (including condensates) → heading 27.09. Non-crude petroleum oils (refined, processed) and preparations containing ≥70% petroleum oils → heading 27.10. The crude/non-crude distinction is the primary split between these two major headings.",
+            "priority": 3
+        },
+        {
+            "rule": "Light oils definition (Subheading Note 4) for 2710.12",
+            "description": "Light oils and preparations (subheading 2710.12) = petroleum oil preparations of which 90% or more by volume (including losses) distil at 210°C according to ISO 3405 (equivalent to ASTM D 86 method). Motor spirit (gasoline), aviation spirit, white spirit, solvents, naphtha → typically qualify as light oils.",
+            "priority": 4
+        },
+        {
+            "rule": "Motor spirit (gasoline) sub-classification by RON and lead content",
+            "description": "Motor spirit within 2710.12: First split by LEADED vs UNLEADED. Then by RON: ≥97, 90–97, other RON. For unleaded: further split by blending — unblended, blended with ethanol, other. Aviation spirit separately coded by octane rating (≥100 and other).",
+            "priority": 5
+        },
+        {
+            "rule": "Biodiesel-containing petroleum preparations → separate subheading 2710.20",
+            "description": "Petroleum oils (non-crude) or preparations ≥70% petroleum oils that CONTAIN BIODIESEL → subheading 2710.20 (separate from 2710.12 and 2710.19). Biodiesel = mono-alkyl esters of fatty acids used as fuel, derived from animal, vegetable or microbial fats/oils (per Subheading Note 5). Pure biodiesel (no petroleum) → heading 38.26.",
+            "priority": 6
+        },
+        {
+            "rule": "Note 2 — Extended scope of petroleum oils in heading 27.10",
+            "description": "Heading 27.10 'petroleum oils' includes: (1) actual petroleum oils, (2) similar oils, and (3) oils consisting mainly of MIXED UNSATURATED HYDROCARBONS obtained by ANY process — PROVIDED the weight of NON-AROMATIC constituents EXCEEDS that of AROMATIC constituents. Exception: liquid synthetic polyolefins <60% vol distilling at 300°C → Chapter 39.",
+            "priority": 7
+        },
+        {
+            "rule": "Coal tar distillation products — aromatic ratio determines 27.07 vs. 27.10",
+            "description": "Products of high-temperature coal tar distillation where AROMATIC > NON-AROMATIC by weight → heading 27.07 (benzene, toluene, xylene, naphthalene must each exceed 50% by weight per Subheading Note 3 for 2707.10/20/30/40). Products where NON-AROMATIC > AROMATIC → heading 27.10. This aromatic ratio is the key boundary.",
+            "priority": 8
+        },
+        {
+            "rule": "Waste oils definition (Note 3) for heading 27.10",
+            "description": "Waste oils (2710.91/99) = waste containing MAINLY petroleum oils ± water, including: (a) used lubricating/hydraulic/transformer oils no longer fit as primary products; (b) sludge oils from petroleum storage tanks (mainly oil + high concentrations of additives); (c) oils as emulsions in water or mixed with water (oil spills, tank washings, cutting oils waste).",
+            "priority": 9
+        }
+    ]
+}

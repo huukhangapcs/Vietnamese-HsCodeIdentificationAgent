@@ -1,0 +1,83 @@
+[
+  {
+    "level": 0, "hs_code": "2801",
+    "description_en": "Fluorine, chlorine, bromine and iodine",
+    "semantic_path": "Sub-Chapter I: Chemical Elements > Fluorine, chlorine, bromine and iodine",
+    "children": [
+      {"level": 1, "hs_code": "28011000", "description_en": "Chlorine", "children": [], "semantic_path": "Chemical Elements > Fluorine, chlorine, bromine and iodine > Chlorine"},
+      {"level": 1, "hs_code": "28012000", "description_en": "Iodine", "children": [], "semantic_path": "Chemical Elements > Fluorine, chlorine, bromine and iodine > Iodine"},
+      {"level": 1, "hs_code": "28013000", "description_en": "Fluorine; bromine", "children": [], "semantic_path": "Chemical Elements > Fluorine, chlorine, bromine and iodine > Fluorine; bromine"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "28020000",
+    "description_en": "Sulphur, sublimed or precipitated; colloidal sulphur",
+    "semantic_path": "Sub-Chapter I: Chemical Elements > Sulphur, sublimed or precipitated; colloidal sulphur",
+    "children": []
+  },
+  {
+    "level": 0, "hs_code": "2803",
+    "description_en": "Carbon (carbon blacks and other forms of carbon not elsewhere specified or included)",
+    "semantic_path": "Sub-Chapter I: Chemical Elements > Carbon (carbon blacks and other forms of carbon NESOI)",
+    "children": [
+      {"level": 1, "hs_code": "28030020", "description_en": "Acetylene black", "children": [], "semantic_path": "Chemical Elements > Carbon NESOI > Acetylene black"},
+      {
+        "level": 1, "hs_code": "PSEUDO_2803_1", "description_en": "Other carbon blacks:",
+        "semantic_path": "Chemical Elements > Carbon NESOI > Other carbon blacks:",
+        "children": [
+          {"level": 2, "hs_code": "28030041", "description_en": "Of a kind used for rubber processing", "children": [], "semantic_path": "Chemical Elements > Carbon NESOI > Other carbon blacks: > Of a kind used for rubber processing"},
+          {"level": 2, "hs_code": "28030049", "description_en": "Other", "children": [], "semantic_path": "Chemical Elements > Carbon NESOI > Other carbon blacks: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28030090", "description_en": "Other (other forms of carbon NESOI)", "children": [], "semantic_path": "Chemical Elements > Carbon NESOI > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2804",
+    "description_en": "Hydrogen, rare gases and other non-metals",
+    "semantic_path": "Sub-Chapter I: Chemical Elements > Hydrogen, rare gases and other non-metals",
+    "children": [
+      {"level": 1, "hs_code": "28041000", "description_en": "Hydrogen", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Hydrogen"},
+      {
+        "level": 1, "hs_code": "PSEUDO_2804_1", "description_en": "Rare gases:",
+        "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Rare gases:",
+        "children": [
+          {"level": 2, "hs_code": "28042100", "description_en": "Argon", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases, other non-metals > Rare gases: > Argon"},
+          {"level": 2, "hs_code": "28042900", "description_en": "Other (He, Ne, Kr, Xe, Rn)", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases, other non-metals > Rare gases: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28043000", "description_en": "Nitrogen", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Nitrogen"},
+      {"level": 1, "hs_code": "28044000", "description_en": "Oxygen", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Oxygen"},
+      {"level": 1, "hs_code": "28045000", "description_en": "Boron; tellurium", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Boron; tellurium"},
+      {
+        "level": 1, "hs_code": "PSEUDO_2804_2", "description_en": "Silicon:",
+        "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Silicon:",
+        "children": [
+          {"level": 2, "hs_code": "28046100", "description_en": "Containing by weight not less than 99.99% of silicon (semiconductor-grade)", "children": [], "semantic_path": "Chemical Elements > Non-metals > Silicon: > ≥99.99% Si (semiconductor-grade)"},
+          {"level": 2, "hs_code": "28046900", "description_en": "Other (metallurgical-grade silicon)", "children": [], "semantic_path": "Chemical Elements > Non-metals > Silicon: > Other (metallurgical-grade)"}
+        ]
+      },
+      {"level": 1, "hs_code": "28047000", "description_en": "Phosphorus", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Phosphorus"},
+      {"level": 1, "hs_code": "28048000", "description_en": "Arsenic", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Arsenic"},
+      {"level": 1, "hs_code": "28049000", "description_en": "Selenium", "children": [], "semantic_path": "Chemical Elements > Hydrogen, rare gases and other non-metals > Selenium"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2805",
+    "description_en": "Alkali or alkaline-earth metals; rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed; mercury",
+    "semantic_path": "Sub-Chapter I: Chemical Elements > Alkali or alkaline-earth metals; rare-earth metals; Sc; Y; mercury",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2805_1", "description_en": "Alkali or alkaline-earth metals:",
+        "semantic_path": "Chemical Elements > Alkali/alkaline-earth metals; RE metals; Hg > Alkali or alkaline-earth metals:",
+        "children": [
+          {"level": 2, "hs_code": "28051100", "description_en": "Sodium", "children": [], "semantic_path": "Chemical Elements > Alkali/alkaline-earth/RE metals; Hg > Alkali metals: > Sodium"},
+          {"level": 2, "hs_code": "28051200", "description_en": "Calcium", "children": [], "semantic_path": "Chemical Elements > Alkali/alkaline-earth/RE metals; Hg > Alkali metals: > Calcium"},
+          {"level": 2, "hs_code": "28051900", "description_en": "Other (Li, K, Rb, Cs, Mg, Sr, Ba)", "children": [], "semantic_path": "Chemical Elements > Alkali/alkaline-earth/RE metals; Hg > Alkali metals: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28053000", "description_en": "Rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed", "children": [], "semantic_path": "Chemical Elements > Alkali/alkaline-earth/RE metals; Hg > Rare-earth metals, Sc and Y"},
+      {"level": 1, "hs_code": "28054000", "description_en": "Mercury", "children": [], "semantic_path": "Chemical Elements > Alkali/alkaline-earth/RE metals; Hg > Mercury"}
+    ]
+  }
+]

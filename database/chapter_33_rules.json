@@ -1,0 +1,61 @@
+{
+    "chapter_code": "33",
+    "inclusions": [
+        "Heading 33.01 — Essential oils (whether or not terpeneless), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats/fixed oils/waxes/the like; terpenic by-products; aqueous distillates and aqueous solutions of essential oils",
+        "Heading 33.02 — Mixtures of odoriferous substances and mixtures (including alcoholic solutions) based on these substances, of a kind used as raw materials in industry; other preparations based on odoriferous substances, of a kind used for the manufacture of beverages",
+        "Heading 33.03 — Perfumes and toilet waters",
+        "Heading 33.04 — Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen or sun tan preparations; manicure or pedicure preparations",
+        "Heading 33.05 — Preparations for use on the hair",
+        "Heading 33.06 — Preparations for oral or dental hygiene, including denture fixative pastes and powders; yarn used to clean between the teeth (dental floss), in individual retail packages",
+        "Heading 33.07 — Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery or toilet preparations not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties"
+    ],
+    "exclusions": [
+        {
+            "condition": "Separate chemically defined compounds constituting essential oil components — if chemically pure",
+            "action": "Redirect to Chapter 29 (organic compounds) — e.g., pure menthol → 29.06; pure thymol → 29.07; pure citral → 29.12",
+            "keywords": ["pure menthol", "pure camphor", "pure thymol", "pure citral", "pure eugenol", "pure linalool", "chemically defined terpene"]
+        },
+        {
+            "condition": "Soap of heading 34.01, even if containing perfume or medicaments",
+            "action": "Redirect to heading 34.01 (Chapter 34)",
+            "keywords": ["soap", "bar soap", "liquid soap", "toilet soap", "medicated soap", "antibacterial soap", "34.01"]
+        },
+        {
+            "condition": "Aqueous distillates or aqueous solutions of essential oils suitable for medicinal uses — these go to Ch.33 (33.01) NOT Ch.30",
+            "action": "Heading 33.01 captures these — note that Ch.30 Note 1(d) deliberately excludes them from Ch.30 directing them here",
+            "keywords": []
+        },
+        {
+            "condition": "Cosmetic/toiletry preparations of 33.03–33.07 with therapeutic properties",
+            "action": "STAY IN Chapter 33 — Ch.30 Note 1(e) explicitly excludes these from Ch.30 even with therapeutic claims. Sunscreen → 33.04; anti-dandruff shampoo → 33.05; fluoride toothpaste → 33.06",
+            "keywords": []
+        },
+        {
+            "condition": "Flavouring preparations for food/beverage manufacture (based on odoriferous substances of 33.02) — only 33.02 covers raw material use; final food preparations go elsewhere",
+            "action": "Flavour preparations for food → 33.02 if for beverage manufacture only; for food generally → 21.06",
+            "keywords": ["food flavouring", "food flavor", "flavour concentrate food", "21.06"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: 33.01 vs Chapter 29 — essential oils vs pure chemical components",
+            "description": "Essential oils (complex natural mixtures from plants) → 33.01. Chemically pure individual components isolated from essential oils → Ch.29 (e.g., pure menthol → 29.06, pure camphor → 29.14). If an 'essential oil' has been stripped of terpenes to increase concentration, it may still be 33.01 as 'terpeneless essential oil'.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: 33.03–33.07 vs Chapter 30 — cosmetics always stay in Ch.33",
+            "description": "ALL preparations of headings 33.03–33.07 remain in Chapter 33 EVEN IF they have therapeutic or prophylactic properties (Ch.30 Note 1(e) exclusion). This is an absolute rule: sunscreen → 33.04 (not 30.04); anti-dandruff shampoo → 33.05; medicated toothpaste → 33.06; antiseptic deodorant → 33.07. The cosmetic/toiletry nature overrides medical claims.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 33.02 — odoriferous mixtures for industry vs retail",
+            "description": "33.02 covers: (1) Mixtures of odoriferous substances used as RAW MATERIALS IN INDUSTRY (fragrance compounds, aroma chemicals blends for further manufacture); (2) Preparations based on odoriferous substances for BEVERAGE manufacturing. Does NOT cover: finished perfumes/colognes (→ 33.03); finished cosmetics (→ 33.04–33.07); food flavourings for general food (→ 21.06).",
+            "priority": 3
+        },
+        {
+            "rule": "Dental floss in individual retail packages → 33.06",
+            "description": "Dental floss (yarn to clean between teeth) in individual retail packages is specifically classified in heading 33.06 (oral hygiene preparations), NOT in Chapter 54/55 as a textile yarn.",
+            "priority": 4
+        }
+    ]
+}

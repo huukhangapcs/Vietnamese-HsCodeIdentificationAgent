@@ -1,0 +1,163 @@
+[
+    {
+        "level": 0, "hs_code": "2601",
+        "description_en": "Iron ores and concentrates, including roasted iron pyrites",
+        "children": [
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Iron ores and concentrates, other than roasted iron pyrites:",
+                "children": [
+                    {
+                        "level": 2, "hs_code": "260111",
+                        "description_en": "Non-agglomerated:",
+                        "children": [
+                            {"level": 3, "hs_code": "26011110", "description_en": "Haematite and concentrates", "children": [], "semantic_path": "Iron ores and concentrates; roasted iron pyrites > Iron ores (excl. roasted pyrites): > Non-agglomerated: > Haematite and concentrates"},
+                            {"level": 3, "hs_code": "26011190", "description_en": "Other", "children": [], "semantic_path": "Iron ores and concentrates; roasted iron pyrites > Iron ores (excl. roasted pyrites): > Non-agglomerated: > Other"}
+                        ],
+                        "semantic_path": "Iron ores and concentrates; roasted iron pyrites > Iron ores (excl. roasted pyrites): > Non-agglomerated:"
+                    },
+                    {
+                        "level": 2, "hs_code": "260112",
+                        "description_en": "Agglomerated:",
+                        "children": [
+                            {"level": 3, "hs_code": "26011210", "description_en": "Haematite and concentrates", "children": [], "semantic_path": "Iron ores and concentrates; roasted iron pyrites > Iron ores (excl. roasted pyrites): > Agglomerated: > Haematite and concentrates"},
+                            {"level": 3, "hs_code": "26011290", "description_en": "Other", "children": [], "semantic_path": "Iron ores and concentrates; roasted iron pyrites > Iron ores (excl. roasted pyrites): > Agglomerated: > Other"}
+                        ],
+                        "semantic_path": "Iron ores and concentrates; roasted iron pyrites > Iron ores (excl. roasted pyrites): > Agglomerated:"
+                    }
+                ],
+                "semantic_path": "Iron ores and concentrates; roasted iron pyrites > Iron ores and concentrates, other than roasted iron pyrites:"
+            },
+            {"level": 1, "hs_code": "26012000", "description_en": "Roasted iron pyrites", "children": [], "semantic_path": "Iron ores and concentrates; roasted iron pyrites > Roasted iron pyrites"}
+        ],
+        "semantic_path": "Iron ores and concentrates, including roasted iron pyrites"
+    },
+    {"level": 0, "hs_code": "26020000", "description_en": "Manganese ores and concentrates, including ferruginous manganese ores and concentrates with a manganese content of 20% or more, calculated on the dry weight", "children": [], "semantic_path": "Manganese ores and concentrates, including ferruginous manganese ores with Mn content 20% or more (dry weight)"},
+    {"level": 0, "hs_code": "26030000", "description_en": "Copper ores and concentrates", "children": [], "semantic_path": "Copper ores and concentrates"},
+    {"level": 0, "hs_code": "26040000", "description_en": "Nickel ores and concentrates", "children": [], "semantic_path": "Nickel ores and concentrates"},
+    {"level": 0, "hs_code": "26050000", "description_en": "Cobalt ores and concentrates", "children": [], "semantic_path": "Cobalt ores and concentrates"},
+    {"level": 0, "hs_code": "26060000", "description_en": "Aluminium ores and concentrates", "children": [], "semantic_path": "Aluminium ores and concentrates (bauxite and other)"},
+    {"level": 0, "hs_code": "26070000", "description_en": "Lead ores and concentrates", "children": [], "semantic_path": "Lead ores and concentrates"},
+    {"level": 0, "hs_code": "26080000", "description_en": "Zinc ores and concentrates", "children": [], "semantic_path": "Zinc ores and concentrates"},
+    {"level": 0, "hs_code": "26090000", "description_en": "Tin ores and concentrates", "children": [], "semantic_path": "Tin ores and concentrates"},
+    {"level": 0, "hs_code": "26100000", "description_en": "Chromium ores and concentrates", "children": [], "semantic_path": "Chromium ores and concentrates"},
+    {"level": 0, "hs_code": "26110000", "description_en": "Tungsten ores and concentrates", "children": [], "semantic_path": "Tungsten ores and concentrates"},
+    {
+        "level": 0, "hs_code": "2612",
+        "description_en": "Uranium or thorium ores and concentrates",
+        "children": [
+            {"level": 1, "hs_code": "26121000", "description_en": "Uranium ores and concentrates", "children": [], "semantic_path": "Uranium or thorium ores and concentrates > Uranium ores and concentrates"},
+            {"level": 1, "hs_code": "26122000", "description_en": "Thorium ores and concentrates", "children": [], "semantic_path": "Uranium or thorium ores and concentrates > Thorium ores and concentrates"}
+        ],
+        "semantic_path": "Uranium or thorium ores and concentrates"
+    },
+    {
+        "level": 0, "hs_code": "2613",
+        "description_en": "Molybdenum ores and concentrates",
+        "children": [
+            {"level": 1, "hs_code": "26131000", "description_en": "Roasted", "children": [], "semantic_path": "Molybdenum ores and concentrates > Roasted"},
+            {"level": 1, "hs_code": "26139000", "description_en": "Other", "children": [], "semantic_path": "Molybdenum ores and concentrates > Other"}
+        ],
+        "semantic_path": "Molybdenum ores and concentrates"
+    },
+    {
+        "level": 0, "hs_code": "2614",
+        "description_en": "Titanium ores and concentrates",
+        "children": [
+            {"level": 1, "hs_code": "26140010", "description_en": "Ilmenite ores and concentrates", "children": [], "semantic_path": "Titanium ores and concentrates > Ilmenite ores and concentrates"},
+            {"level": 1, "hs_code": "26140090", "description_en": "Other", "children": [], "semantic_path": "Titanium ores and concentrates > Other"}
+        ],
+        "semantic_path": "Titanium ores and concentrates"
+    },
+    {
+        "level": 0, "hs_code": "2615",
+        "description_en": "Niobium, tantalum, vanadium or zirconium ores and concentrates",
+        "children": [
+            {"level": 1, "hs_code": "26151000", "description_en": "Zirconium ores and concentrates", "children": [], "semantic_path": "Niobium, tantalum, vanadium or zirconium ores and concentrates > Zirconium ores and concentrates"},
+            {"level": 1, "hs_code": "26159000", "description_en": "Other (niobium, tantalum, vanadium)", "children": [], "semantic_path": "Niobium, tantalum, vanadium or zirconium ores and concentrates > Other"}
+        ],
+        "semantic_path": "Niobium, tantalum, vanadium or zirconium ores and concentrates"
+    },
+    {
+        "level": 0, "hs_code": "2616",
+        "description_en": "Precious metal ores and concentrates",
+        "children": [
+            {"level": 1, "hs_code": "26161000", "description_en": "Silver ores and concentrates", "children": [], "semantic_path": "Precious metal ores and concentrates > Silver ores and concentrates"},
+            {"level": 1, "hs_code": "26169000", "description_en": "Other (gold, platinum group)", "children": [], "semantic_path": "Precious metal ores and concentrates > Other (gold, platinum group)"}
+        ],
+        "semantic_path": "Precious metal ores and concentrates"
+    },
+    {
+        "level": 0, "hs_code": "2617",
+        "description_en": "Other ores and concentrates",
+        "children": [
+            {"level": 1, "hs_code": "26171000", "description_en": "Antimony ores and concentrates", "children": [], "semantic_path": "Other ores and concentrates > Antimony ores and concentrates"},
+            {"level": 1, "hs_code": "26179000", "description_en": "Other", "children": [], "semantic_path": "Other ores and concentrates > Other"}
+        ],
+        "semantic_path": "Other ores and concentrates"
+    },
+    {"level": 0, "hs_code": "26180000", "description_en": "Granulated slag (slag sand) from the manufacture of iron or steel", "children": [], "semantic_path": "Granulated slag (slag sand) from the manufacture of iron or steel"},
+    {"level": 0, "hs_code": "26190000", "description_en": "Slag, dross (other than granulated slag), scalings and other waste from the manufacture of iron or steel", "children": [], "semantic_path": "Slag, dross (other than granulated slag), scalings and other waste from the manufacture of iron or steel"},
+    {
+        "level": 0, "hs_code": "2620",
+        "description_en": "Slag, ash and residues (other than from the manufacture of iron or steel) containing metals, arsenic or their compounds",
+        "children": [
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Containing mainly zinc:",
+                "children": [
+                    {"level": 2, "hs_code": "26201100", "description_en": "Hard zinc spelter", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing mainly zinc: > Hard zinc spelter"},
+                    {"level": 2, "hs_code": "26201900", "description_en": "Other", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing mainly zinc: > Other"}
+                ],
+                "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing mainly zinc:"
+            },
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_2",
+                "description_en": "Containing mainly lead:",
+                "children": [
+                    {"level": 2, "hs_code": "26202100", "description_en": "Leaded gasoline sludges and leaded anti-knock compound sludges", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing mainly lead: > Leaded gasoline sludges and leaded anti-knock compound sludges"},
+                    {"level": 2, "hs_code": "26202900", "description_en": "Other", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing mainly lead: > Other"}
+                ],
+                "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing mainly lead:"
+            },
+            {"level": 1, "hs_code": "26203000", "description_en": "Containing mainly copper", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing mainly copper"},
+            {"level": 1, "hs_code": "26204000", "description_en": "Containing mainly aluminium", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing mainly aluminium"},
+            {"level": 1, "hs_code": "26206000", "description_en": "Containing arsenic, mercury, thallium or their mixtures, used for extraction of arsenic or those metals or for manufacture of their chemical compounds [PRIORITY subheading per Note 2]", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Containing arsenic, mercury, thallium or their mixtures [Priority subheading]"},
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_3",
+                "description_en": "Other:",
+                "children": [
+                    {"level": 2, "hs_code": "26209100", "description_en": "Containing antimony, beryllium, cadmium, chromium or their mixtures", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Other: > Containing antimony, beryllium, cadmium, chromium or their mixtures"},
+                    {
+                        "level": 2, "hs_code": "262099",
+                        "description_en": "Other:",
+                        "children": [
+                            {"level": 3, "hs_code": "26209910", "description_en": "Slag and hardhead of tin", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Other: > Other: > Slag and hardhead of tin"},
+                            {"level": 3, "hs_code": "26209990", "description_en": "Other", "children": [], "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Other: > Other: > Other"}
+                        ],
+                        "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Slag, ash and residues (excl. iron/steel) containing metals or arsenic > Other:"
+            }
+        ],
+        "semantic_path": "Slag, ash and residues (other than from the manufacture of iron or steel) containing metals, arsenic or their compounds"
+    },
+    {
+        "level": 0, "hs_code": "2621",
+        "description_en": "Other slag and ash, including seaweed ash (kelp); ash and residues from the incineration of municipal waste",
+        "children": [
+            {"level": 1, "hs_code": "26211000", "description_en": "Ash and residues from the incineration of municipal waste", "children": [], "semantic_path": "Other slag and ash; seaweed ash; ash from municipal waste incineration > Ash and residues from the incineration of municipal waste"},
+            {
+                "level": 1, "hs_code": "262190",
+                "description_en": "Other:",
+                "children": [
+                    {"level": 2, "hs_code": "26219010", "description_en": "Crude potassium salts obtained in the sugar industry from residues of beet molasses", "children": [], "semantic_path": "Other slag and ash; seaweed ash; ash from municipal waste incineration > Other: > Crude potassium salts from beet molasses residues"},
+                    {"level": 2, "hs_code": "26219090", "description_en": "Other (seaweed ash/kelp, other slag and ash)", "children": [], "semantic_path": "Other slag and ash; seaweed ash; ash from municipal waste incineration > Other: > Other"}
+                ],
+                "semantic_path": "Other slag and ash; seaweed ash; ash from municipal waste incineration > Other:"
+            }
+        ],
+        "semantic_path": "Other slag and ash, including seaweed ash (kelp); ash and residues from the incineration of municipal waste"
+    }
+]

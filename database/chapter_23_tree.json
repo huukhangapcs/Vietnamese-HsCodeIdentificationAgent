@@ -1,0 +1,448 @@
+[
+    {
+        "level": 0,
+        "hs_code": "2301",
+        "description_en": "Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "23011000",
+                "description_en": "Flours, meals and pellets, of meat or meat offal; greaves",
+                "children": [],
+                "semantic_path": "Flours, meals and pellets of meat/fish/seafood (unfit for human consumption); greaves > Flours, meals and pellets, of meat or meat offal; greaves"
+            },
+            {
+                "level": 1,
+                "hs_code": "230120",
+                "description_en": "Flours, meals and pellets, of fish or of crustaceans, molluscs or other aquatic invertebrates:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "23012010",
+                        "description_en": "Of fish, with a protein content of less than 60% by weight",
+                        "children": [],
+                        "semantic_path": "Flours, meals and pellets of meat/fish/seafood (unfit for human consumption); greaves > Flours, meals and pellets of fish/crustaceans/molluscs: > Of fish, protein content less than 60% by weight"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23012020",
+                        "description_en": "Of fish, with a protein content of 60% or more by weight",
+                        "children": [],
+                        "semantic_path": "Flours, meals and pellets of meat/fish/seafood (unfit for human consumption); greaves > Flours, meals and pellets of fish/crustaceans/molluscs: > Of fish, protein content 60% or more by weight"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23012090",
+                        "description_en": "Other (crustaceans, molluscs, other aquatic invertebrates)",
+                        "children": [],
+                        "semantic_path": "Flours, meals and pellets of meat/fish/seafood (unfit for human consumption); greaves > Flours, meals and pellets of fish/crustaceans/molluscs: > Other"
+                    }
+                ],
+                "semantic_path": "Flours, meals and pellets of meat/fish/seafood (unfit for human consumption); greaves > Flours, meals and pellets of fish or of crustaceans, molluscs or other aquatic invertebrates:"
+            }
+        ],
+        "semantic_path": "Flours, meals and pellets, of meat or meat offal, of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption; greaves"
+    },
+    {
+        "level": 0,
+        "hs_code": "2302",
+        "description_en": "Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or of leguminous plants",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "23021000",
+                "description_en": "Of maize (corn)",
+                "children": [],
+                "semantic_path": "Bran, sharps and other residues from milling of cereals or leguminous plants > Of maize (corn)"
+            },
+            {
+                "level": 1,
+                "hs_code": "230230",
+                "description_en": "Of wheat:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "23023010",
+                        "description_en": "Bran and pollard",
+                        "children": [],
+                        "semantic_path": "Bran, sharps and other residues from milling of cereals or leguminous plants > Of wheat: > Bran and pollard"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23023090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Bran, sharps and other residues from milling of cereals or leguminous plants > Of wheat: > Other"
+                    }
+                ],
+                "semantic_path": "Bran, sharps and other residues from milling of cereals or leguminous plants > Of wheat:"
+            },
+            {
+                "level": 1,
+                "hs_code": "230240",
+                "description_en": "Of other cereals:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "23024010",
+                        "description_en": "Of rice",
+                        "children": [],
+                        "semantic_path": "Bran, sharps and other residues from milling of cereals or leguminous plants > Of other cereals: > Of rice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23024090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Bran, sharps and other residues from milling of cereals or leguminous plants > Of other cereals: > Other"
+                    }
+                ],
+                "semantic_path": "Bran, sharps and other residues from milling of cereals or leguminous plants > Of other cereals:"
+            },
+            {
+                "level": 1,
+                "hs_code": "23025000",
+                "description_en": "Of leguminous plants",
+                "children": [],
+                "semantic_path": "Bran, sharps and other residues from milling of cereals or leguminous plants > Of leguminous plants"
+            }
+        ],
+        "semantic_path": "Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or of leguminous plants"
+    },
+    {
+        "level": 0,
+        "hs_code": "2303",
+        "description_en": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "230310",
+                "description_en": "Residues of starch manufacture and similar residues:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "23031010",
+                        "description_en": "Of manioc (cassava) or sago",
+                        "children": [],
+                        "semantic_path": "Residues of starch manufacture; beet-pulp; bagasse; brewing/distilling dregs > Residues of starch manufacture: > Of manioc (cassava) or sago"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23031090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Residues of starch manufacture; beet-pulp; bagasse; brewing/distilling dregs > Residues of starch manufacture: > Other"
+                    }
+                ],
+                "semantic_path": "Residues of starch manufacture; beet-pulp; bagasse; brewing/distilling dregs > Residues of starch manufacture and similar residues:"
+            },
+            {
+                "level": 1,
+                "hs_code": "23032000",
+                "description_en": "Beet-pulp, bagasse and other waste of sugar manufacture",
+                "children": [],
+                "semantic_path": "Residues of starch manufacture; beet-pulp; bagasse; brewing/distilling dregs > Beet-pulp, bagasse and other waste of sugar manufacture"
+            },
+            {
+                "level": 1,
+                "hs_code": "23033000",
+                "description_en": "Brewing or distilling dregs and waste",
+                "children": [],
+                "semantic_path": "Residues of starch manufacture; beet-pulp; bagasse; brewing/distilling dregs > Brewing or distilling dregs and waste"
+            }
+        ],
+        "semantic_path": "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture, brewing or distilling dregs and waste, whether or not in the form of pellets"
+    },
+    {
+        "level": 0,
+        "hs_code": "2304",
+        "description_en": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "23040010",
+                "description_en": "Defatted soya-bean flour, fit for human consumption",
+                "children": [],
+                "semantic_path": "Oil-cake and solid residues from extraction of soya-bean oil > Defatted soya-bean flour, fit for human consumption"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Soya-bean meal:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "23040021",
+                        "description_en": "Fit for human consumption",
+                        "children": [],
+                        "semantic_path": "Oil-cake and solid residues from extraction of soya-bean oil > Soya-bean meal: > Fit for human consumption"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23040029",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Oil-cake and solid residues from extraction of soya-bean oil > Soya-bean meal: > Other"
+                    }
+                ],
+                "semantic_path": "Oil-cake and solid residues from extraction of soya-bean oil > Soya-bean meal:"
+            },
+            {
+                "level": 1,
+                "hs_code": "23040090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Oil-cake and solid residues from extraction of soya-bean oil > Other"
+            }
+        ],
+        "semantic_path": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soya-bean oil"
+    },
+    {
+        "level": 0,
+        "hs_code": "23050000",
+        "description_en": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of ground-nut oil",
+        "children": [],
+        "semantic_path": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of ground-nut (peanut) oil"
+    },
+    {
+        "level": 0,
+        "hs_code": "2306",
+        "description_en": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 23.04 or 23.05",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "23061000",
+                "description_en": "Of cotton seeds",
+                "children": [],
+                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils (excl. 23.04 and 23.05) > Of cotton seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "23062000",
+                "description_en": "Of linseed",
+                "children": [],
+                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils (excl. 23.04 and 23.05) > Of linseed"
+            },
+            {
+                "level": 1,
+                "hs_code": "23063000",
+                "description_en": "Of sunflower seeds",
+                "children": [],
+                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils (excl. 23.04 and 23.05) > Of sunflower seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Of rape or colza seeds:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "230641",
+                        "description_en": "Of low erucic acid rape or colza seeds:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "23064110",
+                                "description_en": "Of low erucic acid rape seeds",
+                                "children": [],
+                                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Of rape or colza seeds: > Low erucic acid: > Of low erucic acid rape seeds"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "23064120",
+                                "description_en": "Of low erucic acid colza seeds",
+                                "children": [],
+                                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Of rape or colza seeds: > Low erucic acid: > Of low erucic acid colza seeds"
+                            }
+                        ],
+                        "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Of rape or colza seeds: > Of low erucic acid rape or colza seeds:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "230649",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "23064910",
+                                "description_en": "Of other rape seeds",
+                                "children": [],
+                                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Of rape or colza seeds: > Other: > Of other rape seeds"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "23064920",
+                                "description_en": "Of other colza seeds",
+                                "children": [],
+                                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Of rape or colza seeds: > Other: > Of other colza seeds"
+                            }
+                        ],
+                        "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Of rape or colza seeds: > Other:"
+                    }
+                ],
+                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils (excl. 23.04 and 23.05) > Of rape or colza seeds:"
+            },
+            {
+                "level": 1,
+                "hs_code": "23065000",
+                "description_en": "Of coconut or copra",
+                "children": [],
+                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils (excl. 23.04 and 23.05) > Of coconut or copra"
+            },
+            {
+                "level": 1,
+                "hs_code": "230660",
+                "description_en": "Of palm nuts or kernels:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "23066010",
+                        "description_en": "Ground or in the form of pellets",
+                        "children": [],
+                        "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Of palm nuts or kernels: > Ground or in the form of pellets"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23066090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Of palm nuts or kernels: > Other"
+                    }
+                ],
+                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils (excl. 23.04 and 23.05) > Of palm nuts or kernels:"
+            },
+            {
+                "level": 1,
+                "hs_code": "230690",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "23069010",
+                        "description_en": "Of maize (corn) germ",
+                        "children": [],
+                        "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Other: > Of maize (corn) germ"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23069090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Oil-cake and solid residues from vegetable/microbial fats or oils (excl. 23.04 and 23.05) > Other:"
+            }
+        ],
+        "semantic_path": "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable or microbial fats or oils, other than those of heading 23.04 or 23.05"
+    },
+    {
+        "level": 0,
+        "hs_code": "23070000",
+        "description_en": "Wine lees; argol",
+        "children": [],
+        "semantic_path": "Wine lees; argol (crude potassium tartrate deposited in wine casks)"
+    },
+    {
+        "level": 0,
+        "hs_code": "23080000",
+        "description_en": "Vegetable materials and vegetable waste, vegetable residues and by-products, whether or not in the form of pellets, of a kind used in animal feeding, not elsewhere specified or included",
+        "children": [],
+        "semantic_path": "Vegetable materials and vegetable waste, vegetable residues and by-products for animal feeding, not elsewhere specified or included"
+    },
+    {
+        "level": 0,
+        "hs_code": "2309",
+        "description_en": "Preparations of a kind used in animal feeding",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "230910",
+                "description_en": "Dog or cat food, put up for retail sale:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "23091010",
+                        "description_en": "Containing meat",
+                        "children": [],
+                        "semantic_path": "Preparations of a kind used in animal feeding > Dog or cat food, put up for retail sale: > Containing meat"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23091090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Preparations of a kind used in animal feeding > Dog or cat food, put up for retail sale: > Other"
+                    }
+                ],
+                "semantic_path": "Preparations of a kind used in animal feeding > Dog or cat food, put up for retail sale:"
+            },
+            {
+                "level": 1,
+                "hs_code": "230990",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Complete feed:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "23099011",
+                                "description_en": "Of a kind suitable for poultry",
+                                "children": [],
+                                "semantic_path": "Preparations of a kind used in animal feeding > Other: > Complete feed: > Of a kind suitable for poultry"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "23099012",
+                                "description_en": "Of a kind suitable for swine",
+                                "children": [],
+                                "semantic_path": "Preparations of a kind used in animal feeding > Other: > Complete feed: > Of a kind suitable for swine"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "23099013",
+                                "description_en": "Of a kind suitable for prawns",
+                                "children": [],
+                                "semantic_path": "Preparations of a kind used in animal feeding > Other: > Complete feed: > Of a kind suitable for prawns"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "23099014",
+                                "description_en": "Of a kind suitable for primates",
+                                "children": [],
+                                "semantic_path": "Preparations of a kind used in animal feeding > Other: > Complete feed: > Of a kind suitable for primates"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "23099019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Preparations of a kind used in animal feeding > Other: > Complete feed: > Other"
+                            }
+                        ],
+                        "semantic_path": "Preparations of a kind used in animal feeding > Other: > Complete feed:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23099020",
+                        "description_en": "Premixes, feed supplements or feed additives",
+                        "children": [],
+                        "semantic_path": "Preparations of a kind used in animal feeding > Other: > Premixes, feed supplements or feed additives"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "23099090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Preparations of a kind used in animal feeding > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Preparations of a kind used in animal feeding > Other:"
+            }
+        ],
+        "semantic_path": "Preparations of a kind used in animal feeding"
+    }
+]

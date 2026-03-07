@@ -1,0 +1,175 @@
+{
+    "chapter_code": "38",
+    "inclusions": [
+        "Heading 38.01 — Artificial graphite; colloidal or semi-colloidal graphite; preparations based on graphite or other carbon in the form of pastes, blocks, plates or other semi-manufactures",
+        "Heading 38.02 — Activated carbon; activated natural mineral products; animal black (including spent animal black)",
+        "Heading 38.03 — Tall oil, whether or not refined",
+        "Heading 38.04 — Residual lyes from manufacture of wood pulp, whether or not concentrated, desugared or chemically treated, including lignin sulphonates (excludes tall oil of 38.03)",
+        "Heading 38.05 — Gum, wood or sulphate turpentine and other terpenic oils; crude dipentene; sulphite turpentine; pine oil",
+        "Heading 38.06 — Rosin and resin acids and derivatives; rosin spirit and oils; run gums",
+        "Heading 38.07 — Wood tar; wood tar oils; wood creosote; wood naphtha; vegetable pitch; brewers' pitch and similar preparations based on rosin/resin acids/vegetable pitch",
+        "Heading 38.08 — Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products, plant-growth regulators, disinfectants and similar — PUT UP in forms for retail sale or as preparations/articles. Subheadings 3808.52/59: goods containing specific banned POPs (DDT, aldrin, dieldrin, endosulfan, HCH/lindane, parathion, mercury compounds, ethylene oxide, etc.). Subheadings 3808.61–69: goods containing specific pyrethroids (alpha-cypermethrin, deltamethrin, lambda-cyhalothrin, malathion, etc.)",
+        "Heading 38.09 — Finishing agents, dye carriers, dressings, mordants for textile/paper/leather industries, NES",
+        "Heading 38.10 — Pickling preparations for metal surfaces; fluxes for soldering/brazing/welding; soldering/brazing/welding pastes; electrode core/coating preparations",
+        "Heading 38.11 — Anti-knock preparations; oxidation inhibitors; gum inhibitors; viscosity improvers; anti-corrosive preparations and other prepared additives for mineral oils or similar liquids",
+        "Heading 38.12 — Prepared rubber accelerators; compound plasticisers for rubber/plastics NES; anti-oxidising preparations and compound stabilisers for rubber or plastics",
+        "Heading 38.13 — Preparations and charges for fire-extinguishers; charged fire-extinguishing grenades",
+        "Heading 38.14 — Organic composite solvents and thinners NES; prepared paint or varnish removers",
+        "Heading 38.15 — Reaction initiators, reaction accelerators and catalytic preparations NES",
+        "Heading 38.16 — Refractory cements, mortars, concretes and similar compositions (other than 38.01)",
+        "Heading 38.17 — Mixed alkylbenzenes and mixed alkylnaphthalenes (other than heading 27.07 or 29.02)",
+        "Heading 38.18 — Chemical elements doped for electronics in the form of DISCS, WAFERS or similar forms; chemical compounds doped for electronics",
+        "Heading 38.19 — Hydraulic brake fluids and other prepared liquids for hydraulic transmission containing <70% petroleum oils",
+        "Heading 38.20 — Anti-freezing preparations and prepared de-icing fluids",
+        "Heading 38.21 — Prepared culture media for development/maintenance of micro-organisms, viruses, plant/human/animal cells",
+        "Heading 38.22 — In-vitro diagnostic or laboratory reagents on a backing; prepared diagnostic/laboratory reagents whether or not on a backing (other than 30.02/30.06); CERTIFIED REFERENCE MATERIALS (Note 2): heading 38.22 takes precedence over ANY other heading (except Ch.28 or Ch.29) for certified reference materials",
+        "Heading 38.23 — Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols",
+        "Heading 38.24 — Prepared binders for foundry moulds or cores; chemical products NES of chemical/allied industries; residual products NES. Specifically by Note 3: (a) cultured crystals (not optical) ≥2.5g of MgO or halides of alkali/alkaline-earth metals; (b) fusel oil and Dippel's oil; (c) ink removers in retail packings; (d) stencil correctors, correction fluids and correction tapes (other than 96.12) in retail packings; (e) ceramic firing testers (Seger cones). Also: mixed alkyl phosphates; non-agglomerated metal carbides with metallic binders; municipal waste; sewage sludge; clinical waste",
+        "Heading 38.25 — Residual products of the chemical or allied industries NES: sewage sludge (from urban effluent treatment — Note 5); clinical waste (Note 6(a) — contaminated waste from medical/surgical/dental/veterinary procedures containing pathogens); waste organic solvents (Note 6(b) and 4 — wastes containing mainly organic solvents not fit for further use as primary products); wastes of metal pickling liquors, hydraulic fluids, brake fluids, anti-freezing fluids (Note 6(c)); other wastes from chemical/allied industries (Note 6(d))",
+        "Heading 38.26 — Biodiesel (Note 7): mono-alkyl esters of fatty acids used as fuel, derived from animal/vegetable/microbial fats and oils whether or not used; mixtures containing biodiesel"
+    ],
+    "exclusions": [
+        {
+            "condition": "Separate chemically defined elements or compounds — EXCEPT: (1) artificial graphite 38.01; (2) formulated pesticides of 38.08; (3) fire-extinguisher charges 38.13; (4) certified reference materials of Note 2; (5) products of Note 3(a) or 3(c)",
+            "action": "Redirect to the appropriate chapter for the chemically defined compound (Ch.28 inorganic, Ch.29 organic). Ch.38 Note 1(a) is the general residual rule",
+            "keywords": []
+        },
+        {
+            "condition": "Mixtures of chemicals with foodstuffs or other substances with nutritive value used in human food preparation",
+            "action": "Redirect to heading 21.06 (mixed food preparations/supplements for human consumption)",
+            "keywords": ["food chemical mixture", "food additive blend", "nutrient blend", "food fortification mix", "21.06"]
+        },
+        {
+            "condition": "Products of heading 24.04 (tobacco/nicotine products, heated tobacco, electronic cigarettes)",
+            "action": "Redirect to heading 24.04 (Chapter 24)",
+            "keywords": ["e-cigarette", "electronic cigarette", "heated tobacco", "nicotine product", "vaping liquid", "24.04"]
+        },
+        {
+            "condition": "Slag, ash and residues (including sludges, other than sewage sludge) containing metals or arsenic and meeting Chapter 26 Note 3(a) or (b)",
+            "action": "Redirect to heading 26.20 (Chapter 26 — metalliferous ores, slag and ash)",
+            "keywords": ["slag metal", "ash metal", "metal residue", "ash arsenic", "metalliferous slag", "26.20"]
+        },
+        {
+            "condition": "Medicaments (whether or not mixed) for therapeutic or prophylactic use",
+            "action": "Redirect to heading 30.03 (not in measured doses/retail) or 30.04 (in measured doses/retail packaging)",
+            "keywords": ["medicament", "medicine", "pharmaceutical preparation", "drug formulation", "therapeutic preparation", "30.03", "30.04"]
+        },
+        {
+            "condition": "Spent catalysts used for extraction of base metals or manufacture of base metal compounds",
+            "action": "Redirect to heading 26.20",
+            "keywords": ["spent catalyst metal extraction", "used catalyst base metal", "26.20"]
+        },
+        {
+            "condition": "Spent catalysts used principally for recovery of precious metals",
+            "action": "Redirect to heading 71.12 (precious metal waste and scrap)",
+            "keywords": ["spent catalyst precious metal", "used catalyst gold", "used catalyst platinum", "used catalyst palladium", "71.12"]
+        },
+        {
+            "condition": "Catalysts consisting of metals or metal alloys in the form of finely divided powder or woven gauze",
+            "action": "Redirect to Section XIV (precious metals) or Section XV (base metals) as appropriate",
+            "keywords": ["platinum gauze catalyst", "metal gauze catalyst", "palladium powder catalyst", "nickel powder catalyst"]
+        },
+        {
+            "condition": "Hydraulic brake fluids and transmission fluids containing ≥70% petroleum oils or oils from bituminous minerals",
+            "action": "Redirect to heading 27.10 (petroleum oil preparations)",
+            "keywords": ["hydraulic oil petroleum", "mineral hydraulic fluid", "petroleum transmission fluid", "27.10"]
+        },
+        {
+            "condition": "Doped semiconductor elements (silicon, germanium etc.) in unworked forms — ingots, boules, cylinders, RODS — NOT yet cut to wafer",
+            "action": "Redirect to Chapter 28 (e.g., 28.04 for silicon). Only when CUT INTO DISCS/WAFERS → heading 38.18",
+            "keywords": ["silicon ingot", "silicon boule", "germanium rod", "silicon cylinder", "doped silicon rod", "semiconductor ingot"]
+        },
+        {
+            "condition": "Stabilised sewage sludge suitable for use as fertiliser",
+            "action": "Redirect to Chapter 31 (fertilisers). Ch.38 Note 5 explicitly excludes this — only unstabilised/pre-treatment sludge stays in 38.25",
+            "keywords": ["sewage sludge fertiliser", "stabilised sludge", "biosolid fertiliser", "sludge compost", "chapter 31"]
+        },
+        {
+            "condition": "Waste containing mainly petroleum oils or oils from bituminous minerals",
+            "action": "Redirect to heading 27.10 — Ch.38 Note 6 explicitly excludes this from 'other wastes' of 38.25",
+            "keywords": ["used engine oil", "waste petroleum oil", "used motor oil", "waste lubricating oil", "27.10"]
+        },
+        {
+            "condition": "Natural graphite (mined mineral)",
+            "action": "Redirect to heading 25.04 (Chapter 25 — natural graphite). Ch.38.01 covers only ARTIFICIAL graphite",
+            "keywords": ["natural graphite", "graphite ore", "flake graphite natural", "crystalline graphite", "25.04"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Chapter 38 is RESIDUAL: separate chemically defined compounds excluded (with named exceptions)",
+            "description": "Chapter 38 does NOT cover separate chemically defined elements or compounds EXCEPT: (1) artificial graphite → 38.01; (2) insecticides/fungicides/herbicides/disinfectants put up for retail/as preparations → 38.08; (3) fire-extinguisher charges → 38.13; (4) certified reference materials per Note 2 → 38.22; (5) products of Note 3(a) [cultured crystals] or Note 3(c) [ink removers] → 38.24. All other pure compounds go to Ch.28 or Ch.29.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2(A) — Definition of 'certified reference materials' (38.22)",
+            "description": "Certified reference materials are reference materials accompanied by a certificate stating: the values of the certified properties; the methods used to determine those values; and the degree of certainty associated with each value. They must be suitable for analytical, calibrating or referencing purposes.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 2(B) — Heading 38.22 priority over all headings (except Ch.28/29) for certified reference materials",
+            "description": "CRITICAL PRIORITY RULE: For the classification of CERTIFIED REFERENCE MATERIALS, heading 38.22 shall take precedence over ANY other heading in the Nomenclature — EXCEPT products of Chapter 28 or 29. This means a certified reference material of an organic compound goes to Ch.29, of an inorganic compound goes to Ch.28, but of a pharmaceutical/food/other substance goes to 38.22.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 3 — Heading 38.24 mandatory items (eo nomine, cannot go elsewhere)",
+            "description": "The following goods are mandated ONLY to heading 38.24: (a) Cultured crystals (not optical elements) each ≥2.5g of MgO OR halides of alkali or alkaline-earth metals (NaF, KF, CaF2, NaCl, KCl, BaF2, etc.); (b) Fusel oil and Dippel's oil; (c) Ink removers in retail packings; (d) Stencil correctors, other correction fluids and correction tapes (other than heading 96.12) in retail packings; (e) Ceramic firing testers/fusible testers (e.g., Seger cones).",
+            "priority": 4
+        },
+        {
+            "rule": "Note 4 — Definition of 'municipal waste' for 38.25 (does NOT include segregated materials)",
+            "description": "Municipal waste = waste collected from households, hotels, restaurants, hospitals, shops, offices; road sweepings; construction/demolition waste. A heterogeneous mix. Does NOT include: (a) individual materials segregated from waste (plastics, rubber, wood, paper, textile, glass, metal waste → their own headings); (b) industrial waste; (c) waste pharmaceuticals (→ 30.06(k)); (d) clinical waste (→ 38.25 under Note 6(a)).",
+            "priority": 5
+        },
+        {
+            "rule": "Note 5 — Sewage sludge (38.25): stabilised sludge for fertiliser → Chapter 31",
+            "description": "Sewage sludge of heading 38.25 = sludge from urban effluent treatment plants including pre-treatment waste, scourings and unstabilised sludge. EXCEPTION: stabilised sludge suitable for use as fertiliser → Chapter 31 (not 38.25).",
+            "priority": 6
+        },
+        {
+            "rule": "Note 6 — 'Other wastes' of 38.25: four categories defined",
+            "description": "The expression 'other wastes' in heading 38.25 covers: (a) Clinical waste — contaminated waste from medical/surgical/dental/veterinary research, diagnosis, treatment containing pathogens/pharmaceutical substances (soiled dressings, used gloves, used syringes); (b) Waste organic solvents (subheadings 3825.41/49 — wastes containing mainly organic solvents, not fit as primary products); (c) Wastes of metal pickling liquors, hydraulic fluids, brake fluids and anti-freezing fluids; (d) Other wastes from chemical/allied industries. EXCLUSION: wastes containing mainly petroleum oils → 27.10.",
+            "priority": 7
+        },
+        {
+            "rule": "Note 7 — Biodiesel definition for heading 38.26",
+            "description": "Biodiesel = mono-alkyl esters of fatty acids of a kind used as fuel, derived from animal/vegetable/microbial fats and oils, whether or not used. Note: biodiesel is distinct from fatty acid methyl ester (FAME) used for non-fuel purposes. Only fuel-grade mono-alkyl fatty acid esters go to 38.26.",
+            "priority": 8
+        },
+        {
+            "rule": "Subheading Note 1 — 3808.52/59: hazardous/banned pesticides (POPs)",
+            "description": "Subheadings 3808.52 and 3808.59 cover only goods of heading 38.08 containing one or more specifically listed hazardous/banned substances including: DDT, aldrin, dieldrin, endosulfan, HCH/lindane, parathion, parathion-methyl, mercury compounds, ethylene oxide (oxirane), ethylene dibromide, ethylene dichloride, heptachlor, chlordane, captafol, carbofuran, monocrotophos, methamidophos, 2,4,5-T, tributyltin compounds, perfluorooctane sulphonic acid/salts/sulphonamides/sulphonyl fluoride, among others.",
+            "priority": 9
+        },
+        {
+            "rule": "Subheading Note 2 — 3808.61–69: vector control/public health pyrethroid insecticides",
+            "description": "Subheadings 3808.61–69 cover only goods of heading 38.08 containing: alpha-cypermethrin, bendiocarb, bifenthrin, chlorfenapyr, cyfluthrin, deltamethrin, etofenprox, fenitrothion, lambda-cyhalothrin, malathion, pirimiphos-methyl, or propoxur.",
+            "priority": 10
+        },
+        {
+            "rule": "Subheading Note 3 — 3824.81–89: POPs-containing mixtures",
+            "description": "Subheadings 3824.81–89 cover only mixtures and preparations containing one or more of: oxirane (ethylene oxide), PBBs, PCBs, PCTs, tris(2,3-dibromopropyl) phosphate, aldrin, camphechlor (toxaphene), chlordane, chlordecone, DDT, dieldrin, endosulfan, endrin, heptachlor, mirex, HCH/lindane, pentachlorobenzene, hexachlorobenzene, perfluorooctane sulphonic acid/salts, tetra-/penta-/hexa-/hepta-/octabromodiphenyl ethers, short-chain chlorinated paraffins (C10–C13, >48% chlorination).",
+            "priority": 11
+        },
+        {
+            "rule": "Key boundary: 38.08 (formulated pesticides) vs Ch.28/29 (bulk active ingredients)",
+            "description": "Pesticides, herbicides, fungicides, disinfectants go to 38.08 ONLY when put up in 'forms/packings for retail' or as 'preparations or articles'. Bulk/technical-grade active ingredients → Ch.29 (organic) or Ch.28 (inorganic).",
+            "priority": 12
+        },
+        {
+            "rule": "Key boundary: 38.18 (doped wafers) vs Ch.28 (doped ingots/rods)",
+            "description": "Doped electronic semiconductor elements: in unworked forms (ingots, boules, cylinders, rods) → Chapter 28. CUT INTO DISCS, WAFERS or similar forms → heading 38.18. The cutting/wafer-shaping is the trigger.",
+            "priority": 13
+        },
+        {
+            "rule": "Key boundary: 38.22 (in-vitro diagnostics) vs 30.06 (in-vivo diagnostics administered to patient)",
+            "description": "38.22 = lab reagents used IN VITRO on samples (test strips, PCR kits, ELISA kits, blood glucose strips, pregnancy tests). 30.06(d) = diagnostics ADMINISTERED TO THE PATIENT (contrast media for X-ray/MRI, injectable tracers). The patient-administration test is definitive.",
+            "priority": 14
+        },
+        {
+            "rule": "Artificial graphite (38.01) vs natural graphite (25.04)",
+            "description": "Natural graphite (mined mineral) → heading 25.04. Artificial/synthetic graphite (from graphitisation of carbonaceous materials) → 38.01. Also in 38.01: colloidal or semi-colloidal graphite; carbon paste preparations.",
+            "priority": 15
+        }
+    ]
+}

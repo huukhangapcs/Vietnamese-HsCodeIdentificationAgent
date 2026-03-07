@@ -1,0 +1,99 @@
+{
+    "chapter_code": "32",
+    "inclusions": [
+        "Heading 32.01 — Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives",
+        "Heading 32.02 — Synthetic organic tanning substances; inorganic tanning substances; tanning preparations, whether or not containing natural tanning substances; enzymatic preparations for pre-tanning",
+        "Heading 32.03 — Colouring matter of vegetable or animal origin (including dyeing extracts but excluding animal black), whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin of a kind used for colouring any material or as ingredients in colouring preparations",
+        "Heading 32.04 — Synthetic organic colouring matter, whether or not chemically defined; preparations based on synthetic organic colouring matter of a kind used for colouring any material or as ingredients in manufacture of colouring preparations; synthetic organic products of a kind used as fluorescent brightening agents or as luminophores; includes mixtures of stabilised diazonium salts and couplers for azo dyes",
+        "Heading 32.05 — Colour lakes; preparations based on colour lakes of a kind used for colouring any material or as ingredients in the manufacture of colouring preparations",
+        "Heading 32.06 — Other colouring matter; preparations as specified, other than those of headings 32.03, 32.04 or 32.05; inorganic products of a kind used as luminophores; includes titanium dioxide pigments, chrome pigments, ultramarine, carbon black, and other inorganic pigments",
+        "Heading 32.07 — Prepared pigments, prepared opacifiers and prepared colours, vitrifiable enamels and glazes, engobes (slips), liquid lustres and similar preparations; glass frit and other glass in powder/granule/flake form",
+        "Heading 32.08 — Paints and varnishes (including enamels and lacquers) based on synthetic polymers or chemically modified natural polymers, dispersed or dissolved in a non-aqueous medium; solutions of products of headings 39.01–39.13 in volatile organic solvents (>50% solvent by weight)",
+        "Heading 32.09 — Paints and varnishes (including enamels and lacquers) based on synthetic polymers or chemically modified natural polymers, dispersed or dissolved in an aqueous medium",
+        "Heading 32.10 — Other paints and varnishes (including enamels, lacquers and distempers); prepared water pigments of a kind used for finishing leather",
+        "Heading 32.11 — Prepared driers",
+        "Heading 32.12 — Pigments (including metallic powders and flakes) dispersed in non-aqueous media, in liquid or paste form, used in manufacture of paints (including enamels); stamping foils; dyes and other colouring matter put up in forms/packings for retail sale",
+        "Heading 32.13 — Artists', students' or signboard painters' colours, modifying tints, amusement colours and the like, in tablets, tubes, jars, bottles, pans or similar forms or packings",
+        "Heading 32.14 — Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics; painters' fillings; non-refractory surfacing preparations for facades, indoor walls, floors, ceilings or the like",
+        "Heading 32.15 — Printing ink, writing or drawing ink and other inks, whether or not concentrated or solid"
+    ],
+    "exclusions": [
+        {
+            "condition": "Separate chemically defined elements or compounds — EXCEPT those of heading 32.03/32.04, inorganic luminophores (32.06), fused quartz/silica glass in forms of 32.07, and dyes/colouring matter for retail sale (32.12)",
+            "action": "Redirect to the appropriate chapter for the chemically defined compound (Ch.28 for inorganic, Ch.29 for organic)",
+            "keywords": ["chemically defined compound", "pure chemical", "laboratory reagent", "analytical grade"]
+        },
+        {
+            "condition": "Tannates or other tannin derivatives of products of headings 29.36–29.39 (vitamins, hormones, alkaloids), 29.41 (antibiotics) or 35.01–35.04 (casein, albumin, gelatin, peptones)",
+            "action": "Redirect to Chapter 29 (29.36–29.39, 29.41) or Chapter 35 (35.01–35.04) respectively",
+            "keywords": ["tannate of vitamin", "tannate albumin", "gelatin tannate", "protein tannate", "alkaloid tannate", "29.36", "29.37", "29.38", "29.39", "29.41", "35.01", "35.02", "35.03", "35.04"]
+        },
+        {
+            "condition": "Mastics based on asphalt or other bituminous mastics",
+            "action": "Redirect to heading 27.15 — bituminous mastics are mineral products in Chapter 27",
+            "keywords": ["asphalt mastic", "bituminous mastic", "bitumen putty", "tar mastic", "27.15"]
+        },
+        {
+            "condition": "Extenders used in oil paints (even if also suitable for colouring distempers) — Note 5",
+            "action": "Extenders (fillers/extenders in paint) are NOT 'colouring matter' of Chapter 32 — redirect to Ch.25 (mineral extenders) or Ch.28 as appropriate",
+            "keywords": ["paint extender", "filler paint", "kaolin paint filler", "calcium carbonate filler", "barite filler", "talc paint"]
+        },
+        {
+            "condition": "Pigments dispersed in non-aqueous media (liquid or paste) used in paint manufacture — these are 32.12, not 32.03/32.04/32.05/32.06",
+            "action": "Redirect to heading 32.12 (not 32.03–32.06). Note 3 exclusion: 32.03/04/05/06 do NOT cover pigment pastes for paint manufacture",
+            "keywords": ["pigment paste", "pigment dispersion", "pigment concentrate paint", "colour mill base", "tinting paste"]
+        },
+        {
+            "condition": "Preparations of 32.07, 32.08, 32.09, 32.10, 32.12, 32.13, 32.15 — these are final product categories that override 32.03/04/05/06",
+            "action": "Classify in the specific later heading (32.07–32.15) rather than the base colouring matter headings",
+            "keywords": []
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Exclusions: chemically defined compounds (with named exceptions)",
+            "description": "Chapter 32 generally EXCLUDES separate chemically defined elements or compounds. EXCEPTIONS that remain in Ch.32 despite being chemically defined: (a) colouring matter of 32.03 or 32.04; (b) inorganic luminophores of 32.06; (c) fused quartz/silica glass in forms of 32.07; (d) dyes/colouring matter for retail sale of 32.12.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Heading 32.04 includes stabilised diazonium salt/coupler mixtures",
+            "description": "Heading 32.04 (synthetic organic colouring matter) includes mixtures of stabilised diazonium salts and couplers for the production of azo dyes — explicitly expanded beyond 'separate chemically defined' restriction.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 3 — Scope of 32.03–32.06 includes preparations; exclusions for specific downstream products",
+            "description": "Headings 32.03, 32.04, 32.05 and 32.06 apply to preparations based on colouring matter used for colouring any material or as ingredients in colouring preparation manufacture. HOWEVER, they do NOT apply to: (a) pigments dispersed in non-aqueous media in liquid/paste form for paint manufacture → 32.12; (b) preparations of headings 32.07–32.10, 32.12, 32.13 or 32.15.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 4 — Heading 32.08 includes polymer solutions with >50% solvent",
+            "description": "Heading 32.08 includes solutions (other than collodions) of products of headings 39.01–39.13 (plastics) dissolved in volatile organic solvents, PROVIDED the weight of the solvent exceeds 50% of the total solution weight. These polymer solutions are treated as paints/varnishes.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 5 — 'Colouring matter' excludes paint extenders",
+            "description": "The term 'colouring matter' in Chapter 32 does NOT include products used as extenders in oil paints, even if they are also suitable for colouring distempers. Extenders (calcium carbonate, talc, barium sulphate, kaolin used to extend paint volume) are therefore not captured here.",
+            "priority": 5
+        },
+        {
+            "rule": "Note 6 — Definition of 'stamping foils' in heading 32.12",
+            "description": "Stamping foils of heading 32.12 means thin sheets used for printing (book covers, hat bands, etc.) consisting of: (a) metallic powder or pigment agglomerated with glue/gelatin/binder; OR (b) metal or pigment deposited on a supporting sheet of any material.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 32.08 (non-aqueous) vs 32.09 (aqueous) paints",
+            "description": "The primary split for polymer-based paints: 32.08 = synthetic polymer paints/varnishes DISPERSED OR DISSOLVED IN NON-AQUEOUS MEDIUM (solvent-based paints, lacquers). 32.09 = synthetic polymer paints/varnishes DISPERSED OR DISSOLVED IN AQUEOUS MEDIUM (water-based / latex / emulsion paints). The medium (aqueous vs non-aqueous) is the sole determinant.",
+            "priority": 7
+        },
+        {
+            "rule": "Key boundary: 32.12 vs 32.03/32.04 — pigment pastes for paint manufacture",
+            "description": "Pigments dispersed in non-aqueous media in liquid or paste form for PAINT MANUFACTURE → heading 32.12 (not 32.03/32.04/32.06). 32.03 and 32.04 cover base colouring substances and preparations for general colouring use. Once a pigment is formulated as a paste dispersion specifically for paint production, it moves to 32.12.",
+            "priority": 8
+        },
+        {
+            "rule": "Key boundary: 32.14 (mastics/putty) vs 27.15 (bituminous mastics)",
+            "description": "Putties, mastics and caulking compounds → 32.14 ONLY if NOT bitumen/asphalt based. Bituminous mastics (asphalt-based sealants, tar-based putties, bituminous caulking) → 27.15 regardless of their application use.",
+            "priority": 9
+        }
+    ]
+}

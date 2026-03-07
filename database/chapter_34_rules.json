@@ -1,0 +1,61 @@
+{
+    "chapter_code": "34",
+    "inclusions": [
+        "Heading 34.01 — Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes; paper, wadding, felt and nonwovens impregnated/coated/covered with soap or detergent; shaving products (shaving cream, foam); scouring powders and similar preparations; whether or not containing soap",
+        "Heading 34.02 — Organic surface-active agents (other than soap); surface-active preparations, washing preparations (including auxiliary washing preparations) and cleaning preparations, whether or not containing soap, other than those of heading 33.07",
+        "Heading 34.03 — Lubricating preparations (including cutting-oil preparations, bolt loosening preparations, anti-rust or anti-corrosion preparations and mould release preparations) based on lubricants and also preparations of a kind used for oil or grease treatment of textile materials, leather, furskins or other materials; BUT excluding preparations containing, as basic constituents, 70% or more by weight of petroleum oils or oils from bituminous minerals",
+        "Heading 34.04 — Artificial waxes and prepared waxes: polyethylene glycol wax; waxes of silicone; waxes from Ch.15 mixed with other parts; lignite wax, peat wax, other mineral waxes; prepared waxes not elsewhere specified",
+        "Heading 34.05 — Polishes and creams for footwear, furniture, floors, coachwork, glass, metal; scouring pastes and powders and similar preparations (whether or not in the form of paper, wadding, felt, nonwovens, cellular plastics/rubber impregnated/coated with these preparations); excluding waxes of heading 34.04",
+        "Heading 34.06 — Candles, tapers and the like",
+        "Heading 34.07 — Modelling pastes, including those put up for children's amusement; preparations known as 'dental wax' or as 'dental impression compounds', put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms; other preparations for use in dentistry, with a basis of plaster"
+    ],
+    "exclusions": [
+        {
+            "condition": "Lubricating preparations containing ≥70% by weight of petroleum oils or oils from bituminous minerals as basic constituents",
+            "action": "Redirect to heading 27.10 (petroleum oils and preparations thereof)",
+            "keywords": ["petroleum lubricant", "mineral oil lubricant", "motor oil", "engine oil", "hydraulic oil", "gear oil", "lubricating oil petroleum", "27.10"]
+        },
+        {
+            "condition": "Soap or soap-containing products of heading 34.01 — even with medicaments or perfume added",
+            "action": "Stay in Chapter 34 (34.01). NOTE: soap with added medicaments does NOT go to Ch.30 (Ch.30 Note 1(f) excludes it)",
+            "keywords": []
+        },
+        {
+            "condition": "Prepared room deodorisers, personal deodorants, shaving preparations",
+            "action": "Redirect to heading 33.07 (Chapter 33)",
+            "keywords": ["room deodoriser", "room deodorant", "air freshener", "personal deodorant", "antiperspirant", "shaving cream", "aftershave", "33.07"]
+        },
+        {
+            "condition": "Natural waxes — beeswax, carnauba wax, Japan wax, spermaceti — whether refined or not",
+            "action": "Natural animal/vegetable waxes → Chapter 15 (15.21). Mineral waxes (ozokerite, ceresine) → 27.12. Chapter 34.04 only covers ARTIFICIAL and PREPARED waxes",
+            "keywords": ["beeswax", "carnauba wax", "Japan wax", "spermaceti", "paraffin wax crude", "15.21", "27.12"]
+        },
+        {
+            "condition": "Dental impression compounds/dental wax NOT put up in sets, retail packings, or in specific shapes — bulk industrial dental materials",
+            "action": "May redirect to heading 38.24 or Ch.90 depending on specific use and presentation",
+            "keywords": []
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: 34.01 (soap) vs 34.02 (synthetic detergents/surfactants)",
+            "description": "34.01 = products based on the saponification of fats/oils AND organic surface-active products presented as soap (bars, cakes, etc.) whether or not they contain real soap. 34.02 = synthetic surface-active agents and detergent preparations that are NOT soap-based. A liquid detergent (no soap) → 34.02. A bar soap with synthetic agents → 34.01. The form (bar/cake/moulded) matters for 34.01.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: 34.03 (lubricants) vs 27.10 (petroleum lubricants) — 70% threshold",
+            "description": "Lubricating preparations go to 34.03 when the petroleum oil content is LESS THAN 70% by weight. When petroleum/bituminous mineral oil is ≥70% by weight as the basic constituent → heading 27.10. This is a hard numerical threshold.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 34.04 (prepared/artificial waxes) vs 15.21 (natural waxes) vs 27.12 (mineral waxes)",
+            "description": "Natural animal/vegetable waxes → 15.21 (beeswax, carnauba, Japan wax). Natural mineral waxes → 27.12 (ozokerite, paraffin, ceresine). Heading 34.04 covers: (1) polyethylene glycol wax; (2) silicone waxes; (3) prepared waxes from mixing natural waxes with other substances; (4) lignite/peat waxes that have been refined; (5) other artificial/prepared waxes NES.",
+            "priority": 3
+        },
+        {
+            "rule": "Medicated soap stays in 34.01 — not in Ch.30",
+            "description": "Soap containing added medicaments is specifically excluded from Chapter 30 by Ch.30 Note 1(f). Such products remain classified in heading 34.01 (Chapter 34) regardless of pharmaceutical claims.",
+            "priority": 4
+        }
+    ]
+}

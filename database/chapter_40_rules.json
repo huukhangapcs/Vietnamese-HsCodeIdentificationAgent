@@ -1,0 +1,131 @@
+{
+    "chapter_code": "40",
+    "inclusions": [
+        "Heading 40.01 — Natural rubber, balata, gutta-percha, guayule, chicle and similar natural gums, in primary forms or in plates, sheets or strip. Primary forms: latex (pre-vulcanised or not), blocks, lumps, bales, powders, granules, crumbs. Note 5(B) permitted additives only (emulsifiers, anti-tack agents, antioxidants, stabilisers, viscosity agents in very small amounts)",
+        "Heading 40.02 — Synthetic rubber and factice derived from oils, in primary forms or in plates, sheets or strip; mixtures of any product of heading 40.01 with any product of this heading. Definition of synthetic rubber per Note 4: (a) unsaturated synthetic substances irreversibly vulcanisable with sulphur → non-thermoplastic, no break at 3× length at 18–29°C, recovery to ≤1.5× after 2× stretch; (b) Thioplasts (TM); (c) graft/blended modified natural rubber, depolymerised natural rubber, mixtures of unsaturated synthetic + saturated synthetic high polymers — all complying with Note 4(a) test. Key types: SBR, NBR, EPDM, CR (neoprene), IIR (butyl), BIIR, CIIR, BR, IR, CSM, ACM, AEM, ECO, silicone rubber (gum)",
+        "Heading 40.03 — Reclaimed rubber in primary forms or in plates, sheets or strip",
+        "Heading 40.04 — Waste, parings and scrap of rubber (Note 6: from manufacture/working of rubber, definitely not usable as such — due to cutting, wear or other reasons); powders and granules obtained therefrom",
+        "Heading 40.05 — Compounded rubber, unvulcanised, in primary forms or in plates, sheets or strip: rubber mixed with vulcanising agents, fillers, pigments, plasticisers etc. (Note 5(A) items that disqualify from 40.01/40.02). This is the 'rubber compound ready to process' heading",
+        "Heading 40.06 — Other forms (e.g., rods, tubes and profile shapes) and articles (e.g., discs and rings) of unvulcanised rubber; granules of unvulcanised rubber",
+        "Heading 40.07 — Vulcanised rubber thread and cord",
+        "Heading 40.08 — Plates, sheets, strip, rods and profile shapes of vulcanised rubber (other than hard rubber). Note 9: plates/sheets/strip = uncut or simply cut to rectangles; rods/profile shapes = cut to length or surface-worked only. Note 7: vulcanised rubber thread with any cross-sectional dimension >5mm → 40.08 as strip/rod/profile shape",
+        "Heading 40.09 — Tubes, pipes and hoses of vulcanised rubber other than hard rubber, with or without their fittings (e.g., joints, elbows, flanges)",
+        "Heading 40.10 — Conveyor or transmission belts or belting of vulcanised rubber. Note 8: includes textile fabric belts impregnated/coated/covered/laminated with rubber, or belts made from rubber-coated textile yarn/cord",
+        "Heading 40.11 — New pneumatic tyres of rubber",
+        "Heading 40.12 — Retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps of rubber",
+        "Heading 40.13 — Inner tubes of rubber",
+        "Heading 40.14 — Hygienic or pharmaceutical articles (including teats) of vulcanised rubber other than hard rubber, with or without fittings of hard rubber: condoms; gloves for medical use; hot water bottles; ice bags; teats/nipples; other pharmaceutical rubber articles",
+        "Heading 40.15 — Articles of apparel and clothing accessories (including gloves, mittens and mitts) for all purposes, of vulcanised rubber other than hard rubber: surgical/examination gloves; industrial protective gloves; diving suits; aprons; rubber clothing",
+        "Heading 40.16 — Other articles of vulcanised rubber other than hard rubber: erasers; gaskets and washers; rubber bands; rubber stoppers; inflatable articles; rubber mats and matting; rubber buffers and bumpers; other articles NES",
+        "Heading 40.17 — Hard rubber (ebonite) in all forms, including waste and scrap; articles of hard rubber"
+    ],
+    "exclusions": [
+        {
+            "condition": "Goods of Section XI — textiles and textile articles — even if rubber-coated, rubber-impregnated, rubber-laminated fabrics where textile character predominates",
+            "action": "Redirect to Section XI (Chapters 50–63). Note 2(a) — rubber-coated fabrics may go to Section XI if textile character is essential; but conveyor belts of rubber-coated fabric → 40.10 per Note 8",
+            "keywords": ["rubber coated fabric", "rubber impregnated textile", "rubber laminated cloth", "elastic fabric", "stretch fabric"]
+        },
+        {
+            "condition": "Footwear or parts thereof, including rubber boots and shoes",
+            "action": "Redirect to Chapter 64 — Note 2(b). Rubber boots, galoshes, flip-flops with rubber soles → 64.01/64.02",
+            "keywords": ["rubber boot", "rubber shoe", "galosh", "gumboot", "flip flop", "rubber sandal", "rubber sole footwear", "64.01", "64.02"]
+        },
+        {
+            "condition": "Headgear or parts thereof including bathing caps of rubber (swimming caps)",
+            "action": "Redirect to Chapter 65 — Note 2(c)",
+            "keywords": ["rubber cap", "swimming cap", "bathing cap", "rubber hat", "65."]
+        },
+        {
+            "condition": "Mechanical or electrical appliances or parts thereof of Section XVI made of hard rubber (ebonite) — e.g., electrical insulators, hard rubber housings for machines",
+            "action": "Redirect to Section XVI (Chapters 84–85) — Note 2(d). Hard rubber (ebonite) articles that are clearly electrical/mechanical appliances or their parts go to Section XVI, not 40.17",
+            "keywords": ["ebonite electrical", "hard rubber electrical", "hard rubber machine part", "vulcanite insulator", "84.", "85."]
+        },
+        {
+            "condition": "Articles of Chapter 90 (optical, measuring, medical instruments), Chapter 92 (musical instruments), Chapter 94 (furniture, luminaires), Chapter 96 (misc articles: brushes, buttons, combs) — even if made of rubber",
+            "action": "Redirect to their respective chapters (Ch.90, 92, 94, 96) — Note 2(e)",
+            "keywords": ["rubber optical", "rubber furniture", "rubber instrument", "rubber brush handle", "90.", "92.", "94.", "96."]
+        },
+        {
+            "condition": "Articles of Chapter 95 (toys, games, sports requisites) — EXCEPT sports gloves/mittens/mitts AND articles of headings 40.11–40.13 (tyres, inner tubes)",
+            "action": "Redirect to Chapter 95 — Note 2(f). BUT: rubber sports gloves STAY in 40.15; tyres (40.11), retreaded tyres (40.12) and inner tubes (40.13) STAY in Chapter 40 even if for sporting bicycles/equipment",
+            "keywords": ["rubber toy", "rubber ball game", "rubber sports equipment", "rubber doll", "95.03", "95.06"]
+        },
+        {
+            "condition": "Compounded or mixed rubber containing vulcanising agents/accelerators/fillers/pigments/plasticisers etc. — NOT staying in 40.01 or 40.02",
+            "action": "Redirect to heading 40.05 (compounded unvulcanised rubber). Note 5(A): presence of these substances disqualifies the rubber from headings 40.01/40.02",
+            "keywords": []
+        },
+        {
+            "condition": "Plastics and articles thereof — polymers not meeting the Note 4 synthetic rubber definition (cannot be vulcanised with sulphur / don't meet elongation-recovery test)",
+            "action": "Redirect to Chapter 39. The boundary: if a polymer CANNOT be irreversibly vulcanised with sulphur into non-thermoplastic form with 3× elongation → it is plastic, NOT rubber",
+            "keywords": ["PVC rubber-like", "TPE thermoplastic elastomer classification", "EVA elastic", "polyurethane elastic"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Definition of 'rubber' (applies Nomenclature-wide)",
+            "description": "Rubber = the following, whether or not vulcanised or hard: (1) natural rubber (Hevea brasiliensis latex), balata, gutta-percha, guayule, chicle and similar natural gums; (2) synthetic rubber (per Note 4 definition); (3) factice derived from oils (vulcanised vegetable oils); (4) reclaimed rubber. Does NOT include thermoplastic elastomers (TPE) unless they meet Note 4 test.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 4 — Scientific definition of 'synthetic rubber' for headings 40.01/40.02",
+            "description": "Synthetic rubber (Note 4) = THREE categories: (a) UNSATURATED synthetic substances that can be IRREVERSIBLY vulcanised with sulphur into NON-THERMOPLASTIC form, that at 18–29°C: will NOT break when extended to 3× original length, AND will return to ≤1.5× original length within 5 minutes after extension to 2× original length. Cross-linking agents (vulcanisers, accelerators) may be added for test; Note 5(B)(ii)(iii) substances also permitted. NO extenders/plasticisers/fillers. (b) Thioplasts (polysulphide rubbers, TM type). (c) Modified natural rubbers (grafted or blended with plastics), depolymerised NR, mixtures of unsaturated synthetic + saturated synthetic high polymers — all meeting Note 4(a) test.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 5(A) — What disqualifies rubber from headings 40.01/40.02 (→ heading 40.05)",
+            "description": "Headings 40.01 and 40.02 do NOT apply to rubber compounded (before or after coagulation) with: (i) vulcanising agents, accelerators, retarders or activators (EXCEPT those added for pre-vulcanised latex preparation); (ii) pigments or colouring matter (EXCEPT added solely for identification purposes); (iii) plasticisers, extenders (EXCEPT mineral oil in oil-extended rubber), fillers, reinforcing agents, organic solvents or any other substances not permitted by Note 5(B). Such compounded rubber → heading 40.05.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 5(B) — Permitted additives that do NOT disqualify rubber from 40.01/40.02",
+            "description": "The following substances may be present without moving rubber out of heading 40.01/40.02, provided the rubber retains its essential character as a raw material: (i) emulsifiers or anti-tack agents; (ii) small amounts of emulsifier breakdown products; (iii) very small amounts of: heat-sensitive agents, cationic surfactants, antioxidants, coagulants, crumbling agents, freeze-resisting agents, peptisers, preservatives, stabilisers, viscosity-control agents, and similar special-purpose additives.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 3 — Definition of 'primary forms' for rubber (40.01–40.03, 40.05)",
+            "description": "Primary forms of rubber in headings 40.01–40.03 and 40.05 means ONLY: (a) Liquids and pastes — including latex (pre-vulcanised or not), dispersions and solutions; (b) Blocks of irregular shape, lumps, bales, powders, granules, crumbs and similar bulk forms. Sheet rubber (RSS, TSR 20, CV60 etc.) is NOT a primary form — it classifies in 40.01 as 'plates, sheets or strip'.",
+            "priority": 5
+        },
+        {
+            "rule": "Note 6 — Definition of 'waste, parings and scrap' (40.04)",
+            "description": "Rubber waste, parings and scrap = waste from manufacture/working of rubber and rubber goods that is DEFINITELY NOT USABLE as such because of: cutting-up, wear or other reasons. Does NOT include rubber compound that can still be processed (→ 40.05 or 40.06).",
+            "priority": 6
+        },
+        {
+            "rule": "Note 7 — Vulcanised rubber thread >5mm any cross-section → 40.08 (not 40.07)",
+            "description": "Vulcanised rubber thread/cord in which ANY cross-sectional dimension exceeds 5 mm → classified as STRIP, RODS OR PROFILE SHAPES of heading 40.08 (NOT as thread/cord of heading 40.07). Thread/cord of 40.07 must have cross-sectional dimensions all ≤5 mm.",
+            "priority": 7
+        },
+        {
+            "rule": "Note 8 — Heading 40.10: conveyor/transmission belts include textile-rubber composites",
+            "description": "Heading 40.10 (conveyor/transmission belts of vulcanised rubber) includes: (1) textile fabric belts impregnated, coated, covered or laminated with rubber; (2) belts/belting made from textile yarn or cord that has been impregnated, coated, covered or sheathed with rubber. These rubber-textile composite belts go to 40.10, NOT to Chapter 59 (industrial textiles).",
+            "priority": 8
+        },
+        {
+            "rule": "Note 9 — Plates/sheets/strip/rods/profile shapes: unworked or simply cut only",
+            "description": "In headings 40.01, 40.02, 40.03, 40.05 and 40.08: 'plates', 'sheets' and 'strip' = uncut or simply cut to rectangular (incl. square) shape ONLY. May be printed or surface-worked. NOT cut to specific shapes or further worked (such items → 40.06/40.08 articles or other article headings). In heading 40.08: 'rods' and 'profile shapes' = cut to length or surface-worked only.",
+            "priority": 9
+        },
+        {
+            "rule": "Key boundary: Chapter 40 (rubber) vs Chapter 39 (plastics) — the vulcanisation test",
+            "description": "THE SINGLE DEFINING TEST: Can the material be irreversibly vulcanised with sulphur into a non-thermoplastic substance that passes the 3× elongation + 1.5× recovery test at 18–29°C? YES → synthetic rubber of Ch.40. NO → plastic of Ch.39. Practical examples: SBR, NBR, EPDM, neoprene (CR), butyl (IIR) → Ch.40. PVC, polyurethane, EVA, TPE (if not meeting Note 4 test) → Ch.39. Thermoplastic vulcanisates (TPV/TPE-V): classified as plastics (Ch.39) unless they fully meet Note 4(a).",
+            "priority": 10
+        },
+        {
+            "rule": "Key boundary: 40.01/40.02 (raw rubber) vs 40.05 (compounded rubber)",
+            "description": "The Note 5 compound/additive gating rule: Raw/pure rubber with only Note 5(B) permitted additives → 40.01 (natural) or 40.02 (synthetic). Rubber mixed with any Note 5(A) disqualifying substances (vulcanisers, pigments/colours beyond ID use, fillers, plasticisers, reinforcing agents) → 40.05 (compounded unvulcanised rubber). Oil-extended rubber (with mineral oil) is the one exception: stays in 40.02.",
+            "priority": 11
+        },
+        {
+            "rule": "Key boundary: 40.05 (unvulcanised compounded) vs 40.08/40.09/40.10/40.16 (vulcanised articles)",
+            "description": "The vulcanisation state determines: UNVULCANISED rubber compounds in primary forms, plates, sheets → 40.05. Unvulcanised rubber in other forms/articles → 40.06. VULCANISED rubber articles → 40.07 (thread/cord), 40.08 (plates/sheets/rods), 40.09 (tubes/pipes/hoses), 40.10 (belts), 40.11–40.13 (tyres/inner tubes), 40.14 (hygienic/pharmaceutical), 40.15 (apparel), 40.16 (other articles). HARD rubber (ebonite) → 40.17.",
+            "priority": 12
+        },
+        {
+            "rule": "Sports gloves of rubber: Chapter 40 (NOT Chapter 95)",
+            "description": "Note 2(f) exception: sports gloves, mittens and mitts made of rubber (e.g., goalkeeper gloves, boxing gloves outer shell, batting gloves) REMAIN in Chapter 40 (heading 40.15) even though Chapter 95 covers sports requisites. All other rubber sports articles (rubber balls, rubber moulded sports equipment) → Chapter 95. Tyres for sports bicycles and inner tubes → 40.11/40.13 (also Note 2(f) exception).",
+            "priority": 13
+        }
+    ]
+}

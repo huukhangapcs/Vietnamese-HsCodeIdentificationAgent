@@ -1,0 +1,487 @@
+[
+    {
+        "level": 0,
+        "hs_code": "2401",
+        "description_en": "Unmanufactured tobacco; tobacco refuse",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "240110",
+                "description_en": "Tobacco, not stemmed/stripped:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "24011010",
+                        "description_en": "Virginia type, flue-cured",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, not stemmed/stripped: > Virginia type, flue-cured"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24011020",
+                        "description_en": "Virginia type, other than flue-cured",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, not stemmed/stripped: > Virginia type, other than flue-cured"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24011040",
+                        "description_en": "Burley type",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, not stemmed/stripped: > Burley type"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24011050",
+                        "description_en": "Other, flue-cured",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, not stemmed/stripped: > Other, flue-cured"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24011090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, not stemmed/stripped: > Other"
+                    }
+                ],
+                "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, not stemmed/stripped:"
+            },
+            {
+                "level": 1,
+                "hs_code": "240120",
+                "description_en": "Tobacco, partly or wholly stemmed/stripped:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "24012010",
+                        "description_en": "Virginia type, flue-cured",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, partly or wholly stemmed/stripped: > Virginia type, flue-cured"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24012020",
+                        "description_en": "Virginia type, other than flue-cured",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, partly or wholly stemmed/stripped: > Virginia type, other than flue-cured"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24012030",
+                        "description_en": "Oriental type",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, partly or wholly stemmed/stripped: > Oriental type"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24012040",
+                        "description_en": "Burley type",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, partly or wholly stemmed/stripped: > Burley type"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24012050",
+                        "description_en": "Other, flue-cured",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, partly or wholly stemmed/stripped: > Other, flue-cured"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24012090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, partly or wholly stemmed/stripped: > Other"
+                    }
+                ],
+                "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco, partly or wholly stemmed/stripped:"
+            },
+            {
+                "level": 1,
+                "hs_code": "240130",
+                "description_en": "Tobacco refuse:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "24013010",
+                        "description_en": "Tobacco stems",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco refuse: > Tobacco stems"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24013090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco refuse: > Other"
+                    }
+                ],
+                "semantic_path": "Unmanufactured tobacco; tobacco refuse > Tobacco refuse:"
+            }
+        ],
+        "semantic_path": "Unmanufactured tobacco; tobacco refuse"
+    },
+    {
+        "level": 0,
+        "hs_code": "2402",
+        "description_en": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "24021000",
+                "description_en": "Cigars, cheroots and cigarillos, containing tobacco",
+                "children": [],
+                "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes > Cigars, cheroots and cigarillos, containing tobacco"
+            },
+            {
+                "level": 1,
+                "hs_code": "240220",
+                "description_en": "Cigarettes containing tobacco:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "24022010",
+                        "description_en": "Beedies",
+                        "children": [],
+                        "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes > Cigarettes containing tobacco: > Beedies"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24022020",
+                        "description_en": "Clove cigarettes",
+                        "children": [],
+                        "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes > Cigarettes containing tobacco: > Clove cigarettes"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24022090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes > Cigarettes containing tobacco: > Other"
+                    }
+                ],
+                "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes > Cigarettes containing tobacco:"
+            },
+            {
+                "level": 1,
+                "hs_code": "240290",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "24029010",
+                        "description_en": "Cigars, cheroots and cigarillos of tobacco substitutes",
+                        "children": [],
+                        "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes > Other: > Cigars, cheroots and cigarillos of tobacco substitutes"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24029020",
+                        "description_en": "Cigarettes of tobacco substitutes",
+                        "children": [],
+                        "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes > Other: > Cigarettes of tobacco substitutes"
+                    }
+                ],
+                "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes > Other:"
+            }
+        ],
+        "semantic_path": "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes"
+    },
+    {
+        "level": 0,
+        "hs_code": "2403",
+        "description_en": "Other manufactured tobacco and manufactured tobacco substitutes; homogenised or reconstituted tobacco; tobacco extracts and essences",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Smoking tobacco, whether or not containing tobacco substitutes in any proportion:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "240311",
+                        "description_en": "Water pipe tobacco specified in Subheading Note 1 to this Chapter (tobacco + glycerol mixture):",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "24031110",
+                                "description_en": "Packed for retail sale",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Water pipe tobacco (tobacco + glycerol): > Packed for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24031190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Water pipe tobacco (tobacco + glycerol): > Other"
+                            }
+                        ],
+                        "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Water pipe tobacco specified in Subheading Note 1:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "240319",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Packed for retail sale:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "24031911",
+                                        "description_en": "Ang Hoon",
+                                        "children": [],
+                                        "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Other: > Packed for retail sale: > Ang Hoon"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "24031919",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Other: > Packed for retail sale: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Other: > Packed for retail sale:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24031920",
+                                "description_en": "Other manufactured tobacco for the manufacture of cigarettes",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Other: > Other manufactured tobacco for the manufacture of cigarettes"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_1",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "24031991",
+                                        "description_en": "Ang Hoon",
+                                        "children": [],
+                                        "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Other: > Other: > Ang Hoon"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "24031999",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Other: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Other: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco: > Other:"
+                    }
+                ],
+                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Smoking tobacco, whether or not containing tobacco substitutes in any proportion:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "240391",
+                        "description_en": "Homogenised or reconstituted tobacco:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "24039110",
+                                "description_en": "Packed for retail sale",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Homogenised or reconstituted tobacco: > Packed for retail sale"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24039190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Homogenised or reconstituted tobacco: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Homogenised or reconstituted tobacco:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "240399",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "24039910",
+                                "description_en": "Tobacco extracts and essences",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Other: > Tobacco extracts and essences"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24039930",
+                                "description_en": "Manufactured tobacco substitutes",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Other: > Manufactured tobacco substitutes"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24039940",
+                                "description_en": "Snuff, whether or not dry",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Other: > Snuff, whether or not dry"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24039950",
+                                "description_en": "Chewing and sucking tobacco",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Other: > Chewing and sucking tobacco"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24039990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Other manufactured tobacco; homogenised tobacco; tobacco extracts > Other:"
+            }
+        ],
+        "semantic_path": "Other manufactured tobacco and manufactured tobacco substitutes; homogenised or reconstituted tobacco; tobacco extracts and essences"
+    },
+    {
+        "level": 0,
+        "hs_code": "2404",
+        "description_en": "Products containing tobacco, reconstituted tobacco, nicotine, or tobacco or nicotine substitutes, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_2",
+                "description_en": "Products intended for inhalation without combustion:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "24041100",
+                        "description_en": "Containing tobacco or reconstituted tobacco (e.g. IQOS heatsticks, heated tobacco products)",
+                        "children": [],
+                        "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Products intended for inhalation without combustion: > Containing tobacco or reconstituted tobacco"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "240412",
+                        "description_en": "Other, containing nicotine:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "24041210",
+                                "description_en": "E-cigarette liquid or gel",
+                                "children": [],
+                                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Products intended for inhalation without combustion: > Other, containing nicotine: > E-cigarette liquid or gel"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24041290",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Products intended for inhalation without combustion: > Other, containing nicotine: > Other"
+                            }
+                        ],
+                        "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Products intended for inhalation without combustion: > Other, containing nicotine:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "240419",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "24041910",
+                                "description_en": "Containing tobacco substitutes",
+                                "children": [],
+                                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Products intended for inhalation without combustion: > Other: > Containing tobacco substitutes"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24041920",
+                                "description_en": "Containing nicotine substitutes",
+                                "children": [],
+                                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Products intended for inhalation without combustion: > Other: > Containing nicotine substitutes"
+                            }
+                        ],
+                        "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Products intended for inhalation without combustion: > Other:"
+                    }
+                ],
+                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Products intended for inhalation without combustion:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_3",
+                "description_en": "Other (nicotine intake — not inhalation):",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "240491",
+                        "description_en": "For oral application:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "24049110",
+                                "description_en": "Nicotine chewing gum",
+                                "children": [],
+                                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Other (nicotine intake): > For oral application: > Nicotine chewing gum"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24049190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Other (nicotine intake): > For oral application: > Other"
+                            }
+                        ],
+                        "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Other (nicotine intake): > For oral application:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "240492",
+                        "description_en": "For transdermal application:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "24049210",
+                                "description_en": "Nicotine patch",
+                                "children": [],
+                                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Other (nicotine intake): > For transdermal application: > Nicotine patch"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "24049290",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Other (nicotine intake): > For transdermal application: > Other"
+                            }
+                        ],
+                        "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Other (nicotine intake): > For transdermal application:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "24049900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Other (nicotine intake): > Other"
+                    }
+                ],
+                "semantic_path": "Products for inhalation without combustion; other nicotine intake products > Other (nicotine intake):"
+            }
+        ],
+        "semantic_path": "Products containing tobacco, reconstituted tobacco, nicotine, or tobacco or nicotine substitutes, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body"
+    }
+]

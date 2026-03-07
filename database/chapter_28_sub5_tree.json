@@ -1,0 +1,398 @@
+[
+  {
+    "level": 0, "hs_code": "2826",
+    "description_en": "Fluorides; fluorosilicates, fluoroaluminates and other complex fluorine salts",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Fluorides; fluorosilicates, fluoroaluminates and other complex fluorine salts",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2826_1", "description_en": "Fluorides:",
+        "semantic_path": "Salts > Fluorides; complex F-salts > Fluorides:",
+        "children": [
+          {"level": 2, "hs_code": "28261200", "description_en": "Fluoride of aluminium (AlF3)", "children": [], "semantic_path": "Salts > Fluorides > Fluoride of aluminium"},
+          {"level": 2, "hs_code": "28261900", "description_en": "Other fluorides (NaF, KF, CaF2, MgF2, etc.)", "children": [], "semantic_path": "Salts > Fluorides > Other fluorides"}
+        ]
+      },
+      {"level": 1, "hs_code": "28263000", "description_en": "Sodium hexafluoroaluminate (synthetic cryolite, Na3AlF6)", "children": [], "semantic_path": "Salts > Fluorides; complex F-salts > Sodium hexafluoroaluminate (synthetic cryolite)"},
+      {"level": 1, "hs_code": "28269000", "description_en": "Other (fluorosilicates, fluoroborates, other complex fluorine salts)", "children": [], "semantic_path": "Salts > Fluorides; complex F-salts > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2827",
+    "description_en": "Chlorides, chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Chlorides, chloride oxides/hydroxides; bromides; iodides",
+    "children": [
+      {"level": 1, "hs_code": "28271000", "description_en": "Ammonium chloride (NH4Cl, sal ammoniac)", "children": [], "semantic_path": "Salts > Chlorides; bromides; iodides > Ammonium chloride"},
+      {
+        "level": 1, "hs_code": "282720", "description_en": "Calcium chloride:",
+        "semantic_path": "Salts > Chlorides; bromides; iodides > Calcium chloride:",
+        "children": [
+          {"level": 2, "hs_code": "28272010", "description_en": "Containing 73%–80% by weight (anhydrous or semi-anhydrous CaCl2)", "children": [], "semantic_path": "Salts > Chlorides > Calcium chloride: > 73–80% by weight"},
+          {"level": 2, "hs_code": "28272090", "description_en": "Other (CaCl2 solution, dihydrate, hexahydrate)", "children": [], "semantic_path": "Salts > Chlorides > Calcium chloride: > Other"}
+        ]
+      },
+      {
+        "level": 1, "hs_code": "PSEUDO_2827_1", "description_en": "Other chlorides:",
+        "semantic_path": "Salts > Chlorides; bromides; iodides > Other chlorides:",
+        "children": [
+          {"level": 2, "hs_code": "28273100", "description_en": "Of magnesium (MgCl2)", "children": [], "semantic_path": "Salts > Other chlorides: > Of magnesium"},
+          {"level": 2, "hs_code": "28273200", "description_en": "Of aluminium (AlCl3)", "children": [], "semantic_path": "Salts > Other chlorides: > Of aluminium"},
+          {"level": 2, "hs_code": "28273500", "description_en": "Of nickel (NiCl2)", "children": [], "semantic_path": "Salts > Other chlorides: > Of nickel"},
+          {
+            "level": 2, "hs_code": "282739", "description_en": "Other:",
+            "semantic_path": "Salts > Other chlorides: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28273910", "description_en": "Of barium or of cobalt (BaCl2, CoCl2)", "children": [], "semantic_path": "Salts > Other chlorides: > Other: > Of barium or cobalt"},
+              {"level": 3, "hs_code": "28273920", "description_en": "Of iron (FeCl2, FeCl3)", "children": [], "semantic_path": "Salts > Other chlorides: > Other: > Of iron"},
+              {"level": 3, "hs_code": "28273930", "description_en": "Of zinc (ZnCl2)", "children": [], "semantic_path": "Salts > Other chlorides: > Other: > Of zinc"},
+              {"level": 3, "hs_code": "28273990", "description_en": "Other (MnCl2, SnCl2, SnCl4, TiCl4, CrCl3, etc.)", "children": [], "semantic_path": "Salts > Other chlorides: > Other: > Other"}
+            ]
+          }
+        ]
+      },
+      {
+        "level": 1, "hs_code": "PSEUDO_2827_2", "description_en": "Chloride oxides and chloride hydroxides:",
+        "semantic_path": "Salts > Chlorides; bromides; iodides > Chloride oxides and chloride hydroxides:",
+        "children": [
+          {"level": 2, "hs_code": "28274100", "description_en": "Of copper (Cu2(OH)3Cl, atacamite; cupric oxychloride)", "children": [], "semantic_path": "Salts > Chloride oxides and hydroxides: > Of copper"},
+          {"level": 2, "hs_code": "28274900", "description_en": "Other (Pb oxychloride, Bi oxychloride, etc.)", "children": [], "semantic_path": "Salts > Chloride oxides and hydroxides: > Other"}
+        ]
+      },
+      {
+        "level": 1, "hs_code": "PSEUDO_2827_3", "description_en": "Bromides and bromide oxides:",
+        "semantic_path": "Salts > Chlorides; bromides; iodides > Bromides and bromide oxides:",
+        "children": [
+          {"level": 2, "hs_code": "28275100", "description_en": "Bromides of sodium or of potassium (NaBr, KBr)", "children": [], "semantic_path": "Salts > Bromides: > NaBr or KBr"},
+          {"level": 2, "hs_code": "28275900", "description_en": "Other bromides and bromide oxides", "children": [], "semantic_path": "Salts > Bromides: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28276000", "description_en": "Iodides and iodide oxides (NaI, KI, other metal iodides)", "children": [], "semantic_path": "Salts > Chlorides; bromides; iodides > Iodides and iodide oxides"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2828",
+    "description_en": "Hypochlorites; commercial calcium hypochlorite; chlorites; hypobromites",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Hypochlorites; commercial Ca hypochlorite; chlorites; hypobromites",
+    "children": [
+      {"level": 1, "hs_code": "28281000", "description_en": "Commercial calcium hypochlorite and other calcium hypochlorites (bleaching powder)", "children": [], "semantic_path": "Salts > Hypochlorites; chlorites; hypobromites > Commercial Ca hypochlorite and other Ca hypochlorites"},
+      {
+        "level": 1, "hs_code": "282890", "description_en": "Other:",
+        "semantic_path": "Salts > Hypochlorites; chlorites; hypobromites > Other:",
+        "children": [
+          {"level": 2, "hs_code": "28289010", "description_en": "Sodium hypochlorite (NaOCl, bleach solution)", "children": [], "semantic_path": "Salts > Other hypochlorites/chlorites: > Sodium hypochlorite"},
+          {"level": 2, "hs_code": "28289090", "description_en": "Other (KOCl, LiOCl, chlorites NaClO2, hypobromites)", "children": [], "semantic_path": "Salts > Other hypochlorites/chlorites: > Other"}
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2829",
+    "description_en": "Chlorates and perchlorates; bromates and perbromates; iodates and periodates",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Chlorates and perchlorates; bromates/perbromates; iodates/periodates",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2829_1", "description_en": "Chlorates:",
+        "semantic_path": "Salts > Chlorates/perchlorates; bromates; iodates > Chlorates:",
+        "children": [
+          {"level": 2, "hs_code": "28291100", "description_en": "Of sodium (NaClO3)", "children": [], "semantic_path": "Salts > Chlorates: > Of sodium"},
+          {"level": 2, "hs_code": "28291900", "description_en": "Other (KClO3, Ba(ClO3)2, etc.)", "children": [], "semantic_path": "Salts > Chlorates: > Other"}
+        ]
+      },
+      {
+        "level": 1, "hs_code": "282990", "description_en": "Other:",
+        "semantic_path": "Salts > Chlorates/perchlorates; bromates; iodates > Other:",
+        "children": [
+          {"level": 2, "hs_code": "28299010", "description_en": "Sodium perchlorate (NaClO4)", "children": [], "semantic_path": "Salts > Other perchlorates/bromates/iodates: > Sodium perchlorate"},
+          {"level": 2, "hs_code": "28299090", "description_en": "Other (KClO4, bromates NaBrO3, KBrO3, perbromates, iodates, periodates)", "children": [], "semantic_path": "Salts > Other perchlorates/bromates/iodates: > Other"}
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2830",
+    "description_en": "Sulphides; polysulphides, whether or not chemically defined",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Sulphides; polysulphides",
+    "children": [
+      {"level": 1, "hs_code": "28301000", "description_en": "Sodium sulphides (Na2S)", "children": [], "semantic_path": "Salts > Sulphides; polysulphides > Sodium sulphides"},
+      {
+        "level": 1, "hs_code": "283090", "description_en": "Other:",
+        "semantic_path": "Salts > Sulphides; polysulphides > Other:",
+        "children": [
+          {"level": 2, "hs_code": "28309010", "description_en": "Cadmium sulphide or zinc sulphide (CdS, ZnS — pigment or semiconductor grade)", "children": [], "semantic_path": "Salts > Sulphides > Other: > CdS or ZnS"},
+          {"level": 2, "hs_code": "28309090", "description_en": "Other (BaS, CaS, FeS2, Na2Sx polysulphides, K polysulphides, etc.)", "children": [], "semantic_path": "Salts > Sulphides > Other: > Other"}
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2831",
+    "description_en": "Dithionites and sulphoxylates",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Dithionites and sulphoxylates",
+    "children": [
+      {"level": 1, "hs_code": "28311000", "description_en": "Of sodium (sodium dithionite / sodium hydrosulphite Na2S2O4; sodium sulphoxylate)", "children": [], "semantic_path": "Salts > Dithionites and sulphoxylates > Of sodium"},
+      {"level": 1, "hs_code": "28319000", "description_en": "Other", "children": [], "semantic_path": "Salts > Dithionites and sulphoxylates > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2832",
+    "description_en": "Sulphites; thiosulphates",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Sulphites; thiosulphates",
+    "children": [
+      {"level": 1, "hs_code": "28321000", "description_en": "Sodium sulphites (Na2SO3)", "children": [], "semantic_path": "Salts > Sulphites; thiosulphates > Sodium sulphites"},
+      {"level": 1, "hs_code": "28322000", "description_en": "Other sulphites (K2SO3, CaSO3, ZnSO3, etc.)", "children": [], "semantic_path": "Salts > Sulphites; thiosulphates > Other sulphites"},
+      {"level": 1, "hs_code": "28323000", "description_en": "Thiosulphates (hyposulphites: Na2S2O3 'hypo', KS2O3, etc.)", "children": [], "semantic_path": "Salts > Sulphites; thiosulphates > Thiosulphates"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2833",
+    "description_en": "Sulphates; alums; peroxosulphates (persulphates)",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Sulphates; alums; peroxosulphates (persulphates)",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2833_1", "description_en": "Sodium sulphates:",
+        "semantic_path": "Salts > Sulphates; alums; persulphates > Sodium sulphates:",
+        "children": [
+          {"level": 2, "hs_code": "28331100", "description_en": "Disodium sulphate (Na2SO4, Glauber's salt, anhydrous / decahydrate)", "children": [], "semantic_path": "Salts > Sulphates > Sodium sulphates: > Disodium sulphate"},
+          {"level": 2, "hs_code": "28331900", "description_en": "Other (sodium hydrogen sulphate NaHSO4, sodium pyrosulphate Na2S2O7)", "children": [], "semantic_path": "Salts > Sulphates > Sodium sulphates: > Other"}
+        ]
+      },
+      {
+        "level": 1, "hs_code": "PSEUDO_2833_2", "description_en": "Other sulphates:",
+        "semantic_path": "Salts > Sulphates; alums; persulphates > Other sulphates:",
+        "children": [
+          {"level": 2, "hs_code": "28332100", "description_en": "Of magnesium (MgSO4, Epsom salt)", "children": [], "semantic_path": "Salts > Other sulphates: > Of magnesium"},
+          {
+            "level": 2, "hs_code": "283322", "description_en": "Of aluminium:",
+            "semantic_path": "Salts > Other sulphates: > Of aluminium:",
+            "children": [
+              {"level": 3, "hs_code": "28332210", "description_en": "Commercial grade (Al2(SO4)3 — water treatment / paper making)", "children": [], "semantic_path": "Salts > Other sulphates: > Al sulphate: > Commercial grade"},
+              {"level": 3, "hs_code": "28332290", "description_en": "Other", "children": [], "semantic_path": "Salts > Other sulphates: > Al sulphate: > Other"}
+            ]
+          },
+          {"level": 2, "hs_code": "28332400", "description_en": "Of nickel (NiSO4)", "children": [], "semantic_path": "Salts > Other sulphates: > Of nickel"},
+          {"level": 2, "hs_code": "28332500", "description_en": "Of copper (CuSO4, copper sulphate, blue vitriol)", "children": [], "semantic_path": "Salts > Other sulphates: > Of copper"},
+          {"level": 2, "hs_code": "28332700", "description_en": "Of barium (BaSO4 — synthetic blanc fixe)", "children": [], "semantic_path": "Salts > Other sulphates: > Of barium"},
+          {
+            "level": 2, "hs_code": "283329", "description_en": "Other:",
+            "semantic_path": "Salts > Other sulphates: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28332920", "description_en": "Tribasic lead sulphate (Pb4SO4(OH)6 — heat stabiliser)", "children": [], "semantic_path": "Salts > Other sulphates: > Other: > Tribasic lead sulphate"},
+              {"level": 3, "hs_code": "28332930", "description_en": "Of chromium (Cr2(SO4)3)", "children": [], "semantic_path": "Salts > Other sulphates: > Other: > Of chromium"},
+              {"level": 3, "hs_code": "28332940", "description_en": "Of zinc (ZnSO4, white vitriol)", "children": [], "semantic_path": "Salts > Other sulphates: > Other: > Of zinc"},
+              {"level": 3, "hs_code": "28332990", "description_en": "Other (FeSO4, Fe2(SO4)3, CoSO4, MnSO4, etc.)", "children": [], "semantic_path": "Salts > Other sulphates: > Other: > Other"}
+            ]
+          }
+        ]
+      },
+      {"level": 1, "hs_code": "28333000", "description_en": "Alums (KAl(SO4)2·12H2O, NH4Al(SO4)2, other double sulphates of Al)", "children": [], "semantic_path": "Salts > Sulphates; alums; persulphates > Alums"},
+      {"level": 1, "hs_code": "28334000", "description_en": "Peroxosulphates (persulphates: Na2S2O8, K2S2O8, (NH4)2S2O8)", "children": [], "semantic_path": "Salts > Sulphates; alums; persulphates > Peroxosulphates (persulphates)"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2834",
+    "description_en": "Nitrites; nitrates",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Nitrites; nitrates",
+    "children": [
+      {"level": 1, "hs_code": "28341000", "description_en": "Nitrites (NaNO2, KNO2, other metal nitrites)", "children": [], "semantic_path": "Salts > Nitrites; nitrates > Nitrites"},
+      {
+        "level": 1, "hs_code": "PSEUDO_2834_1", "description_en": "Nitrates:",
+        "semantic_path": "Salts > Nitrites; nitrates > Nitrates:",
+        "children": [
+          {"level": 2, "hs_code": "28342100", "description_en": "Of potassium (KNO3, saltpetre)", "children": [], "semantic_path": "Salts > Nitrates: > Of potassium (KNO3)"},
+          {
+            "level": 2, "hs_code": "283429", "description_en": "Other:",
+            "semantic_path": "Salts > Nitrates: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28342910", "description_en": "Of bismuth (Bi(NO3)3)", "children": [], "semantic_path": "Salts > Nitrates: > Other: > Of bismuth"},
+              {"level": 3, "hs_code": "28342990", "description_en": "Other (Ba(NO3)2, Pb(NO3)2, Zn(NO3)2, Cu(NO3)2, Mg(NO3)2, etc.)", "children": [], "semantic_path": "Salts > Nitrates: > Other: > Other"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2835",
+    "description_en": "Phosphinates (hypophosphites), phosphonates (phosphites) and phosphates; polyphosphates, whether or not chemically defined",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Phosphinates; phosphonates; phosphates; polyphosphates",
+    "children": [
+      {"level": 1, "hs_code": "28351000", "description_en": "Phosphinates (hypophosphites) and phosphonates (phosphites)", "children": [], "semantic_path": "Salts > Phosphinates; phosphonates; phosphates; polyphosphates > Phosphinates and phosphonates"},
+      {
+        "level": 1, "hs_code": "PSEUDO_2835_1", "description_en": "Phosphates:",
+        "semantic_path": "Salts > Phosphinates; phosphonates; phosphates; polyphosphates > Phosphates:",
+        "children": [
+          {"level": 2, "hs_code": "28352200", "description_en": "Of mono- or disodium (NaH2PO4, Na2HPO4)", "children": [], "semantic_path": "Salts > Phosphates: > Of mono- or disodium"},
+          {"level": 2, "hs_code": "28352400", "description_en": "Of potassium (KH2PO4, K2HPO4, K3PO4)", "children": [], "semantic_path": "Salts > Phosphates: > Of potassium"},
+          {
+            "level": 2, "hs_code": "283525", "description_en": "Calcium hydrogenorthophosphate (dicalcium phosphate, DCP):",
+            "semantic_path": "Salts > Phosphates: > Dicalcium phosphate (DCP):",
+            "children": [
+              {"level": 3, "hs_code": "28352510", "description_en": "Feed grade (dicalcium phosphate for animal feed)", "children": [], "semantic_path": "Salts > Phosphates: > DCP: > Feed grade"},
+              {"level": 3, "hs_code": "28352590", "description_en": "Other", "children": [], "semantic_path": "Salts > Phosphates: > DCP: > Other"}
+            ]
+          },
+          {"level": 2, "hs_code": "28352600", "description_en": "Other phosphates of calcium (MCP Ca(H2PO4)2, TCP Ca3(PO4)2, TCP food grade)", "children": [], "semantic_path": "Salts > Phosphates: > Other phosphates of calcium"},
+          {
+            "level": 2, "hs_code": "283529", "description_en": "Other:",
+            "semantic_path": "Salts > Phosphates: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28352910", "description_en": "Of trisodium (TSP, Na3PO4)", "children": [], "semantic_path": "Salts > Phosphates: > Other: > Trisodium phosphate (TSP)"},
+              {"level": 3, "hs_code": "28352990", "description_en": "Other (Mg, Al, Zn, Pb, Fe, NH4 phosphates, etc.)", "children": [], "semantic_path": "Salts > Phosphates: > Other: > Other"}
+            ]
+          }
+        ]
+      },
+      {
+        "level": 1, "hs_code": "PSEUDO_2835_2", "description_en": "Polyphosphates:",
+        "semantic_path": "Salts > Phosphinates; phosphonates; phosphates; polyphosphates > Polyphosphates:",
+        "children": [
+          {
+            "level": 2, "hs_code": "283531", "description_en": "Sodium triphosphate (STPP, sodium tripolyphosphate, Na5P3O10):",
+            "semantic_path": "Salts > Polyphosphates: > STPP (sodium tripolyphosphate):",
+            "children": [
+              {"level": 3, "hs_code": "28353110", "description_en": "Food grade", "children": [], "semantic_path": "Salts > Polyphosphates: > STPP: > Food grade"},
+              {"level": 3, "hs_code": "28353190", "description_en": "Other", "children": [], "semantic_path": "Salts > Polyphosphates: > STPP: > Other"}
+            ]
+          },
+          {
+            "level": 2, "hs_code": "283539", "description_en": "Other:",
+            "semantic_path": "Salts > Polyphosphates: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28353910", "description_en": "Tetrasodium pyrophosphate (TSPP, Na4P2O7)", "children": [], "semantic_path": "Salts > Polyphosphates: > Other: > Tetrasodium pyrophosphate (TSPP)"},
+              {"level": 3, "hs_code": "28353990", "description_en": "Other (SHMP, SAPP, other metaphosphates, other polyphosphates)", "children": [], "semantic_path": "Salts > Polyphosphates: > Other: > Other"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2836",
+    "description_en": "Carbonates; peroxocarbonates (percarbonates); commercial ammonium carbonate containing ammonium carbamate",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Carbonates; percarbonates; commercial ammonium carbonate",
+    "children": [
+      {"level": 1, "hs_code": "28362000", "description_en": "Disodium carbonate (soda ash, Na2CO3 — anhydrous, monohydrate, decahydrate)", "children": [], "semantic_path": "Salts > Carbonates; percarbonates > Disodium carbonate (soda ash)"},
+      {"level": 1, "hs_code": "28363000", "description_en": "Sodium hydrogencarbonate (sodium bicarbonate, NaHCO3, baking soda)", "children": [], "semantic_path": "Salts > Carbonates; percarbonates > Sodium hydrogencarbonate (baking soda)"},
+      {"level": 1, "hs_code": "28364000", "description_en": "Potassium carbonates (K2CO3, KHCO3)", "children": [], "semantic_path": "Salts > Carbonates; percarbonates > Potassium carbonates"},
+      {
+        "level": 1, "hs_code": "283650", "description_en": "Calcium carbonate:",
+        "semantic_path": "Salts > Carbonates; percarbonates > Calcium carbonate:",
+        "children": [
+          {"level": 2, "hs_code": "28365010", "description_en": "Food or pharmaceutical grade (precipitated CaCO3, calcium carbonate USP/food grade)", "children": [], "semantic_path": "Salts > Carbonates > CaCO3: > Food or pharmaceutical grade"},
+          {"level": 2, "hs_code": "28365090", "description_en": "Other (ground limestone CaCO3, precipitated CaCO3 non-food)", "children": [], "semantic_path": "Salts > Carbonates > CaCO3: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28366000", "description_en": "Barium carbonate (BaCO3, witherite)", "children": [], "semantic_path": "Salts > Carbonates; percarbonates > Barium carbonate"},
+      {
+        "level": 1, "hs_code": "PSEUDO_2836_1", "description_en": "Other:",
+        "semantic_path": "Salts > Carbonates; percarbonates > Other:",
+        "children": [
+          {"level": 2, "hs_code": "28369100", "description_en": "Lithium carbonates (Li2CO3, LiHCO3)", "children": [], "semantic_path": "Salts > Carbonates > Other: > Lithium carbonates"},
+          {"level": 2, "hs_code": "28369200", "description_en": "Strontium carbonate (SrCO3)", "children": [], "semantic_path": "Salts > Carbonates > Other: > Strontium carbonate"},
+          {
+            "level": 2, "hs_code": "283699", "description_en": "Other:",
+            "semantic_path": "Salts > Carbonates > Other: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28369910", "description_en": "Commercial ammonium carbonate (containing ammonium carbamate, baker's ammonia)", "children": [], "semantic_path": "Salts > Carbonates > Other: > Other: > Commercial ammonium carbonate"},
+              {"level": 3, "hs_code": "28369920", "description_en": "Lead carbonates (PbCO3 cerussite, Pb3(CO3)2(OH)2 white lead)", "children": [], "semantic_path": "Salts > Carbonates > Other: > Other: > Lead carbonates"},
+              {"level": 3, "hs_code": "28369990", "description_en": "Other (MgCO3, CuCO3, ZnCO3, CoCO3, NiCO3, MnCO3, FeCO3; Na/K/NH4 percarbonates, etc.)", "children": [], "semantic_path": "Salts > Carbonates > Other: > Other: > Other"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2837",
+    "description_en": "Cyanides, cyanide oxides and complex cyanides",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Cyanides, cyanide oxides and complex cyanides",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2837_1", "description_en": "Cyanides and cyanide oxides:",
+        "semantic_path": "Salts > Cyanides; complex cyanides > Cyanides and cyanide oxides:",
+        "children": [
+          {"level": 2, "hs_code": "28371100", "description_en": "Of sodium (NaCN, sodium cyanide)", "children": [], "semantic_path": "Salts > Cyanides: > Of sodium (NaCN)"},
+          {"level": 2, "hs_code": "28371900", "description_en": "Other (KCN, Ca(CN)2, Zn(CN)2, Cu cyanides, AgCN, etc.)", "children": [], "semantic_path": "Salts > Cyanides: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28372000", "description_en": "Complex cyanides (ferrocyanides K4[Fe(CN)6], ferricyanides K3[Fe(CN)6], gold cyanide complexes, etc.)", "children": [], "semantic_path": "Salts > Cyanides; complex cyanides > Complex cyanides"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2839",
+    "description_en": "Silicates; commercial alkali metal silicates",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Silicates; commercial alkali metal silicates",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2839_1", "description_en": "Of sodium:",
+        "semantic_path": "Salts > Silicates; commercial alkali silicates > Of sodium:",
+        "children": [
+          {"level": 2, "hs_code": "28391100", "description_en": "Sodium metasilicates (Na2SiO3, water glass anhydrous)", "children": [], "semantic_path": "Salts > Silicates > Of sodium: > Sodium metasilicates"},
+          {
+            "level": 2, "hs_code": "283919", "description_en": "Other:",
+            "semantic_path": "Salts > Silicates > Of sodium: > Other:",
+            "children": [
+              {"level": 3, "hs_code": "28391920", "description_en": "Sodium orthosilicate; sodium pyrosilicate", "children": [], "semantic_path": "Salts > Silicates > Of sodium: > Other: > Na orthosilicate; Na pyrosilicate"},
+              {"level": 3, "hs_code": "28391990", "description_en": "Other (liquid/solid water glass Na silicates of various ratios)", "children": [], "semantic_path": "Salts > Silicates > Of sodium: > Other: > Other"}
+            ]
+          }
+        ]
+      },
+      {"level": 1, "hs_code": "28399000", "description_en": "Other (K silicates, Li silicates, commercial alkali silicates, Ca silicate, etc.)", "children": [], "semantic_path": "Salts > Silicates; commercial alkali silicates > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2840",
+    "description_en": "Borates; peroxoborates (perborates)",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Borates; peroxoborates (perborates)",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2840_1", "description_en": "Disodium tetraborate (refined borax, Na2B4O7):",
+        "semantic_path": "Salts > Borates; perborates > Disodium tetraborate (refined borax):",
+        "children": [
+          {"level": 2, "hs_code": "28401100", "description_en": "Anhydrous (anhydrous borax Na2B4O7)", "children": [], "semantic_path": "Salts > Borates > Disodium tetraborate: > Anhydrous"},
+          {"level": 2, "hs_code": "28401900", "description_en": "Other (borax pentahydrate, borax decahydrate Na2B4O7·10H2O)", "children": [], "semantic_path": "Salts > Borates > Disodium tetraborate: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28402000", "description_en": "Other borates (Ca borate, Mg borate, other metal borates)", "children": [], "semantic_path": "Salts > Borates; perborates > Other borates"},
+      {"level": 1, "hs_code": "28403000", "description_en": "Peroxoborates (perborates: NaBO3·H2O, Na2B2O5·6H2O — bleach booster)", "children": [], "semantic_path": "Salts > Borates; perborates > Peroxoborates (perborates)"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2841",
+    "description_en": "Salts of oxometallic or peroxometallic acids",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Salts of oxometallic or peroxometallic acids",
+    "children": [
+      {"level": 1, "hs_code": "28413000", "description_en": "Sodium dichromate (Na2Cr2O7)", "children": [], "semantic_path": "Salts > Oxometallic/peroxometallic salts > Sodium dichromate"},
+      {"level": 1, "hs_code": "28415000", "description_en": "Other chromates and dichromates; peroxochromates (K2CrO4, K2Cr2O7, BaCrO4, PbCrO4, etc.)", "children": [], "semantic_path": "Salts > Oxometallic/peroxometallic salts > Other chromates and dichromates; peroxochromates"},
+      {
+        "level": 1, "hs_code": "PSEUDO_2841_1", "description_en": "Manganites, manganates and permanganates:",
+        "semantic_path": "Salts > Oxometallic/peroxometallic salts > Manganites, manganates and permanganates:",
+        "children": [
+          {"level": 2, "hs_code": "28416100", "description_en": "Potassium permanganate (KMnO4)", "children": [], "semantic_path": "Salts > Oxometallic salts > Permanganates: > KMnO4"},
+          {"level": 2, "hs_code": "28416900", "description_en": "Other (NaMnO4, BaMnO4, manganates, manganites)", "children": [], "semantic_path": "Salts > Oxometallic salts > Permanganates: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28417000", "description_en": "Molybdates (Na2MoO4, K2MoO4, ammonium molybdate (NH4)6Mo7O24, etc.)", "children": [], "semantic_path": "Salts > Oxometallic/peroxometallic salts > Molybdates"},
+      {"level": 1, "hs_code": "28418000", "description_en": "Tungstates (wolframates: Na2WO4, ammonium paratungstate (APT), etc.)", "children": [], "semantic_path": "Salts > Oxometallic/peroxometallic salts > Tungstates (wolframates)"},
+      {"level": 1, "hs_code": "28419000", "description_en": "Other (vanadates, stannates, plumbates, aluminates, zincates, germanates, etc.)", "children": [], "semantic_path": "Salts > Oxometallic/peroxometallic salts > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2842",
+    "description_en": "Other salts of inorganic acids or peroxoacids (including aluminosilicates whether or not chemically defined), other than azides",
+    "semantic_path": "Sub-Chapter V: Salts and Peroxysalts > Other salts of inorganic acids or peroxoacids (incl. aluminosilicates); excl. azides",
+    "children": [
+      {"level": 1, "hs_code": "28421000", "description_en": "Double or complex silicates, including aluminosilicates whether or not chemically defined (zeolites, feldspar-type synthetics, etc.)", "children": [], "semantic_path": "Other inorganic salts > Double or complex silicates incl. aluminosilicates"},
+      {
+        "level": 1, "hs_code": "284290", "description_en": "Other:",
+        "semantic_path": "Other inorganic salts > Other:",
+        "children": [
+          {"level": 2, "hs_code": "28429010", "description_en": "Sodium arsenite (NaAsO2)", "children": [], "semantic_path": "Other inorganic salts > Other: > Sodium arsenite"},
+          {"level": 2, "hs_code": "28429020", "description_en": "Copper or chromium salts (basic copper carbonate, chromium acetate, etc. — complex mixed salts)", "children": [], "semantic_path": "Other inorganic salts > Other: > Copper or chromium salts"},
+          {"level": 2, "hs_code": "28429030", "description_en": "Other fulminates, cyanates and thiocyanates (KOCN, KSCN, NHOCN, etc.)", "children": [], "semantic_path": "Other inorganic salts > Other: > Other fulminates, cyanates and thiocyanates"},
+          {"level": 2, "hs_code": "28429090", "description_en": "Other (double/complex salts NESOI, selenates, tellurates, arsenates, antimonates, etc.)", "children": [], "semantic_path": "Other inorganic salts > Other: > Other"}
+        ]
+      }
+    ]
+  }
+]

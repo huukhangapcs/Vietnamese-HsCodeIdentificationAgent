@@ -1,0 +1,88 @@
+{
+    "chapter_code": "26",
+    "inclusions": [
+        "Iron ores and concentrates (haematite and others, agglomerated and non-agglomerated); roasted iron pyrites",
+        "Manganese ores and concentrates, including ferruginous manganese ores with Mn content of 20% or more (dry weight)",
+        "Copper, nickel, cobalt, aluminium, lead, zinc, tin, chromium, tungsten ores and concentrates",
+        "Uranium and thorium ores and concentrates",
+        "Molybdenum ores and concentrates (roasted and other)",
+        "Titanium ores and concentrates (ilmenite and other)",
+        "Niobium, tantalum, vanadium or zirconium ores and concentrates",
+        "Precious metal ores and concentrates (silver, gold, platinum group)",
+        "Other ores and concentrates (antimony and other)",
+        "Granulated slag (slag sand) from the manufacture of iron or steel",
+        "Slag, dross (other than granulated slag), scalings and other waste from the manufacture of iron or steel",
+        "Slag, ash and residues (other than from iron/steel) containing metals, arsenic or their compounds — of a kind used in industry for extraction of metals or manufacture of their chemical compounds",
+        "Slag containing arsenic, mercury, thallium or their mixtures used for extraction or chemical manufacture",
+        "Other slag and ash including seaweed ash (kelp); ash and residues from incineration of municipal waste"
+    ],
+    "exclusions": [
+        {
+            "condition": "Slag or similar industrial waste prepared as macadam (road-making material)",
+            "action": "Redirect to Heading 25.17",
+            "keywords": ["slag macadam", "industrial waste macadam", "25.17"]
+        },
+        {
+            "condition": "Natural magnesium carbonate (magnesite), whether or not calcined",
+            "action": "Redirect to Heading 25.19",
+            "keywords": ["magnesite", "natural magnesium carbonate", "25.19"]
+        },
+        {
+            "condition": "Sludges from storage tanks of petroleum oils consisting mainly of such oils",
+            "action": "Redirect to Heading 27.10",
+            "keywords": ["petroleum sludge", "oil tank sludge", "27.10"]
+        },
+        {
+            "condition": "Basic slag (from steel manufacturing, used as fertilizer)",
+            "action": "Redirect to Chapter 31 (fertilizers)",
+            "keywords": ["basic slag", "Thomas slag", "chapter 31", "fertilizer slag"]
+        },
+        {
+            "condition": "Slag wool, rock wool or similar mineral wools",
+            "action": "Redirect to Heading 68.06",
+            "keywords": ["slag wool", "rock wool", "mineral wool", "68.06"]
+        },
+        {
+            "condition": "Waste or scrap of precious metal or metal clad with precious metal; other waste/scrap containing precious metal used principally for recovery of precious metal",
+            "action": "Redirect to Heading 71.12 or 85.49",
+            "keywords": ["precious metal scrap", "gold scrap", "silver scrap", "71.12", "85.49"]
+        },
+        {
+            "condition": "Copper, nickel or cobalt mattes produced by any process of smelting",
+            "action": "Redirect to Section XV (base metals)",
+            "keywords": ["copper matte", "nickel matte", "cobalt matte", "section XV"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Definition of 'ores' for headings 26.01 to 26.17",
+            "description": "'Ores' means minerals of mineralogical species ACTUALLY USED in the metallurgical industry for the extraction of: mercury, metals of heading 28.44 (radioactive), metals of Section XIV (precious metals) or Section XV (base metals). This applies EVEN IF intended for non-metallurgical purposes. HOWEVER, minerals submitted to processes NOT NORMAL to the metallurgical industry → NOT classified in 26.01–26.17.",
+            "priority": 1
+        },
+        {
+            "rule": "Unroasted vs. roasted iron pyrites — Ch.25 vs. Ch.26 boundary",
+            "description": "Unroasted iron pyrites (FeS2) → Heading 25.02 (Chapter 25). Roasted iron pyrites (calcined/oxidised) → Heading 26.01.20 (Chapter 26). The roasting process moves the product from Chapter 25 to Chapter 26. This is the key pyrites boundary.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 3 — Heading 26.20 scope (non-iron/steel slag with metals)",
+            "description": "Heading 26.20 applies ONLY to: (a) slag, ash and residues used in industry for EXTRACTION OF METALS or as basis for MANUFACTURE OF CHEMICAL COMPOUNDS OF METALS — excluding ash/residues from incineration of municipal waste (→ 26.21); and (b) slag, ash and residues containing ARSENIC (whether or not containing metals), of a kind used for extraction of arsenic/metals or manufacture of their chemical compounds.",
+            "priority": 3
+        },
+        {
+            "rule": "Subheading Note 2 — Arsenic/mercury/thallium slag priority in 2620.60",
+            "description": "Slag, ash and residues containing arsenic, mercury, thallium or their MIXTURES, of a kind used for extraction of arsenic or those metals or for manufacture of their chemical compounds → MUST be classified in subheading 2620.60 regardless of which metal is predominant. This is a mandatory priority rule within heading 26.20.",
+            "priority": 4
+        },
+        {
+            "rule": "Iron ore classification by agglomeration and type",
+            "description": "Heading 26.01 sub-classifies iron ores by: (1) Non-agglomerated vs. Agglomerated (sintered/pelletised); (2) Within each: haematite (SEN) vs. other. Roasted iron pyrites separately → 2601.20. Haematite (Fe2O3) get special SEN status under Vietnam tariff.",
+            "priority": 5
+        },
+        {
+            "rule": "Granulated slag vs. other iron/steel slag — 26.18 vs. 26.19",
+            "description": "From iron or steel manufacture: GRANULATED slag (water-quenched, glassy particles, used for cement/blastfurnace) → 26.18. Other slag, dross (non-granulated), scalings and other waste → 26.19. Both are from iron/steel manufacture; the granulation process determines the heading.",
+            "priority": 6
+        }
+    ]
+}

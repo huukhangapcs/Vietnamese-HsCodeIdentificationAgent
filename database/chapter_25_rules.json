@@ -1,0 +1,234 @@
+{
+    "chapter_code": "25",
+    "inclusions": [
+        "Salt (table salt, denatured salt, rock salt, pure sodium chloride in aqueous solution or with anti-caking agents); sea water",
+        "Unroasted iron pyrites (FeS2)",
+        "Sulphur of all kinds except sublimed, precipitated and colloidal sulphur",
+        "Natural graphite (powder, flakes or other forms)",
+        "Natural sands of all kinds whether or not coloured — except metal-bearing sands of Chapter 26 (silica sands, quartz sands, other)",
+        "Quartz (other than natural sands); quartzite in blocks or slabs of rectangular shape",
+        "Kaolin and other kaolinic clays, whether or not calcined",
+        "Other clays (excl. expanded clays of 68.06): bentonite, fire-clay, fuller's earth, other clays; andalusite, kyanite, sillimanite; mullite; chamotte or dinas earths",
+        "Chalk",
+        "Natural calcium phosphates, natural aluminium calcium phosphates and phosphatic chalk (including apatite)",
+        "Natural barium sulphate (barytes); natural barium carbonate (witherite), whether or not calcined",
+        "Siliceous fossil meals (kieselguhr, tripolite, diatomite) and similar siliceous earths of apparent specific gravity of 1 or less, whether or not calcined",
+        "Pumice stone; emery; natural corundum, natural garnet and other natural abrasives, whether or not heat-treated",
+        "Slate in blocks or slabs of rectangular shape",
+        "Marble, travertine, ecaussine and other calcareous monumental/building stone (SG ≥ 2.5) and alabaster — crude, roughly trimmed or merely cut into rectangular blocks/slabs",
+        "Granite, porphyry, basalt, sandstone and other monumental/building stone — crude, roughly trimmed or merely cut into rectangular blocks/slabs",
+        "Pebbles, gravel, broken or crushed stone for concrete/road/railway ballast; macadam of slag; tarred macadam; granules, chippings and powder of stones of heading 25.15 or 25.16",
+        "Dolomite whether or not calcined or sintered, in blocks/slabs or other forms",
+        "Natural magnesium carbonate (magnesite); fused magnesia; dead-burned (sintered) magnesia; other magnesium oxide",
+        "Gypsum; anhydrite; plasters of calcined gypsum or calcium sulphate (including dental plasters)",
+        "Limestone flux; limestone and other calcareous stone for manufacture of lime or cement",
+        "Quicklime, slaked lime and hydraulic lime (excluding calcium oxide and hydroxide of heading 28.25)",
+        "Portland cement, aluminous cement, slag cement, supersulphate cement and similar hydraulic cements, whether or not coloured or in the form of clinkers",
+        "Asbestos (crocidolite and other)",
+        "Mica including splittings; mica waste (crude, sheets, powder)",
+        "Natural steatite (not crushed/powdered or crushed/powdered); talc",
+        "Natural borates and concentrates (whether or not calcined); natural boric acid containing not more than 85% of H3BO3 on dry weight",
+        "Feldspar; leucite; nepheline and nepheline syenite; fluorspar",
+        "Mineral substances not elsewhere specified or included: vermiculite, perlite, chlorites (unexpanded); natural magnesium sulphates (kieserite, epsomite); micronized zircon sand; other"
+    ],
+    "exclusions": [
+        {
+            "condition": "Sublimed sulphur, precipitated sulphur or colloidal sulphur",
+            "action": "Redirect to Heading 28.02",
+            "keywords": [
+                "sublimed sulphur",
+                "precipitated sulphur",
+                "colloidal sulphur",
+                "28.02"
+            ]
+        },
+        {
+            "condition": "Earth colours containing 70% or more by weight of combined iron evaluated as Fe2O3",
+            "action": "Redirect to Heading 28.21",
+            "keywords": [
+                "earth colour",
+                "iron oxide pigment",
+                "Fe2O3",
+                "70%",
+                "28.21"
+            ]
+        },
+        {
+            "condition": "Medicaments or other products of Chapter 30",
+            "action": "Redirect to Chapter 30",
+            "keywords": [
+                "medicament",
+                "pharmaceutical",
+                "chapter 30"
+            ]
+        },
+        {
+            "condition": "Perfumery, cosmetic or toilet preparations",
+            "action": "Redirect to Chapter 33",
+            "keywords": [
+                "cosmetic",
+                "perfume",
+                "toilet preparation",
+                "chapter 33"
+            ]
+        },
+        {
+            "condition": "Dolomite ramming mix",
+            "action": "Redirect to Heading 38.16",
+            "keywords": [
+                "dolomite ramming mix",
+                "38.16"
+            ]
+        },
+        {
+            "condition": "Setts, curbstones or flagstones (worked paving stone)",
+            "action": "Redirect to Heading 68.01",
+            "keywords": [
+                "setts",
+                "curbstone",
+                "flagstone",
+                "paving stone",
+                "68.01"
+            ]
+        },
+        {
+            "condition": "Mosaic cubes or the like",
+            "action": "Redirect to Heading 68.02",
+            "keywords": [
+                "mosaic",
+                "mosaic cube",
+                "68.02"
+            ]
+        },
+        {
+            "condition": "Roofing, facing or damp course slates (worked slate)",
+            "action": "Redirect to Heading 68.03",
+            "keywords": [
+                "roofing slate",
+                "facing slate",
+                "damp course slate",
+                "68.03"
+            ]
+        },
+        {
+            "condition": "Precious or semi-precious stones",
+            "action": "Redirect to Heading 71.02 (precious stones) or 71.03 (semi-precious stones)",
+            "keywords": [
+                "precious stone",
+                "semi-precious",
+                "diamond",
+                "ruby",
+                "sapphire",
+                "emerald",
+                "71.02",
+                "71.03"
+            ]
+        },
+        {
+            "condition": "Cultured crystals (other than optical elements) weighing not less than 2.5g each of sodium chloride or magnesium oxide",
+            "action": "Redirect to Heading 38.24; optical elements of NaCl or MgO → Heading 90.01",
+            "keywords": [
+                "cultured crystal",
+                "synthetic crystal",
+                "NaCl crystal",
+                "MgO crystal",
+                "38.24",
+                "90.01"
+            ]
+        },
+        {
+            "condition": "Billiard chalks",
+            "action": "Redirect to Heading 95.04",
+            "keywords": [
+                "billiard chalk",
+                "cue chalk",
+                "95.04"
+            ]
+        },
+        {
+            "condition": "Writing or drawing chalks or tailors' chalks",
+            "action": "Redirect to Heading 96.09",
+            "keywords": [
+                "writing chalk",
+                "drawing chalk",
+                "blackboard chalk",
+                "tailor's chalk",
+                "96.09"
+            ]
+        },
+        {
+            "condition": "Metal-bearing sands",
+            "action": "Redirect to Chapter 26 (ores, slag and ash)",
+            "keywords": [
+                "metal-bearing sand",
+                "ore sand",
+                "mineral sand",
+                "chapter 26"
+            ]
+        },
+        {
+            "condition": "Expanded clays (lightweight aggregate)",
+            "action": "Redirect to Heading 68.06",
+            "keywords": [
+                "expanded clay",
+                "lightweight aggregate",
+                "expanded perlite",
+                "expanded vermiculite",
+                "68.06"
+            ]
+        },
+        {
+            "condition": "Calcium oxide and calcium hydroxide (chemically pure)",
+            "action": "Redirect to Heading 28.25 — Note: heading 25.22 covers commercial-grade quicklime and slaked lime only, not pure calcium oxide/hydroxide",
+            "keywords": [
+                "calcium oxide",
+                "calcium hydroxide",
+                "CaO",
+                "Ca(OH)2",
+                "28.25"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Maximum processing allowed in Chapter 25",
+            "description": "Chapter 25 headings cover only products in the CRUDE STATE or that have been: washed (even with chemicals that eliminate impurities without changing structure), crushed, ground, powdered, levigated, sifted, screened, concentrated by flotation, magnetic separation, or other MECHANICAL/PHYSICAL processes (EXCEPT crystallisation). Products that have been ROASTED, CALCINED (except where explicitly allowed per heading), obtained by MIXING, or subjected to FURTHER processing → excluded from Chapter 25 (go to Ch.26, 28, 38, or 68 depending on the product). Anti-dusting agents may be added provided they do not render the product suitable for specific rather than general use.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 3 — Heading 25.17 has absolute priority within Chapter 25",
+            "description": "Any product classifiable in heading 25.17 AND any other heading of Chapter 25 MUST be classified in heading 25.17. This means pebbles, gravel, crushed/broken stone (for concrete aggregates, road metalling, ballast), macadam, tarred macadam, or granules/chippings/powder from stones of 25.15/25.16 always take priority as 25.17.",
+            "priority": 2
+        },
+        {
+            "rule": "Stone processing level determines Chapter 25 vs Chapter 68",
+            "description": "Key distinction: Chapter 25 = crude, roughly trimmed, OR merely cut into rectangular blocks/slabs. Chapter 68 (worked stone) = further worked beyond rectangular cutting, e.g. polished, shaped, profiled, carved, etc. Marble merely cut into slabs → 25.15; marble polished or shaped into tiles/monuments → 68.02. This applies to marble, granite, sandstone, slate, etc.",
+            "priority": 3
+        },
+        {
+            "rule": "Sea water vs. other water classification",
+            "description": "Sea water → heading 25.01. Natural mineral water (plain, no sugar/flavour) → heading 22.01. Distilled or conductivity water (high purity industrial) → heading 28.53. Sea water in Chapter 25, not Chapter 22 — this is a key distinction.",
+            "priority": 4
+        },
+        {
+            "rule": "Salt sub-classification by NaCl content",
+            "description": "Heading 25.01 sub-classifies by NaCl content on dry basis: table salt → 2501.00.10; unprocessed rock salt → 2501.00.20; sea water → 2501.00.50; NaCl 60–97% (iodised) → 2501.00.91; NaCl ≥97% → 2501.00.93; other → 2501.00.99.",
+            "priority": 5
+        },
+        {
+            "rule": "Lime classification: quicklime vs. slaked lime vs. calcium oxide (28.25)",
+            "description": "Commercial-grade lime products: quicklime (cao độ CaO, commercial) → 2522.10; slaked lime (Ca(OH)2, commercial) → 2522.20; hydraulic lime → 2522.30. HOWEVER, chemically pure calcium oxide (CaO) or calcium hydroxide (Ca(OH)2) → 28.25, not 25.22.",
+            "priority": 6
+        },
+        {
+            "rule": "Cement classification hierarchy within 25.23",
+            "description": "Cement clinkers → 2523.10. Portland cement: white → 2523.21; coloured → 2523.29.10; ordinary (grey) → 2523.29.90. Aluminous cement → 2523.30. Other hydraulic cements (slag cement, supersulphate, etc.) → 2523.90.",
+            "priority": 7
+        },
+        {
+            "rule": "Fluorspar classification by calcium fluoride content (25.29)",
+            "description": "Fluorspar sub-classified by CaF2 content: ≤97% CaF2 → heading 2529.21; >97% CaF2 → heading 2529.22. Higher purity fluorspar (>97%) is distinct from lower purity.",
+            "priority": 8
+        }
+    ]
+}

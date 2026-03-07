@@ -1,6 +1,8 @@
 import json
 import os
 import csv
+import re
+import threading
 # NOTE: chromadb and sentence_transformers are lazy-imported inside
 # _get_vector_collections() to avoid Python 3.14 / pydantic-v1 incompatibility.
 # All functions that do NOT use vector search work without chromadb installed.
@@ -14,6 +16,8 @@ _rules_cache = {}
 _sections_info_cache = None
 _general_rules_cache = None
 _titles_cache = {}  # BUG-3 FIX: cache chapter titles to avoid repeated file reads
+_fast_search_cache = None
+_cache_lock = threading.Lock()  # [FIX-6] Thread-safe cold-start cache loading
 
 CHROMA_DB_PATH = os.path.join(BASE_DIR, "database", "chroma_db")
 
@@ -44,85 +48,139 @@ def _get_vector_collections():
         _collection_rules = _chroma_client.get_collection(name="hs_rules", embedding_function=_embed_fn)
     return _collection_nodes, _collection_rules
 
-_fast_search_cache = None
 
 def _load_fast_search_cache():
+    """Load hsdata_searchable.json vào RAM. Thread-safe: dùng lock để tránh double-load khi cold start."""
     global _fast_search_cache
-    if not _fast_search_cache:
+    if _fast_search_cache is not None:  # Fast path: đã load rồi thì skip
+        return
+    with _cache_lock:  # [FIX-6] Chỉ 1 thread load, các thread khác đợi
+        if _fast_search_cache is not None:  # Double-check sau khi acquire lock
+            return
         try:
             db_path = os.path.join(BASE_DIR, "database", "hsdata_searchable.json")
             with open(db_path, "r", encoding="utf-8") as f:
                 _fast_search_cache = json.load(f)
+            print(f"[cache] Loaded {len(_fast_search_cache):,} records from hsdata_searchable.json")
         except Exception as e:
             print(f"Error loading hsdata_searchable.json: {e}")
-            _fast_search_cache = [] # Ensure it's an empty list on error
+            _fast_search_cache = []  # Ensure it's an empty list on error
 
-def fast_keyword_search(keywords: list[str], top_k=3):
+def fast_keyword_search(keywords: list[str], top_k=3, leaf_only: bool = True, chapter_id: str = None):
     """
     Tìm kiếm nhanh bằng lexical/fuzzy match (rapidfuzz).
     Dành riêng cho cụm từ khóa tiếng Anh trích xuất từ LLM (Phase 2),
     cọ xát thẳng vào `search_text_en` (chứa breadcrumbs) để đạt precision cao.
+
+    Args:
+        keywords:   Danh sách từ khóa tiếng Anh (từ Analyzer).
+        top_k:      Số kết quả tối đa.
+        leaf_only:  True (mặc định) → chỉ trả 8-digit HS codes, bỏ heading/subheading trung gian.
+        chapter_id: VD "01" → chỉ scan ~150 records trong chapter đó thay vì toàn bộ 15k.
     """
     _load_fast_search_cache()
     if not _fast_search_cache or not keywords:
         return []
 
     from rapidfuzz import fuzz
-    
-    # Loại bỏ stop words cơ bản của English
-    stopwords = {"of", "and", "or", "for", "the", "in", "with", "without", "a", "an"}
-    
+
+    # [FIX] Stop words: bao gồm cả HS-specific noise words thường xuất hiện
+    # trong mọi description nhưng không có giá trị phân biệt
+    stopwords = {
+        # Basic English
+        "of", "and", "or", "for", "the", "in", "with", "without", "a", "an",
+        "to", "from", "by", "at", "on", "its", "their", "as", "into",
+        # HS-specific noise: xuất hiện ở hầu hết mọi node, không giúp phân biệt
+        "other", "type", "kind", "sorts", "product", "products",
+        "goods", "article", "articles", "item", "items", "not",
+        "including", "excluded", "thereof", "hereof"
+    }
+
     clean_keywords = []
     for q in keywords:
-        q_words = [w.lower() for w in str(q).split() if w.lower() not in stopwords]
+        # [FIX] Strip punctuation khỏi mỗi word trước khi lọc stop words
+        # VD: "frozen," → "frozen", "pork." → "pork"
+        q_words = [
+            w.strip(".,;:!?()[]")
+            for w in str(q).lower().split()
+        ]
+        # Lọc stop words và từ quá ngắn (1 ký tự) sau khi strip
+        q_words = [w for w in q_words if w and w not in stopwords and len(w) > 1]
         if q_words:
-             clean_keywords.append(" ".join(q_words))
-             
+            clean_keywords.append(" ".join(q_words))
+
     if not clean_keywords:
-         return []
+        return []
+
+    # Normalize chapter_id nếu được truyền vào (VD: "1" -> "01")
+    target_chapter = str(chapter_id).zfill(2) if chapter_id else None
 
     results = []
     for item in _fast_search_cache:
-        text_en = str(item.get("search_text_en", "")).lower()
-        text_en_words = set(text_en.split())
-        
+        # [IMPROVEMENT 1] Leaf-only filter: bỏ qua intermediate heading/subheading nodes
+        # is_leaf=True nghĩa là hs_code có đúng 8 chữ số — là mã có thể submit được
+        if leaf_only and not item.get("is_leaf", True):
+            continue
+
+        # [IMPROVEMENT 2] Chapter filter: skip records không thuộc chapter mong muốn
+        # Giảm scan từ ~15k xuống còn ~120-200 records → tăng tốc đáng kể
+        if target_chapter and item.get("chapter_id") != target_chapter:
+            continue
+
+        # [FIX-1] Strip | và : separators khỏi breadcrumb text trước khi tokenize
+        # VD: "Live horses | Horses:" → "Live horses  Horses " → words không chứa "|" hay "horses:"
+        text_en_clean = re.sub(r"[|:]", " ", str(item.get("search_text_en", "")).lower())
+        text_en = text_en_clean  # dùng clean text cho cả scoring
+        text_en_words = set(text_en_clean.split())
+
         max_score_for_item = 0
-        
+
         for clean_query in clean_keywords:
             q_words_set = set(clean_query.split())
-            
-            # Tiền lọc: nếu không có bất kỳ từ nào của query nằm trong text, bỏ qua
+
+            # Tiền lọc: nếu không có từ nào chung, thử tiếp với aliases
             if not (q_words_set & text_en_words):
-                continue
-            
+                aliases = item.get("aliases", [])
+                alias_words = set(w for a in aliases for w in a.lower().split())
+                if not (q_words_set & alias_words):
+                    continue
+
             score_en_set = fuzz.token_set_ratio(clean_query, text_en)
             score_en_partial = fuzz.partial_ratio(clean_query, text_en)
-            
-            # Kết hợp tỉ lệ: cho phép partial bao hàm mạnh hơn để chuỗi dài không bị phạt nặng
+
+            # Kết hợp tỉ lệ: partial match mạnh hơn để chuỗi dài không bị phạt nặng
             base_score = max(score_en_set, score_en_partial) * 0.85 + fuzz.token_sort_ratio(clean_query, text_en) * 0.15
-            
-            # Thưởng thêm điểm nếu EXACT MATCH
+
+            # Bonus khi EXACT MATCH trong search_text hoặc description
             if clean_query in text_en:
                 base_score += 15
-                
             desc_en_original = str(item.get("description_en", "")).lower()
             if clean_query in desc_en_original:
                 base_score += 10
-                
+
+            # [IMPROVEMENT 3] Alias scoring: khớp qua tên đồng nghĩa, weight = 0.9x
+            for alias in item.get("aliases", []):
+                alias_lower = alias.lower()
+                alias_score = fuzz.token_set_ratio(clean_query, alias_lower) * 0.9
+                if clean_query in alias_lower:
+                    alias_score += 10
+                if alias_score > base_score:
+                    base_score = alias_score
+
             if base_score > max_score_for_item:
-                 max_score_for_item = base_score
-                 
+                max_score_for_item = base_score
+
         if max_score_for_item > 0:
             results.append({
                 "hs_code": item["hs_code"],
                 "description_en": item["description_en"],
                 "description_vn": item["description_vn"],
-                "score": min(100, max_score_for_item) # Giới hạn max là 100
+                "score": min(100, max_score_for_item)  # Giới hạn max là 100
             })
-        
+
     # Sắp xếp theo score giảm dần
     results = sorted(results, key=lambda x: x["score"], reverse=True)
-    
+
     # Loại bỏ các kết quả rác (score < 50)
     filtered = [r for r in results[:top_k] if r["score"] >= 50]
     return filtered
@@ -163,20 +221,46 @@ def _make_pseudo_nodes_unique(nodes, parent_id=""):
 
 def get_chapter_tree(chapter_id: str):
     global _trees_cache
-    
+
     # Chuẩn hóa chapter_id thành 2 chữ số (VD: '1' -> '01')
     ch_id_str = str(chapter_id).zfill(2)
-    
-    if ch_id_str not in _trees_cache:
+
+    if ch_id_str in _trees_cache:
+        return _trees_cache[ch_id_str]
+
+    # Thử đọc file monolithic trước (chapter_XX_tree.json)
+    mono_path = os.path.join(BASE_DIR, "database", f"chapter_{int(ch_id_str)}_tree.json")
+    if os.path.exists(mono_path):
         try:
-            path = os.path.join(BASE_DIR, "database", f"chapter_{int(ch_id_str)}_tree.json")
-            with open(path, 'r', encoding='utf-8') as f:
+            with open(mono_path, 'r', encoding='utf-8') as f:
                 tree_data = json.load(f)
-                _make_pseudo_nodes_unique(tree_data)
-                _trees_cache[ch_id_str] = tree_data
-        except Exception as e:
+            _make_pseudo_nodes_unique(tree_data)
+            _trees_cache[ch_id_str] = tree_data
+            return tree_data
+        except Exception:
             return []
-    return _trees_cache[ch_id_str]
+
+    # Fallback: merge sub-tree files (VD: chapter_28_sub1_tree.json … chapter_28_sub6_tree.json)
+    merged = []
+    sub_idx = 1
+    while True:
+        sub_path = os.path.join(BASE_DIR, "database", f"chapter_{int(ch_id_str)}_sub{sub_idx}_tree.json")
+        if not os.path.exists(sub_path):
+            break
+        try:
+            with open(sub_path, 'r', encoding='utf-8') as f:
+                sub_data = json.load(f)
+            merged.extend(sub_data)
+        except Exception:
+            pass
+        sub_idx += 1
+
+    if merged:
+        _make_pseudo_nodes_unique(merged)
+        _trees_cache[ch_id_str] = merged
+        return merged
+
+    return []
 
 def get_chapter_rules_raw(chapter_id: str):
     global _rules_cache
@@ -403,22 +487,34 @@ def get_chapter_title(chapter_id: str) -> str:
     """Helper to get just the title of a chapter for the Tier-1 router."""
     global _titles_cache
     ch_id_str = str(chapter_id).zfill(2)
-    
+
     # BUG-3 FIX: use cache to avoid reading file on every call
     if ch_id_str in _titles_cache:
         return _titles_cache[ch_id_str]
-    
-    path = os.path.join(BASE_DIR, "database", f"chapter_{int(ch_id_str)}_tree.json")
-    try:
-        with open(path, 'r', encoding='utf-8') as f:
-            tree_data = json.load(f)
-            title = tree_data[0]["description_en"] if tree_data and "description_en" in tree_data[0] else f"Chapter {ch_id_str}"
-            _titles_cache[ch_id_str] = title
-            return title
-    except Exception as e:
-        fallback = f"Chapter {ch_id_str}"
-        _titles_cache[ch_id_str] = fallback
-        return fallback
+
+    # Check whether a monolithic tree file exists
+    mono_path = os.path.join(BASE_DIR, "database", f"chapter_{int(ch_id_str)}_tree.json")
+    has_mono = os.path.exists(mono_path)
+
+    tree_data = get_chapter_tree(ch_id_str)
+
+    if has_mono and tree_data:
+        # Standard case: first node IS the chapter root heading
+        title = tree_data[0].get("description_en", f"Chapter {ch_id_str}")
+    else:
+        # Sub-tree split (e.g. Chapter 28): first node is a sub-heading, not the chapter.
+        # Use the rules file [inclusions][0] for a proper chapter-level description.
+        rules = get_chapter_rules_raw(ch_id_str)
+        inclusions = rules.get("inclusions", [])
+        if inclusions:
+            title = inclusions[0][:150]
+        elif tree_data:
+            title = tree_data[0].get("description_en", f"Chapter {ch_id_str}")
+        else:
+            title = f"Chapter {ch_id_str}"
+
+    _titles_cache[ch_id_str] = title
+    return title
 
 
 def search_hs_nodes(query: str, chapter_id: str = None) -> dict:

@@ -1,0 +1,112 @@
+{
+    "chapter_code": "30",
+    "inclusions": [
+        "Heading 30.01 — Glands and other organs for organo-therapeutic uses, dried or not; extracts of glands or other organs or their secretions; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses",
+        "Heading 30.02 — Human blood; animal blood for therapeutic/prophylactic/diagnostic uses; antisera; other blood fractions and immunological products (whether or not modified or obtained by biotechnological processes); vaccines; toxins; cultures of micro-organisms; similar products",
+        "Heading 30.02 — Immunological products: monoclonal antibodies (MAB), antibody fragments, antibody conjugates, interleukins, interferons (IFN), chemokines, tumor necrosis factors (TNF), growth factors (GF), hematopoietins, colony stimulating factors (CSF)",
+        "Heading 30.03 — Medicaments (not in measured doses, not for retail sale): consisting of two or more constituents mixed together for therapeutic or prophylactic uses",
+        "Heading 30.04 — Medicaments (in measured doses or packaged for retail sale): for therapeutic or prophylactic uses, for human or veterinary use",
+        "Heading 30.05 — Wadding, gauze, bandages and similar articles (e.g. dressings, adhesive plasters, poultices) impregnated or coated with pharmaceutical substances or put up for retail sale for medical, surgical, dental or veterinary purposes",
+        "Heading 30.06 — Pharmaceutical goods specified in Note 4 to Chapter 30 ONLY: surgical catgut; sterile suture materials; sterile tissue adhesives; sterile laminaria; haemostatics; X-ray opacifying preparations; diagnostic reagents for patient administration; placebos; clinical trial kits; dental cements; bone cements; first-aid boxes; chemical contraceptives (hormones/spermicides); lubricant gels for medical use; waste pharmaceuticals; ostomy appliances",
+        "Subheadings 3003.60 / 3004.60 — Antimalarial medicaments containing artemisinin or specific antimalarial active principles (amodiaquine, artemether, artesunate, chloroquine, dihydroartemisinin, lumefantrine, mefloquine, piperaquine, pyrimethamine, sulfadoxine)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Foods or beverages including dietetic/diabetic/fortified foods, food supplements, tonic beverages, mineral waters — EXCEPT nutritional preparations for intravenous administration",
+            "action": "Redirect to Section IV (Chapters 16–24) — e.g., food supplements → 21.06; mineral waters → 22.01/22.02",
+            "keywords": ["food supplement", "dietary supplement", "health supplement", "tonic beverage", "mineral water", "energy drink", "fortified food", "diabetic food", "nutraceutical", "thực phẩm bổ sung", "nước khoáng", "thực phẩm chức năng"]
+        },
+        {
+            "condition": "Products containing nicotine intended to assist tobacco use cessation (tablets, chewing gum, transdermal patches with nicotine)",
+            "action": "Redirect to heading 24.04 — nicotine replacement therapy products",
+            "keywords": ["nicotine gum", "nicotine patch", "nicotine tablet", "nicotine lozenge", "nicotine replacement", "tobacco cessation", "smoking cessation", "24.04"]
+        },
+        {
+            "condition": "Plasters specially calcined or finely ground for use in dentistry (dental plaster)",
+            "action": "Redirect to heading 25.20",
+            "keywords": ["dental plaster", "plaster dentistry", "calcined gypsum dental", "25.20"]
+        },
+        {
+            "condition": "Aqueous distillates or aqueous solutions of essential oils, suitable for medicinal uses",
+            "action": "Redirect to heading 33.01 — essential oil distillates/solutions",
+            "keywords": ["aqueous distillate", "essential oil solution", "hydrosol", "floral water", "aromatic water", "33.01"]
+        },
+        {
+            "condition": "Preparations of headings 33.03 to 33.07 (perfumery, cosmetics, toiletry preparations) — even if they have therapeutic or prophylactic properties",
+            "action": "Redirect to headings 33.03–33.07 — cosmetics/toiletries always stay in Ch.33 regardless of medicinal claims",
+            "keywords": ["perfume", "cologne", "cosmetic", "beauty cream", "lotion", "shampoo", "toothpaste", "lip balm", "sunscreen", "33.03", "33.04", "33.05", "33.06", "33.07", "skin care", "hair care"]
+        },
+        {
+            "condition": "Soap or other products of heading 34.01 containing added medicaments",
+            "action": "Redirect to heading 34.01 — medicated soap stays in Ch.34",
+            "keywords": ["medicated soap", "antiseptic soap", "antibacterial soap", "soap with medication", "34.01"]
+        },
+        {
+            "condition": "Preparations with a basis of plaster for use in dentistry",
+            "action": "Redirect to heading 34.07",
+            "keywords": ["plaster preparation dentistry", "dental preparation plaster", "34.07"]
+        },
+        {
+            "condition": "Blood albumin NOT prepared for therapeutic or prophylactic uses (i.e., industrial-grade blood albumin)",
+            "action": "Redirect to heading 35.02 — albumin for non-pharmaceutical uses (e.g., food processing, laboratory reagents)",
+            "keywords": ["blood albumin non-pharmaceutical", "albumin industrial", "egg albumin", "albumin food grade", "35.02"]
+        },
+        {
+            "condition": "Diagnostic reagents of heading 38.22 (in vitro diagnostic reagents, laboratory test kits — NOT administered to patient)",
+            "action": "Redirect to heading 38.22 — in-vitro diagnostics not administered to patient go to Ch.38, NOT 30.06(d)",
+            "keywords": ["diagnostic reagent", "in vitro diagnostic", "IVD", "laboratory test kit", "test strip laboratory", "PCR kit laboratory", "38.22"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Chapter 30 key exclusions",
+            "description": "Chapter 30 applies to pharmaceutical products for therapeutic, prophylactic or diagnostic use. However, many products with health claims are EXCLUDED: food supplements/health foods → Ch.21; cosmetics/toiletries with medicinal properties → Ch.33; medicated soap → Ch.34; nicotine replacement products → Ch.24.04; in-vitro diagnostic reagents not administered to patient → Ch.38.22. The determining factor is: Is the product primarily a pharmaceutical? Or primarily a food/cosmetic/soap?",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Definition of 'immunological products' for heading 30.02",
+            "description": "For heading 30.02, 'immunological products' means peptides and proteins (OTHER THAN goods of heading 29.37) directly involved in regulating immunological processes. Specifically includes: Monoclonal antibodies (MAB), antibody fragments, antibody conjugates and antibody fragment conjugates; Interleukins; Interferons (IFN); Chemokines; Certain tumor necrosis factors (TNF); Growth factors (GF); Hematopoietins; Colony stimulating factors (CSF). Note: hormones of heading 29.37 are excluded from 30.02 immunologicals.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 3 — 'Unmixed' vs 'mixed' for headings 30.03 and 30.04",
+            "description": "Critical distinction between 30.03 (not retail, not measured doses) and 30.04 (retail/measured doses): (a) Treated as UNMIXED: (1) unmixed products dissolved in water; (2) ALL goods of Chapter 28 or 29; (3) simple vegetable extracts of heading 13.02, merely standardised or dissolved in a solvent. (b) Treated as MIXED: (1) colloidal solutions and suspensions (except colloidal sulphur); (2) vegetable extracts from mixtures of vegetable materials; (3) salts and concentrates from evaporating natural mineral waters. This matters because 30.03 requires 'mixed' medicaments, while 30.04 covers any medicament (mixed or not) put up for retail in measured doses.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 4 — Heading 30.06 is a mandatory capture list (eo nomine provision)",
+            "description": "Heading 30.06 applies ONLY to its specific listed items and CANNOT be assigned to any other heading. The list is exhaustive: (a) Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical/dental yarns) and sterile tissue adhesives for surgical wound closure; (b) Sterile laminaria and sterile laminaria tents; (c) Sterile absorbable haemostatics; sterile adhesion barriers (absorbable or not); (d) X-ray opacifying preparations AND diagnostic reagents to be administered to the patient (unmixed in measured doses OR mixed); (e) Placebos and blinded clinical trial kits in measured doses; (f) Dental cements and fillings; bone reconstruction cements; (g) First-aid boxes and kits; (h) Chemical contraceptives based on hormones (29.37) or spermicides; (ij) Lubricant gels for surgical operations or physical examinations or as coupling agent for medical instruments; (k) Waste/expired pharmaceuticals; (l) Ostomy appliances (colostomy, ileostomy, urostomy pouches) cut to shape with adhesive wafers.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 30.02 vs 38.22 — administered to patient vs in-vitro",
+            "description": "CRITICAL DISTINCTION: (a) Diagnostic reagents ADMINISTERED TO THE PATIENT (e.g., contrast media for X-ray, MRI contrast agents) → heading 30.06(d); (b) Diagnostic reagents used IN VITRO (laboratory test kits, test strips, PCR kits, blood glucose strips, pregnancy tests) → heading 38.22. The single test: is the reagent/substance given to the patient or used in a lab on a sample?",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 30.03 vs 30.04 — retail form determines classification",
+            "description": "Both 30.03 and 30.04 cover medicaments for therapeutic/prophylactic use. The critical difference: 30.04 = put up in MEASURED DOSES or in forms/packings for RETAIL SALE (tablets, capsules, ampoules, sachets for individual use). 30.03 = bulk medicaments NOT in measured doses and NOT for retail sale (bulk APIs, hospital bulk preparations). A product shifts from 30.03 to 30.04 purely by its presentation/packaging.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: cosmetics with therapeutic claims stay in Ch.33",
+            "description": "Note 1(e) is categorical: preparations of headings 33.03–33.07 go to Ch.33 EVEN IF they have therapeutic or prophylactic properties. This means: medicated shampoo (anti-dandruff) → 33.05; anti-acne face wash → 33.04; fluoride toothpaste → 33.06; sunscreen → 33.04. The product's PRIMARY classification as a cosmetic/toiletry overrides any medicinal claim.",
+            "priority": 7
+        },
+        {
+            "rule": "Subheading Note 1 — Provisions for 3002.13 and 3002.14 (monoclonal antibodies)",
+            "description": "For subheadings 3002.13 and 3002.14 (which cover specific monoclonal antibody products under heading 30.02), the following are treated as UNMIXED: (a) pure products whether or not with impurities; (b1) dissolved in water/solvents; (b2) with added stabiliser; (b3) with any other additive. This means MAB products with additives (stabilisers, carriers, etc.) are still classifiable here.",
+            "priority": 8
+        },
+        {
+            "rule": "Subheading Note 2 — Antimalarial medicaments (3003.60 / 3004.60)",
+            "description": "Subheadings 3003.60 and 3004.60 cover medicaments containing artemisinin (INN) for oral ingestion combined with other active ingredients, OR containing any of these antimalarial active principles (alone or combined): amodiaquine, artelinic acid/salts, artenimol, artemotil, artemether, artesunate, chloroquine, dihydroartemisinin, lumefantrine, mefloquine, piperaquine, pyrimethamine, or sulfadoxine.",
+            "priority": 9
+        },
+        {
+            "rule": "Nutritional preparations for IV administration → Chapter 30, NOT Section IV",
+            "description": "Note 1(a) creates an important exception: nutritional preparations for INTRAVENOUS administration (e.g., parenteral nutrition solutions, IV glucose, IV amino acid solutions, total parenteral nutrition/TPN) belong to Chapter 30, NOT to Section IV (food chapters). The IV route of administration elevates them to pharmaceutical status.",
+            "priority": 10
+        }
+    ]
+}

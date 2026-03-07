@@ -1,0 +1,51 @@
+{
+    "chapter_code": "35",
+    "inclusions": [
+        "Heading 35.01 — Casein, caseinates and other casein derivatives; casein glues",
+        "Heading 35.02 — Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives — includes: ovalbumin, lactalbumin, blood albumin (for non-therapeutic/non-prophylactic use)",
+        "Heading 35.03 — Gelatin (including gelatin in rectangular/square sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading 35.01",
+        "Heading 35.04 — Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed",
+        "Heading 35.05 — Dextrins and other modified starches (e.g., pregelatinised or esterified starches); glues based on starches or dextrins or on other modified starches",
+        "Heading 35.06 — Prepared glues and other prepared adhesives, not elsewhere specified or included; products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg",
+        "Heading 35.07 — Enzymes; prepared enzymes, not elsewhere specified or included"
+    ],
+    "exclusions": [
+        {
+            "condition": "Blood albumin prepared for therapeutic or prophylactic uses",
+            "action": "Redirect to heading 30.02 (Chapter 30 — Pharmaceutical products)",
+            "keywords": ["albumin therapeutic", "albumin pharmaceutical", "albumin IV", "human albumin injection", "blood albumin medical", "30.02"]
+        },
+        {
+            "condition": "Casein, albumins, gelatin etc. used as food or food ingredients in retail form",
+            "action": "May redirect to food chapters — e.g., food-grade casein preparations → 19.01 or 21.06; edible gelatin for retail → 35.03 stays if not further prepared; pre-packaged food forms may go to relevant food chapter",
+            "keywords": []
+        },
+        {
+            "condition": "Starches of heading 11.08 — natural (unmodified) starches",
+            "action": "Stay in heading 11.08 (Chapter 11). Only MODIFIED starches (pregelatinised, esterified, crosslinked, dextrins) go to 35.05",
+            "keywords": ["natural starch", "wheat starch", "corn starch", "potato starch", "maize starch", "tapioca starch unmodified", "11.08"]
+        },
+        {
+            "condition": "Adhesives with more than 1 kg net weight put up for retail, or industrial adhesives not for retail sale",
+            "action": "Heading 35.06 retail limit is 1 kg net. Larger industrial packs of specific adhesive types may go to their base material chapter (e.g., epoxy adhesive system → 39.07 or 38.24)",
+            "keywords": []
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: 35.02 vs 30.02 — blood albumin for pharmaceutical vs industrial use",
+            "description": "Blood albumin (serum albumin) split: prepared for THERAPEUTIC or PROPHYLACTIC uses → 30.02. NOT prepared for therapeutic/prophylactic use (industrial, food, laboratory) → 35.02. The intended preparation and use determines classification.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: 35.05 vs 11.08 — modified vs natural starches",
+            "description": "Natural/unmodified starches → 11.08 (maize starch, wheat starch, potato starch, tapioca, etc.). Chemically or physically modified starches → 35.05: dextrins, pregelatinised starch, esterified starch, etherified starch, cross-linked starch. The modification is the trigger.",
+            "priority": 2
+        },
+        {
+            "rule": "Enzymes of 35.07 — override Chapter 29",
+            "description": "Enzymes (whether or not chemically defined) are specifically captured by heading 35.07 and excluded from Chapter 29 by Ch.29 Note 2(h). This applies to: proteases, lipases, amylases, cellulases, lactases, rennet, pepsin, etc. Prepared enzyme preparations (immobilized enzymes, enzyme cocktails) also go to 35.07.",
+            "priority": 3
+        }
+    ]
+}

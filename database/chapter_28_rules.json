@@ -1,0 +1,105 @@
+{
+    "chapter_code": "28",
+    "inclusions": [
+        "Sub-Chapter I — Chemical Elements: Halogens (F, Cl, Br, I); sublimed/precipitated/colloidal sulphur; carbon blacks and other carbon forms NESOI; hydrogen, rare gases, N2, O2, B, Te, Si, P, As, Se; alkali/alkaline-earth metals; rare-earth metals, Sc, Y; mercury",
+        "Sub-Chapter II — Inorganic Acids and Inorganic Oxygen Compounds of Non-metals: HCl, chlorosulphuric acid; H2SO4, oleum; HNO3, sulphonitric acids; P2O5, H3PO4, polyphosphoric acids; boron oxides, boric acids; other inorganic acids (HF, HCN, arsenic acid, sulphamic acid) and other inorganic oxygen compounds of non-metals (CO2, SiO2, As2O5, SO2)",
+        "Sub-Chapter III — Halogen or Sulphur Compounds of Non-metals: Halides and halide oxides of non-metals (phosgene, P-chlorides, S-chlorides, thionyl chloride); sulphides of non-metals, carbon disulphide, commercial phosphorus trisulphide",
+        "Sub-Chapter IV — Inorganic Bases and Metal Oxides/Hydroxides/Peroxides: Ammonia (anhydrous or aqueous); NaOH, KOH, Na/K peroxides; Mg hydroxide/peroxide; Sr/Ba oxides/hydroxides/peroxides; ZnO, ZnO2; artificial corundum, Al2O3, Al(OH)3; Cr/Mn/Fe/Co/Ti/Pb/Zn and other metal oxides and hydroxides; hydrazine, hydroxylamine and their inorganic salts",
+        "Sub-Chapter V — Salts and Peroxysalts: Fluorides, fluorosilicates, fluoroaluminates, synthetic cryolite; chlorides (ammonium, calcium, other metal chlorides), bromides, iodides; hypochlorites, chlorites; chlorates, perchlorates, bromates, iodates; sulphides, polysulphides; dithionites, sulphoxylates; sulphites, thiosulphates; sulphates, alums, persulphates; nitrites, nitrates; phosphinates, phosphonates, phosphates, polyphosphates; carbonates, percarbonates; cyanides, complex cyanides; silicates; borates, perborates; oxometallic/peroxometallic salts (chromates, permanganates, molybdates, tungstates); other complex/double salts (aluminosilicates, fulminates, cyanates, thiocyanates)",
+        "Sub-Chapter VI — Miscellaneous: Colloidal precious metals; inorganic or organic compounds of precious metals (AgNO3, Au, Pt compounds), amalgams of precious metals; radioactive chemical elements and isotopes (natural U, enriched U-235, depleted U-235, Pu, Th, tritium, polonium, and other radioactive elements), spent nuclear fuel cartridges, radioactive residues; stable isotopes other than 28.44 (heavy water D2O, boron-10, lithium-6, helium-3); rare-earth metal compounds (La, Ce, Pr, Nd, Y, Sc); H2O2; carbides (CaC2, SiC, other); hydrides, nitrides, azides, silicides, borides; inorganic/organic compounds of mercury (excl. amalgams); phosphides; other inorganic compounds (distilled/conductivity water, liquid air, compressed air); amalgams of non-precious metals"
+    ],
+    "exclusions": [
+        {
+            "condition": "Sodium chloride (NaCl) or magnesium oxide (MgO) whether or not pure, or other products of Section V (Chapters 25-27)",
+            "action": "Redirect to Section V — NaCl → heading 25.01; MgO → heading 25.19",
+            "keywords": ["sodium chloride", "NaCl", "table salt", "magnesium oxide", "MgO", "25.01", "25.19", "section V"]
+        },
+        {
+            "condition": "Organo-inorganic compounds other than those specifically listed in Note 2 of Chapter 28",
+            "action": "Redirect to Chapter 29 (organic chemicals) or relevant chapter. Note 2 exceptions that DO stay in Ch.28 include: CO/CO2/HCN/complex cyanogen acids (28.11), halide oxides of carbon (28.12), CS2 (28.13), thiocarbonates/selenocarbonates/complex cyanates of inorganic bases (28.42), H2O2 solidified with urea (28.47), cyanogen/cyanogen halides/cyanamide (28.53)",
+            "keywords": ["organo-inorganic", "organometallic", "chapter 29"]
+        },
+        {
+            "condition": "Fertilizer products mentioned in Notes 2, 3, 4 or 5 to Chapter 31",
+            "action": "Redirect to Chapter 31 — e.g., calcium cyanamide (whether or not pure) → Chapter 31",
+            "keywords": ["calcium cyanamide", "fertilizer", "chapter 31", "ammonium nitrate fertilizer"]
+        },
+        {
+            "condition": "Inorganic products of a kind used as luminophores",
+            "action": "Redirect to Heading 32.06",
+            "keywords": ["luminophore", "phosphor", "fluorescent pigment", "32.06"]
+        },
+        {
+            "condition": "Glass frit and other glass in the form of powder, granules or flakes",
+            "action": "Redirect to Heading 32.07",
+            "keywords": ["glass frit", "glass powder", "glass granules", "32.07"]
+        },
+        {
+            "condition": "Artificial graphite",
+            "action": "Redirect to Heading 38.01",
+            "keywords": ["artificial graphite", "synthetic graphite", "38.01"]
+        },
+        {
+            "condition": "Cultured crystals (other than optical elements) weighing not less than 2.5g each, of the halides of the alkali or alkaline-earth metals",
+            "action": "Redirect to Heading 38.24. Optical elements of alkali/alkaline-earth halides → Heading 90.01",
+            "keywords": ["cultured crystal", "synthetic crystal", "alkali halide crystal", "NaF crystal", "CaF2 crystal", "38.24", "90.01"]
+        },
+        {
+            "condition": "Precious or semi-precious stones (natural, synthetic or reconstructed) or dust/powder of such stones",
+            "action": "Redirect to Headings 71.02 to 71.05; precious metals or precious metal alloys → Chapter 71",
+            "keywords": ["precious stone", "diamond", "ruby", "sapphire", "synthetic gemstone", "71.02", "71.03", "71.04", "71.05", "chapter 71"]
+        },
+        {
+            "condition": "Metals (pure or not), metal alloys or cermets, including sintered metal carbides (metal carbides sintered with a metal)",
+            "action": "Redirect to Section XV (base metals). Note: pure metal carbides NOT sintered with metal → 28.49. Metal carbides sintered with metal (e.g. WC-Co) → Section XV",
+            "keywords": ["metal alloy", "cermet", "sintered carbide", "WC-Co", "section XV", "cemented carbide"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Chapter 28 applies ONLY to chemically defined compounds (with specific permitted additives)",
+            "description": "Headings of Ch.28 apply only to: (a) separate chemical elements and separate CHEMICALLY DEFINED compounds, whether or not containing impurities; (b) the above dissolved in water; (c) the above dissolved in other solvents only if dissolution is a normal/necessary packaging method for safety or transport and the solvent does not render the product suitable for specific use; (d) the above with added stabiliser (including anti-caking agent) necessary for preservation/transport; (e) the above with added anti-dusting agent or colouring substance for identification or safety — provided additions do not create specific-use suitability. If a product is a MIXTURE of inorganic chemicals for a specific use, it typically goes to Ch.38 or the relevant application chapter.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Only specific carbon compounds belong in Ch.28; all other carbon compounds → Ch.29",
+            "description": "The great majority of carbon compounds belong to Chapter 29 (organic). Chapter 28 accepts ONLY these carbon compounds: (1) Oxides of carbon (CO, CO2), HCN, and other simple/complex cyanogen acids → 28.11; (2) Halide oxides of carbon (phosgene, etc.) → 28.12; (3) Carbon disulphide → 28.13; (4) Thiocarbonates, selenocarbonates, tellurocarbonates, complex cyanates of inorganic bases → 28.42; (5) H2O2 solidified with urea → 28.47; (6) Carbon oxysulphide, thiocarbonyl halides, cyanogen, cyanogen halides, cyanamide and its metal derivatives → 28.53. All other carbon-containing compounds → Chapter 29 or other chapters.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 5 — Headings 28.26 to 28.42 apply ONLY to metal or ammonium salts/peroxysalts; double/complex salts → 28.42",
+            "description": "Headings 28.26–28.42 exclusively cover METAL salts or AMMONIUM salts or PEROXYSALTS. Any double or complex salts → heading 28.42 unless the context otherwise requires. This means if a salt has two different metal cations, or is a complex salt with coordination bonds → 28.42.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 6 — Heading 28.44 strict scope for radioactive elements",
+            "description": "Heading 28.44 covers: (a) Tc(43), Pm(61), Po(84), and ALL elements with atomic number >84 (astatine, radon, francium, radium, actinium, thorium, Pa, U, and transuranic elements); (b) Natural or artificial radioactive isotopes (including of precious/base metals); (c) Their compounds (inorganic or organic, whether or not chemically defined); (d) Alloys/dispersions/cermets/ceramics/mixtures containing these elements/isotopes/compounds with specific radioactivity >74 Bq/g; (e) Spent fuel cartridges; (f) Radioactive residues. Note: stable U-238 in natural uranium still → 28.44 because natural U contains radioactive isotopes.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 8 — Doped semiconductor elements: form determines Ch.28 vs. 38.18",
+            "description": "Chemical elements (e.g., silicon, selenium) doped for use in electronics: IF in unworked forms as drawn, or in form of cylinders or rods → Chapter 28. IF cut in the form of DISCS, WAFERS or similar forms → heading 38.18. The cutting into disc/wafer shape is the trigger for moving from Ch.28 to 38.18.",
+            "priority": 5
+        },
+        {
+            "rule": "Sublimed/precipitated/colloidal sulphur → 28.02; natural sulphur → 25.03",
+            "description": "The form of sulphur determines the chapter: natural sulphur (raw, not processed beyond basic physical treatment) → heading 25.03 (Chapter 25). Sulphur that has been sublimed, precipitated, or is in colloidal form (chemically processed) → heading 28.02 (Chapter 28). This is a key Ch.25 vs. Ch.28 boundary for sulphur.",
+            "priority": 6
+        },
+        {
+            "rule": "Silicon purity threshold within 28.04",
+            "description": "Heading 28.04 sub-classifies silicon (non-doped form) by silicon content: ≥99.99% Si → subheading 2804.61 (ultra-pure, semiconductor-grade silicon, but only if not cut to discs/wafers — if cut to discs/wafers → 38.18). <99.99% Si → subheading 2804.69 (metallurgical-grade silicon, ferrosilicon-like purity).",
+            "priority": 7
+        },
+        {
+            "rule": "Earth colours with ≥70% Fe₂O₃ → 28.21; below threshold → Chapter 25",
+            "description": "Earth colours containing 70% or more by weight of combined iron evaluated as Fe2O3 → heading 28.21 (iron oxides and hydroxides; earth colours). Earth colours with less than 70% Fe₂O₃ → Chapter 25 (they remain as mineral earth pigments in crude state). Heading 28.21 also covers chemically pure iron oxides (Fe2O3, Fe3O4, FeO, etc.) and iron hydroxides.",
+            "priority": 8
+        },
+        {
+            "rule": "Carbides: chemically defined carbides → 28.49; carbides sintered with metal (cermet) → Section XV",
+            "description": "Heading 28.49 covers CARBIDES whether or not chemically defined: calcium carbide (CaC2) → 2849.10; silicon carbide (SiC) → 2849.20; other carbides → 2849.90. EXCEPTION: Metal carbides SINTERED with a metal (e.g., cemented tungsten carbide, WC-Co 'hardmetal') → Section XV (treated as cermets/metal-ceramic composites, typically heading 82.09 or 84 series inserts).",
+            "priority": 9
+        }
+    ]
+}

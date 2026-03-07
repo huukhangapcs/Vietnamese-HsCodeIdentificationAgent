@@ -1,0 +1,91 @@
+{
+    "chapter_code": "31",
+    "inclusions": [
+        "Heading 31.01 — Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products",
+        "Heading 31.02 — Mineral or chemical fertilisers, nitrogenous — specifically: (a) sodium nitrate; ammonium nitrate; double salts of ammonium sulphate/ammonium nitrate; ammonium sulphate; double salts/mixtures of Ca(NO3)2+NH4NO3; Ca(NO3)2+Mg(NO3)2; calcium cyanamide; urea — each whether or not pure; (b) mixtures of the above; (c) above mixed with chalk/gypsum/inorganic non-fertilising substances; (d) liquid fertilisers of ammonium nitrate or urea in aqueous/ammoniacal solution",
+        "Heading 31.03 — Mineral or chemical fertilisers, phosphatic — specifically: (a) basic slag; calcined/heat-treated natural phosphates; superphosphates (single/double/triple); calcium hydrogenorthophosphate with ≥0.2% fluorine (dry basis); (b) mixtures of the above; (c) mixtures with chalk/gypsum/inorganic non-fertilising substances",
+        "Heading 31.04 — Mineral or chemical fertilisers, potassic — specifically: (a) crude natural potassium salts (carnallite, kainite, sylvite); potassium chloride (except cultured crystals ≥2.5g → 38.24); potassium sulphate; magnesium potassium sulphate — each whether or not pure; (b) mixtures of the above",
+        "Heading 31.05 — Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods in tablets or similar forms or in packages of a gross weight not exceeding 10 kg — specifically includes: monoammonium phosphate (MAP); diammonium phosphate (DAP); MAP+DAP intermixtures",
+        "Note 5 — Monoammonium phosphate (MAP) and diammonium phosphate (DAP), whether or not pure, and their intermixtures → mandatory classification in heading 31.05 (NOT 31.02 or 31.03)",
+        "Note 6 — 'Other fertilisers' in 31.05 = products used as fertilisers containing at least one of N, P, or K as an essential constituent"
+    ],
+    "exclusions": [
+        {
+            "condition": "Animal blood of heading 05.11 (used as fertiliser but classified separately)",
+            "action": "Redirect to heading 05.11 — animal blood and other animal products primarily goes to Chapter 5",
+            "keywords": ["animal blood", "blood meal", "dried blood", "05.11"]
+        },
+        {
+            "condition": "Separate chemically defined compounds — EXCEPT those specifically captured in Notes 2(a), 3(a), 4(a) or 5 (i.e., sodium nitrate, ammonium nitrate, ammonium sulphate, urea, calcium cyanamide, potassium chloride, potassium sulphate, MAP, DAP, etc.)",
+            "action": "Redirect to the appropriate chapter for the chemically defined compound — e.g., pure ammonium sulphate NOT for fertiliser use → Ch.28 (28.33); pure potassium salts → Ch.28",
+            "keywords": ["chemically defined compound", "pure compound", "laboratory grade", "reagent grade", "analytical grade"]
+        },
+        {
+            "condition": "Cultured potassium chloride crystals (other than optical elements) weighing not less than 2.5 g each",
+            "action": "Redirect to heading 38.24",
+            "keywords": ["cultured crystal", "potassium chloride crystal", "KCl crystal", "synthetic crystal KCl", "38.24"]
+        },
+        {
+            "condition": "Optical elements of potassium chloride (KCl optical windows, lenses, prisms)",
+            "action": "Redirect to heading 90.01",
+            "keywords": ["optical element", "KCl window", "potassium chloride optical", "infrared window", "90.01"]
+        },
+        {
+            "condition": "Natural phosphates of heading 25.10 that are NOT calcined or further heat-treated beyond removal of impurities — i.e., raw/crude natural phosphate rock",
+            "action": "Redirect to heading 25.10 (Chapter 25 — Mineral products). Only calcined/heat-treated natural phosphates upgrading to fertiliser go to 31.03",
+            "keywords": ["natural phosphate rock", "crude phosphate", "phosphate ore", "rock phosphate", "phosphorite", "25.10"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Three items excluded from Chapter 31 entirely",
+            "description": "Chapter 31 does NOT cover: (a) Animal blood → 05.11. (b) Separate chemically defined compounds other than those specifically listed in Notes 2(a), 3(a), 4(a) or 5. (c) Cultured KCl crystals ≥2.5g → 38.24; optical KCl elements → 90.01.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Heading 31.02 (Nitrogenous fertilisers): exhaustive list + 31.05 priority rule",
+            "description": "31.02 ONLY applies to the specifically listed nitrogenous fertilisers: (i) NaNO3; (ii) NH4NO3; (iii) double salts NH4SO4+NH4NO3; (iv) (NH4)2SO4; (v) mixtures/double salts Ca(NO3)2+NH4NO3; (vi) mixtures/double salts Ca(NO3)2+Mg(NO3)2; (vii) calcium cyanamide (with/without oil treatment); (viii) urea — all whether or not pure. CRITICAL: goods NOT put up in the forms/packages of heading 31.05. If put up as 31.05 formats (tablets or packages ≤10 kg gross weight), they go to 31.05 instead.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 3 — Heading 31.03 (Phosphatic fertilisers): exhaustive list + fluorine threshold",
+            "description": "31.03 ONLY applies to: (i) basic slag; (ii) natural phosphates of 25.10 that have been CALCINED or further heat-treated (raw/untreated natural phosphates stay in 25.10); (iii) superphosphates (single, double, triple); (iv) calcium hydrogenorthophosphate with ≥0.2% fluorine on dry anhydrous basis. KEY RULE: the 0.2% fluorine threshold applies only to 31.03(a)(iv). For mixtures 31.03(b) and (c), the fluorine limit is disregarded.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 4 — Heading 31.04 (Potassic fertilisers): exhaustive list",
+            "description": "31.04 ONLY applies to: (i) crude natural potassium salts — carnallite, kainite, sylvite; (ii) potassium chloride whether or not pure EXCEPT cultured KCl crystals ≥2.5g (→ 38.24) and optical KCl elements (→ 90.01); (iii) potassium sulphate whether or not pure; (iv) magnesium potassium sulphate whether or not pure; and (b) mixtures of the above. Same 31.05 priority rule applies.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 5 — MAP and DAP mandatory to 31.05",
+            "description": "Monoammonium phosphate (MAP = NH4H2PO4) and diammonium phosphate (DAP = (NH4)2HPO4), whether or not pure, AND intermixtures of MAP+DAP → MUST be classified in heading 31.05, NOT in 31.02 or 31.03. This is an override: even though MAP/DAP contain nitrogen and phosphorus, they are specifically mandated to 31.05.",
+            "priority": 5
+        },
+        {
+            "rule": "Note 6 — Definition of 'other fertilisers' in heading 31.05",
+            "description": "'Other fertilisers' under heading 31.05 means products of a kind used as fertilisers AND containing — as an ESSENTIAL constituent — at least one of the fertilising elements: nitrogen (N), phosphorus (P), or potassium (K). Products lacking all three macronutrients (N, P, K) as essential constituents are NOT 'other fertilisers' of 31.05.",
+            "priority": 6
+        },
+        {
+            "rule": "Priority rule: 31.05 overrides 31.02/31.03/31.04 when in retail/tablet form",
+            "description": "If a nitrogenous (31.02), phosphatic (31.03) or potassic (31.04) fertiliser is put up in tablets or similar forms, OR in packages of gross weight ≤10 kg, it is classified in heading 31.05 instead. This is the 'retail packaging' override — the form of presentation can shift classification from 31.02/03/04 to 31.05.",
+            "priority": 7
+        },
+        {
+            "rule": "Key boundary: Chapter 31 vs Chapter 28 — fertiliser use vs chemical use",
+            "description": "The same chemically defined compound can go to Ch.28 or Ch.31 depending on whether it meets the Note 2/3/4/5 criteria and is for fertiliser use. Examples: Ammonium sulphate (NH4)2SO4 for fertiliser → 31.02; Ammonium sulphate as pure chemical for other uses → 28.33. Urea for fertiliser → 31.02; Urea put up as retail fertiliser → 31.05. Potassium chloride for fertiliser → 31.04; KCl cultured crystals ≥2.5g → 38.24; KCl optical elements → 90.01. The intended use AND the chemical's listing in Notes 2/3/4/5 both matter.",
+            "priority": 8
+        },
+        {
+            "rule": "Calcium cyanamide: always Chapter 31 (31.02), never Chapter 29",
+            "description": "Calcium cyanamide (Ca-CN2), whether or not pure, whether or not treated with oil, is explicitly mandated to heading 31.02 by Note 2(a)(vii). Note 2 of Chapter 29 excludes urea (→31.02/31.05), and by analogy calcium cyanamide is also directed to Ch.31. This overrides any argument that it could be a chemically defined compound of Ch.29.",
+            "priority": 9
+        },
+        {
+            "rule": "Natural vs processed phosphates: Chapter 25 boundary",
+            "description": "Natural calcium phosphates, natural aluminium calcium phosphates, and apatite → heading 25.10 (Chapter 25, unchanged form). When these are calcined or further heat-treated beyond mere removal of impurities → heading 31.03 (Chapter 31). Superphosphates (treated with sulphuric or phosphoric acid) always → 31.03. This processing threshold is the key Ch.25 vs Ch.31 boundary for phosphate products.",
+            "priority": 10
+        }
+    ]
+}

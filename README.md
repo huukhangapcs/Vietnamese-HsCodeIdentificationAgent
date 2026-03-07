@@ -1,4 +1,4 @@
-# 🛃 HS Code Identification Agent v2
+# 🛃 HS Code Identification Agent v3
 
 An **agentic AI system** for automatic HS (Harmonized System) Code classification of import/export goods — with a two-path architecture (Fast Path & Slow Path), streaming interface, and a curated Vietnamese customs knowledge base.
 
@@ -92,15 +92,16 @@ hscodever3/
 │   └── optimize_db.py        # ChromaDB optimization utilities
 │
 ├── database/
-│   ├── chapter_X_rules.json  # Chapters 1–20: classification rules (inclusions, exclusions, logic)
-│   ├── chapter_X_tree.json   # Chapters 1–20: full HS code tree with semantic_path
+│   ├── chapter_X_rules.json  # Ch.1–40: classification rules (inclusions, exclusions, logic)
+│   ├── chapter_X_tree.json   # Ch.1–27, Ch.36: full HS code tree with semantic_path
+│   ├── chapter_28_subN_tree.json  # Ch.28: 6 sub-chapter trees (28_sub1 to 28_sub6)
 │   ├── general_rules.json    # Global HS classification rules (GRI rules)
 │   ├── sections_info_aku.json # Section-level notes and AKUs (Atomic Knowledge Units)
 │   ├── hsdata_searchable.json # Full searchable HS database (12MB)
 │   ├── hs_cache.json         # Persistent result cache
 │   ├── approved_cache.json   # User-approved results (fine-tuning signal)
 │   ├── build_vector_db.py    # Script to populate ChromaDB from JSON data
-│   └── chroma_db/            # ChromaDB vector store (legal notes embeddings)
+│   └── chroma_db/            # ChromaDB vector store (~47 MB, 9,300+ embeddings)
 │
 ├── index.html                # Single-page webapp frontend
 ├── Dockerfile / docker-compose.yml / nginx/   # Production deployment
@@ -132,37 +133,74 @@ hscodever3/
 
 ---
 
-## 🗄️ Knowledge Base
+## 🗄️ Knowledge Base — Database Status
 
-The `database/` directory contains structured JSON knowledge for **Chapters 1–20** of Section I–IV (Live animals, Food & Agriculture):
+### 📊 Coverage Summary (as of 2026-03-07)
 
-### `chapter_X_rules.json`
+| Asset | Count | Details |
+|-------|-------|---------|
+| **Rules JSON** | **40 / 97 chapters** | Ch. 1–40 complete |
+| **Tree JSON** | **29 mono + 6 sub-trees** | Ch. 1–27, Ch. 36 (mono); Ch. 28 (6 sub-trees) |
+| **ChromaDB size** | **~47 MB** | 9,300+ vector embeddings |
+| **Total inclusions** | **390** | Heading-level scope definitions |
+| **Total exclusions** | **264** | With keyword triggers for Gate A |
+| **Total classification rules** | **190** | Priority-ordered decision rules |
+
+### 🗂️ Rules Coverage by Section
+
+| Section | Chapters | Description | Rules JSON | Tree JSON |
+|---------|----------|-------------|:----------:|:---------:|
+| **Section I** | 1–5 | Live animals; animal products | ✅ Complete | ✅ Complete |
+| **Section II** | 6–14 | Vegetable products | ✅ Complete | ✅ Complete |
+| **Section III** | 15 | Animal or vegetable fats and oils | ✅ Complete | ✅ Complete |
+| **Section IV** | 16–24 | Prepared foodstuffs | ✅ Complete | ✅ Complete |
+| **Section V** | 25–27 | Mineral products | ✅ Complete | ✅ Complete |
+| **Section VI** | 28–38 | Chemical products | ✅ Complete | ⚠️ Ch.28 only (sub-trees) |
+| **Section VII** | 39–40 | Plastics & Rubber | ✅ Complete | ❌ Pending |
+| **Section VIII** | 41–43 | Hides, leather, furs | ❌ Pending | ❌ Pending |
+| **Section IX** | 44–46 | Wood, cork, straw | ❌ Pending | ❌ Pending |
+| **Section X** | 47–49 | Pulp, paper, books | ❌ Pending | ❌ Pending |
+| **Section XI** | 50–63 | Textiles | ❌ Pending | ❌ Pending |
+| **Section XII** | 64–67 | Footwear, headgear | ❌ Pending | ❌ Pending |
+| **Section XIII** | 68–70 | Stone, ceramic, glass | ❌ Pending | ❌ Pending |
+| **Section XIV** | 71 | Precious metals, jewellery | ❌ Pending | ❌ Pending |
+| **Section XV** | 72–83 | Base metals | ❌ Pending | ❌ Pending |
+| **Section XVI** | 84–85 | Machinery & Electronics | ❌ Pending | ❌ Pending |
+| **Section XVII** | 86–89 | Transport | ❌ Pending | ❌ Pending |
+| **Section XVIII** | 90–92 | Instruments, clocks | ❌ Pending | ❌ Pending |
+| **Section XIX** | 93 | Arms & ammunition | ❌ Pending | ❌ Pending |
+| **Section XX** | 94–96 | Miscellaneous manufactured | ❌ Pending | ❌ Pending |
+| **Section XXI** | 97 | Works of art | ❌ Pending | ❌ Pending |
+
+> **Note:** Chapters without Tree JSON are handled by the LLM reasoning path (Slow Path only) using ChromaDB embeddings + raw HS nomenclature from `hsdata.csv`.
+
+### `chapter_X_rules.json` Schema
 ```json
 {
-  "chapter_code": "16",
-  "inclusions": ["..."],
+  "chapter_code": "39",
+  "inclusions": ["Heading 39.01 — Polymers of ethylene..."],
   "exclusions": [
     {
-      "condition": "...",
-      "action": "Redirect to Chapter X",
-      "keywords": ["keyword1", "keyword2"]
+      "condition": "Lubricating preparations of heading 27.10...",
+      "action": "Redirect to 27.10",
+      "keywords": ["lubricant plastic", "27.10"]
     }
   ],
   "classification_rules": [
-    { "rule": "...", "description": "...", "priority": 1 }
+    { "rule": "Note 1 — Definition of 'plastics'", "description": "...", "priority": 1 }
   ]
 }
 ```
 
-### `chapter_X_tree.json`
+### `chapter_X_tree.json` Schema
 ```json
 [
   {
     "level": 0,
-    "hs_code": "1601",
-    "description_en": "Sausages and similar products...",
+    "hs_code": "3901",
+    "description_en": "Polymers of ethylene in primary forms",
     "children": [...],
-    "semantic_path": "Sausages and similar products > ..."
+    "semantic_path": "Plastics > Polymers of ethylene > ..."
   }
 ]
 ```
@@ -249,19 +287,6 @@ The app runs behind **Nginx** as reverse proxy on port 80.
 ```bash
 pytest tests/ -v
 ```
-
----
-
-## 📊 Chapters Covered
-
-| Section | Chapters | Description |
-|---------|----------|-------------|
-| Section I | 1–5 | Live animals; animal products |
-| Section II | 6–14 | Vegetable products |
-| Section III | 15 | Animal or vegetable fats and oils |
-| Section IV | 16–24 | Prepared foodstuffs *(Ch. 16–20 complete)* |
-
-> Chapters 21–97 are handled by the LLM reasoning path without local JSON rules (use ChromaDB + raw HS nomenclature).
 
 ---
 

@@ -1,0 +1,62 @@
+{
+    "chapter_code": "24",
+    "inclusions": [
+        "Unmanufactured tobacco (not stemmed/stripped and partly/wholly stemmed): Virginia type (flue-cured and other), Burley type, Oriental type, other types; tobacco refuse including tobacco stems",
+        "Cigars, cheroots, cigarillos and cigarettes of tobacco or of tobacco substitutes (beedies, clove cigarettes, tobacco substitute cigars and cigarettes)",
+        "Other manufactured tobacco and tobacco substitutes: smoking tobacco (water pipe/hookah tobacco, pipe tobacco including Ang Hoon); homogenised or reconstituted tobacco; tobacco extracts and essences; snuff; chewing and sucking tobacco; manufactured tobacco substitutes",
+        "Products containing tobacco, reconstituted tobacco, nicotine, or tobacco/nicotine substitutes, intended for inhalation WITHOUT combustion (IQOS heatsticks, heated tobacco products, e-cigarette liquids/gels); other nicotine-containing products for oral or transdermal intake (nicotine gum, nicotine patch)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Medicinal cigarettes classified as pharmaceuticals",
+            "action": "Redirect to Chapter 30 (pharmaceutical products)",
+            "keywords": [
+                "medicinal cigarette",
+                "medicated cigarette",
+                "therapeutic",
+                "chapter 30"
+            ]
+        },
+        {
+            "condition": "Tobacco-free products intended for smoking in a water pipe (tobacco-free shisha)",
+            "action": "These are NOT classified under subheading 2403.11 (water pipe tobacco). They may fall under 2403.99 (manufactured tobacco substitutes) or heading 24.04 depending on nicotine content and delivery method",
+            "keywords": [
+                "tobacco-free shisha",
+                "herbal shisha",
+                "tobacco free water pipe"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Heading 24.04 has absolute priority over all other headings in Chapter 24 (Note 2)",
+            "description": "Any product that can be classified under heading 24.04 AND any other heading in Chapter 24 MUST be classified in heading 24.04. This is a mandatory override rule — 24.04 always takes precedence within Chapter 24. Example: if a product could be classified as 24.03 (manufactured tobacco) but also qualifies as 24.04 (inhalation without combustion), it goes to 24.04.",
+            "priority": 1
+        },
+        {
+            "rule": "Inhalation without combustion definition (Note 3) for heading 24.04",
+            "description": "For heading 24.04, 'inhalation without combustion' means inhalation through HEATED DELIVERY or other means, WITHOUT COMBUSTION. This covers: heated tobacco products (HTP/IQOS type) → 2404.11; e-cigarettes (nicotine liquid vaporized) → 2404.12; tobacco/nicotine substitute inhalation products → 2404.19. Traditional cigarettes/cigars (2402) use combustion so they do NOT fall under 24.04.",
+            "priority": 2
+        },
+        {
+            "rule": "Water pipe tobacco definition (Subheading Note 1) for 2403.11",
+            "description": "Subheading 2403.11 covers ONLY tobacco + glycerol mixtures (±aromatic oils, ±molasses/sugar, ±fruit flavouring) used in water pipes. Key requirements: MUST contain actual tobacco AND glycerol. TOBACCO-FREE products for water pipes → excluded from 2403.11; classify under 2403.99.30 (manufactured tobacco substitutes) or 24.04 depending on inhalation method.",
+            "priority": 3
+        },
+        {
+            "rule": "Unmanufactured tobacco classification by stemming and curing method",
+            "description": "Heading 24.01 sub-classifies by: (1) stemming status — 2401.10 = not stemmed/stripped; 2401.20 = partly or wholly stemmed/stripped; 2401.30 = tobacco refuse. Then by type: Virginia flue-cured, Virginia other, Oriental, Burley, other flue-cured, other. Curing method (flue-cured = sấy không khí nóng) and leaf type are the primary classification axes.",
+            "priority": 4
+        },
+        {
+            "rule": "Cigarettes vs. other manufactured tobacco",
+            "description": "Cigarettes (2402.20 = containing tobacco; 2402.90.20 = tobacco substitutes) are distinct from: smoking pipe tobacco (2403.19), water pipe tobacco (2403.11), chewing tobacco (2403.99.50), snuff (2403.99.40), and reconstituted tobacco (2403.91). Form determines heading: cigarette form → 24.02; other prepared forms → 24.03.",
+            "priority": 5
+        },
+        {
+            "rule": "Heading 24.04 product sub-classification: inhalation vs. oral vs. transdermal",
+            "description": "Within 24.04: (A) Inhalation without combustion (2404.1X): containing tobacco/reconstituted → 2404.11; containing nicotine, other → 2404.12; other (tobacco or nicotine substitutes) → 2404.19. (B) Other nicotine intake: oral application (gum, lozenges) → 2404.91; transdermal (patches) → 2404.92; other → 2404.99. E-cigarette liquid with nicotine = inhalation without combustion → 2404.12.10.",
+            "priority": 6
+        }
+    ]
+}

@@ -1,0 +1,809 @@
+[
+    {
+        "level": 0,
+        "hs_code": "2201",
+        "description_en": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "220110",
+                "description_en": "Mineral waters and aerated waters:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22011010",
+                        "description_en": "Mineral waters",
+                        "children": [],
+                        "semantic_path": "Waters not containing added sugar or flavouring; ice and snow > Mineral waters and aerated waters: > Mineral waters"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22011020",
+                        "description_en": "Aerated waters",
+                        "children": [],
+                        "semantic_path": "Waters not containing added sugar or flavouring; ice and snow > Mineral waters and aerated waters: > Aerated waters"
+                    }
+                ],
+                "semantic_path": "Waters not containing added sugar or flavouring; ice and snow > Mineral waters and aerated waters:"
+            },
+            {
+                "level": 1,
+                "hs_code": "220190",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22019010",
+                        "description_en": "Ice and snow",
+                        "children": [],
+                        "semantic_path": "Waters not containing added sugar or flavouring; ice and snow > Other: > Ice and snow"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22019090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Waters not containing added sugar or flavouring; ice and snow > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Waters not containing added sugar or flavouring; ice and snow > Other:"
+            }
+        ],
+        "semantic_path": "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or other sweetening matter nor flavoured; ice and snow"
+    },
+    {
+        "level": 0,
+        "hs_code": "2202",
+        "description_en": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 20.09",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "220210",
+                "description_en": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22021020",
+                        "description_en": "Energy drink whether or not aerated",
+                        "children": [],
+                        "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Waters with added sugar or flavouring: > Energy drink whether or not aerated"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22021030",
+                        "description_en": "Other sparkling mineral waters or aerated waters, flavoured",
+                        "children": [],
+                        "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Waters with added sugar or flavouring: > Other sparkling mineral waters or aerated waters, flavoured"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22021090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Waters with added sugar or flavouring: > Other"
+                    }
+                ],
+                "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Waters with added sugar or flavouring:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22029100",
+                        "description_en": "Non-alcoholic beer",
+                        "children": [],
+                        "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other: > Non-alcoholic beer"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "220299",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22029910",
+                                "description_en": "Flavoured UHT milk based drinks",
+                                "children": [],
+                                "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other: > Other: > Flavoured UHT milk based drinks"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22029920",
+                                "description_en": "Soya milk drinks",
+                                "children": [],
+                                "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other: > Other: > Soya milk drinks"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22029930",
+                                "description_en": "Coconut water based drinks",
+                                "children": [],
+                                "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other: > Other: > Coconut water based drinks"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22029940",
+                                "description_en": "Coffee based drinks or coffee flavoured drinks",
+                                "children": [],
+                                "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other: > Other: > Coffee based drinks or coffee flavoured drinks"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22029950",
+                                "description_en": "Other non-aerated beverages ready for immediate consumption without dilution",
+                                "children": [],
+                                "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other: > Other: > Other non-aerated beverages ready for immediate consumption without dilution"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22029990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Non-alcoholic beverages (waters with sugar/flavour; other non-alcoholic) > Other:"
+            }
+        ],
+        "semantic_path": "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit, nut or vegetable juices of heading 20.09"
+    },
+    {
+        "level": 0,
+        "hs_code": "2203",
+        "description_en": "Beer made from malt",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Stout or porter:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22030011",
+                        "description_en": "Of an alcoholic strength by volume not exceeding 5.8% vol.",
+                        "children": [],
+                        "semantic_path": "Beer made from malt > Stout or porter: > Of an alcoholic strength by volume not exceeding 5.8% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22030019",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Beer made from malt > Stout or porter: > Other"
+                    }
+                ],
+                "semantic_path": "Beer made from malt > Stout or porter:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_2",
+                "description_en": "Other, including ale:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22030091",
+                        "description_en": "Of an alcoholic strength by volume not exceeding 5.8% vol.",
+                        "children": [],
+                        "semantic_path": "Beer made from malt > Other, including ale: > Of an alcoholic strength by volume not exceeding 5.8% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22030099",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Beer made from malt > Other, including ale: > Other"
+                    }
+                ],
+                "semantic_path": "Beer made from malt > Other, including ale:"
+            }
+        ],
+        "semantic_path": "Beer made from malt"
+    },
+    {
+        "level": 0,
+        "hs_code": "2204",
+        "description_en": "Wine of fresh grapes, including fortified wines; grape must other than that of heading 20.09",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "22041000",
+                "description_en": "Sparkling wine (excess pressure not less than 3 bars at 20°C)",
+                "children": [],
+                "semantic_path": "Wine of fresh grapes, including fortified wines; grape must other than that of heading 20.09 > Sparkling wine"
+            },
+            {
+                "level": 1,
+                "hs_code": "220421",
+                "description_en": "Other wine; grape must — in containers holding 2 l or less:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Wine:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22042111",
+                                "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers ≤ 2L: > Wine: > Not exceeding 15% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22042113",
+                                "description_en": "Of an alcoholic strength by volume exceeding 15% vol. but not exceeding 23% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers ≤ 2L: > Wine: > Exceeding 15% vol. but not exceeding 23% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22042114",
+                                "description_en": "Of an alcoholic strength by volume exceeding 23% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers ≤ 2L: > Wine: > Exceeding 23% vol."
+                            }
+                        ],
+                        "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers ≤ 2L: > Wine:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_1",
+                        "description_en": "Grape must with fermentation prevented or arrested by the addition of alcohol:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22042121",
+                                "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers ≤ 2L: > Grape must (fermentation arrested): > Not exceeding 15% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22042122",
+                                "description_en": "Of an alcoholic strength by volume exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers ≤ 2L: > Grape must (fermentation arrested): > Exceeding 15% vol."
+                            }
+                        ],
+                        "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers ≤ 2L: > Grape must with fermentation prevented or arrested:"
+                    }
+                ],
+                "semantic_path": "Wine of fresh grapes, including fortified wines; grape must > Other wine; grape must — in containers holding 2 l or less:"
+            },
+            {
+                "level": 1,
+                "hs_code": "220422",
+                "description_en": "Other wine; grape must — in containers holding more than 2 l but not more than 10 l:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_2",
+                        "description_en": "Wine:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22042211",
+                                "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers 2–10L: > Wine: > Not exceeding 15% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22042212",
+                                "description_en": "Of an alcoholic strength by volume exceeding 15% vol. but not exceeding 23% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers 2–10L: > Wine: > Exceeding 15% vol. but not exceeding 23% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22042213",
+                                "description_en": "Of an alcoholic strength by volume exceeding 23% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers 2–10L: > Wine: > Exceeding 23% vol."
+                            }
+                        ],
+                        "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers 2–10L: > Wine:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_3",
+                        "description_en": "Grape must with fermentation prevented or arrested by the addition of alcohol:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22042221",
+                                "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers 2–10L: > Grape must (fermentation arrested): > Not exceeding 15% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22042222",
+                                "description_en": "Of an alcoholic strength by volume exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers 2–10L: > Grape must (fermentation arrested): > Exceeding 15% vol."
+                            }
+                        ],
+                        "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers 2–10L: > Grape must with fermentation prevented or arrested:"
+                    }
+                ],
+                "semantic_path": "Wine of fresh grapes, including fortified wines; grape must > Other wine; grape must — in containers holding more than 2 l but not more than 10 l:"
+            },
+            {
+                "level": 1,
+                "hs_code": "220429",
+                "description_en": "Other wine; grape must — other (containers more than 10 l):",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_4",
+                        "description_en": "Wine:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22042911",
+                                "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers >10L: > Wine: > Not exceeding 15% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22042912",
+                                "description_en": "Of an alcoholic strength by volume exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers >10L: > Wine: > Exceeding 15% vol."
+                            }
+                        ],
+                        "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers >10L: > Wine:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_5",
+                        "description_en": "Grape must with fermentation prevented or arrested by the addition of alcohol:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22042921",
+                                "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers >10L: > Grape must (fermentation arrested): > Not exceeding 15% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22042922",
+                                "description_en": "Of an alcoholic strength by volume exceeding 15% vol.",
+                                "children": [],
+                                "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers >10L: > Grape must (fermentation arrested): > Exceeding 15% vol."
+                            }
+                        ],
+                        "semantic_path": "Wine of fresh grapes; grape must > Other wine; grape must — containers >10L: > Grape must with fermentation prevented or arrested:"
+                    }
+                ],
+                "semantic_path": "Wine of fresh grapes, including fortified wines; grape must > Other wine; grape must — other (containers more than 10 l):"
+            },
+            {
+                "level": 1,
+                "hs_code": "220430",
+                "description_en": "Other grape must:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22043010",
+                        "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                        "children": [],
+                        "semantic_path": "Wine of fresh grapes, including fortified wines; grape must > Other grape must: > Not exceeding 15% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22043020",
+                        "description_en": "Of an alcoholic strength by volume exceeding 15% vol.",
+                        "children": [],
+                        "semantic_path": "Wine of fresh grapes, including fortified wines; grape must > Other grape must: > Exceeding 15% vol."
+                    }
+                ],
+                "semantic_path": "Wine of fresh grapes, including fortified wines; grape must > Other grape must:"
+            }
+        ],
+        "semantic_path": "Wine of fresh grapes, including fortified wines; grape must other than that of heading 20.09"
+    },
+    {
+        "level": 0,
+        "hs_code": "2205",
+        "description_en": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "220510",
+                "description_en": "In containers holding 2 l or less:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22051010",
+                        "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                        "children": [],
+                        "semantic_path": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances > In containers holding 2 l or less: > Not exceeding 15% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22051020",
+                        "description_en": "Of an alcoholic strength by volume exceeding 15% vol.",
+                        "children": [],
+                        "semantic_path": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances > In containers holding 2 l or less: > Exceeding 15% vol."
+                    }
+                ],
+                "semantic_path": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances > In containers holding 2 l or less:"
+            },
+            {
+                "level": 1,
+                "hs_code": "220590",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22059010",
+                        "description_en": "Of an alcoholic strength by volume not exceeding 15% vol.",
+                        "children": [],
+                        "semantic_path": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances > Other: > Not exceeding 15% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22059020",
+                        "description_en": "Of an alcoholic strength by volume exceeding 15% vol.",
+                        "children": [],
+                        "semantic_path": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances > Other: > Exceeding 15% vol."
+                    }
+                ],
+                "semantic_path": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances > Other:"
+            }
+        ],
+        "semantic_path": "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances"
+    },
+    {
+        "level": 0,
+        "hs_code": "2206",
+        "description_en": "Other fermented beverages (for example, cider, perry, mead, saké); mixtures of fermented beverages and mixtures of fermented beverages and non-alcoholic beverages, not elsewhere specified or included",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "22060010",
+                "description_en": "Cider or perry",
+                "children": [],
+                "semantic_path": "Other fermented beverages (cider, perry, mead, saké); mixtures of fermented beverages NESOI > Cider or perry"
+            },
+            {
+                "level": 1,
+                "hs_code": "22060020",
+                "description_en": "Saké",
+                "children": [],
+                "semantic_path": "Other fermented beverages (cider, perry, mead, saké); mixtures of fermented beverages NESOI > Saké"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_3",
+                "description_en": "Coconut palm toddy:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22060031",
+                        "description_en": "In container holding 2 l or less",
+                        "children": [],
+                        "semantic_path": "Other fermented beverages NESOI > Coconut palm toddy: > In container holding 2 l or less"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22060039",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other fermented beverages NESOI > Coconut palm toddy: > Other"
+                    }
+                ],
+                "semantic_path": "Other fermented beverages (cider, perry, mead, saké); mixtures of fermented beverages NESOI > Coconut palm toddy:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_4",
+                "description_en": "Shandy:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22060041",
+                        "description_en": "Of an alcoholic strength by volume not exceeding 1.14% vol.",
+                        "children": [],
+                        "semantic_path": "Other fermented beverages NESOI > Shandy: > Not exceeding 1.14% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22060049",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other fermented beverages NESOI > Shandy: > Other"
+                    }
+                ],
+                "semantic_path": "Other fermented beverages (cider, perry, mead, saké); mixtures of fermented beverages NESOI > Shandy:"
+            },
+            {
+                "level": 1,
+                "hs_code": "22060050",
+                "description_en": "Mead",
+                "children": [],
+                "semantic_path": "Other fermented beverages (cider, perry, mead, saké); mixtures of fermented beverages NESOI > Mead"
+            },
+            {
+                "level": 1,
+                "hs_code": "22060060",
+                "description_en": "Wines obtained by the fermentation of vegetable juices or of fruit juices, other than juice of fresh grapes",
+                "children": [],
+                "semantic_path": "Other fermented beverages (cider, perry, mead, saké); mixtures of fermented beverages NESOI > Wines obtained by the fermentation of vegetable juices or of fruit juices (other than fresh grape juice)"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_5",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22060091",
+                        "description_en": "Other rice wine (including medicated rice wine)",
+                        "children": [],
+                        "semantic_path": "Other fermented beverages NESOI > Other: > Other rice wine (including medicated rice wine)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22060099",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other fermented beverages NESOI > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Other fermented beverages (cider, perry, mead, saké); mixtures of fermented beverages NESOI > Other:"
+            }
+        ],
+        "semantic_path": "Other fermented beverages (for example, cider, perry, mead, saké); mixtures of fermented beverages and mixtures of fermented beverages and non-alcoholic beverages, not elsewhere specified or included"
+    },
+    {
+        "level": 0,
+        "hs_code": "2207",
+        "description_en": "Undenatured ethyl alcohol of an alcoholic strength by volume of 80% vol. or higher; ethyl alcohol and other spirits, denatured, of any strength",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "22071000",
+                "description_en": "Undenatured ethyl alcohol of an alcoholic strength by volume of 80% vol. or higher",
+                "children": [],
+                "semantic_path": "Undenatured ethyl alcohol ≥ 80% vol; denatured ethyl alcohol any strength > Undenatured ethyl alcohol of an alcoholic strength by volume of 80% vol. or higher"
+            },
+            {
+                "level": 1,
+                "hs_code": "220720",
+                "description_en": "Ethyl alcohol and other spirits, denatured, of any strength:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_6",
+                        "description_en": "Denatured ethyl alcohol, including methylated spirits:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22072011",
+                                "description_en": "Ethyl alcohol of an alcoholic strength by volume exceeding 99% vol.",
+                                "children": [],
+                                "semantic_path": "Undenatured ethyl alcohol ≥ 80% vol; denatured ethyl alcohol any strength > Denatured ethyl alcohol, including methylated spirits: > Exceeding 99% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22072019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Undenatured ethyl alcohol ≥ 80% vol; denatured ethyl alcohol any strength > Denatured ethyl alcohol, including methylated spirits: > Other"
+                            }
+                        ],
+                        "semantic_path": "Undenatured ethyl alcohol ≥ 80% vol; denatured ethyl alcohol any strength > Ethyl alcohol and other spirits, denatured: > Denatured ethyl alcohol, including methylated spirits:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22072090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol ≥ 80% vol; denatured ethyl alcohol any strength > Ethyl alcohol and other spirits, denatured: > Other"
+                    }
+                ],
+                "semantic_path": "Undenatured ethyl alcohol ≥ 80% vol; denatured ethyl alcohol any strength > Ethyl alcohol and other spirits, denatured, of any strength:"
+            }
+        ],
+        "semantic_path": "Undenatured ethyl alcohol of an alcoholic strength by volume of 80% vol. or higher; ethyl alcohol and other spirits, denatured, of any strength"
+    },
+    {
+        "level": 0,
+        "hs_code": "2208",
+        "description_en": "Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80% vol.; spirits, liqueurs and other spirituous beverages",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "220820",
+                "description_en": "Spirits obtained by distilling grape wine or grape marc:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22082050",
+                        "description_en": "Brandy",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Spirits from distilling grape wine or grape marc: > Brandy"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22082090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Spirits from distilling grape wine or grape marc: > Other"
+                    }
+                ],
+                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Spirits obtained by distilling grape wine or grape marc:"
+            },
+            {
+                "level": 1,
+                "hs_code": "220830",
+                "description_en": "Whiskies:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22083010",
+                        "description_en": "In containers holding more than 5 l",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Whiskies: > In containers holding more than 5 l"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22083090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Whiskies: > Other"
+                    }
+                ],
+                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Whiskies:"
+            },
+            {
+                "level": 1,
+                "hs_code": "22084000",
+                "description_en": "Rum and other spirits obtained by distilling fermented sugar-cane products",
+                "children": [],
+                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Rum and other spirits obtained by distilling fermented sugar-cane products"
+            },
+            {
+                "level": 1,
+                "hs_code": "22085000",
+                "description_en": "Gin and Geneva",
+                "children": [],
+                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Gin and Geneva"
+            },
+            {
+                "level": 1,
+                "hs_code": "22086000",
+                "description_en": "Vodka",
+                "children": [],
+                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Vodka"
+            },
+            {
+                "level": 1,
+                "hs_code": "220870",
+                "description_en": "Liqueurs and cordials:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22087010",
+                        "description_en": "Of an alcoholic strength by volume not exceeding 57% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Liqueurs and cordials: > Not exceeding 57% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22087090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Liqueurs and cordials: > Other"
+                    }
+                ],
+                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Liqueurs and cordials:"
+            },
+            {
+                "level": 1,
+                "hs_code": "220890",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "22089010",
+                        "description_en": "Medicated samsu of an alcoholic strength by volume not exceeding 40% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Medicated samsu not exceeding 40% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22089020",
+                        "description_en": "Medicated samsu of an alcoholic strength by volume exceeding 40% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Medicated samsu exceeding 40% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22089030",
+                        "description_en": "Other samsu of an alcoholic strength by volume not exceeding 40% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Other samsu not exceeding 40% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22089040",
+                        "description_en": "Other samsu of an alcoholic strength by volume exceeding 40% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Other samsu exceeding 40% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22089050",
+                        "description_en": "Arrack or pineapple spirit of an alcoholic strength by volume not exceeding 40% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Arrack or pineapple spirit not exceeding 40% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22089060",
+                        "description_en": "Arrack or pineapple spirit of an alcoholic strength by volume exceeding 40% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Arrack or pineapple spirit exceeding 40% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22089070",
+                        "description_en": "Bitters and similar beverages of an alcoholic strength not exceeding 57% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Bitters and similar beverages not exceeding 57% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "22089080",
+                        "description_en": "Bitters and similar beverages of an alcoholic strength exceeding 57% vol.",
+                        "children": [],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Bitters and similar beverages exceeding 57% vol."
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_7",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "22089091",
+                                "description_en": "Of an alcoholic strength by volume not exceeding 1.14% vol.",
+                                "children": [],
+                                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Other: > Not exceeding 1.14% vol."
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "22089099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Undenatured ethyl alcohol < 80% vol; spirits, liqueurs and other spirituous beverages > Other:"
+            }
+        ],
+        "semantic_path": "Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80% vol.; spirits, liqueurs and other spirituous beverages"
+    },
+    {
+        "level": 0,
+        "hs_code": "22090000",
+        "description_en": "Vinegar and substitutes for vinegar obtained from acetic acid",
+        "children": [],
+        "semantic_path": "Vinegar and substitutes for vinegar obtained from acetic acid"
+    }
+]

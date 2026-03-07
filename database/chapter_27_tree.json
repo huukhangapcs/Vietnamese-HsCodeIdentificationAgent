@@ -1,0 +1,300 @@
+[
+    {
+        "level": 0, "hs_code": "2701",
+        "description_en": "Coal; briquettes, ovoids and similar solid fuels manufactured from coal",
+        "children": [
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Coal, whether or not pulverised, but not agglomerated:",
+                "children": [
+                    {"level": 2, "hs_code": "27011100", "description_en": "Anthracite (volatile matter ≤14%, dry mineral-matter-free basis)", "children": [], "semantic_path": "Coal; briquettes and similar solid fuels > Coal not agglomerated: > Anthracite"},
+                    {
+                        "level": 2, "hs_code": "270112", "description_en": "Bituminous coal (volatile matter >14%, calorific value ≥5,833 kcal/kg):",
+                        "children": [
+                            {"level": 3, "hs_code": "27011210", "description_en": "Coking coal", "children": [], "semantic_path": "Coal; briquettes and similar solid fuels > Coal not agglomerated: > Bituminous coal: > Coking coal"},
+                            {"level": 3, "hs_code": "27011290", "description_en": "Other", "children": [], "semantic_path": "Coal; briquettes and similar solid fuels > Coal not agglomerated: > Bituminous coal: > Other"}
+                        ],
+                        "semantic_path": "Coal; briquettes and similar solid fuels > Coal not agglomerated: > Bituminous coal:"
+                    },
+                    {"level": 2, "hs_code": "27011900", "description_en": "Other coal", "children": [], "semantic_path": "Coal; briquettes and similar solid fuels > Coal not agglomerated: > Other coal"}
+                ],
+                "semantic_path": "Coal; briquettes and similar solid fuels > Coal, whether or not pulverised, but not agglomerated:"
+            },
+            {"level": 1, "hs_code": "27012000", "description_en": "Briquettes, ovoids and similar solid fuels manufactured from coal", "children": [], "semantic_path": "Coal; briquettes and similar solid fuels > Briquettes, ovoids and similar solid fuels manufactured from coal"}
+        ],
+        "semantic_path": "Coal; briquettes, ovoids and similar solid fuels manufactured from coal"
+    },
+    {
+        "level": 0, "hs_code": "2702", "description_en": "Lignite, whether or not agglomerated, excluding jet",
+        "children": [
+            {"level": 1, "hs_code": "27021000", "description_en": "Lignite, whether or not pulverised, but not agglomerated", "children": [], "semantic_path": "Lignite (brown coal), whether or not agglomerated, excluding jet > Lignite, not agglomerated"},
+            {"level": 1, "hs_code": "27022000", "description_en": "Agglomerated lignite", "children": [], "semantic_path": "Lignite (brown coal), whether or not agglomerated, excluding jet > Agglomerated lignite"}
+        ],
+        "semantic_path": "Lignite (brown coal), whether or not agglomerated, excluding jet"
+    },
+    {
+        "level": 0, "hs_code": "2703", "description_en": "Peat (including peat litter), whether or not agglomerated",
+        "children": [
+            {"level": 1, "hs_code": "27030010", "description_en": "Peat, whether or not compressed into bales, but not agglomerated", "children": [], "semantic_path": "Peat (including peat litter), whether or not agglomerated > Peat, not agglomerated"},
+            {"level": 1, "hs_code": "27030020", "description_en": "Agglomerated peat", "children": [], "semantic_path": "Peat (including peat litter), whether or not agglomerated > Agglomerated peat"}
+        ],
+        "semantic_path": "Peat (including peat litter), whether or not agglomerated"
+    },
+    {
+        "level": 0, "hs_code": "2704", "description_en": "Coke and semi-coke of coal, of lignite or of peat, whether or not agglomerated; retort carbon",
+        "children": [
+            {"level": 1, "hs_code": "27040010", "description_en": "Coke and semi-coke of coal", "children": [], "semantic_path": "Coke and semi-coke of coal/lignite/peat; retort carbon > Coke and semi-coke of coal"},
+            {"level": 1, "hs_code": "27040020", "description_en": "Coke and semi-coke of lignite or of peat", "children": [], "semantic_path": "Coke and semi-coke of coal/lignite/peat; retort carbon > Coke and semi-coke of lignite or of peat"},
+            {"level": 1, "hs_code": "27040030", "description_en": "Retort carbon", "children": [], "semantic_path": "Coke and semi-coke of coal/lignite/peat; retort carbon > Retort carbon"}
+        ],
+        "semantic_path": "Coke and semi-coke of coal, of lignite or of peat, whether or not agglomerated; retort carbon"
+    },
+    {"level": 0, "hs_code": "27050000", "description_en": "Coal gas, water gas, producer gas and similar gases, other than petroleum gases and other gaseous hydrocarbons", "children": [], "semantic_path": "Coal gas, water gas, producer gas and similar gases (other than petroleum gases and other gaseous hydrocarbons)"},
+    {"level": 0, "hs_code": "27060000", "description_en": "Tar distilled from coal, from lignite or from peat, and other mineral tars, whether or not dehydrated or partially distilled, including reconstituted tars", "children": [], "semantic_path": "Tar distilled from coal, lignite or peat, and other mineral tars, whether or not dehydrated or partially distilled, including reconstituted tars"},
+    {
+        "level": 0, "hs_code": "2707", "description_en": "Oils and other products of the distillation of high temperature coal tar; similar products in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents",
+        "children": [
+            {"level": 1, "hs_code": "27071000", "description_en": "Benzol (benzene) — containing >50% by weight of benzene", "children": [], "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Benzol (benzene)"},
+            {"level": 1, "hs_code": "27072000", "description_en": "Toluol (toluene) — containing >50% by weight of toluene", "children": [], "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Toluol (toluene)"},
+            {"level": 1, "hs_code": "27073000", "description_en": "Xylol (xylenes) — containing >50% by weight of xylenes", "children": [], "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Xylol (xylenes)"},
+            {"level": 1, "hs_code": "27074000", "description_en": "Naphthalene — containing >50% by weight of naphthalene", "children": [], "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Naphthalene"},
+            {"level": 1, "hs_code": "27075000", "description_en": "Other aromatic hydrocarbon mixtures of which 65% or more by volume distils at 250°C (ISO 3405)", "children": [], "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Other aromatic hydrocarbon mixtures (≥65% vol distils at 250°C)"},
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_1", "description_en": "Other:",
+                "children": [
+                    {"level": 2, "hs_code": "27079100", "description_en": "Creosote oils", "children": [], "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Other: > Creosote oils"},
+                    {
+                        "level": 2, "hs_code": "270799", "description_en": "Other:",
+                        "children": [
+                            {"level": 3, "hs_code": "27079910", "description_en": "Carbon black feedstock", "children": [], "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Other: > Other: > Carbon black feedstock"},
+                            {"level": 3, "hs_code": "27079990", "description_en": "Other", "children": [], "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Other: > Other: > Other"}
+                        ],
+                        "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Oils from distillation of high-temp coal tar (aromatic > non-aromatic) > Other:"
+            }
+        ],
+        "semantic_path": "Oils and other products of the distillation of high temperature coal tar; similar products in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents"
+    },
+    {
+        "level": 0, "hs_code": "2708", "description_en": "Pitch and pitch coke, obtained from coal tar or from other mineral tars",
+        "children": [
+            {"level": 1, "hs_code": "27081000", "description_en": "Pitch", "children": [], "semantic_path": "Pitch and pitch coke from coal tar or other mineral tars > Pitch"},
+            {"level": 1, "hs_code": "27082000", "description_en": "Pitch coke", "children": [], "semantic_path": "Pitch and pitch coke from coal tar or other mineral tars > Pitch coke"}
+        ],
+        "semantic_path": "Pitch and pitch coke, obtained from coal tar or from other mineral tars"
+    },
+    {
+        "level": 0, "hs_code": "2709", "description_en": "Petroleum oils and oils obtained from bituminous minerals, crude",
+        "children": [
+            {"level": 1, "hs_code": "27090010", "description_en": "Crude petroleum oils", "children": [], "semantic_path": "Petroleum oils and oils obtained from bituminous minerals, CRUDE > Crude petroleum oils"},
+            {"level": 1, "hs_code": "27090020", "description_en": "Condensates", "children": [], "semantic_path": "Petroleum oils and oils obtained from bituminous minerals, CRUDE > Condensates"},
+            {"level": 1, "hs_code": "27090090", "description_en": "Other", "children": [], "semantic_path": "Petroleum oils and oils obtained from bituminous minerals, CRUDE > Other"}
+        ],
+        "semantic_path": "Petroleum oils and oils obtained from bituminous minerals, crude"
+    },
+    {
+        "level": 0, "hs_code": "2710",
+        "description_en": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations NESOI containing ≥70% by weight of petroleum oils; waste oils",
+        "children": [
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_2",
+                "description_en": "Petroleum oils (non-crude) and preparations ≥70% petroleum, excl. biodiesel-containing and waste oils:",
+                "children": [
+                    {
+                        "level": 2, "hs_code": "271012", "description_en": "Light oils and preparations (≥90% vol distils at 210°C per ISO 3405):",
+                        "children": [
+                            {
+                                "level": 3, "hs_code": "PSEUDO_NODE_3_0", "description_en": "Motor spirit, leaded:",
+                                "children": [
+                                    {"level": 4, "hs_code": "27101211", "description_en": "RON 97 and above", "children": [], "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Light oils: > Motor spirit leaded: > RON 97 and above"},
+                                    {"level": 4, "hs_code": "27101212", "description_en": "RON 90 and above but below RON 97", "children": [], "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Light oils: > Motor spirit leaded: > RON 90–97"},
+                                    {"level": 4, "hs_code": "27101213", "description_en": "Of other RON", "children": [], "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Light oils: > Motor spirit leaded: > Other RON"}
+                                ],
+                                "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Light oils: > Motor spirit, leaded:"
+                            },
+                            {
+                                "level": 3, "hs_code": "PSEUDO_NODE_3_1", "description_en": "Motor spirit, unleaded:",
+                                "children": [
+                                    {"level": 4, "hs_code": "27101221", "description_en": "RON 97 and above — Unblended", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > RON 97+, Unblended"},
+                                    {"level": 4, "hs_code": "27101222", "description_en": "RON 97 and above — Blended with ethanol", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > RON 97+, Blended with ethanol"},
+                                    {"level": 4, "hs_code": "27101223", "description_en": "RON 97 and above — Other", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > RON 97+, Other"},
+                                    {"level": 4, "hs_code": "27101224", "description_en": "RON 90–97 — Unblended", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > RON 90–97, Unblended"},
+                                    {"level": 4, "hs_code": "27101225", "description_en": "RON 90–97 — Blended with ethanol", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > RON 90–97, Blended with ethanol"},
+                                    {"level": 4, "hs_code": "27101226", "description_en": "RON 90–97 — Other", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > RON 90–97, Other"},
+                                    {"level": 4, "hs_code": "27101227", "description_en": "Other RON — Unblended", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > Other RON, Unblended"},
+                                    {"level": 4, "hs_code": "27101228", "description_en": "Other RON — Blended with ethanol", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > Other RON, Blended with ethanol"},
+                                    {"level": 4, "hs_code": "27101229", "description_en": "Other RON — Other", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Motor spirit unleaded: > Other RON, Other"}
+                                ],
+                                "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Light oils: > Motor spirit, unleaded:"
+                            },
+                            {
+                                "level": 3, "hs_code": "PSEUDO_NODE_3_2", "description_en": "Aviation spirit, of a kind used in aviation piston-engines:",
+                                "children": [
+                                    {"level": 4, "hs_code": "27101231", "description_en": "100 octane and above", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Aviation spirit: > 100 octane and above"},
+                                    {"level": 4, "hs_code": "27101239", "description_en": "Other", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Aviation spirit: > Other"}
+                                ],
+                                "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Light oils: > Aviation spirit:"
+                            },
+                            {"level": 3, "hs_code": "27101240", "description_en": "Tetrapropylene", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Tetrapropylene"},
+                            {"level": 3, "hs_code": "27101250", "description_en": "White spirit", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > White spirit"},
+                            {"level": 3, "hs_code": "27101260", "description_en": "Low aromatic solvents (less than 1% aromatic content by weight)", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Low aromatic solvents <1% aromatic"},
+                            {"level": 3, "hs_code": "27101270", "description_en": "Other solvent spirits", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Other solvent spirits"},
+                            {"level": 3, "hs_code": "27101280", "description_en": "Naphtha, reformates and other preparations for blending into motor spirits", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Naphtha, reformates and preparations for blending into motor spirits"},
+                            {
+                                "level": 3, "hs_code": "PSEUDO_NODE_3_3", "description_en": "Other:",
+                                "children": [
+                                    {"level": 4, "hs_code": "27101291", "description_en": "Alpha olefins", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Other: > Alpha olefins"},
+                                    {"level": 4, "hs_code": "27101292", "description_en": "Other petroleum spirit, flash point less than 23°C", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Other: > Other petroleum spirit, flash point <23°C"},
+                                    {"level": 4, "hs_code": "27101299", "description_en": "Other", "children": [], "semantic_path": "Petroleum oils (non-crude) > Light oils: > Other: > Other"}
+                                ],
+                                "semantic_path": "Petroleum oils (non-crude) > Light oils: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Light oils and preparations (≥90% vol distils at 210°C):"
+                    },
+                    {
+                        "level": 2, "hs_code": "271019", "description_en": "Other petroleum oils and preparations (medium and heavy oils):",
+                        "children": [
+                            {"level": 3, "hs_code": "27101920", "description_en": "Topped crudes (dầu thô đã tách phần nhẹ)", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Topped crudes"},
+                            {"level": 3, "hs_code": "27101930", "description_en": "Carbon black feedstock", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Carbon black feedstock"},
+                            {
+                                "level": 3, "hs_code": "PSEUDO_NODE_3_4", "description_en": "Lubricating oils and greases:",
+                                "children": [
+                                    {"level": 4, "hs_code": "27101941", "description_en": "Lubricating oil feedstock", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Lubricating oils and greases: > Lubricating oil feedstock"},
+                                    {"level": 4, "hs_code": "27101942", "description_en": "Lubricating oils for aircraft engines", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Lubricating oils and greases: > For aircraft engines"},
+                                    {"level": 4, "hs_code": "27101944", "description_en": "Lubricating greases", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Lubricating oils and greases: > Lubricating greases"},
+                                    {"level": 4, "hs_code": "27101945", "description_en": "Lubricating oils for textile", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Lubricating oils and greases: > For textile"},
+                                    {"level": 4, "hs_code": "27101946", "description_en": "Other lubricating oils", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Lubricating oils and greases: > Other lubricating oils"}
+                                ],
+                                "semantic_path": "Petroleum oils (non-crude) > Other oils: > Lubricating oils and greases:"
+                            },
+                            {"level": 3, "hs_code": "27101950", "description_en": "Hydraulic brake fluid", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Hydraulic brake fluid"},
+                            {"level": 3, "hs_code": "27101960", "description_en": "Transformer and circuit breakers oils", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Transformer and circuit breakers oils"},
+                            {
+                                "level": 3, "hs_code": "PSEUDO_NODE_3_5", "description_en": "Diesel fuel; fuel oils:",
+                                "children": [
+                                    {"level": 4, "hs_code": "27101971", "description_en": "Automotive diesel fuel", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Diesel fuel; fuel oils: > Automotive diesel fuel"},
+                                    {"level": 4, "hs_code": "27101972", "description_en": "Other diesel fuels", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Diesel fuel; fuel oils: > Other diesel fuels"},
+                                    {"level": 4, "hs_code": "27101979", "description_en": "Fuel oils (heavy fuel oil)", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Diesel fuel; fuel oils: > Fuel oils"}
+                                ],
+                                "semantic_path": "Petroleum oils (non-crude) > Other oils: > Diesel fuel; fuel oils:"
+                            },
+                            {"level": 3, "hs_code": "27101981", "description_en": "Aviation turbine fuel (jet fuel) with flash point of 23°C or more", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Aviation turbine fuel (jet fuel), flash point ≥23°C"},
+                            {"level": 3, "hs_code": "27101982", "description_en": "Aviation turbine fuel (jet fuel) with flash point of less than 23°C", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Aviation turbine fuel (jet fuel), flash point <23°C"},
+                            {"level": 3, "hs_code": "27101983", "description_en": "Other kerosene", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Other kerosene"},
+                            {"level": 3, "hs_code": "27101989", "description_en": "Other medium oils and preparations", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Other medium oils and preparations"},
+                            {"level": 3, "hs_code": "27101990", "description_en": "Other", "children": [], "semantic_path": "Petroleum oils (non-crude) > Other oils: > Other"}
+                        ],
+                        "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Other petroleum oils and preparations (medium and heavy oils):"
+                    }
+                ],
+                "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Petroleum oils (non-crude) and preparations ≥70%, excl. biodiesel-containing and waste oils:"
+            },
+            {"level": 1, "hs_code": "27102000", "description_en": "Petroleum oils (non-crude) and preparations ≥70% petroleum containing BIODIESEL, other than waste oils", "children": [], "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Containing biodiesel, other than waste oils"},
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_3", "description_en": "Waste oils:",
+                "children": [
+                    {"level": 2, "hs_code": "27109100", "description_en": "Containing polychlorinated biphenyls (PCBs), polychlorinated terphenyls (PCTs) or polybrominated biphenyls (PBBs)", "children": [], "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Waste oils: > Containing PCBs, PCTs or PBBs"},
+                    {"level": 2, "hs_code": "27109900", "description_en": "Other waste oils", "children": [], "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Waste oils: > Other waste oils"}
+                ],
+                "semantic_path": "Petroleum oils (non-crude); preparations ≥70% petroleum; waste oils > Waste oils:"
+            }
+        ],
+        "semantic_path": "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations NESOI containing ≥70% by weight of petroleum oils; waste oils"
+    },
+    {
+        "level": 0, "hs_code": "2711", "description_en": "Petroleum gases and other gaseous hydrocarbons",
+        "children": [
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_4", "description_en": "Liquefied:",
+                "children": [
+                    {"level": 2, "hs_code": "27111100", "description_en": "Natural gas (LNG)", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > Liquefied: > Natural gas (LNG)"},
+                    {"level": 2, "hs_code": "27111200", "description_en": "Propane (LPG propane)", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > Liquefied: > Propane"},
+                    {"level": 2, "hs_code": "27111300", "description_en": "Butanes (LPG butane)", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > Liquefied: > Butanes"},
+                    {
+                        "level": 2, "hs_code": "271114", "description_en": "Ethylene, propylene, butylene and butadiene:",
+                        "children": [
+                            {"level": 3, "hs_code": "27111410", "description_en": "Ethylene", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > Liquefied: > Ethylene, propylene, butylene, butadiene: > Ethylene"},
+                            {"level": 3, "hs_code": "27111490", "description_en": "Other (propylene, butylene, butadiene)", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > Liquefied: > Ethylene, propylene, butylene, butadiene: > Other"}
+                        ],
+                        "semantic_path": "Petroleum gases and other gaseous hydrocarbons > Liquefied: > Ethylene, propylene, butylene and butadiene:"
+                    },
+                    {"level": 2, "hs_code": "27111900", "description_en": "Other liquefied", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > Liquefied: > Other"}
+                ],
+                "semantic_path": "Petroleum gases and other gaseous hydrocarbons > Liquefied:"
+            },
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_5", "description_en": "In gaseous state:",
+                "children": [
+                    {
+                        "level": 2, "hs_code": "271121", "description_en": "Natural gas (CNG):",
+                        "children": [
+                            {"level": 3, "hs_code": "27112110", "description_en": "Of a kind used as a motor fuel (CNG)", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > In gaseous state: > Natural gas: > CNG for motor fuel"},
+                            {"level": 3, "hs_code": "27112190", "description_en": "Other", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > In gaseous state: > Natural gas: > Other"}
+                        ],
+                        "semantic_path": "Petroleum gases and other gaseous hydrocarbons > In gaseous state: > Natural gas:"
+                    },
+                    {"level": 2, "hs_code": "27112900", "description_en": "Other gaseous", "children": [], "semantic_path": "Petroleum gases and other gaseous hydrocarbons > In gaseous state: > Other"}
+                ],
+                "semantic_path": "Petroleum gases and other gaseous hydrocarbons > In gaseous state:"
+            }
+        ],
+        "semantic_path": "Petroleum gases and other gaseous hydrocarbons"
+    },
+    {
+        "level": 0, "hs_code": "2712", "description_en": "Petroleum jelly; paraffin wax, microcrystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or by other processes, whether or not coloured",
+        "children": [
+            {"level": 1, "hs_code": "27121000", "description_en": "Petroleum jelly (vaseline)", "children": [], "semantic_path": "Petroleum jelly; paraffin wax; mineral waxes; similar synthetic waxes > Petroleum jelly (vaseline)"},
+            {"level": 1, "hs_code": "27122000", "description_en": "Paraffin wax containing by weight less than 0.75% of oil", "children": [], "semantic_path": "Petroleum jelly; paraffin wax; mineral waxes; similar synthetic waxes > Paraffin wax containing less than 0.75% oil by weight"},
+            {
+                "level": 1, "hs_code": "271290", "description_en": "Other:",
+                "children": [
+                    {"level": 2, "hs_code": "27129010", "description_en": "Paraffin wax (containing 0.75% or more oil)", "children": [], "semantic_path": "Petroleum jelly; paraffin wax; mineral waxes; similar synthetic waxes > Other: > Paraffin wax"},
+                    {"level": 2, "hs_code": "27129090", "description_en": "Other (ozokerite, lignite wax, peat wax, microcrystalline wax, other mineral waxes)", "children": [], "semantic_path": "Petroleum jelly; paraffin wax; mineral waxes; similar synthetic waxes > Other: > Other"}
+                ],
+                "semantic_path": "Petroleum jelly; paraffin wax; mineral waxes; similar synthetic waxes > Other:"
+            }
+        ],
+        "semantic_path": "Petroleum jelly; paraffin wax, microcrystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or other processes"
+    },
+    {
+        "level": 0, "hs_code": "2713", "description_en": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals",
+        "children": [
+            {
+                "level": 1, "hs_code": "PSEUDO_NODE_1_6", "description_en": "Petroleum coke:",
+                "children": [
+                    {"level": 2, "hs_code": "27131100", "description_en": "Not calcined", "children": [], "semantic_path": "Petroleum coke; petroleum bitumen; other petroleum residues > Petroleum coke: > Not calcined"},
+                    {"level": 2, "hs_code": "27131200", "description_en": "Calcined", "children": [], "semantic_path": "Petroleum coke; petroleum bitumen; other petroleum residues > Petroleum coke: > Calcined"}
+                ],
+                "semantic_path": "Petroleum coke; petroleum bitumen; other petroleum residues > Petroleum coke:"
+            },
+            {"level": 1, "hs_code": "27132000", "description_en": "Petroleum bitumen", "children": [], "semantic_path": "Petroleum coke; petroleum bitumen; other petroleum residues > Petroleum bitumen"},
+            {"level": 1, "hs_code": "27139000", "description_en": "Other residues of petroleum oils or of oils obtained from bituminous minerals", "children": [], "semantic_path": "Petroleum coke; petroleum bitumen; other petroleum residues > Other residues of petroleum oils"}
+        ],
+        "semantic_path": "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals"
+    },
+    {
+        "level": 0, "hs_code": "2714", "description_en": "Bitumen and asphalt, natural; bituminous or oil shale and tar sands; asphaltites and asphaltic rocks",
+        "children": [
+            {"level": 1, "hs_code": "27141000", "description_en": "Bituminous or oil shale and tar sands", "children": [], "semantic_path": "Natural bitumen and asphalt; oil shale; tar sands; asphaltites > Bituminous or oil shale and tar sands"},
+            {"level": 1, "hs_code": "27149000", "description_en": "Other (natural bitumen, natural asphalt, asphaltites and asphaltic rocks)", "children": [], "semantic_path": "Natural bitumen and asphalt; oil shale; tar sands; asphaltites > Other"}
+        ],
+        "semantic_path": "Bitumen and asphalt, natural; bituminous or oil shale and tar sands; asphaltites and asphaltic rocks"
+    },
+    {
+        "level": 0, "hs_code": "2715", "description_en": "Bituminous mixtures based on natural asphalt, on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (for example, bituminous mastics, cut-backs)",
+        "children": [
+            {"level": 1, "hs_code": "27150010", "description_en": "Polyurethane tar coatings", "children": [], "semantic_path": "Bituminous mixtures (mastics, cut-backs) based on asphalt, bitumen, petroleum bitumen, mineral tar or tar pitch > Polyurethane tar coatings"},
+            {"level": 1, "hs_code": "27150090", "description_en": "Other", "children": [], "semantic_path": "Bituminous mixtures (mastics, cut-backs) based on asphalt, bitumen, petroleum bitumen, mineral tar or tar pitch > Other"}
+        ],
+        "semantic_path": "Bituminous mixtures based on natural asphalt, natural bitumen, petroleum bitumen, mineral tar or mineral tar pitch (mastics, cut-backs)"
+    },
+    {
+        "level": 0, "hs_code": "27160000",
+        "description_en": "Electrical energy",
+        "children": [],
+        "semantic_path": "Electrical energy"
+    }
+]

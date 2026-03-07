@@ -1,0 +1,91 @@
+{
+    "chapter_code": "23",
+    "inclusions": [
+        "Flours, meals and pellets of meat or meat offal, of fish, crustaceans, molluscs or other aquatic invertebrates — unfit for human consumption; greaves (rendered fat residues from meat processing)",
+        "Bran, sharps and other residues from sifting, milling or other working of cereals (maize, wheat, rice, other cereals) or leguminous plants — whether or not in pellet form",
+        "Residues of starch manufacture (including from manioc/cassava, sago); beet-pulp, bagasse and other waste of sugar manufacture; brewing or distilling dregs and waste",
+        "Oil-cake and other solid residues from extraction of soya-bean oil (including defatted soya flour and soya meal fit for human consumption)",
+        "Oil-cake and other solid residues from extraction of ground-nut (peanut) oil",
+        "Oil-cake and other solid residues from extraction of other vegetable or microbial fats or oils (cotton, linseed, sunflower, rape/colza, coconut/copra, palm nut/kernel, maize germ, other)",
+        "Wine lees; argol (crude potassium tartrate from wine)",
+        "Vegetable materials and vegetable waste, vegetable residues and by-products of a kind used in animal feeding, not elsewhere specified or included",
+        "Preparations of a kind used in animal feeding: dog or cat food put up for retail sale; complete feed for livestock and aquaculture; premixes, feed supplements and feed additives"
+    ],
+    "exclusions": [
+        {
+            "condition": "Fish flour, meat flour or similar products that are fit for human consumption",
+            "action": "Redirect to appropriate food chapter (Chapter 3, 16, or 11) — Chapter 23 covers only items UNFIT for human consumption (except special cases in 23.04 for defatted soya flour)",
+            "keywords": [
+                "fit for human consumption",
+                "food grade",
+                "edible"
+            ]
+        },
+        {
+            "condition": "Vegetable waste, vegetable residues and by-products from processing that retain characteristics of original material — these go to 23.08, NOT 23.09",
+            "action": "Redirect to heading 23.08 (vegetable waste NESOI for animal feeding)",
+            "keywords": [
+                "vegetable waste",
+                "vegetable residue",
+                "by-product of processing"
+            ]
+        },
+        {
+            "condition": "Oil-cake from soya-bean oil extraction → heading 23.04 (not 23.06)",
+            "action": "Redirect to Heading 23.04",
+            "keywords": [
+                "soybean",
+                "soya bean",
+                "soya-bean cake",
+                "23.04"
+            ]
+        },
+        {
+            "condition": "Oil-cake from ground-nut (peanut) oil extraction → heading 23.05 (not 23.06)",
+            "action": "Redirect to Heading 23.05",
+            "keywords": [
+                "groundnut",
+                "ground-nut",
+                "peanut cake",
+                "23.05"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Heading 23.09 scope — processed animal feed that has lost original material characteristics",
+            "description": "Heading 23.09 covers preparations used in animal feeding, NOT elsewhere specified, obtained by processing vegetable or animal materials to the extent that they have LOST THE ESSENTIAL CHARACTERISTICS of the original material. Key: significant processing must have occurred. HOWEVER, vegetable waste, vegetable residues and by-products of such processing do NOT fall into 23.09 — they go into 23.08 instead.",
+            "priority": 1
+        },
+        {
+            "rule": "Fish flour protein content determines sub-classification within 2301.20",
+            "description": "Fish flours, meals and pellets under heading 2301.20 are split by protein content: 2301.20.10 = protein content LESS THAN 60% by weight; 2301.20.20 = protein content OF 60% OR MORE by weight. This threshold (60%) is the critical subheading distinction within fish meal.",
+            "priority": 2
+        },
+        {
+            "rule": "Oil-cake hierarchy: 2304 → 2305 → 2306",
+            "description": "Oil-cake classification follows a strict hierarchy: (1) From soya-bean oil → 23.04; (2) From ground-nut oil → 23.05; (3) From ALL OTHER vegetable/microbial oils (cotton, linseed, sunflower, rape/colza, coconut, palm, maize germ, etc.) → 23.06. The 'other' category 23.06 explicitly excludes headings 23.04 and 23.05.",
+            "priority": 3
+        },
+        {
+            "rule": "Soya-bean products in 23.04 may be fit for human consumption",
+            "description": "Unlike most of Chapter 23 (residues unfit for humans), heading 23.04 can include: defatted soya-bean flour fit for human consumption (2304.00.10) and soya-bean meal fit for human consumption (2304.00.21). These are classified in Chapter 23 because they are residues from oil extraction, even though edible.",
+            "priority": 4
+        },
+        {
+            "rule": "Low erucic acid rape/colza seed definition for 2306.41",
+            "description": "The expression 'low erucic acid rape or colza seeds' for subheading 2306.41 refers to seeds as defined in Subheading Note 1 to Chapter 12. This definition must be cross-referenced to Chapter 12 subheading notes to determine whether the seeds qualify as 'low erucic acid'.",
+            "priority": 5
+        },
+        {
+            "rule": "2302 covers milling residues from cereals AND leguminous plants",
+            "description": "Heading 23.02 covers bran, sharps and similar residues from sifting, milling or other working of BOTH cereals (maize, wheat, rice, other cereals) AND leguminous plants. Residues from leguminous plants (peas, beans, lentils, etc.) → 2302.50.",
+            "priority": 6
+        },
+        {
+            "rule": "Dog/cat food retail packing always → 2309.10",
+            "description": "Dog or cat food PUT UP FOR RETAIL SALE → 2309.10 regardless of composition. If containing meat → 2309.10.10; other (grain-based, vegetarian) → 2309.10.90. Industrial/bulk animal feed for all species (poultry, swine, fish, primates, etc.) falls under 2309.90.",
+            "priority": 7
+        }
+    ]
+}

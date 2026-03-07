@@ -1,0 +1,34 @@
+[
+  {
+    "level": 0, "hs_code": "2812",
+    "description_en": "Halides and halide oxides of non-metals",
+    "semantic_path": "Sub-Chapter III: Halogen or Sulphur Compounds of Non-metals > Halides and halide oxides of non-metals",
+    "children": [
+      {
+        "level": 1, "hs_code": "PSEUDO_2812_1",
+        "description_en": "Chlorides and chloride oxides:",
+        "semantic_path": "Halogen/Sulphur Compounds > Halides and halide oxides of non-metals > Chlorides and chloride oxides:",
+        "children": [
+          {"level": 2, "hs_code": "28121100", "description_en": "Carbonyl dichloride (phosgene, COCl2)", "children": [], "semantic_path": "Non-metal halides > Chlorides and chloride oxides: > Phosgene (COCl2)"},
+          {"level": 2, "hs_code": "28121200", "description_en": "Phosphorus oxychloride (POCl3)", "children": [], "semantic_path": "Non-metal halides > Chlorides and chloride oxides: > Phosphorus oxychloride"},
+          {"level": 2, "hs_code": "28121300", "description_en": "Phosphorus trichloride (PCl3)", "children": [], "semantic_path": "Non-metal halides > Chlorides and chloride oxides: > Phosphorus trichloride"},
+          {"level": 2, "hs_code": "28121400", "description_en": "Phosphorus pentachloride (PCl5)", "children": [], "semantic_path": "Non-metal halides > Chlorides and chloride oxides: > Phosphorus pentachloride"},
+          {"level": 2, "hs_code": "28121500", "description_en": "Sulphur monochloride (S2Cl2)", "children": [], "semantic_path": "Non-metal halides > Chlorides and chloride oxides: > Sulphur monochloride"},
+          {"level": 2, "hs_code": "28121600", "description_en": "Sulphur dichloride (SCl2)", "children": [], "semantic_path": "Non-metal halides > Chlorides and chloride oxides: > Sulphur dichloride"},
+          {"level": 2, "hs_code": "28121700", "description_en": "Thionyl chloride (SOCl2)", "children": [], "semantic_path": "Non-metal halides > Chlorides and chloride oxides: > Thionyl chloride"},
+          {"level": 2, "hs_code": "28121900", "description_en": "Other (other chlorides and chloride oxides of non-metals)", "children": [], "semantic_path": "Non-metal halides > Chlorides and chloride oxides: > Other"}
+        ]
+      },
+      {"level": 1, "hs_code": "28129000", "description_en": "Other (fluorides, bromides, iodides and their oxides of non-metals)", "children": [], "semantic_path": "Halogen/Sulphur Compounds > Halides and halide oxides of non-metals > Other"}
+    ]
+  },
+  {
+    "level": 0, "hs_code": "2813",
+    "description_en": "Sulphides of non-metals; commercial phosphorus trisulphide",
+    "semantic_path": "Sub-Chapter III: Halogen or Sulphur Compounds of Non-metals > Sulphides of non-metals; commercial phosphorus trisulphide",
+    "children": [
+      {"level": 1, "hs_code": "28131000", "description_en": "Carbon disulphide (CS2)", "children": [], "semantic_path": "Halogen/Sulphur Compounds > Sulphides of non-metals > Carbon disulphide (CS2)"},
+      {"level": 1, "hs_code": "28139000", "description_en": "Other (P trisulphide, N sulphides, other non-metal sulphides)", "children": [], "semantic_path": "Halogen/Sulphur Compounds > Sulphides of non-metals > Other"}
+    ]
+  }
+]

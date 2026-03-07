@@ -1,0 +1,121 @@
+{
+    "chapter_code": "22",
+    "inclusions": [
+        "Waters including natural or artificial mineral waters and aerated waters, not containing added sugar, sweetening matter or flavouring; ice and snow",
+        "Waters (mineral or aerated) containing added sugar, sweetening matter or flavouring; other non-alcoholic beverages (alcoholic strength not exceeding 0.5% vol) excluding fruit/nut/vegetable juices of heading 20.09 — includes energy drinks, non-alcoholic beer, soya milk drinks, coconut water-based drinks, coffee-based drinks",
+        "Beer made from malt (stout, porter, ale and other beer)",
+        "Wine of fresh grapes including fortified wines; grape must other than that of heading 20.09 — includes sparkling wine, still wine, fortified grape must",
+        "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances",
+        "Other fermented beverages (cider, perry, mead, saké, rice wine, coconut palm toddy, shandy, wines from fruit/vegetable juices other than grape)",
+        "Undenatured ethyl alcohol of an alcoholic strength by volume of 80% vol or higher; denatured ethyl alcohol and other spirits of any strength",
+        "Undenatured ethyl alcohol of less than 80% vol; spirits, liqueurs and other spirituous beverages (brandy, whisky, rum, gin, vodka, liqueurs, samsu, arrack, bitters)",
+        "Vinegar and substitutes for vinegar obtained from acetic acid"
+    ],
+    "exclusions": [
+        {
+            "condition": "Products of Chapter 22 (other than heading 22.09 vinegar) prepared for culinary purposes and thereby rendered unsuitable for consumption as beverages",
+            "action": "Redirect to Heading 21.03 (sauces and condiments)",
+            "keywords": [
+                "culinary",
+                "cooking wine",
+                "cooking vinegar",
+                "21.03"
+            ]
+        },
+        {
+            "condition": "Sea water",
+            "action": "Redirect to Heading 25.01",
+            "keywords": [
+                "sea water",
+                "seawater",
+                "25.01"
+            ]
+        },
+        {
+            "condition": "Distilled or conductivity water or water of similar purity (industrial/laboratory grade)",
+            "action": "Redirect to Heading 28.53",
+            "keywords": [
+                "distilled water",
+                "conductivity water",
+                "deionised water",
+                "demineralised water",
+                "28.53"
+            ]
+        },
+        {
+            "condition": "Acetic acid of a concentration exceeding 10% by weight of acetic acid",
+            "action": "Redirect to Heading 29.15",
+            "keywords": [
+                "acetic acid",
+                "more than 10%",
+                "glacial acetic acid",
+                "29.15"
+            ]
+        },
+        {
+            "condition": "Medicaments of heading 30.03 or 30.04 (including medicated beverages classified as drugs)",
+            "action": "Redirect to Heading 30.03 or 30.04",
+            "keywords": [
+                "medicament",
+                "drug",
+                "pharmaceutical",
+                "30.03",
+                "30.04"
+            ]
+        },
+        {
+            "condition": "Perfumery or toilet preparations (Chapter 33) — e.g. alcohol-based perfumes, mouthwashes, aftershaves",
+            "action": "Redirect to Chapter 33",
+            "keywords": [
+                "perfume",
+                "cologne",
+                "mouthwash",
+                "aftershave",
+                "toilet preparation",
+                "chapter 33"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Alcoholic strength threshold: non-alcoholic vs alcoholic beverages (0.5% vol)",
+            "description": "For heading 22.02, 'non-alcoholic beverages' means beverages with alcoholic strength NOT EXCEEDING 0.5% vol (measured at 20°C). Beverages with alcoholic strength ABOVE 0.5% vol are classified in headings 22.03 to 22.06 or 22.08 as appropriate. This applies to beer (non-alcoholic vs. malt beer), wine, and other fermented beverages.",
+            "priority": 1
+        },
+        {
+            "rule": "Alcoholic strength measurement temperature",
+            "description": "Alcoholic strength by volume (% vol) must be determined at 20°C. This applies to Chapter 22 and also to Chapters 20 and 21 where alcohol content is referenced.",
+            "priority": 2
+        },
+        {
+            "rule": "Sparkling wine definition (subheading 2204.10)",
+            "description": "Sparkling wine = wine which, when kept at 20°C in CLOSED containers, has an excess pressure of NOT LESS THAN 3 bars. Below 3 bars → classified as still wine under 2204.21/22/29.",
+            "priority": 3
+        },
+        {
+            "rule": "Wine classification hierarchy: 2204 vs 2205 vs 2206",
+            "description": "Fresh grape wine (unflavoured) → 22.04. Fresh grape wine flavoured with plants/aromatics → 22.05 (vermouth). Fermented beverages from sources other than fresh grapes → 22.06 (cider from apples, perry from pears, mead from honey, saké/rice wine from rice, coconut palm toddy). Grape must of heading 20.09 (juice) is excluded from 22.04.",
+            "priority": 4
+        },
+        {
+            "rule": "Wine container size classification (2204.21/22/29)",
+            "description": "Other wine (non-sparkling) is sub-classified by container size: 22.04.21 = containers ≤ 2L; 22.04.22 = containers > 2L up to 10L; 22.04.29 = containers > 10L. Then further split by alcoholic strength (≤15%, 15-23%, >23% vol) and wine vs. grape must.",
+            "priority": 5
+        },
+        {
+            "rule": "2207 vs 2208: ethyl alcohol strength threshold (80% vol)",
+            "description": "Undenatured ethyl alcohol ≥ 80% vol → heading 22.07. Undenatured ethyl alcohol < 80% vol → heading 22.08 (spirits, liqueurs). Denatured ethyl alcohol of ANY strength → 22.07.20 regardless of concentration.",
+            "priority": 6
+        },
+        {
+            "rule": "Acetic acid concentration determines 2209 vs 29.15",
+            "description": "Vinegar and vinegar substitutes with acetic acid concentration ≤ 10% by weight → heading 22.09. Acetic acid with concentration EXCEEDING 10% by weight → heading 29.15 (organic acids). Note: heading 22.09 applies specifically to vinegar OBTAINED FROM acetic acid; fermentation vinegar (from wine, malt, etc.) also classifies here.",
+            "priority": 7
+        },
+        {
+            "rule": "2202 excludes fruit/nut/vegetable juices of heading 20.09",
+            "description": "Heading 22.02 does not include fruit, nut or vegetable juices of heading 20.09, even if they contain added sugar or flavouring. Those remain in 20.09. However, beverages based on juice (diluted, mixed with other ingredients, etc.) may fall under 22.02.",
+            "priority": 8
+        }
+    ]
+}
