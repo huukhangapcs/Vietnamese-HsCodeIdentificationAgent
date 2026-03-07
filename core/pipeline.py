@@ -68,7 +68,7 @@ class HSPipeline:
         
         while revision <= max_revisions:
             if revision > 0:
-                print(f"\\n--- BẮT ĐẦU REVISION {revision} ---")
+                print(f"\n--- BẮT ĐẦU REVISION {revision} ---")
                 if stream_callback:
                     stream_callback({"type": "info", "message": f"--- BẮT ĐẦU REVISION {revision} ---"})
                 
@@ -115,7 +115,10 @@ class HSPipeline:
             # 3. Pipeline gọi Tier-1 Router để xác định Chapter (đưa Section Notes vào làm cảnh báo)
             target_chapter = self.router.route_to_chapter(enhanced_desc, target_section, section_notes=section_notes_text, current_feedback=current_feedback, stream_callback=stream_callback)
             if target_chapter == "UNKNOWN":
-                target_chapter = "01" # Fallback
+                # Fallback về chapter đầu tiên của Section đã route (không hardcode "01")
+                from tools.knowledge_tools import get_chapters_for_section
+                fallback_chapters = get_chapters_for_section(target_section)
+                target_chapter = fallback_chapters[0] if fallback_chapters else "01"
                 
             # 4. Gắn ID của Chapter vừa tìm được làm node xuất phát đệ quy cho Coder Agent
             starting_node_id = target_chapter
@@ -123,7 +126,7 @@ class HSPipeline:
             # 2. Coder sinh mã nháp từ vị trí Heading đã tìm
             prompt = enhanced_desc
             if current_feedback:
-                prompt += f"\\n\\n[LƯU Ý TỪ LẦN TRƯỚC BỊ LỖI]: {current_feedback}\\nHãy tra cứu kỹ lại Chú giải hoặc Nhóm khác để tìm mã đúng."
+                prompt += f"\n\n[LƯU Ý TỪ LẦN TRƯỚC BỊ LỖI]: {current_feedback}\nHãy tra cứu kỹ lại Chú giải hoặc Nhóm khác để tìm mã đúng."
                 
             draft_result = self.coder.classify_item(prompt, starting_node_id, max_steps=15, stream_callback=stream_callback, input_callback=input_callback)
             hs_code = draft_result.get("hs_code", "UNKNOWN")
@@ -132,7 +135,7 @@ class HSPipeline:
             # Lưu ý phần block User Tự Động đã được xử lý phía trong `coder.py` bằng `input_callback`.
             # Nên tại đây không cần cắt Request stream về Frontend như lúc trước để bảo toàn Context.
             if hs_code == "CLARIFICATION_NEEDED":
-                print("\\n[Pipeline - SYSTEM FAIL] - Lỗi. Không nên lọt vào đây nếu input_callback hoạt động đúng.")
+                print("\n[Pipeline - SYSTEM FAIL] - Lỗi. Không nên lọt vào đây nếu input_callback hoạt động đúng.")
                 return {
                     "final_hs_code": "CLARIFICATION_NEEDED",
                     "reasoning": "Fallback Error",
@@ -140,14 +143,14 @@ class HSPipeline:
                 }
                 
             if hs_code == "UNSUPPORTED_CHAPTER":
-                print(f"\\n[Pipeline - UNSUPPORTED] 🛑 {draft_result.get('reasoning')}")
+                print(f"\n[Pipeline - UNSUPPORTED] 🛑 {draft_result.get('reasoning')}")
                 if stream_callback:
                     stream_callback({"type": "info", "message": f"🛑 HỆ THỐNG TẠM DỪNG: {draft_result.get('reasoning')}"})
                     stream_callback({"type": "slow_path_result", "data": {
                         "is_agentic_path": True,
                         "final_section_id": "UNSUPPORTED",
                         "confidence": "ERROR",
-                        "reasoning": f"**Hệ thống hiện tại chưa hỗ trợ chương này:**\\n{draft_result.get('reasoning')}"
+                        "reasoning": f"**Hệ thống hiện tại chưa hỗ trợ chương này:**\n{draft_result.get('reasoning')}"
                     }})
                 return {
                     "final_hs_code": "UNSUPPORTED",
@@ -155,7 +158,7 @@ class HSPipeline:
                     "status": "UNSUPPORTED"
                 }
             
-            print(f"\\n[Pipeline] Draft Code: {hs_code}")
+            print(f"\n[Pipeline] Draft Code: {hs_code}")
             if stream_callback:
                 stream_callback({"type": "info", "message": f"[Pipeline] Draft Code: {hs_code}"})
             
@@ -196,7 +199,7 @@ class HSPipeline:
                 }})
             
             # 4. Success Pipeline (Green)
-            print(f"\\n[Pipeline] 🎉 THÀNH CÔNG! Mã HS Cuối Cùng: {hs_code}")
+            print(f"\n[Pipeline] 🎉 THÀNH CÔNG! Mã HS Cuối Cùng: {hs_code}")
             print(f"Lý do: {draft_result.get('reasoning')}")
             
             # Format clarification to contextualize the Cache Key
@@ -222,7 +225,7 @@ class HSPipeline:
                 "revisions": revision
             }
             
-        print(f"\\n[Pipeline] ⛔ THẤT BẠI: Vượt quá số lần sửa (Max Revisions). Cần chuyên gia (Human) hỗ trợ.")
+        print(f"\n[Pipeline] ⛔ THẤT BẠI: Vượt quá số lần sửa (Max Revisions). Cần chuyên gia (Human) hỗ trợ.")
         return {
             "final_hs_code": "UNKNOWN",
             "reasoning": current_feedback,

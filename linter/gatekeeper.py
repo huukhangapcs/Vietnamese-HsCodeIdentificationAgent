@@ -11,16 +11,22 @@ from tools.knowledge_tools import get_chapter_rules
 class HSGatekeeper:
     def __init__(self):
         # Deterministic Rules
+        # NOTE: Analyzer luôn trả key tiếng Anh: "material", "function", "state_or_condition", "item_name"
         self.rules = [
             {
-                "condition": lambda features: "chất liệu" in features and features["chất liệu"].lower() == "gỗ",
-                "action": lambda hs_code: hs_code.startswith("44"), 
-                "error_msg": "Sản phẩm bằng gỗ nhưng HS Code không nằm trong Chương 44."
+                # BUG-5 FIX: đổi "chất liệu" → "material" và "gỗ" → "wood"
+                "condition": lambda features: "material" in features and "wood" in features["material"].lower(),
+                "action": lambda hs_code: hs_code.startswith("44"),
+                "error_msg": "Sản phẩm bằng gỗ (wood) nhưng HS Code không nằm trong Chương 44."
             },
             {
-                "condition": lambda features: "loại" in features and "sống" in features["loại"].lower(),
+                # BUG-5 FIX: đổi "loại"/"sống" → check "state_or_condition" hoặc "item_name" có chứa "live"
+                "condition": lambda features: (
+                    ("state_or_condition" in features and "live" in features["state_or_condition"].lower()) or
+                    ("item_name" in features and "live" in features["item_name"].lower())
+                ),
                 "action": lambda hs_code: hs_code.startswith("01") or hs_code.startswith("03") or hs_code.startswith("95"),
-                "error_msg": "Động vật sống phải nằm ở Chương 01, 03 hoặc 95 (trường hợp ngoại lệ)."
+                "error_msg": "Động vật sống (live animal) phải nằm ở Chương 01, 03 hoặc 95 (trường hợp ngoại lệ)."
             }
         ]
         

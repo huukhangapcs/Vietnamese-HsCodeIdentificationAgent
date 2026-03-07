@@ -1,6 +1,7 @@
 import json
 import asyncio
 import datetime
+import time
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, StreamingResponse
 import threading
@@ -21,8 +22,23 @@ app = FastAPI(title="HS Code Agentic Router V13")
 # Keep a pipeline instance ready
 pipeline = HSPipeline()
 
-# Store active input queues for each session { session_id: queue.Queue }
+# Store active input queues for each session { session_id: {"queue": queue.Queue, "created_at": float} }
+# BUG-4 FIX: thêm timestamp để cleanup session bị treo (client disconnect)
 active_sessions = {}
+SESSION_TTL_SECONDS = 30 * 60  # 30 phút
+
+def _cleanup_expired_sessions():
+    """Background thread: xóa session quá TTL để tránh memory leak."""
+    while True:
+        time.sleep(300)  # Chạy mỗi 5 phút
+        now = time.time()
+        expired = [sid for sid, data in list(active_sessions.items())
+                   if now - data.get("created_at", now) > SESSION_TTL_SECONDS]
+        for sid in expired:
+            active_sessions.pop(sid, None)
+            print(f"[SessionCleanup] Expired session removed: {sid}")
+
+threading.Thread(target=_cleanup_expired_sessions, daemon=True).start()
 
 class AnswerPayload(BaseModel):
     session_id: str
@@ -45,15 +61,16 @@ async def stream_agent(q: str, session_id: str):
     q_stream = queue.Queue()
     input_q = queue.Queue()
     
-    # Đăng ký session để nhận câu trả lời từ LLM (Clarification)
-    active_sessions[session_id] = input_q
+    # Đăng ký session với timestamp để TTL cleanup có thể xóa nếu client disconnect
+    active_sessions[session_id] = {"queue": input_q, "created_at": time.time()}
 
     def stream_callback(data):
         q_stream.put(data)
         
     def input_callback():
         # Block luồng (Thread) Agent lại, chờ người dùng gọi API /submit_answer
-        return input_q.get()
+        # Timeout 25 phút để không block mãi mãi nếu user bỏ đi
+        return input_q.get(timeout=SESSION_TTL_SECONDS - 300)
 
     def run_pipeline():
         try:
@@ -89,7 +106,7 @@ async def submit_answer(payload: AnswerPayload):
     của Session tương ứng.
     """
     if payload.session_id in active_sessions:
-        active_sessions[payload.session_id].put(payload.answer)
+        active_sessions[payload.session_id]["queue"].put(payload.answer)
         return {"status": "success", "message": "Answer submitted to LLM Queue."}
     return {"status": "error", "message": "Session not found or expired."}
 

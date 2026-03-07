@@ -13,6 +13,7 @@ _trees_cache = {}
 _rules_cache = {}
 _sections_info_cache = None
 _general_rules_cache = None
+_titles_cache = {}  # BUG-3 FIX: cache chapter titles to avoid repeated file reads
 
 CHROMA_DB_PATH = os.path.join(BASE_DIR, "database", "chroma_db")
 
@@ -309,16 +310,24 @@ def get_chapters_for_section(section_id: str) -> list:
 
 def get_chapter_title(chapter_id: str) -> str:
     """Helper to get just the title of a chapter for the Tier-1 router."""
+    global _titles_cache
     ch_id_str = str(chapter_id).zfill(2)
+    
+    # BUG-3 FIX: use cache to avoid reading file on every call
+    if ch_id_str in _titles_cache:
+        return _titles_cache[ch_id_str]
+    
     path = os.path.join(BASE_DIR, "database", f"chapter_{int(ch_id_str)}_tree.json")
     try:
         with open(path, 'r', encoding='utf-8') as f:
             tree_data = json.load(f)
-            if tree_data and "description_en" in tree_data[0]:
-                return tree_data[0]["description_en"]
-            return f"Chapter {ch_id_str}"
-    except:
-        return f"Chapter {ch_id_str}"
+            title = tree_data[0]["description_en"] if tree_data and "description_en" in tree_data[0] else f"Chapter {ch_id_str}"
+            _titles_cache[ch_id_str] = title
+            return title
+    except Exception as e:
+        fallback = f"Chapter {ch_id_str}"
+        _titles_cache[ch_id_str] = fallback
+        return fallback
 
 
 def search_hs_nodes(query: str, chapter_id: str = None) -> dict:
@@ -361,7 +370,9 @@ def query_legal_notes(query: str, section_id: str, chapter_id: str) -> dict:
                 n_results=3, 
                 where={"section_id": section_id}
             )
-        except: pass
+        except Exception as e:
+            # BUG-6 FIX: log warning thay vì nuốt lỗi im lặng
+            print(f"[knowledge_tools] Section query warning (section={section_id}): {e}")
         
         try:
             ch_results = col_rules.query(
@@ -369,7 +380,9 @@ def query_legal_notes(query: str, section_id: str, chapter_id: str) -> dict:
                 n_results=3, 
                 where={"chapter_id": str(chapter_id).zfill(2)}
             )
-        except: pass
+        except Exception as e:
+            # BUG-6 FIX: log warning thay vì nuốt lỗi im lặng
+            print(f"[knowledge_tools] Chapter query warning (chapter={chapter_id}): {e}")
         
         def format_res(res):
             out = []
