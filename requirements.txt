@@ -11,7 +11,13 @@ tenacity==9.1.2
 chromadb==1.4.0
 sentence-transformers==5.2.0
 
+# Cache backend (optional - set REDIS_URL env var to enable)
+redis>=5.0.0
+
 # HTTP
 httpx==0.28.1
 anyio==4.12.1
 starlette==0.50.0
+
+# Testing
+pytest>=8.0.0

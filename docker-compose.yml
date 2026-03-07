@@ -1,0 +1,62 @@
+version: "3.9"
+
+services:
+  # ─── FastAPI Application ─────────────────────────────────────────────────────
+  app:
+    build: .
+    container_name: hscode_app
+    restart: unless-stopped
+    environment:
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - HSCODE_API_KEY=${HSCODE_API_KEY}
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-https://yourdomain.com}
+      - REDIS_URL=redis://redis:6379/0
+    ports:
+      - "127.0.0.1:8000:8000"   # Chỉ expose ra localhost (nginx reverse proxy)
+    depends_on:
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./database:/app/database   # Persist JSON data và cache
+    networks:
+      - hscode_net
+
+  # ─── Redis Cache ─────────────────────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: hscode_redis
+    restart: unless-stopped
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    volumes:
+      - redis_data:/data
+    networks:
+      - hscode_net
+
+  # ─── Nginx Reverse Proxy ─────────────────────────────────────────────────────
+  nginx:
+    image: nginx:alpine
+    container_name: hscode_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro       # Let's Encrypt certs
+      - /var/www/certbot:/var/www/certbot:ro       # ACME challenge
+    depends_on:
+      - app
+    networks:
+      - hscode_net
+
+volumes:
+  redis_data:
+
+networks:
+  hscode_net:
+    driver: bridge
