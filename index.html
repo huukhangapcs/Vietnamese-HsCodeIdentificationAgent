@@ -534,12 +534,29 @@
         let lastQuery = "";
         let lastHsCode = "";
 
-        function appendLog(htmlContent, className) {
+        function appendLog(text, className) {
             const el = document.createElement('div');
             el.className = `log-entry ${className}`;
-            el.innerHTML = htmlContent;
+            // XSS FIX: dùng textContent thay innerHTML cho plain text messages
+            el.textContent = text;
             terminal.insertBefore(el, anchor);
             anchor.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Dùng cho HTML có cấu trúc tin cậy (do code tự tạo, không phải từ user/LLM)
+        function appendLogHTML(html, className) {
+            const el = document.createElement('div');
+            el.className = `log-entry ${className}`;
+            el.innerHTML = html;
+            terminal.insertBefore(el, anchor);
+            anchor.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // XSS FIX: escape HTML rồi mới replace \n → <br>
+        function safeRenderText(text) {
+            const div = document.createElement('div');
+            div.textContent = text;  // escape all HTML
+            return div.innerHTML.replace(/\n/g, '<br>');
         }
 
         function resetUI() {
@@ -582,9 +599,8 @@
             sectionCode.textContent = data.final_section_id || "ERROR";
             confidenceScore.textContent = data.confidence || "N/A";
 
-            // Format reasoning: replace newlines with <br>
-            const text = data.reasoning || "Không có lời giải.";
-            reasoningText.innerHTML = text.replace(/\n/g, '<br>');
+            // XSS FIX: safeRenderText() thay vì .replace trực tiếp
+            reasoningText.innerHTML = safeRenderText(text);
 
             // Save variables for Cache approval
             let finalQueryStr = input.value.trim();
@@ -629,7 +645,12 @@
                         finalizeUI();
                         break;
                     case 'action':
-                        appendLog(`▶ Gọi công cụ: <strong>${payload.function}</strong>`, 'log-action');
+                        // Dùng textContent cho tên function (trusted code path)
+                        const actionEl = document.createElement('div');
+                        actionEl.className = 'log-entry log-action';
+                        actionEl.textContent = `▶ Gọi công cụ: ${payload.function}`;
+                        terminal.insertBefore(actionEl, anchor);
+                        anchor.scrollIntoView({ behavior: 'smooth' });
                         // try to format JSON arguments
                         try {
                             const argsObj = JSON.parse(payload.arguments);
@@ -649,14 +670,25 @@
                         appendLog(`★ Đưa ra quyết định cuối cùng`, 'log-final');
                         break;
                     case 'clarification_request':
-                        appendLog(`🛑 <strong>HỆ THỐNG CẦN BẠN TRẢ LỜI:</strong> ${payload.question}`, 'log-error');
-                        // Render action buttons
+                        appendLog(`🛑 HỆ THỐNG CẦN BẠN TRẢ LỜI: ${payload.question}`, 'log-error');
+                        // XSS FIX: Dùng DOM API thay innerHTML để tránh injection từ LLM options
                         if (payload.options && payload.options.length > 0) {
                             const optionContainerId = 'options-' + Date.now();
-                            let html = `<div class="options-container" id="${optionContainerId}">`;
-                            html += payload.options.map(opt => `<button class="option-btn" onclick="submitAnswer('${optionContainerId}', '${opt.replace(/'/g, "\\'")}')">${opt}</button>`).join('');
-                            html += `</div>`;
-                            appendLog(html, '');
+                            const container = document.createElement('div');
+                            container.className = 'options-container';
+                            container.id = optionContainerId;
+                            payload.options.forEach(opt => {
+                                const btn = document.createElement('button');
+                                btn.className = 'option-btn';
+                                btn.textContent = opt;  // XSS SAFE: textContent, không phải innerHTML
+                                btn.onclick = () => submitAnswer(optionContainerId, opt);
+                                container.appendChild(btn);
+                            });
+                            const wrapper = document.createElement('div');
+                            wrapper.className = 'log-entry';
+                            wrapper.appendChild(container);
+                            terminal.insertBefore(wrapper, anchor);
+                            anchor.scrollIntoView({ behavior: 'smooth' });
 
                             statusDot.classList.add('active');
                             statusDot.style.background = 'var(--warning-color)';

@@ -2,20 +2,26 @@ import json
 import asyncio
 import datetime
 import time
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import HTMLResponse, StreamingResponse
 import threading
 import queue
 import sys
 import os
+import tempfile
+import shutil
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 
 from core.pipeline import HSPipeline
+from core.security import rate_limiter, start_rate_limiter_cleanup
 
 import uuid
 from pydantic import BaseModel
+
+# API Key auth (optional - set env var HSCODE_API_KEY to enable)
+_API_KEY = os.getenv("HSCODE_API_KEY", "")  # Rỗng = tắt auth (dev mode)
 
 app = FastAPI(title="HS Code Agentic Router V13")
 
@@ -39,6 +45,28 @@ def _cleanup_expired_sessions():
             print(f"[SessionCleanup] Expired session removed: {sid}")
 
 threading.Thread(target=_cleanup_expired_sessions, daemon=True).start()
+start_rate_limiter_cleanup()  # Dọn dẹp rate limiter buckets định kỳ
+
+
+def _check_auth_and_rate(request: Request):
+    """Kiểm tra API key và rate limit. Raise HTTPException nếu vi phạm."""
+    client_ip = request.client.host if request.client else "unknown"
+
+    # 1. Rate limiting (luôn áp dụng)
+    if not rate_limiter.is_allowed(client_ip):
+        raise HTTPException(
+            status_code=429,
+            detail="Quá nhiều request. Vui lòng thử lại sau 1 phút."
+        )
+
+    # 2. API Key auth (chỉ khi HSCODE_API_KEY được set)
+    if _API_KEY:
+        provided_key = request.headers.get("X-API-Key", "")
+        if provided_key != _API_KEY:
+            raise HTTPException(
+                status_code=401,
+                detail="Unauthorized: API key không hợp lệ."
+            )
 
 class AnswerPayload(BaseModel):
     session_id: str
@@ -54,10 +82,18 @@ async def read_root():
         return f.read()
 
 @app.get("/stream")
-async def stream_agent(q: str, session_id: str):
+async def stream_agent(q: str, session_id: str, request: Request):
     """
     Streaming endpoint using Server-Sent Events (SSE) and Threading Queue.
     """
+    _check_auth_and_rate(request)
+
+    # Validate input length
+    if len(q) > 2000:
+        raise HTTPException(status_code=400, detail="Query quá dài (tối đa 2000 ký tự).")
+    if not q.strip():
+        raise HTTPException(status_code=400, detail="Query không được để trống.")
+
     q_stream = queue.Queue()
     input_q = queue.Queue()
     
@@ -111,10 +147,16 @@ async def submit_answer(payload: AnswerPayload):
     return {"status": "error", "message": "Session not found or expired."}
 
 @app.post("/approve_hs")
-async def approve_hs(payload: ApprovePayload):
+async def approve_hs(payload: ApprovePayload, request: Request):
     """
     Endpoint lưu kết quả phê duyệt của người dùng làm Cache dữ liệu / Lịch sử / Fine-tuning.
     """
+    _check_auth_and_rate(request)
+
+    # Validate hs_code format: 8 chữ số
+    if not payload.hs_code.isdigit() or len(payload.hs_code) not in (4, 6, 8):
+        raise HTTPException(status_code=400, detail="hs_code phải là 4, 6 hoặc 8 chữ số.")
+
     cache_path = os.path.join(BASE_DIR, "database", "approved_cache.json")
     try:
         data = []
@@ -124,17 +166,24 @@ async def approve_hs(payload: ApprovePayload):
                     data = json.load(f)
                 except ValueError:
                     data = []
-        
+
         new_entry = {
             "query": payload.query,
             "hs_code": payload.hs_code,
             "timestamp": datetime.datetime.now().isoformat()
         }
         data.append(new_entry)
-        
-        with open(cache_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-            
+
+        # ATOMIC WRITE: ghi vào temp file rồi rename để tránh corrupt
+        dir_path = os.path.dirname(cache_path)
+        with tempfile.NamedTemporaryFile(
+            mode='w', encoding='utf-8',
+            dir=dir_path, delete=False, suffix='.tmp'
+        ) as tmp_f:
+            json.dump(data, tmp_f, ensure_ascii=False, indent=2)
+            tmp_path = tmp_f.name
+        shutil.move(tmp_path, cache_path)  # Atomic replace
+
         return {"status": "success", "message": "HS Code saved to cache."}
     except Exception as e:
         return {"status": "error", "message": str(e)}

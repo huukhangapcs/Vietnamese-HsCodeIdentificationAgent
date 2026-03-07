@@ -6,6 +6,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
 from core.llm_provider import get_llm_client
+from core.security import sanitize_input
 
 class ItemAnalyzer:
     def __init__(self):
@@ -99,6 +100,12 @@ Respond STRICTLY with a JSON object containing EXACTLY these keys (all values MU
         """
         Main pipeline step 0: Validates input, then extracts features.
         """
+        # Prompt Injection Defense: sanitize trước khi dùng
+        sanitized = sanitize_input(item_description)
+        if sanitized != item_description:
+            print(f"  ⚠️ [Analyzer] Phát hiện prompt injection attempt. Input đã được sanitize.")
+        item_description = sanitized
+
         print(f"\n[Step 0 - Analyzer] Đang kiểm tra tính hợp lệ của dữ liệu...")
         validation = self.verify_input(item_description)
         
