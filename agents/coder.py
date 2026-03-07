@@ -47,7 +47,7 @@ class HSCoderAgent:
         else:
             return f"Error: function {function_name} not found."
 
-    def classify_item(self, item_description: str, starting_node_id: str, max_steps: int = 15, current_feedback: str = "", stream_callback=None, input_callback=None) -> dict:
+    def classify_item(self, item_description: str, starting_node_id: str, max_steps: int = 8, current_feedback: str = "", stream_callback=None, input_callback=None) -> dict:
         """
         Runs the ReAct loop to classify the item, starting straight from a localized node.
         """
@@ -168,9 +168,13 @@ Do not return any other markdown outside the JSON block.
                     
                     # ---------------------------------------------------------
                     # STRATEGY 1: MESSAGE PRUNING (Token Optimization)
-                    # Bỏ cắt JSON thô bạo do làm LLM bị loạn vì mất rules và sai format JSON
-                    # Cứ để full message để Agent giữ được context đầy đủ.
+                    # Giữ History ngắn gọn, tránh nổ Token. Nếu lịch sử quá dài (vượt quá 6 messages trao đổi), cắt bỏ các tool calls cũ.
                     # ---------------------------------------------------------
+                    if len(messages) > 8:
+                        # Giữ nguyên System (index 0) và Original User Prompt (index 1)
+                        # Xóa bỏ 2 messages cũ nhất của bot (một cặp ASSISTANT ToolCall + TOOL Result)
+                        messages.pop(2)
+                        messages.pop(2)
                     
                     # Add newest tool call and result to messages in FULL
                     messages.append({"role": "assistant", "tool_calls": [tool_call]})
@@ -178,7 +182,7 @@ Do not return any other markdown outside the JSON block.
                         "role": "tool",
                         "tool_call_id": tool_call.id,
                         "name": function_name,
-                        "content": str(tool_result)
+                        "content": str(tool_result)[:1000] # Bắt 1000 kí tự để tiết kiệm token
                     })
             else:
                 # No more tool calls, it should be the final answer

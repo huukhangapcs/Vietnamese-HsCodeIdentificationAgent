@@ -1,0 +1,135 @@
+{
+    "chapter_code": "12",
+    "inclusions": [
+        "Oil seeds and oleaginous fruits (soya beans, ground-nuts, copra, linseed, rape/colza seeds, sunflower seeds, palm nuts and kernels, cotton seeds, castor oil seeds, sesamum seeds, mustard seeds, safflower seeds, melon seeds, poppy seeds, etc.)",
+        "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard (heading 12.08)",
+        "Seeds, fruit and spores of a kind used for sowing (heading 12.09), including beet seeds, grass seeds, seeds of ornamental flowers, vegetable seeds, seeds of forest trees, seeds of fruit trees",
+        "Hop cones, fresh or dried, whether or not ground, powdered or in pellets; lupulin (heading 12.10)",
+        "Plants and parts of plants used primarily in perfumery, pharmacy or for insecticidal/fungicidal purposes including ginseng roots, coca leaf, poppy straw, ephedra, bark of African cherry, cannabis, liquorice roots, pyrethrum, sandalwood chips, agarwood chips (heading 12.11)",
+        "Locust beans, seaweeds and other algae, sugar beet and sugar cane, chicory roots, fruit stones and kernels, other vegetable products for human consumption NES (heading 12.12)",
+        "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in pellets (heading 12.13)",
+        "Swedes, mangolds, fodder roots, hay, lucerne, clover, sainfoin, forage kale, lupines, vetches and similar forage products (heading 12.14)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Products of heading 08.01 or 08.02 (coconuts, Brazil nuts, cashew nuts, etc.) or olives",
+            "action": "Redirect to Heading 08.01, 08.02 (Chapter 8) or Chapter 7 or Chapter 20 for olives",
+            "keywords": [
+                "coconut",
+                "brazil nut",
+                "cashew",
+                "olive",
+                "08.01",
+                "08.02",
+                "chapter 7",
+                "chapter 20"
+            ]
+        },
+        {
+            "condition": "Residues of headings 23.04 to 23.06 (oil-cake and residues from extraction of vegetable oils)",
+            "action": "Redirect to Heading 23.04, 23.05 or 23.06",
+            "keywords": [
+                "oil-cake",
+                "residue",
+                "extraction",
+                "23.04",
+                "23.05",
+                "23.06"
+            ]
+        },
+        {
+            "condition": "Seeds of leguminous vegetables or sweet corn even if for sowing (EXCEPT Soya beans 12.01)",
+            "action": "Redirect to Chapter 7 (Unless it is Soya beans which stays in 12.01)",
+            "keywords": [
+                "leguminous vegetables",
+                "sweet corn",
+                "chapter 7",
+                "07"
+            ]
+        },
+        {
+            "condition": "Spices or other products of Chapter 9 even if for sowing",
+            "action": "Redirect to Chapter 9",
+            "keywords": [
+                "spices",
+                "chapter 9",
+                "09"
+            ]
+        },
+        {
+            "condition": "Cereals (Chapter 10) even if for sowing",
+            "action": "Redirect to Chapter 10",
+            "keywords": [
+                "cereals",
+                "chapter 10",
+                "10"
+            ]
+        },
+        {
+            "condition": "When considered for Heading 12.09 (Seeds for sowing): Products of headings 12.01 to 12.07 or 12.11 are EXCLUDED from 12.09. They must be classified in their respective headings (12.01-12.07 or 12.11) even if for sowing",
+            "action": "Do NOT classify as 12.09. Redirect to respective heading 12.01-12.07 or 12.11",
+            "keywords": [
+                "12.09",
+                "seeds for sowing"
+            ]
+        },
+        {
+            "condition": "Medicaments (pharmaceutical products) derived from plants of heading 12.11",
+            "action": "Redirect to Chapter 30",
+            "keywords": [
+                "medicament",
+                "pharmaceutical",
+                "chapter 30"
+            ]
+        },
+        {
+            "condition": "Perfumery, cosmetic or toilet preparations derived from plants of heading 12.11",
+            "action": "Redirect to Chapter 33",
+            "keywords": [
+                "perfumery",
+                "cosmetic",
+                "toilet preparation",
+                "chapter 33"
+            ]
+        },
+        {
+            "condition": "Insecticides, fungicides, herbicides, disinfectants or similar products derived from plants of heading 12.11",
+            "action": "Redirect to Heading 38.08",
+            "keywords": [
+                "insecticide",
+                "fungicide",
+                "herbicide",
+                "disinfectant",
+                "38.08"
+            ]
+        },
+        {
+            "condition": "Dead single-cell micro-organisms (for heading 12.12 seaweeds/algae exclusion)",
+            "action": "Redirect to Heading 21.02",
+            "keywords": [
+                "single-cell",
+                "micro-organisms",
+                "21.02"
+            ]
+        },
+        {
+            "condition": "Cultures of micro-organisms (for heading 12.12 seaweeds/algae exclusion)",
+            "action": "Redirect to Heading 30.02",
+            "keywords": [
+                "cultures",
+                "micro-organisms",
+                "30.02"
+            ]
+        },
+        {
+            "condition": "Fertilisers (seaweeds/algae used as fertiliser)",
+            "action": "Redirect to Heading 31.01 or 31.05",
+            "keywords": [
+                "fertiliser",
+                "fertilizer",
+                "31.01",
+                "31.05"
+            ]
+        }
+    ]
+}

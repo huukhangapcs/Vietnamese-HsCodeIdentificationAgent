@@ -1,0 +1,54 @@
+{
+    "chapter_code": "14",
+    "inclusions": [
+        "Bamboos (whether or not split, sawn lengthwise, cut to length, rounded at ends, bleached, rendered non-inflammable, polished or dyed)",
+        "Rattans (whole, split-core, split-skin) and drawn or split rattans",
+        "Split osier, reeds and the like",
+        "Cotton linters (heading 14.04)",
+        "Vegetable materials of a kind used primarily for plaiting: raffia, cleaned/bleached/dyed cereal straw, lime bark",
+        "Other vegetable products NES: kapok, palm kernel shells, empty fruit bunch of oil palm, materials used primarily in tanning or dyeing"
+    ],
+    "exclusions": [
+        {
+            "condition": "Vegetable materials used PRIMARILY in TEXTILE manufacture. (NOTE: Plaiting materials like bamboo or rattan for weaving/plaiting are NOT textiles and belong to Chapter 14)",
+            "action": "Redirect to Section XI (Chapters 50-63, Textiles)",
+            "keywords": [
+                "textile",
+                "fibre",
+                "section XI",
+                "chapter 50",
+                "chapter 51",
+                "chapter 52",
+                "chapter 53"
+            ]
+        },
+        {
+            "condition": "Chipwood (wood chips)",
+            "action": "Redirect to Heading 44.04",
+            "keywords": [
+                "chipwood",
+                "wood chip",
+                "44.04"
+            ]
+        },
+        {
+            "condition": "Wood wool",
+            "action": "Redirect to Heading 44.05",
+            "keywords": [
+                "wood wool",
+                "44.05"
+            ]
+        },
+        {
+            "condition": "Prepared knots or tufts for broom or brush making",
+            "action": "Redirect to Heading 96.03",
+            "keywords": [
+                "broom",
+                "brush",
+                "knots",
+                "tufts",
+                "96.03"
+            ]
+        }
+    ]
+}

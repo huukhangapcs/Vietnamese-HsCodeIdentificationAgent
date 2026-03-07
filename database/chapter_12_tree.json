@@ -1,0 +1,840 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1201",
+        "description_en": "Soya beans, whether or not broken",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "12011000",
+                "description_en": "Seed",
+                "children": [],
+                "semantic_path": "Soya beans, whether or not broken > Seed"
+            },
+            {
+                "level": 1,
+                "hs_code": "12019000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Soya beans, whether or not broken > Other"
+            }
+        ],
+        "semantic_path": "Soya beans, whether or not broken"
+    },
+    {
+        "level": 0,
+        "hs_code": "1202",
+        "description_en": "Ground-nuts, not roasted or otherwise cooked, whether or not shelled or broken",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "12023000",
+                "description_en": "Seed",
+                "children": [],
+                "semantic_path": "Ground-nuts, not roasted or otherwise cooked, whether or not shelled or broken > Seed"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "12024100",
+                        "description_en": "In shell",
+                        "children": [],
+                        "semantic_path": "Ground-nuts, not roasted or otherwise cooked, whether or not shelled or broken > Other: > In shell"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12024200",
+                        "description_en": "Shelled, whether or not broken",
+                        "children": [],
+                        "semantic_path": "Ground-nuts, not roasted or otherwise cooked, whether or not shelled or broken > Other: > Shelled, whether or not broken"
+                    }
+                ],
+                "semantic_path": "Ground-nuts, not roasted or otherwise cooked, whether or not shelled or broken > Other:"
+            }
+        ],
+        "semantic_path": "Ground-nuts, not roasted or otherwise cooked, whether or not shelled or broken"
+    },
+    {
+        "level": 0,
+        "hs_code": "12030000",
+        "description_en": "Copra",
+        "children": [],
+        "semantic_path": "Copra"
+    },
+    {
+        "level": 0,
+        "hs_code": "12040000",
+        "description_en": "Linseed, whether or not broken",
+        "children": [],
+        "semantic_path": "Linseed, whether or not broken"
+    },
+    {
+        "level": 0,
+        "hs_code": "1205",
+        "description_en": "Rape or colza seeds, whether or not broken",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "12051000",
+                "description_en": "Low erucic acid rape or colza seeds",
+                "children": [],
+                "semantic_path": "Rape or colza seeds, whether or not broken > Low erucic acid rape or colza seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "12059000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Rape or colza seeds, whether or not broken > Other"
+            }
+        ],
+        "semantic_path": "Rape or colza seeds, whether or not broken"
+    },
+    {
+        "level": 0,
+        "hs_code": "12060000",
+        "description_en": "Sunflower seeds, whether or not broken",
+        "children": [],
+        "semantic_path": "Sunflower seeds, whether or not broken"
+    },
+    {
+        "level": 0,
+        "hs_code": "1207",
+        "description_en": "Other oil seeds and oleaginous fruits, whether or not broken",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "120710",
+                "description_en": "Palm nuts and kernels:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "12071010",
+                        "description_en": "Palm nuts suitable for sowing/planting",
+                        "children": [],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Palm nuts and kernels: > Palm nuts suitable for sowing/planting"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12071030",
+                        "description_en": "Kernels",
+                        "children": [],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Palm nuts and kernels: > Kernels"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12071090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Palm nuts and kernels: > Other"
+                    }
+                ],
+                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Palm nuts and kernels:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Cotton seeds:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "12072100",
+                        "description_en": "Seed",
+                        "children": [],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Cotton seeds: > Seed"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12072900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Cotton seeds: > Other"
+                    }
+                ],
+                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Cotton seeds:"
+            },
+            {
+                "level": 1,
+                "hs_code": "12073000",
+                "description_en": "Castor oil seeds",
+                "children": [],
+                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Castor oil seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "120740",
+                "description_en": "Sesamum seeds:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "12074010",
+                        "description_en": "Edible",
+                        "children": [],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Sesamum seeds: > Edible"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12074090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Sesamum seeds: > Other"
+                    }
+                ],
+                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Sesamum seeds:"
+            },
+            {
+                "level": 1,
+                "hs_code": "12075000",
+                "description_en": "Mustard seeds",
+                "children": [],
+                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Mustard seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "12076000",
+                "description_en": "Safflower (Carthamus tinctorius) seeds",
+                "children": [],
+                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Safflower (Carthamus tinctorius) seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "12077000",
+                "description_en": "Melon seeds",
+                "children": [],
+                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Melon seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "12079100",
+                        "description_en": "Poppy seeds",
+                        "children": [],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Other: > Poppy seeds"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "120799",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "12079940",
+                                "description_en": "Illipe seeds (Illipe nuts)",
+                                "children": [],
+                                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Other: > Other: > Illipe seeds (Illipe nuts)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12079950",
+                                "description_en": "Fresh fruit bunch of oil palm",
+                                "children": [],
+                                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Other: > Other: > Fresh fruit bunch of oil palm"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12079990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken > Other:"
+            }
+        ],
+        "semantic_path": "Other oil seeds and oleaginous fruits, whether or not broken"
+    },
+    {
+        "level": 0,
+        "hs_code": "1208",
+        "description_en": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "12081000",
+                "description_en": "Of soya beans",
+                "children": [],
+                "semantic_path": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard > Of soya beans"
+            },
+            {
+                "level": 1,
+                "hs_code": "12089000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard > Other"
+            }
+        ],
+        "semantic_path": "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard"
+    },
+    {
+        "level": 0,
+        "hs_code": "1209",
+        "description_en": "Seeds, fruit and spores, of a kind used for sowing",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "12091000",
+                "description_en": "Sugar beet seeds",
+                "children": [],
+                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Sugar beet seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Seeds of forage plants:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "12092100",
+                        "description_en": "Lucerne (alfalfa) seeds",
+                        "children": [],
+                        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants: > Lucerne (alfalfa) seeds"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12092200",
+                        "description_en": "Clover (Trifolium spp.) seeds",
+                        "children": [],
+                        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants: > Clover (Trifolium spp.) seeds"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12092300",
+                        "description_en": "Fescue seeds",
+                        "children": [],
+                        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants: > Fescue seeds"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12092400",
+                        "description_en": "Kentucky blue grass (Poa pratensis L.) seeds",
+                        "children": [],
+                        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants: > Kentucky blue grass (Poa pratensis L.) seeds"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12092500",
+                        "description_en": "Rye grass (Lolium multiflorum Lam., Lolium perenne L.) seeds",
+                        "children": [],
+                        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants: > Rye grass (Lolium multiflorum Lam., Lolium perenne L.) seeds"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "120929",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "12092910",
+                                "description_en": "Timothy grass (Phleum pratense) seeds",
+                                "children": [],
+                                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants: > Other: > Timothy grass (Phleum pratense) seeds"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12092990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants: > Other:"
+                    }
+                ],
+                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of forage plants:"
+            },
+            {
+                "level": 1,
+                "hs_code": "12093000",
+                "description_en": "Seeds of herbaceous plants cultivated principally for their flowers",
+                "children": [],
+                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Seeds of herbaceous plants cultivated principally for their flowers"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "120991",
+                        "description_en": "Vegetable seeds:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "12099110",
+                                "description_en": "Onion seeds",
+                                "children": [],
+                                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Other: > Vegetable seeds: > Onion seeds"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12099190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Other: > Vegetable seeds: > Other"
+                            }
+                        ],
+                        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Other: > Vegetable seeds:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "120999",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "12099920",
+                                "description_en": "Rubber tree seeds",
+                                "children": [],
+                                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Other: > Other: > Rubber tree seeds"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12099930",
+                                "description_en": "Kenaf seeds",
+                                "children": [],
+                                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Other: > Other: > Kenaf seeds"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12099990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Seeds, fruit and spores, of a kind used for sowing > Other:"
+            }
+        ],
+        "semantic_path": "Seeds, fruit and spores, of a kind used for sowing"
+    },
+    {
+        "level": 0,
+        "hs_code": "1210",
+        "description_en": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "12101000",
+                "description_en": "Hop cones, neither ground nor powdered nor in the form of pellets",
+                "children": [],
+                "semantic_path": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin > Hop cones, neither ground nor powdered nor in the form of pellets"
+            },
+            {
+                "level": 1,
+                "hs_code": "12102000",
+                "description_en": "Hop cones, ground, powdered or in the form of pellets; lupulin",
+                "children": [],
+                "semantic_path": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin > Hop cones, ground, powdered or in the form of pellets; lupulin"
+            }
+        ],
+        "semantic_path": "Hop cones, fresh or dried, whether or not ground, powdered or in the form of pellets; lupulin"
+    },
+    {
+        "level": 0,
+        "hs_code": "1211",
+        "description_en": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "121120",
+                "description_en": "Ginseng roots:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "12112010",
+                        "description_en": "Fresh or dried",
+                        "children": [],
+                        "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Ginseng roots: > Fresh or dried"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12112090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Ginseng roots: > Other"
+                    }
+                ],
+                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Ginseng roots:"
+            },
+            {
+                "level": 1,
+                "hs_code": "12113000",
+                "description_en": "Coca leaf",
+                "children": [],
+                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Coca leaf"
+            },
+            {
+                "level": 1,
+                "hs_code": "12114000",
+                "description_en": "Poppy straw",
+                "children": [],
+                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Poppy straw"
+            },
+            {
+                "level": 1,
+                "hs_code": "12115000",
+                "description_en": "Ephedra",
+                "children": [],
+                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Ephedra"
+            },
+            {
+                "level": 1,
+                "hs_code": "12116000",
+                "description_en": "Bark of African cherry (Prunus africana)",
+                "children": [],
+                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Bark of African cherry (Prunus africana)"
+            },
+            {
+                "level": 1,
+                "hs_code": "121190",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Of a kind used primarily in pharmacy:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "12119011",
+                                "description_en": "Cannabis, in cut, crushed or powdered form",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Of a kind used primarily in pharmacy: > Cannabis, in cut, crushed or powdered form"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119012",
+                                "description_en": "Cannabis, in other forms",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Of a kind used primarily in pharmacy: > Cannabis, in other forms"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119013",
+                                "description_en": "Rauwolfia serpentina roots",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Of a kind used primarily in pharmacy: > Rauwolfia serpentina roots"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119015",
+                                "description_en": "Liquorice roots",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Of a kind used primarily in pharmacy: > Liquorice roots"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119017",
+                                "description_en": "Other, fresh or dried, in cut, crushed or powdered form",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Of a kind used primarily in pharmacy: > Other, fresh or dried, in cut, crushed or powdered form"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119018",
+                                "description_en": "Other, in cut, crushed or powdered form",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Of a kind used primarily in pharmacy: > Other, in cut, crushed or powdered form"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Of a kind used primarily in pharmacy: > Other"
+                            }
+                        ],
+                        "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Of a kind used primarily in pharmacy:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_1",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "12119091",
+                                "description_en": "Pyrethrum, in cut, crushed or powdered form",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Other: > Pyrethrum, in cut, crushed or powdered form"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119092",
+                                "description_en": "Pyrethrum, in other forms",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Other: > Pyrethrum, in other forms"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119094",
+                                "description_en": "Sandalwood chips",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Other: > Sandalwood chips"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119095",
+                                "description_en": "Agarwood (Gaharu) chips",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Other: > Agarwood (Gaharu) chips"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119097",
+                                "description_en": "Bark of persea (Persea kurzii Kosterm)",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Other: > Bark of persea (Persea kurzii Kosterm)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119098",
+                                "description_en": "Other, in cut, crushed or powdered form",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Other: > Other, in cut, crushed or powdered form"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12119099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered > Other:"
+            }
+        ],
+        "semantic_path": "Plants and parts of plants (including seeds and fruits), of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, fresh, chilled, frozen or dried, whether or not cut, crushed or powdered"
+    },
+    {
+        "level": 0,
+        "hs_code": "1212",
+        "description_en": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Seaweeds and other algae:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "121221",
+                        "description_en": "Fit for human consumption:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Dried but not ground:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "12122111",
+                                        "description_en": "Eucheuma spinosum",
+                                        "children": [],
+                                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Fit for human consumption: > Dried but not ground: > Eucheuma spinosum"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "12122112",
+                                        "description_en": "Eucheuma cottonii",
+                                        "children": [],
+                                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Fit for human consumption: > Dried but not ground: > Eucheuma cottonii"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "12122113",
+                                        "description_en": "Gracilaria spp.",
+                                        "children": [],
+                                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Fit for human consumption: > Dried but not ground: > Gracilaria spp."
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "12122119",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Fit for human consumption: > Dried but not ground: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Fit for human consumption: > Dried but not ground:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12122190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Fit for human consumption: > Other"
+                            }
+                        ],
+                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Fit for human consumption:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "121229",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Fresh, chilled or dried, of a kind used in dyeing, tanning, perfumery, pharmacy, or for insecticidal, fungicidal or similar purposes:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "12122911",
+                                        "description_en": "Of a kind used in pharmacy",
+                                        "children": [],
+                                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Other: > Fresh, chilled or dried, of a kind used in dyeing, tanning, perfumery, pharmacy, or for insecticidal, fungicidal or similar purposes: > Of a kind used in pharmacy"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "12122919",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Other: > Fresh, chilled or dried, of a kind used in dyeing, tanning, perfumery, pharmacy, or for insecticidal, fungicidal or similar purposes: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Other: > Fresh, chilled or dried, of a kind used in dyeing, tanning, perfumery, pharmacy, or for insecticidal, fungicidal or similar purposes:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12122920",
+                                "description_en": "Other, fresh, chilled or dried",
+                                "children": [],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Other: > Other, fresh, chilled or dried"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12122930",
+                                "description_en": "Other, frozen",
+                                "children": [],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Other: > Other, frozen"
+                            }
+                        ],
+                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae: > Other:"
+                    }
+                ],
+                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Seaweeds and other algae:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "12129100",
+                        "description_en": "Sugar beet",
+                        "children": [],
+                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Sugar beet"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12129200",
+                        "description_en": "Locust beans (carob)",
+                        "children": [],
+                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Locust beans (carob)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "121293",
+                        "description_en": "Sugar cane:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "12129310",
+                                "description_en": "Suitable for planting",
+                                "children": [],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Sugar cane: > Suitable for planting"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12129390",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Sugar cane: > Other"
+                            }
+                        ],
+                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Sugar cane:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "12129400",
+                        "description_en": "Chicory roots",
+                        "children": [],
+                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Chicory roots"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "121299",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "12129910",
+                                "description_en": "Stones and kernels of apricot, peach (including nectarine) or plum",
+                                "children": [],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Other: > Stones and kernels of apricot, peach (including nectarine) or plum"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "12129990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included > Other:"
+            }
+        ],
+        "semantic_path": "Locust beans, seaweeds and other algae, sugar beet and sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones and kernels and other vegetable products of a kind used primarily for human consumption, not elsewhere specified or included"
+    },
+    {
+        "level": 0,
+        "hs_code": "12130000",
+        "description_en": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets",
+        "children": [],
+        "semantic_path": "Cereal straw and husks, unprepared, whether or not chopped, ground, pressed or in the form of pellets"
+    },
+    {
+        "level": 0,
+        "hs_code": "1214",
+        "description_en": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "12141000",
+                "description_en": "Lucerne (alfalfa) meal and pellets",
+                "children": [],
+                "semantic_path": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets > Lucerne (alfalfa) meal and pellets"
+            },
+            {
+                "level": 1,
+                "hs_code": "12149000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets > Other"
+            }
+        ],
+        "semantic_path": "Swedes, mangolds, fodder roots, hay, lucerne (alfalfa), clover, sainfoin, forage kale, lupines, vetches and similar forage products, whether or not in the form of pellets"
+    }
+]

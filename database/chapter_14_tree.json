@@ -1,0 +1,141 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1401",
+        "description_en": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark)",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "14011000",
+                "description_en": "Bamboos",
+                "children": [],
+                "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Bamboos"
+            },
+            {
+                "level": 1,
+                "hs_code": "140120",
+                "description_en": "Rattans:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "14012010",
+                        "description_en": "Whole",
+                        "children": [],
+                        "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Rattans: > Whole"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Split-core:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "14012021",
+                                "description_en": "Not exceeding 12 mm in diameter",
+                                "children": [],
+                                "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Rattans: > Split-core: > Not exceeding 12 mm in diameter"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "14012029",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Rattans: > Split-core: > Other"
+                            }
+                        ],
+                        "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Rattans: > Split-core:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "14012030",
+                        "description_en": "Split-skin",
+                        "children": [],
+                        "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Rattans: > Split-skin"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "14012090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Rattans: > Other"
+                    }
+                ],
+                "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Rattans:"
+            },
+            {
+                "level": 1,
+                "hs_code": "14019000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark) > Other"
+            }
+        ],
+        "semantic_path": "Vegetable materials of a kind used primarily for plaiting (for example, bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark)"
+    },
+    {
+        "level": 0,
+        "hs_code": "1404",
+        "description_en": "Vegetable products not elsewhere specified or included",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "14042000",
+                "description_en": "Cotton linters",
+                "children": [],
+                "semantic_path": "Vegetable products not elsewhere specified or included > Cotton linters"
+            },
+            {
+                "level": 1,
+                "hs_code": "140490",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "14049020",
+                        "description_en": "Of a kind used primarily in tanning or dyeing",
+                        "children": [],
+                        "semantic_path": "Vegetable products not elsewhere specified or included > Other: > Of a kind used primarily in tanning or dyeing"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "14049030",
+                        "description_en": "Kapok",
+                        "children": [],
+                        "semantic_path": "Vegetable products not elsewhere specified or included > Other: > Kapok"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "14049091",
+                                "description_en": "Palm kernel shells",
+                                "children": [],
+                                "semantic_path": "Vegetable products not elsewhere specified or included > Other: > Other: > Palm kernel shells"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "14049092",
+                                "description_en": "Empty fruit bunch of oil palm",
+                                "children": [],
+                                "semantic_path": "Vegetable products not elsewhere specified or included > Other: > Other: > Empty fruit bunch of oil palm"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "14049099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Vegetable products not elsewhere specified or included > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Vegetable products not elsewhere specified or included > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Vegetable products not elsewhere specified or included > Other:"
+            }
+        ],
+        "semantic_path": "Vegetable products not elsewhere specified or included"
+    }
+]

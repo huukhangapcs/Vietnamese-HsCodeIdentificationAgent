@@ -1,0 +1,457 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1001",
+        "description_en": "Wheat and meslin",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Durum wheat:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "10011100",
+                        "description_en": "Seed",
+                        "children": [],
+                        "semantic_path": "Wheat and meslin > Durum wheat: > Seed"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10011900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Wheat and meslin > Durum wheat: > Other"
+                    }
+                ],
+                "semantic_path": "Wheat and meslin > Durum wheat:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "10019100",
+                        "description_en": "Seed",
+                        "children": [],
+                        "semantic_path": "Wheat and meslin > Other: > Seed"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "100199",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Fit for human consumption:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "10019911",
+                                        "description_en": "Meslin",
+                                        "children": [],
+                                        "semantic_path": "Wheat and meslin > Other: > Other: > Fit for human consumption: > Meslin"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "10019912",
+                                        "description_en": "Wheat grain without extreme outer layer",
+                                        "children": [],
+                                        "semantic_path": "Wheat and meslin > Other: > Other: > Fit for human consumption: > Wheat grain without extreme outer layer"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "10019919",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Wheat and meslin > Other: > Other: > Fit for human consumption: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Wheat and meslin > Other: > Other: > Fit for human consumption:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_1",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "10019991",
+                                        "description_en": "Meslin",
+                                        "children": [],
+                                        "semantic_path": "Wheat and meslin > Other: > Other: > Other: > Meslin"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "10019999",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Wheat and meslin > Other: > Other: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Wheat and meslin > Other: > Other: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Wheat and meslin > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Wheat and meslin > Other:"
+            }
+        ],
+        "semantic_path": "Wheat and meslin"
+    },
+    {
+        "level": 0,
+        "hs_code": "1002",
+        "description_en": "Rye",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "10021000",
+                "description_en": "Seed",
+                "children": [],
+                "semantic_path": "Rye > Seed"
+            },
+            {
+                "level": 1,
+                "hs_code": "10029000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Rye > Other"
+            }
+        ],
+        "semantic_path": "Rye"
+    },
+    {
+        "level": 0,
+        "hs_code": "1003",
+        "description_en": "Barley",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "10031000",
+                "description_en": "Seed",
+                "children": [],
+                "semantic_path": "Barley > Seed"
+            },
+            {
+                "level": 1,
+                "hs_code": "10039000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Barley > Other"
+            }
+        ],
+        "semantic_path": "Barley"
+    },
+    {
+        "level": 0,
+        "hs_code": "1004",
+        "description_en": "Oats",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "10041000",
+                "description_en": "Seed",
+                "children": [],
+                "semantic_path": "Oats > Seed"
+            },
+            {
+                "level": 1,
+                "hs_code": "10049000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Oats > Other"
+            }
+        ],
+        "semantic_path": "Oats"
+    },
+    {
+        "level": 0,
+        "hs_code": "1005",
+        "description_en": "Maize (corn)",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "10051000",
+                "description_en": "Seed",
+                "children": [],
+                "semantic_path": "Maize (corn) > Seed"
+            },
+            {
+                "level": 1,
+                "hs_code": "100590",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "10059010",
+                        "description_en": "Popcorn",
+                        "children": [],
+                        "semantic_path": "Maize (corn) > Other: > Popcorn"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "10059091",
+                                "description_en": "Fit for human consumption",
+                                "children": [],
+                                "semantic_path": "Maize (corn) > Other: > Other: > Fit for human consumption"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "10059099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Maize (corn) > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Maize (corn) > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Maize (corn) > Other:"
+            }
+        ],
+        "semantic_path": "Maize (corn)"
+    },
+    {
+        "level": 0,
+        "hs_code": "1006",
+        "description_en": "Rice",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "100610",
+                "description_en": "Rice in the husk (paddy or rough):",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "10061010",
+                        "description_en": "Suitable for sowing",
+                        "children": [],
+                        "semantic_path": "Rice > Rice in the husk (paddy or rough): > Suitable for sowing"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10061090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Rice > Rice in the husk (paddy or rough): > Other"
+                    }
+                ],
+                "semantic_path": "Rice > Rice in the husk (paddy or rough):"
+            },
+            {
+                "level": 1,
+                "hs_code": "100620",
+                "description_en": "Husked (brown) rice:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "10062010",
+                        "description_en": "Hom Mali rice",
+                        "children": [],
+                        "semantic_path": "Rice > Husked (brown) rice: > Hom Mali rice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10062090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Rice > Husked (brown) rice: > Other"
+                    }
+                ],
+                "semantic_path": "Rice > Husked (brown) rice:"
+            },
+            {
+                "level": 1,
+                "hs_code": "100630",
+                "description_en": "Semi-milled or wholly milled rice, whether or not polished or glazed:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "10063030",
+                        "description_en": "Glutinous rice",
+                        "children": [],
+                        "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed: > Glutinous rice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10063040",
+                        "description_en": "Hom Mali rice",
+                        "children": [],
+                        "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed: > Hom Mali rice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10063050",
+                        "description_en": "Basmati rice",
+                        "children": [],
+                        "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed: > Basmati rice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10063060",
+                        "description_en": "Malys rice",
+                        "children": [],
+                        "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed: > Malys rice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10063070",
+                        "description_en": "Other fragrant rice",
+                        "children": [],
+                        "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed: > Other fragrant rice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "10063091",
+                                "description_en": "Parboiled rice",
+                                "children": [],
+                                "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed: > Other: > Parboiled rice"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "10063099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed: > Other:"
+                    }
+                ],
+                "semantic_path": "Rice > Semi-milled or wholly milled rice, whether or not polished or glazed:"
+            },
+            {
+                "level": 1,
+                "hs_code": "100640",
+                "description_en": "Broken rice:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "10064010",
+                        "description_en": "Of a kind used for animal feed",
+                        "children": [],
+                        "semantic_path": "Rice > Broken rice: > Of a kind used for animal feed"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10064090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Rice > Broken rice: > Other"
+                    }
+                ],
+                "semantic_path": "Rice > Broken rice:"
+            }
+        ],
+        "semantic_path": "Rice"
+    },
+    {
+        "level": 0,
+        "hs_code": "1007",
+        "description_en": "Grain sorghum",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "10071000",
+                "description_en": "Seed",
+                "children": [],
+                "semantic_path": "Grain sorghum > Seed"
+            },
+            {
+                "level": 1,
+                "hs_code": "10079000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Grain sorghum > Other"
+            }
+        ],
+        "semantic_path": "Grain sorghum"
+    },
+    {
+        "level": 0,
+        "hs_code": "1008",
+        "description_en": "Buckwheat, millet and canary seeds; other cereals",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "10081000",
+                "description_en": "Buckwheat",
+                "children": [],
+                "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Buckwheat"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Millet:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "10082100",
+                        "description_en": "Seed",
+                        "children": [],
+                        "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Millet: > Seed"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "10082900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Millet: > Other"
+                    }
+                ],
+                "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Millet:"
+            },
+            {
+                "level": 1,
+                "hs_code": "10083000",
+                "description_en": "Canary seeds",
+                "children": [],
+                "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Canary seeds"
+            },
+            {
+                "level": 1,
+                "hs_code": "10084000",
+                "description_en": "Fonio (Digitaria spp.)",
+                "children": [],
+                "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Fonio (Digitaria spp.)"
+            },
+            {
+                "level": 1,
+                "hs_code": "10085000",
+                "description_en": "Quinoa (Chenopodium quinoa)",
+                "children": [],
+                "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Quinoa (Chenopodium quinoa)"
+            },
+            {
+                "level": 1,
+                "hs_code": "10086000",
+                "description_en": "Triticale",
+                "children": [],
+                "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Triticale"
+            },
+            {
+                "level": 1,
+                "hs_code": "10089000",
+                "description_en": "Other cereals",
+                "children": [],
+                "semantic_path": "Buckwheat, millet and canary seeds; other cereals > Other cereals"
+            }
+        ],
+        "semantic_path": "Buckwheat, millet and canary seeds; other cereals"
+    }
+]

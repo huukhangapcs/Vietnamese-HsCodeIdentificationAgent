@@ -1,0 +1,38 @@
+{
+    "chapter_code": "10",
+    "inclusions": [
+        "Cereals (grains), whether or not in the ear or on the stalk",
+        "Wheat, meslin, rye, barley, oats, maize (corn), rice, grain sorghum",
+        "Buckwheat, millet, canary seeds, fonio (Digitaria spp.), quinoa (Chenopodium quinoa), triticale, and other cereals",
+        "Rice in the husk (paddy), husked (brown) rice, semi-milled or wholly milled rice (whether or not polished or glazed), parboiled rice, and broken rice (heading 10.06)",
+        "Quinoa from which the pericarp has been wholly or partly removed to separate saponin, without any other processing (heading 10.08)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Grains that have been hulled or otherwise worked (EXCEPT RICE 10.06 and QUINOA 10.08 - Husken brown rice/hulled rice is EXPLICITLY ALLOWED in Chapter 10)",
+            "action": "Redirect to Chapter 11 (Products of the milling industry) or other relevant chapter",
+            "keywords": [
+                "worked",
+                "processed",
+                "milled",
+                "polished",
+                "flour",
+                "groats",
+                "meal",
+                "starch",
+                "chapter 11"
+            ]
+        },
+        {
+            "condition": "Sweet corn (maize of the sweet corn variety, Zea mays var. saccharata)",
+            "action": "Redirect to Chapter 7 (Edible Vegetables)",
+            "keywords": [
+                "sweet corn",
+                "ngô ngọt",
+                "Zea mays var. saccharata",
+                "chapter 7",
+                "07"
+            ]
+        }
+    ]
+}

@@ -1,9 +1,9 @@
 import json
 import os
 import csv
-import chromadb
-from chromadb.utils import embedding_functions
-from sentence_transformers import SentenceTransformer
+# NOTE: chromadb and sentence_transformers are lazy-imported inside
+# _get_vector_collections() to avoid Python 3.14 / pydantic-v1 incompatibility.
+# All functions that do NOT use vector search work without chromadb installed.
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HSDATA_PATH = os.path.join(BASE_DIR, "hsdata.csv")
@@ -17,22 +17,29 @@ _titles_cache = {}  # BUG-3 FIX: cache chapter titles to avoid repeated file rea
 
 CHROMA_DB_PATH = os.path.join(BASE_DIR, "database", "chroma_db")
 
-class CustomEmbeddingFunction(embedding_functions.EmbeddingFunction):
-    def __init__(self, model_name="paraphrase-multilingual-MiniLM-L12-v2"):
-        self.model = SentenceTransformer(model_name)
-    def __call__(self, input):
-        return self.model.encode(input).tolist()
-
 _chroma_client = None
 _embed_fn = None
 _collection_nodes = None
 _collection_rules = None
 
 def _get_vector_collections():
+    """Lazy-initialise ChromaDB + embedding model on first use."""
     global _chroma_client, _embed_fn, _collection_nodes, _collection_rules
     if _chroma_client is None:
-        _embed_fn = CustomEmbeddingFunction()
-        _chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
+        # Lazy imports — kept here so the module loads fine on Python 3.14
+        # even when chromadb/pydantic-v1 is broken in that environment.
+        import chromadb as _chromadb
+        from chromadb.utils import embedding_functions as _emb_fns
+        from sentence_transformers import SentenceTransformer as _ST
+
+        class _CustomEmbeddingFunction(_emb_fns.EmbeddingFunction):
+            def __init__(self, model_name="paraphrase-multilingual-MiniLM-L12-v2"):
+                self.model = _ST(model_name)
+            def __call__(self, input):
+                return self.model.encode(input).tolist()
+
+        _embed_fn = _CustomEmbeddingFunction()
+        _chroma_client = _chromadb.PersistentClient(path=CHROMA_DB_PATH)
         _collection_nodes = _chroma_client.get_collection(name="hs_nodes", embedding_function=_embed_fn)
         _collection_rules = _chroma_client.get_collection(name="hs_rules", embedding_function=_embed_fn)
     return _collection_nodes, _collection_rules

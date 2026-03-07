@@ -1,0 +1,112 @@
+{
+    "chapter_code": "13",
+    "inclusions": [
+        "Lac (shellac); natural gums, resins, gum-resins and oleoresins (e.g., balsams) including Gum Arabic, cannabis resins (heading 13.01)",
+        "Vegetable saps and extracts including opium, liquorice extract, extract of hops, extract of ephedra, cannabis extracts, pyrethrum extracts, Japan lacquer (heading 13.02)",
+        "Pectic substances, pectinates and pectates (heading 13.02)",
+        "Agar-agar and other mucilages and thickeners (whether or not modified) derived from vegetable products, including carrageenan and guar (heading 13.02)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Liquorice extract containing more than 10% by weight of sucrose or put up as confectionery",
+            "action": "Redirect to Heading 17.04",
+            "keywords": [
+                "liquorice extract",
+                "sucrose",
+                "confectionery",
+                "17.04"
+            ]
+        },
+        {
+            "condition": "Malt extract",
+            "action": "Redirect to Heading 19.01",
+            "keywords": [
+                "malt extract",
+                "19.01"
+            ]
+        },
+        {
+            "condition": "Extracts of coffee, tea or maté",
+            "action": "Redirect to Heading 21.01",
+            "keywords": [
+                "coffee extract",
+                "tea extract",
+                "maté extract",
+                "21.01"
+            ]
+        },
+        {
+            "condition": "Vegetable saps or extracts constituting alcoholic beverages",
+            "action": "Redirect to Chapter 22",
+            "keywords": [
+                "alcoholic beverage",
+                "chapter 22"
+            ]
+        },
+        {
+            "condition": "Camphor, glycyrrhizin or other products of heading 29.14 or 29.38",
+            "action": "Redirect to Heading 29.14 or 29.38",
+            "keywords": [
+                "camphor",
+                "glycyrrhizin",
+                "29.14",
+                "29.38"
+            ]
+        },
+        {
+            "condition": "Concentrates of poppy straw containing not less than 50% by weight of alkaloids",
+            "action": "Redirect to Heading 29.39",
+            "keywords": [
+                "poppy straw concentrate",
+                "alkaloid",
+                "50%",
+                "29.39"
+            ]
+        },
+        {
+            "condition": "Medicaments of heading 30.03 or 30.04 or blood-grouping reagents",
+            "action": "Redirect to Heading 30.03, 30.04 or 38.22",
+            "keywords": [
+                "medicament",
+                "blood-grouping",
+                "reagent",
+                "30.03",
+                "30.04",
+                "38.22"
+            ]
+        },
+        {
+            "condition": "Tanning or dyeing extracts",
+            "action": "Redirect to Heading 32.01 or 32.03",
+            "keywords": [
+                "tanning extract",
+                "dyeing extract",
+                "32.01",
+                "32.03"
+            ]
+        },
+        {
+            "condition": "Essential oils, concretes, absolutes, resinoids, extracted oleoresins, aqueous distillates or solutions of essential oils, or odoriferous preparations for beverage manufacture",
+            "action": "Redirect to Chapter 33",
+            "keywords": [
+                "essential oil",
+                "resinoid",
+                "oleoresin",
+                "odoriferous",
+                "chapter 33"
+            ]
+        },
+        {
+            "condition": "Natural rubber, balata, gutta-percha, guayule, chicle or similar natural RUBBER gums (Note: Gum Arabic and natural vegetable gums belong to Chapter 13, NOT 40.01)",
+            "action": "Redirect to Heading 40.01",
+            "keywords": [
+                "natural rubber",
+                "balata",
+                "gutta-percha",
+                "guayule",
+                "chicle",
+                "40.01"
+            ]
+        }
+    ]
+}

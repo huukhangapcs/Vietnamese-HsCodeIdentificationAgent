@@ -172,5 +172,143 @@
     "reasoning": "Coffee, roasted and ground, classified under heading 0901 as 'Coffee, whether or not roasted or decaffeinated'. Subheading 0901.21 covers 'Coffee, roasted, not decaffeinated'. The 8-digit code 0901.21.00 applies to roasted coffee, whether whole bean or ground, as the HS classification does not distinguish between whole and ground roasted coffee at this level.",
     "timestamp": 1772281330.657675,
     "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:thịt bò new zealand đông lạnh, đã xương.|function:used for food consumption_is_valid:true_item_name:new zealand beef_material:not applicable_state_or_condition:frozen, boneless": {
+    "hs_code": "02023090",
+    "reasoning": "The item is frozen boneless beef (bovine meat) from New Zealand. According to Chapter 02 (Meat and edible meat offal), frozen bovine meat falls under heading 02.02. Since it is boneless, it is classified under subheading 0202.30. As it is not specified for manufacturing meat extracts or juices, it falls under residual subheading 0202.30.90 - Other.",
+    "timestamp": 1772864692.545506,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:cá hồi na uy tươi nguyên con.|function:used for food consumption_is_valid:true_item_name:norwegian salmon_material:not applicable_state_or_condition:fresh": {
+    "hs_code": "03021110",
+    "reasoning": "Norwegian salmon is classified under Chapter 03 for fish. As fresh, whole salmon (not frozen, processed, or filleted), it falls under heading 0302 for 'Fish, fresh or chilled, excluding fish fillets and other fish meat of heading 03.04'. Salmonidae (salmon family) is specifically listed under subheading 0302.11, and fresh salmon would be classified under 0302.11.10. The item description 'Cá hồi Na Uy tươi nguyên con' translates to 'Norwegian salmon fresh whole', which matches this classification.",
+    "timestamp": 1772864745.1474051,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:sữa tươi nguyên kem chưa cô đặc.|function:used for consumption as a beverage or food ingredient_is_valid:true_item_name:whole fresh milk_material:not applicable_state_or_condition:fresh": {
+    "hs_code": "040120",
+    "reasoning": "The item 'Sữa tươi nguyên kem chưa cô đặc' (Whole fresh milk not concentrated) is classified under Heading 0401 as 'Milk and cream, not concentrated nor containing added sugar or other sweetening matter'. Subheading 0401.20 covers 'Milk and cream, of a fat content, by weight, exceeding 1% but not exceeding 6%', which applies to whole milk. The classification follows GIR 1 based on the terms of Heading 0401.",
+    "timestamp": 1772864810.117286,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:lông vũ tự nhiên của vịt dùng làm nhân áo phao.|function:used as filling for life jackets_is_valid:true_item_name:duck feathers_material:feathers_state_or_condition:natural": {
+    "hs_code": "05051000",
+    "reasoning": "The item consists of natural duck feathers used as filling for life jackets. According to Chapter 05 (Products of animal origin), heading 0505 covers 'Feathers and down, cleaned, disinfected or otherwise worked; powder and waste of feathers or parts of feathers.' Subheading 05051000 specifically covers 'Feathers of a kind used for stuffing; down.' The feathers are natural and intended for use as stuffing/filling material for life jackets, which aligns perfectly with this classification. No further processing beyond cleaning is indicated, and the function as stuffing material is clear.",
+    "timestamp": 1772864862.432833,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:hoa hồng tươi cắt cành dùng trang trí.|function:used for decoration_is_valid:true_item_name:fresh cut rose flowers_material:not applicable_state_or_condition:fresh": {
+    "hs_code": "06031100",
+    "reasoning": "Fresh cut rose flowers for decoration fall under Chapter 06 for 'Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage.' Specifically under Heading 0603: 'Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared.' Subheading 0603.11.00 covers 'Roses' which matches the specific flower type mentioned. The item is fresh (tươi), cut (cắt cành), and used for decoration (dùng trang trí), making this the correct classification.",
+    "timestamp": 1772865277.5422752,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:khoai tây tươi chưa chế biến.|function:used for food consumption or processing_is_valid:true_item_name:fresh potatoes_material:not applicable_state_or_condition:fresh": {
+    "hs_code": "07019000",
+    "reasoning": "Fresh potatoes are classified under Chapter 07 (Edible vegetables and certain roots and tubers). Heading 0701 specifically covers 'Potatoes, fresh or chilled'. Since the potatoes are described as fresh and unprocessed without indication they are for seed, they fall under subheading 0701.90 'Other', resulting in HS code 07019000.",
+    "timestamp": 1772865319.217463,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:chuối tiêu tươi nhập khẩu từ philippines.|function:used for consumption as food_is_valid:true_item_name:banana_material:not applicable_state_or_condition:fresh": {
+    "hs_code": "08039000",
+    "reasoning": "Fresh bananas (Chuối tiêu tươi) are classified under Chapter 08 for edible fruit. Heading 0803 specifically covers 'Bananas, including plantains, fresh or dried'. Subheading 0803.90 covers 'Other bananas, fresh' which includes fresh banana varieties like Chuối tiêu. The item is fresh (not dried) and intended for consumption as food.",
+    "timestamp": 1772865368.272245,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:cà phê nhân xanh chưa rang.|function:used for roasting to produce coffee_is_valid:true_item_name:green coffee beans_material:coffee beans_state_or_condition:unroasted": {
+    "hs_code": "09011100",
+    "reasoning": "Green coffee beans (unroasted) are classified under Chapter 09 (Coffee, tea, mate and spices). Heading 0901 covers coffee, whether or not roasted or decaffeinated. Subheading 0901.11.00 specifically covers 'Coffee, not roasted, not decaffeinated', which matches the description of 'Cà phê nhân xanh chưa rang' (green coffee beans, unroasted).",
+    "timestamp": 1772865425.7058759,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:hạt tiêu đen nguyên hạt chưa xay.|function:used as a spice or seasoning_is_valid:true_item_name:whole black pepper_material:not applicable_state_or_condition:whole, unprocessed": {
+    "hs_code": "09041100",
+    "reasoning": "Black pepper (whole, unground) is classified under Chapter 09 - Coffee, tea, maté and spices. Heading 0904 specifically covers 'Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta'. Subheading 0904.11 covers 'Neither crushed nor ground'. The item 'Hạt tiêu đen nguyên hạt chưa xay' (Whole black pepper, unground) perfectly matches this classification as it is pepper (Piper nigrum) in its whole, unprocessed form.",
+    "timestamp": 1772865484.381526,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:lúa mì cứng (durum wheat) dùng sản xuất mì ống.|function:used for pasta production_is_valid:true_item_name:durum wheat_material:not applicable_state_or_condition:unknown": {
+    "hs_code": "10011100",
+    "reasoning": "Durum wheat is classified under Chapter 10 (Cereals), specifically heading 1001 (Wheat and meslin). Durum wheat is a specific type of wheat mentioned in subheading 1001.11. The fact that it's used for pasta production doesn't change its classification as wheat in its basic cereal grain form. This classification follows GIR 1 based on the terms of heading 1001.",
+    "timestamp": 1772865722.566009,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:bột mì thông thường (wheat flour).|function:used for baking or cooking_is_valid:true_item_name:wheat flour_material:wheat_state_or_condition:powder": {
+    "hs_code": "11010000",
+    "reasoning": "Wheat flour (bột mì thông thường) is classified under Heading 11.01 'Wheat or meslin flour' according to Chapter 11 'Products of the milling industry; malt; starches; inulin; wheat gluten'. The item is ordinary/common wheat flour in powder form, used for baking or cooking, which falls under the general category of wheat flour without any special characteristics that would require more specific classification.",
+    "timestamp": 1772865788.524676,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:tinh bột sắn (cassava starch).|function:used as a food ingredient or industrial thickener_is_valid:true_item_name:cassava starch_material:cassava_state_or_condition:powder": {
+    "hs_code": "11081400",
+    "reasoning": "Cassava starch falls under Chapter 11 'Products of the milling industry; malt; starches; inulin; wheat gluten'. Heading 1108 covers 'Starche; inulin', and subheading 1108.14 specifically covers 'Of manioc (cassava)'. The item is a starch extracted from cassava roots in powder form, used as a food ingredient or industrial thickener.",
+    "timestamp": 1772865849.446522,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:agar-agar dạng bột từ rong biển.|function:used as a gelling agent in food or other applications_is_valid:true_item_name:agar-agar powder from seaweed_material:seaweed_state_or_condition:powder": {
+    "hs_code": "13023100",
+    "reasoning": "Agar-agar powder from seaweed is classified under Heading 1302 as 'Vegetable saps and extracts; agar-agar and other mucilages and thickeners derived from vegetable products'. Specifically, subheading 1302.31 covers 'Agar-agar'. The powder form is the standard presentation for agar-agar, which is extracted from red seaweed (Rhodophyta) and used as a gelling agent in food and other applications.",
+    "timestamp": 1772866593.7917361,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:mây nguyên cây (rattan whole).|function:raw material for weaving or crafting_is_valid:true_item_name:rattan whole_material:rattan_state_or_condition:whole": {
+    "hs_code": "14012000",
+    "reasoning": "Rattan whole falls under Chapter 14 for vegetable plaiting materials. Heading 1401 specifically covers 'Vegetable materials of a kind used primarily for plaiting', and subheading 1401.20 covers 'Rattans'. The item is described as whole rattan, which is the raw material form used for plaiting and weaving purposes.",
+    "timestamp": 1772866835.625375,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:hạt nhân cọ (palm kernel) phục vụ sản xuất dầu.|function:used for oil production_is_valid:true_item_name:palm kernel_material:not applicable_state_or_condition:unknown": {
+    "hs_code": "12072900",
+    "reasoning": "Palm kernels are classified under Chapter 12 as oil seeds. Heading 12.03 specifically includes 'palm nuts and kernels'. Since the description states they are for oil production (not for sowing), they fall under subheading 1207.29 for palm nuts and kernels, other than for sowing.",
+    "timestamp": 1772866894.417228,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:bột mì đã trộn gia vị bán lẻ để làm bánh.|function:used for making cakes_is_valid:true_item_name:seasoned flour for baking_material:wheat flour_state_or_condition:powder": {
+    "hs_code": "19012000",
+    "reasoning": "The item is seasoned wheat flour for baking, retail packed. This constitutes a prepared food preparation of flour mixed with seasonings specifically for making cakes/baked goods. According to Chapter 19, Heading 1901 covers 'food preparations of flour... not elsewhere specified or included.' Subheading 1901.20 specifically covers 'Mixes and doughs for the preparation of bakers' wares of heading 1905.' The item is a mix (flour + seasonings) for preparing baked goods (cakes), making 1901.20 the appropriate classification.",
+    "timestamp": 1772867257.037751,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:gạo lứt (husked brown rice) chưa xay xát.|function:food for human consumption_is_valid:true_item_name:husked brown rice_material:rice_state_or_condition:unmilled": {
+    "hs_code": "10063000",
+    "reasoning": "The item is husked brown rice (gạo lứt) that is unmilled (chưa xay xát). This falls under Chapter 10 - Cereals, specifically Heading 1006 - Rice. Subheading 1006.30 covers 'Husked (brown) rice', which precisely describes rice that has had the outer husk removed but retains the bran layer and has not been further milled or polished. The description matches the HS classification for unmilled husked brown rice.",
+    "timestamp": 1772868099.69052,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:lúa mì cứng (durum wheat) dùng sản xuất mì ống.|function:used for producing pasta_is_valid:true_item_name:durum wheat_material:not applicable_state_or_condition:unknown": {
+    "hs_code": "10011000",
+    "reasoning": "Durum wheat falls under Chapter 10 (Cereals), specifically heading 1001 (Wheat and meslin). Subheading 1001.10 covers 'Durum wheat'. The description 'dùng sản xuất mì ống' (used for producing pasta) indicates it's for milling/processing purposes, not for sowing, which aligns with this classification. No legal exclusions apply as durum wheat is specifically included in this subheading.",
+    "timestamp": 1772868169.321264,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:con voi được huấn luyện biểu diễn rạp xiếc.|function:used for circus performances and entertainment_is_valid:true_item_name:circus performing elephant_material:not applicable_state_or_condition:live": {
+    "hs_code": "95081000",
+    "reasoning": "The item is a circus performing elephant, which falls under 'travelling circuses and travelling menageries' as per Heading 9508. According to Chapter 1 Notes, animals of travelling circuses and travelling menageries are excluded from Chapter 1 (Live Animals). Therefore, the correct classification is under 9508 - 'Roundabouts, swings, shooting galleries and other fairground amusements; travelling circuses and travelling menageries; travelling theatres', specifically subheading 95081000 for 'Travelling circuses and travelling menageries'.",
+    "timestamp": 1772868760.9072142,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:khoai tây tươi chưa chế biến.|function:used for food consumption or processing_is_valid:true_item_name:potatoes_material:not applicable_state_or_condition:fresh": {
+    "hs_code": "07019000",
+    "reasoning": "Fresh potatoes are classified under Chapter 07 as edible vegetables. Heading 0701 covers 'Potatoes, fresh or chilled'. Since the description states 'tươi chưa chế biến' (fresh unprocessed) and does not specify they are for planting/seed purposes, they fall under subheading 0701.90 'Other' rather than 0701.10 'Seed potatoes'.",
+    "timestamp": 1772868827.670348,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:gạo lứt (husked brown rice) chưa xay xát.|function:food for human consumption_is_valid:true_item_name:brown rice_material:rice grain_state_or_condition:husked, unpolished": {
+    "hs_code": "10062000",
+    "reasoning": "The item is 'Gạo lứt (husked brown rice) chưa xay xát' which corresponds to husked (brown) rice. According to Chapter 10 (Cereals), Heading 1006 covers 'Rice', and subheading 1006.20 specifically covers 'Husked (brown) rice'. The description matches exactly: husked brown rice that is unpolished/unmilled. This is distinct from rice in the husk (1006.10), semi-milled/wholly milled rice (1006.30), or broken rice (1006.40).",
+    "timestamp": 1772868903.866789,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:bột mì thông thường (wheat flour).|function:used for baking or cooking as a food ingredient_is_valid:true_item_name:wheat flour_material:wheat_state_or_condition:powder": {
+    "hs_code": "11010000",
+    "reasoning": "Wheat flour is classified under Heading 11.01 'Wheat or meslin flour'. The item description 'Bột mì thông thường (wheat flour)' indicates ordinary/common wheat flour used for human consumption, which falls under subheading 1101.00. This classification follows GIR 1 based on the terms of Heading 11.01 for wheat flour products of the milling industry.",
+    "timestamp": 1772868964.068236,
+    "source": "Agentic ReAct Pipeline"
+  },
+  "hscode:ngựa đua thuần chủng, còn sống.|function:used for racing_is_valid:true_item_name:thoroughbred racehorse_material:not applicable_state_or_condition:alive": {
+    "hs_code": "01013000",
+    "reasoning": "The item is a live thoroughbred racehorse, classified under Chapter 01 'Live animals'. Heading 0101 covers 'Live horses, asses, mules and hinnies'. Subheading 0101.30 is for 'Other horses', which includes horses for racing/sports purposes that are not specifically for breeding (0101.21) or slaughter (0101.29). The thoroughbred racehorse is alive and used for racing, fitting the description of 'Other horses'.",
+    "timestamp": 1772869338.2576058,
+    "source": "Agentic ReAct Pipeline"
   }
 }

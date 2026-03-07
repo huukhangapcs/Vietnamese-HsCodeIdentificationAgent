@@ -128,7 +128,7 @@ class HSPipeline:
             if current_feedback:
                 prompt += f"\n\n[LƯU Ý TỪ LẦN TRƯỚC BỊ LỖI]: {current_feedback}\nHãy tra cứu kỹ lại Chú giải hoặc Nhóm khác để tìm mã đúng."
                 
-            draft_result = self.coder.classify_item(prompt, starting_node_id, max_steps=15, stream_callback=stream_callback, input_callback=input_callback)
+            draft_result = self.coder.classify_item(prompt, starting_node_id, max_steps=8, stream_callback=stream_callback, input_callback=input_callback)
             hs_code = draft_result.get("hs_code", "UNKNOWN")
             
             # --- INCORPORATE HUMAN-IN-THE-LOOP ---

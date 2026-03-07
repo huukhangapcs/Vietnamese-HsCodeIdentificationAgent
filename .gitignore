@@ -37,3 +37,4 @@ database/approved_cache.json
 *.log
 logs/
 hsdata.csv
+*.txt

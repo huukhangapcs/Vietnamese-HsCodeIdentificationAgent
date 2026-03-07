@@ -1,0 +1,420 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1101",
+        "description_en": "Wheat or meslin flour",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Wheat flour:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "11010011",
+                        "description_en": "Fortified",
+                        "children": [],
+                        "semantic_path": "Wheat or meslin flour > Wheat flour: > Fortified"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11010019",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Wheat or meslin flour > Wheat flour: > Other"
+                    }
+                ],
+                "semantic_path": "Wheat or meslin flour > Wheat flour:"
+            },
+            {
+                "level": 1,
+                "hs_code": "11010020",
+                "description_en": "Meslin flour",
+                "children": [],
+                "semantic_path": "Wheat or meslin flour > Meslin flour"
+            }
+        ],
+        "semantic_path": "Wheat or meslin flour"
+    },
+    {
+        "level": 0,
+        "hs_code": "1102",
+        "description_en": "Cereal flours other than of wheat or meslin",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "11022000",
+                "description_en": "Maize (corn) flour",
+                "children": [],
+                "semantic_path": "Cereal flours other than of wheat or meslin > Maize (corn) flour"
+            },
+            {
+                "level": 1,
+                "hs_code": "110290",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "11029010",
+                        "description_en": "Rice flour",
+                        "children": [],
+                        "semantic_path": "Cereal flours other than of wheat or meslin > Other: > Rice flour"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11029020",
+                        "description_en": "Rye flour",
+                        "children": [],
+                        "semantic_path": "Cereal flours other than of wheat or meslin > Other: > Rye flour"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11029090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Cereal flours other than of wheat or meslin > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Cereal flours other than of wheat or meslin > Other:"
+            }
+        ],
+        "semantic_path": "Cereal flours other than of wheat or meslin"
+    },
+    {
+        "level": 0,
+        "hs_code": "1103",
+        "description_en": "Cereal groats, meal and pellets",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Groats and meal:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "11031100",
+                        "description_en": "Of wheat",
+                        "children": [],
+                        "semantic_path": "Cereal groats, meal and pellets > Groats and meal: > Of wheat"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11031300",
+                        "description_en": "Of maize (corn)",
+                        "children": [],
+                        "semantic_path": "Cereal groats, meal and pellets > Groats and meal: > Of maize (corn)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "110319",
+                        "description_en": "Of other cereals:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "11031910",
+                                "description_en": "Of meslin",
+                                "children": [],
+                                "semantic_path": "Cereal groats, meal and pellets > Groats and meal: > Of other cereals: > Of meslin"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "11031920",
+                                "description_en": "Of rice",
+                                "children": [],
+                                "semantic_path": "Cereal groats, meal and pellets > Groats and meal: > Of other cereals: > Of rice"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "11031990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Cereal groats, meal and pellets > Groats and meal: > Of other cereals: > Other"
+                            }
+                        ],
+                        "semantic_path": "Cereal groats, meal and pellets > Groats and meal: > Of other cereals:"
+                    }
+                ],
+                "semantic_path": "Cereal groats, meal and pellets > Groats and meal:"
+            },
+            {
+                "level": 1,
+                "hs_code": "11032000",
+                "description_en": "Pellets",
+                "children": [],
+                "semantic_path": "Cereal groats, meal and pellets > Pellets"
+            }
+        ],
+        "semantic_path": "Cereal groats, meal and pellets"
+    },
+    {
+        "level": 0,
+        "hs_code": "1104",
+        "description_en": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Rolled or flaked grains:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "11041200",
+                        "description_en": "Of oats",
+                        "children": [],
+                        "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Rolled or flaked grains: > Of oats"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "110419",
+                        "description_en": "Of other cereals:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "11041910",
+                                "description_en": "Of maize (corn)",
+                                "children": [],
+                                "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Rolled or flaked grains: > Of other cereals: > Of maize (corn)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "11041990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Rolled or flaked grains: > Of other cereals: > Other"
+                            }
+                        ],
+                        "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Rolled or flaked grains: > Of other cereals:"
+                    }
+                ],
+                "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Rolled or flaked grains:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Other worked grains (for example, hulled, pearled, sliced or kibbled):",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "11042200",
+                        "description_en": "Of oats",
+                        "children": [],
+                        "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Other worked grains (for example, hulled, pearled, sliced or kibbled): > Of oats"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11042300",
+                        "description_en": "Of maize (corn)",
+                        "children": [],
+                        "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Other worked grains (for example, hulled, pearled, sliced or kibbled): > Of maize (corn)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "110429",
+                        "description_en": "Of other cereals:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "11042920",
+                                "description_en": "Of barley",
+                                "children": [],
+                                "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Other worked grains (for example, hulled, pearled, sliced or kibbled): > Of other cereals: > Of barley"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "11042990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Other worked grains (for example, hulled, pearled, sliced or kibbled): > Of other cereals: > Other"
+                            }
+                        ],
+                        "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Other worked grains (for example, hulled, pearled, sliced or kibbled): > Of other cereals:"
+                    }
+                ],
+                "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Other worked grains (for example, hulled, pearled, sliced or kibbled):"
+            },
+            {
+                "level": 1,
+                "hs_code": "11043000",
+                "description_en": "Germ of cereals, whole, rolled, flaked or ground",
+                "children": [],
+                "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground > Germ of cereals, whole, rolled, flaked or ground"
+            }
+        ],
+        "semantic_path": "Cereal grains otherwise worked (for example, hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06; germ of cereals, whole, rolled, flaked or ground"
+    },
+    {
+        "level": 0,
+        "hs_code": "1105",
+        "description_en": "Flour, meal, powder, flakes, granules and pellets of potatoes",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "11051000",
+                "description_en": "Flour, meal and powder",
+                "children": [],
+                "semantic_path": "Flour, meal, powder, flakes, granules and pellets of potatoes > Flour, meal and powder"
+            },
+            {
+                "level": 1,
+                "hs_code": "11052000",
+                "description_en": "Flakes, granules and pellets",
+                "children": [],
+                "semantic_path": "Flour, meal, powder, flakes, granules and pellets of potatoes > Flakes, granules and pellets"
+            }
+        ],
+        "semantic_path": "Flour, meal, powder, flakes, granules and pellets of potatoes"
+    },
+    {
+        "level": 0,
+        "hs_code": "1106",
+        "description_en": "Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "11061000",
+                "description_en": "Of the dried leguminous vegetables of heading 07.13",
+                "children": [],
+                "semantic_path": "Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8 > Of the dried leguminous vegetables of heading 07.13"
+            },
+            {
+                "level": 1,
+                "hs_code": "110620",
+                "description_en": "Of sago or of roots or tubers of heading 07.14:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "11062010",
+                        "description_en": "Of manioc (cassava)",
+                        "children": [],
+                        "semantic_path": "Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8 > Of sago or of roots or tubers of heading 07.14: > Of manioc (cassava)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11062020",
+                        "description_en": "Of sago",
+                        "children": [],
+                        "semantic_path": "Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8 > Of sago or of roots or tubers of heading 07.14: > Of sago"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11062090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8 > Of sago or of roots or tubers of heading 07.14: > Other"
+                    }
+                ],
+                "semantic_path": "Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8 > Of sago or of roots or tubers of heading 07.14:"
+            },
+            {
+                "level": 1,
+                "hs_code": "11063000",
+                "description_en": "Of the products of Chapter 8",
+                "children": [],
+                "semantic_path": "Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8 > Of the products of Chapter 8"
+            }
+        ],
+        "semantic_path": "Flour, meal and powder of the dried leguminous vegetables of heading 07.13, of sago or of roots or tubers of heading 07.14 or of the products of Chapter 8"
+    },
+    {
+        "level": 0,
+        "hs_code": "1107",
+        "description_en": "Malt, whether or not roasted",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "11071000",
+                "description_en": "Not roasted",
+                "children": [],
+                "semantic_path": "Malt, whether or not roasted > Not roasted"
+            },
+            {
+                "level": 1,
+                "hs_code": "11072000",
+                "description_en": "Roasted",
+                "children": [],
+                "semantic_path": "Malt, whether or not roasted > Roasted"
+            }
+        ],
+        "semantic_path": "Malt, whether or not roasted"
+    },
+    {
+        "level": 0,
+        "hs_code": "1108",
+        "description_en": "Starches; inulin",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Starches:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "11081100",
+                        "description_en": "Wheat starch",
+                        "children": [],
+                        "semantic_path": "Starches; inulin > Starches: > Wheat starch"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11081200",
+                        "description_en": "Maize (corn) starch",
+                        "children": [],
+                        "semantic_path": "Starches; inulin > Starches: > Maize (corn) starch"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11081300",
+                        "description_en": "Potato starch",
+                        "children": [],
+                        "semantic_path": "Starches; inulin > Starches: > Potato starch"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "11081400",
+                        "description_en": "Manioc (cassava) starch",
+                        "children": [],
+                        "semantic_path": "Starches; inulin > Starches: > Manioc (cassava) starch"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "110819",
+                        "description_en": "Other starches:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "11081910",
+                                "description_en": "Sago",
+                                "children": [],
+                                "semantic_path": "Starches; inulin > Starches: > Other starches: > Sago"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "11081990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Starches; inulin > Starches: > Other starches: > Other"
+                            }
+                        ],
+                        "semantic_path": "Starches; inulin > Starches: > Other starches:"
+                    }
+                ],
+                "semantic_path": "Starches; inulin > Starches:"
+            },
+            {
+                "level": 1,
+                "hs_code": "11082000",
+                "description_en": "Inulin",
+                "children": [],
+                "semantic_path": "Starches; inulin > Inulin"
+            }
+        ],
+        "semantic_path": "Starches; inulin"
+    },
+    {
+        "level": 0,
+        "hs_code": "11090000",
+        "description_en": "Wheat gluten, whether or not dried",
+        "children": [],
+        "semantic_path": "Wheat gluten, whether or not dried"
+    }
+]

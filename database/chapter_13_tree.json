@@ -1,0 +1,221 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1301",
+        "description_en": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "13012000",
+                "description_en": "Gum Arabic",
+                "children": [],
+                "semantic_path": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams) > Gum Arabic"
+            },
+            {
+                "level": 1,
+                "hs_code": "130190",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "13019030",
+                        "description_en": "Cannabis resins",
+                        "children": [],
+                        "semantic_path": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams) > Other: > Cannabis resins"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "13019040",
+                        "description_en": "Lac",
+                        "children": [],
+                        "semantic_path": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams) > Other: > Lac"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "13019090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams) > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams) > Other:"
+            }
+        ],
+        "semantic_path": "Lac; natural gums, resins, gum-resins and oleoresins (for example, balsams)"
+    },
+    {
+        "level": 0,
+        "hs_code": "1302",
+        "description_en": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Vegetable saps and extracts:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "130211",
+                        "description_en": "Opium:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "13021110",
+                                "description_en": "Pulvis opii",
+                                "children": [],
+                                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Opium: > Pulvis opii"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "13021190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Opium: > Other"
+                            }
+                        ],
+                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Opium:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "13021200",
+                        "description_en": "Of liquorice",
+                        "children": [],
+                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Of liquorice"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "13021300",
+                        "description_en": "Of hops",
+                        "children": [],
+                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Of hops"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "13021400",
+                        "description_en": "Of ephedra",
+                        "children": [],
+                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Of ephedra"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "130219",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "13021920",
+                                "description_en": "Extracts and tinctures of cannabis",
+                                "children": [],
+                                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Other: > Extracts and tinctures of cannabis"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "13021940",
+                                "description_en": "Vegetable saps and extracts of pyrethrum or of the roots of plants containing rotenone",
+                                "children": [],
+                                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Other: > Vegetable saps and extracts of pyrethrum or of the roots of plants containing rotenone"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "13021950",
+                                "description_en": "Japan (or Chinese) lacquer (natural lacquer)",
+                                "children": [],
+                                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Other: > Japan (or Chinese) lacquer (natural lacquer)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "13021990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts: > Other:"
+                    }
+                ],
+                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Vegetable saps and extracts:"
+            },
+            {
+                "level": 1,
+                "hs_code": "13022000",
+                "description_en": "Pectic substances, pectinates and pectates",
+                "children": [],
+                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Pectic substances, pectinates and pectates"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Mucilages and thickeners, whether or not modified, derived from vegetable products:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "13023100",
+                        "description_en": "Agar-agar",
+                        "children": [],
+                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Agar-agar"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "13023200",
+                        "description_en": "Mucilages and thickeners, whether or not modified, derived from locust beans, locust bean seeds or guar seeds",
+                        "children": [],
+                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Mucilages and thickeners, whether or not modified, derived from locust beans, locust bean seeds or guar seeds"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "130239",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Carrageenan:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "13023911",
+                                        "description_en": "Powder, semi-refined",
+                                        "children": [],
+                                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Other: > Carrageenan: > Powder, semi-refined"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "13023912",
+                                        "description_en": "Powder, refined",
+                                        "children": [],
+                                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Other: > Carrageenan: > Powder, refined"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "13023913",
+                                        "description_en": "Alkali treated carrageenan chips (ATCC)",
+                                        "children": [],
+                                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Other: > Carrageenan: > Alkali treated carrageenan chips (ATCC)"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "13023919",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Other: > Carrageenan: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Other: > Carrageenan:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "13023990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products: > Other:"
+                    }
+                ],
+                "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products > Mucilages and thickeners, whether or not modified, derived from vegetable products:"
+            }
+        ],
+        "semantic_path": "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages and thickeners, whether or not modified, derived from vegetable products"
+    }
+]

@@ -1,20 +1,50 @@
 import json
 import os
-import chromadb
-from chromadb.utils import embedding_functions
-from sentence_transformers import SentenceTransformer
 import uuid
+import warnings
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CHROMA_DB_PATH = os.path.join(BASE_DIR, "chroma_db")
 
+# ── Python 3.14 / pydantic-v1 compatibility patch ──────────────────────────
+# chromadb uses pydantic.v1.BaseSettings which breaks on Python 3.14 because
+# get_type_hints() cannot infer the type for bare Optional annotations.
+# This monkey-patch makes ModelField.prepare() treat un-inferable types as Any.
+warnings.filterwarnings("ignore", category=UserWarning, module="pydantic")
+try:
+    import pydantic.v1.fields as _pv1_fields
+    import typing as _typing
+
+    _orig_sdnt = _pv1_fields.ModelField._set_default_and_type
+
+    def _patched_sdnt(self):
+        try:
+            _orig_sdnt(self)
+        except Exception:
+            from pydantic.v1.fields import Required
+            self.outer_type_ = _typing.Any
+            self.type_ = _typing.Any
+            self.required = False
+            if self.default is Required:
+                self.default = None
+
+    _pv1_fields.ModelField._set_default_and_type = _patched_sdnt
+except Exception:
+    pass  # If pydantic.v1 is not installed, skip the patch
+# ────────────────────────────────────────────────────────────────────────────
+
 # Dùng model đa ngữ (hỗ trợ Tiếng Việt & Tiếng Anh cực tốt)
 print("Loading Embedding Model...")
+
+import chromadb
+from chromadb.utils import embedding_functions
+from sentence_transformers import SentenceTransformer
+
 # Wrap SentenceTransformer in Chroma's embedding function
 class CustomEmbeddingFunction(embedding_functions.EmbeddingFunction):
     def __init__(self, model_name="paraphrase-multilingual-MiniLM-L12-v2"):
         self.model = SentenceTransformer(model_name)
-    
+
     def __call__(self, input):
         # input is a list of strings
         embeddings = self.model.encode(input)

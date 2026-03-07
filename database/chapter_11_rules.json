@@ -1,0 +1,78 @@
+{
+    "chapter_code": "11",
+    "inclusions": [
+        "Flour, groats, meal, starch and pellets of cereals (wheat, meslin, maize, rice, rye, barley, oats, etc.)",
+        "Flour, meal and powder of dried leguminous vegetables (heading 07.13), of sago, of roots/tubers (heading 07.14), or of products of Chapter 8",
+        "Flour, meal, powder, flakes, granules and pellets of potatoes",
+        "Malt, whether or not roasted",
+        "Starches (wheat, maize, potato, manioc/cassava, sago, other); inulin",
+        "Wheat gluten, whether or not dried",
+        "Cereal grains otherwise worked (hulled, rolled, flaked, pearled, sliced or kibbled), except rice of heading 10.06",
+        "Germ of cereals, whole, rolled, flaked or ground (always classified in heading 11.04)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Roasted malt put up as coffee substitutes",
+            "action": "Redirect to Heading 09.01 or 21.01",
+            "keywords": [
+                "roasted malt",
+                "coffee substitute",
+                "09.01",
+                "21.01"
+            ]
+        },
+        {
+            "condition": "Prepared flours, groats, meals or starches (e.g., mixed with other ingredients, flavoured, or specially processed for retail sale as food preparations)",
+            "action": "Redirect to Heading 19.01",
+            "keywords": [
+                "prepared flour",
+                "prepared groats",
+                "prepared meal",
+                "prepared starch",
+                "19.01"
+            ]
+        },
+        {
+            "condition": "Corn flakes or other products of heading 19.04 (expanded or roasted cereal grains)",
+            "action": "Redirect to Heading 19.04",
+            "keywords": [
+                "corn flakes",
+                "puffed",
+                "expanded",
+                "roasted cereal",
+                "19.04"
+            ]
+        },
+        {
+            "condition": "Vegetables, prepared or preserved (e.g., vegetable flours prepared for consumption)",
+            "action": "Redirect to Heading 20.01, 20.04 or 20.05",
+            "keywords": [
+                "prepared vegetables",
+                "preserved vegetables",
+                "20.01",
+                "20.04",
+                "20.05"
+            ]
+        },
+        {
+            "condition": "Pharmaceutical products (e.g., medicinal starches or gluten preparations)",
+            "action": "Redirect to Chapter 30",
+            "keywords": [
+                "pharmaceutical",
+                "medicinal",
+                "chapter 30"
+            ]
+        },
+        {
+            "condition": "Starches having the character of perfumery, cosmetic or toilet preparations",
+            "action": "Redirect to Chapter 33",
+            "keywords": [
+                "perfumery",
+                "cosmetic",
+                "toilet preparation",
+                "talc",
+                "chapter 33"
+            ]
+        }
+    ]
+}
