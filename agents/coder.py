@@ -104,6 +104,21 @@ Do not return any other markdown outside the JSON block.
             response_msg = response.choices[0].message
             
             if response_msg.tool_calls:
+                # Convert all tool calls to pure dicts to avoid Pydantic serialization bugs in python 3.14
+                tool_calls_dicts = []
+                for tc in response_msg.tool_calls:
+                    tool_calls_dicts.append({
+                        "id": tc.id,
+                        "type": tc.type,
+                        "function": {
+                            "name": tc.function.name,
+                            "arguments": tc.function.arguments
+                        }
+                    })
+                
+                # Append ONE assistant message containing ALL tool calls (Correct OpenAI schema)
+                messages.append({"role": "assistant", "tool_calls": tool_calls_dicts})
+
                 for tool_call in response_msg.tool_calls:
                     function_name = tool_call.function.name
                     arguments = json.loads(tool_call.function.arguments)
@@ -130,7 +145,7 @@ Do not return any other markdown outside the JSON block.
                             "data": str(tool_result)[:1000] # Bắt 1000 kí tự để không nổ frontend
                         })
                     
-                    if tool_result.startswith("CLARIFICATION_NEEDED:"):
+                    if str(tool_result).startswith("CLARIFICATION_NEEDED:"):
                         clarification_count += 1
                         # Nếu KHÔNG CÓ input_callback (chạy thuần Terminal CLI rỗng), chặn ở lần 2 để tránh dead-loop
                         if not input_callback and clarification_count > 1:
@@ -139,12 +154,12 @@ Do not return any other markdown outside the JSON block.
                             continue
                         else:
                             try:
-                                payload_str = tool_result.split("CLARIFICATION_NEEDED:")[1]
+                                payload_str = str(tool_result).split("CLARIFICATION_NEEDED:")[1]
                                 payload = json.loads(payload_str)
                                 question = payload.get("question")
                                 options = payload.get("options", [])
                             except:
-                                question = tool_result.split("CLARIFICATION_NEEDED:")[1]
+                                question = str(tool_result).split("CLARIFICATION_NEEDED:")[1]
                                 options = []
                             
                             # Nếu Web mode (có input_callback)
@@ -167,52 +182,53 @@ Do not return any other markdown outside the JSON block.
                                 # Fallback Terminal mode
                                 return {"hs_code": "CLARIFICATION_NEEDED", "question": question, "options": options, "reasoning": "Need more info from user."}
                     
-                    # ---------------------------------------------------------
-                    # STRATEGY: SUMMARIZATION MEMORY (thay Hard Pruning)
-                    # Thay vì xóa cứng các message cũ (dễ làm Agent "mất trí nhớ"),
-                    # ta tóm tắt lại các bước đã đi thành 1 context message gọn.
-                    # ---------------------------------------------------------
-                    HISTORY_THRESHOLD = 10  # Tăng lên 10 để cho Agent nhiều context hơn
-                    if len(messages) > HISTORY_THRESHOLD:
-                        # Thu thập tất cả các tool calls + results cũ (trừ system + user prompt gốc)
-                        old_pairs = messages[2:]  # Bỏ qua index 0 (system) và 1 (user prompt)
-                        
-                        # Tóm tắt gọn lại: chỉ giữ function name, args ngắn gọn, và kết quả quan trọng
-                        summary_lines = []
-                        for msg in old_pairs:
-                            if msg.get("role") == "assistant" and msg.get("tool_calls"):
-                                for tc in msg["tool_calls"]:
-                                    try:
-                                        args_obj = json.loads(tc.function.arguments)
-                                        # Lấy tham số quan trọng nhất (node_id, chapter_id, query...)
-                                        key_arg = (args_obj.get("node_id") or args_obj.get("chapter_id") 
-                                                   or args_obj.get("query", "")[:40] or "")
-                                        summary_lines.append(f"• Called {tc.function.name}({key_arg})")
-                                    except Exception:
-                                        summary_lines.append(f"• Called {tc.function.name}")
-                            elif msg.get("role") == "tool":
-                                # Chỉ giữ phần đầu của kết quả (quan trọng nhất)
-                                content_preview = str(msg.get("content", ""))[:150].replace("\n", " ")
-                                summary_lines.append(f"  → Result: {content_preview}")
-
-                        if summary_lines:
-                            summary_text = "CONTEXT MEMORY (Các bước đã thực hiện):\n" + "\n".join(summary_lines[-20:])  # Max 20 dòng
-                            # Reset messages: giữ system + user prompt gốc + summary
-                            messages = [
-                                messages[0],  # system
-                                messages[1],  # user original prompt
-                                {"role": "system", "content": summary_text}
-                            ]
-                            print(f"  📝 [Memory] Đã tóm tắt {len(old_pairs)} messages cũ thành context summary.")
-
-                    # Add newest tool call and result to messages
-                    messages.append({"role": "assistant", "tool_calls": [tool_call]})
+                    # Add tool result to messages
                     messages.append({
                         "role": "tool",
                         "tool_call_id": tool_call.id,
                         "name": function_name,
                         "content": str(tool_result)[:1500]  # Tăng giới hạn lên 1500 ký tự để đọc đầy đủ hơn
                     })
+
+                # ---------------------------------------------------------
+                # STRATEGY: SUMMARIZATION MEMORY (thay Hard Pruning)
+                # Thay vì xóa cứng các message cũ (dễ làm Agent "mất trí nhớ"),
+                # ta tóm tắt lại các bước đã đi thành 1 context message gọn.
+                # ---------------------------------------------------------
+                HISTORY_THRESHOLD = 10  # Tăng lên 10 để cho Agent nhiều context hơn
+                if len(messages) > HISTORY_THRESHOLD:
+                    # Thu thập tất cả các tool calls + results cũ (trừ system + user prompt gốc)
+                    old_pairs = messages[2:]  # Bỏ qua index 0 (system) và 1 (user prompt)
+                    
+                    # Tóm tắt gọn lại: chỉ giữ function name, args ngắn gọn, và kết quả quan trọng
+                    summary_lines = []
+                    for msg in old_pairs:
+                        if msg.get("role") == "assistant" and msg.get("tool_calls"):
+                            for tc in msg["tool_calls"]:
+                                try:
+                                    args_obj = tc.get("function", {}).get("arguments", "{}")
+                                    if isinstance(args_obj, str):
+                                        args_obj = json.loads(args_obj)
+                                    # Lấy tham số quan trọng nhất (node_id, chapter_id, query...)
+                                    key_arg = (args_obj.get("node_id") or args_obj.get("chapter_id") 
+                                               or args_obj.get("query", "")[:40] or "")
+                                    summary_lines.append(f"• Called {tc.get('function', {}).get('name')}({key_arg})")
+                                except Exception:
+                                    summary_lines.append(f"• Called {tc.get('function', {}).get('name')}")
+                        elif msg.get("role") == "tool":
+                            # Chỉ giữ phần đầu của kết quả (quan trọng nhất)
+                            content_preview = str(msg.get("content", ""))[:150].replace("\n", " ")
+                            summary_lines.append(f"  → Result: {content_preview}")
+
+                    if summary_lines:
+                        summary_text = "CONTEXT MEMORY (Các bước đã thực hiện):\n" + "\n".join(summary_lines[-20:])  # Max 20 dòng
+                        # Reset messages: giữ system + user prompt gốc + summary
+                        messages = [
+                            messages[0],  # system
+                            messages[1],  # user original prompt
+                            {"role": "system", "content": summary_text}
+                        ]
+                        print(f"  📝 [Memory] Đã tóm tắt {len(old_pairs)} messages cũ thành context summary.")
 
             else:
                 # No more tool calls, it should be the final answer

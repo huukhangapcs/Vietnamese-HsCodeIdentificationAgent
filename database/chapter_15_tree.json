@@ -1,0 +1,1935 @@
+[
+    {
+        "level": 0,
+        "hs_code": "1501",
+        "description_en": "Pig fat (including lard) and poultry fat, other than that of heading 02.09 or 15.03",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15011000",
+                "description_en": "Lard",
+                "children": [],
+                "semantic_path": "Pig fat (including lard) and poultry fat, other than that of heading 02.09 or 15.03 > Lard"
+            },
+            {
+                "level": 1,
+                "hs_code": "15012000",
+                "description_en": "Other pig fat",
+                "children": [],
+                "semantic_path": "Pig fat (including lard) and poultry fat, other than that of heading 02.09 or 15.03 > Other pig fat"
+            },
+            {
+                "level": 1,
+                "hs_code": "15019000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Pig fat (including lard) and poultry fat, other than that of heading 02.09 or 15.03 > Other"
+            }
+        ],
+        "semantic_path": "Pig fat (including lard) and poultry fat, other than that of heading 02.09 or 15.03"
+    },
+    {
+        "level": 0,
+        "hs_code": "1502",
+        "description_en": "Fats of bovine animals, sheep or goats, other than those of heading 15.03",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15021000",
+                "description_en": "Tallow",
+                "children": [],
+                "semantic_path": "Fats of bovine animals, sheep or goats, other than those of heading 15.03 > Tallow"
+            },
+            {
+                "level": 1,
+                "hs_code": "150290",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15029010",
+                        "description_en": "Edible",
+                        "children": [],
+                        "semantic_path": "Fats of bovine animals, sheep or goats, other than those of heading 15.03 > Other: > Edible"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15029090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fats of bovine animals, sheep or goats, other than those of heading 15.03 > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Fats of bovine animals, sheep or goats, other than those of heading 15.03 > Other:"
+            }
+        ],
+        "semantic_path": "Fats of bovine animals, sheep or goats, other than those of heading 15.03"
+    },
+    {
+        "level": 0,
+        "hs_code": "1503",
+        "description_en": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15030010",
+                "description_en": "Lard stearin or oleostearin",
+                "children": [],
+                "semantic_path": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared > Lard stearin or oleostearin"
+            },
+            {
+                "level": 1,
+                "hs_code": "15030090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared > Other"
+            }
+        ],
+        "semantic_path": "Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared"
+    },
+    {
+        "level": 0,
+        "hs_code": "1504",
+        "description_en": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "150410",
+                "description_en": "Fish-liver oils and their fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15041020",
+                        "description_en": "Solid fractions",
+                        "children": [],
+                        "semantic_path": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified > Fish-liver oils and their fractions: > Solid fractions"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15041090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified > Fish-liver oils and their fractions: > Other"
+                    }
+                ],
+                "semantic_path": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified > Fish-liver oils and their fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "150420",
+                "description_en": "Fats and oils and their fractions, of fish, other than liver oils:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15042010",
+                        "description_en": "Solid fractions",
+                        "children": [],
+                        "semantic_path": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified > Fats and oils and their fractions, of fish, other than liver oils: > Solid fractions"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15042090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified > Fats and oils and their fractions, of fish, other than liver oils: > Other"
+                    }
+                ],
+                "semantic_path": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified > Fats and oils and their fractions, of fish, other than liver oils:"
+            },
+            {
+                "level": 1,
+                "hs_code": "15043000",
+                "description_en": "Fats and oils and their fractions, of marine mammals",
+                "children": [],
+                "semantic_path": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified > Fats and oils and their fractions, of marine mammals"
+            }
+        ],
+        "semantic_path": "Fats and oils and their fractions, of fish or marine mammals, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1505",
+        "description_en": "Wool grease and fatty substances derived therefrom (including lanolin)",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15050010",
+                "description_en": "Lanolin",
+                "children": [],
+                "semantic_path": "Wool grease and fatty substances derived therefrom (including lanolin) > Lanolin"
+            },
+            {
+                "level": 1,
+                "hs_code": "15050090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Wool grease and fatty substances derived therefrom (including lanolin) > Other"
+            }
+        ],
+        "semantic_path": "Wool grease and fatty substances derived therefrom (including lanolin)"
+    },
+    {
+        "level": 0,
+        "hs_code": "15060000",
+        "description_en": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified",
+        "children": [],
+        "semantic_path": "Other animal fats and oils and their fractions, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1507",
+        "description_en": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15071000",
+                "description_en": "Crude oil, whether or not degummed",
+                "children": [],
+                "semantic_path": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified > Crude oil, whether or not degummed"
+            },
+            {
+                "level": 1,
+                "hs_code": "150790",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15079010",
+                        "description_en": "Fractions of unrefined soya-bean oil",
+                        "children": [],
+                        "semantic_path": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of unrefined soya-bean oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15079020",
+                        "description_en": "Refined, bleached and deodorised (RBD) soya-bean oil",
+                        "children": [],
+                        "semantic_path": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified > Other: > Refined, bleached and deodorised (RBD) soya-bean oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15079090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified > Other:"
+            }
+        ],
+        "semantic_path": "Soya-bean oil and its fractions, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1508",
+        "description_en": "Ground-nut oil and its fractions, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15081000",
+                "description_en": "Crude oil",
+                "children": [],
+                "semantic_path": "Ground-nut oil and its fractions, whether or not refined, but not chemically modified > Crude oil"
+            },
+            {
+                "level": 1,
+                "hs_code": "15089000",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Ground-nut oil and its fractions, whether or not refined, but not chemically modified > Other"
+            }
+        ],
+        "semantic_path": "Ground-nut oil and its fractions, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1509",
+        "description_en": "Olive oil and its fractions, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "150920",
+                "description_en": "Extra virgin olive oil:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15092010",
+                        "description_en": "In packings of a net weight not exceeding 30 kg",
+                        "children": [],
+                        "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Extra virgin olive oil: > In packings of a net weight not exceeding 30 kg"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15092090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Extra virgin olive oil: > Other"
+                    }
+                ],
+                "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Extra virgin olive oil:"
+            },
+            {
+                "level": 1,
+                "hs_code": "15093000",
+                "description_en": "Virgin olive oil",
+                "children": [],
+                "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Virgin olive oil"
+            },
+            {
+                "level": 1,
+                "hs_code": "15094000",
+                "description_en": "Other virgin olive oils",
+                "children": [],
+                "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Other virgin olive oils"
+            },
+            {
+                "level": 1,
+                "hs_code": "150990",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_0",
+                        "description_en": "Fractions of unrefined oil:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15099011",
+                                "description_en": "In packings of a net weight not exceeding 30 kg",
+                                "children": [],
+                                "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of unrefined oil: > In packings of a net weight not exceeding 30 kg"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15099019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of unrefined oil: > Other"
+                            }
+                        ],
+                        "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of unrefined oil:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_1",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15099091",
+                                "description_en": "In packings of a net weight not exceeding 30 kg",
+                                "children": [],
+                                "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Other: > Other: > In packings of a net weight not exceeding 30 kg"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15099099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified > Other:"
+            }
+        ],
+        "semantic_path": "Olive oil and its fractions, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1510",
+        "description_en": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 15.09",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15101000",
+                "description_en": "Crude olive pomace oil",
+                "children": [],
+                "semantic_path": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 15.09 > Crude olive pomace oil"
+            },
+            {
+                "level": 1,
+                "hs_code": "151090",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15109010",
+                        "description_en": "Crude oil",
+                        "children": [],
+                        "semantic_path": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 15.09 > Other: > Crude oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15109020",
+                        "description_en": "Fractions of unrefined oil",
+                        "children": [],
+                        "semantic_path": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 15.09 > Other: > Fractions of unrefined oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15109090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 15.09 > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 15.09 > Other:"
+            }
+        ],
+        "semantic_path": "Other oils and their fractions, obtained solely from olives, whether or not refined, but not chemically modified, including blends of these oils or fractions with oils or fractions of heading 15.09"
+    },
+    {
+        "level": 0,
+        "hs_code": "1511",
+        "description_en": "Palm oil and its fractions, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15111000",
+                "description_en": "Crude oil",
+                "children": [],
+                "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Crude oil"
+            },
+            {
+                "level": 1,
+                "hs_code": "151190",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15119020",
+                        "description_en": "Refined oil",
+                        "children": [],
+                        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Refined oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_2",
+                        "description_en": "Fractions of refined oil:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_0",
+                                "description_en": "Solid fractions:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15119031",
+                                        "description_en": "With iodine value 30 or more, but less than 40",
+                                        "children": [],
+                                        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of refined oil: > Solid fractions: > With iodine value 30 or more, but less than 40"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15119032",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of refined oil: > Solid fractions: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of refined oil: > Solid fractions:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_1",
+                                "description_en": "Liquid fractions:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15119036",
+                                        "description_en": "In packing of a net weight not exceeding 25 kg",
+                                        "children": [],
+                                        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of refined oil: > Liquid fractions: > In packing of a net weight not exceeding 25 kg"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15119037",
+                                        "description_en": "Other, with iodine value 55 or more, but less than 60",
+                                        "children": [],
+                                        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of refined oil: > Liquid fractions: > Other, with iodine value 55 or more, but less than 60"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15119039",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of refined oil: > Liquid fractions: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of refined oil: > Liquid fractions:"
+                            }
+                        ],
+                        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of refined oil:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_3",
+                        "description_en": "Fractions of unrefined oil:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15119041",
+                                "description_en": "Solid fractions",
+                                "children": [],
+                                "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of unrefined oil: > Solid fractions"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15119042",
+                                "description_en": "Other, with packing of a net weight not exceeding 25 kg",
+                                "children": [],
+                                "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of unrefined oil: > Other, with packing of a net weight not exceeding 25 kg"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15119049",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of unrefined oil: > Other"
+                            }
+                        ],
+                        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other: > Fractions of unrefined oil:"
+                    }
+                ],
+                "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified > Other:"
+            }
+        ],
+        "semantic_path": "Palm oil and its fractions, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1512",
+        "description_en": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_0",
+                "description_en": "Sunflower-seed or safflower oil and fractions thereof:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15121100",
+                        "description_en": "Crude oil",
+                        "children": [],
+                        "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Sunflower-seed or safflower oil and fractions thereof: > Crude oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "151219",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15121910",
+                                "description_en": "Fractions of unrefined sunflower-seed oil or safflower oil",
+                                "children": [],
+                                "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Sunflower-seed or safflower oil and fractions thereof: > Other: > Fractions of unrefined sunflower-seed oil or safflower oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15121920",
+                                "description_en": "Refined",
+                                "children": [],
+                                "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Sunflower-seed or safflower oil and fractions thereof: > Other: > Refined"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15121990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Sunflower-seed or safflower oil and fractions thereof: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Sunflower-seed or safflower oil and fractions thereof: > Other:"
+                    }
+                ],
+                "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Sunflower-seed or safflower oil and fractions thereof:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_1",
+                "description_en": "Cotton-seed oil and its fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15122100",
+                        "description_en": "Crude oil, whether or not gossypol has been removed",
+                        "children": [],
+                        "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Cotton-seed oil and its fractions: > Crude oil, whether or not gossypol has been removed"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "151229",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15122910",
+                                "description_en": "Fractions of unrefined cotton-seed oil",
+                                "children": [],
+                                "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Cotton-seed oil and its fractions: > Other: > Fractions of unrefined cotton-seed oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15122990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Cotton-seed oil and its fractions: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Cotton-seed oil and its fractions: > Other:"
+                    }
+                ],
+                "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified > Cotton-seed oil and its fractions:"
+            }
+        ],
+        "semantic_path": "Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1513",
+        "description_en": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_2",
+                "description_en": "Coconut (copra) oil and its fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "151311",
+                        "description_en": "Crude oil:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15131110",
+                                "description_en": "Virgin coconut oil",
+                                "children": [],
+                                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Coconut (copra) oil and its fractions: > Crude oil: > Virgin coconut oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15131190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Coconut (copra) oil and its fractions: > Crude oil: > Other"
+                            }
+                        ],
+                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Coconut (copra) oil and its fractions: > Crude oil:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "151319",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15131910",
+                                "description_en": "Fractions of unrefined coconut oil",
+                                "children": [],
+                                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Coconut (copra) oil and its fractions: > Other: > Fractions of unrefined coconut oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15131990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Coconut (copra) oil and its fractions: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Coconut (copra) oil and its fractions: > Other:"
+                    }
+                ],
+                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Coconut (copra) oil and its fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_3",
+                "description_en": "Palm kernel or babassu oil and fractions thereof:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "151321",
+                        "description_en": "Crude oil:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15132110",
+                                "description_en": "Palm kernel oil",
+                                "children": [],
+                                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Crude oil: > Palm kernel oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15132190",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Crude oil: > Other"
+                            }
+                        ],
+                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Crude oil:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "151329",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_2",
+                                "description_en": "Fractions of unrefined palm kernel oil or of unrefined babassu oil:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132911",
+                                        "description_en": "Solid fractions of unrefined palm kernel oil",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Fractions of unrefined palm kernel oil or of unrefined babassu oil: > Solid fractions of unrefined palm kernel oil"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132912",
+                                        "description_en": "Solid fractions of unrefined babassu oil",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Fractions of unrefined palm kernel oil or of unrefined babassu oil: > Solid fractions of unrefined babassu oil"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132913",
+                                        "description_en": "Other, of unrefined palm kernel oil (palm kernel olein)",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Fractions of unrefined palm kernel oil or of unrefined babassu oil: > Other, of unrefined palm kernel oil (palm kernel olein)"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132914",
+                                        "description_en": "Other, of unrefined babassu oil",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Fractions of unrefined palm kernel oil or of unrefined babassu oil: > Other, of unrefined babassu oil"
+                                    }
+                                ],
+                                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Fractions of unrefined palm kernel oil or of unrefined babassu oil:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_3",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132991",
+                                        "description_en": "Solid fractions of palm kernel oil",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Other: > Solid fractions of palm kernel oil"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132992",
+                                        "description_en": "Solid fractions of babassu oil",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Other: > Solid fractions of babassu oil"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132994",
+                                        "description_en": "Palm kernel olein, refined, bleached and deodorised (RBD)",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Other: > Palm kernel olein, refined, bleached and deodorised (RBD)"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132995",
+                                        "description_en": "Palm kernel oil, refined, bleached and deodorised (RBD)",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Other: > Palm kernel oil, refined, bleached and deodorised (RBD)"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132996",
+                                        "description_en": "Other, palm kernel oil",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Other: > Other, palm kernel oil"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15132997",
+                                        "description_en": "Other, of babassu oil",
+                                        "children": [],
+                                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Other: > Other, of babassu oil"
+                                    }
+                                ],
+                                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof: > Other:"
+                    }
+                ],
+                "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified > Palm kernel or babassu oil and fractions thereof:"
+            }
+        ],
+        "semantic_path": "Coconut (copra), palm kernel or babassu oil and fractions thereof, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1514",
+        "description_en": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_4",
+                "description_en": "Low erucic acid rape or colza oil and its fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15141100",
+                        "description_en": "Crude oil",
+                        "children": [],
+                        "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Low erucic acid rape or colza oil and its fractions: > Crude oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "151419",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15141910",
+                                "description_en": "Fractions of unrefined oil",
+                                "children": [],
+                                "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Low erucic acid rape or colza oil and its fractions: > Other: > Fractions of unrefined oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15141920",
+                                "description_en": "Refined",
+                                "children": [],
+                                "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Low erucic acid rape or colza oil and its fractions: > Other: > Refined"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15141990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Low erucic acid rape or colza oil and its fractions: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Low erucic acid rape or colza oil and its fractions: > Other:"
+                    }
+                ],
+                "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Low erucic acid rape or colza oil and its fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_5",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15149100",
+                        "description_en": "Crude oil",
+                        "children": [],
+                        "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Other: > Crude oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "151499",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15149910",
+                                "description_en": "Fractions of unrefined oil",
+                                "children": [],
+                                "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Other: > Other: > Fractions of unrefined oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15149990",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified > Other:"
+            }
+        ],
+        "semantic_path": "Rape, colza or mustard oil and fractions thereof, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1515",
+        "description_en": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_6",
+                "description_en": "Linseed oil and its fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15151100",
+                        "description_en": "Crude oil",
+                        "children": [],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Linseed oil and its fractions: > Crude oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15151900",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Linseed oil and its fractions: > Other"
+                    }
+                ],
+                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Linseed oil and its fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_7",
+                "description_en": "Maize (corn) oil and its fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15152100",
+                        "description_en": "Crude oil",
+                        "children": [],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions: > Crude oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "151529",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_4",
+                                "description_en": "Fractions of unrefined oil:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15152911",
+                                        "description_en": "Solid fractions",
+                                        "children": [],
+                                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions: > Other: > Fractions of unrefined oil: > Solid fractions"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15152919",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions: > Other: > Fractions of unrefined oil: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions: > Other: > Fractions of unrefined oil:"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "PSEUDO_NODE_3_5",
+                                "description_en": "Other:",
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15152991",
+                                        "description_en": "Solid fractions",
+                                        "children": [],
+                                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions: > Other: > Other: > Solid fractions"
+                                    },
+                                    {
+                                        "level": 4,
+                                        "hs_code": "15152999",
+                                        "description_en": "Other",
+                                        "children": [],
+                                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions: > Other: > Other: > Other"
+                                    }
+                                ],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions: > Other: > Other:"
+                            }
+                        ],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions: > Other:"
+                    }
+                ],
+                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Maize (corn) oil and its fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "151530",
+                "description_en": "Castor oil and its fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15153010",
+                        "description_en": "Crude oil",
+                        "children": [],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Castor oil and its fractions: > Crude oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15153090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Castor oil and its fractions: > Other"
+                    }
+                ],
+                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Castor oil and its fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "151550",
+                "description_en": "Sesame oil and its fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15155010",
+                        "description_en": "Crude oil",
+                        "children": [],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Sesame oil and its fractions: > Crude oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15155020",
+                        "description_en": "Fractions of unrefined oil",
+                        "children": [],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Sesame oil and its fractions: > Fractions of unrefined oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15155090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Sesame oil and its fractions: > Other"
+                    }
+                ],
+                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Sesame oil and its fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "15156000",
+                "description_en": "Microbial fats and oils and their fractions",
+                "children": [],
+                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Microbial fats and oils and their fractions"
+            },
+            {
+                "level": 1,
+                "hs_code": "151590",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_4",
+                        "description_en": "Illipe nut oil:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15159011",
+                                "description_en": "Crude oil",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Illipe nut oil: > Crude oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15159012",
+                                "description_en": "Fractions of unrefined oil",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Illipe nut oil: > Fractions of unrefined oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15159019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Illipe nut oil: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Illipe nut oil:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_5",
+                        "description_en": "Tung oil:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15159021",
+                                "description_en": "Crude oil",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Tung oil: > Crude oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15159022",
+                                "description_en": "Fractions of unrefined oil",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Tung oil: > Fractions of unrefined oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15159029",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Tung oil: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Tung oil:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_6",
+                        "description_en": "Jojoba oil:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15159031",
+                                "description_en": "Crude oil",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Jojoba oil: > Crude oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15159032",
+                                "description_en": "Fractions of unrefined oil",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Jojoba oil: > Fractions of unrefined oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15159039",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Jojoba oil: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Jojoba oil:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_7",
+                        "description_en": "Other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15159091",
+                                "description_en": "Crude oil",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Other: > Crude oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15159092",
+                                "description_en": "Fractions of unrefined oil",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Other: > Fractions of unrefined oil"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15159099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other: > Other:"
+                    }
+                ],
+                "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified > Other:"
+            }
+        ],
+        "semantic_path": "Other fixed vegetable or microbial fats and oils (including jojoba oil) and their fractions, whether or not refined, but not chemically modified"
+    },
+    {
+        "level": 0,
+        "hs_code": "1516",
+        "description_en": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "151610",
+                "description_en": "Animal fats and oils and their fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15161020",
+                        "description_en": "Re-esterified",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Animal fats and oils and their fractions: > Re-esterified"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15161090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Animal fats and oils and their fractions: > Other"
+                    }
+                ],
+                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Animal fats and oils and their fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "151620",
+                "description_en": "Vegetable fats and oils and their fractions:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_8",
+                        "description_en": "Re-esterified, other than of oil palm:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15162011",
+                                "description_en": "Of soya beans",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, other than of oil palm: > Of soya beans"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162012",
+                                "description_en": "Of maize",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, other than of oil palm: > Of maize"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162014",
+                                "description_en": "Of coconuts",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, other than of oil palm: > Of coconuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162017",
+                                "description_en": "Of ground-nuts",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, other than of oil palm: > Of ground-nuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162018",
+                                "description_en": "Of linseed",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, other than of oil palm: > Of linseed"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162019",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, other than of oil palm: > Other"
+                            }
+                        ],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, other than of oil palm:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_9",
+                        "description_en": "Re-esterified, of oil palm:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15162021",
+                                "description_en": "Of the fruit of the oil palm, crude",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, of oil palm: > Of the fruit of the oil palm, crude"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162022",
+                                "description_en": "Of the fruit of the oil palm, other than crude",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, of oil palm: > Of the fruit of the oil palm, other than crude"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162023",
+                                "description_en": "Of palm kernels, crude",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, of oil palm: > Of palm kernels, crude"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162024",
+                                "description_en": "Of palm kernels, refined, bleached and deodorised (RBD)",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, of oil palm: > Of palm kernels, refined, bleached and deodorised (RBD)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162025",
+                                "description_en": "Of palm kernel olein, crude",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, of oil palm: > Of palm kernel olein, crude"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162026",
+                                "description_en": "Of palm kernel olein, refined, bleached and deodorised (RBD)",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, of oil palm: > Of palm kernel olein, refined, bleached and deodorised (RBD)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162029",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, of oil palm: > Other"
+                            }
+                        ],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Re-esterified, of oil palm:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_10",
+                        "description_en": "Hydrogenated, in flakes:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15162031",
+                                "description_en": "Of ground-nuts; of coconuts; of soya beans",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in flakes: > Of ground-nuts; of coconuts; of soya beans"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162032",
+                                "description_en": "Of linseed",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in flakes: > Of linseed"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162033",
+                                "description_en": "Of olives",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in flakes: > Of olives"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162034",
+                                "description_en": "Of fruit of the oil palm",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in flakes: > Of fruit of the oil palm"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162035",
+                                "description_en": "Of palm kernels",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in flakes: > Of palm kernels"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162039",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in flakes: > Other"
+                            }
+                        ],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in flakes:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_11",
+                        "description_en": "Hydrogenated, in other forms:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15162041",
+                                "description_en": "Of castor seeds (Opal wax)",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Of castor seeds (Opal wax)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162042",
+                                "description_en": "Of coconuts",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Of coconuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162043",
+                                "description_en": "Of ground-nuts",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Of ground-nuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162044",
+                                "description_en": "Of linseed",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Of linseed"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162045",
+                                "description_en": "Of olives",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Of olives"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162046",
+                                "description_en": "Of fruit of the oil palm",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Of fruit of the oil palm"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162047",
+                                "description_en": "Of palm kernels",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Of palm kernels"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162048",
+                                "description_en": "Of soya beans",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Of soya beans"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162049",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms: > Other"
+                            }
+                        ],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Hydrogenated, in other forms:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_12",
+                        "description_en": "Inter-esterified:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15162051",
+                                "description_en": "Of linseed",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Inter-esterified: > Of linseed"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162052",
+                                "description_en": "Of olives",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Inter-esterified: > Of olives"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162053",
+                                "description_en": "Of soya beans",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Inter-esterified: > Of soya beans"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162054",
+                                "description_en": "Of ground-nuts, of oil palm or coconuts",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Inter-esterified: > Of ground-nuts, of oil palm or coconuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162059",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Inter-esterified: > Other"
+                            }
+                        ],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Inter-esterified:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_13",
+                        "description_en": "Elaidinised, palm stearin with an iodine value not exceeding 48:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15162061",
+                                "description_en": "Crude",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, palm stearin with an iodine value not exceeding 48: > Crude"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162062",
+                                "description_en": "Refined, bleached and deodorised (RBD)",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, palm stearin with an iodine value not exceeding 48: > Refined, bleached and deodorised (RBD)"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162069",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, palm stearin with an iodine value not exceeding 48: > Other"
+                            }
+                        ],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, palm stearin with an iodine value not exceeding 48:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_14",
+                        "description_en": "Elaidinised, other:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15162091",
+                                "description_en": "Palm stearin, with an iodine value exceeding 48",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, other: > Palm stearin, with an iodine value exceeding 48"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162092",
+                                "description_en": "Of linseed",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, other: > Of linseed"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162093",
+                                "description_en": "Of olives",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, other: > Of olives"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162094",
+                                "description_en": "Of soya beans",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, other: > Of soya beans"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162096",
+                                "description_en": "Refined, bleached and deodorised (RBD) palm kernel stearin",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, other: > Refined, bleached and deodorised (RBD) palm kernel stearin"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162098",
+                                "description_en": "Of ground-nuts, of oil palm or of coconuts",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, other: > Of ground-nuts, of oil palm or of coconuts"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15162099",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, other: > Other"
+                            }
+                        ],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions: > Elaidinised, other:"
+                    }
+                ],
+                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Vegetable fats and oils and their fractions:"
+            },
+            {
+                "level": 1,
+                "hs_code": "15163000",
+                "description_en": "Microbial fats and oils and their fractions",
+                "children": [],
+                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared > Microbial fats and oils and their fractions"
+            }
+        ],
+        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared"
+    },
+    {
+        "level": 0,
+        "hs_code": "1517",
+        "description_en": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "151710",
+                "description_en": "Margarine, excluding liquid margarine:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15171010",
+                        "description_en": "In airtight container for retail sale",
+                        "children": [],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Margarine, excluding liquid margarine: > In airtight container for retail sale"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15171090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Margarine, excluding liquid margarine: > Other"
+                    }
+                ],
+                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Margarine, excluding liquid margarine:"
+            },
+            {
+                "level": 1,
+                "hs_code": "151790",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15179010",
+                        "description_en": "Imitation ghee",
+                        "children": [],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Imitation ghee"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15179020",
+                        "description_en": "Liquid margarine",
+                        "children": [],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Liquid margarine"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15179030",
+                        "description_en": "Of a kind used as mould release preparations",
+                        "children": [],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Of a kind used as mould release preparations"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_15",
+                        "description_en": "Imitation lard; shortening:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15179043",
+                                "description_en": "Shortening",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Imitation lard; shortening: > Shortening"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179044",
+                                "description_en": "Imitation lard",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Imitation lard; shortening: > Imitation lard"
+                            }
+                        ],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Imitation lard; shortening:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15179050",
+                        "description_en": "Other solid mixtures or preparations of vegetable fats or oils or of their fractions",
+                        "children": [],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other solid mixtures or preparations of vegetable fats or oils or of their fractions"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "PSEUDO_NODE_2_16",
+                        "description_en": "Other liquid mixtures or preparations of vegetable fats or oils or of their fractions:",
+                        "children": [
+                            {
+                                "level": 3,
+                                "hs_code": "15179061",
+                                "description_en": "In which ground-nut oil predominates",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > In which ground-nut oil predominates"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179062",
+                                "description_en": "In which crude palm oil predominates",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > In which crude palm oil predominates"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179063",
+                                "description_en": "In which other palm oil predominates, in packings of a net weight not exceeding 25 kg",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > In which other palm oil predominates, in packings of a net weight not exceeding 25 kg"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179064",
+                                "description_en": "In which other palm oil predominates, in packings of a net weight exceeding 25 kg",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > In which other palm oil predominates, in packings of a net weight exceeding 25 kg"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179065",
+                                "description_en": "In which palm kernel oil predominates",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > In which palm kernel oil predominates"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179066",
+                                "description_en": "In which palm kernel olein predominates",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > In which palm kernel olein predominates"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179067",
+                                "description_en": "In which either soya-bean oil or coconut oil predominates",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > In which either soya-bean oil or coconut oil predominates"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179068",
+                                "description_en": "In which illipe nut oil predominates",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > In which illipe nut oil predominates"
+                            },
+                            {
+                                "level": 3,
+                                "hs_code": "15179069",
+                                "description_en": "Other",
+                                "children": [],
+                                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions: > Other"
+                            }
+                        ],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other liquid mixtures or preparations of vegetable fats or oils or of their fractions:"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15179080",
+                        "description_en": "Of mixtures or preparations of animal fats or oils or of their fractions",
+                        "children": [],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Of mixtures or preparations of animal fats or oils or of their fractions"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15179090",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other: > Other"
+                    }
+                ],
+                "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16 > Other:"
+            }
+        ],
+        "semantic_path": "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, other than edible fats and oils or their fractions of heading 15.16"
+    },
+    {
+        "level": 0,
+        "hs_code": "1518",
+        "description_en": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_8",
+                "description_en": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified excluding those of heading 15.16:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15180012",
+                        "description_en": "Animal fats and oils",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified excluding those of heading 15.16: > Animal fats and oils"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180014",
+                        "description_en": "Ground-nut, soya-bean, palm or coconut oil",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified excluding those of heading 15.16: > Ground-nut, soya-bean, palm or coconut oil"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180015",
+                        "description_en": "Linseed oil and its fractions",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified excluding those of heading 15.16: > Linseed oil and its fractions"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180016",
+                        "description_en": "Olive oil and its fractions",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified excluding those of heading 15.16: > Olive oil and its fractions"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180019",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified excluding those of heading 15.16: > Other"
+                    }
+                ],
+                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified excluding those of heading 15.16:"
+            },
+            {
+                "level": 1,
+                "hs_code": "15180020",
+                "description_en": "Inedible mixtures or preparations of animal fats or oils or of fractions of different animal fats or oils",
+                "children": [],
+                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of animal fats or oils or of fractions of different animal fats or oils"
+            },
+            {
+                "level": 1,
+                "hs_code": "PSEUDO_NODE_1_9",
+                "description_en": "Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15180032",
+                        "description_en": "Of palm oil or palm kernel olein, neutralised, bleached and deodorised (NBD) or refined, bleached and deodorised (RBD)",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils: > Of palm oil or palm kernel olein, neutralised, bleached and deodorised (NBD) or refined, bleached and deodorised (RBD)"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180033",
+                        "description_en": "Of linseed",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils: > Of linseed"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180034",
+                        "description_en": "Of olives",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils: > Of olives"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180035",
+                        "description_en": "Of ground-nuts",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils: > Of ground-nuts"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180036",
+                        "description_en": "Of soya beans or coconuts",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils: > Of soya beans or coconuts"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180037",
+                        "description_en": "Of cotton seeds",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils: > Of cotton seeds"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180038",
+                        "description_en": "Of the fruit of the oil palm or of palm kernels, other",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils: > Of the fruit of the oil palm or of palm kernels, other"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15180039",
+                        "description_en": "Other",
+                        "children": [],
+                        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils: > Other"
+                    }
+                ],
+                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of vegetable fats or oils or of fractions of different vegetable fats or oils:"
+            },
+            {
+                "level": 1,
+                "hs_code": "15180060",
+                "description_en": "Inedible mixtures or preparations of animal fats or oils or of fractions thereof and vegetable fats or oils or fractions thereof",
+                "children": [],
+                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Inedible mixtures or preparations of animal fats or oils or of fractions thereof and vegetable fats or oils or fractions thereof"
+            },
+            {
+                "level": 1,
+                "hs_code": "15180090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included > Other"
+            }
+        ],
+        "semantic_path": "Animal, vegetable or microbial fats and oils and their fractions, boiled, oxidised, dehydrated, sulphurised, blown, polymerised by heat in vacuum or in inert gas or otherwise chemically modified, excluding those of heading 15.16; inedible mixtures or preparations of animal, vegetable or microbial fats or oils or of fractions of different fats or oils of this Chapter, not elsewhere specified or included"
+    },
+    {
+        "level": 0,
+        "hs_code": "1520",
+        "description_en": "Glycerol, crude; glycerol waters and glycerol lyes.",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15200010",
+                "description_en": "Crude glycerol",
+                "children": [],
+                "semantic_path": "Glycerol, crude; glycerol waters and glycerol lyes. > Crude glycerol"
+            },
+            {
+                "level": 1,
+                "hs_code": "15200090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Glycerol, crude; glycerol waters and glycerol lyes. > Other"
+            }
+        ],
+        "semantic_path": "Glycerol, crude; glycerol waters and glycerol lyes."
+    },
+    {
+        "level": 0,
+        "hs_code": "1521",
+        "description_en": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15211000",
+                "description_en": "Vegetable waxes",
+                "children": [],
+                "semantic_path": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured > Vegetable waxes"
+            },
+            {
+                "level": 1,
+                "hs_code": "152190",
+                "description_en": "Other:",
+                "children": [
+                    {
+                        "level": 2,
+                        "hs_code": "15219010",
+                        "description_en": "Beeswax and other insect waxes",
+                        "children": [],
+                        "semantic_path": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured > Other: > Beeswax and other insect waxes"
+                    },
+                    {
+                        "level": 2,
+                        "hs_code": "15219020",
+                        "description_en": "Spermaceti",
+                        "children": [],
+                        "semantic_path": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured > Other: > Spermaceti"
+                    }
+                ],
+                "semantic_path": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured > Other:"
+            }
+        ],
+        "semantic_path": "Vegetable waxes (other than triglycerides), beeswax, other insect waxes and spermaceti, whether or not refined or coloured"
+    },
+    {
+        "level": 0,
+        "hs_code": "1522",
+        "description_en": "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes",
+        "children": [
+            {
+                "level": 1,
+                "hs_code": "15220010",
+                "description_en": "Degras",
+                "children": [],
+                "semantic_path": "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes > Degras"
+            },
+            {
+                "level": 1,
+                "hs_code": "15220090",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes > Other"
+            }
+        ],
+        "semantic_path": "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes"
+    }
+]

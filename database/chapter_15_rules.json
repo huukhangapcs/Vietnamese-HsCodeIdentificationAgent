@@ -1,0 +1,98 @@
+{
+    "chapter_code": "15",
+    "inclusions": [
+        "Animal, vegetable or microbial fats and oils and their cleavage products",
+        "Prepared edible fats",
+        "Animal or vegetable waxes",
+        "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils",
+        "Glycerol, crude; glycerol waters and glycerol lyes",
+        "Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes",
+        "Soap-stocks, oil foots and dregs, stearin pitch, glycerol pitch and wool grease residues (heading 15.22)",
+        "Virgin olive oil with free acidity expressed as oleic acid not exceeding 2.0 g/100 g (subheading 1509.30)",
+        "Low erucic acid rape or colza oil (erucic acid content of less than 2% by weight) (subheadings 1514.11 and 1514.19)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Pig fat or poultry fat of heading 02.09",
+            "action": "Redirect to Heading 02.09",
+            "keywords": [
+                "pig fat",
+                "poultry fat",
+                "02.09"
+            ]
+        },
+        {
+            "condition": "Cocoa butter, fat or oil",
+            "action": "Redirect to Heading 18.04",
+            "keywords": [
+                "cocoa butter",
+                "cocoa fat",
+                "cocoa oil",
+                "18.04"
+            ]
+        },
+        {
+            "condition": "Edible preparations containing by weight more than 15% of the products of heading 04.05 (butter/dairy fats)",
+            "action": "Redirect to Chapter 21",
+            "keywords": [
+                "edible preparation",
+                "more than 15%",
+                "04.05",
+                "chapter 21"
+            ]
+        },
+        {
+            "condition": "Greaves or residues of headings 23.04 to 23.06",
+            "action": "Redirect to Headings 23.01, 23.04, 23.05, 23.06",
+            "keywords": [
+                "greaves",
+                "residues",
+                "23.01",
+                "23.04",
+                "23.05",
+                "23.06"
+            ]
+        },
+        {
+            "condition": "Fatty acids, prepared waxes, medicaments, paints, varnishes, soap, perfumery, cosmetic or toilet preparations, sulphonated oils or other goods of Section VI",
+            "action": "Redirect to Section VI (Chapters 28-38)",
+            "keywords": [
+                "fatty acid",
+                "prepared wax",
+                "medicament",
+                "paint",
+                "soap",
+                "cosmetic",
+                "section vi"
+            ]
+        },
+        {
+            "condition": "Factice derived from oils",
+            "action": "Redirect to Heading 40.02",
+            "keywords": [
+                "factice",
+                "40.02",
+                "rubber"
+            ]
+        },
+        {
+            "condition": "Oils obtained from olives by solvent extraction",
+            "action": "Redirect to Heading 15.10 (Not 15.09)",
+            "keywords": [
+                "olive",
+                "solvent extraction",
+                "15.10"
+            ]
+        },
+        {
+            "condition": "Fats or oils or their fractions, merely denatured",
+            "action": "Classify in the heading appropriate to the corresponding undenatured fats and oils and their fractions (Not 15.18)",
+            "keywords": [
+                "merely denatured",
+                "fats",
+                "oils",
+                "undenatured"
+            ]
+        }
+    ]
+}
