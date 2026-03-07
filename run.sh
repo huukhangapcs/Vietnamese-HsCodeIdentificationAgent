@@ -8,4 +8,4 @@ echo "Truy cập giao diện UI tại: http://localhost:8000"
 echo "=================================================="
 
 # Sử dụng python3 gọi trực tiếp app.py hoặc dùng dòng lện uvicorn
-python app.py
+venv/bin/python app.py

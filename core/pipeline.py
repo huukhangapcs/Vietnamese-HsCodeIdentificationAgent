@@ -63,6 +63,78 @@ class HSPipeline:
                 }})
             return {"status": "SUCCESS", "final_hs_code": cached_result["hs_code"], "reasoning": cached_result["reasoning"], "source": "cache"}
             
+        # 0.8 Fast Path: Keywords Search (Lexical & Fuzzy)
+        from tools.knowledge_tools import fast_keyword_search
+        
+        # Thử search bằng cả tiếng Việt (gốc) và tiếng Anh (extracted) để lấy điểm cao nhất
+        # Phase 2 & 3: Keyword Generation & Search
+        # Bắt lấy list từ khóa Tiếng Anh đã được Analyzer đẻ ra
+        search_keywords = extracted_features.get("search_keywords", []) if extracted_features else []
+        if not search_keywords:
+             search_keywords = [item_description] # Fallback nếu Analyzer fail
+             
+        # Gọi thẳng vào hàm Search với list từ khóa
+        all_candidates = fast_keyword_search(search_keywords, top_k=3)
+        
+        if all_candidates:
+            # Lọc trùng lặp hs_code giữ điểm cao nhất
+            unique_cands = {}
+            for c in all_candidates:
+                if c["hs_code"] not in unique_cands or c["score"] > unique_cands[c["hs_code"]]["score"]:
+                    unique_cands[c["hs_code"]] = c
+                    
+            sorted_unique_cands = sorted(unique_cands.values(), key=lambda x: x["score"], reverse=True)
+            print(f"\n[FAST PATH] Top Candidate: {sorted_unique_cands[0]['hs_code']} - Score: {sorted_unique_cands[0]['score']}")
+            
+            best_candidate = sorted_unique_cands[0]
+            if best_candidate["score"] >= 70: # Hạ threshhold xuống 70 điểm để bypass
+                print(f"🚀 [FAST PATH] KEYWORD ENGINE MATCH! (Score: {best_candidate['score']})")
+                
+                # --- [Tuỳ chọn bổ sung] Bơm qua QA Auditor để kiểm tra chéo độ chính xác
+                print("Triệu hồi QA Auditor để cross-check kết quả Keyword...")
+                if stream_callback:
+                    stream_callback({"type": "info", "message": f"🚀 [FAST PATH] Tìm thấy Keyword phù hợp (Score: {best_candidate['score']}). Đang gọi QA Auditor kiểm tra lại..."})
+                    
+                # Simulate a draft_result object for the Auditor
+                simulated_draft = {
+                    "hs_code": best_candidate["hs_code"],
+                    "reasoning": f"Tầng Fast-Track Lexical Match (Score {best_candidate['score']}) đệ trình: {best_candidate['description_en']} / {best_candidate['description_vn']}"
+                }
+                
+                audit_result = self.auditor.audit(
+                    item_description=item_description,
+                    draft_result=simulated_draft
+                )
+                
+                if audit_result.get("status", "").upper() == "PASS":
+                    print("✅ QA Auditor DUYỆT kết quả tự động!")
+                    if stream_callback:
+                        stream_callback({"type": "fast_path_result", "data": {
+                            "is_agentic_path": False,
+                            "final_section_id": best_candidate["hs_code"],
+                            "confidence": f"HIGH (Keyword Score {best_candidate['score']})",
+                            "reasoning": f"Khớp nối từ khóa siêu tốc.\nKiểm định QA: {audit_result.get('feedback', 'Hợp lệ')}"
+                        }})
+                    # Cache the result
+                    safe_features = extracted_features if isinstance(extracted_features, dict) else {}
+                    self.cache_manager.set(
+                        description=item_description, 
+                        hs_code=best_candidate["hs_code"], 
+                        reasoning=f"Keyword Match (Score {best_candidate['score']}). {audit_result.get('feedback', '')}",
+                        features=safe_features
+                    )
+                    return {
+                        "status": "SUCCESS", 
+                        "final_hs_code": best_candidate["hs_code"], 
+                        "reasoning": f"Khớp nối từ khóa siêu tốc ({best_candidate['score']} điểm). Kiểm định QA: {audit_result.get('feedback', 'Hợp lệ')}",
+                        "source": "keyword_search"
+                    }
+                else:
+                    print(f"❌ QA Auditor TỪ CHỐI kết quả tự động: {audit_result.get('feedback', 'Không giải thích')}")
+                    print("Đẩy lại luồng LLM sâu...")
+                    if stream_callback:
+                        stream_callback({"type": "info", "message": f"❌ QA Auditor TỪ CHỐI kết quả Keyword: {audit_result.get('reasoning', '')}. Chuyển sang luồng Deep Reasoning Agent!"})
+        
         revision = 0
         current_feedback = ""
         

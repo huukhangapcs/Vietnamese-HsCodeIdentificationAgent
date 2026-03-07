@@ -28,7 +28,8 @@ Respond STRICTLY with ONE JSON object containing ALL these keys:
   "item_name": "Specific name of the item in English, or '' if invalid",
   "state_or_condition": "Physical state (e.g. fresh, frozen, live, new, used, liquid, powder). Write 'Unknown' if not mentioned, or '' if invalid",
   "material": "Primary material (e.g. plastic, wood, steel, cotton). Write 'Not Applicable' if irrelevant, or '' if invalid",
-  "function": "Main function/purpose in English, or '' if invalid"
+  "function": "Main function/purpose in English, or '' if invalid",
+  "search_keywords": ["list of 2-4 strategic English phrases to strictly fuzzy-search the HS Nomenclature database (e.g. ['frozen whole chicken', 'poultry meat']). Generate only if valid."]
 }
 Do NOT output any text outside the JSON block."""
 
@@ -95,13 +96,14 @@ class ItemAnalyzer:
             print(f"  👉 State/Condition: {result.get('state_or_condition', 'Unknown')}")
             print(f"  👉 Material: {result.get('material', 'Unknown')}")
             print(f"  👉 Function: {result.get('function', 'Unknown')}")
+            print(f"  🔑 Search Keywords: {result.get('search_keywords', [])}")
             result["is_valid"] = True
             return result
 
         except Exception as e:
             print(f"  ⚠️ [Analyzer] LLM error: {e}. Falling back to pass-through.")
             return {"is_valid": True, "reason": "", "item_name": item_description,
-                    "state_or_condition": "Unknown", "material": "Unknown", "function": "Unknown"}
+                    "state_or_condition": "Unknown", "material": "Unknown", "function": "Unknown", "search_keywords": [item_description]}
 
 
 if __name__ == "__main__":

@@ -44,6 +44,90 @@ def _get_vector_collections():
         _collection_rules = _chroma_client.get_collection(name="hs_rules", embedding_function=_embed_fn)
     return _collection_nodes, _collection_rules
 
+_fast_search_cache = None
+
+def _load_fast_search_cache():
+    global _fast_search_cache
+    if not _fast_search_cache:
+        try:
+            db_path = os.path.join(BASE_DIR, "database", "hsdata_searchable.json")
+            with open(db_path, "r", encoding="utf-8") as f:
+                _fast_search_cache = json.load(f)
+        except Exception as e:
+            print(f"Error loading hsdata_searchable.json: {e}")
+            _fast_search_cache = [] # Ensure it's an empty list on error
+
+def fast_keyword_search(keywords: list[str], top_k=3):
+    """
+    Tìm kiếm nhanh bằng lexical/fuzzy match (rapidfuzz).
+    Dành riêng cho cụm từ khóa tiếng Anh trích xuất từ LLM (Phase 2),
+    cọ xát thẳng vào `search_text_en` (chứa breadcrumbs) để đạt precision cao.
+    """
+    _load_fast_search_cache()
+    if not _fast_search_cache or not keywords:
+        return []
+
+    from rapidfuzz import fuzz
+    
+    # Loại bỏ stop words cơ bản của English
+    stopwords = {"of", "and", "or", "for", "the", "in", "with", "without", "a", "an"}
+    
+    clean_keywords = []
+    for q in keywords:
+        q_words = [w.lower() for w in str(q).split() if w.lower() not in stopwords]
+        if q_words:
+             clean_keywords.append(" ".join(q_words))
+             
+    if not clean_keywords:
+         return []
+
+    results = []
+    for item in _fast_search_cache:
+        text_en = str(item.get("search_text_en", "")).lower()
+        text_en_words = set(text_en.split())
+        
+        max_score_for_item = 0
+        
+        for clean_query in clean_keywords:
+            q_words_set = set(clean_query.split())
+            
+            # Tiền lọc: nếu không có bất kỳ từ nào của query nằm trong text, bỏ qua
+            if not (q_words_set & text_en_words):
+                continue
+            
+            score_en_set = fuzz.token_set_ratio(clean_query, text_en)
+            score_en_partial = fuzz.partial_ratio(clean_query, text_en)
+            
+            # Kết hợp tỉ lệ: cho phép partial bao hàm mạnh hơn để chuỗi dài không bị phạt nặng
+            base_score = max(score_en_set, score_en_partial) * 0.85 + fuzz.token_sort_ratio(clean_query, text_en) * 0.15
+            
+            # Thưởng thêm điểm nếu EXACT MATCH
+            if clean_query in text_en:
+                base_score += 15
+                
+            desc_en_original = str(item.get("description_en", "")).lower()
+            if clean_query in desc_en_original:
+                base_score += 10
+                
+            if base_score > max_score_for_item:
+                 max_score_for_item = base_score
+                 
+        if max_score_for_item > 0:
+            results.append({
+                "hs_code": item["hs_code"],
+                "description_en": item["description_en"],
+                "description_vn": item["description_vn"],
+                "score": min(100, max_score_for_item) # Giới hạn max là 100
+            })
+        
+    # Sắp xếp theo score giảm dần
+    results = sorted(results, key=lambda x: x["score"], reverse=True)
+    
+    # Loại bỏ các kết quả rác (score < 50)
+    filtered = [r for r in results[:top_k] if r["score"] >= 50]
+    return filtered
+
+
 
 SECTION_TO_CHAPTERS = {
     "SECTION_I": ["01", "02", "03", "04", "05"],

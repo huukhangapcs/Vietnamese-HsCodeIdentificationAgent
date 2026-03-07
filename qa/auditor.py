@@ -19,11 +19,12 @@ The titles of Sections, Chapters and sub-Chapters are provided for ease of refer
 
 Your task:
 1. LƯU Ý SỐNG CÒN: Nếu Biểu thuế là một cuốn sách, thì "Chú giải" chính là "hướng dẫn sử dụng trước khi dùng". Bỏ qua chú giải là sai lầm nghiêm trọng nhất! Bạn phải đảm bảo mã HS được chọn KHÔNG NẰM TRONG NHÓM BỊ LOẠI TRỪ bởi các quy định pháp lý.
-2. Verify if the item is explicitly EXCLUDED by the Chapter Notes OR Section Notes. These Notes have paramount legal authority over the Coder's basic logic.
-3. If the Coder's reasoning contradicts ANY Section or Chapter Note, you must FAIL the classification and cite the specific Note.
-4. If the Coder followed the Notes (e.g. classifying a circus elephant in 95.08 instead of 01.06 as dictated by Chapter 1 Exclusion Note), you MUST PASS it. Do not let general knowledge overrule the explicit Legal Notes.
-5. ĐẶC BIỆT LƯU Ý KHI ĐÁNH GIÁ MÃ NGOÀI CHƯƠNG: Nếu mã dự thảo của Coder là một mã 8 chữ số nhưng không tồn tại trong nomenclature (ví dụ Coder điền 04100000 do bị buộc phải xuất 8 số, thay vì chỉ 04.10) NHƯNG mã đó được chuyển hướng HỢP LÝ bởi một Exclusion Rule có thực (VD: Rule Chương 02 nói Côn trùng sang 0410). BẠN PHẢI CHẤP NHẬN (PASS) mã đó vì Coder đã áp dụng đúng luật, dù mã nhóm chưa có cơ sở dữ liệu để soi chi tiết.
-6. If it is valid and compliant with the headings and Notes, you PASS the classification.
+2. KIỂM SÁT MÔ TẢ (DESCRIPTION MATCH): Bạn phải nhận diện rủi ro "râu ông nọ cắm cằm bà kia". Nếu Coder (hoặc Keyword) đề xuất mã HS của "Thịt bò" cho "Thịt gà", hoặc "Ngô" cho "Lúa", bạn PHẢI ĐÁNH RỚT (FAIL) ngay lập tức vì mô tả hàng hoá trật khớp hoàn toàn với mô tả của mã HS, bất chấp việc không có Exclusion Note nào cấm.
+3. Verify if the item is explicitly EXCLUDED by the Chapter Notes OR Section Notes. These Notes have paramount legal authority over the Coder's basic logic.
+4. If the Coder's reasoning contradicts ANY Section or Chapter Note, you must FAIL the classification and cite the specific Note.
+5. If the Coder followed the Notes (e.g. classifying a circus elephant in 95.08 instead of 01.06 as dictated by Chapter 1 Exclusion Note), you MUST PASS it. Do not let general knowledge overrule the explicit Legal Notes.
+6. ĐẶC BIỆT LƯU Ý KHI ĐÁNH GIÁ MÃ NGOÀI CHƯƠNG: Nếu mã dự thảo của Coder là một mã 8 chữ số nhưng không tồn tại trong nomenclature (ví dụ Coder điền 04100000 do bị buộc phải xuất 8 số, thay vì chỉ 04.10) NHƯNG mã đó được chuyển hướng HỢP LÝ bởi một Exclusion Rule có thực (VD: Rule Chương 02 nói Côn trùng sang 0410). BẠN PHẢI CHẤP NHẬN (PASS) mã đó vì Coder đã áp dụng đúng luật, dù mã nhóm chưa có cơ sở dữ liệu để soi chi tiết.
+7. If it is valid, matches the linguistic description, and complies with the headings and Notes, you PASS the classification.
 
 You must return EXACTLY a JSON format:
 {

@@ -37,18 +37,25 @@ Hệ thống tự động phân loại hàng hoá xuất nhập khẩu theo **Bi
                         User Query (Mô tả hàng hoá)
                                     │
                     ┌───────────────▼──────────────────┐
-                    │  [Step 0] ItemAnalyzer           │
+                    │  [Step 0] ItemAnalyzer (Phase 1+2)
                     │  • Validate & Extract Features   │
-                    │  • (Gộp thành 1 LLM call để GPU) │
+                    │  • Generate English Keywords     │
                     └───────────────┬──────────────────┘
                                     │
                     ┌───────────────▼──────────────────┐
-                    │  [Cache] CacheManager            │
+                    │  [Step 0.5] CacheManager         │
                     │  • Exact-match lookup            │
-                    │  • HIT → Fast Path (~0s)         │
-                    │  • MISS → tiếp tục pipeline      │
+                    │  • HIT → Return immediately      │
                     └───────────────┬──────────────────┘
-                                    │
+                                    │ MISS
+                    ┌───────────────▼──────────────────┐
+                    │  [Step 0.8] Fast-Track Search    │
+                    │  • Phase 3: Fuzz Match English   │
+                    │    Keywords on `hsdata` DB       │
+                    │  • Phase 4: QA Auditor check     │
+                    │  • PASS → Return Fast Path (~2s) │
+                    └───────────────┬──────────────────┘
+                                    │ FAIL/MISS
                     ┌───────────────▼──────────────────┐
                     │  [Step 1] Tier1Router            │
                     │  Pass 1: Top-3 Section candidates│
