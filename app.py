@@ -18,7 +18,7 @@ from core.pipeline import HSPipeline
 from core.security import rate_limiter, start_rate_limiter_cleanup
 
 import uuid
-from pydantic import BaseModel
+from pydantic import BaseModel, field_validator
 
 # API Key auth (optional - set env var HSCODE_API_KEY to enable)
 _API_KEY = os.getenv("HSCODE_API_KEY", "")  # Rỗng = tắt auth (dev mode)
@@ -72,9 +72,26 @@ class AnswerPayload(BaseModel):
     session_id: str
     answer: str
 
+    @field_validator('session_id')
+    @classmethod
+    def validate_session_id(cls, v):
+        # Validate UUID format để tránh spam vào session_id tùy ý
+        try:
+            uuid.UUID(v)
+        except ValueError:
+            raise ValueError('session_id phải là UUID hợp lệ')
+        return v
+
 class ApprovePayload(BaseModel):
     query: str
     hs_code: str
+
+    @field_validator('query')
+    @classmethod
+    def validate_query_length(cls, v):
+        if len(v) > 3000:
+            raise ValueError('query quá dài (tối đa 3000 ký tự)')
+        return v
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root():
@@ -136,11 +153,16 @@ async def stream_agent(q: str, session_id: str, request: Request):
     return StreamingResponse(event_generator(), media_type="text/event-stream")
 
 @app.post("/submit_answer")
-async def submit_answer(payload: AnswerPayload):
+async def submit_answer(payload: AnswerPayload, request: Request):
     """
     Endpoint này 'đánh thức' Agent bằng cách nhét câu trả lời vào Input Queue
     của Session tương ứng.
     """
+    # Rate limit áp dụng nhưng không cần auth key (frontend gọi internal)
+    client_ip = request.client.host if request.client else "unknown"
+    if not rate_limiter.is_allowed(client_ip):
+        raise HTTPException(status_code=429, detail="Quá nhiều request.")
+
     if payload.session_id in active_sessions:
         active_sessions[payload.session_id]["queue"].put(payload.answer)
         return {"status": "success", "message": "Answer submitted to LLM Queue."}
@@ -190,5 +212,5 @@ async def approve_hs(payload: ApprovePayload, request: Request):
 
 if __name__ == "__main__":
     import uvicorn
-    # Deploy dev server at port 8000
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    # Dev server: bind 127.0.0.1 (local only). Dùng 0.0.0.0 khi deploy qua Docker/nginx.
+    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)

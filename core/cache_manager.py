@@ -1,6 +1,8 @@
 import json
 import os
 import time
+import tempfile
+import shutil
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE_FILE = os.path.join(BASE_DIR, "database", "hs_cache.json")
@@ -22,9 +24,16 @@ class CacheManager:
             return {}
 
     def _save_cache(self):
+        # ATOMIC WRITE: ghi temp file rồi rename để tránh corrupt nếu 2 threads ghi đồng thời
         try:
-            with open(CACHE_FILE, 'w', encoding='utf-8') as f:
-                json.dump(self.cache, f, ensure_ascii=False, indent=2)
+            dir_path = os.path.dirname(CACHE_FILE)
+            with tempfile.NamedTemporaryFile(
+                mode='w', encoding='utf-8',
+                dir=dir_path, delete=False, suffix='.tmp'
+            ) as tmp_f:
+                json.dump(self.cache, tmp_f, ensure_ascii=False, indent=2)
+                tmp_path = tmp_f.name
+            shutil.move(tmp_path, CACHE_FILE)  # Atomic replace
         except Exception as e:
             print(f"[CacheManager] Error saving cache: {e}")
 
