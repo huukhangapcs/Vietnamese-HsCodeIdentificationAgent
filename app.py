@@ -3,7 +3,8 @@ import asyncio
 import datetime
 import time
 from fastapi import FastAPI, Request, HTTPException
-from fastapi.responses import HTMLResponse, StreamingResponse
+from fastapi.responses import HTMLResponse, StreamingResponse, JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 import threading
 import queue
 import sys
@@ -23,7 +24,18 @@ from pydantic import BaseModel, field_validator
 # API Key auth (optional - set env var HSCODE_API_KEY to enable)
 _API_KEY = os.getenv("HSCODE_API_KEY", "")  # Rỗng = tắt auth (dev mode)
 
-app = FastAPI(title="HS Code Agentic Router V13")
+app = FastAPI(title="HS Code Agentic Router", version="2.0.0")
+
+# CORS: cho phép frontend trên domain khác gọi API
+# Đọc từ env var ALLOWED_ORIGINS (comma-separated), mặc định chỉ localhost
+_allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:8000,http://127.0.0.1:8000").split(",")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_allowed_origins,
+    allow_credentials=True,
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
+)
 
 # Keep a pipeline instance ready
 pipeline = HSPipeline()
@@ -92,6 +104,16 @@ class ApprovePayload(BaseModel):
         if len(v) > 3000:
             raise ValueError('query quá dài (tối đa 3000 ký tự)')
         return v
+
+@app.get("/health")
+async def health_check():
+    """Health check endpoint cho load balancer / monitoring."""
+    return JSONResponse({
+        "status": "ok",
+        "timestamp": datetime.datetime.now().isoformat(),
+        "active_sessions": len(active_sessions),
+        "version": "2.0.0"
+    })
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root():
