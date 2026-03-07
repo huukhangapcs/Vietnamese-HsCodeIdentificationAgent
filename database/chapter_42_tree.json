@@ -1,0 +1,413 @@
+[
+  {
+    "level": 0,
+    "hs_code": "4201",
+    "description_en": "Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle cloths, saddle bags, dog coats and the like), of any material",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "42010000",
+        "description_en": "Saddlery and harness for any animal (traces, leads, muzzles, saddle cloths, saddle bags, dog coats and the like), of any material",
+        "children": [],
+        "semantic_path": "Leather articles > Saddlery & harness > Saddlery, harness, leads, muzzles, saddle bags, dog coats (any material)"
+      }
+    ],
+    "semantic_path": "Leather articles > Saddlery and harness for animals (any material)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4202",
+    "description_en": "Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, camera cases, musical instrument cases, gun cases, holsters; travelling-bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, tool bags, sports bags, jewellery boxes, powder-boxes, cutlery cases and similar containers — of leather, plastics, textile, vulcanised fibre or paperboard",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4202_TRUNK",
+        "description_en": "Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels and similar containers:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "420211",
+            "description_en": "With outer surface of leather or of composition leather:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42021110",
+                "description_en": "Suit-case or brief-case with maximum dimensions 56 cm x 45 cm x 25 cm",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Leather outer surface > Suitcase/briefcase max 56×45×25cm"
+              },
+              {
+                "level": 3,
+                "hs_code": "42021190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Leather outer surface > Other (trunks, vanity cases)"
+              }
+            ],
+            "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Leather or composition leather outer surface"
+          },
+          {
+            "level": 2,
+            "hs_code": "420212",
+            "description_en": "With outer surface of plastics or of textile materials:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42021211",
+                "description_en": "School satchels — with outer surface of vulcanised fibre",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Plastic/textile outer surface > School satchels — vulcanised fibre"
+              },
+              {
+                "level": 3,
+                "hs_code": "42021219",
+                "description_en": "School satchels — Other",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Plastic/textile outer surface > School satchels — other"
+              },
+              {
+                "level": 3,
+                "hs_code": "42021291",
+                "description_en": "Other — with outer surface of vulcanised fibre",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Plastic/textile outer surface > Other — vulcanised fibre"
+              },
+              {
+                "level": 3,
+                "hs_code": "42021299",
+                "description_en": "Other — Other",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Plastic/textile outer surface > Other"
+              }
+            ],
+            "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Plastics or textile outer surface"
+          },
+          {
+            "level": 2,
+            "hs_code": "420219",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42021920",
+                "description_en": "With outer surface of paperboard",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Other outer surface > Paperboard"
+              },
+              {
+                "level": 3,
+                "hs_code": "42021990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Other outer surface > Other"
+              }
+            ],
+            "semantic_path": "Leather articles > Travel bags & cases > Trunks/suitcases/briefcases > Other outer surface"
+          }
+        ],
+        "semantic_path": "Leather articles > Travel bags & cases > Trunks, suitcases, vanity cases, briefcases, school satchels"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4202_HB",
+        "description_en": "Handbags, whether or not with shoulder strap, including those without handle:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "42022100",
+            "description_en": "With outer surface of leather or of composition leather",
+            "children": [],
+            "semantic_path": "Leather articles > Travel bags & cases > Handbags > Leather outer surface"
+          },
+          {
+            "level": 2,
+            "hs_code": "420222",
+            "description_en": "With outer surface of sheeting of plastics or of textile materials:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42022210",
+                "description_en": "With outer surface of sheeting of plastics",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Handbags > Plastics outer surface"
+              },
+              {
+                "level": 3,
+                "hs_code": "42022220",
+                "description_en": "With outer surface of textile materials",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Handbags > Textile outer surface"
+              }
+            ],
+            "semantic_path": "Leather articles > Travel bags & cases > Handbags > Plastics or textile outer surface"
+          },
+          {
+            "level": 2,
+            "hs_code": "42022900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Leather articles > Travel bags & cases > Handbags > Other outer surface"
+          }
+        ],
+        "semantic_path": "Leather articles > Travel bags & cases > Handbags (with or without shoulder strap)"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4202_POCKET",
+        "description_en": "Articles of a kind normally carried in the pocket or in the handbag (wallets, purses, key-pouches, cigarette-cases):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "42023100",
+            "description_en": "With outer surface of leather or of composition leather",
+            "children": [],
+            "semantic_path": "Leather articles > Travel bags & cases > Pocket articles (wallets, purses, key-holders) > Leather outer surface"
+          },
+          {
+            "level": 2,
+            "hs_code": "42023200",
+            "description_en": "With outer surface of sheeting of plastics or of textile materials",
+            "children": [],
+            "semantic_path": "Leather articles > Travel bags & cases > Pocket articles (wallets, purses) > Plastics or textile outer surface"
+          },
+          {
+            "level": 2,
+            "hs_code": "42023900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Leather articles > Travel bags & cases > Pocket articles (wallets, purses) > Other outer surface"
+          }
+        ],
+        "semantic_path": "Leather articles > Travel bags & cases > Pocket/handbag articles (wallets, purses, cigarette cases, key pouches)"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4202_OTHER",
+        "description_en": "Other (tool bags, sports bags, bottle-cases, jewellery boxes, insulated bags, rucksacks, toilet bags):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "420291",
+            "description_en": "With outer surface of leather or of composition leather:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42029111",
+                "description_en": "Sports bags — bowling bags",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Other containers > Leather outer surface > Sports bags — bowling bags"
+              },
+              {
+                "level": 3,
+                "hs_code": "42029119",
+                "description_en": "Sports bags — other",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Other containers > Leather outer surface > Sports bags — other"
+              },
+              {
+                "level": 3,
+                "hs_code": "42029190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Other containers > Leather outer surface > Other (tool bags, jewellery boxes, rucksacks)"
+              }
+            ],
+            "semantic_path": "Leather articles > Travel bags & cases > Other containers > Leather or composition leather outer surface"
+          },
+          {
+            "level": 2,
+            "hs_code": "420292",
+            "description_en": "With outer surface of sheeting of plastics or of textile materials:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42029210",
+                "description_en": "Toiletry bags, of sheeting of plastics",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Other containers > Plastics/textile outer surface > Toiletry bags of plastics"
+              },
+              {
+                "level": 3,
+                "hs_code": "42029220",
+                "description_en": "Bowling bags",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Other containers > Plastics/textile outer surface > Bowling bags"
+              },
+              {
+                "level": 3,
+                "hs_code": "42029290",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Other containers > Plastics/textile outer surface > Other (rucksacks, tool bags, sports bags)"
+              }
+            ],
+            "semantic_path": "Leather articles > Travel bags & cases > Other containers > Plastics or textile outer surface"
+          },
+          {
+            "level": 2,
+            "hs_code": "420299",
+            "description_en": "Other:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42029910",
+                "description_en": "With outer surface of vulcanised fibre or paperboard",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Other containers > Other outer surface > Vulcanised fibre or paperboard"
+              },
+              {
+                "level": 3,
+                "hs_code": "42029990",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Leather articles > Travel bags & cases > Other containers > Other outer surface > Other"
+              }
+            ],
+            "semantic_path": "Leather articles > Travel bags & cases > Other containers > Other outer surface"
+          }
+        ],
+        "semantic_path": "Leather articles > Travel bags & cases > Other containers (tool bags, sports bags, rucksacks, jewellery boxes)"
+      }
+    ],
+    "semantic_path": "Leather articles > Travel goods, handbags and similar containers (42.02) — classified by: outer surface material x container type"
+  },
+  {
+    "level": 0,
+    "hs_code": "4203",
+    "description_en": "Articles of apparel and clothing accessories, of leather or of composition leather",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "42031000",
+        "description_en": "Articles of apparel (leather jackets, coats, trousers, skirts, dresses)",
+        "children": [],
+        "semantic_path": "Leather articles > Leather apparel & accessories > Articles of apparel (leather jackets, coats, trousers)"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4203_GLOVES",
+        "description_en": "Gloves, mittens and mitts:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "420321",
+            "description_en": "Specially designed for use in sports:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42032110",
+                "description_en": "Baseball and softball gloves",
+                "children": [],
+                "semantic_path": "Leather articles > Leather apparel & accessories > Gloves > Sports gloves > Baseball and softball gloves"
+              },
+              {
+                "level": 3,
+                "hs_code": "42032190",
+                "description_en": "Other sports gloves (golf, cycling, riding gloves)",
+                "children": [],
+                "semantic_path": "Leather articles > Leather apparel & accessories > Gloves > Sports gloves > Other (golf gloves, cycling gloves, riding gloves)"
+              }
+            ],
+            "semantic_path": "Leather articles > Leather apparel & accessories > Gloves > Sports gloves"
+          },
+          {
+            "level": 2,
+            "hs_code": "420329",
+            "description_en": "Other gloves (protective, dress, fashion):",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "42032910",
+                "description_en": "Protective work gloves",
+                "children": [],
+                "semantic_path": "Leather articles > Leather apparel & accessories > Gloves > Other gloves > Protective work gloves (welding, heavy industry)"
+              },
+              {
+                "level": 3,
+                "hs_code": "42032990",
+                "description_en": "Other (fashion, dress, driving gloves)",
+                "children": [],
+                "semantic_path": "Leather articles > Leather apparel & accessories > Gloves > Other gloves > Fashion/dress/driving gloves"
+              }
+            ],
+            "semantic_path": "Leather articles > Leather apparel & accessories > Gloves > Other (non-sports: work, dress, fashion)"
+          }
+        ],
+        "semantic_path": "Leather articles > Leather apparel & accessories > Gloves, mittens and mitts of leather"
+      },
+      {
+        "level": 1,
+        "hs_code": "42033000",
+        "description_en": "Belts and bandoliers",
+        "children": [],
+        "semantic_path": "Leather articles > Leather apparel & accessories > Leather belts and bandoliers"
+      },
+      {
+        "level": 1,
+        "hs_code": "42034000",
+        "description_en": "Other clothing accessories (braces, wrist straps, aprons, shoulder straps)",
+        "children": [],
+        "semantic_path": "Leather articles > Leather apparel & accessories > Other accessories (braces, aprons, wrist straps)"
+      }
+    ],
+    "semantic_path": "Leather articles > Articles of apparel and clothing accessories of leather (jackets, gloves, belts, aprons)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4205",
+    "description_en": "Other articles of leather or of composition leather",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "42050010",
+        "description_en": "Boot laces; mats",
+        "children": [],
+        "semantic_path": "Leather articles > Other leather articles > Boot laces; mats"
+      },
+      {
+        "level": 1,
+        "hs_code": "42050020",
+        "description_en": "Industrial safety belts and harnesses",
+        "children": [],
+        "semantic_path": "Leather articles > Other leather articles > Industrial safety belts and harnesses (fall protection)"
+      },
+      {
+        "level": 1,
+        "hs_code": "42050030",
+        "description_en": "Leather strings or cords for jewellery or personal adornment",
+        "children": [],
+        "semantic_path": "Leather articles > Other leather articles > Leather strings/cords for jewellery and personal adornment"
+      },
+      {
+        "level": 1,
+        "hs_code": "42050040",
+        "description_en": "Other articles for use in machinery or mechanical appliances or for other technical uses",
+        "children": [],
+        "semantic_path": "Leather articles > Other leather articles > Technical leather articles for machinery and mechanical appliances"
+      },
+      {
+        "level": 1,
+        "hs_code": "42050090",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Leather articles > Other leather articles > Other NES leather articles"
+      }
+    ],
+    "semantic_path": "Leather articles > Other articles of leather NES (boot laces, safety harnesses, technical leather goods)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4206",
+    "description_en": "Articles of gut (other than silk-worm gut), of goldbeater's skin, of bladders or of tendons",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "42060000",
+        "description_en": "Articles of gut (other than silk-worm gut), of goldbeater's skin, of bladders or of tendons",
+        "children": [],
+        "semantic_path": "Leather articles > Articles of gut, goldbeater's skin, bladders or tendons (sausage casings, musical string gut, surgical suture gut)"
+      }
+    ],
+    "semantic_path": "Leather articles > Articles of animal gut, bladders and tendons"
+  }
+]

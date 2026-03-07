@@ -139,12 +139,12 @@ hscodever3/
 
 | Asset | Count | Details |
 |-------|-------|---------|
-| **Rules JSON** | **40 / 97 chapters** | Ch. 1–40 complete |
-| **Tree JSON** | **29 mono + 6 sub-trees** | Ch. 1–27, Ch. 36 (mono); Ch. 28 (6 sub-trees) |
+| **Rules JSON** | **42 / 97 chapters** | Ch. 1–42 complete |
+| **Tree JSON** | **30 mono + 6 sub-trees** | Ch. 1–27, Ch. 36, Ch. 41–42 (mono); Ch. 28 (6 sub-trees) |
 | **ChromaDB size** | **~47 MB** | 9,300+ vector embeddings |
-| **Total inclusions** | **390** | Heading-level scope definitions |
-| **Total exclusions** | **264** | With keyword triggers for Gate A |
-| **Total classification rules** | **190** | Priority-ordered decision rules |
+| **Total inclusions** | **406** | Heading-level scope definitions |
+| **Total exclusions** | **285** | With keyword triggers for Gate A |
+| **Total classification rules** | **204** | Priority-ordered decision rules |
 
 ### 🗂️ Rules Coverage by Section
 
@@ -157,7 +157,7 @@ hscodever3/
 | **Section V** | 25–27 | Mineral products | ✅ Complete | ✅ Complete |
 | **Section VI** | 28–38 | Chemical products | ✅ Complete | ⚠️ Ch.28 only (sub-trees) |
 | **Section VII** | 39–40 | Plastics & Rubber | ✅ Complete | ❌ Pending |
-| **Section VIII** | 41–43 | Hides, leather, furs | ❌ Pending | ❌ Pending |
+| **Section VIII** | 41–43 | Hides, leather, furs | ⚠️ Ch.41–42 done | ⚠️ Ch.41–42 done |
 | **Section IX** | 44–46 | Wood, cork, straw | ❌ Pending | ❌ Pending |
 | **Section X** | 47–49 | Pulp, paper, books | ❌ Pending | ❌ Pending |
 | **Section XI** | 50–63 | Textiles | ❌ Pending | ❌ Pending |

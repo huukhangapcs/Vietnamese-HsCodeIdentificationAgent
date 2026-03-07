@@ -1,0 +1,443 @@
+[
+  {
+    "level": 0,
+    "hs_code": "4101",
+    "description_en": "Raw hides and skins of bovine (including buffalo) or equine animals (fresh, or salted, dried, limed, pickled or otherwise preserved, but not tanned, parchment-dressed or further prepared), whether or not dehaired or split",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "41012000",
+        "description_en": "Whole hides and skins, unsplit, of a weight per skin not exceeding 8 kg when simply dried, 10 kg when dry-salted, or 16 kg when fresh, wet-salted or otherwise preserved",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Raw bovine/equine hides > Whole hides ≤8/10/16 kg"
+      },
+      {
+        "level": 1,
+        "hs_code": "41015000",
+        "description_en": "Whole hides and skins, of a weight exceeding 16 kg",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Raw bovine/equine hides > Whole hides >16 kg"
+      },
+      {
+        "level": 1,
+        "hs_code": "410190",
+        "description_en": "Other, including butts, bends and bellies:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "41019010",
+            "description_en": "Pre-tanned",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Raw bovine/equine hides > Other (butts, bends, bellies) > Pre-tanned"
+          },
+          {
+            "level": 2,
+            "hs_code": "41019090",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Raw bovine/equine hides > Other (butts, bends, bellies) > Other"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Raw bovine/equine hides > Other (butts, bends, bellies)"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Raw bovine/equine hides (fresh/salted/dried/limed/pickled, not tanned)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4102",
+    "description_en": "Raw skins of sheep or lambs (fresh, or salted, dried, limed, pickled or otherwise preserved, but not tanned, parchment-dressed or further prepared), whether or not with wool on or split, other than those excluded by Note 1(c)",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "41021000",
+        "description_en": "With wool on",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Raw sheep/lamb skins > With wool on"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4102_WO",
+        "description_en": "Without wool on:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "41022100",
+            "description_en": "Pickled",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Raw sheep/lamb skins > Without wool on > Pickled"
+          },
+          {
+            "level": 2,
+            "hs_code": "41022900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Raw sheep/lamb skins > Without wool on > Other"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Raw sheep/lamb skins > Without wool on"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Raw sheep/lamb skins (not tanned, excl. premium furskin breeds)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4103",
+    "description_en": "Other raw hides and skins (fresh, or salted, dried, limed, pickled or otherwise preserved, but not tanned, parchment-dressed or further prepared), whether or not dehaired or split, other than those excluded by Note 1(b) or 1(c)",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "41032000",
+        "description_en": "Of reptiles",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Other raw hides & skins > Reptiles (snake, crocodile, lizard skin)"
+      },
+      {
+        "level": 1,
+        "hs_code": "41033000",
+        "description_en": "Of swine",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Other raw hides & skins > Swine (pigskin, peccary)"
+      },
+      {
+        "level": 1,
+        "hs_code": "41039000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Other raw hides & skins > Other animals (goat, deer, camel, dog, chamois)"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Other raw hides & skins (reptile, swine, goat, deer, etc.)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4104",
+    "description_en": "Tanned or crust hides and skins of bovine (including buffalo) or equine animals, without hair on, whether or not split, but not further prepared",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4104_WET",
+        "description_en": "In the wet state (including wet-blue):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "410411",
+            "description_en": "Full grains, unsplit; grain splits:",
+            "children": [
+              {
+                "level": 3,
+                "hs_code": "41041110",
+                "description_en": "Of bovine, vegetable tanned",
+                "children": [],
+                "semantic_path": "Raw hides & leather > Tanned bovine/equine hides (not further prepared) > Wet state > Full grain/grain splits > Bovine, vegetable tanned"
+              },
+              {
+                "level": 3,
+                "hs_code": "41041190",
+                "description_en": "Other",
+                "children": [],
+                "semantic_path": "Raw hides & leather > Tanned bovine/equine hides (not further prepared) > Wet state > Full grain/grain splits > Other (chrome-tanned wet-blue)"
+              }
+            ],
+            "semantic_path": "Raw hides & leather > Tanned bovine/equine hides (not further prepared) > Wet state > Full grain/grain splits"
+          },
+          {
+            "level": 2,
+            "hs_code": "41041900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned bovine/equine hides (not further prepared) > Wet state > Other splits"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Tanned bovine/equine hides (not further prepared) > Wet state (wet-blue)"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4104_DRY",
+        "description_en": "In the dry state (crust):",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "41044100",
+            "description_en": "Full grains, unsplit; grain splits",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned bovine/equine hides (not further prepared) > Dry state (crust) > Full grain/grain splits"
+          },
+          {
+            "level": 2,
+            "hs_code": "41044900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned bovine/equine hides (not further prepared) > Dry state (crust) > Other"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Tanned bovine/equine hides (not further prepared) > Dry state (crust)"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Tanned/crust bovine or equine hides (wet-blue or crust, not further prepared)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4105",
+    "description_en": "Tanned or crust skins of sheep or lambs, without wool on, whether or not split, but not further prepared",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "41051000",
+        "description_en": "In the wet state (including wet-blue)",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Tanned sheep/lamb skins (not further prepared) > Wet state (wet-blue)"
+      },
+      {
+        "level": 1,
+        "hs_code": "41053000",
+        "description_en": "In the dry state (crust)",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Tanned sheep/lamb skins (not further prepared) > Dry state (crust)"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Tanned/crust sheep or lamb skins (wet-blue or crust, not further prepared)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4106",
+    "description_en": "Tanned or crust hides and skins of other animals, without wool or hair on, whether or not split, but not further prepared",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4106_GOAT",
+        "description_en": "Of goats or kids:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "41062100",
+            "description_en": "In the wet state (including wet-blue)",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Goat/kid > Wet state"
+          },
+          {
+            "level": 2,
+            "hs_code": "41062200",
+            "description_en": "In the dry state (crust)",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Goat/kid > Dry state (crust)"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Goat or kid"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4106_SWINE",
+        "description_en": "Of swine:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "41063100",
+            "description_en": "In the wet state (including wet-blue)",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Swine > Wet state"
+          },
+          {
+            "level": 2,
+            "hs_code": "41063200",
+            "description_en": "In the dry state (crust)",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Swine > Dry state (crust)"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Swine (pigskin)"
+      },
+      {
+        "level": 1,
+        "hs_code": "41064000",
+        "description_en": "Of reptiles",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Reptiles (crocodile, snake, lizard leather tanned)"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4106_OTHER",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "41069100",
+            "description_en": "In the wet state (including wet-blue)",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Other > Wet state"
+          },
+          {
+            "level": 2,
+            "hs_code": "41069200",
+            "description_en": "In the dry state (crust)",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Other > Dry state (crust)"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Tanned other animal hides (not further prepared) > Other animals"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Tanned/crust other animal hides — goat, swine, reptile, other (not further prepared)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4107",
+    "description_en": "Leather further prepared after tanning or crusting, including parchment-dressed leather, of bovine (including buffalo) or equine animals, without hair on, whether or not split, other than leather of heading 41.14",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4107_WHOLE",
+        "description_en": "Whole hides and skins:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "41071100",
+            "description_en": "Full grains, unsplit",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Finished bovine/equine leather (further prepared) > Whole hides > Full grain unsplit"
+          },
+          {
+            "level": 2,
+            "hs_code": "41071200",
+            "description_en": "Grain splits",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Finished bovine/equine leather (further prepared) > Whole hides > Grain splits"
+          },
+          {
+            "level": 2,
+            "hs_code": "41071900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Finished bovine/equine leather (further prepared) > Whole hides > Other"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Finished bovine/equine leather (further prepared) > Whole hides"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_4107_OTHER",
+        "description_en": "Other, including sides:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "41079100",
+            "description_en": "Full grains, unsplit",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Finished bovine/equine leather (further prepared) > Sides & other cuts > Full grain unsplit"
+          },
+          {
+            "level": 2,
+            "hs_code": "41079200",
+            "description_en": "Grain splits",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Finished bovine/equine leather (further prepared) > Sides & other cuts > Grain splits"
+          },
+          {
+            "level": 2,
+            "hs_code": "41079900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Raw hides & leather > Finished bovine/equine leather (further prepared) > Sides & other cuts > Other"
+          }
+        ],
+        "semantic_path": "Raw hides & leather > Finished bovine/equine leather (further prepared) > Sides and other cuts"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Finished/further-prepared bovine or equine leather (buffed, coated, finished — excl. chamois, patent, metallised)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4112",
+    "description_en": "Leather further prepared after tanning or crusting, including parchment-dressed leather, of sheep or lamb, without wool on, whether or not split, other than leather of heading 41.14",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "41120000",
+        "description_en": "Leather further prepared after tanning or crusting of sheep or lamb",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Finished sheep/lamb leather (further prepared, excl. chamois/patent/metallised)"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Finished/further-prepared sheep or lamb leather"
+  },
+  {
+    "level": 0,
+    "hs_code": "4113",
+    "description_en": "Leather further prepared after tanning or crusting, of other animals, without wool or hair on, whether or not split, other than leather of heading 41.14",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "41131000",
+        "description_en": "Of goats or kids",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Finished other animal leather (further prepared) > Goat/kid leather (nappa, suede)"
+      },
+      {
+        "level": 1,
+        "hs_code": "41132000",
+        "description_en": "Of swine",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Finished other animal leather (further prepared) > Pigskin leather"
+      },
+      {
+        "level": 1,
+        "hs_code": "41133000",
+        "description_en": "Of reptiles",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Finished other animal leather (further prepared) > Reptile leather (crocodile, snake, lizard — finished)"
+      },
+      {
+        "level": 1,
+        "hs_code": "41139000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Finished other animal leather (further prepared) > Other animal leather"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Finished/further-prepared other animal leather (goat, swine, reptile, other)"
+  },
+  {
+    "level": 0,
+    "hs_code": "4114",
+    "description_en": "Chamois (including combination chamois) leather; patent leather and patent laminated leather; metallised leather",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "41141000",
+        "description_en": "Chamois (including combination chamois) leather",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Special finish leathers > Chamois leather (oil-tanned, washable)"
+      },
+      {
+        "level": 1,
+        "hs_code": "41142000",
+        "description_en": "Patent leather and patent laminated leather; metallised leather",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Special finish leathers > Patent leather (high-gloss lacquered) and metallised leather"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Special finish leathers — chamois, patent, metallised"
+  },
+  {
+    "level": 0,
+    "hs_code": "4115",
+    "description_en": "Composition leather with a basis of leather or leather fibre, in slabs, sheets or strip, whether or not in rolls; parings and other waste of leather or of composition leather, not suitable for manufacture of leather articles; leather dust, powder and flour",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "41151000",
+        "description_en": "Composition leather with a basis of leather or leather fibre, in slabs, sheets or strip, whether or not in rolls",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Composition leather & leather waste > Composition leather (bonded leather sheets/slabs/strips)"
+      },
+      {
+        "level": 1,
+        "hs_code": "41152000",
+        "description_en": "Parings and other waste of leather or of composition leather, not suitable for manufacture of leather articles; leather dust, powder and flour",
+        "children": [],
+        "semantic_path": "Raw hides & leather > Composition leather & leather waste > Leather waste, parings, dust and powder (not for article manufacture)"
+      }
+    ],
+    "semantic_path": "Raw hides & leather > Composition leather (bonded leather) and leather waste/dust"
+  }
+]

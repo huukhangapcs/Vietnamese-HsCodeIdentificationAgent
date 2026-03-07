@@ -1,0 +1,85 @@
+{
+    "chapter_code": "41",
+    "inclusions": [
+        "Heading 41.01 — Raw hides and skins of bovine (including buffalo) or equine animals: fresh, salted, dried, limed, pickled or otherwise preserved — BUT NOT tanned, parchment-dressed or further prepared; whether or not dehaired or split",
+        "Heading 41.02 — Raw skins of sheep or lambs: fresh, salted, dried, limed, pickled or otherwise preserved, but not tanned/parchment-dressed/further prepared; with or without wool on or split. Excludes premium furskins named in Note 1(c) (Astrakhan, Broadtail, Caracul, Persian/similar lambs, Indian/Chinese/Mongolian/Tibetan lambs)",
+        "Heading 41.03 — Other raw hides and skins of other animals: fresh, salted, dried, limed, pickled or otherwise preserved, but not tanned/parchment-dressed/further prepared; dehaired or split. Excludes birdskins (Note 1(b)) and premium furskins (Note 1(c)). Includes: reptiles, swine, other",
+        "Heading 41.04 — Tanned or crust hides and skins of bovine (including buffalo) or equine animals, WITHOUT hair on, whether or not split, but NOT FURTHER PREPARED. Wet state (wet-blue/chrome-tanned) and dry state (crust). Note 2(A): excludes reversibly tanned hides (those → back to 41.01)",
+        "Heading 41.05 — Tanned or crust skins of sheep or lambs, without wool on, whether or not split, but not further prepared. Wet state (wet-blue) and dry state (crust). Note 2(B): 'crust' includes retanned, coloured or fat-liquored hides dried",
+        "Heading 41.06 — Tanned or crust hides and skins of OTHER animals (goats/kids, swine, reptiles, other), without wool or hair on, whether or not split, but not further prepared. Wet state and dry state",
+        "Heading 41.07 — Leather FURTHER PREPARED after tanning or crusting (including parchment-dressed leather) of bovine or equine animals, without hair on, split or not. Excludes chamois/patent/metallised leather of 41.14. Includes: full grains, grain splits, other — whole hides and sides",
+        "Heading 41.12 — Leather further prepared after tanning/crusting of sheep or lamb, without wool on, split or not (other than 41.14)",
+        "Heading 41.13 — Leather further prepared after tanning/crusting of OTHER animals (goats/kids, swine, reptiles, other), without wool or hair on (other than 41.14)",
+        "Heading 41.14 — Special finish leathers: chamois leather (including combination chamois); patent leather and patent laminated leather; metallised leather",
+        "Heading 41.15 — Composition leather (Note 3: the Nomenclature-wide definition of 'composition leather') with basis of leather or leather fibre, in slabs/sheets/strip/rolls. Also: parings and waste of leather or composition leather not suitable for making leather articles; leather dust/powder/flour"
+    ],
+    "exclusions": [
+        {
+            "condition": "Parings or similar waste of raw hides or skins",
+            "action": "Redirect to heading 05.11 (animal products NES, including raw hide waste) — Note 1(a)",
+            "keywords": ["raw hide waste", "raw skin parings", "leather waste raw", "05.11"]
+        },
+        {
+            "condition": "Birdskins or parts of birdskins with feathers or down still attached",
+            "action": "Redirect to heading 05.05 (feathers/down) or 67.01 (birdskin articles with feathers) — Note 1(b)",
+            "keywords": ["birdskin", "bird skin feather", "duck skin feather", "goose skin down", "05.05", "67.01"]
+        },
+        {
+            "condition": "Premium furskins WITH hair/wool on — Chapter 43 animals: Astrakhan, Broadtail, Caracul, Persian lambs; Indian/Chinese/Mongolian/Tibetan lambs; Yemen/Mongolian/Tibetan goats & kids",
+            "action": "Redirect to Chapter 43 (furskins and artificial fur) — Note 1(c). NOTE: Most common livestock hides WITH hair (bovine, equine, swine, chamois, regular sheep, goats, deer, camel) STAY in 41.01 or 41.03",
+            "keywords": ["Astrakhan", "Broadtail", "Caracul", "Persian lamb", "karakul", "Tibet lamb", "Mongolia lamb", "furskin", "43."]
+        },
+        {
+            "condition": "Hides/skins with hair/wool that have been TANNED or DRESSED — if they are furskin species (Ch.43)",
+            "action": "Redirect to Chapter 43 — Note 1(c). But tanned bovine/equine/swine/chamois/deer hides with hair can stay in Ch.41 only if falling within the permitted species list of Note 1(c)",
+            "keywords": ["tanned furskin", "dressed furskin", "fur pelt tanned"]
+        },
+        {
+            "condition": "Reversibly tanned (pre-tanned) hides — tanning process is reversible",
+            "action": "Redirect back to headings 41.01–41.03 as appropriate — Note 2(A). Headings 41.04–41.06 require IRREVERSIBLE tanning. Reversibly tanned hides are treated as raw",
+            "keywords": ["reversible tan", "pre-tanned reversible", "pickled hide tanned"]
+        },
+        {
+            "condition": "Leather articles (footwear, handbags, saddlery, garments) — worked leather beyond slab/sheet/strip form",
+            "action": "Redirect to the appropriate article chapter: footwear → Ch.64; handbags → Ch.42; saddlery → Ch.42; leather garments → Ch.43 (leather clothing) or Ch.61/62",
+            "keywords": ["leather shoe", "leather bag", "leather handbag", "leather jacket", "leather glove", "leather belt", "42.", "64."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1(c) — Critical species distinction: Ch.41 vs Ch.43 for hides with hair/wool",
+            "description": "This is the most complex boundary in Chapter 41. Hides/skins WITH hair/wool on: (A) MUST GO TO CHAPTER 43 if from premium fur species: Astrakhan/Broadtail/Caracul/Persian lambs; Indian/Chinese/Mongolian/Tibetan lambs; Yemen/Mongolian/Tibetan goats & kids. (B) STAY IN CHAPTER 41 if from: bovine (including buffalo), equine, swine (including peccary), chamois, gazelle, camel (including dromedary), reindeer, elk, deer, roebuck, dog — AND ordinary sheep/lambs and ordinary goats/kids not named above. The species and whether the skin is from a premium fur animal is the sole test.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2(A) — Tanning reversibility: 41.01–41.03 vs 41.04–41.06",
+            "description": "The two-state tanning test: REVERSIBLE tanning (pre-tanning that can be undone) → hides remain in 41.01–41.03 (raw). IRREVERSIBLE tanning → moves to 41.04–41.06 (tanned/crust). This is a technical chemical process distinction. Wet-blue (chrome-tanned wet state) is irreversible and goes to 41.04–41.06.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 2(B) — 'Crust' definition for 41.04–41.06",
+            "description": "The term 'crust' in headings 41.04–41.06 INCLUDES hides and skins that have been: retanned, coloured, or fat-liquored (stuffed/fatliquored) — PROVIDED they were dried before further preparation. This means crust leather is not just air-dried tanned hide; it includes those that received secondary chemical treatment before the final drying step.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 3 — 'Composition leather' definition (Nomenclature-wide)",
+            "description": "Throughout the entire HS Nomenclature, 'composition leather' means ONLY the substances of heading 41.15 — i.e., bonded leather made from leather fibres/shavings compressed/bonded with binders into sheets/slabs. This is the legal definition that applies whenever 'composition leather' appears in any other heading's description.",
+            "priority": 4
+        },
+        {
+            "rule": "State-based classification within Chapter 41: raw → tanned/crust → further prepared",
+            "description": "The chapter follows a clear processing chain: (1) RAW (41.01–41.03): fresh/preserved but not tanned; (2) TANNED/CRUST (41.04–41.06): irreversibly tanned but not further prepared — wet-blue or dry crust; (3) FURTHER PREPARED (41.07–41.14): leather that has received additional treatment after tanning (splitting, buffing, finishing, coating, patent finish, chamois, metallising). Special finish → 41.14 (chamois, patent, metallised). (4) COMPOSITION/WASTE (41.15).",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 41.04–41.06 vs 41.07/41.12/41.13 — 'not further prepared' threshold",
+            "description": "41.04–41.06 = tanned/crust leather 'not further prepared'. Any additional processing after tanning/crusting (buffing, finishing, lacquering, splitting into precise thicknesses for retail, embossing, etc.) → 41.07 (bovine/equine), 41.12 (sheep/lamb), or 41.13 (other animals). The 'further prepared' threshold distinguishes intermediate industrial material from finished leather.",
+            "priority": 6
+        },
+        {
+            "rule": "Wet-blue vs dry crust subheading split within 41.04–41.06",
+            "description": "Within headings 41.04, 41.05 and 41.06, the subheadings split into: WET STATE (including wet-blue): chrome-tanned hides stored wet with preservatives. DRY STATE (crust): tanned hides that have been dried. This is purely a presentation/processing state distinction, not a species distinction.",
+            "priority": 7
+        }
+    ]
+}
