@@ -253,8 +253,8 @@ Lưu kết quả phê duyệt vào approved cache.
 
 | Phạm vi | Trạng thái |
 |---------|-----------|
-| Chương 1–9 (JSON tree + rules) | ✅ Đầy đủ |
+| Chương 1–14 (JSON tree + rules) | ✅ Đầy đủ |
 | ChromaDB vector index | ⚠️ Một phần chương |
-| Chương 10–97 | 🔴 `UNSUPPORTED_CHAPTER` |
+| Chương 15–97 | 🔴 `UNSUPPORTED_CHAPTER` |
 
 > Để mở rộng: thêm file `chapter_N_tree.json` và `chapter_N_rules.json` vào `database/`, rồi chạy lại `build_vector_db.py`.

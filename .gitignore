@@ -26,6 +26,7 @@ yarn-error.log*
 
 # === DATABASE & SENSITIVE DATA ===
 database/approved_cache.json
+database/hs_cache.json
 
 # === IDE & OS ===
 .DS_Store
