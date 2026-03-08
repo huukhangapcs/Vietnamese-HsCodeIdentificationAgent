@@ -1,0 +1,125 @@
+{
+    "chapter_code": "96",
+    "chapter_title": "Miscellaneous manufactured articles",
+    "inclusions": [
+        "Heading 96.01 — Worked ivory, bone, tortoise-shell, horn, antlers, coral, mother-of-pearl and other animal carving material, and articles of these materials (including articles obtained by moulding)",
+        "Heading 96.02 — Worked vegetable or mineral carving material and articles of these materials; moulded or carved articles of wax, of stearin, of natural gums or natural resins or of modelling pastes, and other moulded or carved articles not elsewhere specified or included; worked, unhardened gelatin (except gelatin of heading 35.03) and articles of unhardened gelatin. Note 2: 'vegetable or mineral carving material' = (a) hard seeds, pips, hulls, nuts (e.g., corozo/dom); (b) amber, meerschaum, agglomerated amber/meerschaum, jet and mineral substitutes for jet",
+        "Heading 96.03 — Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers not motorised, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers; squeegees. Note 3: 'prepared knots and tufts for broom/brush making' = unmounted, ready for incorporation without division, or requiring only minor trimming",
+        "Heading 96.04 — Hand sieves and hand riddles",
+        "Heading 96.05 — Travel sets for personal toilet, sewing or shoe or clothes cleaning",
+        "Heading 96.06 — Buttons, press-fasteners, snap-fasteners and press-studs, button moulds and other parts of these articles; button blanks",
+        "Heading 96.07 — Slide fasteners and parts thereof",
+        "Heading 96.08 — Ball point pens; felt tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 96.09",
+        "Heading 96.09 — Pencils (other than pencils of heading 96.08), crayons, pencil leads, pastels, drawing charcoals, writing or drawing chalks and tailors' chalks",
+        "Heading 96.10 — Slates and boards, with writing or drawing surfaces, whether or not framed",
+        "Heading 96.11 — Date, sealing or numbering stamps, and the like (including devices for printing or embossing labels), designed for operating in the hand; hand-operated composing sticks and hand printing sets incorporating such composing sticks",
+        "Heading 96.12 — Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or not on spools or in cartridges; ink-pads, whether or not inked, with or without boxes",
+        "Heading 96.13 — Cigarette lighters and other lighters, whether or not mechanical or electrical, and parts thereof, other than flints and wicks",
+        "Heading 96.14 — Smoking pipes (including pipe bowls) and cigar or cigarette holders, and parts thereof",
+        "Heading 96.15 — Combs, hair-slides and the like; hairpins, curling pins, curling grips, hair-curlers and the like, other than those of heading 85.16, and parts thereof",
+        "Heading 96.16 — Scent sprays and similar toilet sprays, and mounts and heads therefor; powder-puffs and pads for the application of cosmetics or toilet preparations",
+        "Heading 96.17 — Vacuum flasks and other vacuum vessels, complete with cases; parts thereof other than glass inners",
+        "Heading 96.18 — Tailors' dummies and other lay figures; automata and other animated displays used for shop window dressing",
+        "Heading 96.19 — Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles, of any material",
+        "Heading 96.20 — Monopods, bipods, tripods and similar articles"
+    ],
+    "exclusions": [
+        {
+            "condition": "Pencils for cosmetic or toilet uses (e.g., eyebrow pencils, lip liner pencils)",
+            "action": "Redirect to Chapter 33 (cosmetics/toilet preparations) — Note 1(a). Cosmetic pencils → Ch.33; writing/drawing pencils → 96.09",
+            "keywords": ["eyebrow pencil", "lip liner", "eyeliner pencil", "cosmetic pencil", "kohl pencil", "33."]
+        },
+        {
+            "condition": "Articles of Chapter 66 (umbrellas, walking-sticks, parts thereof)",
+            "action": "Redirect to Chapter 66 — Note 1(b)",
+            "keywords": ["umbrella part", "walking stick part", "parasol", "66."]
+        },
+        {
+            "condition": "Imitation jewellery",
+            "action": "Redirect to heading 71.17 — Note 1(c). Decorative brooches, novelty pins, fashion accessories that are imitation jewellery → 71.17",
+            "keywords": ["imitation jewellery", "fashion jewellery", "costume jewellery", "71.17"]
+        },
+        {
+            "condition": "Parts of general use (Note 2 to Section XV) of base metal, or similar goods of plastics",
+            "action": "Redirect to Section XV or Chapter 39 — Note 1(d)",
+            "keywords": ["general purpose screw", "general purpose hinge", "39.", "Section XV"]
+        },
+        {
+            "condition": "Cutlery or other articles of Chapter 82 WITH handles or parts of carving/moulding material — presented as complete articles",
+            "action": "Redirect to Chapter 82 (cutlery/tools with carved handles) — Note 1(e). EXCEPTION: separately presented carved handles or parts of Ch.82 articles → 96.01 or 96.02",
+            "keywords": ["carved handle knife", "ivory handle cutlery", "bone handle knife", "82."]
+        },
+        {
+            "condition": "Articles of Chapter 90 (spectacle frames, mathematical drawing pens, medical/dental/surgical/veterinary brushes)",
+            "action": "Redirect to Chapter 90 — Note 1(f): spectacle frames → 90.03; mathematical drawing pens → 90.17; specialised dental/medical brushes → 90.18",
+            "keywords": ["spectacle frame", "glasses frame", "mathematical pen", "dental brush", "surgical brush", "90.03", "90.17", "90.18"]
+        },
+        {
+            "condition": "Articles of Chapter 91 (clock or watch cases)",
+            "action": "Redirect to Chapter 91 — Note 1(g)",
+            "keywords": ["clock case", "watch case", "91."]
+        },
+        {
+            "condition": "Musical instruments or parts or accessories thereof",
+            "action": "Redirect to Chapter 92 — Note 1(h)",
+            "keywords": ["musical instrument part", "92."]
+        },
+        {
+            "condition": "Articles of Chapter 93 (arms and parts thereof)",
+            "action": "Redirect to Chapter 93 — Note 1(ij)",
+            "keywords": ["weapon part", "firearm part", "93."]
+        },
+        {
+            "condition": "Articles of Chapter 94 (furniture, luminaires and lighting fittings)",
+            "action": "Redirect to Chapter 94 — Note 1(k)",
+            "keywords": ["furniture", "luminaire", "lighting fitting", "94."]
+        },
+        {
+            "condition": "Articles of Chapter 95 (toys, games, sports requisites)",
+            "action": "Redirect to Chapter 95 — Note 1(l)",
+            "keywords": ["toy", "game", "sports requisite", "95."]
+        },
+        {
+            "condition": "Works of art, collectors' pieces or antiques",
+            "action": "Redirect to Chapter 97 — Note 1(m)",
+            "keywords": ["artwork", "collectors piece", "antique", "97."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Definition of 'vegetable or mineral carving material' for heading 96.02",
+            "description": "Heading 96.02 covers worked vegetable or mineral carving material. 'Vegetable carving material' = hard seeds, pips, hulls and nuts used for carving (e.g., corozo/tagua nut, dom palm). 'Mineral carving material' = amber, meerschaum, agglomerated amber/meerschaum, jet (black lignite) and mineral substitutes for jet. These must be WORKED (carved, moulded, shaped). Unworked natural materials → their natural material heading.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 3 — 'Prepared knots and tufts for broom/brush making' for heading 96.03",
+            "description": "Heading 96.03 includes prepared knots and tufts for broom/brush making. These are UNMOUNTED knots/tufts of animal hair, vegetable fibre or other material that are: (a) ready for incorporation without division into brooms/brushes; OR (b) require only minor further processing (trimming to shape at top) to be ready. Loose, unsorted bristle materials not yet in knot/tuft form → classified by material.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 4 — Precious metal/stones in Ch.96 articles: two-tier rule",
+            "description": "Two different rules apply within Ch.96: (1) Articles of headings 96.07–96.14, 96.16–96.20 (headings OTHER than 96.01–96.06 and 96.15): REMAIN in Ch.96 even if wholly or partly of precious metal, cultured pearls or precious stones — the presence of precious materials does NOT move them to Ch.71. (2) Articles of headings 96.01–96.06 and 96.15: classified there only if precious metals/stones/pearls constitute MINOR CONSTITUENTS (i.e., mere decoration/trim). If precious materials are the dominant/essential element → Ch.71.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 96.01/96.02 (carved material articles) vs Ch.71 (precious material articles)",
+            "description": "Worked ivory, bone, horn, amber, meerschaum, etc. → 96.01/96.02 as long as the carving material gives the article its essential character. If natural/cultured pearls, precious/semi-precious stones or precious metal are merely minor constituents (small inlay, trim) → still 96.01/96.02. If the precious elements are dominant or give essential character → Ch.71. A carved ivory figurine with gold trim → 96.01. A gold brooch with small ivory inlay → Ch.71.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 96.03 (brushes/brooms) vs Ch.90 (specialised dental/medical brushes)",
+            "description": "Heading 96.03 covers brushes of all kinds including those 'constituting parts of machines, appliances or vehicles'. HOWEVER, brushes specially designed for dentistry or medical/surgical/veterinary purposes (dental picks with brush, surgical scrub brushes) → 90.18. General-purpose toothbrushes → 96.03. The decisive test: is the brush designed for a specific medical/dental/veterinary function? → 90.18. General cleaning/painting/sweeping/grooming brush → 96.03.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 96.08 (pens — ink/felt/fountain/ballpoint) vs 96.09 (pencils, crayons, chalks) vs Ch.33 (cosmetic pencils)",
+            "description": "Three headings for writing/marking instruments: 96.08 = ink-based pens (ballpoint, felt-tip, fountain, stylograph, propelling pencils with mechanical lead advancement). 96.09 = graphite pencils, crayons, pastels, charcoals, chalks (wax or chalk-based, non-ink). Ch.33 = cosmetic pencils for toilet/beauty use (eyeliner, eyebrow, lip liner). Distinction from 96.09: cosmetic pencils are designed and marketed for body application, not for writing/drawing on paper.",
+            "priority": 6
+        },
+        {
+            "rule": "Note 1(e) exception: carved handles of Ch.82 articles presented separately → 96.01/96.02",
+            "description": "When a knife, fork or other Ch.82 article has a carved/moulded handle of animal or vegetable carving material and is presented as a COMPLETE article → classified in Ch.82 (the handle gives no override). But if the carved handle (or other carved part) is presented SEPARATELY (not assembled with the blade/tool) → then that separate handle → heading 96.01 or 96.02. Assembly state at presentation determines the classification.",
+            "priority": 7
+        }
+    ]
+}

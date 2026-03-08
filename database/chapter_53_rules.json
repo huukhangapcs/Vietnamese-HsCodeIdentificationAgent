@@ -1,0 +1,72 @@
+{
+    "chapter_code": "53",
+    "chapter_title": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+    "scope_note": "Chapter 53 covers vegetable textile fibres OTHER THAN cotton (Ch.52) and jute/bast fibres (some in Ch.53). Covers jute and other textile bast fibres, true hemp, flax/linen, ramie, sisal and agave fibres, coconut/coir, abaca/Manila hemp, and other vegetable fibres. Also includes paper yarn and woven fabrics of paper yarn.",
+    "inclusions": [
+        "Heading 53.01 — Flax, raw or processed but not spun; flax tow and waste (including yarn waste and garnetted stock). Includes retted, broken, scutched, hackled (combed) or otherwise processed flax",
+        "Heading 53.02 — True hemp (Cannabis sativa L.), raw or processed but not spun; tow and waste of true hemp (including yarn waste and garnetted stock)",
+        "Heading 53.03 — Jute and other textile bast fibres (excluding flax, true hemp and ramie), raw or processed but not spun; tow and waste of these fibres (including yarn waste and garnetted stock). Includes jute, kenaf, roselle, sun hemp, sunn hemp",
+        "Heading 53.04 — Sisal and other textile fibres of the genus Agave, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock)",
+        "Heading 53.05 — Coconut, abaca (Manila hemp or Musa textilis Nee), ramie and other vegetable textile fibres, not elsewhere specified or included, raw or processed but not spun; tow, noils and waste of these fibres (including yarn waste and garnetted stock). Includes coir fibre from coconut husks",
+        "Heading 53.06 — Flax yarn",
+        "Heading 53.07 — Yarn of jute or of other textile bast fibres of heading 53.03",
+        "Heading 53.08 — Yarn of other vegetable textile fibres; paper yarn",
+        "Heading 53.09 — Woven fabrics of flax",
+        "Heading 53.10 — Woven fabrics of jute or of other textile bast fibres of heading 53.03",
+        "Heading 53.11 — Woven fabrics of other vegetable textile fibres; woven fabrics of paper yarn"
+    ],
+    "exclusions": [
+        {
+            "condition": "Cotton and cotton products",
+            "action": "Redirect to Chapter 52 (cotton) — cotton is a separate vegetable textile fibre with its own dedicated chapter. Cotton yarn → Ch.52. Cotton woven fabric → Ch.52",
+            "keywords": ["cotton fibre", "cotton yarn", "cotton fabric", "52."]
+        },
+        {
+            "condition": "Vegetable fibre-based products that are impregnated, coated, covered or laminated",
+            "action": "Redirect to Chapter 59 (coated/laminated textile fabrics). Rubber-coated jute bags → 59.06. Plastics-coated jute fabric → 59.03",
+            "keywords": ["coated jute fabric", "laminated flax", "rubber coated hemp", "59.03", "59.06"]
+        },
+        {
+            "condition": "Knitted or crocheted fabrics of vegetable fibres",
+            "action": "Redirect to Chapter 60 (knitted/crocheted fabrics). Knitted linen fabric → Ch.60. Knitted hemp garment → Ch.61",
+            "keywords": ["knitted linen", "knitted hemp", "crochet jute", "60.", "61."]
+        },
+        {
+            "condition": "Floor coverings and carpets of vegetable fibres (sisal, coir, jute rugs)",
+            "action": "Redirect to Chapter 57 (carpets and textile floor coverings). Coir mats, sisal rugs, jute carpets → Ch.57 (57.02 or 57.05)",
+            "keywords": ["coir mat", "sisal rug", "jute carpet", "coconut floor mat", "57.05", "57."]
+        },
+        {
+            "condition": "Sacks and bags made of jute or other vegetable fibre woven fabric (packing use)",
+            "action": "After fabric weaving stage → packing sacks of jute → heading 63.05. Jute woven FABRIC → 53.10. Made-up jute SACKS for packing → 63.05",
+            "keywords": ["jute sack packing", "jute bag made-up", "hessian sack", "63.05"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Ch.53 vs Ch.52: vegetable fibres — flax/hemp/jute/sisal/coir go here; cotton always Ch.52",
+            "description": "Section XI vegetable fibre chapters: Ch.52 = COTTON exclusively (all forms from raw cotton to cotton woven fabric). Ch.53 = ALL OTHER vegetable textile fibres: flax/linen (53.01/53.06/53.09), true hemp (53.02), jute and other bast fibres (53.03/53.07/53.10), sisal and agave fibres (53.04), coconut/coir, abaca, ramie and any other vegetable fibre NES (53.05/53.08/53.11), plus PAPER YARN and woven fabrics thereof (53.08/53.11). Pure cotton mixed with linen → composite fabric; classify by predominant weight.",
+            "priority": 1
+        },
+        {
+            "rule": "Processing stage chain for Ch.53 fibres: raw → spun yarn → woven fabric",
+            "description": "Each fibre type follows the same 3-stage chain: (1) RAW/PROCESSED BUT NOT SPUN fibres (retted, broken, hackled): flax → 53.01; hemp → 53.02; jute → 53.03; sisal/agave → 53.04; others → 53.05. WASTE of all these → same heading as the fibre. (2) YARN (spun): flax yarn → 53.06; jute yarn → 53.07; others + paper yarn → 53.08. (3) WOVEN FABRICS: flax → 53.09; jute → 53.10; others + paper yarn wovens → 53.11. Knitted/crocheted fabrics → Ch.60. Made-up articles → Ch.63.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 53.03 (jute and OTHER bast fibres) — what counts as 'other bast fibres'",
+            "description": "Heading 53.03 covers JUTE and other textile BAST FIBRES similar in nature to jute — EXCLUDING flax (→ 53.01), true hemp (→ 53.02) and ramie (→ 53.05). Examples in 53.03: kenaf (Hibiscus cannabinus), roselle (Hibiscus sabdariffa), sun hemp/sunn hemp (Crotalaria juncea), jute. Ramie (China grass, Boehmeria nivea) → 53.05. The key characteristic of bast fibres: obtained from the inner bark (phloem) of plant stems.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 53.08/53.11 (paper yarn and paper wovens) vs Ch.48 (paper products) vs Ch.46 (plaiting)",
+            "description": "Paper yarn (53.08) = yarn produced by twisting narrow strips of paper. Woven fabrics of paper yarn → 53.11. These are classified as TEXTILE PRODUCTS despite the paper base, because the twisting/spinning process creates a yarn-like structure used in textile applications. Distinction: Ch.48 = paper/paperboard in sheet, roll or cut form (not twisted into yarn). Ch.46 = products of PLAITING MATERIALS (including papier-mâché or woven strips of paper) but the strips are plaited/woven as strips, not spun into yarn first.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 53.04/53.05 (raw sisal/coir/other fibres) vs 57.05 (coir mats/sisal floor coverings) vs Ch.46 (plaited basketwork)",
+            "description": "Vegetable fibres used in multiple forms: RAW FIBRE (not spun): 53.04 (sisal/agave), 53.05 (coir/abaca/ramie/others). SPUN YARN and WOVEN FABRICS: 53.08 (yarn) and 53.11 (woven). FLOOR COVERINGS (coir mats, sisal rugs): Ch.57 (57.05 — other textile floor coverings). PLAITED/BASKETWORK articles of unspun vegetable material: Ch.46. The classification pivot: was the vegetable material spun into yarn first? Spun → Ch.53 fabric/garment chain. Unspun and plaited/woven into floor covering → Ch.57. Unspun and woven/plaited into basket/container → Ch.46.",
+            "priority": 5
+        }
+    ]
+}

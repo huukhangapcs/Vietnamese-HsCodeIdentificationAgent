@@ -1,5 +1,6 @@
 {
     "chapter_code": "13",
+    "chapter_title": "Lac; gums, resins and other vegetable saps and extracts",
     "inclusions": [
         "Lac (shellac); natural gums, resins, gum-resins and oleoresins (e.g., balsams) including Gum Arabic, cannabis resins (heading 13.01)",
         "Vegetable saps and extracts including opium, liquorice extract, extract of hops, extract of ephedra, cannabis extracts, pyrethrum extracts, Japan lacquer (heading 13.02)",
@@ -107,6 +108,18 @@
                 "chicle",
                 "40.01"
             ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: Ch.13 (raw gums/resins/saps) vs Ch.33 (perfumery use) vs Ch.38 (industrial use)",
+            "description": "Chapter 13 = lac, gums, resins, balsams, oleoresins and vegetable saps/extracts in primary/crude form. When further processed as perfume/cosmetic ingredients → Ch.33. When processed for industrial use (adhesives, coatings) → Ch.38. Vegetable tanning extracts → Ch.32.",
+            "priority": 1
+        },
+        {
+            "rule": "Vegetable extracts (Ch.13 vs Ch.21 vs Ch.30)",
+            "description": "Vegetable extracts for industrial/commercial use (e.g., liquorice, hop extracts for tanning/dyeing) → Ch.13. Vegetable extracts for food flavouring/seasoning → Ch.21. Medicinal plant extracts for pharmaceutical use → Ch.30.",
+            "priority": 2
         }
     ]
 }

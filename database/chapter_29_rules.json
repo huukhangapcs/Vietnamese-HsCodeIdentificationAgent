@@ -1,5 +1,6 @@
 {
     "chapter_code": "29",
+    "chapter_title": "Organic chemicals",
     "inclusions": [
         "Sub-Chapter I — Hydrocarbons and their halogenated, sulphonated, nitrated or nitrosated derivatives (29.01–29.03): acyclic hydrocarbons (alkanes, alkenes, alkynes); cyclanic/cyclenic/cyclo-terpenic hydrocarbons; aromatic hydrocarbons (benzene, toluene, xylene, styrene, naphthalene, anthracene, etc.); halogenated derivatives of hydrocarbons",
         "Sub-Chapter II — Alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives (29.05–29.06): acyclic alcohols (methanol, ethanol, propanol, glycerol, etc.); cyclanic/cyclenic/cyclo-terpenic alcohols; aromatic alcohols; halogenated/sulphonated/nitrated/nitrosated derivatives",
@@ -25,77 +26,180 @@
         {
             "condition": "Goods of heading 15.04 (fats/oils of fish or marine mammals) or crude glycerol of heading 15.20",
             "action": "Redirect to heading 15.04 or 15.20 (Chapter 15 — Fats and Oils)",
-            "keywords": ["fish oil", "marine mammal fat", "crude glycerol", "glycerol crude", "15.04", "15.20"]
+            "keywords": [
+                "fish oil",
+                "marine mammal fat",
+                "crude glycerol",
+                "glycerol crude",
+                "15.04",
+                "15.20"
+            ]
         },
         {
             "condition": "Ethyl alcohol (ethanol)",
             "action": "Redirect to heading 22.07 (undenatured ethyl alcohol ≥80%) or 22.08 (undenatured ethyl alcohol <80% or denatured)",
-            "keywords": ["ethyl alcohol", "ethanol", "cồn etylic", "cồn ethanol", "22.07", "22.08"]
+            "keywords": [
+                "ethyl alcohol",
+                "ethanol",
+                "cồn etylic",
+                "cồn ethanol",
+                "22.07",
+                "22.08"
+            ]
         },
         {
             "condition": "Methane or propane (as separate chemically defined compounds of Chapter 27)",
             "action": "Redirect to heading 27.11 (petroleum gases)",
-            "keywords": ["methane", "propane", "methane gas", "propane gas", "27.11"]
+            "keywords": [
+                "methane",
+                "propane",
+                "methane gas",
+                "propane gas",
+                "27.11"
+            ]
         },
         {
             "condition": "Compounds of carbon explicitly listed in Note 2 to Chapter 28 (CO, CO2, HCN, CS2, phosgene, cyanogen, cyanamide derivatives, etc.)",
             "action": "Redirect to Chapter 28 — inorganic compounds of carbon are excluded from Chapter 29",
-            "keywords": ["carbon dioxide", "carbon monoxide", "hydrogen cyanide", "HCN", "CO2", "carbon disulphide", "CS2", "phosgene", "cyanogen", "cyanamide", "chapter 28"]
+            "keywords": [
+                "carbon dioxide",
+                "carbon monoxide",
+                "hydrogen cyanide",
+                "HCN",
+                "CO2",
+                "carbon disulphide",
+                "CS2",
+                "phosgene",
+                "cyanogen",
+                "cyanamide",
+                "chapter 28"
+            ]
         },
         {
             "condition": "Immunological products of heading 30.02 (antisera, vaccines, toxins, blood fractions)",
             "action": "Redirect to heading 30.02 (Chapter 30 — Pharmaceutical products)",
-            "keywords": ["antiserum", "vaccine", "toxin", "blood fraction", "immunological", "antitoxin", "30.02"]
+            "keywords": [
+                "antiserum",
+                "vaccine",
+                "toxin",
+                "blood fraction",
+                "immunological",
+                "antitoxin",
+                "30.02"
+            ]
         },
         {
             "condition": "Urea (whether or not pure)",
             "action": "Redirect to heading 31.02 (nitrogenous fertilisers) or 31.05 (mixed fertilisers), NOT Chapter 29",
-            "keywords": ["urea", "urê", "carbamide", "31.02", "31.05"]
+            "keywords": [
+                "urea",
+                "urê",
+                "carbamide",
+                "31.02",
+                "31.05"
+            ]
         },
         {
             "condition": "Colouring matter of vegetable or animal origin",
             "action": "Redirect to heading 32.03",
-            "keywords": ["natural dye", "vegetable dye", "animal dye", "plant colouring", "natural colouring matter", "32.03"]
+            "keywords": [
+                "natural dye",
+                "vegetable dye",
+                "animal dye",
+                "plant colouring",
+                "natural colouring matter",
+                "32.03"
+            ]
         },
         {
             "condition": "Synthetic organic colouring matter, fluorescent brightening agents or luminophores",
             "action": "Redirect to heading 32.04",
-            "keywords": ["synthetic dye", "organic dye", "azo dye finished", "fluorescent brightening", "optical brightener", "luminophore", "32.04"]
+            "keywords": [
+                "synthetic dye",
+                "organic dye",
+                "azo dye finished",
+                "fluorescent brightening",
+                "optical brightener",
+                "luminophore",
+                "32.04"
+            ]
         },
         {
             "condition": "Dyes or other colouring matter put up in forms or packings for retail sale",
             "action": "Redirect to heading 32.12",
-            "keywords": ["dye retail", "colouring matter retail", "ink retail", "paint retail", "32.12"]
+            "keywords": [
+                "dye retail",
+                "colouring matter retail",
+                "ink retail",
+                "paint retail",
+                "32.12"
+            ]
         },
         {
             "condition": "Enzymes (finished enzyme preparations)",
             "action": "Redirect to heading 35.07",
-            "keywords": ["enzyme", "enzym", "lipase", "protease", "amylase", "lactase", "cellulase", "35.07"]
+            "keywords": [
+                "enzyme",
+                "enzym",
+                "lipase",
+                "protease",
+                "amylase",
+                "lactase",
+                "cellulase",
+                "35.07"
+            ]
         },
         {
             "condition": "Metaldehyde, hexamethylenetetramine or similar substances put up as solid fuels (tablets, sticks) or liquid/liquefied-gas fuels in small containers (≤300 cm3) for cigarette lighters",
             "action": "Redirect to heading 36.06",
-            "keywords": ["metaldehyde", "hexamethylenetetramine", "fuel tablet", "lighter fuel", "solid fuel", "36.06"]
+            "keywords": [
+                "metaldehyde",
+                "hexamethylenetetramine",
+                "fuel tablet",
+                "lighter fuel",
+                "solid fuel",
+                "36.06"
+            ]
         },
         {
             "condition": "Products put up as charges for fire-extinguishers or fire-extinguishing grenades",
             "action": "Redirect to heading 38.13",
-            "keywords": ["fire extinguisher charge", "fire extinguishing", "38.13"]
+            "keywords": [
+                "fire extinguisher charge",
+                "fire extinguishing",
+                "38.13"
+            ]
         },
         {
             "condition": "Ink removers put up in packings for retail sale",
             "action": "Redirect to heading 38.24",
-            "keywords": ["ink remover", "stain remover retail", "38.24"]
+            "keywords": [
+                "ink remover",
+                "stain remover retail",
+                "38.24"
+            ]
         },
         {
             "condition": "Optical elements made of organic compounds (e.g., ethylenediamine tartrate lenses/prisms)",
             "action": "Redirect to heading 90.01",
-            "keywords": ["optical element", "optical lens organic", "prism organic", "ethylenediamine tartrate", "90.01"]
+            "keywords": [
+                "optical element",
+                "optical lens organic",
+                "prism organic",
+                "ethylenediamine tartrate",
+                "90.01"
+            ]
         },
         {
             "condition": "Mixtures of acyclic hydrocarbon isomers (other than stereoisomers), whether or not saturated",
             "action": "Redirect to Chapter 27 — petroleum fractions/hydrocarbon mixtures belong to Chapter 27",
-            "keywords": ["hydrocarbon mixture", "isomer mixture acyclic", "petroleum fraction", "alkane mixture", "chapter 27"]
+            "keywords": [
+                "hydrocarbon mixture",
+                "isomer mixture acyclic",
+                "petroleum fraction",
+                "alkane mixture",
+                "chapter 27"
+            ]
         }
     ],
     "classification_rules": [

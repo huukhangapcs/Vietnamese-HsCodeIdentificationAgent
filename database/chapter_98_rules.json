@@ -1,0 +1,21 @@
+{
+    "chapter_code": "98",
+    "chapter_title": "Special HS Codes and Preferential Import Duty Rates for Specific Commodity Groups (Vietnam-Specific Chapter)",
+    "scope_note": "Chapter 98 is a Vietnam-specific chapter not found in the international HS Nomenclature. It applies special preferential import duty rates (special MFN rates) to certain categories of goods as prescribed by Vietnamese law. Goods meeting the conditions of Chapter 98 are classified here instead of their standard heading in Chapters 1–97 in order to benefit from the applicable preferential duty rate.",
+    "inclusions": [
+        "Applies to specific commodity groups designated by the Vietnamese Ministry of Finance for special preferential import duty rates, including but not limited to: components and spare parts imported for domestic manufacturing and assembly; raw materials and inputs for prioritised manufacturing industries; goods imported for incentivised investment projects"
+    ],
+    "exclusions": [],
+    "classification_rules": [
+        {
+            "rule": "Chapter 98 takes priority when goods meet the specific eligibility conditions",
+            "description": "When goods satisfy the conditions for classification under Chapter 98 (e.g., correct commodity type, declared end-use, eligible importer category), the Chapter 98 HS code takes priority over the standard Chapter 1–97 classification. Classification into Chapter 98 must be supported by a clear legal basis from the current Vietnamese preferential import tariff schedule.",
+            "priority": 1
+        },
+        {
+            "rule": "Chapter 98 eligibility must be verified against the current Vietnamese tariff schedule",
+            "description": "The specific list of goods and duty rates under Chapter 98 changes with each Decree or Circular issued by the Ministry of Finance. The current MFN preferential tariff schedule (Biểu thuế nhập khẩu ưu đãi) must be consulted to determine: (1) which goods are eligible; (2) specific conditions (end-use purpose, type of importing entity); (3) the applicable preferential duty rate.",
+            "priority": 2
+        }
+    ]
+}

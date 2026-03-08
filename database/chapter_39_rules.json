@@ -1,5 +1,6 @@
 {
     "chapter_code": "39",
+    "chapter_title": "Plastics and articles thereof",
     "inclusions": [
         "Heading 39.01 — Polymers of ethylene in primary forms: LDPE, HDPE, LLDPE, VLDPE; EVA (ethylene-vinyl acetate copolymers ≥95%); ethylene-alpha-olefin copolymers; liquid synthetic polyolefins with <60% vol distilling at 300°C",
         "Heading 39.02 — Polymers of propylene or of other olefins in primary forms: polypropylene (PP); polyisobutylene; propylene copolymers; other polyolefins",
@@ -32,117 +33,266 @@
         {
             "condition": "Lubricating preparations of heading 27.10 (petroleum-based lubricants) or heading 34.03 (other lubricating preparations)",
             "action": "Redirect to 27.10 or 34.03 even if based on polymer components (Ch.39 Note 2(a))",
-            "keywords": ["lubricant plastic", "polymer lubricant", "polyglycol lubricant", "silicone lubricant", "27.10", "34.03"]
+            "keywords": [
+                "lubricant plastic",
+                "polymer lubricant",
+                "polyglycol lubricant",
+                "silicone lubricant",
+                "27.10",
+                "34.03"
+            ]
         },
         {
             "condition": "Waxes of heading 27.12 (mineral waxes: paraffin, ozokerite, petroleum wax) or heading 34.04 (artificial waxes: polyethylene glycol wax, silicone wax, prepared waxes)",
             "action": "Redirect to 27.12 or 34.04 (Ch.39 Note 2(b))",
-            "keywords": ["plastic wax", "polyethylene wax", "PE wax", "polymer wax", "27.12", "34.04"]
+            "keywords": [
+                "plastic wax",
+                "polyethylene wax",
+                "PE wax",
+                "polymer wax",
+                "27.12",
+                "34.04"
+            ]
         },
         {
             "condition": "Separate chemically defined organic compounds (even if monomers or polymeric in structure)",
             "action": "Redirect to Chapter 29 — e.g., pure caprolactam (monomer for nylon-6) → 29.33; pure ethylene glycol → Ch.29; pure formaldehyde → Ch.29 (Ch.39 Note 2(c))",
-            "keywords": ["monomer pure", "caprolactam", "ethylene glycol", "formaldehyde pure", "vinyl acetate monomer", "styrene monomer", "chemically defined organic", "29."]
+            "keywords": [
+                "monomer pure",
+                "caprolactam",
+                "ethylene glycol",
+                "formaldehyde pure",
+                "vinyl acetate monomer",
+                "styrene monomer",
+                "chemically defined organic",
+                "29."
+            ]
         },
         {
             "condition": "Heparin or its salts",
             "action": "Redirect to heading 30.01 (Ch.39 Note 2(d))",
-            "keywords": ["heparin", "heparin sodium", "low molecular weight heparin", "LMWH", "30.01"]
+            "keywords": [
+                "heparin",
+                "heparin sodium",
+                "low molecular weight heparin",
+                "LMWH",
+                "30.01"
+            ]
         },
         {
             "condition": "Solutions (other than collodions) of polymers of headings 39.01–39.13 in volatile organic solvents when solvent weight >50% of solution weight",
             "action": "Redirect to heading 32.08 (polymer-based paints/varnishes/lacquers) (Ch.39 Note 2(e))",
-            "keywords": ["polymer solution solvent", "lacquer solution", "varnish polymer", "solvent-borne coating", "32.08"]
+            "keywords": [
+                "polymer solution solvent",
+                "lacquer solution",
+                "varnish polymer",
+                "solvent-borne coating",
+                "32.08"
+            ]
         },
         {
             "condition": "Stamping foils of heading 32.12",
             "action": "Redirect to heading 32.12 (Ch.39 Note 2(e))",
-            "keywords": ["stamping foil", "hot stamp foil", "transfer foil metallic", "32.12"]
+            "keywords": [
+                "stamping foil",
+                "hot stamp foil",
+                "transfer foil metallic",
+                "32.12"
+            ]
         },
         {
             "condition": "Organic surface-active agents or preparations of heading 34.02 (synthetic detergents/non-ionic/anionic/cationic surfactants based on polymers)",
             "action": "Redirect to heading 34.02 (Ch.39 Note 2(f))",
-            "keywords": ["surfactant polymer", "detergent polymer", "polyethoxylate surfactant", "34.02"]
+            "keywords": [
+                "surfactant polymer",
+                "detergent polymer",
+                "polyethoxylate surfactant",
+                "34.02"
+            ]
         },
         {
             "condition": "Run gums or ester gums of heading 38.06 (rosin-based materials)",
             "action": "Redirect to heading 38.06 (Ch.39 Note 2(g))",
-            "keywords": ["run gum", "ester gum", "rosin ester", "38.06"]
+            "keywords": [
+                "run gum",
+                "ester gum",
+                "rosin ester",
+                "38.06"
+            ]
         },
         {
             "condition": "Prepared additives for mineral oils or similar liquids of heading 38.11 (viscosity index improvers, pour point depressants — polymer-based for lube oil)",
             "action": "Redirect to heading 38.11 (Ch.39 Note 2(h))",
-            "keywords": ["viscosity index improver", "pour point depressant polymer", "oil additive polymer", "38.11"]
+            "keywords": [
+                "viscosity index improver",
+                "pour point depressant polymer",
+                "oil additive polymer",
+                "38.11"
+            ]
         },
         {
             "condition": "Prepared hydraulic fluids based on polyglycols, silicones or other polymers of Chapter 39 — heading 38.19",
             "action": "Redirect to heading 38.19 (Ch.39 Note 2(ij))",
-            "keywords": ["polyglycol hydraulic fluid", "silicone hydraulic fluid", "synthetic hydraulic fluid polymer", "38.19"]
+            "keywords": [
+                "polyglycol hydraulic fluid",
+                "silicone hydraulic fluid",
+                "synthetic hydraulic fluid polymer",
+                "38.19"
+            ]
         },
         {
             "condition": "Diagnostic or laboratory reagents on a backing of plastics",
             "action": "Redirect to heading 38.22 (Ch.39 Note 2(k)) — plastic-backed test strips, lateral flow devices, microarray substrates",
-            "keywords": ["diagnostic reagent plastic backing", "test strip plastic", "lateral flow device", "test kit plastic substrate", "38.22"]
+            "keywords": [
+                "diagnostic reagent plastic backing",
+                "test strip plastic",
+                "lateral flow device",
+                "test kit plastic substrate",
+                "38.22"
+            ]
         },
         {
             "condition": "Synthetic rubber as defined for Chapter 40, or articles thereof",
             "action": "Redirect to Chapter 40 — Ch.40 Note 4 defines synthetic rubber as unsaturated synthetic substances that can be irreversibly vulcanised with sulphur (Ch.39 Note 2(l))",
-            "keywords": ["synthetic rubber", "vulcanisable polymer", "SBR", "NBR", "EPDM", "neoprene", "butyl rubber", "silicone rubber vulcanised", "40."]
+            "keywords": [
+                "synthetic rubber",
+                "vulcanisable polymer",
+                "SBR",
+                "NBR",
+                "EPDM",
+                "neoprene",
+                "butyl rubber",
+                "silicone rubber vulcanised",
+                "40."
+            ]
         },
         {
             "condition": "Saddlery or harness (42.01); trunks, suitcases, handbags, other containers of plastics (42.02)",
             "action": "Redirect to heading 42.01 or 42.02 (Ch.39 Note 2(m))",
-            "keywords": ["saddlery plastic", "harness plastic", "suitcase plastic", "handbag plastic", "luggage", "42.01", "42.02"]
+            "keywords": [
+                "saddlery plastic",
+                "harness plastic",
+                "suitcase plastic",
+                "handbag plastic",
+                "luggage",
+                "42.01",
+                "42.02"
+            ]
         },
         {
             "condition": "Wall coverings of heading 48.14 (wallpaper — paper-backed, not meeting Note 9 criteria for 39.18)",
             "action": "Redirect to heading 48.14 if the backing is paper (Ch.39 Note 2(o)). Plastic wall coverings on NON-PAPER backing ≥45cm wide → 39.18",
-            "keywords": ["wallpaper plastic", "plastic wall covering paper backed", "48.14"]
+            "keywords": [
+                "wallpaper plastic",
+                "plastic wall covering paper backed",
+                "48.14"
+            ]
         },
         {
             "condition": "Goods of Section XI — textiles and textile articles — even if coated, laminated or impregnated with plastics",
             "action": "Redirect to Section XI (Chapters 50–63) (Ch.39 Note 2(p)). Note 1 specifies 'plastics' does NOT apply to materials regarded as textile materials of Section XI",
-            "keywords": ["coated fabric", "plastic coated textile", "laminated fabric", "tarpaulin", "woven fabric plastic"]
+            "keywords": [
+                "coated fabric",
+                "plastic coated textile",
+                "laminated fabric",
+                "tarpaulin",
+                "woven fabric plastic"
+            ]
         },
         {
             "condition": "Footwear, headgear, umbrellas, walking-sticks (Section XII articles) made of plastic",
             "action": "Redirect to Section XII (Chapters 64–67) (Ch.39 Note 2(q))",
-            "keywords": ["plastic footwear", "plastic shoe", "plastic sandal", "plastic rain boot", "plastic umbrella", "64.", "65."]
+            "keywords": [
+                "plastic footwear",
+                "plastic shoe",
+                "plastic sandal",
+                "plastic rain boot",
+                "plastic umbrella",
+                "64.",
+                "65."
+            ]
         },
         {
             "condition": "Imitation jewellery of heading 71.17 (costume jewellery, fashion jewellery of plastics)",
             "action": "Redirect to heading 71.17 (Ch.39 Note 2(r))",
-            "keywords": ["costume jewellery plastic", "fashion jewellery plastic", "imitation jewellery", "71.17"]
+            "keywords": [
+                "costume jewellery plastic",
+                "fashion jewellery plastic",
+                "imitation jewellery",
+                "71.17"
+            ]
         },
         {
             "condition": "Articles of Section XVI — machines and electrical/mechanical appliances with plastic parts or housings, where the plastic is integral to defined machinery",
             "action": "Redirect to relevant Chapter 84 or 85 heading for the machine/appliance (Ch.39 Note 2(s))",
-            "keywords": []
+            "keywords": [
+                "machines electrical mechanical",
+                "section XVI machinery",
+                "86.",
+                "87.",
+                "88.",
+                "89.",
+                "90."
+            ]
         },
         {
             "condition": "Parts of aircraft or vehicles of Section XVII (plastic bumpers, dashboards, body parts as parts of vehicles)",
             "action": "Redirect to Section XVII (Chapters 86–89) (Ch.39 Note 2(t))",
-            "keywords": ["car bumper plastic", "vehicle part plastic", "aircraft part plastic", "dashboard vehicle", "87.", "88."]
+            "keywords": [
+                "car bumper plastic",
+                "vehicle part plastic",
+                "aircraft part plastic",
+                "dashboard vehicle",
+                "87.",
+                "88."
+            ]
         },
         {
             "condition": "Optical elements, spectacle frames, drawing instruments of Chapter 90 made of plastics",
             "action": "Redirect to Chapter 90 (Ch.39 Note 2(u)) — plastic optical lenses → 90.01; plastic spectacle frames → 90.03",
-            "keywords": ["plastic lens optical", "spectacle frame plastic", "optical element plastic", "90.01", "90.03"]
+            "keywords": [
+                "plastic lens optical",
+                "spectacle frame plastic",
+                "optical element plastic",
+                "90.01",
+                "90.03"
+            ]
         },
         {
             "condition": "Furniture, luminaires, prefabricated buildings of Chapter 94",
             "action": "Redirect to Chapter 94 — plastic furniture → 94.01/94.03; plastic light fittings → 94.05 (Ch.39 Note 2(x))",
-            "keywords": ["plastic furniture", "plastic chair", "plastic table", "plastic shelf furniture", "94.01", "94.03"]
+            "keywords": [
+                "plastic furniture",
+                "plastic chair",
+                "plastic table",
+                "plastic shelf furniture",
+                "94.01",
+                "94.03"
+            ]
         },
         {
             "condition": "Toys, games, sports equipment of Chapter 95",
             "action": "Redirect to Chapter 95 — plastic toys → 95.03; plastic sports equipment → 95.06 (Ch.39 Note 2(y))",
-            "keywords": ["plastic toy", "plastic game", "95.03", "95.06"]
+            "keywords": [
+                "plastic toy",
+                "plastic game",
+                "95.03",
+                "95.06"
+            ]
         },
         {
             "condition": "Brushes, buttons, slide fasteners, combs, pens (Chapter 96 articles) made of plastics",
             "action": "Redirect to Chapter 96 — plastic buttons → 96.06; plastic zippers → 96.07; plastic combs → 96.15 (Ch.39 Note 2(z))",
-            "keywords": ["plastic button", "plastic zip", "zipper plastic", "plastic comb", "plastic pen", "96.06", "96.07", "96.15"]
+            "keywords": [
+                "plastic button",
+                "plastic zip",
+                "zipper plastic",
+                "plastic comb",
+                "plastic pen",
+                "96.06",
+                "96.07",
+                "96.15"
+            ]
         }
     ],
     "classification_rules": [

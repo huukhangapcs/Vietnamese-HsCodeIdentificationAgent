@@ -1,0 +1,158 @@
+{
+    "chapter_code": "90",
+    "chapter_title": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof",
+    "inclusions": [
+        "Heading 90.01 — Optical fibres and optical fibre bundles; optical fibre cables other than those of heading 85.44; sheets and plates of polarising material; lenses, prisms, mirrors and other optical elements of any material, unmounted",
+        "Heading 90.02 — Lenses, prisms, mirrors and other optical elements, mounted, being parts of or fittings for instruments or apparatus",
+        "Heading 90.03 — Frames and mountings for spectacles, goggles or the like, and parts thereof",
+        "Heading 90.04 — Spectacles, goggles and the like, corrective, protective or other",
+        "Heading 90.05 — Binoculars, monoculars, other optical telescopes and their mountings; other astronomical instruments (excluding telescopic sights for arms, periscopic telescopes for submarines/tanks, or telescopes for machines of Ch.90/XVI → 90.13 per Note 4)",
+        "Heading 90.06 — Photographic (other than cinematographic) cameras; photographic flashlight apparatus and flashbulbs",
+        "Heading 90.07 — Cinematographic cameras and projectors, whether or not incorporating sound recording or reproducing apparatus",
+        "Heading 90.08 — Image projectors (other than cinematographic); photographic (other than cinematographic) enlargers and reducers",
+        "Heading 90.09 — Image projectors — [merged into 90.08 in modern HS; heading retained for legacy reference]",
+        "Heading 90.10 — Apparatus and equipment for photographic (including cinematographic) laboratories; negatoscopes; projection screens",
+        "Heading 90.11 — Compound optical microscopes, including those for photomicrography, cinephotomicrography or microprojection",
+        "Heading 90.12 — Microscopes other than optical; diffraction apparatus",
+        "Heading 90.13 — Liquid crystal devices, lasers; other optical appliances and instruments NOT specified or included elsewhere in Ch.90 (including telescopic sights for arms, periscopic telescopes for submarines/tanks, telescopes for machines/instruments of Ch.90/XVI — Note 4)",
+        "Heading 90.14 — Direction finding compasses; other navigational instruments and appliances",
+        "Heading 90.15 — Surveying (including photogrammetrical surveying), hydrographic, oceanographic, hydrological, meteorological or geophysical instruments/appliances (excluding compasses); rangefinders",
+        "Heading 90.16 — Balances of a sensitivity of 5 cg or better, with or without weights",
+        "Heading 90.17 — Drawing, marking-out or mathematical calculating instruments; instruments for measuring length for use in the hand",
+        "Heading 90.18 — Instruments and appliances used in medical, surgical, dental or veterinary sciences, including scintigraphic apparatus, other electro-medical apparatus and sight-testing instruments",
+        "Heading 90.19 — Mechano-therapy appliances; massage apparatus; psychological aptitude-testing apparatus; ozone, oxygen, aerosol therapy, artificial respiration or other therapeutic respiration apparatus",
+        "Heading 90.20 — Other breathing appliances and gas masks (excluding protective masks without mechanical parts or changeable filters of Ch.63)",
+        "Heading 90.21 — Orthopaedic appliances (including crutches, surgical belts and trusses); splints and other fracture appliances; artificial parts of the body; hearing aids and other appliances fitted/worn/carried for compensating a defect or disability; implants and intraocular lenses. 'Orthopaedic appliances' per Note 6 = appliances for preventing/correcting deformities OR supporting body parts post-illness/operation/injury, including made-to-measure orthopaedic footwear and single-foot insoles",
+        "Heading 90.22 — Apparatus based on the use of X-rays or of alpha, beta, gamma or other ionising radiations (including radiography, radiotherapy apparatus); X-ray tubes and other X-ray generators; high-tension generators; control panels and desks; screens; examination or treatment tables, chairs and the like",
+        "Heading 90.23 — Instruments, apparatus and models designed for demonstrational purposes (e.g., in education or exhibitions), unsuitable for other uses",
+        "Heading 90.24 — Machines and appliances for testing the hardness, strength, compressibility, elasticity or other mechanical properties of materials",
+        "Heading 90.25 — Hydrometers and similar floating instruments; thermometers, pyrometers, barometers, hygrometers and psychrometers, recording or not, and any combination of these instruments",
+        "Heading 90.26 — Instruments and apparatus for measuring or checking the flow, level, pressure or other variables of liquids or gases (not for automatic control → 90.32)",
+        "Heading 90.27 — Instruments and apparatus for physical or chemical analysis; instruments for measuring/checking viscosity, porosity, expansion, surface tension; instruments for measuring/checking heat, sound or light; microtomes",
+        "Heading 90.28 — Gas, liquid or electricity supply or production meters, including calibrating meters thereof",
+        "Heading 90.29 — Revolution counters, production counters, taximeters, mileometers, pedometers and the like; speed indicators and tachometers; stroboscopes",
+        "Heading 90.30 — Oscilloscopes, spectrum analysers and other instruments/apparatus for measuring or checking electrical quantities; instruments for detecting/measuring ionising radiations",
+        "Heading 90.31 — Measuring or checking instruments, appliances and machines not specified or included elsewhere in Chapter 90; profile projectors. NOTE: measuring/checking optical instruments that could fall in both 90.13 and 90.31 → classified in 90.31 (Note 5)",
+        "Heading 90.32 — Automatic regulating or controlling instruments and apparatus (per Note 7: for automatically controlling flow, level, pressure, temperature or other variables of liquids/gases, OR automatic regulators of electrical quantities, designed to bring and maintain a factor at a desired value by constant/periodic measurement)",
+        "Heading 90.33 — Parts and accessories not specified or included elsewhere in Chapter 90 (catch-all for parts per Note 2(c))"
+    ],
+    "exclusions": [
+        {
+            "condition": "Articles for technical uses made of vulcanised rubber other than hard rubber",
+            "action": "Redirect to heading 40.16 — Note 1(a)",
+            "keywords": ["vulcanised rubber technical", "rubber seal instrument", "rubber gasket technical", "40.16"]
+        },
+        {
+            "condition": "Articles for technical uses made of leather or composition leather",
+            "action": "Redirect to heading 42.05 — Note 1(a)",
+            "keywords": ["leather technical article", "42.05"]
+        },
+        {
+            "condition": "Articles for technical uses made of textile material",
+            "action": "Redirect to heading 59.11 — Note 1(a)",
+            "keywords": ["textile technical article", "59.11"]
+        },
+        {
+            "condition": "Supporting belts or other support articles of textile material whose effect derives SOLELY from their elasticity (maternity belts, thoracic/abdominal bandages, joint/muscle supports)",
+            "action": "Redirect to Section XI (textiles) — Note 1(b). These are NOT orthopaedic appliances under 90.21 because their support function comes from elasticity alone, not from mechanical structure",
+            "keywords": ["maternity belt", "thoracic bandage", "abdominal support belt", "elastic joint support", "compression bandage elastic", "muscle support elastic", "Section XI"]
+        },
+        {
+            "condition": "Refractory goods of heading 69.03; ceramic laboratory/chemical/technical wares of heading 69.09",
+            "action": "Redirect to heading 69.03 or 69.09 — Note 1(c)",
+            "keywords": ["refractory ceramic", "ceramic lab ware", "ceramic crucible", "ceramic chemical", "69.03", "69.09"]
+        },
+        {
+            "condition": "Glass mirrors NOT optically worked (heading 70.09), or mirrors of base metal/precious metal that are NOT optical elements (heading 83.06 or Chapter 71)",
+            "action": "Redirect to heading 70.09, 83.06 or Chapter 71 — Note 1(d). Only OPTICALLY WORKED mirrors (precision-ground, coated for optical use) stay in Ch.90",
+            "keywords": ["plain glass mirror", "decorative mirror", "bathroom mirror", "wall mirror", "base metal mirror", "70.09", "83.06"]
+        },
+        {
+            "condition": "Goods of headings 70.07, 70.08, 70.11, 70.14, 70.15 or 70.17 (safety glass, multiple-walled insulating glass, glass envelopes for bulbs, glass for signalling, optical glass, laboratory glass)",
+            "action": "Redirect to respective headings 70.07–70.17 — Note 1(e)",
+            "keywords": ["safety glass", "insulating glass unit", "lamp glass", "glass laboratory", "70.07", "70.08", "70.11", "70.14", "70.15", "70.17"]
+        },
+        {
+            "condition": "Parts of general use (as defined in Note 2 to Section XV) of base metal, or similar goods of plastics — EXCEPT articles specially designed exclusively for implants in medical/surgical/dental/veterinary sciences",
+            "action": "Redirect to Section XV or Chapter 39 — Note 1(f). Exception: if specially designed for medical implant use → stay in heading 90.21",
+            "keywords": ["general purpose bolt", "general purpose nut", "general purpose spring", "39.", "Section XV"]
+        },
+        {
+            "condition": "Pumps incorporating measuring devices (84.13); weight-operated counting/checking machinery or balance weights (84.23); lifting/handling machinery (84.25–84.28); paper/paperboard cutting machines (84.41); fittings with optical reading devices for machine-tools (84.66 — unless essentially optical instruments); calculating machines (84.70); valves or appliances of 84.81; machines of heading 84.86",
+            "action": "Redirect to respective Ch.84 headings — Note 1(g). Key exception: fittings that are 'essentially optical instruments' (e.g., alignment telescopes) stay in Ch.90 even if fitted to machine-tools",
+            "keywords": ["measuring pump", "balance weight", "crane optical", "calculating machine", "valve", "84.13", "84.23", "84.25", "84.41", "84.66", "84.70", "84.81", "84.86"]
+        },
+        {
+            "condition": "Searchlights/spotlights for cycles or motor vehicles (85.12); portable electric lamps (85.13); cinematographic sound recording apparatus (85.19); sound-heads (85.22); television cameras, digital cameras, video camera recorders (85.25); radar, radio navigational aid apparatus, radio remote control (85.26); connectors for optical fibres/cables (85.36); numerical control apparatus (85.37); sealed beam lamp units (85.39); optical fibre cables (85.44)",
+            "action": "Redirect to respective Ch.85 headings — Note 1(h)",
+            "keywords": ["motor vehicle spotlight", "portable torch", "digital camera", "video camera", "radar", "radio navigation", "optical fibre connector", "numerical control", "sealed beam lamp", "fibre optic cable", "85.12", "85.13", "85.19", "85.22", "85.25", "85.26", "85.36", "85.37", "85.39", "85.44"]
+        },
+        {
+            "condition": "Searchlights or spotlights of heading 94.05",
+            "action": "Redirect to heading 94.05 — Note 1(ij)",
+            "keywords": ["searchlight", "spotlight general", "94.05"]
+        },
+        {
+            "condition": "Articles of Chapter 95 (toys, games, sports requisites)",
+            "action": "Redirect to Chapter 95 — Note 1(k)",
+            "keywords": ["toy microscope", "toy telescope", "toy medical kit", "95."]
+        },
+        {
+            "condition": "Monopods, bipods, tripods and similar articles",
+            "action": "Redirect to heading 96.20 — Note 1(l). This applies even if the monopod/tripod is purpose-made for camera/optical instrument use",
+            "keywords": ["tripod", "bipod", "monopod", "camera stand", "96.20"]
+        },
+        {
+            "condition": "Capacity measures (graduated jugs, volumetric flasks presented primarily as measures)",
+            "action": "Classify according to constituent material (e.g., glass → Ch.70, plastic → Ch.39, metal → Ch.83) — Note 1(m)",
+            "keywords": ["capacity measure", "measuring jug", "measuring cup", "volumetric flask measure"]
+        },
+        {
+            "condition": "Spools, reels or similar supports",
+            "action": "Classify according to constituent material (e.g., plastic spool → 39.23; metal reel → Section XV) — Note 1(n)",
+            "keywords": ["spool plastic", "reel metal", "film spool", "39.23"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Three-tier parts/accessories classification rule",
+            "description": "Parts and accessories for Ch.90 instruments are classified as follows (in strict priority order): (1) FIRST: if the part/accessory is itself a good of Ch.90, 84, 85 or 91 (other than 84.87, 85.48 or 90.33) → classify in its OWN heading regardless of use. (2) SECOND: if not captured by rule 1, and suitable for use solely or principally with a particular kind of instrument/apparatus (including 90.10, 90.13 or 90.31 apparatus) → classify WITH that instrument. (3) FALLBACK: all other parts/accessories → heading 90.33.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 4 — Telescopic sights and periscopic telescopes → 90.13, NOT 90.05",
+            "description": "Heading 90.05 (binoculars and optical telescopes) does NOT include: (a) telescopic sights for fitting to arms/weapons; (b) periscopic telescopes for submarines or tanks; (c) telescopes for machines/instruments of Ch.90 or Section XVI. All these go to heading 90.13 (other optical appliances/instruments). The key question: is the telescope a standalone astronomical/observation instrument → 90.05, or is it a component/sight for a weapon or machine → 90.13.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 5 — Measuring/checking optical instruments: 90.13 vs 90.31 → always 90.31",
+            "description": "When a measuring or checking instrument/appliance is optical in nature AND could arguably be classified in BOTH heading 90.13 (optical instruments NEC) and heading 90.31 (measuring/checking instruments NEC) → it MUST be classified in 90.31. This is an explicit tie-breaker favouring the measuring/checking function heading.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 6 — Definition of 'orthopaedic appliances' for heading 90.21",
+            "description": "Orthopaedic appliances (90.21) are appliances for: (a) preventing or correcting bodily deformities; OR (b) supporting/holding body parts following illness, operation or injury. INCLUDES: orthopaedic footwear and special insoles if (1) made to measure, OR (2) mass-produced, presented SINGLY (not in pairs) and designed to fit either foot equally. Standard footwear in pairs → Ch.64 even if corrective. Elastic-only supports (no mechanical structure) → Section XI per Note 1(b).",
+            "priority": 4
+        },
+        {
+            "rule": "Note 7 — Strict definition of heading 90.32 (automatic regulators/controllers)",
+            "description": "Heading 90.32 covers ONLY: (a) instruments that AUTOMATICALLY CONTROL flow, level, pressure, temperature or other variables of liquids/gases — by constantly/periodically measuring actual value and bringing it to/maintaining a desired value; AND (b) automatic regulators of electrical quantities or non-electrical quantities controlled via electrical phenomena — same closed-loop control principle. Measuring instruments that DISPLAY but do NOT automatically control → heading 90.26 or 90.27. The closed-loop FEEDBACK CONTROL function is the decisive test for 90.32.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 90.18 (medical instruments) vs 90.21 (orthopaedic/prosthetic appliances) vs Section XI (elastic supports)",
+            "description": "Three headings compete for body-support/therapeutic articles: 90.18 = instruments used IN medical practice (diagnostic, surgical, therapeutic apparatus with active function). 90.21 = passive appliances worn/carried by patients for correction, support, or compensation of a defect — orthopaedic devices, prosthetics, hearing aids. Section XI = purely elastic textile supports (maternity belts, compression socks, elastic bandages) per Note 1(b). Test sequence: (1) active medical instrument function? → 90.18/90.19. (2) passive orthopaedic/prosthetic/disability compensation function? → 90.21. (3) purely elastic textile? → Section XI.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 90.26/90.27 (measuring instruments) vs 90.32 (automatic controllers)",
+            "description": "90.26 and 90.27 cover instruments that MEASURE or CHECK variables (flow, pressure, level, physical/chemical properties) and display/record results. 90.32 covers instruments that automatically CONTROL those same variables in a closed feedback loop. A pressure gauge that shows pressure → 90.26. A pressure regulator that senses and automatically maintains set pressure → 90.32. Combined measure-and-control units → determine principal function.",
+            "priority": 7
+        },
+        {
+            "rule": "Section XVI Notes 3 and 4 apply to Chapter 90 (per Note 3)",
+            "description": "Per Note 3, the provisions of Section XVI Notes 3 and 4 also apply to Ch.90: Note 3 (combination machines classified by principal function); Note 4 (for multi-function machines where no single function is principal → classify in the heading that comes last in numerical order). This resolves classification of multi-function optical/measuring/medical instruments.",
+            "priority": 8
+        }
+    ]
+}

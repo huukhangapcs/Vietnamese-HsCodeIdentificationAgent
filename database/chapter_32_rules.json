@@ -1,5 +1,6 @@
 {
     "chapter_code": "32",
+    "chapter_title": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints and varnishes; putty and other mastics; inks",
     "inclusions": [
         "Heading 32.01 — Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives",
         "Heading 32.02 — Synthetic organic tanning substances; inorganic tanning substances; tanning preparations, whether or not containing natural tanning substances; enzymatic preparations for pre-tanning",
@@ -21,32 +22,81 @@
         {
             "condition": "Separate chemically defined elements or compounds — EXCEPT those of heading 32.03/32.04, inorganic luminophores (32.06), fused quartz/silica glass in forms of 32.07, and dyes/colouring matter for retail sale (32.12)",
             "action": "Redirect to the appropriate chapter for the chemically defined compound (Ch.28 for inorganic, Ch.29 for organic)",
-            "keywords": ["chemically defined compound", "pure chemical", "laboratory reagent", "analytical grade"]
+            "keywords": [
+                "chemically defined compound",
+                "pure chemical",
+                "laboratory reagent",
+                "analytical grade"
+            ]
         },
         {
             "condition": "Tannates or other tannin derivatives of products of headings 29.36–29.39 (vitamins, hormones, alkaloids), 29.41 (antibiotics) or 35.01–35.04 (casein, albumin, gelatin, peptones)",
             "action": "Redirect to Chapter 29 (29.36–29.39, 29.41) or Chapter 35 (35.01–35.04) respectively",
-            "keywords": ["tannate of vitamin", "tannate albumin", "gelatin tannate", "protein tannate", "alkaloid tannate", "29.36", "29.37", "29.38", "29.39", "29.41", "35.01", "35.02", "35.03", "35.04"]
+            "keywords": [
+                "tannate of vitamin",
+                "tannate albumin",
+                "gelatin tannate",
+                "protein tannate",
+                "alkaloid tannate",
+                "29.36",
+                "29.37",
+                "29.38",
+                "29.39",
+                "29.41",
+                "35.01",
+                "35.02",
+                "35.03",
+                "35.04"
+            ]
         },
         {
             "condition": "Mastics based on asphalt or other bituminous mastics",
             "action": "Redirect to heading 27.15 — bituminous mastics are mineral products in Chapter 27",
-            "keywords": ["asphalt mastic", "bituminous mastic", "bitumen putty", "tar mastic", "27.15"]
+            "keywords": [
+                "asphalt mastic",
+                "bituminous mastic",
+                "bitumen putty",
+                "tar mastic",
+                "27.15"
+            ]
         },
         {
             "condition": "Extenders used in oil paints (even if also suitable for colouring distempers) — Note 5",
             "action": "Extenders (fillers/extenders in paint) are NOT 'colouring matter' of Chapter 32 — redirect to Ch.25 (mineral extenders) or Ch.28 as appropriate",
-            "keywords": ["paint extender", "filler paint", "kaolin paint filler", "calcium carbonate filler", "barite filler", "talc paint"]
+            "keywords": [
+                "paint extender",
+                "filler paint",
+                "kaolin paint filler",
+                "calcium carbonate filler",
+                "barite filler",
+                "talc paint"
+            ]
         },
         {
             "condition": "Pigments dispersed in non-aqueous media (liquid or paste) used in paint manufacture — these are 32.12, not 32.03/32.04/32.05/32.06",
             "action": "Redirect to heading 32.12 (not 32.03–32.06). Note 3 exclusion: 32.03/04/05/06 do NOT cover pigment pastes for paint manufacture",
-            "keywords": ["pigment paste", "pigment dispersion", "pigment concentrate paint", "colour mill base", "tinting paste"]
+            "keywords": [
+                "pigment paste",
+                "pigment dispersion",
+                "pigment concentrate paint",
+                "colour mill base",
+                "tinting paste"
+            ]
         },
         {
             "condition": "Preparations of 32.07, 32.08, 32.09, 32.10, 32.12, 32.13, 32.15 — these are final product categories that override 32.03/04/05/06",
             "action": "Classify in the specific later heading (32.07–32.15) rather than the base colouring matter headings",
-            "keywords": []
+            "keywords": [
+                "prepared table/dressing surfaces",
+                "printing paper prepare",
+                "glass frit coloured",
+                "32.07",
+                "32.08",
+                "32.09",
+                "32.10",
+                "32.12",
+                "32.13"
+            ]
         }
     ],
     "classification_rules": [

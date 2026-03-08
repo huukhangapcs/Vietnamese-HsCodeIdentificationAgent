@@ -1,0 +1,187 @@
+{
+    "chapter_code": "84",
+    "chapter_title": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+    "inclusions": [
+        "Heading 84.01 — Nuclear reactors; fuel elements (cartridges), non-irradiated, for nuclear reactors; machinery and apparatus for isotopic separation",
+        "Heading 84.02 — Steam or other vapour generating boilers (other than central heating hot water boilers capable also of producing low pressure steam); super-heated water boilers; parts thereof",
+        "Heading 84.03 — Central heating boilers other than those of heading 84.02; parts thereof",
+        "Heading 84.04 — Auxiliary plant for use with boilers of heading 84.02 or 84.03 (e.g., economisers, super-heaters, soot removers, gas recoverers); condensers for steam or other vapour power units; parts thereof",
+        "Heading 84.05 — Producer gas or water gas generators, with or without their purifiers; acetylene gas generators and similar water process gas generators, with or without their purifiers; parts thereof",
+        "Heading 84.06 — Steam turbines and other vapour turbines, and parts thereof",
+        "Heading 84.07 — Spark-ignition reciprocating or rotary internal combustion piston engines",
+        "Heading 84.08 — Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
+        "Heading 84.09 — Parts suitable for use solely or principally with the engines of heading 84.07 or 84.08",
+        "Heading 84.10 — Hydraulic turbines, water wheels, and regulators therefor; parts thereof",
+        "Heading 84.11 — Turbo-jets, turbo-propellers and other gas turbines; parts thereof",
+        "Heading 84.12 — Other engines and motors (including reaction engines and pneumatic, hydraulic, spring, gravity, etc. motors) — also: articles constructed to work WITHOUT an escapement",
+        "Heading 84.13 — Pumps for liquids (including pumps incorporating measuring devices); liquid elevators; parts thereof",
+        "Heading 84.14 — Air or vacuum pumps; air or other gas compressors; fans; ventilating or recycling hoods incorporating a fan; gas-tight biological safety cabinets; parts thereof",
+        "Heading 84.15 — Air conditioning machines, comprising a motor-driven fan and elements for changing the temperature and humidity, including those machines in which the humidity cannot be separately regulated; parts thereof",
+        "Heading 84.16 — Furnace burners for liquid fuel, for pulverised solid fuel or for gas; mechanical stokers, including their mechanical grates, mechanical ash dischargers and similar appliances; parts thereof",
+        "Heading 84.17 — Industrial or laboratory furnaces and ovens, including incinerators, non-electric; parts thereof",
+        "Heading 84.18 — Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps; parts thereof",
+        "Heading 84.19 — Machinery, plant or laboratory equipment for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilising, pasteurising, steaming, drying, evaporating, vaporising, condensing or cooling — other than machinery or plant of a kind used for domestic purposes; instantaneous or storage water heaters, non-electric. EXCLUDES per Note 2(A): germination plant/incubators (84.36); grain dampening machines (84.37); sugar diffusing apparatus (84.38); textile heat-treatment machinery (84.51); any machinery where temperature change is SUBSIDIARY to the mechanical operation",
+        "Heading 84.20 — Calendering or other rolling machines, other than for metals or glass, and cylinders therefor; parts thereof",
+        "Heading 84.21 — Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus, for liquids or gases; parts thereof",
+        "Heading 84.22 — Dish washing machines; machinery for cleaning or drying bottles or other containers; machinery for filling, closing, sealing or labelling bottles, cans, boxes, bags or other containers; machinery for capsuling bottles, jars, tubes and similar containers; other packing or wrapping machinery (including heat-shrink wrapping machinery); machinery for aerating beverages; parts thereof. EXCLUDES per Note 2(B): sewing machines for closing bags (84.52); office machinery (84.72)",
+        "Heading 84.23 — Weighing machinery (excluding balances of a sensitivity of 5 cg or better), including weight-operated counting or checking machines; weighing machine weights of all kinds; parts of weighing machinery",
+        "Heading 84.24 — Mechanical appliances (whether or not hand-operated) for projecting, dispersing or spraying liquids or powders; fire extinguishers, whether or not charged; spray guns and similar appliances; steam or sand blasting machines and similar jet projecting machines; parts thereof. EXCLUDES per Note 2(C): ink-jet printing machines (84.43); water-jet cutting machines (84.56)",
+        "Heading 84.25 — Pulley tackle and hoists other than skip hoists; winches and capstans; jacks",
+        "Heading 84.26 — Ships' derricks; cranes including cable cranes; mobile lifting frames, straddle carriers and works trucks fitted with a crane; parts thereof",
+        "Heading 84.27 — Fork-lift trucks; other works trucks fitted with lifting or handling equipment; parts thereof",
+        "Heading 84.28 — Other lifting, handling, loading or unloading machinery (e.g., lifts, escalators, conveyors, teleferics); parts thereof",
+        "Heading 84.29 — Self-propelled bulldozers, angledozers, graders, levellers, scrapers, mechan. shovels, excavators, shovel loaders, tamping machines and road rollers",
+        "Heading 84.30 — Other moving, grading, levelling, scraping, excavating, tamping, compacting, extracting or boring machinery for earth, minerals or ores; pile-drivers and pile-extractors; snow-ploughs and snow-blowers; parts thereof",
+        "Heading 84.31 — Parts suitable for use solely or principally with the machinery of headings 84.25 to 84.30",
+        "Heading 84.32 — Agricultural, horticultural or forestry machinery for soil preparation or cultivation; lawn or sports-ground rollers; parts thereof",
+        "Heading 84.33 — Harvesting or threshing machinery, including straw or fodder balers; grass or hay mowers; machines for cleaning, sorting or grading eggs, fruit or other agricultural produce, other than machinery of heading 84.37; parts thereof",
+        "Heading 84.34 — Milking machines and dairy machinery; parts thereof",
+        "Heading 84.35 — Presses, crushers and similar machinery used in the manufacture of wine, cider, fruit juices or similar beverages; parts thereof",
+        "Heading 84.36 — Other agricultural, horticultural, forestry, poultry-keeping or bee-keeping machinery, including germination plant fitted with mechanical or thermal equipment; poultry incubators and brooders; parts thereof",
+        "Heading 84.37 — Machines for cleaning, sorting or grading seed, grain or dried leguminous vegetables; machinery used in the milling industry or for working cereals or dried leguminous vegetables, other than farm-type machinery; parts thereof",
+        "Heading 84.38 — Machinery, not specified or included elsewhere in Chapter 84, for the industrial preparation or manufacture of food or drink, other than machinery for the extraction or preparation of animal or fixed vegetable or microbial fats or oils; parts thereof",
+        "Heading 84.39 — Machinery for making pulp of fibrous cellulosic material or for making or finishing paper or paperboard; parts thereof",
+        "Heading 84.40 — Book-binding machinery, including book-sewing machines; parts thereof",
+        "Heading 84.41 — Other machinery for making up paper pulp, paper or paperboard, including cutting machines of all kinds; parts thereof",
+        "Heading 84.42 — Machinery, apparatus and equipment (other than the machine-tools of headings 84.56 to 84.65) for type-founding or typesetting, for preparing or making printing blocks, plates, cylinders or other printing components; printing type, blocks, plates, cylinders and other printing components; blocks, plates, cylinders and lithographic stones, prepared for printing purposes (e.g., planed, grained or polished); parts thereof",
+        "Heading 84.43 — Printing machinery used for printing by means of plates, cylinders and other printing components of heading 84.42; ink-jet printing machines; machines for uses ancillary to printing; parts thereof",
+        "Heading 84.44 — Machines for extruding, drawing, texturing or cutting manmade textile materials; parts thereof",
+        "Heading 84.45 — Machines for preparing textile fibres; spinning, doubling or twisting machines and other machinery for producing textile yarns; textile reeling or winding (including weft-winding) machines and machines for preparing textile yarns for use on the machines of heading 84.46 or 84.47; parts thereof",
+        "Heading 84.46 — Weaving machines (looms); parts thereof",
+        "Heading 84.47 — Knitting machines, stitch-bonding machines and machines for making gimped yarn, tulle, lace, embroidery, trimmings, braid or net and machines for tufting; parts thereof",
+        "Heading 84.48 — Auxiliary machinery for use with machines of headings 84.44, 84.45, 84.46 or 84.47 (e.g., dobbies, Jacquards, automatic stop motions, shuttle changing mechanisms); parts and accessories suitable for use solely or principally with the machines of this heading or of headings 84.44 to 84.47",
+        "Heading 84.49 — Machinery for the manufacture or finishing of felt or nonwovens in the piece or in shapes, including machinery for making felt hats; blocks for making hats; parts thereof",
+        "Heading 84.50 — Household or laundry-type washing machines, including machines which both wash and dry; parts thereof",
+        "Heading 84.51 — Machinery (other than machines of heading 84.50) for washing, cleaning, wringing, drying, ironing, pressing (including fusing presses), bleaching, dyeing, dressing, finishing, coating or impregnating textile yarns, fabrics or made-up textile articles and machines for applying paste to the base fabric or other support used in manufacture of floor coverings such as linoleum; machines for reeling, unreeling, folding, cutting or pinking textile fabrics; parts thereof",
+        "Heading 84.52 — Sewing machines, other than book-sewing machines of heading 84.40; furniture, bases and covers specially designed for sewing machines; sewing machine needles; parts thereof",
+        "Heading 84.53 — Machinery for preparing, tanning or working hides, skins or leather or for making or repairing footwear or other articles of hides, skins or leather, other than sewing machines; parts thereof",
+        "Heading 84.54 — Converters, ladles, ingot moulds and casting machines, of a kind used in metallurgy or in metal foundries; parts thereof",
+        "Heading 84.55 — Metal-rolling mills and rolls therefor; parts thereof",
+        "Heading 84.56 — Machine-tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electro-discharge, electro-chemical, electron beam, ionic-beam or plasma arc processes; water-jet cutting machines; parts and accessories thereof. NOTE: if a machine-tool falls in both 84.56 and 84.57–84.65 → classify in 84.56 (Note 3)",
+        "Heading 84.57 — Machining centres, unit construction machines (single station) and multi-station transfer machines, for working metal (Note 4: automatic tool change from magazine; simultaneous/sequential use of different unit heads on fixed workpiece; or automatic transfer to different unit heads)",
+        "Heading 84.58 — Lathes (including turning centres) for removing metal; parts and accessories thereof",
+        "Heading 84.59 — Machine-tools (including way-type unit head machines) for drilling, boring, milling, threading or tapping by removing metal, other than lathes (including turning centres) of heading 84.58; parts and accessories thereof",
+        "Heading 84.60 — Machine-tools for deburring, sharpening, grinding, honing, lapping, polishing or otherwise finishing metal, or cermets by means of grinding stones, abrasives or polishing products, other than gear cutting, gear grinding or gear finishing machines of heading 84.61; parts and accessories thereof",
+        "Heading 84.61 — Machine-tools for planing, shaping, slotting, broaching, gear cutting, gear grinding or gear finishing, sawing, cutting-off and other machine-tools working by removing metal or cermets, not elsewhere specified or included; parts and accessories thereof",
+        "Heading 84.62 — Machine-tools (including presses) for working metal by forging, hammering or die-stamping; machine-tools (including presses) for working metal by bending, folding, straightening, flattening, shearing, punching or notching; presses for working metal or metal carbides, not specified above; parts and accessories. Note 5: 'slitting line' = uncoiler + coil flattener + slitter + recoiler. 'Cut-to-length line' = uncoiler + coil flattener + shear",
+        "Heading 84.63 — Other machine-tools for working metal or cermets, without removing material; parts and accessories thereof",
+        "Heading 84.64 — Machine-tools for working stone, ceramics, concrete, asbestos-cement or like mineral materials or for cold working glass; parts and accessories thereof",
+        "Heading 84.65 — Machine-tools (including machines for nailing, stapling, glueing or otherwise assembling) for working wood, cork, bone, hard rubber, hard plastics or similar hard materials; parts and accessories thereof. Subheading Note 1 (8465.20): 'machining centres' = machine-tools for working wood/cork/bone/hard rubber/hard plastics that carry out different operations by automatic tool change from magazine per machining programme",
+        "Heading 84.66 — Parts and accessories suitable for use solely or principally with the machines of headings 84.56 to 84.65, including work or tool holders, self-opening dieheads, dividing heads and other special attachments for machine-tools; tool holders for any type of tool for working in the hand; parts and accessories thereof",
+        "Heading 84.67 — Tools for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor; parts thereof",
+        "Heading 84.68 — Machinery and apparatus for soldering, brazing or welding, whether or not capable of cutting, other than those of heading 85.15; gas-operated surface tempering machines and appliances; parts thereof",
+        "Heading 84.69 — [Legacy heading — typewriters, word-processing machines; largely absorbed into 84.71/84.43]",
+        "Heading 84.70 — Calculating machines and pocket-size data recording, reproducing and displaying machines with calculating functions; accounting machines, postage-franking machines, ticket-issuing machines and similar machines, incorporating a calculating device; cash registers. Note 9: 'pocket-size' applies only to machines with dimensions not exceeding 170 mm × 100 mm × 45 mm",
+        "Heading 84.71 — Automatic data processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included. Note 6(A) ADP definition: capable of (i) storing program + data; (ii) freely programmable by user; (iii) performing user-specified arithmetic computations; (iv) executing program with logical decision modification without human intervention. Note 6(C): units classified in 84.71 if solely/principally for ADP, connectable to CPU, able to accept/deliver data in system-usable form. ALWAYS in 84.71: keyboards, X-Y coordinate input devices, disk storage units. Subheading Note 2 (8471.49): 'systems' = ADP machines with ≥CPU + ≥1 input unit + ≥1 output unit",
+        "Heading 84.72 — Other office machines (e.g., hectograph or stencil duplicating machines, addressing machines, automatic banknote dispensers, coin-sorting machines, coin-counting or wrapping machines, pencil-sharpening machines, perforating or stapling machines)",
+        "Heading 84.73 — Parts and accessories (other than covers, carrying cases and the like) suitable for use solely or principally with machines of headings 84.69 to 84.72",
+        "Heading 84.74 — Machinery for sorting, screening, separating, washing, crushing, grinding, mixing or kneading earth, stone, ores or other mineral substances, in solid (including powder or paste) form; machinery for agglomerating, shaping or moulding solid mineral fuels, ceramic paste, unhardened cements, plastering materials or other mineral products in powder or paste form; machines for forming foundry moulds of sand; parts thereof",
+        "Heading 84.75 — Machines for assembling electric or electronic lamps, tubes, valves or bulbs, flash-bulbs, in glass envelopes; machines for manufacturing or hot working glass or glassware; parts thereof",
+        "Heading 84.76 — Automatic goods-vending machines (e.g., postage stamp, cigarette, food or beverage machines), including money-changing machines; parts thereof",
+        "Heading 84.77 — Machinery for working rubber or plastics or for the manufacture of products from these materials, not specified or included elsewhere in Chapter 84; parts thereof",
+        "Heading 84.78 — Machinery for preparing or making up tobacco, not specified or included elsewhere in Chapter 84; parts thereof",
+        "Heading 84.79 — Machines and mechanical appliances having individual functions, not specified or included elsewhere in Chapter 84 (catch-all). Note 8: also covers rope/cable-making machines. principal-purpose rule: a machine used for more than one purpose → treated as if its principal purpose were its sole purpose; if no single principal purpose → 84.79",
+        "Heading 84.80 — Moulding boxes for metal foundry; mould bases; moulding patterns; moulds for metal (other than ingot moulds), for metal carbides, for glass, for mineral materials, for rubber or plastics; parts thereof",
+        "Heading 84.81 — Taps, cocks, valves and similar appliances for pipes, boilers, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves; parts thereof. Subheading Note 3 (8481.20): 'valves for oleohydraulic or pneumatic transmissions' = valves used specifically in fluid power transmission; 8481.20 takes precedence over all other subheadings of 84.81",
+        "Heading 84.82 — Ball or roller bearings; parts thereof. Note 7: applies to polished steel balls where max and min diameters differ from nominal by ≤1% OR ≤0.05 mm (whichever less). Other steel balls → 73.26. Subheading Note 4 (8482.40): only bearings with cylindrical rollers of uniform diameter ≤5mm and length ≥3× diameter (ends may be rounded)",
+        "Heading 84.83 — Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and pulleys, including pulley blocks; clutches and shaft couplings (including universal joints); parts thereof",
+        "Heading 84.84 — Gaskets and similar joints of metal sheeting combined with other material or of two or more layers of metal; sets or assortments of gaskets and similar joints, dissimilar in composition, put up in pouches, envelopes or similar packings; mechanical seals; parts thereof",
+        "Heading 84.85 — Machines and apparatus for additive manufacturing. Note 10: 'additive manufacturing' (3D printing) = formation of physical objects based on digital model by successive addition, layering, consolidation and solidification of material (metal, plastics, ceramics). ABSOLUTE PRIORITY: 84.85 is classified there and in NO other heading",
+        "Heading 84.86 — Machines and apparatus for the manufacture of semiconductor boules or wafers, semiconductor devices, electronic integrated circuits or flat panel displays; machines and apparatus for the manufacture or repair of masks and reticles; machines for assembling semiconductor devices or ICs; machines for lifting/handling/loading/unloading boules, wafers, semiconductor devices, ICs and flat panel displays. Note 11(B): 'manufacture of flat panel displays' = fabrication of substrates into a flat panel (NOT glass manufacture or PCB/electronic component assembly). ABSOLUTE PRIORITY: 84.86 is classified there and in NO other heading",
+        "Heading 84.87 — Machinery parts, not containing electrical connectors, insulators, coils, contacts or other electrical features, not specified or included elsewhere in Chapter 84"
+    ],
+    "exclusions": [
+        {
+            "condition": "Millstones, grindstones or other articles of Chapter 68",
+            "action": "Redirect to Chapter 68 (stone, plaster, cement, asbestos, mica articles) — Note 1(a)",
+            "keywords": ["millstone", "grindstone", "whetstone", "grinding wheel stone", "68."]
+        },
+        {
+            "condition": "Machinery or appliances of ceramic material (e.g., ceramic pumps) and ceramic parts of machinery of any material",
+            "action": "Redirect to Chapter 69 (ceramic products) — Note 1(b)",
+            "keywords": ["ceramic pump", "ceramic valve", "ceramic machine part", "69."]
+        },
+        {
+            "condition": "Laboratory glassware (70.17); machinery/appliances/articles for technical uses of glass (70.19 or 70.20)",
+            "action": "Redirect to heading 70.17, 70.19 or 70.20 — Note 1(c)",
+            "keywords": ["laboratory glassware", "glass reaction vessel", "glass technical apparatus", "70.17", "70.19", "70.20"]
+        },
+        {
+            "condition": "Articles of heading 73.21 (stoves, ranges, grates, cookers of iron/steel) or 73.22 (radiators/boilers of iron/steel) or similar articles of other base metals (Ch.74–76 or 78–81)",
+            "action": "Redirect to heading 73.21, 73.22 or equivalent base metal chapter — Note 1(d)",
+            "keywords": ["domestic stove iron", "cast iron cooker", "iron radiator", "base metal boiler domestic", "73.21", "73.22"]
+        },
+        {
+            "condition": "Vacuum cleaners",
+            "action": "Redirect to heading 85.08 (Ch.85) — Note 1(e)",
+            "keywords": ["vacuum cleaner", "hoover", "85.08"]
+        },
+        {
+            "condition": "Electro-mechanical domestic appliances of heading 85.09; digital cameras of heading 85.25",
+            "action": "Redirect to heading 85.09 or 85.25 — Note 1(f). Domestic food processors, mixers, juicers → 85.09. Digital cameras → 85.25",
+            "keywords": ["food processor", "kitchen mixer", "juice extractor domestic", "digital camera", "85.09", "85.25"]
+        },
+        {
+            "condition": "Radiators for motor vehicles, aircraft, vessels (Section XVII articles)",
+            "action": "Redirect to Section XVII (vehicles) — Note 1(g). Vehicle radiators are parts of their respective vehicles",
+            "keywords": ["car radiator", "vehicle radiator", "aircraft radiator", "marine radiator", "Section XVII"]
+        },
+        {
+            "condition": "Hand-operated mechanical floor sweepers, not motorised",
+            "action": "Redirect to heading 96.03 (brooms and brushes) — Note 1(h)",
+            "keywords": ["hand sweeper", "carpet sweeper manual", "push sweeper", "96.03"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Headings 84.01–84.24 and 84.86 take priority over headings 84.25–84.80",
+            "description": "When a machine or appliance answers to descriptions in BOTH the 84.01–84.24/84.86 group AND the 84.25–84.80 group, it must be classified in the FORMER group (84.01–84.24 or 84.86). The lifting/handling/processing machinery headings (84.25–84.80) are subordinate. Exceptions within this rule: Note 2(A) excludes certain types from 84.19 (germination/incubators → 84.36; grain dampening → 84.37; sugar diffusing → 84.38; textile heat-treatment → 84.51; machinery where temp change is SUBSIDIARY); Note 2(B) excludes from 84.22 sewing machines for bag closing (→ 84.52) and office machinery (→ 84.72); Note 2(C) excludes from 84.24 ink-jet printers (→ 84.43) and water-jet cutters (→ 84.56).",
+            "priority": 1
+        },
+        {
+            "rule": "Note 3 — Heading 84.56 takes priority over 84.57–84.65 for machine-tools",
+            "description": "If a machine-tool for working any material by material removal answers to heading 84.56 (laser, photon beam, ultrasonic, EDM, ECM, electron beam, ion beam, plasma arc, water-jet) AND simultaneously to one of headings 84.57–84.65 (conventional metal-working machine-tools) → classify in 84.56. The advanced/non-conventional material removal process always wins over the conventional machine-tool headings.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 8 — Multi-purpose machines: principal purpose test and 84.79 fallback",
+            "description": "A machine used for more than one purpose is classified as if its PRINCIPAL purpose were its sole purpose. If no single purpose is the principal one → heading 84.79 (catch-all, unless context requires otherwise). This principal-purpose test operates after applying Note 3 to Section XVI (combination machines). 84.79 is explicitly residual: it only applies when no specific heading adequately describes the machine.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 6 — ADP machines (84.71): definition, unit classification and obligatory exclusions",
+            "description": "An ADP machine (84.71) must satisfy ALL four criteria: (i) stores program + data; (ii) freely programmable; (iii) performs user-specified arithmetic; (iv) self-modifies execution via logical decisions without human intervention. Units classified in 84.71 if: solely/principally for ADP + connectable to CPU + accepts/delivers data in system-usable form. ALWAYS 84.71: keyboards, X-Y coordinate input devices, disk storage units. NEVER 84.71 when presented separately: printers, copying/facsimile machines, voice/image/data transmission apparatus (→ 85.17), loudspeakers/microphones (→ 85.18), TV cameras/digital cameras/video recorders (→ 85.25), monitors/projectors (→ 85.28). Machines incorporating ADP but performing a SPECIFIC FUNCTION OTHER THAN data processing → classified by that specific function.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 10 and 11(D) — Headings 84.85 and 84.86 have ABSOLUTE PRIORITY",
+            "description": "Two headings in Ch.84 have absolute classification priority: (1) 84.85 (additive manufacturing/3D printing machines) — classified here and in NO other heading. (2) 84.86 (semiconductor/flat panel display manufacturing machines) — classified here and in NO other heading. These override Section XVI Note 1, Chapter 84 Note 1, and all other classification rules. Note 11(B): 84.86 'flat panel display manufacture' covers substrate-to-panel fabrication only; does NOT cover glass manufacturing or assembly of PCBs/electronic components onto the panel.",
+            "priority": 5
+        },
+        {
+            "rule": "Note 7 — Precision steel balls: 84.82 (bearings) vs 73.26 (other steel balls)",
+            "description": "Polished steel balls where the maximum and minimum diameters differ from the nominal diameter by no more than 1% OR 0.05 mm (whichever is less) → heading 84.82. All other steel balls (less precise tolerance) → heading 73.26. The tolerance test is binary and measurable.",
+            "priority": 6
+        },
+        {
+            "rule": "Note 4 — Heading 84.57: machining centres for metal — strict definition",
+            "description": "Heading 84.57 applies ONLY to machine-tools for working METAL (not other materials — those → 84.64/84.65), OTHER THAN lathes, which carry out different types of machining by: (a) automatic tool change from magazine per machining programme (machining centres); OR (b) automatic use (simultaneously/sequentially) of different unit heads on FIXED workpiece (unit construction machines); OR (c) automatic transfer of workpiece to different unit heads (multi-station transfer machines). Manual tool change → 84.59 or other specific heading.",
+            "priority": 7
+        },
+        {
+            "rule": "Key boundary: 84.19 (heat-treatment machinery) — temperature change must be PRIMARY function",
+            "description": "Heading 84.19 covers machinery where a change of temperature IS the primary process (heating, drying, evaporating, distilling, sterilising, pasteurising, etc.). Excluded from 84.19: machinery where temperature change is SUBSIDIARY to a mechanical operation (e.g., a press that uses heat to assist forming → classified by mechanical function). Also excluded: germination plant/incubators (84.36), grain dampening machines (84.37), sugar juice diffusing apparatus (84.38), textile heat-treatment machines (84.51). The primacy-of-temperature-change test is the essential criterion.",
+            "priority": 8
+        },
+        {
+            "rule": "Key boundary: 84.71 (ADP/computers) vs 84.70 (calculating machines) vs 85.17 (smartphones/communication)",
+            "description": "Three headings for computing/communication devices: 84.70 = calculating machines (limited functions, not freely programmable for general use); pocket-size devices ≤170×100×45mm. 84.71 = general-purpose ADP machines (computers, tablets without cellular network OS) fulfilling all four criteria of Note 6(A). 85.17 = smartphones and other apparatus for voice/image/data transmission via wireless networks — even if they perform ADP functions (as per Ch.85 Note 5, smartphones are in 85.17). A tablet WITHOUT cellular communication primary function → 84.71. Smartphone → 85.17.",
+            "priority": 9
+        },
+        {
+            "rule": "Key boundary: 84.13 (liquid pumps) vs 84.14 (gas/air pumps/compressors) vs 85.08 (vacuum cleaners)",
+            "description": "Three heading for pumping/displacing apparatus: 84.13 = pumps for LIQUIDS (centrifugal pumps, piston pumps, gear pumps, submersible pumps for liquids, fuel injection pumps). 84.14 = air or vacuum pumps; gas COMPRESSORS; fans; ventilating/recycling hoods with fan. 85.08 = vacuum cleaners (domestic/commercial suction devices for cleaning — even though they use vacuum, their classification is 85.08 by Note 1(e)). Hydraulic fluid transmission pumps → 84.13. Industrial air compressors → 84.14.",
+            "priority": 10
+        }
+    ]
+}

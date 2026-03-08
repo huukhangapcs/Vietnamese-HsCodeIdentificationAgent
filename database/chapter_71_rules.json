@@ -1,0 +1,108 @@
+{
+    "chapter_code": "71",
+    "chapter_title": "Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+    "inclusions": [
+        "Heading 71.01 — Pearls, natural or cultured, whether or not worked or graded but not strung, mounted or set; pearls, natural or cultured, temporarily strung for convenience of transport",
+        "Heading 71.02 — Diamonds, whether or not worked, but not mounted or set. Note 4(A): 'precious metal' = silver, gold and platinum (including PGMs)",
+        "Heading 71.03 — Precious stones (other than diamonds) and semi-precious stones, whether or not worked or graded, but not strung, mounted or set; ungraded precious stones (other than diamonds) and semi-precious stones, temporarily strung for convenience of transport",
+        "Heading 71.04 — Synthetic or reconstructed precious or semi-precious stones, whether or not worked or graded but not strung, mounted or set; ungraded synthetic or reconstructed precious or semi-precious stones, temporarily strung for convenience of transport",
+        "Heading 71.05 — Dust and powder of natural or synthetic precious or semi-precious stones",
+        "Heading 71.06 — Silver (including silver plated with gold or platinum), unwrought or in semi-manufactured forms, or in powder form. Subheading Note 1: 'powder' = ≥90% by weight passes through 0.5 mm sieve",
+        "Heading 71.07 — Base metals clad with silver, not further worked than semi-manufactured",
+        "Heading 71.08 — Gold (including gold plated with platinum), unwrought or in semi-manufactured forms, or in powder form",
+        "Heading 71.09 — Base metals or silver, clad with gold, not further worked than semi-manufactured",
+        "Heading 71.10 — Platinum, unwrought or in semi-manufactured forms, or in powder form. Note 4(B): 'platinum' = Pt, Ir, Os, Pd, Rh, Ru (PGMs). Subheading Note 2: for subheadings 7110.11/7110.19, 'platinum' does NOT include Ir, Os, Pd, Rh, Ru. Subheading Note 3: alloys classified by whichever PGM predominates by weight",
+        "Heading 71.11 — Base metals, silver or gold, clad with platinum, not further worked than semi-manufactured",
+        "Heading 71.12 — Waste and scrap of precious metal or of metal clad with precious metal; other waste and scrap containing precious metal or precious metal compounds, of a kind used principally for the recovery of precious metal. Note 8: articles meeting 71.12 description classified HERE and NOWHERE ELSE in Nomenclature (absolute priority)",
+        "Heading 71.13 — Articles of jewellery and parts thereof, of precious metal or of metal clad with precious metal. Note 9: 'articles of jewellery' = (a) small personal adornment objects (rings, bracelets, necklaces, brooches, earrings, pendants, tie-pins, cuff-links, medals, insignia); (b) personal-use articles normally carried in pocket/handbag (cigarette cases, pill boxes, powder boxes, chain purses, prayer beads)",
+        "Heading 71.14 — Articles of goldsmiths' or silversmiths' wares and parts thereof, of precious metal or of metal clad with precious metal. Note 10: includes ornaments, tableware, toilet-ware, smokers' requisites, household/office/religious articles",
+        "Heading 71.15 — Other articles of precious metal or of metal clad with precious metal",
+        "Heading 71.16 — Articles of natural or cultured pearls, precious or semi-precious stones (natural, synthetic or reconstructed). Note 2(B): heading 71.16 does NOT cover articles ALSO containing precious metal (other than as minor constituents) — those → 71.13/71.14/71.15",
+        "Heading 71.17 — Imitation jewellery. Note 11: 'imitation jewellery' = articles of jewellery per Note 9(a) (personal adornment), NOT containing natural/cultured pearls or precious/semi-precious stones, and NOT containing precious metal except as plating or minor constituents. Excludes buttons (96.06) and hair accessories (96.15)",
+        "Heading 71.18 — Coin: coin (whether or not legal tender) not being collectors' pieces"
+    ],
+    "exclusions": [
+        {
+            "condition": "Amalgams of precious metal or colloidal precious metal",
+            "action": "Redirect to heading 28.43 (inorganic compounds or amalgams of precious metals) — Note 3(a)",
+            "keywords": ["amalgam gold", "amalgam silver", "colloidal gold", "colloidal silver", "colloidal platinum", "28.43"]
+        },
+        {
+            "condition": "Sterile surgical suture materials, dental fillings or other pharmaceutical goods containing precious metals",
+            "action": "Redirect to Chapter 30 (pharmaceutical products) — Note 3(b). Gold dental fillings for dental use → Ch.30",
+            "keywords": ["dental gold filling", "surgical suture gold", "dental amalgam", "30."]
+        },
+        {
+            "condition": "Goods of Chapter 32 (lustres, pigments containing precious metal)",
+            "action": "Redirect to Chapter 32 — Note 3(c). Liquid gold/platinum used as ceramic decoration luster → Ch.32",
+            "keywords": ["liquid gold luster", "liquid platinum ceramic", "bright gold preparation", "32."]
+        },
+        {
+            "condition": "Supported catalysts containing precious metal (e.g., platinum on alumina, palladium on carbon)",
+            "action": "Redirect to heading 38.15 (reaction initiators, reaction accelerators and catalytic preparations) — Note 3(d)",
+            "keywords": ["platinum catalyst", "palladium catalyst", "supported catalyst precious metal", "38.15"]
+        },
+        {
+            "condition": "Articles of Section XI (textiles) decorated or embroidered with precious metal thread, cloth or fabric",
+            "action": "Redirect to Section XI (Ch.50–63) — Note 3(g). Textiles incorporating precious metal yarns/threads classified as textile articles, not Ch.71",
+            "keywords": ["gold thread textile", "silver thread embroidery", "brocade precious metal", "metallic yarn fabric"]
+        },
+        {
+            "condition": "Abrasive goods (68.04/68.05/Ch.82) containing dust/powder of precious or semi-precious stones; Ch.82 articles with working part of precious/semi-precious stones; machinery/electrical goods of Section XVI with precious stone elements",
+            "action": "Redirect to 68.04/68.05, Ch.82, or Section XVI respectively — Note 3(k). EXCEPTION: articles wholly of precious/semi-precious stones remain in Ch.71, except unmounted worked sapphires/diamonds for styli → 85.22",
+            "keywords": ["diamond abrasive wheel", "diamond grinding disc", "ruby tipped tool", "diamond stylus sapphire", "68.04", "68.05", "85.22"]
+        },
+        {
+            "condition": "Articles of Ch.90/91/92 (scientific instruments, clocks, musical instruments) containing precious metals",
+            "action": "Redirect to respective chapter — Note 3(l). Watch with gold case → 91.01/91.02 (not 71.13). Precision instrument with platinum components → Ch.90",
+            "keywords": ["gold watch case", "silver flute musical", "platinum instrument scientific", "90.", "91.", "92."]
+        },
+        {
+            "condition": "Original sculptures of precious metal or semi-precious stones (97.03), collectors' pieces (97.05) or antiques >100 years (97.06) — EXCEPT natural/cultured pearls or precious stones",
+            "action": "Redirect to Chapter 97 — Note 3(p). Antique gold sculpture → 97.03 or 97.06. However, natural/cultured pearls and precious stones always stay in Ch.71 regardless of age",
+            "keywords": ["antique gold sculpture", "antique silver artwork", "collectors piece precious metal", "97.03", "97.06"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — General scope: Ch.71 covers articles of precious metal/stones regardless of other materials present",
+            "description": "Articles consisting wholly OR PARTLY of: (a) natural/cultured pearls or precious/semi-precious stones; OR (b) precious metal or metal clad with precious metal → classified in Ch.71, subject to the specific exclusions in Note 3 and the 'minor constituent' rule in Note 2. The presence of ANY precious metal/stone component (as more than a minor constituent) pulls the article into Ch.71.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — 'Minor constituent' exception: small fittings or ornamentation do not trigger Ch.71",
+            "description": "Notes 2(A) and 2(B): Articles where precious metal is present ONLY as minor fittings or minor ornamentation (e.g., monograms, ferrules, rims) → the precious metal is disregarded, and the article is not classified in 71.13/71.14/71.15. The primary article character determines the heading (e.g., a leather handbag with a small gold-plated clasp → Ch.42, not Ch.71). Similarly, heading 71.16 (stone articles) does NOT cover articles that also contain precious metal as a significant component (those → 71.13/71.14/71.15).",
+            "priority": 2
+        },
+        {
+            "rule": "Note 4 — Definition of 'precious metal' and 'platinum'",
+            "description": "'Precious metal' = SILVER, GOLD and PLATINUM only. 'Platinum' (for Ch.71 purposes generally) includes ALL 6 platinum-group metals (PGMs): Pt, Ir, Os, Pd, Rh, Ru. HOWEVER, Subheading Note 2 restricts 'platinum' for subheadings 7110.11/7110.19 to Pt ONLY (not other PGMs). Palladium → 7110.21/7110.29. Rhodium → 7110.31. Iridium/osmium/ruthenium → 7110.41. 'Precious or semi-precious stones' per Note 4(C) specifically excludes substances in Ch.96 Note 2(b) (worked coral, amber, jet, bone, etc.).",
+            "priority": 3
+        },
+        {
+            "rule": "Note 5 — Alloys of precious metal: 2% threshold and classification hierarchy",
+            "description": "Any alloy containing ≥2% by weight of precious metal → treated as a precious metal alloy → classified in Ch.71. Priority hierarchy for alloy composition: (1) Contains ≥2% PLATINUM → treated as platinum alloy. (2) Contains ≥2% GOLD (but <2% Pt, or no Pt) → treated as gold alloy. (3) Contains ≥2% SILVER (but <2% Pt and <2% Au) → treated as silver alloy. Example: Ag-Au alloy with 3% Au → gold alloy → 71.08. Ag alloy with 1.5% Au → silver alloy → 71.06.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 7 — 'Metal clad with precious metal' definition",
+            "description": "'Metal clad with precious metal' = base metal WITH a covering of precious metal affixed by soldering, brazing, welding, hot-rolling or similar MECHANICAL MEANS — also covers base metal INLAID with precious metal. This is distinguished from PLATING (electroplate) which is a chemical deposition. Rolled gold / filled gold / gold filled = clad → Ch.71. Electroplated base metal with thin gold layer = plated = NOT classified as clad/precious metal for Ch.71 purposes unless it meets 'imitation jewellery' definition for 71.17.",
+            "priority": 5
+        },
+        {
+            "rule": "Note 8 — Heading 71.12 (precious metal waste/scrap) has ABSOLUTE PRIORITY",
+            "description": "Goods answering the description of heading 71.12 (waste and scrap of precious metal or metal clad with precious metal; waste containing precious metal or precious metal compounds used for recovery) are classified IN 71.12 AND NO OTHER HEADING in the Nomenclature. This overrides all other classification rules including functional headings in Ch.82–96.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 71.13 (jewellery of precious metal) vs 71.17 (imitation jewellery) vs 96.06 (buttons) vs 96.15 (hair accessories)",
+            "description": "Three headings for personal adornment articles: 71.13 = jewellery of precious metal or metal clad with precious metal (rings, bracelets, necklaces, earrings, brooches, pendants, cuff-links, tie-pins, medals, religious insignia; also personal-use items: cigarette cases, pill boxes, prayer beads). 71.17 = IMITATION jewellery = same personal adornment articles BUT made without real pearls, precious stones, or significant precious metal (base metal, plastic, glass, etc.). Note 11 exclusions from 71.17: buttons → 96.06; dress-combs, hair-slides, hairpins → 96.15.",
+            "priority": 7
+        },
+        {
+            "rule": "Key boundary: 71.13 (jewellery articles) vs 71.14 (goldsmiths'/silversmiths' wares) vs 71.15 (other precious metal articles)",
+            "description": "Within precious metal articles: 71.13 = JEWELLERY (personal adornment + personal-use carry items per Note 9). 71.14 = GOLDSMITHS'/SILVERSMITHS' WARES = ornaments, tableware (silver cutlery, silver tea sets), toilet-ware, smokers' requisites, household/office/religious articles of precious metal. 71.15 = OTHER articles of precious metal not covered by 71.13 or 71.14 (industrial applications of precious metal, precious metal laboratory ware, catalytic converters of precious metal, etc.).",
+            "priority": 8
+        }
+    ]
+}

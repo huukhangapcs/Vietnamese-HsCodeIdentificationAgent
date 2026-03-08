@@ -1,0 +1,81 @@
+{
+    "chapter_code": "76",
+    "chapter_title": "Aluminium and articles thereof",
+    "inclusions": [
+        "Heading 76.01 — Unwrought aluminium. Subheading Note 1(a): 'Aluminium, not alloyed' = metal ≥99% Al by weight with each other element below specified limits (e.g., Cu ≤0.1% normally, or ≤0.2% if Cr and Mn each ≤0.05%). Subheading Note 1(b): 'Aluminium alloys' = metallic substances where Al predominates over each other element by weight AND either (i) at least one element or iron+silicon combined exceeds specified limit; or (ii) total other elements >1% by weight. Common alloys: Al-Si, Al-Cu, Al-Mg, Al-Mn, Al-Zn series",
+        "Heading 76.02 — Aluminium waste and scrap",
+        "Heading 76.03 — Aluminium powders and flakes: (a) powders of non-lamellar structure; (b) powders of lamellar structure (flakes) and flakes",
+        "Heading 76.04 — Aluminium bars, rods and profiles",
+        "Heading 76.05 — Aluminium wire",
+        "Heading 76.06 — Aluminium plates, sheets and strip, of a thickness exceeding 0.2 mm",
+        "Heading 76.07 — Aluminium foil (whether or not printed, or backed with paper, paperboard, plastics or similar backing materials), of a thickness (excluding any backing) not exceeding 0.2 mm",
+        "Heading 76.08 — Aluminium tubes and pipes",
+        "Heading 76.09 — Aluminium tube or pipe fittings (e.g., couplings, elbows, sleeves)",
+        "Heading 76.10 — Aluminium structures (excluding prefabricated buildings of heading 94.06) and parts of structures (e.g., bridges and bridge-sections, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds and balustrades, pillars and columns); aluminium plates, rods, profiles, tubes and the like, prepared for use in structures",
+        "Heading 76.11 — Aluminium reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment",
+        "Heading 76.12 — Aluminium casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment",
+        "Heading 76.13 — Aluminium containers for compressed or liquefied gas",
+        "Heading 76.14 — Stranded wire, cables, plaited bands and the like, of aluminium, not electrically insulated",
+        "Heading 76.15 — Table, kitchen or other household articles and parts thereof, of aluminium; pot scourers and scouring or polishing pads, gloves and the like, of aluminium; sanitary ware and parts thereof, of aluminium",
+        "Heading 76.16 — Other articles of aluminium: nails, tacks, staples (other than those of heading 83.05), screws, bolts, nuts, screw hooks, rivets, cotters, cotter-pins, washers and similar articles; cloth, grill, netting, fencing, reinforcing fabric and similar materials; expanded metal; other articles. Subheading Note 2 (7616.91): 'wire' applies only to products (coils or not) of any cross-sectional shape where NO cross-sectional dimension exceeds 6 mm"
+    ],
+    "exclusions": [
+        {
+            "condition": "Aluminium compounds (aluminium oxide/corundum, aluminium chloride, aluminium sulphate, aluminium hydroxide, etc.)",
+            "action": "Redirect to Chapter 28 (inorganic aluminium compounds) — e.g., Al2O3 → 28.18; AlCl3 → 28.27. Metallic aluminium → Ch.76; chemical compounds → Ch.28",
+            "keywords": ["aluminium oxide", "alumina", "corundum", "aluminium chloride", "aluminium sulphate", "aluminium hydroxide", "alum", "28.18", "28.27"]
+        },
+        {
+            "condition": "Aluminium-coated base metals (aluminised steel, aluminised wire)",
+            "action": "Redirect to the base metal substrate chapter. Aluminised steel sheet → Ch.72 (72.10). The aluminium coating is incidental; classify by the substrate metal",
+            "keywords": ["aluminised steel", "aluminium coated steel", "aluminized sheet", "72.10"]
+        },
+        {
+            "condition": "Electrically insulated aluminium wire or cable",
+            "action": "Redirect to heading 85.44 (insulated wire, cable and other insulated electric conductors). Bare uninsulated aluminium wire → 76.05 or 76.14. Iinsulated → 85.44",
+            "keywords": ["insulated aluminium wire", "insulated aluminium cable", "aluminium power cable", "overhead conductor cable", "85.44"]
+        },
+        {
+            "condition": "Prefabricated buildings of aluminium",
+            "action": "Redirect to heading 94.06 — Note to 76.10 explicitly excludes prefabricated buildings. Aluminium structural sections/profiles for building construction → 76.10. Complete prefabricated aluminium building → 94.06",
+            "keywords": ["prefabricated building", "portable building aluminium", "modular building aluminium", "94.06"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Subheading Note 1 — Pure aluminium vs aluminium alloy: purity threshold and element limits",
+            "description": "'Aluminium, not alloyed': ≥99% Al by weight with each individual element below specified table limits. Special rule for copper: Cu up to 0.2% is permitted if Cr ≤0.05% AND Mn ≤0.05%; otherwise Cu limit is 0.1%. 'Aluminium alloys': Al predominates over each other element AND either: (i) at least one element (or Fe+Si combined) exceeds its table limit; or (ii) total other elements >1% by weight. These definitions determine subheading classification within 76.01 (unwrought) and are the basis for classifying alloy vs. non-alloy forms throughout Ch.76.",
+            "priority": 1
+        },
+        {
+            "rule": "Subheading Note 2 — 'Wire' for subheading 7616.91: max cross-sectional dimension ≤6 mm",
+            "description": "For subheading 7616.91 only, 'wire' means products of any cross-sectional shape where NO cross-sectional dimension exceeds 6 mm — whether or not in coils. This overrides the general Section XV Note 9(c) wire definition for this specific subheading. Products with any cross-sectional dimension >6 mm → classified as bars/rods/profiles in 76.04, not as wire in 7616.91.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 76.06 (plates/sheets/strip, >0.2 mm) vs 76.07 (foil, ≤0.2 mm)",
+            "description": "Thickness of 0.2 mm is the dividing line for flat aluminium products: >0.2 mm → heading 76.06 (plates, sheets and strip). ≤0.2 mm → heading 76.07 (foil). The backing material on foil is excluded from the thickness measurement — only the aluminium thickness determines foil vs. sheet. Aluminium foil may be printed, lacquered or backed with paper/plastics without changing the classification.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 76.04 (bars/rods/profiles) vs 76.05 (wire) — cross-sectional dimension test",
+            "description": "Per Section XV Note 9(b): 'Wire' = products of cross-sections that would be enclosed in a circle with diameter <13 mm (for purposes of Ch.76, also see Subheading Note 2 for 7616.91). Bars, rods and profiles have larger cross-sections. Extruded aluminium sections (T-profiles, L-profiles, hollow sections) → 76.04. Thin wire for electrical use, bare → 76.05. Stranded wire/cable (multiple wires twisted) → 76.14.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 76.10 (aluminium structures) vs 76.04 (profiles) vs 94.06 (prefabricated buildings)",
+            "description": "76.04 = aluminium profiles as raw intermediate products (extruded sections not yet assembled). 76.10 = aluminium profiles or other products PREPARED FOR USE IN STRUCTURES (cut to length, drilled, punched, connected) — door/window frames, bridge sections, lattice masts. 94.06 = complete PREFABRICATED BUILDINGS of aluminium (entire building unit). The degree of completion determines: raw profile → 76.04; building component prepared for assembly → 76.10; complete prefab structure → 94.06.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 76.11 (containers >300L) vs 76.12 (containers ≤300L) vs 76.13 (compressed/liquefied gas containers)",
+            "description": "Three headings for aluminium containers split by CAPACITY and CONTENT: 76.11 = tanks/vats/reservoirs for any material EXCEPT compressed/liquefied gas, capacity >300 litres. 76.12 = casks/drums/cans/boxes for any material EXCEPT compressed/liquefied gas, capacity ≤300 litres. 76.13 = containers for COMPRESSED or LIQUEFIED GAS only — capacity is irrelevant. NOT fitted with mechanical or thermal equipment (those → Ch.84). Aluminium beer can → 76.12. Aluminium water tower → 76.11. Aluminium gas cylinder → 76.13.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 76.15 (household articles) vs 76.16 (other articles) vs Ch.82/83/84 (functional tools/equipment)",
+            "description": "76.15 = aluminium table/kitchen/household articles and sanitary ware (pots, pans, trays, colanders, kitchen utensils). 76.16 = all other aluminium articles including fasteners (nails, screws, rivets), mesh/netting, expanded metal. When an aluminium article corresponds to a specific description in Ch.82 (tools), Ch.83 (miscellaneous metal articles), or Ch.84+ (machinery), those functional chapters take priority over 76.15/76.16. Aluminium padlock → 83.01. Aluminium pressure cooker → 76.15. Aluminium hand tool → Ch.82.",
+            "priority": 7
+        }
+    ]
+}

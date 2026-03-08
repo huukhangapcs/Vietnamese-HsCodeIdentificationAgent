@@ -1,5 +1,6 @@
 {
     "chapter_code": "36",
+    "chapter_title": "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations",
     "inclusions": [
         "Heading 36.01 — Propellent powders (propellants)",
         "Heading 36.02 — Prepared explosives, other than propellent powders",
@@ -12,17 +13,33 @@
         {
             "condition": "Separate chemically defined compounds NOT described in Note 2(a) or (b) — e.g., TNT, RDX, nitroglycerin, picric acid as pure/bulk chemicals",
             "action": "Redirect to Chapter 29 (organic) or Chapter 28 (inorganic). Ch.36 Note 1 explicitly excludes all separate chemically defined compounds EXCEPT those covered by Note 2(a)(b)",
-            "keywords": ["TNT chemically pure", "RDX pure", "nitroglycerin pure", "PETN pure", "picric acid"]
+            "keywords": [
+                "TNT chemically pure",
+                "RDX pure",
+                "nitroglycerin pure",
+                "PETN pure",
+                "picric acid"
+            ]
         },
         {
             "condition": "Metaldehyde, hexamethylenetetramine or similar substances put up as FUELS (tablets, sticks, or small container liquefied gas ≤300cm3 for lighters)",
             "action": "These specifically go to 36.06, NOT to Chapter 29 — Ch.29 Note 2(ij) explicitly excludes them from Ch.29",
-            "keywords": []
+            "keywords": [
+                "metaldehyde slug pellet",
+                "hexamethylenetetramine urotropine",
+                "similar substance tablet pellet",
+                "29."
+            ]
         },
         {
             "condition": "Percussion caps, toy pistol caps — not detonating for industrial use",
             "action": "Toy caps → heading 95.03 (toys); industrial detonating caps → 36.03",
-            "keywords": ["toy caps", "cap gun", "toy pistol cap", "95.03"]
+            "keywords": [
+                "toy caps",
+                "cap gun",
+                "toy pistol cap",
+                "95.03"
+            ]
         }
     ],
     "classification_rules": [

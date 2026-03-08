@@ -1,0 +1,50 @@
+{
+    "chapter_code": "45",
+    "chapter_title": "Cork and articles of cork",
+    "scope_note": "Chapter 45 covers natural and agglomerated cork in all forms, from raw bark to finished articles. Cork is the bark of Quercus suber (cork oak), harvested without killing the tree. The chapter excludes footwear, headgear and toys made of cork.",
+    "inclusions": [
+        "Heading 45.01 — Natural cork, raw or simply prepared; waste cork; crushed, granulated or ground cork",
+        "Heading 45.02 — Natural cork, debacked or roughly squared, or in rectangular (including square) blocks, plates, sheets or strip (including sharp-edged blanks for corks or stoppers)",
+        "Heading 45.03 — Articles of natural cork: corks and stoppers, discs, cubes, tiles, sheets with original surface retained, natural cork flooring tiles, life buoys, etc.",
+        "Heading 45.04 — Agglomerated cork (with or without a binding substance) and articles of agglomerated cork: floor tiles, sheets, rolls of agglomerated cork; agglomerated cork stoppers; wine bottle corks of agglomerated cork; insulation boards/sheets of agglomerated cork; gaskets and washers"
+    ],
+    "exclusions": [
+        {
+            "condition": "Footwear or parts of footwear (shoe soles, insoles, wedge heels) of cork",
+            "action": "Redirect to Chapter 64 (footwear) — Note 1(a). Cork-soled sandals → Ch.64. Cork shoe insoles → 64.06. Complete cork-wedge sandals → Ch.64",
+            "keywords": ["cork sole footwear", "cork sandal", "cork wedge shoe", "cork insole", "64.", "64.06"]
+        },
+        {
+            "condition": "Headgear or headgear parts of cork (cork helmets, cork sun topees/pith helmets)",
+            "action": "Redirect to Chapter 65 (headgear) — Note 1(b). Cork tropical helmets/pith helmets → 65.06 (other headgear). Cork hat brim → 65.07",
+            "keywords": ["cork helmet", "pith helmet cork", "cork hat", "65.06", "65."]
+        },
+        {
+            "condition": "Toys, games and sports articles of cork (badminton shuttlecocks, toy corks)",
+            "action": "Redirect to Chapter 95 — Note 1(c). Badminton shuttlecock cork base → 95.06. Cork dart board → 95.04",
+            "keywords": ["shuttlecock cork", "cork dart board", "toy cork", "95.04", "95.06"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: 45.01 (raw/waste cork) vs 45.02 (semi-worked natural cork) vs 45.03 (articles of natural cork) vs 45.04 (agglomerated/articles thereof)",
+            "description": "Ch.45 progression: 45.01 = RAW/MINIMALLY PROCESSED CORK (raw bark, waste, crushed/granulated/ground cork). 45.02 = SEMI-WORKED NATURAL CORK (debacked, roughly squared, cut into rectangular blocks/plates/sheets — still natural cork piece, not yet a recognisable article). 45.03 = ARTICLES OF NATURAL CORK (specific shaped items: corks, stoppers, tiles, discs — recognisable finished forms). 45.04 = AGGLOMERATED CORK (cork particles bonded with or without binding agent, plus all articles thereof — including agglomerated stoppers, floor tiles, insulation sheets).",
+            "priority": 1
+        },
+        {
+            "rule": "45.03 (natural cork articles) vs 45.04 (agglomerated cork articles): material structure",
+            "description": "The key material distinction: NATURAL CORK (45.02/45.03) = the natural cellular structure retained intact — a single piece of cork bark, cut/shaped but not broken down and reconstituted. AGGLOMERATED CORK (45.04) = cork that has been GRANULATED/GROUND into particles and then BONDED TOGETHER under heat/pressure (with or without a binder). Agglomerated looks uniform; natural shows the original cell structure. Common agglomerated products: floor tiles (uniform), wine corks mixed with agglomerated, insulation board. Common natural cork: wine bottle stoppers (single piece), natural cork bulletin boards (thin sheet of natural cork).",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: Ch.45 (cork articles) vs Ch.64 (footwear including cork soles) vs Ch.68 (mineral/stone products) vs Ch.44 (wood)",
+            "description": "Cork is sometimes confused with: WOOD — cork is tree bark (not wood), exclusively from Quercus suber; properly classified in Ch.45, not Ch.44. STONE/MINERAL WOOLS — cork insulation boards are Ch.45; mineral wool/fibreglass insulation → Ch.68 (68.06). Cork floor coverings with applied backing → may migrate to Ch.68 or stay Ch.45 depending on whether cork is the primary material. FOOTWEAR: cork shoe soles and complete cork-soled sandals → Ch.64 (Note 1(a)). Bare cork sole blanks (not yet assembled into footwear) → 45.03 or 45.04.",
+            "priority": 3
+        },
+        {
+            "rule": "Agglomerated cork binding variants — all still 45.04",
+            "description": "Heading 45.04 covers agglomerated cork WHETHER OR NOT with a binding substance: BONDED with synthetic resin, rubber or other binder → 45.04. SELF-BONDED (no added binder — particles bonded under heat/pressure through natural suberin) → also 45.04. The presence/absence of a binder does NOT change the heading. Articles of agglomerated cork covered with a different material: if the cork is still the essential character → 45.04. If cork is a minor component in a composite product → classify by the dominant material.",
+            "priority": 4
+        }
+    ]
+}

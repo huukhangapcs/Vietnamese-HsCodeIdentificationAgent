@@ -1,0 +1,89 @@
+{
+    "chapter_code": "48",
+    "chapter_title": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+    "scope_note": "Note 1: 'paper' includes paperboard (regardless of thickness or weight). Note 3: 48.01–48.05 include calendered, glazed, false-watermarked or surface-sized paper, and coloured/marbled-in-mass paper. Note 7: paper answering to multiple headings 48.01–48.11 → classified in the LAST heading in numerical order. Note 8: 48.03–48.09 apply only to paper in strips/rolls >36 cm wide OR rectangular sheets with one side >36 cm and other side >15 cm. Note 12: paper printed with motifs/characters NOT merely subsidiary to primary use → Chapter 49.",
+    "inclusions": [
+        "Heading 48.01 — Newsprint, in rolls or sheets. Note 4: 'newsprint' = uncoated paper, ≥50% mechanical/chemi-mechanical wood fibres, unsized/very lightly sized, surface roughness >2.5 µm each side, 40–65 g/m², in rolls >28 cm or sheets with one side >28 cm and other >15 cm",
+        "Heading 48.02 — Uncoated paper and paperboard, of a kind used for writing, printing or other graphic purposes, and non-perforated punch-cards and punch tape paper, in rolls or rectangular sheets. Note 5: complex specification tests by weight (≤150 g/m² or >150 g/m²) covering ash content, brightness, caliper and burst index. Excludes filter paper, tea-bag paper, felt paper",
+        "Heading 48.03 — Toilet or facial tissue stock, towel or napkin stock and similar paper of a kind used for household or sanitary purposes, cellulose wadding and webs of cellulose fibres, whether or not creped, crinkled, embossed, perforated, surface-coloured, surface-decorated or printed, in rolls or sheets",
+        "Heading 48.04 — Uncoated kraft paper and paperboard, in rolls or sheets, other than that of heading 48.02 or 48.03. Note 6: 'kraft paper and paperboard' = ≥80% by weight chemical sulphate or soda process fibres. Subheading Notes: kraftliner (4804.11/4804.19), sack kraft (4804.21/4804.29)",
+        "Heading 48.05 — Other uncoated paper and paperboard, in rolls or sheets, not further worked or processed than as specified in Note 3: greaseproof paper, glassine, composite papers, corrugating medium, fluting paper. Subheading Notes: semi-chemical fluting (4805.11), straw fluting (4805.12), testliner (4805.24/4805.25), sulphite wrapping (4805.30)",
+        "Heading 48.06 — Vegetable parchment, greaseproof papers, tracing papers and glassine and other glazed transparent or translucent papers, in rolls or sheets",
+        "Heading 48.07 — Composite paper and paperboard (made by sticking flat layers of paper or paperboard together with an adhesive), not surface-coated or impregnated, in rolls or sheets",
+        "Heading 48.08 — Paper and paperboard, corrugated (with or without glued flat surface sheets), creped, crinkled, embossed or perforated, in rolls or sheets, other than paper of the kind described in heading 48.03",
+        "Heading 48.09 — Carbon paper, self-copy paper and other copying or transfer papers (other than those of heading 48.16), hectograph or stencil duplicating masters, whether or not printed, in rolls or sheets",
+        "Heading 48.10 — Paper and paperboard, coated on one or both sides with kaolin (china clay) or other inorganic substances, with or without binder, in rolls or sheets. Subheading Note 7: 'light-weight coated paper' (4810.22) = coated both sides, total ≤72 g/m², coating ≤15 g/m² per side, ≥50% mechanical pulp fibres",
+        "Heading 48.11 — Paper, paperboard, cellulose wadding and webs of cellulose fibres, coated, impregnated, covered, surface-coloured or surface-decorated or printed, in rolls or rectangular sheets (other than 48.03, 48.09, 48.10, goods of Ch.49): includes bituminised/tarred paper, asphalt paper, flock-coated paper, silicone-release paper",
+        "Heading 48.12 — Filter blocks, slabs and plates, of paper pulp",
+        "Heading 48.13 — Cigarette paper, whether or not cut to size or in the form of booklets or tubes",
+        "Heading 48.14 — Wallpaper and similar wall coverings; window transparencies of paper. Note 9: 'wallpaper' = paper in rolls 45–160 cm wide, decorated/grained/embossed/printed, suitable for wall/ceiling decoration. Also borders/friezes; multi-panel wall coverings printed to make a scene. Paper/paperboard usable as BOTH floor and wall covering → 48.23",
+        "Heading 48.15 — Floor coverings on a base of paper or paperboard, whether or not cut to size",
+        "Heading 48.16 — Carbon paper, self-copy paper and other copying or transfer papers (other than those of heading 48.09), stencil masters and offset plates, of paper, whether or not put up in boxes",
+        "Heading 48.17 — Envelopes, letter cards, plain postcards and correspondence cards, of paper or paperboard; boxes, pouches, wallets and writing compendiums, of paper or paperboard, containing an assortment of paper stationery",
+        "Heading 48.18 — Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls not exceeding 36 cm in width or in rectangular flat sheets; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, napkins for babies, tampons, bed sheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres",
+        "Heading 48.19 — Cartons, boxes, cases, bags and other packing containers, of paper, paperboard, cellulose wadding or webs of cellulose fibres; box files, letter trays, and similar articles, of paper or paperboard of a kind used in offices, shops or the like",
+        "Heading 48.20 — Registers, account books, notebooks, order books, receipt books, letter pads, memorandum pads, diaries and similar articles, exercise books, blotting-pads, binders (loose-leaf or other), folders, file covers, multi-ply manifold business forms, interleaved carbon sets and other articles of stationery, of paper or paperboard. Note 10: 48.20 does NOT cover LOOSE SHEETS OR CARDS cut to size",
+        "Heading 48.21 — Paper or paperboard labels of all kinds, whether or not printed",
+        "Heading 48.22 — Bobbins, spools, cops and similar supports of paper pulp, paper or paperboard",
+        "Heading 48.23 — Other paper, paperboard, cellulose wadding and webs of cellulose fibres, cut to size or shape; other articles of paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres. Note 11: includes perforated Jacquard cards and paper lace. Products usable as BOTH floor AND wall coverings → 48.23"
+    ],
+    "exclusions": [
+        {
+            "condition": "Paper impregnated/coated with medicinal substances (pharmaceutical preparations)",
+            "action": "Redirect to Chapter 30 — Note 2(a). Medicated paper dressings → Ch.30",
+            "keywords": ["medicated paper", "pharmaceutical paper", "30."]
+        },
+        {
+            "condition": "Paper reinforced with plastics where plastics constitutes more than half the total thickness; or articles thereof (except wallpaper 48.14)",
+            "action": "Redirect to Chapter 39 (plastics) — Note 2(g). When plastic layer >50% total thickness → Ch.39. Plastic-coated paper where plastic is thin layer → stays in Ch.48",
+            "keywords": ["plastic laminated paper thick", "paper-reinforced plastic sheet", "plastic more than 50% thickness", "39."]
+        },
+        {
+            "condition": "Paper yarn and textile articles of paper yarn",
+            "action": "Redirect to Section XI (textiles) — Note 2(k). Paper twisted into yarn → 53.08. Woven fabric of paper yarn → 53.11",
+            "keywords": ["paper yarn", "textile paper yarn", "spun paper yarn", "53.08", "53.11"]
+        },
+        {
+            "condition": "Abrasive paper or paperboard (sandpaper — abrasive grains on paper backing)",
+            "action": "Redirect to heading 68.05 — Note 2(m). Sandpaper, emery paper → 68.05. Paper coated with mica POWDER (decorative/paint additive) → stays in Ch.48",
+            "keywords": ["sandpaper", "abrasive paper", "emery paper", "68.05"]
+        },
+        {
+            "condition": "Playing cards, toys, games articles of paper (Chapter 95); buttons, sanitary towels/tampons/diapers of paper (Chapter 96)",
+            "action": "Redirect to Ch.95 or Ch.96 — Note 2(p)(q). Paper party games → Ch.95. Disposable paper diapers/sanitary pads → 96.19",
+            "keywords": ["paper toy", "paper game", "paper diaper", "paper sanitary pad", "95.", "96.19"]
+        },
+        {
+            "condition": "Paper printed with motifs/characters/pictures where printing is NOT merely subsidiary to primary use of the goods",
+            "action": "Redirect to Chapter 49 (printed books, newspapers, printed matter) — Note 12. Toilet paper with decorative border → stays in Ch.48 (printing subsidiary to use). Wrapping paper with a story printed on it → borderline. Postcards/greeting cards → 49.09. Books → 49.01",
+            "keywords": ["printed paper primary", "paper book printed", "49."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 7 — 'Last heading' rule for paper answering multiple 48.01–48.11 headings",
+            "description": "When a paper/paperboard product could be classified in two or more headings 48.01–48.11, it is classified in the NUMERICALLY LAST heading. This prevents ambiguity for papers with multiple characteristics. Example: a paper that is both 'newsprint character' (48.01) AND 'printing/writing paper' (48.02) → 48.02 (last). A paper both 48.04 (kraft) and 48.10 (coated) → 48.10. This rule does NOT apply to headings 48.12–48.23 (those have specific descriptions). Exception noted in Note 7: 'except where the terms of the headings otherwise require'.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 8 — Size/width restriction: headings 48.03–48.09 apply only to large-format paper",
+            "description": "Headings 48.03–48.09 (in unworked paper/paperboard category) apply ONLY to paper in: rolls with width >36 cm, OR rectangular sheets with any side >36 cm AND other side >15 cm. Paper in smaller sizes in these categories → must be classified in headings 48.10 onward or as cut-to-size articles (48.23). This prevents small-cut paper pieces from going into the basic paper headings. Note this restriction applies to 48.03–48.09 only, not 48.01/48.02.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 12 — Ch.48 vs Ch.49: when printing moves paper to Chapter 49",
+            "description": "Paper printed with motifs/characters/pictures: if the printing is NOT MERELY SUBSIDIARY to the primary use → Chapter 49. If printing IS subsidiary → stays in Ch.48. Test: what is the primary function/use of the article? PAPER for writing/wrapping with decorative border → printing subsidiary, stays in Ch.48. A BOOK or NEWSPAPER → printing is the primary function → Ch.49. Exceptions: wallpaper (48.14) and paper labels (48.21) have printed motifs but stay in Ch.48 per Note 12.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: kraft paper headings — 48.04 (uncoated kraft) vs 48.10 (coated kraft) vs 48.11 (otherwise treated kraft)",
+            "description": "Kraft paper (≥80% sulphate/soda process fibres — Note 6) appears in multiple headings by treatment: UNCOATED → 48.04. COATED with kaolin or inorganic substances → 48.10 (due to Note 7 last-heading rule). OTHERWISE impregnated/coated (bitumen, polyethylene, wax) → 48.11. CORRUGATED kraft → 48.08. Made-up packaging (boxes, bags) of kraft → 48.19. Sack kraft (subheading): machine-finished, 60–115 g/m², specific burst/stretch specifications → 4804.21/4804.29.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 9 — Wallpaper (48.14) vs textile wall coverings (59.05) vs plastic wall panels",
+            "description": "Wall covering classification by base material and construction: PAPER-BASE wall coverings (rolls 45–160 cm wide, decorated/embossed for wall decoration) → 48.14. TEXTILE-SURFACE wall coverings (textile surface on backing, ≥45 cm wide rolls) → 59.05. Flock-on-paper (paper base, flock surface) → 48.14 (per Ch.59 Note 4). Flock-on-textile backing → 59.07. Plastic wall panels/sheeting → Ch.39. Paper/paperboard usable as BOTH floor AND wall covering → 48.23 (per Note 9 last paragraph). Borders and friezes of paper for wall decoration → 48.14.",
+            "priority": 5
+        }
+    ]
+}

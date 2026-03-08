@@ -1,5 +1,6 @@
 {
     "chapter_code": "15",
+    "chapter_title": "Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",
     "inclusions": [
         "Animal, vegetable or microbial fats and oils and their cleavage products",
         "Prepared edible fats",
@@ -93,6 +94,23 @@
                 "oils",
                 "undenatured"
             ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: Ch.15 (animal/vegetable fats and oils) vs Ch.33 (essential oils) vs Ch.34 (soap/lubricants)",
+            "description": "Chapter 15 = fixed fats and oils (fatty acids/glycerides) for food or industrial use. Ch.33 = volatile essential oils (aromatic/perfumery, e.g., olive essential oil for fragrance). Ch.34 = soaps, lubricating preparations, waxes. The fixed vs. volatile nature, and degree of processing, separate these chapters.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: edible vs industrial fats/oils within Ch.15",
+            "description": "Both edible (olive oil, palm oil, soybean oil) and industrial fats (technical-grade tallow, linseed oil for paint) classify in Ch.15 headings. The chapter does not split by food vs. non-food use; classification is by source/type of fat/oil. The specific heading (15.07 soybean, 15.09 olive, 15.11 palm, etc.) is determined by botanical/animal source.",
+            "priority": 2
+        },
+        {
+            "rule": "Crude vs refined oils within Ch.15",
+            "description": "Crude vegetable oils (directly expressed or extracted, not purified) → specific oil heading (e.g., 15.07–15.15). Refined, bleached or deodorised → same specific oil heading. Hydrogenated, interesterified or otherwise chemically modified fats → 15.16. Margarine → 15.17. The degree of chemical modification determines the sub-heading within Ch.15.",
+            "priority": 3
         }
     ]
 }

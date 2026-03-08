@@ -53,7 +53,20 @@ class CustomEmbeddingFunction(embedding_functions.EmbeddingFunction):
 embed_fn = CustomEmbeddingFunction()
 
 # Khởi tạo Chroma Client lưu trên ổ cứng
-client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
+# ── chromadb version compatibility ──────────────────────────────────────────
+# v0.3.x uses chromadb.Client(Settings(...)) — PersistentClient is v0.4+
+try:
+    # Try v0.4+ API first
+    client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
+except AttributeError:
+    # Fallback to v0.3.x API
+    from chromadb.config import Settings as ChromaSettings
+    client = chromadb.Client(ChromaSettings(
+        chroma_db_impl="duckdb+parquet",
+        persist_directory=CHROMA_DB_PATH,
+        anonymized_telemetry=False
+    ))
+# ─────────────────────────────────────────────────────────────────────────────
 
 print("Creating/Connecting Collections...")
 # Tạo 2 Collection: 1 cho Danh mục hàng hóa (Nodes), 1 cho Chú giải pháp lý (Rules)
@@ -178,6 +191,24 @@ def build_rules():
                 doc = f"Inclusion Rule for Chapter {chapter_id}: Covers {desc}"
                 documents.append(doc)
                 metadatas.append({"level": "chapter", "chapter_id": chapter_id, "type": "inclusion", "description": desc})
+                ids.append(str(uuid.uuid4()))
+
+            # P1 FIX: Index classification_rules into hs_rules collection
+            for idx, crule in enumerate(rules_data.get("classification_rules", [])):
+                rule_title = crule.get("rule", "")
+                rule_desc = crule.get("description", "")
+                priority = crule.get("priority", 99)
+                # Combine rule title + description for rich semantic embedding
+                doc = f"Classification Rule for Chapter {chapter_id} (priority {priority}): {rule_title}. {rule_desc}"
+                documents.append(doc)
+                metadatas.append({
+                    "level": "chapter",
+                    "chapter_id": chapter_id,
+                    "type": "classification_rule",
+                    "rule": rule_title[:200],
+                    "description": rule_desc[:500],
+                    "priority": priority
+                })
                 ids.append(str(uuid.uuid4()))
 
     if documents:

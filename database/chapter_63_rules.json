@@ -1,0 +1,66 @@
+{
+    "chapter_code": "63",
+    "chapter_title": "Other made up textile articles; sets; worn clothing and worn textile articles; rags",
+    "scope_note": "Note 1: Sub-Chapter I (63.01–63.08) applies only to MADE-UP ARTICLES of any textile fabric. Note 2: Sub-Chapter I does NOT cover goods of Ch.56–62 or worn clothing of 63.09. Subheading Note 1: 6304.20 = articles from warp knit fabrics impregnated/coated with specified insecticides (alpha-cypermethrin, chlorfenapyr, deltamethrin, lambda-cyhalothrin, permethrin, pirimiphos-methyl).",
+    "inclusions": [
+        "Heading 63.01 — Blankets and travelling rugs (of all textile materials — wool, cotton, man-made fibres, etc.)",
+        "Heading 63.02 — Bed linen, table linen, toilet linen and kitchen linen",
+        "Heading 63.03 — Curtains (including drapes) and interior blinds; curtain or bed valances",
+        "Heading 63.04 — Other furnishing articles, excluding those of heading 94.04 (bedding): bedspreads, cushion covers, wall hangings, mosquito nets. Subheading 6304.20: mosquito nets of warp knit fabric impregnated/coated with listed insecticides",
+        "Heading 63.05 — Sacks and bags, of a kind used for the packing of goods (jute bags, polypropylene woven bags, cotton sacks, etc.)",
+        "Heading 63.06 — Tarpaulins, awnings and sunblinds; tents (including temporary canopies and similar articles); sails for boats, sailboards or land craft; camping goods (e.g., pneumatic mattresses of textile)",
+        "Heading 63.07 — Other made up articles, including dress patterns: floorcloths, dishcloths, dusters, face cloths, shoe-cleaning cloths, life jackets and life belts, flags, banners, pennants, hunting, labels, badges, motifs",
+        "Heading 63.08 — Sets consisting of woven fabric and yarn, whether or not with accessories, for making up into rugs, tapestries, embroidered tablecloths or serviettes, or similar textile articles, put up in packings for retail sale",
+        "Heading 63.09 — Worn clothing and other worn articles. Note 3: 63.09 applies ONLY to: (a)(i) clothing/accessories and parts thereof; (a)(ii) blankets and travelling rugs; (a)(iii) bed/table/toilet/kitchen linen; (a)(iv) furnishing articles (not carpets 57.01–57.05 or tapestries 58.05); (b) footwear and headgear of any material (not asbestos). BOTH conditions required: (i) must show signs of APPRECIABLE WEAR; AND (ii) must be presented IN BULK or in bales, sacks or similar packings",
+        "Heading 63.10 — Used or new rags, scrap twine, cordage, rope and cables and worn out articles of twine, cordage, rope or cables, of textile materials"
+    ],
+    "exclusions": [
+        {
+            "condition": "Goods of Chapters 56–62 that happen to be made-up textile articles",
+            "action": "Remain in Ch.56–62 — Note 2(a). Sub-Chapter I (63.01–63.08) specifically gives way to Ch.56–62. Knitted clothing → Ch.61. Woven clothing → Ch.62. Wadding, felt articles → Ch.56. Textile floor coverings → Ch.57. Special textile fabrics → Ch.58/59",
+            "keywords": ["clothing knitted", "clothing woven", "felt article", "floor covering textile", "61.", "62.", "56.", "57.", "58.", "59."]
+        },
+        {
+            "condition": "Worn clothing or other worn articles meeting 63.09 criteria, presented within Sub-Chapter I context",
+            "action": "Redirect to heading 63.09 — Note 2(b). Used/worn items that show appreciable wear AND are in bulk — always → 63.09 regardless of article type",
+            "keywords": ["worn clothing bulk", "used textile bulk", "second-hand clothing bale", "63.09"]
+        },
+        {
+            "condition": "Bedding articles (mattress supports, mattresses, pillows, sleeping bags) — functional bedding",
+            "action": "Redirect to heading 94.04 (mattress supports; articles of bedding and similar furnishing) — Bedspreads and cushion covers → 63.04. But STUFFED/FILLED functional bedding (pillows, duvets, sleeping bags, mattresses) → 94.04",
+            "keywords": ["pillow stuffed", "duvet filled", "sleeping bag", "mattress", "94.04"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 3 — Heading 63.09: BOTH conditions (appreciable wear + bulk packaging) are mandatory",
+            "description": "Heading 63.09 is strictly conditional: the article must BOTH (1) show signs of APPRECIABLE WEAR (clearly used, not just soiled or slightly damaged — must be worn through normal use), AND (2) be presented IN BULK or in bales, sacks, or similar packings. Either condition alone is insufficient. A neatly packaged individual used garment presented for retail → NOT 63.09. Bulk compressed bales of assorted used clothing with visible wear marks → 63.09. New overstock clothing in bales → NOT 63.09 (no wear). Note 3 also limits the TYPES of articles that can be 63.09 — worn carpets do NOT qualify (carpets are excluded from 63.09(a)(iv)).",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: 63.01–63.07 (made-up textile articles) vs Ch.57 (carpets) vs Ch.61/62 (clothing) vs Ch.94 (furniture/bedding)",
+            "description": "Sub-Chapter I (63.01–63.07) is a secondary chapter — it applies only when goods are NOT covered by Ch.56–62 or Ch.94: Textile floor coverings (carpets, rugs, mats) → Ch.57 (57.01–57.05), not 63.04. Clothing (knitted or woven) → Ch.61 or Ch.62. Stuffed/filled bedding (pillows, mattresses, sleeping bags) → 94.04. What remains for Ch.63: household linen (bed, table, kitchen, bath), curtains, bags/sacks, tarpaulins/tents/sails, flags, cloths, cleaning cloths, life jackets.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 63.02 (bed/table/toilet/kitchen linen) vs 63.04 (other furnishing articles) vs 94.04 (bedding)",
+            "description": "63.02 = LINEN: flat textiles used for covering/covering surfaces — bed sheets, pillowcases, duvet covers, tablecloths, napkins, towels, bath mats, tea towels, dishcloths. 63.04 = OTHER FURNISHING ARTICLES: bedspreads (decorative top covers, not filled), cushion covers (not filled), wall hangings, mosquito nets. 94.04 = FILLED/STUFFED bedding articles: pillows WITH filling, duvets WITH filling, sleeping bags, mattresses. Key test: is it flat linen (63.02), decorative/unfilled furnishing (63.04), or filled/stuffed functional bedding (94.04)?",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 63.05 (packing sacks/bags) vs 42.02 (travel/shopping bags) vs 63.07 (other made-up articles)",
+            "description": "63.05 = sacks and bags for PACKING OF GOODS (industrial/commercial packaging: jute grain sacks, polypropylene woven bags for fertiliser, cotton flour sacks, big bags/bulk containers). 42.02 = personal carrying bags (travel bags, shopping bags, handbags — designed for personal use to carry personal belongings). 63.07 = other made-up articles not in 63.01–63.06. Shopping bags of woven polypropylene for retail consumers → often 42.02. Industrial bulk packaging bags → 63.05. The intended USE (packaging goods in commerce vs personal carrying) is key.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 63.06 (tarpaulins/tents/sails/camping goods) vs Ch.62 (clothing) vs Ch.87/89 (vehicle covers)",
+            "description": "63.06 = textile outdoor/camping articles: tarpaulins (rectangular sheets for covering), awnings/sunblinds, TENTS (all types including temporary canopies), sails (for boats/sailboards/land craft), pneumatic camping mattresses, and similar camping goods. Clothing with weather-protection features → Ch.61/62 (clothing character). Fitted vehicle covers (car covers shaped to fit specific model) → may be 63.07 (other made-up articles). Sails for boats → 63.06 regardless of technical design. Inflatable camping mattress of textile → 63.06.",
+            "priority": 5
+        },
+        {
+            "rule": "Subheading Note — 6304.20: insecticide-impregnated mosquito nets (specific listed chemicals only)",
+            "description": "Subheading 6304.20 covers mosquito nets of warp knit fabrics impregnated or coated with SPECIFICALLY LISTED insecticides: alpha-cypermethrin, chlorfenapyr, deltamethrin, lambda-cyhalothrin, permethrin, or pirimiphos-methyl. Mosquito nets with other insecticides or untreated → other subheadings of 63.04. The specific chemical compound AND the warp-knit construction are both required for 6304.20.",
+            "priority": 6
+        }
+    ]
+}

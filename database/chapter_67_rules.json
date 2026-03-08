@@ -1,0 +1,89 @@
+{
+    "chapter_code": "67",
+    "chapter_title": "Prepared feathers and down and articles made of feathers or of down; artificial flowers; articles of human hair",
+    "inclusions": [
+        "Heading 67.01 — Skins and other parts of birds with their feathers or down, feathers, parts of feathers, down and articles thereof (other than goods of heading 05.05 and worked quills and scapes). Note 2(a): 67.01 does NOT cover articles where feathers/down are merely FILLING or PADDING (e.g., duvet → 94.04). Note 2(b): excludes apparel/accessories where feathers/down are merely trimming or padding. Note 2(c): excludes artificial flowers/foliage of 67.02",
+        "Heading 67.02 — Artificial flowers, foliage and fruit and parts thereof; articles made of artificial flowers, foliage or fruit. Note 3(a): 67.02 does NOT cover articles of glass (→ Ch.70). Note 3(b): excludes artificial flowers obtained in ONE PIECE by moulding, forging, carving, stamping or assembled by methods OTHER THAN binding, glueing, fitting into one another or similar flexible assembly methods",
+        "Heading 67.03 — Human hair, dressed, thinned, bleached or otherwise worked; wool or other animal hair or other textile materials, prepared for use in making wigs or the like",
+        "Heading 67.04 — Wigs, false beards, eyebrows and eyelashes, switches and the like, of human or animal hair or of textile materials; articles of human hair not elsewhere specified or included"
+    ],
+    "exclusions": [
+        {
+            "condition": "Filtering or straining cloth made of human hair",
+            "action": "Redirect to heading 59.11 (textile products for technical uses) — Note 1(a). Human hair filter cloth → 59.11, not 67.04",
+            "keywords": ["human hair filter cloth", "hair straining cloth", "59.11"]
+        },
+        {
+            "condition": "Floral motifs of lace, embroidery or other textile fabric",
+            "action": "Redirect to Section XI (textiles — Ch.50–63) — Note 1(b). Embroidered flowers on fabric → textile chapter by material. Only separately assembled artificial flowers → 67.02",
+            "keywords": ["embroidered flower", "lace floral motif", "textile floral decoration", "56.", "58."]
+        },
+        {
+            "condition": "Footwear decorated with feathers or artificial flowers",
+            "action": "Redirect to Chapter 64 (footwear) — Note 1(c). Feather trimming does not remove footwear from Ch.64",
+            "keywords": ["footwear feather decoration", "shoe feather trim", "64."]
+        },
+        {
+            "condition": "Headgear or hair-nets (even if decorated with feathers or artificial flowers)",
+            "action": "Redirect to Chapter 65 (headgear) — Note 1(d). Feathered hats, fascinators classified in Ch.65 as headgear",
+            "keywords": ["feathered hat", "fascinator feather", "hair net", "65."]
+        },
+        {
+            "condition": "Toys, sports requisites or carnival articles made of feathers or artificial flowers",
+            "action": "Redirect to Chapter 95 — Note 1(e). Feather boas for costume/carnival → Ch.95 if carnival article. Badminton shuttlecock (feather) → 95.06 (sports requisite)",
+            "keywords": ["carnival feather article", "toy feather", "badminton shuttlecock", "feather boa carnival", "95.06", "95."]
+        },
+        {
+            "condition": "Feather dusters, powder-puffs or hair sieves",
+            "action": "Redirect to Chapter 96 (miscellaneous manufactured articles) — Note 1(f). Feather duster → 96.03. Powder puff → 96.16. Hair sieve → 96.04",
+            "keywords": ["feather duster", "powder puff", "hair sieve", "96.03", "96.16"]
+        },
+        {
+            "condition": "Bedding, cushions and similar furnishing articles stuffed or filled with feathers or down",
+            "action": "Redirect to heading 94.04 (mattress supports; articles of bedding) — Note 2(a). Feather/down pillows, duvets, cushions → 94.04. Feathers/down are merely the filling material",
+            "keywords": ["feather pillow", "down duvet", "feather cushion", "down comforter", "feather stuffing bedding", "94.04"]
+        },
+        {
+            "condition": "Apparel or clothing accessories in which feathers or down constitute no more than mere trimming or padding",
+            "action": "Redirect to appropriate apparel chapter (Ch.61 or Ch.62) — Note 2(b). A down jacket where down is insulation fill → 61.01/62.01. A garment with feather trim on collar → Ch.61/62. Only articles WHERE FEATHERS ARE THE PRIMARY CHARACTER classify in 67.01",
+            "keywords": ["down jacket", "feather trim coat", "down filled coat", "feather padded vest", "61.", "62."]
+        },
+        {
+            "condition": "Artificial flowers, foliage or fruit made of glass",
+            "action": "Redirect to Chapter 70 (glass and glassware) — Note 3(a). Glass flowers → 70.13 or 70.18. Only non-glass artificial flowers → 67.02",
+            "keywords": ["glass flower artificial", "glass rose", "glass foliage", "70.18", "70.13"]
+        },
+        {
+            "condition": "Artificial flowers obtained in one piece by moulding, forging, carving or stamping, or assembled by rigid/permanent methods other than binding/glueing/fitting",
+            "action": "Redirect to heading by material — Note 3(b). A moulded plastic daisy (one piece) → Ch.39. A carved wooden flower → Ch.44. A stamped metal flower → base metal chapter. Only multi-part assembled artificial flowers (bound, glued, fitted together) qualify for 67.02",
+            "keywords": ["moulded plastic flower", "cast resin flower", "carved wood flower", "stamped metal flower", "39.", "44."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Heading 67.01: feathers/down must be the PRIMARY CHARACTER of the article",
+            "description": "Heading 67.01 applies when feathers or down are the DEFINING feature of the article. THREE exclusions: (a) Articles where feathers/down are only FILLING or PADDING → classified by the article's function (pillow → 94.04, jacket → Ch.61/62). (b) Apparel/accessories with feathers as TRIMMING or minor decoration → classified as apparel (Ch.61/62). (c) Artificial flowers of 67.02 are explicitly excluded. Real feather decorative items (feather boutonnieres, feather boas as accessories not carnival, bird skins with feathers for decoration) → 67.01.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 3 — Heading 67.02: artificial flowers must be multi-part and flexibly assembled",
+            "description": "Heading 67.02 applies to artificial flowers, foliage and fruit that are MULTI-COMPONENT and assembled by FLEXIBLE methods (binding, glueing, fitting into one another, similar). EXCLUDED: (a) Glass articles → Ch.70. (b) Single-piece articles made by moulding, forging, carving, stamping → classified by material (plastic → Ch.39; metal → base metal chapter; wood → Ch.44; ceramic → Ch.69). A plastic rose assembled from separately formed petals, leaves and stem → 67.02. A moulded one-piece plastic flower → Ch.39.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 67.01 (real feather/down articles) vs 94.04 (feather-filled bedding) vs Ch.61/62 (down clothing)",
+            "description": "The essential character test determines classification: (1) Is the feather/down the FUNCTIONAL FILL of a bedding article (pillow, duvet, cushion)? → 94.04. (2) Is it the INSULATION FILL of a garment? → apparel chapter (Ch.61/62). (3) Is it the PRIMARY MATERIAL/VISIBLE CHARACTER of the article (feather flower arrangement, decorative bird skin, feather cape for costume performance)? → 67.01. The visibility, structural role, and character-giving quality of the feathers determines the heading.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 67.02 (artificial flowers) vs Ch.39/44/69/73 (material chapters) based on production method",
+            "description": "Artificial flowers split by production method: ASSEMBLED multi-part (bound/glued/fitted) → 67.02 regardless of material (plastic, paper, fabric, feather-based). SINGLE-PIECE formed by industrial process → classified by material: plastic → Ch.39; wood → Ch.44; ceramic → Ch.69; metal → base metal chapter; glass → Ch.70. This production method test is often decisive for plastics: a silk-like polyester artificial flower with wire stem assembled from separate parts → 67.02. An injection-moulded plastic decorative flower formed whole → Ch.39.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 67.03/67.04 (human/animal hair articles) vs Section XI (textile materials containing hair) vs Ch.65 (headgear)",
+            "description": "67.03 = human hair or animal hair/textile materials PREPARED for wig-making (worked, dressed, bleached — but not yet assembled into a wig). 67.04 = FINISHED wigs, false beards, eyebrows, eyelashes, switches; and other articles of human hair NES. Section XI (Ch.61/62/63) = garments or accessories where animal hair is the TEXTILE FIBRE of the fabric (e.g., cashmere sweater — animal hair spun into yarn then woven → Ch.61). Ch.65 = complete headgear of any material (hair wigs attached to hats or headbands → Ch.65 may apply if character is headgear; standalone wig → 67.04).",
+            "priority": 5
+        }
+    ]
+}

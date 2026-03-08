@@ -1,0 +1,47 @@
+{
+    "chapter_code": "79",
+    "chapter_title": "Zinc and articles thereof",
+    "inclusions": [
+        "Heading 79.01 — Unwrought zinc. Subheading Note definitions: (a) Zinc, not alloyed = metal ≥97.5% zinc by weight; (b) Zinc alloys = metallic substances where zinc predominates by weight over each other element AND total other elements >2.5% by weight; (c) Zinc dust = dust from condensation of zinc vapour, spherical particles with ≥80% by weight passing 63µm sieve, containing ≥85% metallic zinc by weight",
+        "Heading 79.02 — Zinc waste and scrap",
+        "Heading 79.03 — Zinc dust, powders and flakes (Subheading Note 1(c) defines zinc dust specifically by particle size and zinc purity)",
+        "Heading 79.04 — Zinc bars, rods, profiles and wire",
+        "Heading 79.05 — Zinc plates, sheets, strip and foil",
+        "Heading 79.06 — Zinc tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)",
+        "Heading 79.07 — Other articles of zinc: gutters, roof capping, skylight frames, zinc-based die castings, zinc anodes, zinc alloy wheels, monuments/ornaments of zinc"
+    ],
+    "exclusions": [
+        {
+            "condition": "Zinc compounds (zinc oxide, zinc sulphate, zinc chloride, zinc phosphate, etc.)",
+            "action": "Redirect to Chapter 28 (inorganic zinc compounds) or Chapter 29 (organic zinc compounds). Metallic zinc → Ch.79; chemical compounds of zinc → Ch.28/29",
+            "keywords": ["zinc oxide", "zinc sulphate", "zinc chloride", "zinc phosphate", "zinc carbonate", "28.", "29."]
+        },
+        {
+            "condition": "Zinc-coated (galvanised) steel or other base metals — zinc applied as coating/plating",
+            "action": "Redirect to the base metal substrate chapter: galvanised steel → Ch.72 (heading 72.10 or 72.14 etc.), galvanised copper → Ch.74. The zinc coating is incidental; the article is classified by the substrate metal",
+            "keywords": ["galvanised steel", "zinc coated steel", "galvanized iron", "zinc plated steel", "72.10", "72.14"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Subheading Note 1 — Three definitions for zinc subheading classification",
+            "description": "(a) Zinc NOT alloyed: ≥97.5% zinc by weight. (b) Zinc alloys: zinc predominates over each other element by weight AND total other elements >2.5% by weight (e.g., zinc-aluminium, zinc-copper, zinc-lead alloys used for die casting). (c) Zinc dust: obtained by CONDENSATION of zinc vapour, spherical particles, ≥80% by weight pass through 63µm sieve AND ≥85% metallic zinc content — distinguished from zinc powder (mechanically ground, typically larger and irregular particles). These definitions drive subheading splits within 79.01 and 79.03.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: Ch.79 (zinc metal) vs Ch.72 (galvanised steel) vs Ch.28 (zinc compounds)",
+            "description": "Three paths for zinc-related goods: (1) Zinc as the primary structural metal → Ch.79. (2) Zinc as a protective COATING on another metal substrate → classified by substrate (galvanised steel → Ch.72, galvanised wire → 73.17, galvanised tube → 73.06). The zinc coating does not change the chapter. (3) Zinc in compound form (oxide, salt, etc.) → Ch.28 or Ch.29. Decision sequence: compound? → Ch.28/29. Zinc coating on another metal? → substrate chapter. Zinc as principal structural material? → Ch.79.",
+            "priority": 2
+        },
+        {
+            "rule": "Zinc dust (79.03) vs zinc powder (79.03) vs zinc flakes (79.03) — all in same heading but defined differently",
+            "description": "Heading 79.03 covers three forms: (1) Zinc DUST = condensation product, spherical, fine (≥80% pass 63µm sieve, ≥85% metallic Zn) — used as reducing agent, anti-corrosion pigment. (2) Zinc POWDER = mechanically produced, coarser and less spherical than dust — used in batteries, chemical synthesis. (3) Zinc FLAKES = flat/lamellar particles, produced by cold rolling/milling — used in paints and coatings. All three classify in 79.03; the distinct definitions (Subheading Note 1(c)) matter for subheading determination of zinc dust vs. powder.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 79.07 (articles of zinc) vs Ch.83 (miscellaneous base metal articles) vs Ch.73 (iron/steel articles)",
+            "description": "When a zinc article corresponds to a functional description in Ch.83 (e.g., zinc padlocks, zinc fittings), heading 79.07 competes with Ch.83. Ch.83 coveres articles 'of base metal' which includes zinc — so specific Ch.83 headings take priority over the residual 79.07. Zinc padlocks → 83.01. Zinc hardware/fittings for doors/windows → 83.02. Zinc gutters and roofing elements (no more specific heading) → 79.07. Die-cast zinc car parts → typically Ch.87 (vehicle parts). General zinc castings with no specific heading → 79.07.",
+            "priority": 4
+        }
+    ]
+}

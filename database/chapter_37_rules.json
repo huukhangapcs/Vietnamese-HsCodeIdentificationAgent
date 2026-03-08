@@ -1,5 +1,6 @@
 {
     "chapter_code": "37",
+    "chapter_title": "Photographic or cinematographic goods",
     "inclusions": [
         "Heading 37.01 — Photographic plates and film in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in the flat, sensitised, unexposed, whether or not in packs",
         "Heading 37.02 — Photographic film in rolls, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in rolls, sensitised, unexposed",
@@ -13,17 +14,35 @@
         {
             "condition": "Separate chemically defined photographic chemicals (developers, fixers, sensitisers) not put up in retail form or measured portions",
             "action": "Redirect to Ch.28 (inorganic) or Ch.29 (organic) for bulk chemicals. 37.07 only covers preparations put up for photographic use in retail/measured form",
-            "keywords": ["bulk silver nitrate", "bulk sodium thiosulfate", "bulk hydroquinone developer", "bulk potassium bromide"]
+            "keywords": [
+                "bulk silver nitrate",
+                "bulk sodium thiosulfate",
+                "bulk hydroquinone developer",
+                "bulk potassium bromide"
+            ]
         },
         {
             "condition": "Waste or scrap of photographic materials (exposed/unexposed film scraps, waste photographic paper, spent fixer/developer solutions)",
             "action": "Chapter 37 Note 1 explicitly excludes waste or scrap — redirect to the appropriate waste heading (e.g., 84.19 for chemical processing equipment waste, or relevant waste chapter)",
-            "keywords": ["waste film", "scrap film", "photographic waste", "film scrap", "spent fixer", "spent developer", "waste photographic paper"]
+            "keywords": [
+                "waste film",
+                "scrap film",
+                "photographic waste",
+                "film scrap",
+                "spent fixer",
+                "spent developer",
+                "waste photographic paper"
+            ]
         },
         {
             "condition": "Cinematographic film that is unrecorded (blank) — not exposed",
             "action": "Unexposed blank film → 37.02 (unexposed film). Only exposed AND developed film goes to 37.06",
-            "keywords": []
+            "keywords": [
+                "blank unrecorded film cinematographic",
+                "unexposed cinema film",
+                "blank movie film",
+                "37.02"
+            ]
         }
     ],
     "classification_rules": [

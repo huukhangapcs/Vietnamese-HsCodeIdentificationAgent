@@ -1,0 +1,73 @@
+{
+    "chapter_code": "61",
+    "chapter_title": "Articles of apparel and clothing accessories, knitted or crocheted",
+    "scope_note": "Note 1: Ch.61 applies ONLY to made-up KNITTED OR CROCHETED articles. Note 9: left-over-right front closure = men's/boys'; right-over-left = women's/girls'; unidentifiable → women's/girls'. Note 10: articles may be made of metal thread.",
+    "inclusions": [
+        "Heading 61.01 — Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 61.03",
+        "Heading 61.02 — Women's or girls' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 61.04",
+        "Heading 61.03 — Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts, knitted or crocheted. Note 3(a): 'suit' = 2–3 pieces identical fabric, coat/jacket (≥4 panels) + lower garment (no braces/bibs). Includes morning dress, evening dress, dinner jacket suits. Note 3(b): 'ensemble' = several pieces identical fabric (not suits or 61.07/61.08/61.09), one upper + 1–2 lower garments — NOT track suits or ski suits (→ 61.12)",
+        "Heading 61.04 — Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts, knitted or crocheted",
+        "Heading 61.05 — Men's or boys' shirts, knitted or crocheted. Note 4: 61.05 excludes garments with pockets below waist, ribbed waistband/tightening at bottom, sleeveless garments, OR AVERAGE <10 stitches per linear cm (in each direction, 10×10 cm²). 'Shirts' = upper body, sleeves (long/short), full/partial opening from neckline",
+        "Heading 61.06 — Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted. Note 4: 61.06 excludes garments with pockets below waist or ribbed waistband/tightening at bottom, or <10 stitches per linear cm. 'Blouses' may be sleeveless",
+        "Heading 61.07 — Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted",
+        "Heading 61.08 — Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles, knitted or crocheted",
+        "Heading 61.09 — T-shirts, singlets and other vests, knitted or crocheted. Note 5: 61.09 does NOT cover garments with a drawstring, ribbed waistband or other means of tightening at the bottom",
+        "Heading 61.10 — Jerseys, pullovers, sweatshirts, waistcoats (vests) and similar articles, knitted or crocheted",
+        "Heading 61.11 — Babies' garments and clothing accessories, knitted or crocheted. Note 6(a): 'babies'' = body height ≤86 cm. Note 6(b): prima facie classifiable in BOTH 61.11 and another Ch.61 heading → ALWAYS 61.11",
+        "Heading 61.12 — Track suits, ski suits and swimwear, knitted or crocheted. Note 7: 'ski suits' = overall (one-piece) or ski ensemble (anorak/windcheater with zipper + trousers/breeches, same texture/style/composition, compatible sizes)",
+        "Heading 61.13 — Garments made up of knitted or crocheted fabrics of heading 59.03, 59.06 or 59.07. Note 8: prima facie classifiable in both 61.13 and other Ch.61 headings (except 61.11) → classify in 61.13",
+        "Heading 61.14 — Other garments, knitted or crocheted",
+        "Heading 61.15 — Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (e.g., stockings for varicose veins) and footwear without applied soles, knitted or crocheted",
+        "Heading 61.16 — Gloves, mittens and mitts, knitted or crocheted",
+        "Heading 61.17 — Other made up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories"
+    ],
+    "exclusions": [
+        {
+            "condition": "Goods of heading 62.12 (brassieres, girdles, corsets, braces, suspenders, garters)",
+            "action": "Redirect to heading 62.12 — Note 2(a). Heading 62.12 covers both knitted AND non-knitted corsetry — it belongs to Ch.62 and is excluded from Ch.61",
+            "keywords": ["brassiere", "bra", "girdle corset", "suspender belt", "garter belt", "62.12"]
+        },
+        {
+            "condition": "Worn clothing or other worn articles showing appreciable wear presented in bulk",
+            "action": "Redirect to heading 63.09 — Note 2(b). Used/worn knitted garments in bales/bulk → 63.09",
+            "keywords": ["worn knitted clothing", "used knitwear bulk", "second-hand sweater bale", "63.09"]
+        },
+        {
+            "condition": "Orthopaedic appliances, surgical belts, trusses and similar, even if of knitted material",
+            "action": "Redirect to heading 90.21 — Note 2(c). Knitted compression stockings prescribed as orthopaedic → 90.21. General graduated compression hosiery sold commercially → 61.15",
+            "keywords": ["orthopaedic knit support", "surgical compression stocking medical", "truss knitted", "90.21"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Ch.61 scope: ALL made-up knitted or crocheted clothing articles",
+            "description": "The defining characteristic of Ch.61 is the KNITTED OR CROCHETED construction of the fabric from which the garment is made up. This includes: warp knit, weft knit, crochet. It does NOT include woven, non-woven or felted fabrics (those → Ch.62 or other chapters). The garment must be MADE UP (assembled/cut + sewn, not just fabric in piece). Knitted fabric in rolls/pieces → Ch.60. Made-up knitted garments → Ch.61.",
+            "priority": 1
+        },
+        {
+            "rule": "Notes 6 and 8 — Priority headings: 61.11 (babies') and 61.13 (technical fabrics) override other headings",
+            "description": "Two priority headings in Ch.61 with cascade: (1) Heading 61.11 = babies' knitted garments (body height ≤86 cm) — Note 6(b): prima facie in both 61.11 and another Ch.61 heading → ALWAYS 61.11. (2) Heading 61.13 = garments of technical fabrics (59.03, 59.06, 59.07) — Note 8: prima facie in both 61.13 and other Ch.61 headings (except 61.11) → 61.13. Priority cascade: 61.11 (babies') > 61.13 (technical knit fabric) > other 61.xx headings.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 4 — Shirts (61.05) and blouses (61.06): stitch density and construction requirements",
+            "description": "Headings 61.05/61.06 have additional requirements beyond Ch.62 equivalents: garments must have AVERAGE ≥10 stitches per linear cm in EACH direction in a 10×10 cm area. Garments with <10 stitches per cm → classified elsewhere (typically 61.10 jerseys/pullovers or 61.14 other garments). Additionally excludes: pockets below the waist, ribbed waistband/tightening at bottom, and (for 61.05 only) sleeveless garments. The stitch density test is unique to knitted shirt headings.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 5 — T-shirts and vests (61.09): no drawstring or tightening at bottom",
+            "description": "Heading 61.09 (T-shirts, singlets, other vests) does NOT cover garments with a DRAWSTRING, RIBBED WAISTBAND or OTHER MEANS OF TIGHTENING AT THE BOTTOM. Garments with such features at the bottom → classified in 61.10 (jerseys/pullovers/sweatshirts) or 61.14 (other garments). A plain crew-neck T-shirt → 61.09. A hoodie with drawstring at hem → 61.10.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 61.09 (T-shirts/vests) vs 61.10 (jerseys/pullovers/sweatshirts) vs 61.05 (shirts)",
+            "description": "Three headings for knitted upper-body garments: 61.05 = knitted SHIRTS (sleeves required, front opening, ≥10 stitches/cm, no below-waist pockets or tightening at bottom — the 'fine knit shirt' heading). 61.09 = T-SHIRTS, singlets, other VESTS (simple upper body, no drawstring/ribbed hem — casual, no front opening required). 61.10 = JERSEYS, PULLOVERS, SWEATSHIRTS, waistcoats (heavier knitwear, may have ribbed hem/drawstring, includes hoodies, cardigans). 61.14 = other garments not fitting 61.01–61.13.",
+            "priority": 5
+        },
+        {
+            "rule": "Note 9 — Men's vs women's determination and default gender assignment",
+            "description": "Identical to Ch.62 Note 9: LEFT-OVER-RIGHT front closure → men's/boys'. RIGHT-OVER-LEFT → women's/girls'. Cut/style that clearly indicates one sex overrides the closure rule. Garments not identifiable as either → DEFAULT to WOMEN'S/GIRLS' headings. This matters for subheading selection in 61.03/61.04, 61.05/61.06, 61.07/61.08, 61.11/61.12 subheadings.",
+            "priority": 6
+        }
+    ]
+}

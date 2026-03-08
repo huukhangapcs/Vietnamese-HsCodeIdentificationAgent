@@ -1,0 +1,92 @@
+{
+    "chapter_code": "44",
+    "chapter_title": "Wood and articles of wood; wood charcoal",
+    "scope_note": "Note 2: 'densified wood' = wood subjected to chemical or physical treatment increasing density/hardness and improving mechanical/chemical/electrical resistance. Note 3: headings 44.14–44.21 apply equally to articles of particle board, fibreboard, laminated wood or densified wood. Note 6: 'wood' in Ch.44 headings also applies to BAMBOO and other woody-nature materials (except those in Ch.14 or as raw plaiting material).",
+    "inclusions": [
+        "Heading 44.01 — Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not in logs, briquettes, pellets or similar forms; wood pellets (subheading: cylindrical, diameter ≤25mm, length ≤100mm, ≤3% binder); wood briquettes (cross-section >25mm)",
+        "Heading 44.02 — Wood charcoal (including shell or nut charcoal), whether or not agglomerated. Excludes activated charcoal → 38.02",
+        "Heading 44.03 — Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared: logs and poles of all species",
+        "Heading 44.04 — Hoopwood; split poles; piles, pickets and stakes of wood, pointed but not sawn lengthwise; wooden sticks, roughly trimmed but not turned, bent or otherwise worked, suitable for the manufacture of walking-sticks, umbrellas, tool handles or the like; chipwood and the like",
+        "Heading 44.05 — Wood wool; wood flour",
+        "Heading 44.06 — Railway or tramway sleepers (cross-ties) of wood",
+        "Heading 44.07 — Wood sawn or chipped lengthwise, sliced or peeled, whether or not planed, sanded or end-jointed, of a thickness exceeding 6 mm: SAWNWOOD (lumber/timber). Subheadings: S-P-F (Spruce-Pine-Fir mixed stands, 4407.13); Hem-fir (Western hemlock and fir, 4407.14)",
+        "Heading 44.08 — Sheets for veneering (including those obtained by slicing laminated wood), for plywood or for similar laminated wood and other wood, sawn lengthwise, sliced or peeled, whether or not planed, sanded, spliced or end-jointed, of a thickness not exceeding 6 mm",
+        "Heading 44.09 — Wood (including strips and friezes for parquet flooring, not assembled) continuously shaped (tongued, grooved, rebated, chamfered, V-jointed, beaded, moulded, rounded or the like) along any of its edges, ends or faces, whether or not planed, sanded or end-jointed",
+        "Heading 44.10 — Particle board, oriented strand board (OSB) and similar board (for example, waferboard) of wood or other ligneous materials, whether or not agglomerated with resins or other organic binding substances",
+        "Heading 44.11 — Fibreboard of wood or other ligneous materials, whether or not bonded with resins or other organic substances: medium density fibreboard (MDF), hardboard, softboard",
+        "Heading 44.12 — Plywood, veneered panels and similar laminated wood. Includes marine plywood, structural plywood, decorative plywood",
+        "Heading 44.13 — Densified wood, in blocks, plates, strips or profile shapes. Note 2: densified = treated to increase density/hardness with improved mechanical strength",
+        "Heading 44.14 — Wooden frames for paintings, photographs, mirrors or similar objects",
+        "Heading 44.15 — Packing cases, boxes, crates, drums and similar packings, of wood; cable-drums of wood; pallets, box pallets and other load boards, of wood; pallet collars of wood",
+        "Heading 44.16 — Casks, barrels, vats, tubs and other coopers' products and parts thereof, of wood, including staves",
+        "Heading 44.17 — Tools, tool bodies, tool handles, broom or brush bodies and handles, of wood; boot or shoe lasts and trees, of wood. Note 5: 44.17 does NOT apply to tools where the working edge/surface is formed by Ch.82 Note 1 materials",
+        "Heading 44.18 — Builders' joinery and carpentry of wood, including cellular wood panels, assembled flooring panels, shingles and shakes",
+        "Heading 44.19 — Tableware and kitchenware, of wood (cutting boards, wooden spoons, salad bowls, chopsticks)",
+        "Heading 44.20 — Wood marquetry and inlaid wood; caskets and cases for jewellery or cutlery, and similar articles, of wood; statuettes and other ornaments, of wood; wooden articles of furniture not falling in Chapter 94",
+        "Heading 44.21 — Other articles of wood: wooden clothes pegs, clothes hangers, cotton reels/bobbins, toothpicks, matches (blanks), coffins, picture frames (not 44.14), etc."
+    ],
+    "exclusions": [
+        {
+            "condition": "Wood chips/shavings/powder used primarily in perfumery, pharmacy, or for insecticidal/fungicidal purposes (e.g. sandalwood chips, cedar chips for moth deterrence)",
+            "action": "Redirect to heading 12.11 — Note 1(a). Sandalwood chips → 12.11. Cedar aromatic wood for sachets → 12.11",
+            "keywords": ["sandalwood chip", "cedar chip aromatic", "wood perfumery chips", "insecticidal wood powder", "12.11"]
+        },
+        {
+            "condition": "Bamboo in rough/split form used primarily for plaiting; other woody-nature materials for plaiting",
+            "action": "Redirect to heading 14.01 (vegetable plaiting materials) — Note 1(b). Raw bamboo rods/splits for basketwork → 14.01. After processing into articles → Ch.46. Note 6 clarifies that wood headings in Ch.44 DO apply to bamboo, but the 14.01 exclusion for plaiting-purpose raw bamboo overrides",
+            "keywords": ["bamboo plaiting raw", "raw bamboo split", "rattan crude", "14.01"]
+        },
+        {
+            "condition": "Activated charcoal",
+            "action": "Redirect to heading 38.02 — Note 1(d). Activated charcoal for filters/purification → 38.02. Only non-activated wood charcoal → 44.02",
+            "keywords": ["activated charcoal", "activated carbon", "38.02"]
+        },
+        {
+            "condition": "Travel goods, handbags and similar articles of wood (heading 42.02)",
+            "action": "Redirect to heading 42.02 — Note 1(e). Wooden jewellery boxes with carrying handle/strap → 42.02. Decorative wooden boxes without carrying function → 44.20",
+            "keywords": ["wooden travel case", "wooden toiletry case with strap", "42.02"]
+        },
+        {
+            "condition": "Furniture, lamps/luminaires, prefabricated buildings of wood",
+            "action": "Redirect to Chapter 94 — Note 1(o). Wooden chairs, tables, beds, wardrobes → Ch.94. Wooden light fittings → 94.05. Prefabricated wooden buildings → 94.06",
+            "keywords": ["wooden chair", "wooden table", "wooden bed", "wood furniture", "94.01", "94.03", "94.06"]
+        },
+        {
+            "condition": "Toys, games, sports articles of wood",
+            "action": "Redirect to Chapter 95 — Note 1(p). Wooden toys, chess pieces, wooden bats, wooden skis (where wood is sports equipment) → Ch.95",
+            "keywords": ["wooden toy", "wooden chess piece", "wooden bat", "wood puzzle toy", "95."]
+        },
+        {
+            "condition": "Wooden articles of Chapter 96 (smoking pipes, pencils, buttons — except tool bodies/handles for 96.03)",
+            "action": "Redirect to Chapter 96 — Note 1(q). Wooden smoking pipes → 96.02. Wooden pencils → 96.09. Wooden buttons → 96.06. Exception: wooden bodies and handles for BRUSHES (heading 96.03) → stay in 44.17",
+            "keywords": ["wooden pipe smoking", "wooden pencil", "wooden button", "96.02", "96.09"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 6 — 'Wood' includes bamboo and other woody materials throughout Ch.44 headings",
+            "description": "Note 6 extends the meaning of 'wood' in all Ch.44 headings to include BAMBOO and other materials of a woody nature. So: 44.07 (sawnwood) applies to sawn bamboo boards. 44.10 (particle board) includes bamboo particle board. 44.11 (fibreboard) includes bamboo fibreboard. 44.12 (plywood) includes bamboo plywood. EXCEPTION: raw bamboo intended for plaiting → 14.01 (Note 1(b) overrides Note 6). Bamboo processed into articles → may be Ch.46 or Ch.44 depending on construction method.",
+            "priority": 1
+        },
+        {
+            "rule": "44.07 (sawnwood >6mm) vs 44.08 (veneer sheets ≤6mm) vs 44.09 (shaped/profiled wood): thickness and processing",
+            "description": "The thickness threshold and processing determines the heading: 44.07 = SAWNWOOD, thickness >6mm (lumber, timber planks — plain sawn or planed/sanded). 44.08 = VENEER SHEETS, thickness ≤6mm (thin sheets for veneering or plywood core). 44.09 = CONTINUOUSLY SHAPED wood (any thickness) with tongued/grooved/rebated/moulded profiles along edges/ends — regardless of thickness. Note 4: particle board/fibreboard boards (44.10/44.11/44.12) can be worked to 44.09 shapes without leaving Ch.44 (per Note 3 + Note 4). For flooring strips (parquet not assembled) → 44.09.",
+            "priority": 2
+        },
+        {
+            "rule": "44.10/44.11/44.12 — engineered wood panels: type of panel determines heading",
+            "description": "Three engineered wood panel headings: 44.10 = PARTICLE BOARD (wood chips/particles bonded with resin/adhesive; includes OSB — oriented strand board, waferboard). 44.11 = FIBREBOARD (wood fibres bonded — MDF/HDF = medium/high density; hardboard; softboard; insulation board). 44.12 = PLYWOOD (thin veneers cross-laminated with adhesive; also veneered panels and similar laminated wood). Note 3: headings 44.14–44.21 apply to ARTICLES of particle board, fibreboard, laminated wood or densified wood the same as to articles of wood.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: Ch.44 (wood articles) vs Ch.94 (wooden furniture) — functional use and chapter note exclusion",
+            "description": "The Ch.44 vs Ch.94 boundary for wooden articles: Ch.94 = goods DESIGNED and USED as furniture (seats, tables, beds, storage furniture — for domestic/commercial/institutional use). Ch.44 = wooden articles NOT meeting Ch.94 description: picture frames (44.14), packing cases/pallets (44.15), barrels (44.16), tool handles (44.17), builders' joinery (44.18), tableware/kitchenware (44.19), ornaments/caskets/inlaid wood (44.20), other articles (44.21). Note 1(o) specifically excludes Ch.94 articles from Ch.44. Heading 44.20 includes 'wooden articles of furniture not falling in Ch.94' — catching decorative/ornamental wooden furniture-like items not meeting Ch.94 definition.",
+            "priority": 4
+        },
+        {
+            "rule": "Subheading Notes — Wood pellets vs briquettes: shape and size thresholds",
+            "description": "Two agglomerated waste wood fuel forms with specific size thresholds: WOOD PELLETS (4401.31) = cylindrical form, diameter ≤25mm, length ≤100mm, binder content ≤3% by weight. WOOD BRIQUETTES (4401.32) = any shape (cubiform, polyhedral, cylindrical), minimum cross-sectional dimension >25mm, binder ≤3%. The 25mm threshold for cross-section separates pellets from briquettes. Both are made from sawdust/shavings/chips by compression. Binder >3% → may lose classification as wood fuel and be classified by composition.",
+            "priority": 5
+        }
+    ]
+}

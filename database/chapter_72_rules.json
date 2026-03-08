@@ -1,0 +1,94 @@
+{
+    "chapter_code": "72",
+    "chapter_title": "Iron and steel",
+    "inclusions": [
+        "Heading 72.01 — Pig iron and spiegeleisen in pigs, blocks or other primary forms. Note 1(a): 'Pig iron' = iron-carbon alloy NOT usefully malleable, >2% C by weight, with limits: Cr ≤10%, Mn ≤6%, P ≤3%, Si ≤8%, total other elements ≤10%. Note 1(b): 'Spiegeleisen' = iron-carbon alloy with Mn >6% to ≤30%, otherwise conforming to pig iron composition. Subheading Note 1(a): 'Alloy pig iron' contains Cr >0.2%, Cu >0.3%, Ni >0.3%, or Al/Mo/Ti/W/V >0.1%",
+        "Heading 72.02 — Ferro-alloys. Note 1(c): alloys in pigs/blocks/lumps/granular/powder form, ≥4% Fe, used as additives/de-oxidants in ferrous metallurgy, generally NOT malleable. Qualify by having: Cr >10% OR Mn >30% OR P >3% OR Si >8% OR total other elements >10%. Subheading Note 2: binary/ternary/quaternary classification by number of alloy elements exceeding minimum percentages",
+        "Heading 72.03 — Ferrous products obtained by direct reduction of iron ore and other spongy ferrous products, in lumps, pellets or similar forms; iron having a minimum purity by weight of 99.94%, in lumps, pellets or similar forms",
+        "Heading 72.04 — Ferrous waste and scrap; remelting scrap ingots of iron or steel. Note 1(g): 'Remelting scrap ingots' = roughly cast without feeder-heads or hot tops, with obvious surface faults, NOT conforming to pig iron/spiegeleisen/ferro-alloy composition",
+        "Heading 72.05 — Granules and powders, of pig iron, spiegeleisen, iron or steel. Note 1(h): 'Granules' = <90% by weight passes through 1 mm sieve AND ≥90% by weight passes through 5 mm sieve",
+        "Heading 72.06 — Iron and non-alloy steel in ingots or other primary forms (excluding iron of heading 72.03)",
+        "Heading 72.07 — Semi-finished products of iron or non-alloy steel. Note 1(ij): 'Semi-finished' = continuous cast products of solid section (not in coils) ± primary hot-rolling; or other solid section products only hot-rolled or roughly forge-shaped",
+        "Heading 72.08 — Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, hot-rolled, not clad, plated or coated. Note 1(k): 'Flat-rolled products' = solid rectangular cross-section (not square) in coils or straight lengths meeting width-to-thickness ratios",
+        "Heading 72.09 — Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, cold-rolled (cold-reduced), not clad, plated or coated",
+        "Heading 72.10 — Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated (galvanised, tinned, aluminised, painted, etc.)",
+        "Heading 72.11 — Flat-rolled products of iron or non-alloy steel, of a width of less than 600 mm, not clad, plated or coated",
+        "Heading 72.12 — Flat-rolled products of iron or non-alloy steel, of a width of less than 600 mm, clad, plated or coated",
+        "Heading 72.13 — Bars and rods, hot-rolled, in irregularly wound coils, of iron or non-alloy steel. Note 1(l): solid cross-section in circles/ovals/rectangles/triangles/polygons, in irregular coils, may have ribs/indentations (rebar)",
+        "Heading 72.14 — Other bars and rods of iron or non-alloy steel, not further worked than forged, hot-rolled, hot-drawn or hot-extruded, but including those twisted after rolling. Note 1(m): uniform solid cross-section, may have ribs or be twisted",
+        "Heading 72.15 — Other bars and rods of iron or non-alloy steel",
+        "Heading 72.16 — Angles, shapes and sections of iron or non-alloy steel. Note 1(n): uniform solid cross-section NOT conforming to flat-rolled, hot-rolled coil, bars/rods or wire definitions — includes I-beams, H-sections, U-channels, T-sections, L-angles",
+        "Heading 72.17 — Wire of iron or non-alloy steel. Note 1(o): cold-formed products in coils, uniform solid cross-section, NOT flat-rolled products",
+        "Heading 72.18 — Stainless steel in ingots or other primary forms; semi-finished products of stainless steel. Note 1(e): 'Stainless steel' = alloy steel with ≤1.2% C and ≥10.5% Cr, with or without other elements",
+        "Heading 72.19 — Flat-rolled products of stainless steel, of a width of 600 mm or more",
+        "Heading 72.20 — Flat-rolled products of stainless steel, of a width of less than 600 mm",
+        "Heading 72.21 — Bars and rods, hot-rolled, in irregularly wound coils, of stainless steel",
+        "Heading 72.22 — Other bars and rods of stainless steel; angles, shapes and sections of stainless steel",
+        "Heading 72.23 — Wire of stainless steel",
+        "Heading 72.24 — Other alloy steel in ingots or other primary forms; semi-finished products of other alloy steel. Note 1(f): 'Other alloy steel' = not stainless, contains specific elements above thresholds (Al ≥0.3%, B ≥0.0008%, Cr ≥0.3%, Co ≥0.3%, Cu ≥0.4%, Pb ≥0.4%, Mn ≥1.65%, Mo ≥0.08%, Ni ≥0.3%, Nb ≥0.06%, Si ≥0.6%, Ti ≥0.05%, W ≥0.3%, V ≥0.1%, Zr ≥0.05%, or other elements ≥0.1% each). Subheading notes: silicon-electrical, high-speed, silico-manganese steels defined specifically",
+        "Heading 72.25 — Flat-rolled products of other alloy steel, of a width of 600 mm or more",
+        "Heading 72.26 — Flat-rolled products of other alloy steel, of a width of less than 600 mm",
+        "Heading 72.27 — Bars and rods, hot-rolled, in irregularly wound coils, of other alloy steel",
+        "Heading 72.28 — Other bars and rods of other alloy steel; angles, shapes and sections of other alloy steel; hollow drill bars and rods of alloy or non-alloy steel. Note 1(p): 'Hollow drill bars/rods' = hollow, external dimension 15mm < OD ≤52mm, internal dimension ≤½ OD — not conforming → 73.04",
+        "Heading 72.29 — Wire of other alloy steel"
+    ],
+    "exclusions": [
+        {
+            "condition": "Articles of iron or steel — products that have been further worked, fabricated or manufactured into specific articles",
+            "action": "Redirect to Chapter 73 (articles of iron or steel) or other specific chapters. Ch.72 covers iron/steel PRIMARY FORMS and SEMI-FINISHED products only. Pipes, tubes, bolts, structures → Ch.73. Tools → Ch.82. Machinery parts → Ch.84",
+            "keywords": ["steel pipe", "steel tube", "steel bolt", "steel screw", "steel structure", "73.", "82.", "84."]
+        },
+        {
+            "condition": "Products of heading 73.01 (sheet piling, welded angles/shapes/sections) or 73.02 (railway track construction material)",
+            "action": "Redirect to heading 73.01 or 73.02 — Ch.72 Note 1(n) explicitly excludes these products from Ch.72 classification even though they are iron/steel structural sections",
+            "keywords": ["sheet piling", "railway rail", "track material", "sleeper", "fish plate", "73.01", "73.02"]
+        },
+        {
+            "condition": "Ferrous products obtained by electrolytic deposition, pressure casting or sintering",
+            "action": "Note 3: classify according to form, composition and appearance in Ch.72 headings appropriate to similar hot-rolled products. These production methods do NOT create a separate category — the products are classified as if they were hot-rolled",
+            "keywords": ["electrolytic deposition iron", "sintered iron", "pressure cast steel"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Master definitions: the steel family hierarchy (valid throughout the Nomenclature for (d)(e)(f))",
+            "description": "The Ch.72 definitions for Notes 1(d), 1(e), 1(f) apply throughout the ENTIRE Nomenclature: (d) STEEL = ferrous material (not 72.03) that is usefully malleable with ≤2% C (chromium steels may exceed this). (e) STAINLESS STEEL = alloy steel with ≤1.2% C AND ≥10.5% Cr. (f) OTHER ALLOY STEEL = steel not meeting stainless definition but containing specific elements above thresholds. Classification hierarchy: ferrous material → Is it malleable with ≤2% C? → Steel. → Does it have ≥10.5% Cr and ≤1.2% C? → Stainless. → Does it contain other alloying elements above thresholds? → Other alloy steel. → Otherwise? → Non-alloy steel.",
+            "priority": 1
+        },
+        {
+            "rule": "Flat-rolled products classification: width (≥600mm vs <600mm) × surface treatment × steel type",
+            "description": "Flat-rolled products in Ch.72 are classified by a THREE-WAY matrix: (1) STEEL TYPE: non-alloy (72.08–72.12), stainless (72.19–72.20), other alloy (72.25–72.26). (2) WIDTH: ≥600 mm (wide strip/sheet) vs <600 mm (narrow strip/slit coil). (3) SURFACE: hot-rolled / cold-rolled / clad/plated/coated (galvanised, tinned, painted, etc.). Galvanised steel ≥600 mm → 72.10. Cold-rolled stainless strip <600 mm → 72.20. Silicon-electrical steel ≥600 mm (other alloy) → 72.25.",
+            "priority": 2
+        },
+        {
+            "rule": "Long products classification: form × steel type — coil vs straight, section shape",
+            "description": "Long products split by FORM and STEEL TYPE: (l) Hot-rolled bars/rods in IRREGULAR COILS → 72.13/72.21/72.27 by steel type. (m) Other bars/rods (straight or other) → 72.14–72.15/72.22/72.28 by steel type. (n) Angles, shapes, sections (I, H, U, T, L) → 72.16/72.22/72.28 by steel type. (o) Wire (cold-formed in coils) → 72.17/72.23/72.29 by steel type. The shape of cross-section and coiling method distinguishes wire (cold-formed) from hot-rolled coil bar (irregularly wound).",
+            "priority": 3
+        },
+        {
+            "rule": "Note 1(o) — Wire definition in Ch.72: cold-formed only, in coils",
+            "description": "Ch.72 'wire' = COLD-FORMED products IN COILS, of any uniform solid cross-section, NOT flat-rolled. This is more restrictive than Ch.73 wire (≤16mm, hot or cold). Steel wire rod (hot-rolled in coils) → heading 72.13 (bars/rods in coils), NOT wire. Wire drawing converts hot-rolled wire rod into cold-drawn wire → heading 72.17/72.23/72.29. The cold-forming + coil form is mandatory for Ch.72 wire classification.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 2 — Clad (bi-metal) ferrous products: classified by predominant ferrous metal by weight",
+            "description": "When ferrous metals are CLAD with another ferrous metal (e.g., stainless steel clad on carbon steel), classify as the ferrous metal that PREDOMINATES BY WEIGHT. Stainless-clad carbon steel where carbon steel is heavier → non-alloy steel heading. Stainless-clad carbon where stainless predominates → stainless steel heading. This weight-predominance rule specifically applies to bi-metal ferrous composites.",
+            "priority": 5
+        },
+        {
+            "rule": "Subheading Note 1 — Steel sub-types for subheading classification",
+            "description": "Five special steel sub-types defined for subheading purposes: (a) ALLOY PIG IRON = pig iron with Cr >0.2%, Cu >0.3%, Ni >0.3%, or Al/Mo/Ti/W/V >0.1%. (b) NON-ALLOY FREE-CUTTING STEEL = has S ≥0.08%, Pb ≥0.1%, Se >0.05%, Te >0.01%, or Bi >0.05%. (c) SILICON-ELECTRICAL STEEL = 0.6–6% Si, ≤0.08% C, ≤1% Al, no other alloying elements. (d) HIGH-SPEED STEEL = ≥2 of Mo/W/V with combined ≥7%, plus ≥0.6% C and 3–6% Cr. (e) SILICO-MANGANESE STEEL = ≤0.7% C, 0.5–1.9% Mn, 0.6–2.3% Si, no other alloying elements. These are sub-categories of 'other alloy steel' or 'non-alloy steel'.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 72.02 (ferro-alloys) vs 74.05 (copper master alloys) vs 72.01 (pig iron/spiegeleisen)",
+            "description": "Three headings for primary metallurgical additives: 72.01 = pig iron and spiegeleisen (Fe-C alloys, >2% C, limited other elements). 72.02 = ferro-alloys (contain ≥4% Fe, one qualifying element exceeds threshold, used as metallurgical additives). 74.05 = COPPER master alloys (>10% Cu, not usefully malleable, used in non-ferrous metallurgy). The iron content (≥4% → 72.02), carbon content (>2% → pig iron), and base metal (copper-dominant → 74.05) determine the heading.",
+            "priority": 7
+        },
+        {
+            "rule": "Key boundary: 72.07 (semi-finished steel) vs 72.08/72.13 (hot-rolled flat/long products) vs 72.06 (ingots)",
+            "description": "Three stages of steel processing: (1) INGOTS (72.06) = primary cast forms (ingot, bloom, billet before any rolling). (2) SEMI-FINISHED (72.07) = continuous cast / primary-rolled products NOT in final merchant product form: blooms, billets, slabs, sheet bars (not in coils, not meeting flat-rolled or long-product width/thickness ratios). (3) FLAT-ROLLED or LONG PRODUCTS (72.08–72.17) = products meeting the specific cross-section and dimension criteria in Note 1(k) through 1(o). The degree of processing and the product form determine which stage heading applies.",
+            "priority": 8
+        }
+    ]
+}

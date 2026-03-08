@@ -1,0 +1,47 @@
+{
+    "chapter_code": "89",
+    "chapter_title": "Ships, boats and floating structures",
+    "inclusions": [
+        "Heading 89.01 — Cruise ships, excursion boats, ferry-boats, cargo ships, barges and similar vessels for the transport of persons or goods",
+        "Heading 89.02 — Fishing vessels; factory ships and other vessels for processing or preserving fishery products",
+        "Heading 89.03 — Yachts and other vessels for pleasure or sports; rowing boats and canoes",
+        "Heading 89.04 — Tugs and pusher craft",
+        "Heading 89.05 — Light-vessels, fire-floats, dredgers, floating cranes and other vessels the navigability of which is subsidiary to their main function; floating docks; floating or submersible drilling or production platforms",
+        "Heading 89.06 — Other vessels, including warships and lifeboats other than rowing boats. ALSO: hulls, unfinished/incomplete vessels (assembled, unassembled or disassembled), and complete vessels presented unassembled or disassembled — WHEN they do not have the essential character of a vessel of a particular kind (Note 1)",
+        "Heading 89.07 — Other floating structures (e.g., rafts, tanks, cofferdams, landing stages, buoys and beacons)",
+        "Heading 89.08 — Vessels and other floating structures for breaking up"
+    ],
+    "exclusions": [],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Fallback rule: hulls and incomplete/disassembled vessels → 89.06",
+            "description": "When a vessel or hull is presented in an incomplete or unassembled/disassembled state AND it does not have the 'essential character' of a vessel of a particular kind (e.g., cannot be clearly identified as a cargo ship, yacht, fishing vessel, etc.), it falls by default to heading 89.06. The essential character test mirrors GRI Rule 2(a): if enough of the vessel's defining features are present to identify its type → classify in the specific heading (89.01–89.05, 89.07). If not identifiable → 89.06.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: 89.05 (function-primary vessels) vs 89.01 (transport vessels)",
+            "description": "Heading 89.05 covers vessels where NAVIGABILITY IS SUBSIDIARY to their main function: dredgers, floating cranes, light-vessels, fire-floats, floating docks, floating drilling/production platforms. These are essentially floating working platforms that can be moved. If a vessel's primary purpose is to TRANSPORT persons or goods → 89.01/89.02/89.03/89.04. If it primarily performs a function (dredging, drilling, crane work) while afloat → 89.05.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 89.03 (pleasure/sports vessels) vs 89.01 (transport vessels)",
+            "description": "Heading 89.03 covers yachts, pleasure craft, sports boats, rowing boats and canoes — designed PRINCIPALLY for recreation. Heading 89.01 covers vessels for transport of persons or goods (including passenger cruise ships). A large luxury cruise ship transporting passengers → 89.01 (transport function dominant). A privately owned sailing yacht → 89.03. Ferries transporting passengers → 89.01. Mixed-use pleasure/transport vessels → principal use test applies.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 89.07 (non-navigating floating structures) vs 89.05/89.06 (vessels)",
+            "description": "Heading 89.07 covers floating structures that are NOT vessels — they float but are not intended to navigate: rafts, tanks, cofferdams, landing stages, buoys, beacons. Key distinction: if the structure is designed to be navigated or towed as a craft → heading 89.01–89.06. If it merely floats in a fixed or semi-fixed position to perform a function (mark a channel, form a temporary dam) → 89.07.",
+            "priority": 4
+        },
+        {
+            "rule": "Heading 89.08 — Vessels for breaking up (scrapping)",
+            "description": "Heading 89.08 is a specific classification for vessels and floating structures presented for breaking up (i.e., dismantling/scrapping). Even if the vessel was formerly a cargo ship (89.01) or warship (89.06), when presented specifically for scrapping → 89.08. The intended purpose at time of import/export determines classification here.",
+            "priority": 5
+        },
+        {
+            "rule": "Assembled vs. disassembled presentation: GRI Rule 2(a) interaction",
+            "description": "Per Note 1, a complete vessel presented disassembled is still classifiable in its specific heading (89.01–89.05) IF its essential character as a specific type of vessel is determinable. If the disassembled parts do not allow identification of the vessel type → fallback to 89.06. This is a chapter-specific application of GRI 2(a) which generally allows unassembled goods to be classified as if assembled.",
+            "priority": 6
+        }
+    ]
+}

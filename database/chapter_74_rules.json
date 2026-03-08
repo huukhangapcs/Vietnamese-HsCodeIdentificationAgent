@@ -1,0 +1,84 @@
+{
+    "chapter_code": "74",
+    "chapter_title": "Copper and articles thereof",
+    "inclusions": [
+        "Heading 74.01 — Copper mattes; cement copper (precipitated copper)",
+        "Heading 74.02 — Unrefined copper; copper anodes for electrolytic refining",
+        "Heading 74.03 — Refined copper and copper alloys, unwrought. Note 1(a): 'Refined copper' = (i) ≥99.85% Cu by weight; OR (ii) ≥97.5% Cu by weight with all other elements below specified table limits. Note 1(b): 'Copper alloys' = metallic substances (other than unrefined copper) where Cu predominates over each other element AND either: (i) at least one element exceeds its table limit; or (ii) total other elements >2.5% by weight. Note 1(c): 'Master alloys' = contain >10% Cu, not usefully malleable, used as additives/de-oxidants in non-ferrous metallurgy — EXCEPTION: copper phosphide with >15% P → heading 28.53",
+        "Heading 74.04 — Copper waste and scrap",
+        "Heading 74.05 — Master alloys of copper (Note 1(c): >10% Cu, not malleable, used as additive/de-oxidant in non-ferrous metallurgy)",
+        "Heading 74.06 — Copper powders and flakes: (a) powders of non-lamellar structure; (b) powders of lamellar structure (flakes) and flakes",
+        "Heading 74.07 — Copper bars, rods and profiles",
+        "Heading 74.08 — Copper wire",
+        "Heading 74.09 — Copper plates, sheets and strip, of a thickness exceeding 0.15 mm",
+        "Heading 74.10 — Copper foil (whether or not printed, or backed with paper, paperboard, plastics or similar backing materials) of a thickness (excluding any backing) not exceeding 0.15 mm",
+        "Heading 74.11 — Copper tubes and pipes",
+        "Heading 74.12 — Copper tube or pipe fittings (e.g., couplings, elbows, sleeves)",
+        "Heading 74.13 — Stranded wire, cables, plaited bands and the like, of copper, not electrically insulated",
+        "Heading 74.14 — [Legacy — cloth, grill and netting of copper wire; now largely subsumed into 74.19]",
+        "Heading 74.15 — Nails, tacks, drawing pins, staples and similar articles, of copper or with shafts of iron or steel and heads of copper; screws, bolts, nuts, screw hooks, rivets, cotters, cotter-pins, washers and similar articles, of copper",
+        "Heading 74.16 — [Legacy — springs of copper]",
+        "Heading 74.17 — [Legacy — cooking or heating apparatus of a non-domestic type of copper]",
+        "Heading 74.18 — Table, kitchen or other household articles and parts thereof, of copper; pot scourers and scouring or polishing pads, gloves and the like, of copper; sanitary ware and parts thereof, of copper",
+        "Heading 74.19 — Other articles of copper: cloth, grill, netting; expanded metal; chain and parts thereof; other articles"
+    ],
+    "exclusions": [
+        {
+            "condition": "Copper phosphide (phosphor copper) containing more than 15% by weight of phosphorus",
+            "action": "Redirect to heading 28.53 (inorganic compounds NES) — Note 1(c) explicit exception. Copper phosphide with ≤15% P qualifies as a master alloy → 74.05. With >15% P → 28.53",
+            "keywords": ["copper phosphide", "phosphor copper", "phosphorus copper", ">15% phosphorus", "28.53"]
+        },
+        {
+            "condition": "Copper compounds (copper oxide, copper sulphate, copper chloride, copper carbonate, verdigris, etc.)",
+            "action": "Redirect to Chapter 28 (inorganic) or Chapter 29 (organic copper compounds). Metallic copper → Ch.74; chemical compounds → Ch.28/29",
+            "keywords": ["copper oxide", "copper sulphate", "cupric sulphate", "copper chloride", "verdigris", "copper carbonate", "28.", "29."]
+        },
+        {
+            "condition": "Electrically insulated copper wire or cable",
+            "action": "Redirect to heading 85.44 (insulated wire, cable and other insulated electric conductors). Bare copper wire → 74.08. Stranded bare copper cable → 74.13. Insulated → 85.44",
+            "keywords": ["insulated copper wire", "insulated copper cable", "PVC copper cable", "copper power cable", "winding wire", "85.44"]
+        },
+        {
+            "condition": "Prefabricated buildings of copper",
+            "action": "Redirect to heading 94.06 (prefabricated buildings). Copper structural elements prepared for use in buildings → 74.19 or 74.07. Complete prefabricated building of copper → 94.06",
+            "keywords": ["prefabricated building copper", "94.06"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Three-tier definition: refined copper vs copper alloy vs master alloy",
+            "description": "Three distinct categories in Ch.74: (1) 'Refined copper' (74.03): ≥99.85% Cu; OR ≥97.5% Cu with all individual impurities below table limits. (2) 'Copper alloys' (74.03 alloy subheadings): Cu predominates over each other element AND either one element exceeds its limit or total others >2.5%. Common alloys: brass (Cu-Zn), bronze (Cu-Sn), cupronickel (Cu-Ni), cupro-silicon, beryllium copper. (3) 'Master alloys' (74.05): >10% Cu, NOT malleable, used as metallurgical additive/de-oxidant. Master alloys are not usable as structural materials; they are consumed in manufacturing other alloys. Exception: copper phosphide >15% P → 28.53, not 74.05.",
+            "priority": 1
+        },
+        {
+            "rule": "Subheading Note — Brasses (Cu-Zn), bronzes (Cu-Sn) and other copper alloy types",
+            "description": "Subheading Note 1 defines specific copper alloy families for subheading classification within 74.03: (a) Copper-zinc base alloys (BRASSES) — Cu-Zn with or without other elements, zinc being the predominant added element. (b) Copper-tin base alloys (BRONZES) — Cu-Sn with or without other elements. (c) Copper-nickel alloys (cupro-nickel/nickel silver) — Cu-Ni ± Zn. (d) Copper-nickel-zinc alloys (nickel silver). These definitions drive subheading splits within heading 74.03 and similarly across 74.07–74.19.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 74.01/74.02 (unrefined/matte) vs 74.03 (refined/alloy unwrought) vs 74.04 (waste/scrap)",
+            "description": "Primary copper classification path: 74.01 = copper MATTES (pyrometallurgical intermediate, sulphide-based) and cement copper (precipitated, impure). 74.02 = UNREFINED copper (blister copper) and copper anodes for electrolytic refining — not yet meeting 'refined' purity. 74.03 = REFINED copper (≥99.85% or ≥97.5% meeting limits) and copper ALLOYS — final unwrought metal forms (ingots, billets, cathodes, wire bars). 74.04 = copper WASTE AND SCRAP. The metallurgical purity and processing stage determines which heading applies.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 74.09 (plates/sheets/strip, >0.15 mm) vs 74.10 (foil, ≤0.15 mm)",
+            "description": "Thickness of 0.15 mm is the dividing line for flat copper products (NOTE: 0.15 mm for copper vs 0.20 mm for aluminium (76.06/76.07) vs 0.20 mm for tin (80.04/80.05)). > 0.15 mm → 74.09 (plates, sheets and strip). ≤ 0.15 mm → 74.10 (foil). Foil may be printed or backed with paper/plastics without changing classification; only the copper thickness (excluding backing) determines the heading.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 74.08 (wire) vs 74.07 (bars/rods/profiles) vs 74.13 (stranded cable)",
+            "description": "Three headings for elongated copper products: 74.07 = bars, rods and profiles (solid, larger cross-section; profiles have non-circular/non-rectangular cross-sections). 74.08 = wire (cross-section fits within circle <6 mm diameter per Section XV Note 9(c) — single solid or stranded as wire). 74.13 = STRANDED wire, cables, plaited bands (multiple wires twisted/stranded together, bare/uninsulated). Insulated wire/cable of any type → 85.44.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 74.18 (household copper articles) vs 74.19 (other copper articles) vs Ch.82/83 (tools/hardware)",
+            "description": "74.18 = table/kitchen/household copper articles and sanitary ware (copper pots, pans, faucets, bathroom fixtures). 74.19 = all other copper articles (copper mesh, chain, fasteners not in 74.15, expanded metal, general articles). When a copper article has a specific heading in Ch.82 (copper tools), Ch.83 (copper padlocks, fittings, miscellaneous) or Ch.84+ (machinery), those functional headings take priority. Copper padlock → 83.01. Copper plumbing tap/valve → 84.81. Copper cooking pot → 74.18.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 74.15 (copper fasteners) vs 73.17/73.18 (steel fasteners) — material determines heading",
+            "description": "Heading 74.15 covers fasteners OF copper or WITH copper heads + iron/steel shafts: nails, tacks, drawing pins, staples, screws, bolts, nuts, rivets, washers. Pure copper fasteners → 74.15. Steel/iron fasteners with copper head → 74.15. Steel/iron fasteners without copper components → 73.17 (nails/tacks) or 73.18 (screws/bolts/nuts). The material of the fastener (or its head) determines the chapter.",
+            "priority": 7
+        }
+    ]
+}

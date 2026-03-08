@@ -1,5 +1,6 @@
 {
     "chapter_code": "38",
+    "chapter_title": "Miscellaneous chemical products",
     "inclusions": [
         "Heading 38.01 — Artificial graphite; colloidal or semi-colloidal graphite; preparations based on graphite or other carbon in the form of pastes, blocks, plates or other semi-manufactures",
         "Heading 38.02 — Activated carbon; activated natural mineral products; animal black (including spent animal black)",
@@ -32,67 +33,146 @@
         {
             "condition": "Separate chemically defined elements or compounds — EXCEPT: (1) artificial graphite 38.01; (2) formulated pesticides of 38.08; (3) fire-extinguisher charges 38.13; (4) certified reference materials of Note 2; (5) products of Note 3(a) or 3(c)",
             "action": "Redirect to the appropriate chapter for the chemically defined compound (Ch.28 inorganic, Ch.29 organic). Ch.38 Note 1(a) is the general residual rule",
-            "keywords": []
+            "keywords": [
+                "chemically defined single compound",
+                "pure chemical element",
+                "isolated substance separate",
+                "28.",
+                "29."
+            ]
         },
         {
             "condition": "Mixtures of chemicals with foodstuffs or other substances with nutritive value used in human food preparation",
             "action": "Redirect to heading 21.06 (mixed food preparations/supplements for human consumption)",
-            "keywords": ["food chemical mixture", "food additive blend", "nutrient blend", "food fortification mix", "21.06"]
+            "keywords": [
+                "food chemical mixture",
+                "food additive blend",
+                "nutrient blend",
+                "food fortification mix",
+                "21.06"
+            ]
         },
         {
             "condition": "Products of heading 24.04 (tobacco/nicotine products, heated tobacco, electronic cigarettes)",
             "action": "Redirect to heading 24.04 (Chapter 24)",
-            "keywords": ["e-cigarette", "electronic cigarette", "heated tobacco", "nicotine product", "vaping liquid", "24.04"]
+            "keywords": [
+                "e-cigarette",
+                "electronic cigarette",
+                "heated tobacco",
+                "nicotine product",
+                "vaping liquid",
+                "24.04"
+            ]
         },
         {
             "condition": "Slag, ash and residues (including sludges, other than sewage sludge) containing metals or arsenic and meeting Chapter 26 Note 3(a) or (b)",
             "action": "Redirect to heading 26.20 (Chapter 26 — metalliferous ores, slag and ash)",
-            "keywords": ["slag metal", "ash metal", "metal residue", "ash arsenic", "metalliferous slag", "26.20"]
+            "keywords": [
+                "slag metal",
+                "ash metal",
+                "metal residue",
+                "ash arsenic",
+                "metalliferous slag",
+                "26.20"
+            ]
         },
         {
             "condition": "Medicaments (whether or not mixed) for therapeutic or prophylactic use",
             "action": "Redirect to heading 30.03 (not in measured doses/retail) or 30.04 (in measured doses/retail packaging)",
-            "keywords": ["medicament", "medicine", "pharmaceutical preparation", "drug formulation", "therapeutic preparation", "30.03", "30.04"]
+            "keywords": [
+                "medicament",
+                "medicine",
+                "pharmaceutical preparation",
+                "drug formulation",
+                "therapeutic preparation",
+                "30.03",
+                "30.04"
+            ]
         },
         {
             "condition": "Spent catalysts used for extraction of base metals or manufacture of base metal compounds",
             "action": "Redirect to heading 26.20",
-            "keywords": ["spent catalyst metal extraction", "used catalyst base metal", "26.20"]
+            "keywords": [
+                "spent catalyst metal extraction",
+                "used catalyst base metal",
+                "26.20"
+            ]
         },
         {
             "condition": "Spent catalysts used principally for recovery of precious metals",
             "action": "Redirect to heading 71.12 (precious metal waste and scrap)",
-            "keywords": ["spent catalyst precious metal", "used catalyst gold", "used catalyst platinum", "used catalyst palladium", "71.12"]
+            "keywords": [
+                "spent catalyst precious metal",
+                "used catalyst gold",
+                "used catalyst platinum",
+                "used catalyst palladium",
+                "71.12"
+            ]
         },
         {
             "condition": "Catalysts consisting of metals or metal alloys in the form of finely divided powder or woven gauze",
             "action": "Redirect to Section XIV (precious metals) or Section XV (base metals) as appropriate",
-            "keywords": ["platinum gauze catalyst", "metal gauze catalyst", "palladium powder catalyst", "nickel powder catalyst"]
+            "keywords": [
+                "platinum gauze catalyst",
+                "metal gauze catalyst",
+                "palladium powder catalyst",
+                "nickel powder catalyst"
+            ]
         },
         {
             "condition": "Hydraulic brake fluids and transmission fluids containing ≥70% petroleum oils or oils from bituminous minerals",
             "action": "Redirect to heading 27.10 (petroleum oil preparations)",
-            "keywords": ["hydraulic oil petroleum", "mineral hydraulic fluid", "petroleum transmission fluid", "27.10"]
+            "keywords": [
+                "hydraulic oil petroleum",
+                "mineral hydraulic fluid",
+                "petroleum transmission fluid",
+                "27.10"
+            ]
         },
         {
             "condition": "Doped semiconductor elements (silicon, germanium etc.) in unworked forms — ingots, boules, cylinders, RODS — NOT yet cut to wafer",
             "action": "Redirect to Chapter 28 (e.g., 28.04 for silicon). Only when CUT INTO DISCS/WAFERS → heading 38.18",
-            "keywords": ["silicon ingot", "silicon boule", "germanium rod", "silicon cylinder", "doped silicon rod", "semiconductor ingot"]
+            "keywords": [
+                "silicon ingot",
+                "silicon boule",
+                "germanium rod",
+                "silicon cylinder",
+                "doped silicon rod",
+                "semiconductor ingot"
+            ]
         },
         {
             "condition": "Stabilised sewage sludge suitable for use as fertiliser",
             "action": "Redirect to Chapter 31 (fertilisers). Ch.38 Note 5 explicitly excludes this — only unstabilised/pre-treatment sludge stays in 38.25",
-            "keywords": ["sewage sludge fertiliser", "stabilised sludge", "biosolid fertiliser", "sludge compost", "chapter 31"]
+            "keywords": [
+                "sewage sludge fertiliser",
+                "stabilised sludge",
+                "biosolid fertiliser",
+                "sludge compost",
+                "chapter 31"
+            ]
         },
         {
             "condition": "Waste containing mainly petroleum oils or oils from bituminous minerals",
             "action": "Redirect to heading 27.10 — Ch.38 Note 6 explicitly excludes this from 'other wastes' of 38.25",
-            "keywords": ["used engine oil", "waste petroleum oil", "used motor oil", "waste lubricating oil", "27.10"]
+            "keywords": [
+                "used engine oil",
+                "waste petroleum oil",
+                "used motor oil",
+                "waste lubricating oil",
+                "27.10"
+            ]
         },
         {
             "condition": "Natural graphite (mined mineral)",
             "action": "Redirect to heading 25.04 (Chapter 25 — natural graphite). Ch.38.01 covers only ARTIFICIAL graphite",
-            "keywords": ["natural graphite", "graphite ore", "flake graphite natural", "crystalline graphite", "25.04"]
+            "keywords": [
+                "natural graphite",
+                "graphite ore",
+                "flake graphite natural",
+                "crystalline graphite",
+                "25.04"
+            ]
         }
     ],
     "classification_rules": [

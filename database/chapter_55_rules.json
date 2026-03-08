@@ -1,0 +1,67 @@
+{
+    "chapter_code": "55",
+    "chapter_title": "Man-made staple fibres",
+    "scope_note": "Note 1: Headings 55.01 and 55.02 apply only to man-made filament TOW meeting ALL specifications: (a) length >2m; (b) twist <5 turns/m; (c) per filament <67 decitex; (d) for synthetic tow only: must be DRAWN (cannot be stretched >100% of its length); (e) total measurement >20,000 decitex. Tow ≤2m length → classified in 55.03 or 55.04 (staple fibres).",
+    "inclusions": [
+        "Heading 55.01 — Synthetic filament tow (polyester, nylon, acrylic, polypropylene etc.) meeting Note 1 specifications: length >2m, twist <5 turns/m, per filament <67 dtex, drawn (not stretchable >100%), total >20,000 dtex",
+        "Heading 55.02 — Artificial filament tow (viscose/rayon, lyocell, cupro, modal, acetate etc.) meeting Note 1 specifications: length >2m, twist <5 turns/m, per filament <67 dtex, total >20,000 dtex",
+        "Heading 55.03 — Synthetic staple fibres, not carded, combed or otherwise processed for spinning (polyester, nylon/PA, acrylic/PAN, polypropylene staple — cut or broken from filaments or tow ≤2m)",
+        "Heading 55.04 — Artificial staple fibres, not carded, combed or otherwise processed for spinning (viscose/rayon, cupro, modal, lyocell, acetate staple fibres)",
+        "Heading 55.05 — Waste (including noils, yarn waste and garnetted stock) of man-made fibres (synthetic or artificial)",
+        "Heading 55.06 — Synthetic staple fibres, carded, combed or otherwise processed for spinning",
+        "Heading 55.07 — Artificial staple fibres, carded, combed or otherwise processed for spinning",
+        "Heading 55.08 — Sewing thread of man-made staple fibres, whether or not put up for retail sale",
+        "Heading 55.09 — Other yarn of synthetic staple fibres, not put up for retail sale",
+        "Heading 55.10 — Other yarn of artificial staple fibres, not put up for retail sale",
+        "Heading 55.11 — Yarn of man-made staple fibres, put up for retail sale",
+        "Heading 55.12 — Woven fabrics of synthetic staple fibres, containing 85% or more by weight of synthetic staple fibres (majority-synthetic wovens)",
+        "Heading 55.13 — Woven fabrics of synthetic staple fibres, containing less than 85% by weight of such fibres, mixed mainly or solely with cotton, of a weight not exceeding 170 g/m2",
+        "Heading 55.14 — Woven fabrics of synthetic staple fibres, containing less than 85% by weight of such fibres, mixed mainly or solely with cotton, of a weight exceeding 170 g/m2",
+        "Heading 55.15 — Other woven fabrics of synthetic staple fibres (mixed with fibres other than cotton — e.g., with wool, flax, silk)",
+        "Heading 55.16 — Woven fabrics of artificial staple fibres"
+    ],
+    "exclusions": [
+        {
+            "condition": "Man-made filament tow NOT meeting Note 1 specifications (length ≤2m, or twist ≥5 turns/m, or per filament ≥67 dtex, or not drawn for synthetic)",
+            "action": "Tow ≤2m length → classified as STAPLE FIBRES in 55.03 (synthetic) or 55.04 (artificial), not 55.01/55.02. Tow not meeting other specs → classify by its physical characteristics in the appropriate heading",
+            "keywords": ["short tow 2m", "tow not drawn", "high twist tow", "55.03", "55.04"]
+        },
+        {
+            "condition": "Man-made filaments in continuous form (filament yarn, monofilament, multifilament — not staple)",
+            "action": "Redirect to Chapter 54 (man-made filaments) — Ch.55 covers only STAPLE FIBRES (cut or broken from continuous filaments). Continuous filament yarn → Ch.54",
+            "keywords": ["polyester filament yarn", "nylon filament continuous", "viscose filament yarn", "54."]
+        },
+        {
+            "condition": "Woven fabrics of man-made staple fibres that are impregnated, coated, covered or laminated",
+            "action": "Redirect to Chapter 59 (impregnated, coated textile fabrics) — coated wovens of man-made staple → Ch.59 (59.03 if plastics coated; 59.06 if rubber coated; 59.07 if otherwise coated)",
+            "keywords": ["coated synthetic fabric", "PU coated polyester fabric", "rubber coated man-made fabric", "59.03", "59.06"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Tow vs. staple fibre distinction: the 2m length and specification tests",
+            "description": "The key distinction between filament tow (55.01/55.02) and staple fibres (55.03/55.04) is the LENGTH and technical specifications: TOW (55.01/55.02) = parallel filaments of uniform length, with the bundle exceeding 2m, low twist (<5 turns/m), thin filaments (<67 dtex each). SYNTHETIC tow (55.01) additionally must be DRAWN (cannot be stretched >100% — i.e., already oriented). Tow ≤2m → STAPLE FIBRES (55.03 or 55.04). Tow meeting all specs but not drawn (synthetic) → stays as tow stock but classified as staple if ≤2m.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: Ch.55 (man-made STAPLE fibres) vs Ch.54 (man-made FILAMENT yarns and fibres)",
+            "description": "The staple/filament split is the primary division for man-made textile fibres: Ch.54 = man-made fibres in CONTINUOUS FILAMENT form (filament yarn, monofilament strips, multifilament yarn — not cut or broken). Ch.55 = man-made fibres CUT or BROKEN into discrete lengths (staple fibres) and all downstream products therefrom. A polypropylene monofilament strip (54.04/54.05) vs. polypropylene staple (55.03). Viscose continuous filament yarn (54.03) vs. viscose staple fibre (55.04).",
+            "priority": 2
+        },
+        {
+            "rule": "Processing stage chain for man-made staple: raw fibre → carded → yarn → fabric",
+            "description": "Ch.55 spans the full production chain of man-made STAPLE products: (1) RAW STAPLE: 55.03 (synthetic) / 55.04 (artificial) — uncarded, unprocessed. (2) WASTE: 55.05. (3) CARDED/COMBED: 55.06 (synthetic) / 55.07 (artificial). (4) YARN: 55.08 (sewing thread), 55.09 (synthetic yarn, not retail), 55.10 (artificial yarn, not retail), 55.11 (retail sale yarn, both types). (5) WOVEN FABRICS: 55.12–55.16 (synthetic wovens by composition %; artificial wovens). Each stage moves to a higher heading; the processing stage determines which heading applies.",
+            "priority": 3
+        },
+        {
+            "rule": "Woven fabric headings (55.12–55.16): composition × blend × weight matrix for synthetic staple fabrics",
+            "description": "Synthetic staple woven fabrics (55.12–55.15) classified by COMPOSITION and WEIGHT: 55.12 = synthetic staple fabrics ≥85% synthetic — straightforward majority-synthetic. <85% synthetic: 55.13 = mixed mainly/solely with COTTON, weight ≤170 g/m². 55.14 = mixed mainly/solely with COTTON, weight >170 g/m². 55.15 = mixed with OTHER fibres (wool, linen, silk — not mainly cotton). Artificial staple woven fabrics → ALL in 55.16 regardless of blend or weight. Blends with both cotton and other fibres → determine the principal secondary fibre ('mixed mainly or solely').",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 55.08 (sewing thread) vs 55.09/55.10 (other yarn not for retail) vs 55.11 (yarn for retail sale)",
+            "description": "Man-made staple yarn headings split by END USE and PRESENTATION: 55.08 = SEWING THREAD of man-made staple (both synthetic and artificial), whether or not for retail. 55.09 = other SYNTHETIC staple yarn NOT put up for retail (industrial bobbins, cones for manufacturing). 55.10 = other ARTIFICIAL staple yarn NOT put up for retail. 55.11 = yarn of man-made staple fibres (both synthetic and artificial) PUT UP FOR RETAIL SALE (smaller bobbins/balls/skeins for domestic use). The retail/non-retail distinction is based on presentation form and quantity, not yarn count.",
+            "priority": 5
+        }
+    ]
+}

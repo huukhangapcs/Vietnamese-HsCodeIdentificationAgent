@@ -1,0 +1,63 @@
+{
+    "chapter_code": "50",
+    "chapter_title": "Silk",
+    "scope_note": "Chapter 50 covers silk in all forms from raw cocoons to woven silk fabrics. Silk is the natural protein filament produced by Bombyx mori (mulberry silkworm) and other silkworms (tussah/wild silk). The chapter covers both cultivated silk and wild/tussah silk throughout the processing chain. No specific notes beyond the chapter title.",
+    "inclusions": [
+        "Heading 50.01 — Silk-worm cocoons suitable for reeling",
+        "Heading 50.02 — Raw silk (not thrown): continuous filament reeled from cocoons, without further processing — the most basic form of silk yarn/thread",
+        "Heading 50.03 — Silk waste (including cocoons unsuitable for reeling, yarn waste and garnetted stock): used to produce spun silk",
+        "Heading 50.04 — Silk yarn (other than yarn spun from silk waste) not put up for retail sale: thrown silk (organzine, tram, crepe twist) and reeled silk yarn — industrial packages",
+        "Heading 50.05 — Yarn spun from silk waste, not put up for retail sale: spun silk yarn (schappe) and noil silk yarn — made from waste fibres, industrial packages",
+        "Heading 50.06 — Silk yarn and yarn spun from silk waste, put up for retail sale; silk-worm gut",
+        "Heading 50.07 — Woven fabrics of silk or of silk waste: including taffeta, crepe de chine, satin, georgette, chiffon, organza, dupioni, shantung, habutai and all other woven silk fabrics. Includes fabrics of both cultivated and wild/tussah silk"
+    ],
+    "exclusions": [
+        {
+            "condition": "Knitted or crocheted fabrics of silk",
+            "action": "Redirect to Chapter 60 (knitted or crocheted fabrics). Knitted silk fabric → Ch.60. Knitted silk garments → Ch.61/62. Ch.50 covers only WOVEN fabrics and raw/yarn forms",
+            "keywords": ["knitted silk", "crocheted silk", "silk jersey", "60.", "61."]
+        },
+        {
+            "condition": "Woven silk fabrics that are impregnated, coated, covered or laminated",
+            "action": "Redirect to Chapter 59 (impregnated/coated/laminated fabrics). Rubberised silk fabric → 59.06. Plastics-coated silk → 59.03",
+            "keywords": ["coated silk fabric", "laminated silk", "rubber silk", "59."]
+        },
+        {
+            "condition": "Special woven fabrics of silk: pile fabrics, gauze, lace, embroidery, narrow woven fabrics, labels",
+            "action": "Redirect to Chapter 58. Silk velvet → 58.01. Silk lace → 58.04. Silk embroidery → 58.10. Silk narrow fabric → 58.06. Silk labels → 58.07",
+            "keywords": ["silk velvet", "silk lace", "silk embroidery", "silk ribbon narrow", "58.01", "58.04", "58.10"]
+        },
+        {
+            "condition": "Silk-worm cocoons NOT suitable for reeling (damaged, defective cocoons)",
+            "action": "Redirect to heading 50.03 (silk waste) — defective cocoons unsuitable for reeling are classified as waste. Only reelable-quality cocoons go to 50.01",
+            "keywords": ["damaged cocoon", "defective silkworm cocoon", "cocoon unsuitable reeling", "50.03"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Processing stage chain for silk: cocoon → raw silk → thrown yarn → woven fabric",
+            "description": "Ch.50 covers the complete silk production chain in sequence: (1) COCOONS: 50.01 (reelable quality) → 50.03 if defective. (2) RAW SILK: 50.02 (continuous filament directly reeled from cocoons, not yet twisted/thrown). (3) WASTE: 50.03 (defective cocoons + yarn waste + garnetted stock). (4) YARN processed: 50.04 (thrown/processed silk not from waste, not retail → organzine/tram/crepe twist), 50.05 (spun from waste silk, not retail → schappe/noil), 50.06 (silk yarn retail sale, both types). (5) WOVEN FABRICS: 50.07 (all woven silk fabrics). Made-up silk articles/garments → Ch.61 or 62.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: Ch.50 (woven silk fabrics) vs Ch.58 (special silk weaves: pile, lace, embroidery) vs Ch.59 (coated) vs Ch.60 (knitted)",
+            "description": "Silk fabrics appear across multiple chapters by construction: PLAIN/TWILL/SATIN woven silk → 50.07. PILE woven silk (velvet) → 58.01. GAUZE (leno weave) silk → 58.03. LACE of silk → 58.04. SILK EMBROIDERY → 58.10. NARROW WOVEN SILK (ribbons, bias binding ≤30cm) → 58.06. LABELS/BADGES of silk → 58.07. TAFETTA/QUILTED silk → 58.11 (if quilted). COATED silk → Ch.59. KNITTED silk → Ch.60. Ch.50 (50.07) covers the 'standard' woven structures that are not otherwise specified in Ch.58.",
+            "priority": 2
+        },
+        {
+            "rule": "50.02 (raw silk) vs 50.04 (thrown/processed silk yarn): degree of processing",
+            "description": "The distinction between raw silk and processed silk yarn: RAW SILK (50.02) = continuous filament reeled directly from cocoons in a natural-twist form, sericin (silk gum) still mostly present, not further twisted or combined. This is the primary output of the reeling process. THROWN SILK (50.04) = raw silk that has been TWISTED and/or COMBINED (organzine — warp yarn with multiple ply twists; tram — weft yarn, lightly twisted; crepe twist — high twist). The throwing process (twisting to specified turns/metre) moves raw silk to 50.04.",
+            "priority": 3
+        },
+        {
+            "rule": "50.04 (reeled silk/thrown, not retail) vs 50.05 (spun from waste, not retail) vs 50.06 (retail sale)",
+            "description": "Three yarn headings based on ORIGIN + PRESENTATION: 50.04 = silk yarn from CONTINUOUS FILAMENT (reeled + thrown/processed), not for retail (industrial). 50.05 = silk yarn SPUN FROM WASTE (schappe/combed waste = spun long staple waste; noil/bourette = short waste spun together) — produces spun silk with different texture from filament silk, not retail. 50.06 = silk yarn (BOTH filament and spun types) PUT UP FOR RETAIL SALE (small skeins/spools for home embroidery/weaving). Silk-worm gut (used for fishing lines/surgical sutures) → also 50.06.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: cultivated silk (Bombyx mori) vs wild/tussah silk — both classified in Ch.50",
+            "description": "Chapter 50 covers BOTH major silk types: CULTIVATED SILK (Bombyx mori, mulberry silkworm) = the standard commercial silk, smooth, white/cream, fine filament. WILD/TUSSAH SILK (Antheraea species, Philosamia species) = coarser, golden/tan coloured, irregular filament. Both are classified throughout Ch.50 (50.01–50.07) — there is no HS distinction between cultivated and wild silk at the chapter/heading level. Subheadings may distinguish them in some cases.",
+            "priority": 5
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "chapter_code": "56",
+    "chapter_title": "Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables and articles thereof",
+    "scope_note": "Note 2: 'felt' includes needleloom felt AND fabrics of textile fibres whose cohesion is enhanced by stitch-bonding using fibres from the web itself. Note 3: headings 56.02 and 56.03 cover felt and nonwovens impregnated/coated/laminated with plastics or rubber — including nonwovens where plastics/rubber forms the bonding substance.",
+    "inclusions": [
+        "Heading 56.01 — Wadding of textile materials and articles thereof; textile fibres, not exceeding 5 mm in length (flock), textile dust and mill neps",
+        "Heading 56.02 — Felt, whether or not impregnated, coated, covered or laminated. Note 3: includes felt with plastics/rubber coating (except felt ≤50% textile by weight or fully embedded → Ch.39/40; and plates of cellular plastics with felt for reinforcing only → Ch.39/40)",
+        "Heading 56.03 — Nonwovens, whether or not impregnated, coated, covered or laminated. Note 3: includes nonwovens bonded with plastics/rubber as bonding substance. Excludes nonwovens completely embedded or both-sides coated with visible plastics/rubber (→ Ch.39/40) and cellular plastics plates with nonwoven reinforcing (→ Ch.39/40)",
+        "Heading 56.04 — Rubber thread and cord, textile covered; textile yarn, and strip and the like of heading 54.04 or 54.05, impregnated, coated, covered or sheathed with rubber or plastics. Note 4: 56.04 does NOT cover yarn where coating is NOT VISIBLE to naked eye (→ Ch.50–55)",
+        "Heading 56.05 — Metallised yarn, whether or not gimped, being textile yarn, or strip or the like of heading 54.04 or 54.05, combined with metal in the form of thread, strip or powder or covered with metal",
+        "Heading 56.06 — Gimped yarn, and strip and the like of heading 54.04 or 54.05, gimped (other than those of heading 56.05 and gimped horsehair yarn); chenille yarn (including flock chenille yarn); loop wale-yarn",
+        "Heading 56.07 — Twine, cordage, ropes and cables, whether or not plaited or braided and whether or not impregnated, coated, covered or sheathed with rubber or plastics",
+        "Heading 56.08 — Knotted netting of twine, cordage or rope; made up fishing nets and other made up nets, of textile materials",
+        "Heading 56.09 — Articles of yarn, strip or the like of heading 54.04 or 54.05, twine, cordage, rope or cables, not elsewhere specified or included (e.g., laces, braided articles of twine/rope)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Wadding, felt or nonwovens impregnated/coated with substances where the textile is MERELY a carrying medium (e.g., perfumed wadding, soap-impregnated pads, polishing pads with polish)",
+            "action": "Redirect to chapter of the active substance — Note 1(a). Cosmetic-impregnated cotton pads → Ch.33. Soap-impregnated scouring pads → 34.01. Polish-impregnated cloths → 34.05. Fabric softener sheets → 38.09. The textile merely carries the chemical product",
+            "keywords": ["perfumed cotton pad", "cosmetic wipe impregnated", "soap scouring pad", "polish cloth impregnated", "fabric softener sheet", "33.", "34.01", "34.05", "38.09"]
+        },
+        {
+            "condition": "Textile products of heading 58.11 (quilted textile products)",
+            "action": "Redirect to heading 58.11 — Note 1(b). Quilted wadding assembled with facing fabrics → 58.11",
+            "keywords": ["quilted textile product", "quilted wadding", "58.11"]
+        },
+        {
+            "condition": "Abrasive powder or grain on a backing of felt or nonwovens",
+            "action": "Redirect to heading 68.05 (abrasive powder on backing) — Note 1(c). Sandpaper on felt/nonwoven backing → 68.05",
+            "keywords": ["abrasive felt backing", "sandpaper felt", "abrasive nonwoven backing", "68.05"]
+        },
+        {
+            "condition": "Agglomerated or reconstituted mica on a backing of felt or nonwovens",
+            "action": "Redirect to heading 68.14 (worked mica articles) — Note 1(d). Mica insulation sheets on felt backing → 68.14",
+            "keywords": ["mica felt backing", "mica nonwoven backing", "mica insulation sheet felt", "68.14"]
+        },
+        {
+            "condition": "Metal foil on a backing of felt or nonwovens",
+            "action": "Redirect to Section XIV (precious metal) or Section XV (base metal) — Note 1(e). Aluminium foil laminated onto nonwoven → Section XV. Gold foil/silver foil on nonwoven → Section XIV",
+            "keywords": ["metal foil nonwoven backing", "aluminium foil felt", "tin foil nonwoven", "Section XIV", "Section XV"]
+        },
+        {
+            "condition": "Sanitary towels/pads, tampons, napkins/diapers and similar articles",
+            "action": "Redirect to heading 96.19 — Note 1(f). Sanitary protection products made of wadding/nonwovens → 96.19. These are specifically excluded from Ch.56 regardless of raw material",
+            "keywords": ["sanitary towel", "sanitary pad", "tampon", "nappy diaper", "panty liner", "96.19"]
+        },
+        {
+            "condition": "Felt impregnated/coated/laminated with plastics/rubber where textile content is ≤50% by weight OR felt completely embedded in plastics or rubber",
+            "action": "Redirect to Chapter 39 (plastics) or Chapter 40 (rubber) — Note 3(a). When plastics/rubber predominates by weight in felt composites → Ch.39/40. In 56.02: felt textile must be >50% by weight (otherwise → Ch.39/40)",
+            "keywords": ["rubber felt composite", "plastic felt laminate low textile", "felt embedded rubber", "39.", "40."]
+        },
+        {
+            "condition": "Nonwovens completely embedded in plastics or rubber, or BOTH SIDES coated with visible plastics/rubber",
+            "action": "Redirect to Chapter 39 or 40 — Note 3(b). Nonwovens with both-sides visible plastics/rubber coating → Ch.39/40. Single-side coated nonwovens (visible) → stay in 56.03",
+            "keywords": ["nonwoven both sides plastic coated", "nonwoven embedded rubber", "nonwoven fully coated both sides", "39.", "40."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 3 — 56.02/56.03: coated felt/nonwovens stay in Ch.56 UNLESS plastics/rubber predominates or fully encloses",
+            "description": "Headings 56.02 (felt) and 56.03 (nonwovens) retain coated/laminated versions WITHIN Ch.56, subject to limits: FELT (56.02): retains plastics/rubber coating IF textile content >50% by weight AND not completely embedded. If textile ≤50% or fully embedded → Ch.39/40. NONWOVENS (56.03): retains single-side visible coating and nonwovens using plastics/rubber as bonding agent. If BOTH sides coated (visible) OR completely embedded → Ch.39/40. The textile/coating weight balance and degree of coverage determine Ch.56 vs. Ch.39/40.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 4 — 56.04 (rubber/plastics-coated yarn): visible coating requirement",
+            "description": "Heading 56.04 covers textile yarn impregnated/coated/sheathed with rubber or plastics where the coating is VISIBLE TO THE NAKED EYE. If the coating is invisible (a very thin treatment absorbed into the fibre without visible layer) → remain in Ch.50–55 by fibre type. Also includes: rubber thread/cord textile-covered (rubber core with textile sheath). Metallised yarn → 56.05. Gimped/chenille yarn → 56.06.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 1(a) — Carrier textile test: Ch.56 vs chapter of the impregnating substance",
+            "description": "When wadding, felt or nonwovens are impregnated with a specific functional substance, the classification depends on the TEXTILE'S ROLE: if the textile material is present MERELY AS A CARRYING MEDIUM for the active substance (perfume, soap, polish, fabric softener) → classify by the SUBSTANCE's chapter. If the textile retains its own functional character (cleaning, filtering, insulating) despite being impregnated → stay in Ch.56. Key test: is the substance or the textile the primary functional element?",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 56.07 (twine/cordage/ropes) vs 56.08 (knotted netting) vs 56.09 (other rope articles) vs 63.07 (made-up rope articles)",
+            "description": "Four headings for rope/twine products: 56.07 = TWINE, CORDAGE, ROPES and CABLES in their basic form (stranded, braided or plaited) — with or without rubber/plastics coating. 56.08 = KNOTTED NETTING made from twine/cordage/rope + made-up FISHING NETS + other made-up nets. 56.09 = OTHER ARTICLES of twine/rope/cordage NES (laces, plaited cords as articles, other rope articles not in 56.08). 63.07 = made-up articles of YARN (including rope/twine articles that are specifically 'articles' — like rope ladder). The degree of manufacture and specific use determine heading.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 56.01 (wadding/flock) vs 56.02 (felt) vs 56.03 (nonwovens) — structure determines the heading",
+            "description": "Three headings for fibrous non-woven structures: 56.01 = WADDING (loose fibrous mass, not consolidated — cotton wool, polyester fill, also flock <5mm and mill neps). 56.02 = FELT (fibres consolidated by mechanical/heat/moisture treatment — needle-punched, wet-felted, or stitch-bonded using fibres from the web itself per Note 2). 56.03 = NON-WOVENS (fibres bonded by chemical, thermal or mechanical means to form sheet, web or batt — includes bonded/meltblown/spunbond fabrics). The degree of fibre consolidation and bonding method distinguishes them: loose → 56.01; mechanically/thermally consolidated → 56.02 (felt) or 56.03 (non-woven).",
+            "priority": 5
+        }
+    ]
+}

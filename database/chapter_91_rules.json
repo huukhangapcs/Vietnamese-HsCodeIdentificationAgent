@@ -1,0 +1,99 @@
+{
+    "chapter_code": "91",
+    "chapter_title": "Clocks and watches and parts thereof",
+    "inclusions": [
+        "Heading 91.01 — Wrist-watches, pocket-watches and other watches, including stop-watches, with case WHOLLY of precious metal, metal clad with precious metal, or same materials combined with natural/cultured pearls or precious/semi-precious stones (headings 71.01–71.04). Note 2: watches with base metal case INLAID with precious metal → 91.02",
+        "Heading 91.02 — Wrist-watches, pocket-watches and other watches, including stop-watches, NOT of heading 91.01 (i.e., cases of base metal, base metal inlaid with precious metal, plastics, etc.)",
+        "Heading 91.03 — Clocks with watch movements (movements not exceeding 12 mm thickness and 50 mm width/length/diameter — Note 3)",
+        "Heading 91.04 — Instrument panel clocks and clocks of a similar type for vehicles, aircraft, spacecraft or vessels",
+        "Heading 91.05 — Other clocks (alarm clocks, wall clocks, cuckoo clocks, etc.)",
+        "Heading 91.06 — Time of day recording apparatus and apparatus for measuring, recording or otherwise indicating intervals of time, with clock or watch movement (time stamps, time recorders, parking meters with timers)",
+        "Heading 91.07 — Time switches with clock or watch movement or with synchronous motor",
+        "Heading 91.08 — Watch movements, complete and assembled (movements per Note 3: regulated by balance-wheel/hairspring, quartz crystal or other system; ≤ 12 mm thick and ≤ 50 mm wide/long/diameter)",
+        "Heading 91.09 — Clock movements, complete and assembled",
+        "Heading 91.10 — Complete watch or clock movements, unassembled or partly assembled (movement sets); incomplete watch or clock movements, assembled; rough watch or clock movements",
+        "Heading 91.11 — Watch cases and parts thereof",
+        "Heading 91.12 — Clock cases and cases of a similar type for other goods of Chapter 91, and parts thereof",
+        "Heading 91.13 — Watch straps, watch bands and watch bracelets, and parts thereof (of any material including leather, textile, base metal, precious metal)",
+        "Heading 91.14 — Other clock or watch parts (including clock or watch springs — Note 1(c) override)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Clock or watch glasses (crystals)",
+            "action": "Classify according to constituent material (e.g., mineral glass → Ch.70; sapphire/synthetic crystal → Ch.71; plastics → Ch.39) — Note 1(a)",
+            "keywords": ["watch crystal", "watch glass", "clock glass", "watch screen glass", "sapphire crystal watch"]
+        },
+        {
+            "condition": "Clock or watch weights",
+            "action": "Classify according to constituent material (e.g., cast iron weight → Ch.73; lead weight → Ch.78) — Note 1(a)",
+            "keywords": ["clock weight", "pendulum weight", "grandfather clock weight"]
+        },
+        {
+            "condition": "Watch chains",
+            "action": "Redirect to heading 71.13 (jewellery, if of precious metal) or 71.17 (imitation jewellery) — Note 1(b). Watch STRAPS/BANDS → stay in Chapter 91 (91.13)",
+            "keywords": ["watch chain gold", "watch chain silver", "watch fob chain", "71.13", "71.17"]
+        },
+        {
+            "condition": "Parts of general use (as defined in Note 2 to Section XV) of base metal, or similar goods of plastics or of precious metal/metal clad with precious metal — EXCEPT clock/watch springs",
+            "action": "Redirect to Section XV (base metal), Chapter 39 (plastics), or heading 71.15 (precious metal) — Note 1(c). CRITICAL EXCEPTION: clock or watch SPRINGS → always heading 91.14 regardless of this rule",
+            "keywords": ["general purpose screw watch", "general purpose spring", "39.", "71.15", "Section XV"]
+        },
+        {
+            "condition": "Bearing balls",
+            "action": "Redirect to heading 73.26 (steel balls) or 84.82 (ball bearings as assemblies) — Note 1(d)",
+            "keywords": ["bearing ball", "steel ball bearing", "73.26", "84.82"]
+        },
+        {
+            "condition": "Articles of heading 84.12 constructed to work WITHOUT AN ESCAPEMENT (e.g., sand timers, non-escapement time-measuring devices)",
+            "action": "Redirect to heading 84.12 — Note 1(e). The escapement mechanism is a defining feature of 'clock or watch' movements; without it → 84.12",
+            "keywords": ["sand timer", "non-escapement timer", "84.12"]
+        },
+        {
+            "condition": "Ball bearings (as assemblies)",
+            "action": "Redirect to heading 84.82 — Note 1(f)",
+            "keywords": ["ball bearing assembly", "84.82"]
+        },
+        {
+            "condition": "Articles of Chapter 85 NOT YET assembled together or with other components into watch/clock movements or into articles suitable for use solely/principally as parts of such movements",
+            "action": "Remain in Chapter 85 — Note 1(g). Electronic/electrical components (oscillators, integrated circuits, motors) stay in Ch.85 until assembled into a clock/watch movement or dedicated clock/watch part",
+            "keywords": ["quartz oscillator unassembled", "stepper motor watch unassembled", "IC timekeeping unassembled", "85."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — 91.01 vs 91.02: case material determines heading for watches",
+            "description": "The watch case material is the sole dividing criterion between 91.01 and 91.02: heading 91.01 = case WHOLLY of precious metal, metal clad with precious metal, or these materials combined with natural/cultured pearls or precious/semi-precious stones (71.01–71.04). ALL OTHER watch cases (base metal, base metal INLAID with precious metal, stainless steel, titanium, plastics, rubber) → 91.02. Inlaid ≠ wholly of precious metal; even a partially inlaid case → 91.02.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 3 — Definition of 'watch movement' for heading 91.08 classification",
+            "description": "A 'watch movement' (91.08) must be: (a) regulated by a balance-wheel and hairspring, quartz crystal or any other system capable of determining intervals of time; (b) with a display or a system to which a mechanical display can be incorporated; AND (c) NOT exceeding 12 mm in THICKNESS and 50 mm in WIDTH, LENGTH or DIAMETER. If either dimension limit is exceeded → the movement is a 'clock movement' (91.09), not a watch movement.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 4 — Dual-use movements/parts: clock/watch heading takes priority",
+            "description": "When movements or parts are suitable for use BOTH in clocks/watches AND in other articles (e.g., precision instruments), they are classified in Chapter 91 — EXCEPT where Note 1 explicitly excludes them. This overrides the general parts-follow-principal-use rule. Example: a precision quartz oscillator usable in both a watch and a precision instrument → classified in Ch.91 once assembled into/for a clock/watch movement.",
+            "priority": 3
+        },
+        {
+            "rule": "Critical exception: clock/watch SPRINGS always → 91.14",
+            "description": "Note 1(c) excludes 'parts of general use' from Chapter 91 — but explicitly carves out clock and watch springs, which MUST be classified in heading 91.14 regardless of their general-purpose nature. Springs for clocks/watches are always Ch.91 parts, even though structurally similar springs may go to Section XV.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 91.13 (watch straps/bands) vs 71.13/71.17 (watch chains)",
+            "description": "Watch STRAPS, BANDS and BRACELETS (including parts) of any material → heading 91.13, regardless of material (leather, textile, rubber, base metal, precious metal). Watch CHAINS (linked chain style, typically precious metal) → 71.13 (jewellery) or 71.17 (imitation jewellery) per Note 1(b). The form factor distinguishes: articulated strap/bracelet (worn flat, clasped) → 91.13; standalone chain with fob/pendant style → 71.13/71.17.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 91.03 (clock with watch movement) vs 91.05 (other clocks)",
+            "description": "Heading 91.03 covers clocks whose timekeeping mechanism IS a watch movement as defined in Note 3 (≤12 mm thick, ≤50 mm diameter). A miniature mantel clock or desk clock with a tiny quartz watch-sized movement → 91.03. Standard alarm clocks, wall clocks with larger clock movements → 91.05. Classification hinges on the physical dimensions of the internal movement, not the size of the clock case.",
+            "priority": 6
+        },
+        {
+            "rule": "Ch.85 electrical components → Chapter 91 threshold: 'assembled into movement'",
+            "description": "Per Note 1(g), Ch.85 components (stepper motors, quartz oscillators, integrated circuits for timekeeping) stay in Chapter 85 UNTIL they are assembled into a watch/clock movement or into articles suitable for principally serving as parts of such movements. The assembly threshold determines the chapter: unassembled components → Ch.85; assembled into a movement or movement-dedicated subassembly → Ch.91.",
+            "priority": 7
+        }
+    ]
+}

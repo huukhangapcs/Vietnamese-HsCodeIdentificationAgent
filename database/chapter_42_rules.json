@@ -1,5 +1,6 @@
 {
     "chapter_code": "42",
+    "chapter_title": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",
     "inclusions": [
         "Heading 42.01 — Saddlery and harness for ANY animal (including traces, leads, knee pads, muzzles, saddle cloths, saddle bags, dog coats and the like), of ANY material",
         "Heading 42.02 — Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food/beverage bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers — of leather/composition leather, plastics sheeting, textile materials, vulcanised fibre or paperboard, or wholly/mainly covered with such materials or paper. Subheadings classified by: outer surface material (leather; plastics/textile; other) AND container type.",
@@ -11,77 +12,156 @@
         {
             "condition": "Sterile surgical catgut or similar sterile suture materials",
             "action": "Redirect to heading 30.06 (pharmaceutical products for surgery) — Note 2(a)",
-            "keywords": ["surgical catgut", "suture material", "surgical suture", "catgut sterile", "30.06"]
+            "keywords": [
+                "surgical catgut",
+                "suture material",
+                "surgical suture",
+                "catgut sterile",
+                "30.06"
+            ]
         },
         {
             "condition": "Articles of apparel or clothing accessories (EXCEPT gloves, mittens, mitts) lined with furskin or artificial fur, OR to which furskin/artificial fur is attached on the OUTSIDE (beyond mere trimming)",
             "action": "Redirect to heading 43.03 (genuine furskin clothing) or 43.04 (artificial fur clothing) — Note 2(b). Exception: gloves/mittens/mitts lined with fur STAY in 42.03",
-            "keywords": ["fur lined jacket", "fur coat leather", "fur trimmed leather clothing", "43.03", "43.04"]
+            "keywords": [
+                "fur lined jacket",
+                "fur coat leather",
+                "fur trimmed leather clothing",
+                "43.03",
+                "43.04"
+            ]
         },
         {
             "condition": "Made-up articles of netting",
             "action": "Redirect to heading 56.08 — Note 2(c)",
-            "keywords": ["netting article", "net bag", "56.08"]
+            "keywords": [
+                "netting article",
+                "net bag",
+                "56.08"
+            ]
         },
         {
             "condition": "Footwear and parts thereof",
             "action": "Redirect to Chapter 64 — Note 2(d). Leather shoes, boots, sandals even if made of same materials as 42.02 articles → Ch.64",
-            "keywords": ["leather shoe", "leather boot", "leather sandal", "footwear", "64."]
+            "keywords": [
+                "leather shoe",
+                "leather boot",
+                "leather sandal",
+                "footwear",
+                "64."
+            ]
         },
         {
             "condition": "Headgear or parts thereof (including caps, hats, crash helmets with leather cover)",
             "action": "Redirect to Chapter 65 — Note 2(e)",
-            "keywords": ["leather cap", "leather hat", "leather headgear", "65."]
+            "keywords": [
+                "leather cap",
+                "leather hat",
+                "leather headgear",
+                "65."
+            ]
         },
         {
             "condition": "Whips, riding-crops and similar articles",
             "action": "Redirect to heading 66.02 — Note 2(f)",
-            "keywords": ["whip", "riding crop", "horse whip", "66.02"]
+            "keywords": [
+                "whip",
+                "riding crop",
+                "horse whip",
+                "66.02"
+            ]
         },
         {
             "condition": "Cuff-links, bracelets or other imitation jewellery made of leather",
             "action": "Redirect to heading 71.17 (imitation jewellery) — Note 2(g)",
-            "keywords": ["leather cuff link", "leather bracelet", "leather imitation jewellery", "71.17"]
+            "keywords": [
+                "leather cuff link",
+                "leather bracelet",
+                "leather imitation jewellery",
+                "71.17"
+            ]
         },
         {
             "condition": "Metal fittings or trimmings for harness (stirrups, bits, horse brasses, buckles) presented separately",
             "action": "Redirect to Section XV (base metals) generally — Note 2(h). Only when assembled as part of a harness do they go to 42.01",
-            "keywords": ["stirrup", "horse bit", "harness buckle", "horse brass", "harness fitting metal"]
+            "keywords": [
+                "stirrup",
+                "horse bit",
+                "harness buckle",
+                "horse brass",
+                "harness fitting metal"
+            ]
         },
         {
             "condition": "Strings, skins for drums or other parts of musical instruments",
             "action": "Redirect to heading 92.09 — Note 2(ij)",
-            "keywords": ["drum skin leather", "drumhead skin", "musical instrument string gut", "92.09"]
+            "keywords": [
+                "drum skin leather",
+                "drumhead skin",
+                "musical instrument string gut",
+                "92.09"
+            ]
         },
         {
             "condition": "Furniture, luminaires made of leather",
             "action": "Redirect to Chapter 94 — Note 2(k)",
-            "keywords": ["leather furniture", "leather sofa", "leather chair", "94."]
+            "keywords": [
+                "leather furniture",
+                "leather sofa",
+                "leather chair",
+                "94."
+            ]
         },
         {
             "condition": "Toys, games, sports requisites (except leather sports gloves which stay in 42.03)",
             "action": "Redirect to Chapter 95 — Note 2(l). Note: leather sports gloves (baseball, boxing) stay in 42.03",
-            "keywords": ["leather toy", "leather sports ball", "95."]
+            "keywords": [
+                "leather toy",
+                "leather sports ball",
+                "95."
+            ]
         },
         {
             "condition": "Buttons, press-fasteners, snap-fasteners, press-studs, button moulds or blanks",
             "action": "Redirect to heading 96.06 — Note 2(m)",
-            "keywords": ["leather button", "press stud", "snap fastener", "96.06"]
+            "keywords": [
+                "leather button",
+                "press stud",
+                "snap fastener",
+                "96.06"
+            ]
         },
         {
             "condition": "Bags made of sheeting of plastics with handles, NOT designed for prolonged use — i.e., disposable plastic shopping bags",
             "action": "Redirect to heading 39.23 (plastic packing articles) — Note 3(A)(a). 42.02 requires DURABLE bags designed for prolonged use",
-            "keywords": ["disposable plastic bag", "plastic shopping bag", "carrier bag", "polybag handle", "39.23"]
+            "keywords": [
+                "disposable plastic bag",
+                "plastic shopping bag",
+                "carrier bag",
+                "polybag handle",
+                "39.23"
+            ]
         },
         {
             "condition": "Articles of plaiting materials (baskets, wicker bags, straw bags)",
             "action": "Redirect to heading 46.02 — Note 3(A)(b)",
-            "keywords": ["wicker bag", "rattan bag", "plaiting material bag", "straw bag", "46.02"]
+            "keywords": [
+                "wicker bag",
+                "rattan bag",
+                "plaiting material bag",
+                "straw bag",
+                "46.02"
+            ]
         },
         {
             "condition": "Watch straps — even if of leather",
             "action": "Redirect to heading 91.13 — Note 4. Leather watch straps explicitly excluded from 42.03",
-            "keywords": ["watch strap leather", "watch band leather", "leather watch strap", "91.13"]
+            "keywords": [
+                "watch strap leather",
+                "watch band leather",
+                "leather watch strap",
+                "91.13"
+            ]
         }
     ],
     "classification_rules": [

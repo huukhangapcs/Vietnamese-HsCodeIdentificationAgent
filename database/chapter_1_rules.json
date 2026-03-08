@@ -1,40 +1,57 @@
 {
-  "chapter_code": "01",
-  "inclusions": [
-    "All live animals"
-  ],
-  "exclusions": [
-    {
-      "condition": "Fish and crustaceans, molluscs and other aquatic invertebrates",
-      "action": "Redirect to Heading 03.01, 03.06, 03.07 or 03.08",
-      "keywords": [
-        "fish",
-        "crustaceans",
-        "molluscs",
-        "aquatic invertebrates",
-        "03.01",
-        "03.06",
-        "03.07",
-        "03.08"
-      ]
-    },
-    {
-      "condition": "Cultures of micro-organisms and other products of heading 30.02",
-      "action": "Redirect to Heading 30.02",
-      "keywords": [
-        "cultures",
-        "micro-organisms",
-        "30.02"
-      ]
-    },
-    {
-      "condition": "Animals of travelling circuses and travelling menageries",
-      "action": "Redirect to Heading 95.08",
-      "keywords": [
-        "circus",
-        "menagerie",
-        "95.08"
-      ]
-    }
-  ]
+    "chapter_code": "01",
+    "chapter_title": "Live animals",
+    "scope_note": "Chapter 1 covers ALL live animals with specific exceptions. Note: live fish/crustaceans/molluscs/aquatic invertebrates → Ch.03 (not Ch.01). Cultures of micro-organisms → heading 30.02. Circus/menagerie animals → 95.08.",
+    "inclusions": [
+        "Heading 01.01 — Live horses, asses, mules and hinnies: pure-bred breeding horses (01.01.21), other horses for slaughter, other horses NES, asses, mules/hinnies",
+        "Heading 01.02 — Live bovine animals: pure-bred breeding cattle (01.02.21), other cattle (dairy heifers, feeder cattle, beef cattle), buffalo",
+        "Heading 01.03 — Live swine: pure-bred breeding swine (01.03.10), other swine <50kg, other swine ≥50kg",
+        "Heading 01.04 — Live sheep and goats: sheep (pure-bred breeding 01.04.10, other), goats",
+        "Heading 01.05 — Live poultry: fowls of species Gallus domesticus (chickens, broilers, layers), ducks, geese, turkeys, guinea fowls — whether or not pure-bred. Weight thresholds apply to subheadings",
+        "Heading 01.06 — Other live animals: mammals (primates, whales/dolphins, rabbits/hares, reindeer, camels, dogs, cats, other mammals), reptiles (snakes, turtles, lizards, crocodilians), birds (raptors, psittaciformes/parrots, ostriches, other birds), insects (bees, butterflies), other (frogs, etc.)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Live fish, crustaceans, molluscs and other aquatic invertebrates",
+            "action": "Redirect to Chapter 3: live fish → 03.01; live crustaceans (lobster, shrimp, crab) → 03.06; live molluscs (oysters, mussels, scallops) → 03.07; live aquatic invertebrates (sea urchin, sea cucumber) → 03.08. Chapter 1 explicitly excludes ALL live aquatic animals in these categories",
+            "keywords": ["live fish", "live lobster", "live shrimp", "live crab", "live oyster", "live mussel", "live squid", "03.01", "03.06", "03.07", "03.08"]
+        },
+        {
+            "condition": "Cultures of micro-organisms and other products of heading 30.02 (vaccines, blood, antisera)",
+            "action": "Redirect to heading 30.02 — live cultures of bacteria, viruses, yeasts used for pharmaceutical purposes → 30.02. Live yeasts for baking → 21.02. The micro-organism must be a macroscopic animal to qualify for Ch.01",
+            "keywords": ["bacterial culture", "virus culture", "micro-organism live", "vaccine seed culture", "30.02"]
+        },
+        {
+            "condition": "Animals of travelling circuses, travelling menageries and travelling theatres",
+            "action": "Redirect to heading 95.08 — circus/travelling fair animals classified with the circus equipment as one entity → 95.08. Permanent zoo animals → Ch.01 (01.06)",
+            "keywords": ["circus animal", "menagerie travelling", "travelling fair animals", "95.08"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Primary scope: ALIVE at classification — dead animals → immediate redirect",
+            "description": "Chapter 1 covers ONLY animals that are ALIVE at the time of customs classification. The moment an animal dies, it falls out of Ch.01 entirely: Slaughtered animals → Ch.02 (meat and edible offal). Dead animals not for human consumption → Ch.05 (e.g. hides, bones, hair). Dead fish/seafood → Ch.03. The life condition must be verified at the time of import/export declaration — an animal that arrives dead during transit may require reclassification.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: Ch.01 (live mammals/birds/reptiles/insects) vs Ch.03 (live aquatic animals)",
+            "description": "Chapter 1 and Chapter 3 divide live animals by HABITAT TYPE: Ch.01 = terrestrial animals (mammals: bovines, swine, sheep, goats, horses, dogs, cats, camels, rabbits, primates; birds: poultry, parrots, raptors; reptiles: snakes, lizards, crocodiles; insects: bees, butterflies). Ch.03 = aquatic animals (fish, crustaceans, molluscs, aquatic invertebrates — regardless of whether they are currently in water or not). Live ornamental tropical fish → 03.01. Live snails (terrestrial) → 01.06. Live frogs → 01.06.",
+            "priority": 2
+        },
+        {
+            "rule": "Pure-bred breeding animals vs. other (commercial) animals: subheading distinction within 01.01–01.05",
+            "description": "Within each livestock heading (01.01–01.05), the FIRST subheading level distinguishes: PURE-BRED BREEDING ANIMALS = registered pedigree animals used for genetic improvement of herds (stud horses, bull studs, purebred sows — typically with pedigree certificates). These get specific subheadings (01.01.21, 01.02.21, 01.03.10, 01.04.10) for preferential treatment (often lower duty rates). ALL OTHER ANIMALS = commercial livestock for slaughter, dairy, eggs, wool → remaining subheadings. The breeding purpose AND pedigree certification determines the subheading.",
+            "priority": 3
+        },
+        {
+            "rule": "Heading 01.06 — residual category for all other live animals not in 01.01–01.05",
+            "description": "Heading 01.06 is the CATCH-ALL for live animals not specifically listed in 01.01–01.05 (which cover horses/asses, bovines, swine, sheep/goats, poultry). 01.06 covers: MAMMALS (primates, whales/dolphins, manatees, rabbits/hares, camels/dromedaries, deer/reindeer, dogs, cats, zoo mammals); REPTILES (snakes, tortoises, lizards, crocodilians — all live reptile trade); BIRDS (raptors like eagles/hawks, parrots/parakeets, ostriches/emus, songbirds, other ornamental birds); INSECTS (bees for apiaries, butterflies, silkworms — but silkworm EGGS → Ch.01 if hatching-stage, silk → Ch.50); OTHER (live frogs, live snails). All CITES-listed species require permits but classification remains Ch.01.",
+            "priority": 4
+        },
+        {
+            "rule": "Live poultry weight thresholds (01.05): subheading classification by weight",
+            "description": "Heading 01.05 (live poultry) has WEIGHT-BASED subheading splits: Fowls of species Gallus domesticus AND ducks, geese, turkeys, guinea fowls: weight ≤185g → day-old chicks/poults subheading (01.05.11–01.05.15 range). Weight >185g → commercial/growing birds subheadings. The 185g threshold separates freshly-hatched day-old poultry (often traded as biological material for farms) from older birds being traded for slaughter or laying. This weight test applies at time of customs presentation.",
+            "priority": 5
+        }
+    ]
 }

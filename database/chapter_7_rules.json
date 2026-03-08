@@ -1,80 +1,70 @@
 {
     "chapter_code": "07",
+    "chapter_title": "Edible vegetables and certain roots and tubers",
+    "scope_note": "Note 1: Ch.07 does NOT cover forage products of 12.14. Note 2: In headings 07.09/07.10/07.11/07.12, 'vegetables' includes edible mushrooms, truffles, olives, capers, marrows, pumpkins, aubergines, sweet corn (Zea mays var. saccharata), fruits of genus Capsicum or Pimenta, fennel, parsley, chervil, tarragon, cress and sweet marjoram. Note 3: 07.12 covers all dried vegetables of kinds falling in 07.01–07.11 EXCEPT (a) dried leguminous vegetables shelled → 07.13; (b) sweet corn in 11.02–11.04 forms; (c) flour/meal/powder/flakes/granules/pellets of potatoes → 11.05; (d) flour/meal/powder of dried leguminous vegetables → 11.06. Note 4: Dried or crushed or ground fruits of genus Capsicum or genus Pimenta are EXCLUDED from Ch.07 → heading 09.04. Note 5: 07.11 applies to vegetables treated SOLELY to ensure provisional preservation during transport/storage (SO2/brine/sulphur water) PROVIDED they remain unsuitable for immediate consumption in that state.",
     "inclusions": [
-        "Edible vegetables and certain roots and tubers (potatoes, tomatoes, onions, cabbages, lettuces, carrots, cucumbers, leguminous vegetables, etc.)",
-        "Edible mushrooms, truffles, olives, capers, marrows, pumpkins, aubergines, sweet corn (Zea mays var. saccharata)",
-        "Fruits of the genus Capsicum or of the genus Pimenta (fresh, chilled, or provisionally preserved)",
-        "Herbs used as vegetables: fennel, parsley, chervil, tarragon, cress and sweet marjoram",
-        "Vegetables that are fresh, chilled, frozen (uncooked or cooked by steaming or boiling in water), provisionally preserved (unsuitable for immediate consumption), or dried (whole, cut, sliced, broken or in powder)",
-        "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content (fresh, chilled, frozen or dried)"
+        "Heading 07.01 — Potatoes, fresh or chilled: new/early potatoes, main crop potatoes (ware/table), seed potatoes. Excludes frozen potatoes (→ 07.03 subheadings or 20.04) and processed potato products (chips/crisps → Ch.20)",
+        "Heading 07.02 — Tomatoes, fresh or chilled (including cherry tomatoes, plum tomatoes, beefsteak tomatoes). Excludes canned/processed tomatoes → Ch.20",
+        "Heading 07.03 — Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled: bulb onions, pickling onions, spring onions/scallions, shallots, garlic bulbs, leeks, chives",
+        "Heading 07.04 — Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled: white/red cabbage, savoy cabbage, Brussels sprouts, broccoli, cauliflower, kohlrabi, Chinese cabbage, pak choi",
+        "Heading 07.05 — Lettuce (Lactuca sativa) and chicory (Cichorium spp.), fresh or chilled: butterhead, iceberg, romaine/cos lettuce; endive, radicchio, Belgian endive (witloof chicory)",
+        "Heading 07.06 — Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled",
+        "Heading 07.07 — Cucumbers and gherkins, fresh or chilled",
+        "Heading 07.08 — Leguminous vegetables, shelled or unshelled, fresh or chilled: peas (green peas, snow peas, sugar snap), beans (French beans, runner beans, broad beans, soybeans fresh), chickpeas (fresh), lentils (fresh)",
+        "Heading 07.09 — Other vegetables, fresh or chilled: asparagus, aubergines/eggplant, globe artichokes, avocados (classified here or Ch.08 depending on HS edition), sweet corn (Zea mays var. saccharata — ear corn, fresh), mushrooms (cultivated: 07.09.51; truffles: 07.09.10), olives, capers, courgettes/zucchini, pumpkins, marrows, sweet peppers (capsicum fresh), other herbs used as vegetables (fennel, parsley, basil, tarragon, chervil)",
+        "Heading 07.10 — Vegetables (uncooked or cooked by steaming or boiling in water), frozen: frozen peas, frozen mixed vegetables, frozen spinach, frozen sweetcorn, frozen broccoli — IQF or block frozen",
+        "Heading 07.11 — Vegetables provisionally preserved (by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption",
+        "Heading 07.12 — Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared: dried onion flakes, garlic powder (from drying not from formulation), sun-dried tomatoes, dried shiitake/porcini mushrooms, dried chillies (whole pieces/flakes — not ground into spice powder → 09.04)",
+        "Heading 07.13 — Dried leguminous vegetables, shelled, whether or not skinned or split: dried lentils, dried chickpeas, dried kidney beans/haricot beans, black-eyed peas, split peas, dried soybeans (for food — not for oil extraction)",
+        "Heading 07.14 — Manioc (cassava), arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets; sago pith"
     ],
     "exclusions": [
         {
-            "condition": "Forage products (e.g., swedes, mangolds, fodder roots, hay, lucerne) intended for animal feed",
-            "action": "Redirect to Heading 12.14",
-            "keywords": [
-                "forage",
-                "fodder",
-                "animal feed"
-            ]
+            "condition": "Prepared or preserved vegetables suitable for immediate consumption (canned, cooked, in oil, in vinegar/brine as pickle, frozen after cooking)",
+            "action": "Redirect to Chapter 20: canned peas → 20.05. Pickled gherkins in vinegar → 20.01. Tomato paste/purée → 20.02. Frozen chips/french fries (cooked) → 20.04. Vegetable-based soups → 21.04. The test: is the vegetable still 'raw' in character or has it been COOKED/PREPARED with other ingredients/condiments?",
+            "keywords": ["canned vegetables", "pickled vegetables vinegar", "tomato paste", "frozen chips cooked", "20.01", "20.02", "20.04", "20.05"]
         },
         {
-            "condition": "Sweet corn in the forms of flour, groats, meal, or pellets",
-            "action": "Redirect to Headings 11.02 to 11.04",
-            "keywords": [
-                "sweet corn flour",
-                "sweet corn meal",
-                "sweet corn groats",
-                "sweet corn pellets",
-                "11.02",
-                "11.04"
-            ]
+            "condition": "Flour, starch, meal, powder, flakes, granules and pellets from potatoes, leguminous vegetables or sweet corn",
+            "action": "Redirect to Chapter 11: potato flour/starch → 11.05; potato flakes (dehydrated for mashed potato) → 11.05. Leguminous flour (chickpea flour/besan, lentil flour, pea flour) → 11.06. Sweet corn flour/groats → 11.02–11.04. Cassava starch (tapioca starch) → 11.08. Ch.07 covers WHOLE or CUT/SLICED dried vegetables, not flour/starch",
+            "keywords": ["potato flour", "potato starch", "cassava starch tapioca", "chickpea flour besan", "pea flour", "11.05", "11.06", "11.08"]
         },
         {
-            "condition": "Flour, meal, powder, flakes, granules and pellets of potatoes",
-            "action": "Redirect to Heading 11.05",
-            "keywords": [
-                "potato flour",
-                "potato meal",
-                "potato powder",
-                "potato flakes",
-                "potato pellets",
-                "11.05"
-            ]
+            "condition": "Dried, crushed OR ground fruits of genus Capsicum or genus Pimenta — in any of these processed forms",
+            "action": "Redirect to heading 09.04 — Note 4 explicitly: dried OR crushed OR ground Capsicum/Pimenta → EXCLUDED from Ch.07 → 09.04. FRESH/CHILLED/FROZEN Capsicum (chillies, bell peppers) → 07.09/07.10. PROVISIONALLY PRESERVED capsicum (in brine, unsuitable for immediate eating) → 07.11. CANNED/PICKLED capsicum (suitable for eating) → Ch.20. The word 'or' in Note 4 means even just DRIED whole chillies (not crushed/ground) are excluded from Ch.07 → 09.04",
+            "keywords": ["dried chilli whole", "chilli powder", "paprika ground", "cayenne pepper", "dried capsicum any form", "09.04"]
         },
         {
-            "condition": "Flour, meal and powder of the dried leguminous vegetables (beans, peas, lentils, etc.)",
-            "action": "Redirect to Heading 11.06",
-            "keywords": [
-                "bean flour",
-                "pea flour",
-                "leguminous powder",
-                "lentil flour",
-                "11.06"
-            ]
+            "condition": "Forage/fodder vegetables intended for animal feed (swedes, mangolds, fodder roots, rutabaga for livestock)",
+            "action": "Redirect to heading 12.14 (swedes, mangolds, fodder roots, hay, lucerne, clover, sainfoin) — when the commercial purpose is animal feed → 12.14. Same plant species for human consumption → Ch.07",
+            "keywords": ["fodder swede", "mangold animal feed", "rutabaga fodder", "forage roots", "12.14"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Fresh/chilled vs. frozen vs. dried vs. provisionally preserved: all Ch.07 in simple preservation",
+            "description": "Chapter 7 headings span the full preservation chain for vegetables excluding cooked/prepared forms: 07.01–07.09 = FRESH or CHILLED (most specific by species). 07.10 = FROZEN (uncooked or simply blanched/steam-cooked for preservation — frozen peas, IQF vegetables). 07.11 = PROVISIONALLY PRESERVED (not suitable for direct eating — brine/SO2/sulphur water treated for transport). 07.12 = DRIED (whole/sliced/powdered — without chemical preservatives). 07.13/07.14 = specific categories (dried legumes, starchy roots). Cooking or preparation beyond these transforms the classification to Ch.20.",
+            "priority": 1
         },
         {
-            "condition": "Dried, or crushed, or ground fruits of the genus Capsicum or Pimenta (dried peppers, paprika powder)",
-            "action": "Redirect to Heading 09.04",
-            "keywords": [
-                "dried capsicum",
-                "crushed pimenta",
-                "ground pepper",
-                "dried pepper",
-                "paprika",
-                "09.04"
-            ]
+            "rule": "Dried vegetables (07.12) vs. spices of Ch.09 — the Capsicum boundary and powder test",
+            "description": "The most important boundary within dried plant materials: DRIED VEGETABLES (07.12) = vegetables dried for use as vegetables in cooking — dried mushrooms (porcini, shiitake), dried onion/garlic flakes, sun-dried tomatoes, dried chilli PIECES/FLAKES (when traded as vegetable ingredient, not spice). SPICES (Ch.09) = the same plant material dried and/or GROUND specifically for use as a condiment/flavouring agent. Key rule for Capsicum: FRESH → 07.09. DRIED WHOLE pieces (if used as vegetable/soup ingredient) → 07.12. DRIED/GROUND powder (chilli powder, paprika, cayenne) → 09.04. Commercial presentation and labelling is key.",
+            "priority": 2
         },
         {
-            "condition": "Vegetables treated or prepared such that they are suitable for immediate consumption (e.g., canned, pickled to be eaten directly)",
-            "action": "Redirect to Chapter 20 (Preparations of vegetables)",
-            "keywords": [
-                "prepared",
-                "immediate consumption",
-                "ready to eat",
-                "canned",
-                "chapter 20"
-            ]
+            "rule": "07.08/07.13 legumes: fresh/frozen vs dried — the shelling and drying distinction",
+            "description": "Leguminous vegetables appear in two headings by MOISTURE STATE: 07.08 = FRESH legumes (green peas in pod or shelled, fresh broad beans, French beans, fresh edamame/soybeans, runner beans) — high moisture, for fresh vegetable use. 07.10 = FROZEN legumes (frozen green peas, frozen edamame). 07.13 = DRIED legumes (low moisture, for dry bean/pulse use: lentils, dried chickpeas, dried kidney/haricot/black beans, split peas, dried soybeans for food). The stage: if still 'green' or fresh → 07.08. If fully dried into a dry pulse/legume → 07.13. Frozen soybeans (edamame) → 07.10. Dried soybeans for oil → 12.01.",
+            "priority": 3
+        },
+        {
+            "rule": "07.14 starchy roots: cassava/manioc chain — from fresh root to tapioca starch",
+            "description": "Cassava (manioc) appears at multiple stages: FRESH ROOT → 07.14. FROZEN/DRIED cassava root/chips → 07.14. CASSAVA PELLETS (dried cassava for animal feed) → 07.14 or sometimes 23.08 depending on pellet specification. CASSAVA FLOUR (whole cassava dried and ground, used in food like gluten-free flour) → 11.06.10. TAPIOCA STARCH (extracted starch from cassava, white and pure) → 11.08.14. TAPIOCA PEARLS (processed starch into pearl form for boba/pudding) → 19.03. The conversion: raw root → 07.14; starch extraction → 11.08; further processed product → Ch.19.",
+            "priority": 4
+        },
+        {
+            "rule": "Sweet corn (07.09) vs maize/corn in Ch.10 vs sweet corn flour in Ch.11",
+            "description": "Corn (Zea mays) appears in multiple headings by VARIETY and FORM: SWEET CORN (Zea mays var. saccharata) in fresh/frozen edible state (corn on the cob, frozen corn kernels for eating) → 07.09/07.10. Canned sweet corn (cooked/prepared) → 20.05. FIELD CORN/MAIZE (Zea mays, starchy, for grain) in the form of dry grain → Ch.10 (10.05). Dried CORN GRAIN processed into flour/groats → Ch.11 (11.02 corn flour, 11.04 groats). POPCORN (specific sweet/field corn popped) → 21.06 if flavoured, or 19.04 if processed into popped cereal product.",
+            "priority": 5
         }
     ]
 }

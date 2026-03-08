@@ -1,0 +1,68 @@
+{
+    "chapter_code": "86",
+    "chapter_title": "Railway or tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",
+    "inclusions": [
+        "Heading 86.01 — Rail locomotives powered from an external source of electricity or by electric accumulators",
+        "Heading 86.02 — Other rail locomotives; locomotive tenders",
+        "Heading 86.03 — Self-propelled railway or tramway coaches, vans and trucks (other than maintenance or service vehicles)",
+        "Heading 86.04 — Railway or tramway maintenance or service vehicles (e.g., workshops, cranes, ballast tampers, trackliners, testing coaches and track inspection vehicles)",
+        "Heading 86.05 — Railway or tramway passenger coaches, luggage vans, post office coaches and other special-purpose railway/tramway coaches (not self-propelled); sleeping cars and dining cars",
+        "Heading 86.06 — Railway or tramway goods vans and wagons (not self-propelled)",
+        "Heading 86.07 — Parts of railway/tramway locomotives or rolling-stock, including: (a) axles, wheels, wheel sets (running gear), metal tyres, hoops, hubs and other wheel parts; (b) frames, underframes, bogies and bissel-bogies; (c) axle boxes; brake gear; (d) buffers for rolling-stock; hooks and other coupling gear and corridor connections; (e) coachwork",
+        "Heading 86.08 — Railway or tramway track fixtures and fittings including: (a) assembled track, turntables, platform buffers, loading gauges; (b) semaphores, mechanical signal discs, level crossing control gear, signal and point controls, and other mechanical (including electro-mechanical) signalling, safety or traffic control equipment — whether or not fitted for electric lighting — for railways, tramways, roads, inland waterways, parking facilities, port installations or airfields",
+        "Heading 86.09 — Containers (including containers for the transport of fluids) specially designed and equipped for carriage by one or more modes of transport"
+    ],
+    "exclusions": [
+        {
+            "condition": "Railway or tramway sleepers of wood or of concrete, OR concrete guide-track sections for hovertrains",
+            "action": "Redirect to heading 44.06 (wood sleepers) or 68.10 (concrete sleepers/guide-track sections) — Note 1(a)",
+            "keywords": [
+                "railway sleeper wood", "railroad tie wood", "concrete sleeper", "sleeper concrete",
+                "hovertrack section", "guide-track concrete", "44.06", "68.10"
+            ]
+        },
+        {
+            "condition": "Railway or tramway track construction material of iron or steel",
+            "action": "Redirect to heading 73.02 (rails, check-rails, fish-plates, baseplates, rail clips, bedplates, ties of iron/steel) — Note 1(b)",
+            "keywords": [
+                "rail iron", "steel rail", "fish plate", "rail clip", "rail base plate",
+                "railway tie iron", "track bed iron", "73.02"
+            ]
+        },
+        {
+            "condition": "Electrical signalling, safety or traffic control equipment",
+            "action": "Redirect to heading 85.30 (electrical apparatus for signalling, safety or traffic control) — Note 1(c). Chapter 86 only covers MECHANICAL (including electro-mechanical) signalling equipment; purely ELECTRICAL signalling equipment → 85.30",
+            "keywords": [
+                "electric traffic signal", "electronic railway signal", "electrical safety control",
+                "traffic light rail", "electric level crossing control", "85.30"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: Mechanical vs. Electrical signalling equipment (86.08 vs. 85.30)",
+            "description": "Heading 86.08 covers MECHANICAL (including electro-mechanical) signalling, safety or traffic control equipment — the mechanical action is primary. Heading 85.30 covers purely ELECTRICAL/ELECTRONIC signalling equipment. Test: if the signalling function is achieved primarily by electrical/electronic means → 85.30; if primarily mechanical (with possible electrical trigger or lighting) → 86.08. This applies to railways, roads, inland waterways, parking facilities, port installations and airfields.",
+            "priority": 1
+        },
+        {
+            "rule": "Heading 86.07 — parts of rolling-stock (broad scope)",
+            "description": "Note 2 confirms heading 86.07 covers, inter alia: axles, wheels, wheel sets (running gear), metal tyres, hoops and hubs; frames, underframes, bogies and bissel-bogies; axle boxes; brake gear; buffers; hooks, coupling gear, corridor connections; coachwork. Classification here requires the part to be identifiable as specific to railway/tramway rolling-stock use; general-purpose parts that happen to be fitted → classified by constituent material/function.",
+            "priority": 2
+        },
+        {
+            "rule": "Heading 86.08 — track fixtures and mechanical signalling (broad scope)",
+            "description": "Note 3 confirms heading 86.08 covers, inter alia: assembled track, turntables, platform buffers, loading gauges; semaphores, mechanical signal discs, level crossing control gear, signal and point controls, and other mechanical (including electro-mechanical) signalling equipment — whether or not fitted for electric lighting. Coverage extends beyond railways: roads, inland waterways, parking facilities, port installations and airfields are all included as application domains.",
+            "priority": 3
+        },
+        {
+            "rule": "Track construction material vs. track fixtures: 73.02 vs. 86.08",
+            "description": "Heading 73.02 captures raw TRACK CONSTRUCTION MATERIAL of iron/steel (rails, check-rails, fish-plates, baseplates, rail clips, sleepers of metal). Heading 86.08 captures ASSEMBLED TRACK FIXTURES AND FITTINGS — i.e., functional assemblies ready for installation (assembled track sections, turntables, platform buffers). Individual steel rail components presented unassembled → 73.02. Assembled/functional track fixtures → 86.08.",
+            "priority": 4
+        },
+        {
+            "rule": "Chapter 86 exclusions for natural/common materials",
+            "description": "Chapter 86 Note 1 creates three explicit redirects out of Chapter 86: (1) wood sleepers / concrete sleepers → Ch.44 or 68.10; (2) iron/steel track construction materials → 73.02; (3) electrical signalling equipment → 85.30. These exclusions take absolute priority over any apparent functional connection to railways/tramways.",
+            "priority": 5
+        }
+    ]
+}

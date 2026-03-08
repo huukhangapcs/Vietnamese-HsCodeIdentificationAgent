@@ -43,7 +43,17 @@ def _get_vector_collections():
                 return self.model.encode(input).tolist()
 
         _embed_fn = _CustomEmbeddingFunction()
-        _chroma_client = _chromadb.PersistentClient(path=CHROMA_DB_PATH)
+        try:
+            # chromadb v0.4+
+            _chroma_client = _chromadb.PersistentClient(path=CHROMA_DB_PATH)
+        except AttributeError:
+            # chromadb v0.3.x fallback
+            from chromadb.config import Settings as _ChromaSettings
+            _chroma_client = _chromadb.Client(_ChromaSettings(
+                chroma_db_impl="duckdb+parquet",
+                persist_directory=CHROMA_DB_PATH,
+                anonymized_telemetry=False
+            ))
         _collection_nodes = _chroma_client.get_collection(name="hs_nodes", embedding_function=_embed_fn)
         _collection_rules = _chroma_client.get_collection(name="hs_rules", embedding_function=_embed_fn)
     return _collection_nodes, _collection_rules
@@ -455,6 +465,15 @@ def get_chapter_rules(chapter_id: str, item_description: str = "") -> dict:
             filtered_rules["exclusions"] = filtered_exclusions
             return {"chapter_rules": filtered_rules, "section_notes": section_notes}
             
+    # Sort classification_rules by priority before returning to LLM
+    # P2 FIX: 'priority' field was created but never used — use it now
+    if "classification_rules" in rules:
+        rules = dict(rules)  # shallow copy to avoid mutating cache
+        rules["classification_rules"] = sorted(
+            rules["classification_rules"],
+            key=lambda r: r.get("priority", 99)
+        )
+
     return {"chapter_rules": rules, "section_notes": section_notes}
 
 def get_all_sections() -> list:
@@ -578,6 +597,10 @@ def query_legal_notes(query: str, section_id: str, chapter_id: str) -> dict:
                 meta = res["metadatas"][0][i]
                 if meta.get("type") == "exclusion":
                     out.append(f"EXCLUSION: If {meta.get('condition', '')} -> {meta.get('action', '')}")
+                elif meta.get("type") == "classification_rule":
+                    # P1 FIX: handle new classification_rule type from ChromaDB
+                    priority = meta.get('priority', '?')
+                    out.append(f"RULE (priority {priority}): {meta.get('rule', '')}. {meta.get('description', '')}")
                 else:
                     out.append(f"INCLUSION: {meta.get('description', '')}")
             return list(set(out)) # Xóa trùng

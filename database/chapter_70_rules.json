@@ -1,0 +1,106 @@
+{
+    "chapter_code": "70",
+    "chapter_title": "Glass and glassware",
+    "scope_note": "Note 5: 'glass' throughout the Nomenclature includes fused quartz and other fused silica. Note 2(a): glass is not regarded as 'worked' by reason of any process before annealing. Note 2(b): cutting to shape does not affect classification of glass in sheets for headings 70.03–70.05.",
+    "inclusions": [
+        "Heading 70.01 — Cullet and other waste and scrap of glass; glass in the mass",
+        "Heading 70.02 — Glass in balls (other than microspheres of heading 70.18), rods or tubes, unworked",
+        "Heading 70.03 — Cast glass and rolled glass, in sheets or profiles, whether or not having an absorbent, reflecting or non-reflecting layer, but not otherwise worked. Note 2(c): 'absorbent/reflecting/non-reflecting layer' = microscopically thin coating of metal or metal oxide that absorbs IR light or improves reflection while retaining transparency/translucency",
+        "Heading 70.04 — Drawn glass and blown glass, in sheets, whether or not having an absorbent, reflecting or non-reflecting layer, but not otherwise worked",
+        "Heading 70.05 — Float glass and surface ground or polished glass, in sheets, whether or not having an absorbent, reflecting or non-reflecting layer, but not otherwise worked",
+        "Heading 70.06 — Glass of headings 70.03, 70.04 or 70.05, bent, edge-worked, engraved, drilled, enamelled or otherwise worked, but not framed or fitted with other materials. Note 3: products of heading 70.06 remain classified there whether or not they have the character of articles",
+        "Heading 70.07 — Safety glass, consisting of toughened (tempered) or laminated glass, whether or not shaped",
+        "Heading 70.08 — Multiple-walled insulating units of glass",
+        "Heading 70.09 — Glass mirrors, whether or not framed, including rear-view mirrors",
+        "Heading 70.10 — Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass",
+        "Heading 70.11 — Glass envelopes (including bulbs and tubes), open, and glass parts thereof, without fittings, for electric lamps, cathode-ray tubes or the like",
+        "Heading 70.12 — Glass inners for vacuum flasks or for other vacuum vessels, and glass parts thereof, other than fittings",
+        "Heading 70.13 — Glassware of a kind used for table, kitchen, toilet, office, indoor decoration or similar purposes (other than that of heading 70.10 or 70.18). Subheading Note 1: 'lead crystal' = glass with minimum PbO content ≥24% by weight (for subheadings 7013.22, 7013.33, 7013.41, 7013.91)",
+        "Heading 70.14 — Signalling glassware and optical elements of glass (other than those of heading 90.01), not optically worked",
+        "Heading 70.15 — Clock or watch glasses and similar glasses, glasses for non-corrective or corrective spectacles, curved, bent, hollowed or the like, not optically worked; hollow glass spheres and their segments, for the manufacture of such glasses",
+        "Heading 70.16 — Paving blocks, slabs, bricks, squares, tiles and other articles of pressed or moulded glass, of a kind used for building or construction purposes; glass cubes and other glass smallwares, whether or not on a backing, for mosaics or similar decorative purposes; leaded lights and the like; multicellular or foam glass in blocks, panels, plates, shells or similar forms",
+        "Heading 70.17 — Laboratory, hygienic or pharmaceutical glassware, whether or not graduated or calibrated",
+        "Heading 70.18 — Glass beads, imitation pearls, imitation precious or semi-precious stones and similar glass smallwares, and articles thereof other than imitation jewellery; glass eyes other than prosthetic articles; statuettes and other ornaments of lamp-worked glass, other than imitation jewellery; glass microspheres not exceeding 1 mm in diameter",
+        "Heading 70.19 — Glass fibres (including glass wool) and articles thereof (e.g., yarn, woven fabrics). Note 4: 'glass wool' = mineral wool with SiO2 ≥60%; or SiO2 <60% but alkaline oxide (K2O or Na2O) >5% or boric oxide (B2O3) >2%. Mineral wools not meeting specs → 68.06",
+        "Heading 70.20 — Other articles of glass (residual)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Vitrifiable enamels and glazes, glass frit, glass in powder/granule/flake form for ceramic/painting use",
+            "action": "Redirect to heading 32.07 — Note 1(a). These are prepared coating/glazing materials, not structural glass products",
+            "keywords": ["glass frit", "vitrifiable enamel", "glass powder paint", "glass glaze ceramic", "32.07"]
+        },
+        {
+            "condition": "Articles of imitation jewellery of glass",
+            "action": "Redirect to Chapter 71 (heading 71.17 imitation jewellery) — Note 1(b). Glass beads and stones used in jewellery assembly → 70.18. Finished imitation jewellery articles (rings, necklaces, earrings of glass) → 71.17",
+            "keywords": ["glass imitation jewellery", "glass ring necklace", "glass fashion jewellery", "71.17"]
+        },
+        {
+            "condition": "Optical fibre cables, electrical insulators of glass, fittings of glass insulating material",
+            "action": "Redirect to heading 85.44 (optical fibre cables), 85.46 (electrical insulators), or 85.47 (fittings of insulating material) — Note 1(c). Bare glass optical fibres (unclad) → 70.20. Optical fibre CABLES (sheathed assemblies) → 85.44",
+            "keywords": ["optical fibre cable", "fibre optic cable", "glass electrical insulator", "power line insulator glass", "85.44", "85.46", "85.47"]
+        },
+        {
+            "condition": "Framed windscreens, rear windows for vehicles (Chapters 86–88); OR windscreens/windows incorporating heating or electrical devices for vehicles",
+            "action": "Redirect to respective vehicle chapter — Notes 1(d) and 1(e). Automotive safety glass cut to shape without frame → 70.07. Framed windscreen for car → Ch.87 (as vehicle part). Heated rear window → Ch.87",
+            "keywords": ["car windscreen framed", "vehicle windshield framed", "heated rear window car", "aircraft windscreen", "86.", "87.", "88."]
+        },
+        {
+            "condition": "Optical fibres (optically worked), optically worked optical elements, hypodermic syringes, artificial eyes as prosthetics, thermometers, barometers, hydrometers",
+            "action": "Redirect to Chapter 90 — Note 1(f). Unworked glass rods → 70.02. Optically worked glass fibres, lenses, prisms → Ch.90. Prosthetic artificial eyes → Ch.90. Glass thermometers → Ch.90",
+            "keywords": ["optically worked lens", "glass prism optical", "hypodermic syringe glass", "prosthetic glass eye", "glass thermometer", "glass barometer", "90."]
+        },
+        {
+            "condition": "Luminaires, lighting fittings, illuminated signs/name-plates with permanently fixed light source, or parts thereof",
+            "action": "Redirect to heading 94.05 — Note 1(g). Glass lamp shades presented separately (without light source) → 70.20 or 70.13. Glass components of luminaires sold WITH the luminaire → 94.05 as part. Decorative glass ornament without light source → 70.18 or 70.13",
+            "keywords": ["glass lamp complete", "luminaire glass", "illuminated sign glass", "94.05"]
+        },
+        {
+            "condition": "Toys, games, sports requisites, Christmas tree ornaments of glass; other Ch.95 articles — EXCEPT glass eyes without mechanisms for dolls",
+            "action": "Redirect to Chapter 95 — Note 1(h). Glass Christmas tree ornaments → Ch.95. Glass marbles for toys → Ch.95. Glass eyes for dolls/toys without mechanism → stays in 70.18 (explicit exception)",
+            "keywords": ["glass christmas ornament", "glass toy", "glass marble toy", "95."]
+        },
+        {
+            "condition": "Buttons of glass, fitted vacuum flasks (complete, not just glass inner), scent sprays of glass",
+            "action": "Redirect to Chapter 96 — Note 1(ij). Glass buttons → 96.06. Complete fitted vacuum flask → 96.17 (not 70.12, which covers only glass inner). Scent spray with pump → 96.16",
+            "keywords": ["glass button", "vacuum flask complete fitted", "scent spray complete", "96.06", "96.17", "96.16"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Definition of 'worked' glass for headings 70.03–70.05: pre-annealing processes ignored",
+            "description": "For headings 70.03, 70.04 and 70.05 (glass in sheets): (a) Any process glass undergoes BEFORE annealing (heat treatment) does NOT count as 'working' — the glass is still classified as unworked sheet. (b) CUTTING TO SHAPE also does not constitute working glass in sheets — a glass sheet cut to a car windscreen silhouette is still 70.05 if not toughened, laminated or framed. Only processes after annealing that change the nature or add functional characteristics count as 'working'. Bending, drilling, enamelling → moves glass into 70.06. Toughening/laminating → 70.07.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 3 — Heading 70.06 retains classification regardless of article character",
+            "description": "Glass of 70.03/70.04/70.05 that has been FURTHER WORKED (bent, edge-worked, engraved, drilled, enamelled, etc.) → heading 70.06, and stays in 70.06 WHETHER OR NOT the glass has assumed the character of a finished article. This prevents migration to other headings when the worked glass clearly looks like a specific article — for example, a bent/drilled glass plate shaped for a specific use is still 70.06, not a residual article heading.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 70.05 (float/polished glass, unworked) vs 70.06 (worked glass sheets) vs 70.07 (safety glass) vs 70.09 (mirrors)",
+            "description": "Four headings for flat glass: 70.03/70.04/70.05 = flat glass in sheets, produced by different methods (cast/rolled; drawn/blown; float/ground), with or without coatings, UNWORKED (pre/post-annealing processes irrelevant; cutting to shape OK). 70.06 = 70.03/04/05 glass that has been bent, edge-worked, engraved, drilled, enamelled or otherwise worked (not framed/fitted). 70.07 = SAFETY GLASS: toughened (tempered) OR laminated (two+ glass panes with plastic interlayer) — regardless of being cut/shaped. 70.09 = glass MIRRORS (glass with reflective metal coating on back) whether or not framed.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 70.10 (glass containers for packing) vs 70.13 (glass tableware) vs 70.17 (laboratory glassware)",
+            "description": "Three headings for glass vessels: 70.10 = glass CONTAINERS for conveyance or packing of goods (bottles, jars, ampoules, pharma vials, preserving jars) + their closures. 70.13 = glass articles for TABLE, KITCHEN, TOILET, OFFICE, INTERIOR DECORATION (drinking glasses, bowls, vases, glass carafes for table use, perfume bottles for retail — not packing). 70.17 = LABORATORY, HYGIENIC or PHARMACEUTICAL glassware (beakers, flasks, test tubes, syringes body without needle, pipettes) — graduated or not. The intended use (packing/conveyance vs. serving/decoration vs. lab/medical) determines the heading.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 70.19 (glass fibres/glass wool) vs 68.06 (mineral wool not meeting specs)",
+            "description": "Heading 70.19 covers glass fibres and glass wool as defined by Note 4. 'Glass wool' strictly requires: SiO2 ≥60% by weight; OR SiO2 <60% but K2O/Na2O >5% OR B2O3 >2%. Mineral wools (rock wool, slag wool) NOT meeting either condition → heading 68.06. Products: glass fibre yarn, woven/non-woven glass fibre fabric, glass fibre insulation batts meeting silica criteria → 70.19. Rock wool, stone wool insulation not meeting silica threshold → 68.06.",
+            "priority": 5
+        },
+        {
+            "rule": "Subheading Note — 'Lead crystal' for table glassware subheadings: PbO ≥24%",
+            "description": "For subheadings 7013.22, 7013.33, 7013.41 and 7013.91 (lead crystal drinking glasses, glassware), 'lead crystal' is defined as glass with minimum PbO content ≥24% by weight. Glass with PbO <24% → classified in the 'other glass' (non-lead crystal) subheadings within 70.13. This matters for EU import tariff differentiation between crystal and ordinary glassware.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 70.18 (glass smallwares, ornaments, microspheres) vs 71.17 (imitation jewellery) vs Ch.95 (toys/Christmas ornaments)",
+            "description": "Glass objects for decoration split across three chapters: 70.18 = glass BEADS, imitation pearls, imitation precious stones and similar SMALLWARES; glass MICROSPHERES (≤1mm); and STATUETTES/ORNAMENTS of lamp-worked glass — but only when NOT assembled into jewellery articles and NOT toys/Christmas ornaments. 71.17 = IMITATION JEWELLERY made from these glass components (assembled rings, necklaces, earrings). Ch.95 = Christmas tree ornaments and decorations → Ch.95 (not 70.18). Glass eyes for dolls WITHOUT mechanism → explicit exception stays in 70.18.",
+            "priority": 7
+        }
+    ]
+}

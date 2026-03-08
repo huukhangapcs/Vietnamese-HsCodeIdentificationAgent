@@ -1,0 +1,64 @@
+{
+    "chapter_code": "81",
+    "chapter_title": "Other base metals; cermets; articles thereof",
+    "scope_note": "Chapter 81 covers base metals not classified in Chapters 72–80 (iron/steel, copper, nickel, aluminium, lead, zinc, tin), specifically: tungsten (wolfram), molybdenum, tantalum, magnesium, cobalt salts/mattes, bismuth, cadmium, titanium, zirconium, antimony, manganese, beryllium, chromium, germanium, vanadium, gallium, hafnium, indium, niobium (columbium), rhenium, thallium; and cermets and articles thereof.",
+    "inclusions": [
+        "Heading 81.01 — Tungsten (wolfram) and articles thereof, including waste and scrap",
+        "Heading 81.02 — Molybdenum and articles thereof, including waste and scrap",
+        "Heading 81.03 — Tantalum and articles thereof, including waste and scrap",
+        "Heading 81.04 — Magnesium and articles thereof, including waste and scrap",
+        "Heading 81.05 — Cobalt mattes and other intermediate products of cobalt metallurgy; cobalt and articles thereof, including waste and scrap",
+        "Heading 81.06 — Bismuth and articles thereof, including waste and scrap",
+        "Heading 81.07 — Cadmium and articles thereof, including waste and scrap",
+        "Heading 81.08 — Titanium and articles thereof, including waste and scrap",
+        "Heading 81.09 — Zirconium and articles thereof, including waste and scrap",
+        "Heading 81.10 — Antimony and articles thereof, including waste and scrap",
+        "Heading 81.11 — Manganese and articles thereof, including waste and scrap",
+        "Heading 81.12 — Beryllium, chromium, germanium, vanadium, gallium, hafnium (celtium), indium, niobium (columbium), rhenium and thallium, and articles of these metals, including waste and scrap",
+        "Heading 81.13 — Cermets and articles thereof, including waste and scrap"
+    ],
+    "exclusions": [
+        {
+            "condition": "Ferro-alloys (e.g., ferro-tungsten, ferro-molybdenum, ferro-titanium, ferro-vanadium, ferro-niobium, ferro-chromium, ferro-manganese, ferro-silicon)",
+            "action": "Redirect to heading 72.02 (ferro-alloys in Chapter 72 — iron and steel). Ferro-alloys contain iron as a major constituent and are classified with iron/steel products, not as the pure or nearly-pure base metal of Ch.81",
+            "keywords": ["ferro-tungsten", "ferro-molybdenum", "ferro-titanium", "ferro-vanadium", "ferro-niobium", "ferro-chromium", "ferro-manganese", "ferro-silicon", "72.02"]
+        },
+        {
+            "condition": "Compounds of metals of Chapter 81 (oxides, chlorides, sulphates, carbonates, etc.)",
+            "action": "Redirect to Chapter 28 (inorganic chemicals) or Chapter 29 (organic compounds). Pure metal → Ch.81. Metal compounds/salts → Ch.28/29 by chemical nature. Exception: cobalt mattes and intermediate metallurgical products remain in 81.05",
+            "keywords": ["tungsten oxide", "molybdenum oxide", "titanium dioxide pigment", "zirconium chloride", "vanadium pentoxide", "28.", "29."]
+        },
+        {
+            "condition": "Titanium dioxide (TiO2) used as pigment",
+            "action": "Redirect to heading 32.06 (pigments and preparations) or 28.23 (titanium oxides as inorganic chemicals). Pigment-grade TiO2 → Ch.32 or Ch.28, not Ch.81",
+            "keywords": ["titanium dioxide pigment", "TiO2 white pigment", "32.06", "28.23"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Pure metal vs. ferro-alloy vs. compound: three-tier classification for Ch.81 metals",
+            "description": "For each metal covered by Ch.81, three possible classification paths exist: (1) Pure or substantially pure metal (unwrought, powder, waste/scrap, semi-finished products, articles) → Ch.81 heading for that metal. (2) Ferro-alloy (metal combined with iron as a primary alloying element for steelmaking) → heading 72.02 regardless of the Ch.81 metal's proportion. (3) Chemical compound (oxide, salt, chloride, etc.) → Ch.28 or Ch.29. The classification sequence: Is it a ferro-alloy? → 72.02. Is it a compound? → Ch.28/29. Is it the pure/substantially pure metal? → Ch.81.",
+            "priority": 1
+        },
+        {
+            "rule": "Cermets (81.13) — definition and scope",
+            "description": "Heading 81.13 covers CERMETS (ceramic-metal composites): materials and articles made of a heterogeneous combination of metal(s) and ceramic material(s) where neither constituent fully dominates. Cermets include: (a) sintered metal carbide compositions (WC-Co, TiC-Ni, etc.); (b) other metal-ceramic composites. Tungsten carbide tools → 81.13 (cermets) when the cermet material itself is the article. Interchangeable cermet inserts/tips → 82.09. Sintered tungsten carbide as raw material form → 81.13.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: Ch.81 metals (unwrought/semi-finished) vs. articles thereof vs. Ch.82/83/84/85 (tools and equipment)",
+            "description": "Ch.81 covers the metal in primary/semi-finished forms (ingots, powders, waste/scrap, rods, wire, sheet, strip, foil) AND articles specifically of that metal. When a Ch.81 metal is used to make a functional item described in Ch.82–96, the article heading takes priority. Example: titanium surgical screws → not 81.08 (titanium articles) but rather 90.21 (orthopaedic implants). Tungsten filaments for lamps → 85.39. Tantalum capacitors → 85.32. The specific functional article heading overrides the material heading.",
+            "priority": 3
+        },
+        {
+            "rule": "Magnesium (81.04) — distinguish from magnesium compounds",
+            "description": "Heading 81.04 covers magnesium metal in all primary and worked forms: unwrought magnesium (ingots, slabs, billets), powder and flakes, waste and scrap, and articles of magnesium. NOT included: magnesium oxide (periclase) → 28.16; magnesium sulphate (Epsom salt) → 28.33; magnesium carbonate → 28.36; magnesium chloride → 28.27. Magnesium alloys (predominantly magnesium by weight, not ferro-alloy type) → 81.04.",
+            "priority": 4
+        },
+        {
+            "rule": "Titanium (81.08) — distinction from titanium dioxide pigment",
+            "description": "Heading 81.08 covers titanium METAL and articles thereof. NOT included: titanium dioxide (TiO2) used as a white pigment → Ch.28 (28.23, titanium oxides) or Ch.32 (prepared pigments). Titanium sponge (primary reduced form) → 81.08. Titanium alloy bar, sheet, tube → 81.08. Titanium implants → 90.21 (medical). TiO2 powder for paint → Ch.28/32.",
+            "priority": 5
+        }
+    ]
+}

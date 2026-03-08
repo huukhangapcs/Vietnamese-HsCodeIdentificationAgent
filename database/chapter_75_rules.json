@@ -1,0 +1,68 @@
+{
+    "chapter_code": "75",
+    "chapter_title": "Nickel and articles thereof",
+    "inclusions": [
+        "Heading 75.01 — Nickel mattes, nickel oxide sinters and other intermediate products of nickel metallurgy",
+        "Heading 75.02 — Unwrought nickel. Subheading Note 1(a): 'Nickel, not alloyed' = metal containing ≥99% (Ni + Co) by weight, with Co ≤1.5% and all other elements below specified limits. Subheading Note 1(b): 'Nickel alloys' = metallic substances where Ni predominates over each other element by weight AND any of: (i) Co >1.5%; (ii) at least one other element exceeds its table limit; or (iii) total elements other than Ni+Co >1%. Common alloys: Monel (Ni-Cu), Inconel (Ni-Cr-Fe), Hastelloy (Ni-Mo-Cr), Nimonic, Nichrome",
+        "Heading 75.03 — Nickel waste and scrap",
+        "Heading 75.04 — Nickel powders and flakes",
+        "Heading 75.05 — Nickel bars, rods, profiles and wire. Subheading Note 2 (7508.10): for subheading 7508.10 the term 'wire' applies only to products (coils or not) of any cross-sectional shape where NO cross-sectional dimension exceeds 6 mm",
+        "Heading 75.06 — Nickel plates, sheets, strip and foil",
+        "Heading 75.07 — Nickel tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)",
+        "Heading 75.08 — Other articles of nickel: Subheading Note 2 applies for 7508.10 wire classification"
+    ],
+    "exclusions": [
+        {
+            "condition": "Nickel compounds (nickel oxide, nickel sulphate, nickel chloride, nickel acetate, nickel carbonyl, etc.)",
+            "action": "Redirect to Chapter 28 (inorganic nickel compounds) or Chapter 29 (organic). Nickel metal → Ch.75; nickel compounds → Ch.28/29",
+            "keywords": ["nickel oxide", "nickel sulphate", "nickel chloride", "nickel acetate", "nickel carbonyl", "nickel nitrate", "28.", "29."]
+        },
+        {
+            "condition": "Nickel-coated or nickel-plated articles of other base metals",
+            "action": "Redirect to the base metal substrate chapter. Nickel-plated steel → Ch.72/73. The nickel coating is incidental; classify by substrate metal",
+            "keywords": ["nickel plated steel", "nickel coated iron", "nickel plated copper", "nickel coated base metal"]
+        },
+        {
+            "condition": "Ferro-nickel (iron-nickel alloy where iron content is significant, classified as ferro-alloy)",
+            "action": "Redirect to heading 72.02 (ferro-alloys). Ferro-nickel = Fe-Ni alloy used in steelmaking → 72.02, not Ch.75",
+            "keywords": ["ferro-nickel", "ferronickel", "iron nickel alloy steelmaking", "72.02"]
+        },
+        {
+            "condition": "Electrically insulated nickel wire or cable",
+            "action": "Redirect to heading 85.44 (insulated wire and cable). Bare nickel wire/strip for electrical resistance elements → 75.05/75.06. Insulated → 85.44",
+            "keywords": ["insulated nickel wire", "nichrome heating wire insulated", "nickel resistance wire insulated", "85.44"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Subheading Note 1 — Unique definition: 'not alloyed' nickel includes cobalt up to 1.5%",
+            "description": "Chapter 75 has a unique rule: 'Nickel, not alloyed' is defined as ≥99% (Ni + Co) combined, with Co ≤1.5%. This means naturally occurring nickel containing cobalt (as a co-product of nickel refining) may still classify as 'not alloyed' if Co ≤1.5%. 'Nickel alloys' trigger when: (i) Co >1.5%; OR (ii) another element exceeds its individual limit; OR (iii) total elements other than Ni+Co exceeds 1%. This Ni+Co combined purity test distinguishes Ch.75 from other metal chapters (Ch.74, Ch.76, etc.) which use single-element purity thresholds.",
+            "priority": 1
+        },
+        {
+            "rule": "Subheading Note 2 — Wire definition for 7508.10: cross-sectional dimension ≤6 mm",
+            "description": "For subheading 7508.10 (other articles of nickel: wire), 'wire' = products of any cross-sectional shape where NO cross-sectional dimension exceeds 6 mm, whether or not in coils. This overrides Section XV Note 9(c) for this specific subheading. Products with any cross-sectional dimension >6 mm → bars/rods in 75.05, not wire in 7508.10.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: Ch.75 (nickel metal) vs 72.02 (ferro-nickel) vs Ch.28 (nickel compounds)",
+            "description": "Three classification paths: (1) Nickel metal (pure or alloy, Ni predominating) → Ch.75. (2) Ferro-nickel (iron-nickel alloy, used as additive in steelmaking, Fe content significant) → heading 72.02 — even though Ni may be present in large amounts, if the product is classified as a ferro-alloy for steelmaking → 72.02. (3) Nickel chemical compounds → Ch.28/29. Key test: is nickel the predominant structural metal? → Ch.75. Is it an iron-based alloy for steelmaking additive use? → 72.02. Is it a chemical compound? → Ch.28/29.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 75.01 (intermediate metallurgical products) vs 75.02 (unwrought nickel) vs 75.03 (waste/scrap)",
+            "description": "Three headings for bulk/primary nickel: 75.01 = nickel MATTES (sulphide smelting intermediates), nickel oxide SINTERS and other INTERMEDIATE metallurgical products (not yet refined to metal). 75.02 = UNWROUGHT nickel (refined metal in primary forms: ingots, cathodes, pellets, shot). 75.03 = nickel WASTE AND SCRAP (used/processed nickel returned to raw material state). Nickel cathode from electrolytic refining → 75.02. Nickel sulphide matte from smelting → 75.01.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 75.06 (nickel plates/sheets/strip/foil) — no thickness split unlike Ch.76/Ch.79",
+            "description": "Heading 75.06 covers ALL flat-rolled nickel products regardless of thickness: plates, sheets, strip AND foil. Unlike Ch.76 (aluminium, split at 0.2 mm into 76.06/76.07) or Ch.72 (steel, split by thickness across multiple headings), Chapter 75 has only ONE heading (75.06) for all flat nickel products. Nickel foil as thin as 0.01 mm → 75.06. Nickel plate 5 mm thick → 75.06.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 75.08 (other articles of nickel) vs Ch.82/83/84/85 (functional articles)",
+            "description": "Heading 75.08 is the residual catch-all for nickel articles. When a nickel article corresponds to a specific functional description in Ch.82–96, the functional heading takes priority. Nickel anode for electroplating → 75.08 (no more specific heading). Nickel resistance heating elements (nichrome wire assemblies) → Ch.85 (85.16 or 84.14 depending on application). Nickel crucibles for laboratory → 75.08 (or 70.23 if ceramic-like use, but nickel metal crucible → 75.08). Nickel coins → Ch.71 or specific monetary heading.",
+            "priority": 6
+        }
+    ]
+}

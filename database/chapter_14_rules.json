@@ -1,5 +1,6 @@
 {
     "chapter_code": "14",
+    "chapter_title": "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
     "inclusions": [
         "Bamboos (whether or not split, sawn lengthwise, cut to length, rounded at ends, bleached, rendered non-inflammable, polished or dyed)",
         "Rattans (whole, split-core, split-skin) and drawn or split rattans",
@@ -49,6 +50,18 @@
                 "tufts",
                 "96.03"
             ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: Ch.14 (vegetable plaiting materials) vs Ch.57 (carpets) vs Ch.46 (basketware)",
+            "description": "Chapter 14 = raw vegetable materials suitable for plaiting: osier, bamboo, rattan, rushes, straw, raffia in primary/unworked form. Woven or plaited articles made FROM these → Ch.46 (basketware, matwork). Floor coverings made from plaiting materials → Ch.57.",
+            "priority": 1
+        },
+        {
+            "rule": "Ch.14 vs Ch.06 (live plants) vs Ch.44 (wood)",
+            "description": "Vegetable fibre/plaiting material in raw form → Ch.14. Living plant → Ch.06. Wood (even bamboo timber) → Ch.44. Bamboo as raw plaiting material (strips, canes) → Ch.14. Structural bamboo products → Ch.44. The form of presentation and end use determines the chapter.",
+            "priority": 2
         }
     ]
 }

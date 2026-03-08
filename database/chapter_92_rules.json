@@ -1,0 +1,83 @@
+{
+    "chapter_code": "92",
+    "chapter_title": "Musical instruments; parts and accessories of such articles",
+
+    "inclusions": [
+        "Heading 92.01 — Pianos, including automatic pianos; harpsichords and other keyboard stringed instruments",
+        "Heading 92.02 — Other string musical instruments (e.g., guitars, violins, harps, lutes, banjos, mandolins, ukuleles)",
+        "Heading 92.05 — Wind musical instruments (e.g., keyboard pipe organs, harmoniums, accordions, clarinets, trumpets, bagpipes, flutes, oboes, horns, saxophones)",
+        "Heading 92.06 — Percussion musical instruments (e.g., drums, xylophones, cymbals, castanets, maracas)",
+        "Heading 92.07 — Musical instruments, the sound of which is produced or must be amplified electrically (e.g., organs, guitars, accordions, electric pianos, synthesisers, theremins)",
+        "Heading 92.08 — Musical boxes, fairground organs, mechanical street organs, mechanical singing birds, musical saws and other musical instruments not falling in any other heading of Chapter 92; decoy calls of all kinds; whistles, call horns and other mouth-blown sound-signalling instruments",
+        "Heading 92.09 — Parts and accessories for musical instruments of headings 92.01 to 92.08 (e.g., cards, discs and rolls for mechanical instruments; metronomes, tuning forks and pitch pipes; strings for musical instruments; guitar picks, piano hammers, bridges, pegs, mouthpieces, reeds)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Parts of general use (as defined in Note 2 to Section XV) of base metal, or similar goods of plastics",
+            "action": "Redirect to Section XV (base metal parts) or Chapter 39 (plastics) — Note 1(a). General-purpose fasteners, springs, nuts, bolts, etc. are not Ch.92 parts even if used in musical instruments",
+            "keywords": ["general purpose screw", "general purpose spring bolt", "39.", "Section XV"]
+        },
+        {
+            "condition": "Microphones, amplifiers, loudspeakers, headphones, switches, stroboscopes or other accessory instruments/apparatus/equipment of Chapter 85 or 90, FOR USE WITH but NOT INCORPORATED IN or housed in the same cabinet as musical instruments of Chapter 92",
+            "action": "Redirect to Chapter 85 or 90 — Note 1(b). Key test: if the accessory is physically incorporated into or housed in the SAME CABINET as the instrument → stays in Ch.92 as part/accessory (92.09). If it is a SEPARATE unit used alongside the instrument → Ch.85 or Ch.90",
+            "keywords": ["external amplifier guitar", "standalone microphone music", "separate loudspeaker instrument", "headphone music standalone", "stroboscope tuner", "85.", "90."]
+        },
+        {
+            "condition": "Toy instruments or apparatus",
+            "action": "Redirect to heading 95.03 (toys) — Note 1(c). Instruments designed for children's amusement rather than genuine musical performance → 95.03. Genuine student-grade instruments → Ch.92",
+            "keywords": ["toy piano", "toy drum", "toy xylophone", "toy guitar", "children toy instrument", "95.03"]
+        },
+        {
+            "condition": "Brushes for cleaning musical instruments, OR monopods, bipods, tripods and similar articles",
+            "action": "Redirect to heading 96.03 (brushes) or 96.20 (monopods/bipods/tripods) — Note 1(d). Instrument cleaning brushes → 96.03. Camera/instrument stands and tripods, even if designed for musical instrument use → 96.20",
+            "keywords": ["instrument cleaning brush", "brass instrument brush", "guitar stand tripod", "microphone stand tripod", "96.03", "96.20"]
+        },
+        {
+            "condition": "Collectors' pieces or antiques of musical instruments",
+            "action": "Redirect to heading 97.05 (collectors' pieces) or 97.06 (antiques) — Note 1(e)",
+            "keywords": ["antique violin", "antique piano collector", "museum instrument", "97.05", "97.06"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: 92.02 (acoustic string instruments) vs 92.07 (electric string instruments)",
+            "description": "Heading 92.02 covers acoustic string instruments (guitars, violins, harps, etc.) that produce sound WITHOUT electrical amplification. Heading 92.07 covers instruments whose sound IS PRODUCED OR MUST BE AMPLIFIED electrically — this includes electric guitars, electric bass, electric violin (solid-body), synthesisers and electronic keyboards. A semi-acoustic guitar (hollow body, but with pickups and can be played unplugged) → 92.02 if it can produce substantial acoustic sound unaided; solid-body electric guitar → 92.07.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: 92.07 (electrophonic instruments) vs Ch.85 (electronic audio apparatus)",
+            "description": "Heading 92.07 covers instruments whose primary purpose is MUSICAL PERFORMANCE — they generate or shape musical sound electronically (synthesisers, electric organs, drum machines used as instruments). Chapter 85 covers audio playback/recording apparatus (amplifiers, mixers, speakers, recorders). Borderline cases: a MIDI controller with keys → 92.07 (musical instrument); a recording mixer used in studios → 85.43 or 85.19. The decisive question: is it designed to BE PLAYED as a musical instrument, or to PROCESS/REPRODUCE audio?",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: Ch.92 (genuine musical instruments) vs 95.03 (toy instruments)",
+            "description": "Genuine musical instruments at any price or quality level → Ch.92. Toy instruments designed for children's amusement rather than musical performance → 95.03. Key indicators for Ch.92: tunable, capable of playing multiple pitches accurately, designed for musical education or performance. Key indicators for 95.03: simplified design, small size unsuited for real performance, marketed as toys. Student-grade instruments → Ch.92.",
+            "priority": 3
+        },
+        {
+            "rule": "Heading 92.08 — catch-all for musical instruments NEC + sound signalling",
+            "description": "Heading 92.08 operates as both a catch-all for musical instruments not in 92.01–92.07 (musical boxes, mechanical organs, singing birds, musical saws) AND covers non-musical sound-signalling instruments (whistles, call horns, decoy calls, mouth-blown signalling instruments). An instrument in 92.08 must produce sound as its primary function. Purely mechanical sound-making devices without musical purpose may fall elsewhere.",
+            "priority": 4
+        },
+        {
+            "rule": "Heading 92.09 — parts and accessories: broad scope covering all Ch.92 instruments",
+            "description": "Heading 92.09 covers parts and accessories for instruments of headings 92.01–92.08, including: strings (guitar, violin, piano, etc.), picks, plectra, mouthpieces, reeds, bridges, piano hammers and action parts, tuning pegs, metronomes, tuning forks, pitch pipes, cards/discs/rolls for mechanical instruments, drum heads, cymbals presented as replacements. Note: strings and skins for musical instruments classified in 92.09, even if of gut or other materials that might otherwise fall in Ch.42 (gut articles) — Ch.92 takes priority for instrument-specific strings.",
+            "priority": 5
+        },
+        {
+            "rule": "Mechanical musical instruments (92.08) vs automatic pianos (92.01)",
+            "description": "Automatic pianos (player pianos, pianolas) that play pre-programmed rolls → heading 92.01 (classified with pianos). Other mechanical instruments (musical boxes, fairground organs, barrel organs, mechanical street organs) → 92.08. The key distinction: automatic pianos are piano-type keyboard instruments with added mechanism; other mechanical instruments rely entirely on the mechanical mechanism (barrel, disc, card) for their musical function.",
+            "priority": 6
+        },
+        {
+            "rule": "Note 2 — Bows, sticks and similar devices presented WITH the instrument → same heading",
+            "description": "Bows and sticks (violin bow, cello bow, drum sticks, mallets) and similar devices used for playing instruments of heading 92.02 (string instruments) or 92.06 (percussion instruments), when presented WITH those instruments in numbers NORMAL thereto and CLEARLY INTENDED for use therewith → classified in the SAME heading as the instrument (92.02 or 92.06). If presented separately → classified in heading 92.09 (parts and accessories).",
+            "priority": 7
+        },
+        {
+            "rule": "Note 2 — Cards, discs and rolls of heading 92.09 are ALWAYS separate, even if presented with an instrument",
+            "description": "Unlike bows/sticks, cards, discs and rolls (perforated rolls for player pianos, music box discs) of heading 92.09 are ALWAYS treated as separate articles — they do NOT merge into the instrument's heading even when presented together with the instrument. This is an explicit exception to the general GRI Rule 5(b) packing principle: cards/discs/rolls → always 92.09 regardless of presentation.",
+            "priority": 8
+        }
+    ]
+}

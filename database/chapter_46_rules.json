@@ -1,0 +1,68 @@
+{
+    "chapter_code": "46",
+    "chapter_title": "Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
+    "scope_note": "Note 1: 'plaiting materials' = materials suitable for plaiting/interlacing: straw, osier/willow, bamboo, rattan, rushes, reeds, strips of wood, strips of other vegetable material (bark strips, narrow leaves, raffia, broad-leaf strips), UNSPUN natural textile fibres, monofilament and strip of PLASTICS, strips of PAPER. EXCLUDES: strips of leather/composition leather, felt/nonwovens, human hair, horsehair, SPUN textile rovings/yarns, monofilament/strip of Ch.54. Note 3: 'bound together in parallel strands' = plaiting materials placed side by side and bound together in sheet form (binding material may be spun textile).",
+    "inclusions": [
+        "Heading 46.01 — Plaits and similar products of plaiting materials, whether or not assembled into strips; plaiting materials, plaits and similar products of plaiting materials, bound together in parallel strands or woven, in sheet form, whether or not being finished articles (for example, mats, matting, screens). Note 3: 'bound together in parallel strands' = placed side by side and bound in sheet form. Includes straw plaits, rush plaits, bamboo mats, seagrass sheets, rattan strips",
+        "Heading 46.02 — Basketwork, wickerwork and other articles, made directly to shape from plaiting materials or made up from goods of heading 46.01; articles of loofah. Includes baskets, handbags, shopping bags, hats, containers, trays, mats — of rattan, willow/wicker, bamboo, straw, rush, seagrass, raffia, paper strips, plastic strips, etc. Also articles of loofah (vegetable sponge)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Wall coverings of paper with plaiting material surface (heading 48.14)",
+            "action": "Redirect to heading 48.14 (wallpaper/wall coverings) — Note 2(a). Wallpaper with woven rush/seagrass surface bonded to paper backing → 48.14. Separate plaited panels meant for wall art → borderline",
+            "keywords": ["wall covering plaited material paper", "seagrass wallpaper", "woven rush wallpaper", "48.14"]
+        },
+        {
+            "condition": "Twine, cordage, ropes or cables, whether or not plaited",
+            "action": "Redirect to heading 56.07 — Note 2(b). Plaited rope of natural fibres → 56.07. A braided decorative cord → 56.07 not Ch.46",
+            "keywords": ["plaited rope", "braided cord natural fibre", "twine cordage", "56.07"]
+        },
+        {
+            "condition": "Footwear or headgear of plaiting materials, or parts thereof",
+            "action": "Redirect to Chapter 64 (footwear) or Chapter 65 (headgear) — Note 2(c). Straw hats → Ch.65 (65.04). Woven-fibre footwear with applied sole → Ch.64. 'Hat-shapes' plaited for 65.04 heading",
+            "keywords": ["straw hat", "woven sandal sole", "plaited footwear", "basket weave shoe", "65.04", "64."]
+        },
+        {
+            "condition": "Basketwork vehicles or vehicle bodies (wicker car bodies, bicycle baskets as vehicle accessories)",
+            "action": "Redirect to Chapter 87 (vehicles) — Note 2(d). Wicker car body → Ch.87. Standalone wicker bicycle basket (accessory) → Ch.46",
+            "keywords": ["basketware vehicle body", "wicker vehicle", "87."]
+        },
+        {
+            "condition": "Furniture, lamps/luminaires of basketwork/wickerwork",
+            "action": "Redirect to Chapter 94 (furniture, lamps) — Note 2(e). Wicker/rattan chairs, tables, sofas, beds → Ch.94 (94.01/94.03). Wicker lamp shades → 94.05. Decorative baskets used as flower pots/containers → Ch.46. Storage baskets/shopping baskets → Ch.46",
+            "keywords": ["wicker chair", "rattan sofa", "wicker table", "bamboo furniture", "94.01", "94.03"]
+        },
+        {
+            "condition": "Articles of plaiting materials that are part of Ch.64/65 (hats, footwear): hat-shapes that are completed into hats",
+            "action": "Plaited hat-shapes still unfinished → 46.01. When assembled/shaped/trimmed into a finished hat → Chapter 65 (65.04 for plaited hats). The completion step is the boundary",
+            "keywords": ["plaited hat shape unfinished", "straw hat form", "hat braid unfinished", "65.04"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — 'Plaiting materials' definition: broad but with critical exclusions",
+            "description": "Plaiting materials for Ch.46 include a wide range: NATURAL: straw, bamboo, rattan, rushes/reeds, willow, bark strips, raffia, banana leaf strips, unspun natural textile fibres. SYNTHETIC/OTHER: plastic monofilament/strip (NOT Ch.54 monofilament types), paper strips. CRITICAL EXCLUSIONS from plaiting materials: leather strips (→ Ch.42); felt/nonwoven strips (→ Ch.56); human hair/horsehair (→ Ch.67/05); SPUN textile yarns/rovings (→ Ch.50–55); monofilament/strip of Ch.54 (man-made synthetic/artificial). If the material used for plaiting is SPUN YARN → the article should be classified elsewhere (woven textile by yarn = textile chapter, not Ch.46).",
+            "priority": 1
+        },
+        {
+            "rule": "46.01 (plaited material in basic forms) vs 46.02 (finished articles) — stage of manufacture",
+            "description": "Two headings cover the production chain: 46.01 = PLAITS AND BASIC FORMS: plaited strips/strands as raw material (straw braids, rush plaits), sheets of bound parallel strands, matting in roll/sheet form — before or without being made into a specific article shape. 46.02 = FINISHED ARTICLES made from plaiting materials: baskets, containers, hats (unfinished/unlined), bags, trays, mats cut to shape — articles made directly to shape or made up from 46.01 materials. The distinction: is it a semi-product (plait/sheet) or a recognisable finished article?",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: Ch.46 (plaited wicker/rattan articles) vs Ch.94 (furniture/lighting) — functional use",
+            "description": "Many wicker/rattan products sit at the Ch.46 vs Ch.94 boundary: Ch.94 = goods DESIGNED for SITTING, LYING, SUPPORTING (furniture: chairs, sofas, beds, shelving) OR for LIGHTING (lamp shades with fitting). Ch.46 = STORAGE, CARRYING, DECORATIVE containers and articles (baskets, trays, boxes, decorative screens, bicycle baskets). Test: does it serve as FURNITURE (support human body or household goods in a semi-permanent installation at home)? → Ch.94. Does it carry/store/transport goods in a non-installed way? → Ch.46. Rattan shelf unit (furniture) → Ch.94. Rattan storage basket → Ch.46.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: Ch.46 (plaited articles) vs Ch.57 (textile floor coverings) vs Ch.39/48 (plastic/paper base mats)",
+            "description": "Floor mats across chapters: Ch.46 = mats/matting of NON-TEXTILE plaiting materials (bamboo mat, rush mat, seagrass mat from unspun fibre braid or strips — NOT from spun yarn). Ch.57 = textile floor coverings where the exposed surface is of TEXTILE MATERIALS (woven, knotted, tufted — from spun textile yarns). Ch.39 = plastic mats (PVC, rubber-like). Ch.48 = paper/paperboard floor coverings. Seagrass mat from bound unspun seagrass → Ch.46. Seagrass mat woven from spun seagrass yarn → Ch.57. The spun/unspun distinction is critical.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 3 — 'Bound together in parallel strands' (heading 46.01): sheet form qualifier",
+            "description": "Heading 46.01 covers plaiting materials or plaits 'bound together in parallel strands' which Note 3 clarifies means: materials placed SIDE BY SIDE (in parallel) and BOUND TOGETHER in SHEET form. The binding material may be made of spun textile material (thread, twine). This covers: bamboo blind panels (parallel bamboo rods bound by cotton thread into sheets), seagrass matting (parallel seagrass bundles bound into roll), rush/reed woven panels. These are in 46.01 as flat sheets/mats. When the sheet is cut and shaped into baskets/bags → 46.02.",
+            "priority": 5
+        }
+    ]
+}

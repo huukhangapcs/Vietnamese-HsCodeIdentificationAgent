@@ -1,0 +1,66 @@
+{
+    "chapter_code": "83",
+    "chapter_title": "Miscellaneous articles of base metal",
+    "inclusions": [
+        "Heading 83.01 — Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal",
+        "Heading 83.02 — Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal (Note 2: 'castors' = wheels with diameter ≤75mm, OR diameter >75mm but wheel/tyre width <30mm); automatic door closers of base metal",
+        "Heading 83.03 — Armoured or reinforced safes, strong-boxes and doors and safe deposit lockers for strong-rooms, cash or deed boxes and the like, of base metal",
+        "Heading 83.04 — Filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading 94.03",
+        "Heading 83.05 — Fittings for loose-leaf binders or files, letter clips, letter corners, paper clips, indexing tags and similar office articles, of base metal; staples in strips (e.g., for offices, upholstery, packaging), of base metal",
+        "Heading 83.06 — Bells, gongs and the like, non-electric, of base metal; statuettes and other ornaments, of base metal; photograph, picture or similar frames, of base metal; mirrors of base metal",
+        "Heading 83.07 — Flexible tubing of base metal, with or without fittings",
+        "Heading 83.08 — Clasps, frames with clasps, buckles, buckle-clasps, hooks, eyes, eyelets and the like, of base metal, of a kind used for clothing, footwear, awnings, handbags, travel goods or other made-up articles; tubular or bifurcated rivets, of base metal; beads and spangles, of base metal",
+        "Heading 83.09 — Stoppers, caps and lids (including crown corks, screw caps and pouring stoppers), capsules for bottles, threaded bungs, bung covers, seals and other packing accessories, of base metal",
+        "Heading 83.10 — Sign-plates, name-plates, address-plates and similar plates, numbers, letters and other symbols, and parts thereof, of base metal, excluding those of heading 94.05",
+        "Heading 83.11 — Wire, rods, tubes, plates, electrodes and similar products, of base metal or of metal carbides, coated or cored with flux material, of a kind used for soldering, brazing, welding or deposition of metal or of metal carbides; wire and rods, of agglomerated base metal powder, used for metal spraying; parts thereof"
+    ],
+    "exclusions": [
+        {
+            "condition": "Articles of iron or steel of headings 73.12 (stranded wire/rope/cables), 73.15 (chain), 73.17 (nails/tacks/staples), 73.18 (screws/bolts/nuts) or 73.20 (springs), or similar articles of other base metals (Ch.74–76 and 78–81)",
+            "action": "Redirect to respective headings — Note 1. These general-use base metal articles are NOT treated as 'parts' of Ch.83 articles even if used in/with them",
+            "keywords": ["wire rope iron", "steel chain 73.15", "nails tacks steel", "screws bolts nuts", "springs steel", "73.12", "73.15", "73.17", "73.18", "73.20"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Parts of base metal classified with parent Ch.83 article — with exclusions",
+            "description": "Parts of base metal are classified WITH their parent Ch.83 article (same heading). EXCEPTION: articles of iron/steel of headings 73.12, 73.15, 73.17, 73.18 or 73.20 (wire rope, chain, nails/tacks/staples, screws/bolts/nuts, springs) or equivalent articles of other base metals (Ch.74–76, 78–81) are NOT to be treated as parts of Ch.83 articles — they stay in their own headings. The exclusion targets 'general use' fastener/connector/spring types that happen to be used in Ch.83 goods.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Definition of 'castors' for heading 83.02",
+            "description": "Heading 83.02 covers 'castors' (small swivel wheels on furniture/equipment). A castor qualifies as 83.02 if: (a) diameter (including tyres) ≤ 75mm; OR (b) diameter (including tyres) > 75mm BUT width of wheel/tyre is < 30mm. Larger, wider wheels (diameter >75mm AND width ≥30mm) → NOT castors for 83.02 purposes → classified elsewhere (e.g., wheels as parts of their specific application).",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 83.01 (locks/padlocks) vs 83.03 (safes/strongboxes) vs 83.02 (fittings incorporating locks)",
+            "description": "Three headings for locking/securing hardware: 83.01 = the lock or padlock mechanism itself (standalone lock, key, tumbler mechanism). 83.03 = the complete SAFE or STRONGBOX (armoured/reinforced container for valuables), including safe-room doors and deposit lockers. 83.02 = base metal fittings/mountings that INCORPORATE locks as part of a larger fitting (e.g., a hasped fitting with integrated lock on a briefcase). A standalone combination lock → 83.01. A safe with built-in locking mechanism → 83.03. A suitcase latch assembly with lock → 83.02.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 83.04 (office equipment of base metal) vs 94.03 (office furniture)",
+            "description": "Heading 83.04 covers base metal desk/office accessories that sit on or supplement a desk: filing cabinets (small, desk-type card-index cabinets), paper trays, paper rests, pen trays, stamp stands, and 'similar office or desk equipment'. EXCLUDED from 83.04: office FURNITURE of heading 94.03 (large filing cabinets designed to stand on the floor, desks, office shelving). The distinction is between portable/desk-sized accessories (83.04) vs. floor-standing office furniture (94.03).",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 83.06 (ornaments/frames/mirrors of base metal) vs 70.09 (glass mirrors) vs 94.03 (furniture with mirrors)",
+            "description": "Heading 83.06 covers: (a) bells and gongs (non-electric); (b) base metal statuettes and ornaments; (c) base metal FRAMES for photographs/pictures; (d) base metal MIRRORS. Glass mirrors with base metal frames → if the essential character is the glass mirror → 70.09. If the base metal frame dominates (e.g., ornate decorative metal frame with small mirror) → 83.06. A picture frame made primarily of base metal → 83.06. A plain glass mirror with simple metal border → 70.09.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 83.08 (clasps/buckles for made-up articles) vs 83.02 (mountings/fittings for furniture/doors/etc.)",
+            "description": "Two headings for base metal fastening hardware: 83.08 = clasps, buckles, hooks, eyes, eyelets, rivets, beads/spangles of a kind used for CLOTHING, FOOTWEAR, HANDBAGS, AWNINGS, travel goods or other 'made-up articles' (textile/leather end-use). 83.02 = base metal MOUNTINGS and FITTINGS for FURNITURE, DOORS, WINDOWS, coach-work, saddlery, TRUNKS/CHESTS/CASKETS. The distinction is the intended application: soft goods/clothing accessories → 83.08; structural/furniture hardware → 83.02.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 83.09 (stoppers/caps/closures) vs 39.23 (plastics closures) vs 76.12 (aluminium containers with lids)",
+            "description": "Heading 83.09 covers base metal closures: crown corks, screw caps, pouring stoppers, bottle capsules, threaded bungs, seals and other packing ACCESSORIES. Material is decisive: base metal closures → 83.09. Plastic closures (PP, PE caps) → 39.23. Aluminium container lids presented WITH the container → classified with container (e.g., 76.12). Base metal lids for cookware presented separately → 83.09 (if clearly accessories/closures) or with the cookware if presented together.",
+            "priority": 7
+        },
+        {
+            "rule": "Key boundary: 83.10 (sign-plates) vs 94.05 (illuminated signs)",
+            "description": "Heading 83.10 covers non-illuminated sign plates, name plates, address plates, letters, numbers and symbols of base metal. If such signs incorporate a PERMANENTLY FIXED LIGHT SOURCE → heading 94.05 (illuminated signs/name-plates). Plain metal engraved signs → 83.10. LED-backlit metal signs → 94.05.",
+            "priority": 8
+        }
+    ]
+}

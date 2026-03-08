@@ -1,0 +1,52 @@
+{
+    "chapter_code": "80",
+    "chapter_title": "Tin and articles thereof",
+    "inclusions": [
+        "Heading 80.01 — Unwrought tin: (a) Tin, not alloyed — metal containing ≥99% tin by weight, with bismuth and copper content below specified limits (Subheading Note 1(a)); (b) Tin alloys — metallic substances where tin predominates over each other element by weight AND either total other elements >1% by weight OR bismuth/copper content is at/above the specified limit (Subheading Note 1(b))",
+        "Heading 80.02 — Tin waste and scrap",
+        "Heading 80.03 — Tin bars, rods, profiles and wire",
+        "Heading 80.04 — Tin plates, sheets and strip, of a thickness exceeding 0.2 mm",
+        "Heading 80.05 — Tin foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials), of a thickness (excluding any backing) not exceeding 0.2 mm; tin powders and flakes",
+        "Heading 80.06 — Tin tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)",
+        "Heading 80.07 — Other articles of tin"
+    ],
+    "exclusions": [
+        {
+            "condition": "Tin compounds (stannic oxide, stannous chloride, tin salts, organotin compounds, etc.)",
+            "action": "Redirect to Chapter 28 (inorganic tin compounds) or Chapter 29 (organic tin compounds). Pure tin metal → Ch.80; chemical compounds of tin → Ch.28 or Ch.29",
+            "keywords": ["stannic oxide", "stannous chloride", "tin oxide", "tin salt", "organotin", "tributyltin", "28.", "29."]
+        },
+        {
+            "condition": "Tinplate (steel coated with tin) and tin-coated base metals",
+            "action": "Redirect to Chapter 72 (iron and steel) or respective base metal chapters. Tinplate = steel substrate with thin tin coating → 72.10. The article is classified by the BASE METAL substrate, not the tin coating",
+            "keywords": ["tinplate", "tin coated steel", "tin-plated steel", "tin coated iron", "72.10"]
+        },
+        {
+            "condition": "Soldering wire or sticks containing tin (tin-lead or tin-silver solder)",
+            "action": "Redirect to heading 83.11 (wire and rods coated/cored with flux for soldering/brazing/welding) if with flux core, OR classified as an alloy of the predominant metal. Pure tin solder wire WITHOUT flux → 80.03. Tin-lead solder (if lead predominates) → Ch.78. Tin solder with flux core → 83.11",
+            "keywords": ["solder wire", "tin lead solder", "tin silver solder", "flux core solder", "83.11", "78."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Subheading Note 1 — Pure tin vs tin alloy: the 99% purity threshold and bismuth/copper limits",
+            "description": "'Tin, not alloyed' (pure tin) = metal with ≥99% tin by weight AND bismuth + copper content each below specified table limits. 'Tin alloys' = metallic substance where tin predominates over each other element by weight, AND EITHER: (i) total other elements exceed 1% by weight; OR (ii) bismuth or copper content is at or above the specified limit. These definitions apply for subheading classification within heading 80.01 (unwrought tin) — determining whether it is classified as pure or alloyed.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: Ch.80 (tin metal) vs Ch.72 (tinplate/tin-coated steel) vs Ch.28 (tin compounds)",
+            "description": "Three classification paths for tin-related goods: (1) Tin METAL — pure or alloy forms (ingots, bars, foil, tubes, articles) → Ch.80. (2) Tin as a COATING on another base metal substrate (tinplate = tin-coated steel sheet) → classified by the substrate metal (Ch.72 for steel, Ch.74 for copper, etc.), not Ch.80. The tin coating is incidental to the base metal classification. (3) Tin COMPOUNDS (oxides, chlorides, salts, organotin) → Ch.28 or Ch.29. The key test: is tin the predominant structural material (→ Ch.80), merely a coating (→ substrate chapter), or a chemical compound (→ Ch.28/29)?",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 80.04 (tin plates/sheets — thickness >0.2mm) vs 80.05 (tin foil — thickness ≤0.2mm)",
+            "description": "Thickness of 0.2 mm is the dividing line within flat-rolled tin products: > 0.2 mm → heading 80.04 (plates, sheets and strip); ≤ 0.2 mm → heading 80.05 (foil). Tin foil may be printed or backed with paper/paperboard/plastics/similar materials; the backing does not change the classification — only the tin thickness (excluding any backing) determines foil vs. sheet. Tin powders and flakes are also in 80.05.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 80.07 (articles of tin) vs Ch.82–96 (functional articles where tin is the material)",
+            "description": "Heading 80.07 is the residual heading for articles of tin not covered by more specific headings (80.01–80.06) or by more specific functional chapters. When a tin article corresponds to a specific functional description in Ch.82–96, that functional heading takes priority. Example: tin printing type → 84.42. Tin foil for packaging → 80.05. Tin-alloy bearing metal → 80.07 (no more specific heading for bearing metal as such). Tin cans for food → 80.07 (if predominantly tin) or Ch.73 (if tin-coated steel/tinplate).",
+            "priority": 4
+        }
+    ]
+}

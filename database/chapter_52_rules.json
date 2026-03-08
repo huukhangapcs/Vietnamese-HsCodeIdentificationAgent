@@ -1,0 +1,63 @@
+{
+    "chapter_code": "52",
+    "chapter_title": "Cotton",
+    "scope_note": "Chapter 52 covers ALL cotton products from raw fibre to woven fabric. Subheading Note 1: 'denim' for subheadings 5209.42 and 5211.42 = fabrics of yarns of different colours, 3-thread or 4-thread twill (including broken twill), WARP FACED; warp yarns of ONE AND SAME colour; weft yarns unbleached, bleached, dyed grey or a LIGHTER SHADE than warp.",
+    "inclusions": [
+        "Heading 52.01 — Cotton, not carded or combed (raw cotton, ginned but not carded/combed; linters of cotton)",
+        "Heading 52.02 — Cotton waste (including yarn waste and garnetted stock)",
+        "Heading 52.03 — Cotton, carded or combed",
+        "Heading 52.04 — Cotton sewing thread, whether or not put up for retail sale",
+        "Heading 52.05 — Cotton yarn (other than sewing thread) containing 85% or more by weight of cotton, not put up for retail sale",
+        "Heading 52.06 — Cotton yarn (other than sewing thread) containing less than 85% by weight of cotton, not put up for retail sale",
+        "Heading 52.07 — Cotton yarn (other than sewing thread), put up for retail sale (both ≥85% and <85% cotton)",
+        "Heading 52.08 — Woven fabrics of cotton, containing 85% or more by weight of cotton, weighing not more than 200 g/m2",
+        "Heading 52.09 — Woven fabrics of cotton, containing 85% or more by weight of cotton, weighing more than 200 g/m2. Subheading 5209.42: denim fabrics (warp-faced 3/4-thread twill, different colour warp/weft, lighter weft shade)",
+        "Heading 52.10 — Woven fabrics of cotton, containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing not more than 200 g/m2",
+        "Heading 52.11 — Woven fabrics of cotton, containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing more than 200 g/m2. Subheading 5211.42: denim (same definition as 5209.42 but <85% cotton)",
+        "Heading 52.12 — Other woven fabrics of cotton (containing <85% cotton, mixed with fibres other than man-made — e.g., with wool, linen, silk)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Cotton products that are knitted or crocheted",
+            "action": "Knitted cotton fabrics → Chapter 60. Knitted cotton garments → Chapter 61 (if knit) or 62 (if woven). Chapter 52 covers only WOVEN fabrics and raw/yarn cotton products",
+            "keywords": ["knitted cotton fabric", "cotton jersey knit", "cotton knitwear", "60.", "61."]
+        },
+        {
+            "condition": "Cotton woven fabrics that are impregnated, coated, covered or laminated",
+            "action": "Redirect to Chapter 59. PU-coated cotton fabric → 59.03. Rubber-coated cotton fabric → 59.06. Bitumen-coated cotton canvas → 59.07",
+            "keywords": ["coated cotton fabric", "laminated cotton", "rubber coated cotton", "59.03", "59.06"]
+        },
+        {
+            "condition": "Wadding and textile fill articles of cotton used for medical/sanitary purposes",
+            "action": "Redirect to heading 96.19 (sanitary towels/tampons/diapers) or Ch.30 (pharmaceutical) if medically prepared. Raw cotton wadding → 56.01. Medicated cotton wool → Ch.30",
+            "keywords": ["cotton wool sanitary", "cotton sanitary pad", "cotton tampon", "96.19", "30."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Processing stage chain: raw cotton → carded → yarn → woven fabric",
+            "description": "Chapter 52 covers the full cotton production chain in sequence: (1) RAW (not carded/combed): 52.01 (raw cotton) + 52.02 (waste) + 52.03 (carded/combed). (2) YARN: 52.04 (sewing thread), 52.05 (≥85% cotton, not retail), 52.06 (<85% cotton, not retail), 52.07 (retail sale). (3) WOVEN FABRICS: 52.08–52.12 (by composition % and weight). Each stage is a discrete heading — classification at the stage of manufacture applies.",
+            "priority": 1
+        },
+        {
+            "rule": "Woven fabric matrix: cotton content % × secondary fibre × weight (g/m²)",
+            "description": "Cotton woven fabric headings follow a THREE-WAY matrix: (1) COTTON CONTENT: ≥85% → 52.08/52.09 (by weight). <85% mixed with MAN-MADE fibres (mainly/solely) → 52.10/52.11. <85% mixed with OTHER fibres (wool, linen, silk) → 52.12. (2) WEIGHT for ≥85% cotton fabrics: ≤200 g/m² → 52.08; >200 g/m² → 52.09. (3) WEIGHT for <85% cotton + mainly man-made: ≤200 g/m² → 52.10; >200 g/m² → 52.11. For 52.12 (other): no weight split. 'Mainly or solely' with man-made = man-made fibre is the principal secondary component.",
+            "priority": 2
+        },
+        {
+            "rule": "Subheading Note 1 — Denim: 5 specific criteria for subheadings 5209.42 and 5211.42",
+            "description": "Denim is strictly defined for subheading classification: (1) Made of YARNS OF DIFFERENT COLOURS (warp and weft must be different colours/shades). (2) 3-THREAD OR 4-THREAD TWILL construction (including broken twill). (3) WARP FACED (warp yarns predominate on fabric face). (4) Warp yarns of ONE AND SAME COLOUR (uniform coloured warp — typically indigo blue). (5) Weft yarns UNBLEACHED, BLEACHED, DYED GREY or a LIGHTER SHADE than warp. All five criteria must be met for denim subheading classification. Plain-weave blue fabric, or reverse twill = NOT denim for HS purposes.",
+            "priority": 3
+        },
+        {
+            "rule": "Yarn headings: 52.05/52.06 (cotton content ≥85% vs <85%) vs 52.07 (retail presentation)",
+            "description": "Cotton yarn (non-sewing) headings split by COMPOSITION and RETAIL PRESENTATION: 52.05 = cotton yarn ≥85% cotton (single, doubled, cabled), NOT for retail. 52.06 = cotton yarn <85% cotton (blended with man-made or other fibres), NOT for retail. 52.07 = cotton yarn PUT UP FOR RETAIL SALE (both ≥85% and <85% — small balls, skeins, cones for home use). 52.04 = sewing thread (cotton, any content, retail or not). The retail/industrial packaging distinction applies the same way as in Ch.54/55.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: Ch.52 (cotton woven) vs Ch.57 (cotton carpets) vs Ch.58 (cotton pile/special weaves) vs Ch.60 (cotton knit)",
+            "description": "Cotton fabrics in multiple chapters by construction: WOVEN flat fabrics → Ch.52. WOVEN pile fabrics (velvet, corduroy → woven construction) → Ch.58 (58.01). TUFTED or KNITTED terry → Ch.58 (58.02) or Ch.60 (60.01). LACE, GAUZE, EMBROIDERY of cotton → Ch.58. KNITTED/CROCHETED cotton fabrics → Ch.60. COTTON CARPET/FLOOR COVERINGS → Ch.57 regardless of construction method. COATED cotton → Ch.59. The construction method and end use determine the chapter beyond the base textile chapter.",
+            "priority": 5
+        }
+    ]
+}

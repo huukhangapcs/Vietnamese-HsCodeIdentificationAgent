@@ -1,0 +1,77 @@
+{
+    "chapter_code": "59",
+    "chapter_title": "Impregnated, coated, covered or laminated textile fabrics; textile articles of a kind suitable for industrial use",
+    "scope_note": "Note 1: 'textile fabrics' for Ch.59 purposes = woven fabrics of Ch.50–55 + headings 58.03/58.06, braids of 58.08, knitted fabrics of 60.02–60.06. Does NOT include non-wovens (Ch.56), felt (Ch.56), or knit pile fabrics (60.01 stays there per Ch.60 Note 1(c) exception).",
+    "inclusions": [
+        "Heading 59.01 — Textile fabrics coated with gum or amylaceous substances, of a kind used for the outer covers of books or the like; tracing cloth; prepared painting canvas; buckram and similar stiffened textile fabrics of a kind used for hat foundations",
+        "Heading 59.02 — Tyre cord fabric of high tenacity yarn of nylon or other polyamides, polyesters or viscose rayon",
+        "Heading 59.03 — Textile fabrics impregnated, coated, covered or laminated with plastics, other than those of heading 59.02. Note 2: applies when VISIBLE to naked eye (no account for colour change); product can be bent around 7mm diameter cylinder at 15–30°C without fracturing; textile NOT completely embedded or both-sides-covered by plastics. Note 3: 'laminated' = assembly with plastic sheet/film by any bonding process (visible in cross-section or not)",
+        "Heading 59.04 — Linoleum, whether or not cut to shape; floor coverings consisting of a coating or covering applied on a textile backing, whether or not cut to shape",
+        "Heading 59.05 — Textile wall coverings. Note 4: products in rolls, width ≥45 cm, for wall/ceiling decoration, with textile surface fixed on backing or impregnated/coated on back for pasting. Excludes flock-on-paper (48.14) and flock-on-textile (generally 59.07)",
+        "Heading 59.06 — Rubberised textile fabrics, other than those of heading 59.02. Note 5: (a) fabrics impregnated/coated/laminated with rubber ≤1,500 g/m² OR >1,500 g/m² with >50% textile by weight; (b) fabrics of rubber-coated yarn (56.04); (c) parallel textile yarns agglomerated with rubber. Excludes foam rubber with textile reinforcing → Ch.40; and 58.11",
+        "Heading 59.07 — Textile fabrics otherwise impregnated, coated or covered; painted canvas being theatrical scenery, studio back-cloths or the like. Note 6 exclusions: invisible coatings (→ Ch.50–55/58/60), fabrics painted with designs (not theatrical), fabrics with design-bearing partial flock/dust treatment, normal amylaceous dressings, wood veneer on textile backing (44.08), abrasive on textile (68.05), mica on textile (68.14), metal foil on textile (Section XIV/XV)",
+        "Heading 59.08 — Textile wicks, woven, plaited or knitted, for lamps, stoves, lighters, candles or the like; incandescent gas mantles and tubular knitted gas mantle fabric therefor, whether or not impregnated",
+        "Heading 59.09 — Textile hosepiping and similar textile tubing, with or without lining, armour or accessories of other materials",
+        "Heading 59.10 — Transmission or conveyor belts or belting, of textile material, whether or not impregnated, coated, covered or laminated with plastics, or reinforced with metal or other material. Note 7: 59.10 does NOT cover (a) belting <3mm thickness; or (b) rubber-impregnated belts/belting (→ 40.10)",
+        "Heading 59.11 — Textile products and articles, for technical uses, specified in Note 8. Note 8 includes: (a)(i) card clothing fabrics, weaving spindle-covering velvet/rubber; (a)(ii) bolting cloth; (a)(iii) filtering/straining cloth for oil presses (textile or human hair); (a)(iv) flat woven multi-warp/weft technical fabrics; (a)(v) metal-reinforced technical fabrics; (a)(vi) cords/braids for industrial packing/lubricating; (b) textile articles for technical purposes (paper-machine felts, gaskets, washers, polishing discs, machinery parts)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Plastic-coated/laminated textile where the coating is NOT visible to the naked eye",
+            "action": "Remain in the textile chapter of the base fabric (Ch.50–55, 58, or 60) — Note 2(1). A very thin invisible plastic treatment on a woven fabric does not move it to 59.03. Visibility test is key; colour change from the treatment is disregarded",
+            "keywords": ["invisible plastic coating textile", "thin film textile invisible", "anti-static treatment fabric invisible"]
+        },
+        {
+            "condition": "Products where textile fabric is COMPLETELY EMBEDDED in plastics OR coated on BOTH SIDES with plastics visible to naked eye",
+            "action": "Redirect to Chapter 39 (plastics) — Note 2(3). When the textile serves only as internal reinforcement completely surrounded by plastic → Ch.39. Single-side visible coating → 59.03. Both-sides visible coating with textile fully enclosed → Ch.39",
+            "keywords": ["PVC sheet textile embedded", "plastic sheet reinforced textile both sides", "conveyor belt PVC both sides", "39."]
+        },
+        {
+            "condition": "Plates, sheets or strip of CELLULAR plastics combined with textile where textile is MERELY for reinforcing",
+            "action": "Redirect to Chapter 39 — Note 2(5). Foam rubber or cellular plastics with textile backing for reinforcement only → Ch.39 (for plastics foam) or Ch.40 (for rubber foam). The plastic/rubber is the primary material; textile is incidental reinforcement",
+            "keywords": ["foam sheet textile reinforced", "cellular plastics textile backing", "expanded foam textile reinforcement", "39.", "40."]
+        },
+        {
+            "condition": "Rubberised textile with cellular rubber combined with textile for REINFORCING only",
+            "action": "Redirect to Chapter 40 (rubber and articles thereof) — Note 5 exclusion. Foam rubber slab with textile backing purely for reinforcement → Ch.40",
+            "keywords": ["foam rubber textile reinforcement", "cellular rubber textile", "sponge rubber textile backing", "40."]
+        },
+        {
+            "condition": "Transmission or conveyor belts impregnated/coated/laminated with RUBBER, or made from rubber-coated yarn",
+            "action": "Redirect to heading 40.10 — Note 7(b). Rubber conveyor belts with textile reinforcement → 40.10. Textile conveyor belts with plastics coating (not rubber) → 59.10",
+            "keywords": ["rubber conveyor belt", "rubber transmission belt", "rubber drive belt", "40.10"]
+        },
+        {
+            "condition": "Conveyor/transmission belts of textile with thickness LESS THAN 3 mm",
+            "action": "Redirect — Note 7(a): 59.10 does NOT cover belting <3mm. Very thin textile belts → classified elsewhere by the appropriate description",
+            "keywords": ["thin textile belt 3mm", "textile flat belt thin"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Heading 59.03 (plastics-coated textile): 4-part visibility and structure test",
+            "description": "Heading 59.03 applies to plastics-coated textiles that pass ALL of: (1) VISIBLE: coating/impregnation visible to NAKED EYE (colour change ignored). (2) FLEXIBLE: can be bent around 7mm cylinder at 15–30°C without fracturing. (3) NOT FULLY ENCLOSED: textile NOT completely embedded; and NOT coated on BOTH SIDES visibly (both-sides-visible → Ch.39). (4) NOT DESIGN-BEARING partial coating: partial coating creating design patterns → back to textile chapter. If any of these conditions is NOT met → not 59.03 (either Ch.39, or back to textile chapter, or 59.07 for other coatings).",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: 59.03 (plastics-coated textile) vs 59.06 (rubber-coated textile) vs 59.07 (otherwise coated) vs Ch.39/40 (coating predominates)",
+            "description": "Three headings for coated textiles, by coating type: 59.03 = PLASTICS coating (PVC, PU, polyethylene — visible, flexible, not fully enclosed). 59.06 = RUBBER coating (natural or synthetic rubber — within weight limits or >50% textile content). 59.07 = ALL OTHER coatings/impregnations (bitumen, oil, metallic coatings, paint — theatrical canvas only), provided they pass the visibility test and are not otherwise excluded by Note 6. If the COATING PREDOMINATES (rigid, fully encloses textile, or textile is merely reinforcement) → Ch.39 (plastics) or Ch.40 (rubber).",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 59.11 (technical textile articles) — catch-all for industrial textile products not elsewhere specified in Section XI",
+            "description": "Heading 59.11 is the RESIDUAL heading for TECHNICAL TEXTILE ARTICLES not described in any other Section XI heading. It applies only to goods meeting the SPECIFIC definitions in Note 8: card clothing fabrics, bolting cloth, oil-press filter cloth, multi-layer technical woven fabrics, metal-reinforced technical fabrics, industrial cords/braids, and textile machinery parts (paper-machine felts, gaskets, washers, polishing discs). General industrial textiles without a specific description → Ch.59 residual (59.07 or 59.11) depending on treatment and form. Note 8(b) covers made-up textile machinery articles not in 59.08–59.10.",
+            "priority": 3
+        },
+        {
+            "rule": "Note 5 — 59.06 (rubberised fabrics): weight and composition thresholds",
+            "description": "Rubberised textile fabrics in 59.06 must meet one of: (a) rubber-coated/impregnated fabric ≤1,500 g/m² (most rubberised textiles); OR rubber-coated fabric >1,500 g/m² but textile >50% by weight (heavy rubberised canvas). (b) Fabrics of rubber-coated yarn from 56.04. (c) Parallel yarns agglomerated with rubber (no weight limit). Critical exclusion: cellular/foam rubber + textile merely for reinforcement → Ch.40 (not 59.06). The weight/composition thresholds separate rubberised textiles from rubber products.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 4 — 59.05 (textile wall coverings): width and backing requirements",
+            "description": "Heading 59.05 covers TEXTILE WALL COVERINGS: products in rolls, width ≥45 cm, for wall/ceiling decoration, with textile surface on backing or impregnated/coated back for pasting. Two types excluded from 59.05 and directed elsewhere: (1) Flock/fiber applied DIRECTLY on PAPER backing → heading 48.14 (flock-coated paper). (2) Flock/fibre applied DIRECTLY on TEXTILE backing → generally heading 59.07.",
+            "priority": 5
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 {
     "chapter_code": "28",
+    "chapter_title": "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
     "inclusions": [
         "Sub-Chapter I — Chemical Elements: Halogens (F, Cl, Br, I); sublimed/precipitated/colloidal sulphur; carbon blacks and other carbon forms NESOI; hydrogen, rare gases, N2, O2, B, Te, Si, P, As, Se; alkali/alkaline-earth metals; rare-earth metals, Sc, Y; mercury",
         "Sub-Chapter II — Inorganic Acids and Inorganic Oxygen Compounds of Non-metals: HCl, chlorosulphuric acid; H2SO4, oleum; HNO3, sulphonitric acids; P2O5, H3PO4, polyphosphoric acids; boron oxides, boric acids; other inorganic acids (HF, HCN, arsenic acid, sulphamic acid) and other inorganic oxygen compounds of non-metals (CO2, SiO2, As2O5, SO2)",
@@ -12,47 +13,105 @@
         {
             "condition": "Sodium chloride (NaCl) or magnesium oxide (MgO) whether or not pure, or other products of Section V (Chapters 25-27)",
             "action": "Redirect to Section V — NaCl → heading 25.01; MgO → heading 25.19",
-            "keywords": ["sodium chloride", "NaCl", "table salt", "magnesium oxide", "MgO", "25.01", "25.19", "section V"]
+            "keywords": [
+                "sodium chloride",
+                "NaCl",
+                "table salt",
+                "magnesium oxide",
+                "MgO",
+                "25.01",
+                "25.19",
+                "section V"
+            ]
         },
         {
             "condition": "Organo-inorganic compounds other than those specifically listed in Note 2 of Chapter 28",
             "action": "Redirect to Chapter 29 (organic chemicals) or relevant chapter. Note 2 exceptions that DO stay in Ch.28 include: CO/CO2/HCN/complex cyanogen acids (28.11), halide oxides of carbon (28.12), CS2 (28.13), thiocarbonates/selenocarbonates/complex cyanates of inorganic bases (28.42), H2O2 solidified with urea (28.47), cyanogen/cyanogen halides/cyanamide (28.53)",
-            "keywords": ["organo-inorganic", "organometallic", "chapter 29"]
+            "keywords": [
+                "organo-inorganic",
+                "organometallic",
+                "chapter 29"
+            ]
         },
         {
             "condition": "Fertilizer products mentioned in Notes 2, 3, 4 or 5 to Chapter 31",
             "action": "Redirect to Chapter 31 — e.g., calcium cyanamide (whether or not pure) → Chapter 31",
-            "keywords": ["calcium cyanamide", "fertilizer", "chapter 31", "ammonium nitrate fertilizer"]
+            "keywords": [
+                "calcium cyanamide",
+                "fertilizer",
+                "chapter 31",
+                "ammonium nitrate fertilizer"
+            ]
         },
         {
             "condition": "Inorganic products of a kind used as luminophores",
             "action": "Redirect to Heading 32.06",
-            "keywords": ["luminophore", "phosphor", "fluorescent pigment", "32.06"]
+            "keywords": [
+                "luminophore",
+                "phosphor",
+                "fluorescent pigment",
+                "32.06"
+            ]
         },
         {
             "condition": "Glass frit and other glass in the form of powder, granules or flakes",
             "action": "Redirect to Heading 32.07",
-            "keywords": ["glass frit", "glass powder", "glass granules", "32.07"]
+            "keywords": [
+                "glass frit",
+                "glass powder",
+                "glass granules",
+                "32.07"
+            ]
         },
         {
             "condition": "Artificial graphite",
             "action": "Redirect to Heading 38.01",
-            "keywords": ["artificial graphite", "synthetic graphite", "38.01"]
+            "keywords": [
+                "artificial graphite",
+                "synthetic graphite",
+                "38.01"
+            ]
         },
         {
             "condition": "Cultured crystals (other than optical elements) weighing not less than 2.5g each, of the halides of the alkali or alkaline-earth metals",
             "action": "Redirect to Heading 38.24. Optical elements of alkali/alkaline-earth halides → Heading 90.01",
-            "keywords": ["cultured crystal", "synthetic crystal", "alkali halide crystal", "NaF crystal", "CaF2 crystal", "38.24", "90.01"]
+            "keywords": [
+                "cultured crystal",
+                "synthetic crystal",
+                "alkali halide crystal",
+                "NaF crystal",
+                "CaF2 crystal",
+                "38.24",
+                "90.01"
+            ]
         },
         {
             "condition": "Precious or semi-precious stones (natural, synthetic or reconstructed) or dust/powder of such stones",
             "action": "Redirect to Headings 71.02 to 71.05; precious metals or precious metal alloys → Chapter 71",
-            "keywords": ["precious stone", "diamond", "ruby", "sapphire", "synthetic gemstone", "71.02", "71.03", "71.04", "71.05", "chapter 71"]
+            "keywords": [
+                "precious stone",
+                "diamond",
+                "ruby",
+                "sapphire",
+                "synthetic gemstone",
+                "71.02",
+                "71.03",
+                "71.04",
+                "71.05",
+                "chapter 71"
+            ]
         },
         {
             "condition": "Metals (pure or not), metal alloys or cermets, including sintered metal carbides (metal carbides sintered with a metal)",
             "action": "Redirect to Section XV (base metals). Note: pure metal carbides NOT sintered with metal → 28.49. Metal carbides sintered with metal (e.g. WC-Co) → Section XV",
-            "keywords": ["metal alloy", "cermet", "sintered carbide", "WC-Co", "section XV", "cemented carbide"]
+            "keywords": [
+                "metal alloy",
+                "cermet",
+                "sintered carbide",
+                "WC-Co",
+                "section XV",
+                "cemented carbide"
+            ]
         }
     ],
     "classification_rules": [

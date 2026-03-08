@@ -1,0 +1,54 @@
+{
+    "chapter_code": "88",
+    "chapter_title": "Aircraft, spacecraft, and parts thereof",
+    "inclusions": [
+        "Heading 88.01 — Balloons and dirigibles; gliders, hang-gliders and other non-powered aircraft",
+        "Heading 88.02 — Other aircraft (e.g., helicopters, aeroplanes); spacecraft (including satellites) and suborbital and spacecraft launch vehicles. Subheadings 8802.11–8802.40 classified by UNLADEN WEIGHT (weight of machine in normal flying order, excluding crew, fuel, and non-permanently fitted equipment)",
+        "Heading 88.03 — Parts of goods of heading 88.01 or 88.02",
+        "Heading 88.04 — Parachutes (including dirigible parachutes and paragliders) and rotochutes; parts thereof and accessories thereto",
+        "Heading 88.05 — Aircraft launching gear; deck-arrestor or similar gear; ground flying trainers; parts of the foregoing articles",
+        "Heading 88.06 — Unmanned aircraft. Subheadings 8806.21–8806.24 and 8806.91–8806.94 classified by MAXIMUM TAKE-OFF WEIGHT (weight at take-off including payload, equipment and fuel). Includes drones designed to carry a payload OR equipped with permanently integrated digital cameras or other equipment for utilitarian functions during flight"
+    ],
+    "exclusions": [
+        {
+            "condition": "Flying toys designed SOLELY for amusement purposes",
+            "action": "Redirect to heading 95.03 (toys) — Note 1 para 2. Even if the toy flies or resembles a drone, if designed solely for amusement → 95.03. Key test: UTILITARIAN FUNCTION vs. AMUSEMENT ONLY",
+            "keywords": [
+                "toy drone", "toy airplane", "toy helicopter", "flying toy", "amusement drone",
+                "toy aircraft", "children flying toy", "95.03"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Definition of 'unmanned aircraft' (UAV/drone) for heading 88.06",
+            "description": "An 'unmanned aircraft' (88.06) is ANY aircraft (other than 88.01 non-powered aircraft) designed to fly WITHOUT a pilot on board. Two qualifying types: (1) designed to carry a payload; (2) equipped with permanently integrated digital cameras or other equipment enabling utilitarian functions during flight. EXCLUDES: flying toys designed solely for amusement (→ 95.03). The 'utilitarian function' test is decisive: aerial photography for commercial/professional use, surveying, delivery drones → 88.06; simple toy that flies → 95.03.",
+            "priority": 1
+        },
+        {
+            "rule": "Subheading Note 1 — 'Unladen weight' for subheadings 8802.11–8802.40",
+            "description": "For classifying aircraft in subheadings 8802.11 to 8802.40 (aeroplanes, helicopters by weight band), 'unladen weight' = weight of machine in NORMAL FLYING ORDER, EXCLUDING: (a) weight of crew; (b) weight of fuel; (c) weight of equipment other than permanently fitted items. Only permanently integrated equipment (fixed instrumentation, avionics, built-in cameras) counts toward unladen weight. Removable payload does NOT count.",
+            "priority": 2
+        },
+        {
+            "rule": "Subheading Note 2 — 'Maximum take-off weight' (MTOW) for subheadings 8806.21–8806.24 and 8806.91–8806.94",
+            "description": "For classifying unmanned aircraft in heading 88.06 by weight band, 'maximum take-off weight' = maximum weight at take-off INCLUDING: (a) payload; (b) equipment; (c) fuel. This is the opposite philosophy from unladen weight: MTOW is the heaviest the aircraft can operate at departure. Weight bands in 88.06 subheadings are determined by MTOW as declared by the manufacturer.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 88.06 (unmanned aircraft) vs 95.03 (flying toys)",
+            "description": "The single exclusion from Ch.88 for unmanned aircraft is flying toys designed SOLELY for amusement. Classification decision tree: (1) Does it fly without a pilot? Yes → potential 88.06. (2) Is it designed SOLELY for amusement? Yes → 95.03. (3) Does it carry payload OR have permanently integrated camera/sensor for utilitarian function? Yes → 88.06. Borderline cases (e.g., toy drone with removable camera) → apply PRINCIPAL USE test: professional/commercial aerial photography capability → 88.06; basic consumer toy → 95.03.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 88.01 (non-powered aircraft) vs 88.02 (powered aircraft) vs 88.06 (unmanned aircraft)",
+            "description": "Three headings by propulsion and pilot status: 88.01 = NON-POWERED, piloted (gliders, hang-gliders, balloons, dirigibles). 88.02 = POWERED, piloted (aeroplanes, helicopters, spacecraft, satellites). 88.06 = UNMANNED (no pilot), any propulsion type — BUT heading 88.06 specifically carves out of 88.01 by Note 1 language ('other than those of heading 88.01'), meaning unpowered unmanned aircraft (e.g., unpowered UAV gliders) could fall in 88.01 rather than 88.06.",
+            "priority": 5
+        },
+        {
+            "rule": "Parts of aircraft: 88.03 vs component-specific headings",
+            "description": "Heading 88.03 covers parts of goods of headings 88.01 and 88.02 (NOT 88.06 parts — those are in 88.06 itself or 88.03 by general parts rule). General rule: parts that are identifiable as being solely or principally for aircraft → 88.03. Parts that are general-purpose and not exclusively aircraft-specific may be classified in their own heading (e.g., aircraft engines → 84.11 turbojets/turbopropellers; aircraft tyres → 40.11). This follows the general Section XVII parts principle.",
+            "priority": 6
+        }
+    ]
+}

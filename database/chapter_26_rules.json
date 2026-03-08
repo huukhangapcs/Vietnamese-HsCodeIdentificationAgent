@@ -1,5 +1,6 @@
 {
     "chapter_code": "26",
+    "chapter_title": "Ores, slag and ash",
     "inclusions": [
         "Iron ores and concentrates (haematite and others, agglomerated and non-agglomerated); roasted iron pyrites",
         "Manganese ores and concentrates, including ferruginous manganese ores with Mn content of 20% or more (dry weight)",
@@ -20,37 +21,70 @@
         {
             "condition": "Slag or similar industrial waste prepared as macadam (road-making material)",
             "action": "Redirect to Heading 25.17",
-            "keywords": ["slag macadam", "industrial waste macadam", "25.17"]
+            "keywords": [
+                "slag macadam",
+                "industrial waste macadam",
+                "25.17"
+            ]
         },
         {
             "condition": "Natural magnesium carbonate (magnesite), whether or not calcined",
             "action": "Redirect to Heading 25.19",
-            "keywords": ["magnesite", "natural magnesium carbonate", "25.19"]
+            "keywords": [
+                "magnesite",
+                "natural magnesium carbonate",
+                "25.19"
+            ]
         },
         {
             "condition": "Sludges from storage tanks of petroleum oils consisting mainly of such oils",
             "action": "Redirect to Heading 27.10",
-            "keywords": ["petroleum sludge", "oil tank sludge", "27.10"]
+            "keywords": [
+                "petroleum sludge",
+                "oil tank sludge",
+                "27.10"
+            ]
         },
         {
             "condition": "Basic slag (from steel manufacturing, used as fertilizer)",
             "action": "Redirect to Chapter 31 (fertilizers)",
-            "keywords": ["basic slag", "Thomas slag", "chapter 31", "fertilizer slag"]
+            "keywords": [
+                "basic slag",
+                "Thomas slag",
+                "chapter 31",
+                "fertilizer slag"
+            ]
         },
         {
             "condition": "Slag wool, rock wool or similar mineral wools",
             "action": "Redirect to Heading 68.06",
-            "keywords": ["slag wool", "rock wool", "mineral wool", "68.06"]
+            "keywords": [
+                "slag wool",
+                "rock wool",
+                "mineral wool",
+                "68.06"
+            ]
         },
         {
             "condition": "Waste or scrap of precious metal or metal clad with precious metal; other waste/scrap containing precious metal used principally for recovery of precious metal",
             "action": "Redirect to Heading 71.12 or 85.49",
-            "keywords": ["precious metal scrap", "gold scrap", "silver scrap", "71.12", "85.49"]
+            "keywords": [
+                "precious metal scrap",
+                "gold scrap",
+                "silver scrap",
+                "71.12",
+                "85.49"
+            ]
         },
         {
             "condition": "Copper, nickel or cobalt mattes produced by any process of smelting",
             "action": "Redirect to Section XV (base metals)",
-            "keywords": ["copper matte", "nickel matte", "cobalt matte", "section XV"]
+            "keywords": [
+                "copper matte",
+                "nickel matte",
+                "cobalt matte",
+                "section XV"
+            ]
         }
     ],
     "classification_rules": [

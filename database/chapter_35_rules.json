@@ -1,5 +1,6 @@
 {
     "chapter_code": "35",
+    "chapter_title": "Albuminoidal substances; modified starches; glues; enzymes",
     "inclusions": [
         "Heading 35.01 — Casein, caseinates and other casein derivatives; casein glues",
         "Heading 35.02 — Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives — includes: ovalbumin, lactalbumin, blood albumin (for non-therapeutic/non-prophylactic use)",
@@ -13,22 +14,48 @@
         {
             "condition": "Blood albumin prepared for therapeutic or prophylactic uses",
             "action": "Redirect to heading 30.02 (Chapter 30 — Pharmaceutical products)",
-            "keywords": ["albumin therapeutic", "albumin pharmaceutical", "albumin IV", "human albumin injection", "blood albumin medical", "30.02"]
+            "keywords": [
+                "albumin therapeutic",
+                "albumin pharmaceutical",
+                "albumin IV",
+                "human albumin injection",
+                "blood albumin medical",
+                "30.02"
+            ]
         },
         {
             "condition": "Casein, albumins, gelatin etc. used as food or food ingredients in retail form",
             "action": "May redirect to food chapters — e.g., food-grade casein preparations → 19.01 or 21.06; edible gelatin for retail → 35.03 stays if not further prepared; pre-packaged food forms may go to relevant food chapter",
-            "keywords": []
+            "keywords": [
+                "casein food ingredient",
+                "albumin food use",
+                "gelatin food grade edible",
+                "04.",
+                "02."
+            ]
         },
         {
             "condition": "Starches of heading 11.08 — natural (unmodified) starches",
             "action": "Stay in heading 11.08 (Chapter 11). Only MODIFIED starches (pregelatinised, esterified, crosslinked, dextrins) go to 35.05",
-            "keywords": ["natural starch", "wheat starch", "corn starch", "potato starch", "maize starch", "tapioca starch unmodified", "11.08"]
+            "keywords": [
+                "natural starch",
+                "wheat starch",
+                "corn starch",
+                "potato starch",
+                "maize starch",
+                "tapioca starch unmodified",
+                "11.08"
+            ]
         },
         {
             "condition": "Adhesives with more than 1 kg net weight put up for retail, or industrial adhesives not for retail sale",
             "action": "Heading 35.06 retail limit is 1 kg net. Larger industrial packs of specific adhesive types may go to their base material chapter (e.g., epoxy adhesive system → 39.07 or 38.24)",
-            "keywords": []
+            "keywords": [
+                "adhesive large pack 1kg",
+                "adhesive not retail",
+                "industrial adhesive bulk",
+                "35.06"
+            ]
         }
     ],
     "classification_rules": [

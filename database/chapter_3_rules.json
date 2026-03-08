@@ -1,58 +1,70 @@
 {
     "chapter_code": "03",
+    "chapter_title": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+    "scope_note": "Chapter 3 covers aquatic animals (fish, crustaceans, molluscs, other invertebrates) in live, fresh, chilled, frozen, dried, salted, smoked and similar minimally-preserved forms, AND fish meal/pellets fit for human consumption. Does NOT cover mammalian marine animals (whales, dolphins, seals) — those are Ch.01/02. Cooked/prepared fish → Ch.16.",
     "inclusions": [
-        "Fish and crustaceans, molluscs and other aquatic invertebrates",
-        "Pellets of fish, crustaceans, molluscs or other aquatic invertebrates fit for human consumption (03.09)"
+        "Heading 03.01 — Live fish: ornamental fish (goldfish, tropical fish), live food fish (eels, carp, tilapia, salmon), live farmed fish for aquaculture",
+        "Heading 03.02 — Fish, fresh or chilled, excluding fish fillets and other fish meat of 03.04: whole fish, gutted, headed — salmon, trout, halibut, sole, cod, herring, tuna, mackerel, sardines, anchovies etc.",
+        "Heading 03.03 — Fish, frozen, excluding fish fillets and other fish meat of 03.04: same species as 03.02 but frozen. Livers and roes separately frozen → 03.03",
+        "Heading 03.04 — Fish fillets and other fish meat (whether or not minced), fresh, chilled or frozen: boneless fillets, loins, tails cut from fish. Minced fish (surimi base) — whether fresh/chilled/frozen",
+        "Heading 03.05 — Fish, dried, salted or in brine; smoked fish, whether or not cooked before or during the smoking process; flours, meals and pellets of fish, fit for human consumption: stockfish (dried cod), salt cod, smoked salmon, smoked herring — also fish flour for human consumption",
+        "Heading 03.06 — Crustaceans, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked crustaceans: lobsters, crabs, shrimps, prawns, crayfish, krill — including rock lobster tails, cooked-and-frozen shrimp (if in shell, provisionally cooked for preservation — stays Ch.03)",
+        "Heading 03.07 — Molluscs, whether in shell or not, live, fresh, chilled, frozen, dried, salted or in brine; smoked molluscs; flours, meals and pellets of molluscs, fit for human consumption: oysters, mussels, scallops, clams, squid/cuttlefish, octopus, snails (aquatic), abalone",
+        "Heading 03.08 — Aquatic invertebrates other than crustaceans and molluscs, live, fresh, chilled, frozen, dried, salted or in brine; smoked aquatic invertebrates; flours, meals and pellets of aquatic invertebrates fit for human consumption: sea urchins, sea cucumbers (beche-de-mer, trepang), jellyfish, sea anemones",
+        "Heading 03.09 — Flours, meals and pellets of fish, crustaceans, molluscs or other aquatic invertebrates, fit for human consumption (added in HS 2022)"
     ],
     "exclusions": [
         {
-            "condition": "Mammals (e.g., whales, dolphins, seals)",
-            "action": "Redirect to Heading 01.06",
-            "keywords": [
-                "mammals",
-                "whales",
-                "dolphins",
-                "seals",
-                "01.06"
-            ]
+            "condition": "Live or dead marine mammals (whales, dolphins, porpoises, seals, sea lions, manatees, dugongs)",
+            "action": "Redirect to Ch.01 (live: 01.06) or Ch.02 (dead: 02.08 edible meat). Marine mammals are NOT fish — they are warm-blooded air-breathing animals classified with terrestrial mammals",
+            "keywords": ["whale", "dolphin", "seal", "sea lion", "manatee", "dugong", "01.06", "02.08"]
         },
         {
-            "condition": "Meat of mammals of heading 01.06",
-            "action": "Redirect to Heading 02.08 or 02.10",
-            "keywords": [
-                "meat of mammals",
-                "02.08",
-                "02.10"
-            ]
+            "condition": "Dead fish, crustaceans or molluscs that are unfit/unsuitable for human consumption by reason of species or condition",
+            "action": "Redirect to Chapter 5. Inedible fish species or fish that has decomposed → Ch.05 (05.11). Industrial fish used as animal feed raw material without processing → borderline Ch.03/Ch.05; if clearly traded as industrial product → Ch.05",
+            "keywords": ["inedible fish dead", "unfit fish consumption", "fish industrial", "05.11", "05."]
         },
         {
-            "condition": "Fish, crustaceans, molluscs or other aquatic invertebrates, dead and unfit or unsuitable for human consumption by reason of their species or condition",
-            "action": "Redirect to Chapter 5",
-            "keywords": [
-                "unfit",
-                "unsuitable",
-                "human consumption",
-                "chapter 5"
-            ]
+            "condition": "Flours, meals and pellets of fish/crustaceans/molluscs UNFIT for human consumption (fish meal for animal feed)",
+            "action": "Redirect to heading 23.01 — fish meal for animal feed (fishmeal from anchovies, menhaden, herring etc.) → 23.01. Only fish flour/pellets fit for human consumption → 03.05/03.09",
+            "keywords": ["fish meal animal feed", "fishmeal", "fish flour animal feed", "23.01"]
         },
         {
-            "condition": "Flours, meals or pellets of fish or of crustaceans, molluscs or other aquatic invertebrates, unfit for human consumption",
-            "action": "Redirect to Heading 23.01",
-            "keywords": [
-                "unfit flours",
-                "unfit meals",
-                "unfit pellets",
-                "23.01"
-            ]
+            "condition": "Caviar and caviar substitutes prepared from fish eggs",
+            "action": "Redirect to heading 16.04 — Caviar (sturgeon roe, beluga/osetra/sevruga) → 16.04. Lumpfish roe, salmon roe (ikura), flying fish roe (tobiko) prepared as caviar substitute → 16.04. UNPREPARED/natural fish roe (not processed into caviar) → 03.02/03.03 depending on form",
+            "keywords": ["caviar sturgeon", "caviar substitute", "salmon roe ikura", "tobiko roe prepared", "16.04"]
         },
         {
-            "condition": "Caviar or caviar substitutes prepared from fish eggs",
-            "action": "Redirect to Heading 16.04",
-            "keywords": [
-                "caviar",
-                "caviar substitutes",
-                "16.04"
-            ]
+            "condition": "Cooked fish, fish in sauce, fish preparations mixed with other ingredients",
+            "action": "Redirect to Chapter 16 (prepared or preserved food: fish, crustaceans, molluscs). Canned tuna in oil → 16.04. Fish sticks (coated and fried) → 16.04. Shrimp cocktail (cooked, seasoned) → 16.05. Fish paste/spread → 16.05. Provisionally cooked shrimp (blanched for preservation, still in natural form, in shell) → borderline but may stay in 03.06 if not further prepared",
+            "keywords": ["canned tuna", "fish in oil prepared", "fish preparation cooked", "shrimp cocktail", "16.04", "16.05"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Live vs. fresh/chilled/frozen vs. simply-preserved: all Ch.03 if not prepared",
+            "description": "Chapter 3 spans ALL STAGES of minimal processing for aquatic edible animals: LIVE (03.01/03.06/03.07/03.08), FRESH/CHILLED (03.02/03.04/03.06/03.07/03.08), FROZEN (03.03/03.04/03.06/03.07/03.08), DRIED/SALTED/SMOKED (03.05/03.06/03.07/03.08). The common thread: the product retains its AQUATIC ANIMAL CHARACTER and has not been prepared/combined with other food ingredients. A simple cooking step purely for preservation (provisionally boiled shrimp to prevent deterioration during export, still in shell) can STAY in Ch.03 if the commercial character is as raw product. But cooked and further prepared = Ch.16.",
+            "priority": 1
+        },
+        {
+            "rule": "Fillets and fish meat (03.04) vs whole/headed fish (03.02/03.03): degree of preparation",
+            "description": "Heading 03.04 specifically covers FISH FILLETS (boneless portions removed from whole fish) and OTHER FISH MEAT (including minced fish, fish loins). Whole fish/gutted fish/headed fish → 03.02 (fresh/chilled) or 03.03 (frozen). Heading 03.04 = portioned boneless fish — the cutting-away of bones is the distinguishing step. MINCED FISH (mechanically separated fish meat, surimi) → 03.04 when fresh/chilled/frozen. Fish flakes/shreds (dried) → 03.05. Smoked salmon slices (ready-to-eat, boneless) → 03.05 (smoked + sliced but not mixed with other ingredients).",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: crustaceans (03.06) — the 'provisionally cooked for preservation' exception",
+            "description": "Crustaceans (lobster, shrimp, crab) are commonly blanched/boiled briefly for preservation before freezing at sea. This PROVISIONAL COOKING does not move the product to Ch.16 IF: (1) the cooking was done to preserve the product, not to produce a ready-to-eat meal; (2) the product is still in its natural form (shell on or shell off but no sauce/seasoning); (3) it is commercially traded as raw material for further processing. 'Cooked frozen shrimp' exported in bulk for further processing → may stay 03.06. Cooked shrimp in individual serving packets with salt/lemon → likely 16.05 (prepared). The commercial purpose and presentation determine the boundary.",
+            "priority": 3
+        },
+        {
+            "rule": "Fit for human consumption test: Ch.03 vs Ch.05 vs Ch.23",
+            "description": "Aquatic animals split by intended end use and fitness for consumption: EDIBLE (fit for humans) → Ch.03 (whole/parts) or Ch.16 (prepared). INEDIBLE species or damaged/decomposed product → Ch.05 (05.11 for industrial use). PROCESSED into FLOUR/MEAL FOR ANIMAL FEED → Ch.23 (23.01 = fish meal for animal feed). FLOURS/PELLETS FOR HUMAN CONSUMPTION → Ch.03 (03.05 fish flour for food, 03.09 pellets for food). The 'fit for human consumption' test is based on commercial presentation, labelling, and trading intent — not theoretical edibility of the species.",
+            "priority": 4
+        },
+        {
+            "rule": "Aquatic invertebrates (03.08): sea cucumber, sea urchin, jellyfish classification",
+            "description": "Heading 03.08 is the RESIDUAL aquatic invertebrate heading (not fish, not crustacean, not mollusc). Key products: SEA CUCUMBER (beche-de-mer/trepang — dried for Chinese cuisine) → 03.08 (dried). SEA URCHIN (uni — fresh/frozen/salted roe) → 03.08. JELLYFISH (dried/salted, used in Asian cuisine) → 03.08. CORAL — live coral → 05.08 (coral not for food). SEA ANEMONE → 03.08 if edible/food use; 05.11 if ornamental/industrial. The key: must be intended for/suitable for human consumption to be in 03.08.",
+            "priority": 5
         }
     ]
 }

@@ -1,0 +1,85 @@
+{
+    "chapter_code": "87",
+    "chapter_title": "Vehicles other than railway or tramway rolling-stock, and parts and accessories thereof",
+    "inclusions": [
+        "Heading 87.01 — Tractors (wheeled and crawler), including pedestrian-controlled tractors, agricultural tractors, road tractors for semi-trailers",
+        "Heading 87.02 — Motor vehicles for the transport of 10 or more persons, including driver (buses, minibuses, coaches, trolleybuses)",
+        "Heading 87.03 — Motor cars and other motor vehicles principally designed for the transport of persons (other than 87.02), including station wagons, racing cars",
+        "Heading 87.04 — Motor vehicles for the transport of goods (lorries/trucks, vans, pick-ups, including refrigerator vehicles, breakdown lorries)",
+        "Heading 87.05 — Special-purpose motor vehicles (crane lorries, fire-fighting vehicles, concrete-mixer lorries, road-sweeping vehicles, spraying vehicles, mobile workshops, mobile radiology units)",
+        "Heading 87.06 — Chassis fitted with engines for motor vehicles of headings 87.01 to 87.05 (WITHOUT cabs)",
+        "Heading 87.07 — Bodies (including cabs) for motor vehicles of headings 87.01 to 87.05",
+        "Heading 87.08 — Parts and accessories for motor vehicles of headings 87.01 to 87.05 (including bumpers, seat belts, safety airbags, brakes, gearboxes, axles, wheels, suspension, steering wheels, dashboards, silencers, exhaust pipes, clutches, radiators, windscreen wipers, framed/heated windows per Subheading Note 1)",
+        "Heading 87.09 — Works trucks, self-propelled, not fitted with lifting or handling equipment, of the type used in factories/warehouses/airports/dockyards for short-distance goods transport; tractors used on railway-station platforms",
+        "Heading 87.10 — Tanks and other armoured fighting vehicles, motorised, whether or not armed; parts thereof",
+        "Heading 87.11 — Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, whether or not fitted with side-cars; side-cars",
+        "Heading 87.12 — Bicycles and other cycles (including delivery tricycles), not motorised — INCLUDES ALL CHILDREN'S BICYCLES (Note 4)",
+        "Heading 87.13 — Invalid carriages, whether or not motorised or otherwise mechanically propelled",
+        "Heading 87.14 — Parts and accessories for vehicles of headings 87.09 to 87.13",
+        "Heading 87.15 — Baby carriages and parts thereof",
+        "Heading 87.16 — Trailers and semi-trailers; other vehicles not mechanically propelled; parts thereof"
+    ],
+    "exclusions": [
+        {
+            "condition": "Railway or tramway rolling-stock designed solely for running on rails",
+            "action": "Redirect to Chapter 86 — Note 1. Vehicles exclusively designed for rail use → Ch.86 regardless of propulsion type",
+            "keywords": [
+                "railway vehicle", "tramway vehicle", "rolling stock", "rail locomotive", "rail car",
+                "train wagon", "Chapter 86", "86."
+            ]
+        },
+        {
+            "condition": "Children's cycles OTHER THAN bicycles (e.g., tricycles, pedal cars, scooters for children)",
+            "action": "Redirect to heading 95.03 (toys) — Note 4. Only children's BICYCLES stay in 87.12; other children's cycles (tricycles with pedals, pedal cars) → 95.03",
+            "keywords": [
+                "children tricycle", "kids tricycle", "pedal car", "children scooter non-motor",
+                "toy cycle", "child bicycle toy", "95.03"
+            ]
+        },
+        {
+            "condition": "Machines and working tools designed for fitting to tractors of heading 87.01 as interchangeable equipment (e.g., ploughs, mowers, harrows), even if presented with the tractor or mounted on it",
+            "action": "Remain classified in their respective headings (e.g., Ch.84 for agricultural machines) — Note 2 para 2. Attachment does NOT pull them into 87.01",
+            "keywords": [
+                "tractor attachment", "tractor implement", "plough tractor", "mower tractor", "harrow tractor",
+                "tractor working tool", "interchangeable tractor equipment"
+            ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Definition of 'tractor' for heading 87.01",
+            "description": "A 'tractor' (87.01) is a vehicle constructed ESSENTIALLY for hauling or pushing another vehicle, appliance or load. Tractors may contain subsidiary provision for transporting tools, seeds, fertilisers, or other goods in connection with their main towing/hauling use. The ESSENTIAL PURPOSE test is key: if the vehicle's primary design is hauling/pushing → 87.01; if primary design is goods transport with optional towing capability → may fall in 87.04.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 3 — Motor chassis with cab: 87.02–87.04, NOT 87.06",
+            "description": "Heading 87.06 covers chassis fitted with engines WITHOUT cabs. If a motor chassis is fitted with a cab, it is classified as a complete vehicle in headings 87.02 (10+ persons), 87.03 (passenger cars), or 87.04 (goods vehicles) — NOT in 87.06. The presence of a cab transforms the chassis from a component into a classifiable complete vehicle.",
+            "priority": 2
+        },
+        {
+            "rule": "Subheading Note 1 — Scope of subheading 8708.22 (framed/heated windows)",
+            "description": "Subheading 8708.22 specifically covers: (a) front windscreens (windshields), rear windows and other windows that are FRAMED; AND (b) front windscreens, rear windows and other windows (whether or not framed) incorporating HEATING DEVICES or other electrical/electronic devices — when suitable for use solely or principally with motor vehicles of headings 87.01 to 87.05. Plain unframed glass that is not heated/electronic → classified under heading 70.07 (safety glass) not 8708.22.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 87.03 vs 87.04 — passenger vs goods vehicles",
+            "description": "The principal design test separates 87.03 (persons) from 87.04 (goods): consider seating layout, bodywork type, load floor, windows, number of seats, separated passenger/cargo area, gross vehicle weight rating. Station wagons, SUVs, MPVs principally for persons → 87.03. Pick-up trucks, panel vans principally for goods → 87.04. Dual-purpose vehicles → apply GRI Rule 3(a) (most specific heading) using design evidence.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 87.05 (special purpose) vs 87.02/87.03/87.04 (transport vehicles)",
+            "description": "Heading 87.05 covers motor vehicles designed for special purposes OTHER THAN the transport of persons or goods in the ordinary sense (e.g., crane lorries, fire engines, concrete mixers, mobile workshops, street sweepers). If the vehicle's primary function is a specialised non-transport operation, even if it incidentally carries persons or materials to perform that function → 87.05. Standard transport function → 87.02/87.03/87.04.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 87.12 (non-motorised bicycles incl. children's bicycles) vs 95.03 (children's toys)",
+            "description": "Note 4 is explicit: ALL children's bicycles → 87.12 regardless of size. Other children's cycles (pedal cars, children's tricycles, foot-to-floor scooters) → 95.03. The deciding test is: (a) is it a BICYCLE (two wheels, pedal-driven)? If yes → 87.12 even for a child. (b) Is it a non-bicycle cycle (3+ wheels, or foot-propelled) for children? → 95.03.",
+            "priority": 6
+        },
+        {
+            "rule": "Tractor implements presented with tractor: no reclassification",
+            "description": "Per Note 2 paragraph 2, interchangeable machines/working tools for tractors of 87.01 (ploughs, mowers, harrows, loaders) retain their own heading classification even when: (a) presented together with the tractor in the same consignment; (b) mounted on the tractor; (c) fitted to the tractor at time of customs presentation. This is an explicit override of GRI Rule 2(a) for this specific case.",
+            "priority": 7
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 {
     "chapter_code": "40",
+    "chapter_title": "Rubber and articles thereof",
     "inclusions": [
         "Heading 40.01 — Natural rubber, balata, gutta-percha, guayule, chicle and similar natural gums, in primary forms or in plates, sheets or strip. Primary forms: latex (pre-vulcanised or not), blocks, lumps, bales, powders, granules, crumbs. Note 5(B) permitted additives only (emulsifiers, anti-tack agents, antioxidants, stabilisers, viscosity agents in very small amounts)",
         "Heading 40.02 — Synthetic rubber and factice derived from oils, in primary forms or in plates, sheets or strip; mixtures of any product of heading 40.01 with any product of this heading. Definition of synthetic rubber per Note 4: (a) unsaturated synthetic substances irreversibly vulcanisable with sulphur → non-thermoplastic, no break at 3× length at 18–29°C, recovery to ≤1.5× after 2× stretch; (b) Thioplasts (TM); (c) graft/blended modified natural rubber, depolymerised natural rubber, mixtures of unsaturated synthetic + saturated synthetic high polymers — all complying with Note 4(a) test. Key types: SBR, NBR, EPDM, CR (neoprene), IIR (butyl), BIIR, CIIR, BR, IR, CSM, ACM, AEM, ECO, silicone rubber (gum)",
@@ -23,42 +24,98 @@
         {
             "condition": "Goods of Section XI — textiles and textile articles — even if rubber-coated, rubber-impregnated, rubber-laminated fabrics where textile character predominates",
             "action": "Redirect to Section XI (Chapters 50–63). Note 2(a) — rubber-coated fabrics may go to Section XI if textile character is essential; but conveyor belts of rubber-coated fabric → 40.10 per Note 8",
-            "keywords": ["rubber coated fabric", "rubber impregnated textile", "rubber laminated cloth", "elastic fabric", "stretch fabric"]
+            "keywords": [
+                "rubber coated fabric",
+                "rubber impregnated textile",
+                "rubber laminated cloth",
+                "elastic fabric",
+                "stretch fabric"
+            ]
         },
         {
             "condition": "Footwear or parts thereof, including rubber boots and shoes",
             "action": "Redirect to Chapter 64 — Note 2(b). Rubber boots, galoshes, flip-flops with rubber soles → 64.01/64.02",
-            "keywords": ["rubber boot", "rubber shoe", "galosh", "gumboot", "flip flop", "rubber sandal", "rubber sole footwear", "64.01", "64.02"]
+            "keywords": [
+                "rubber boot",
+                "rubber shoe",
+                "galosh",
+                "gumboot",
+                "flip flop",
+                "rubber sandal",
+                "rubber sole footwear",
+                "64.01",
+                "64.02"
+            ]
         },
         {
             "condition": "Headgear or parts thereof including bathing caps of rubber (swimming caps)",
             "action": "Redirect to Chapter 65 — Note 2(c)",
-            "keywords": ["rubber cap", "swimming cap", "bathing cap", "rubber hat", "65."]
+            "keywords": [
+                "rubber cap",
+                "swimming cap",
+                "bathing cap",
+                "rubber hat",
+                "65."
+            ]
         },
         {
             "condition": "Mechanical or electrical appliances or parts thereof of Section XVI made of hard rubber (ebonite) — e.g., electrical insulators, hard rubber housings for machines",
             "action": "Redirect to Section XVI (Chapters 84–85) — Note 2(d). Hard rubber (ebonite) articles that are clearly electrical/mechanical appliances or their parts go to Section XVI, not 40.17",
-            "keywords": ["ebonite electrical", "hard rubber electrical", "hard rubber machine part", "vulcanite insulator", "84.", "85."]
+            "keywords": [
+                "ebonite electrical",
+                "hard rubber electrical",
+                "hard rubber machine part",
+                "vulcanite insulator",
+                "84.",
+                "85."
+            ]
         },
         {
             "condition": "Articles of Chapter 90 (optical, measuring, medical instruments), Chapter 92 (musical instruments), Chapter 94 (furniture, luminaires), Chapter 96 (misc articles: brushes, buttons, combs) — even if made of rubber",
             "action": "Redirect to their respective chapters (Ch.90, 92, 94, 96) — Note 2(e)",
-            "keywords": ["rubber optical", "rubber furniture", "rubber instrument", "rubber brush handle", "90.", "92.", "94.", "96."]
+            "keywords": [
+                "rubber optical",
+                "rubber furniture",
+                "rubber instrument",
+                "rubber brush handle",
+                "90.",
+                "92.",
+                "94.",
+                "96."
+            ]
         },
         {
             "condition": "Articles of Chapter 95 (toys, games, sports requisites) — EXCEPT sports gloves/mittens/mitts AND articles of headings 40.11–40.13 (tyres, inner tubes)",
             "action": "Redirect to Chapter 95 — Note 2(f). BUT: rubber sports gloves STAY in 40.15; tyres (40.11), retreaded tyres (40.12) and inner tubes (40.13) STAY in Chapter 40 even if for sporting bicycles/equipment",
-            "keywords": ["rubber toy", "rubber ball game", "rubber sports equipment", "rubber doll", "95.03", "95.06"]
+            "keywords": [
+                "rubber toy",
+                "rubber ball game",
+                "rubber sports equipment",
+                "rubber doll",
+                "95.03",
+                "95.06"
+            ]
         },
         {
             "condition": "Compounded or mixed rubber containing vulcanising agents/accelerators/fillers/pigments/plasticisers etc. — NOT staying in 40.01 or 40.02",
             "action": "Redirect to heading 40.05 (compounded unvulcanised rubber). Note 5(A): presence of these substances disqualifies the rubber from headings 40.01/40.02",
-            "keywords": []
+            "keywords": [
+                "rubber compound vulcanising agent",
+                "rubber accelerator mixture",
+                "unvulcanised compounded rubber",
+                "40.02",
+                "40.05"
+            ]
         },
         {
             "condition": "Plastics and articles thereof — polymers not meeting the Note 4 synthetic rubber definition (cannot be vulcanised with sulphur / don't meet elongation-recovery test)",
             "action": "Redirect to Chapter 39. The boundary: if a polymer CANNOT be irreversibly vulcanised with sulphur into non-thermoplastic form with 3× elongation → it is plastic, NOT rubber",
-            "keywords": ["PVC rubber-like", "TPE thermoplastic elastomer classification", "EVA elastic", "polyurethane elastic"]
+            "keywords": [
+                "PVC rubber-like",
+                "TPE thermoplastic elastomer classification",
+                "EVA elastic",
+                "polyurethane elastic"
+            ]
         }
     ],
     "classification_rules": [

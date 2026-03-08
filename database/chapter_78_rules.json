@@ -1,0 +1,51 @@
+{
+    "chapter_code": "78",
+    "chapter_title": "Lead and articles thereof",
+    "inclusions": [
+        "Heading 78.01 — Unwrought lead. Subheading Note: 'Refined lead' = metal containing ≥99.9% lead by weight, with no other element exceeding specified limits. 'Lead alloys' = metallic substances where lead predominates over each other element by weight and total other elements >0.1% or any single element meets/exceeds specified limits. Common lead alloys: lead-antimony (battery plates), lead-calcium (maintenance-free batteries), lead-tin solder alloys",
+        "Heading 78.02 — Lead waste and scrap",
+        "Heading 78.03 — Lead bars, rods, profiles and wire",
+        "Heading 78.04 — Lead plates, sheets, strip and foil; lead powders and flakes",
+        "Heading 78.05 — Lead tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)",
+        "Heading 78.06 — Other articles of lead: lead weights (fishing, diving, sash weights), lead shot, lead lining for tanks/vessels, radiation shielding of lead, lead type for printing (legacy), lead seals"
+    ],
+    "exclusions": [
+        {
+            "condition": "Lead compounds (lead oxide/litharge, lead sulphate, lead nitrate, lead acetate, lead chromate, organo-lead compounds, lead azide, etc.)",
+            "action": "Redirect to Chapter 28 (inorganic lead compounds) or Chapter 29 (organic lead compounds). Metallic lead → Ch.78; chemical compounds → Ch.28/29",
+            "keywords": ["lead oxide", "litharge", "red lead", "lead sulphate", "lead nitrate", "lead chromate", "lead acetate", "lead azide", "28.", "29."]
+        },
+        {
+            "condition": "Waste and scrap of lead-acid batteries (spent batteries)",
+            "action": "Redirect to heading 85.48 (waste and scrap of electric accumulators) as spent batteries are classified with electrical waste. The lead content does not redirect to Ch.78",
+            "keywords": ["spent battery lead", "battery scrap lead", "acid battery waste", "85.48"]
+        },
+        {
+            "condition": "Tin-lead solder (where tin predominates by weight over lead and each other element)",
+            "action": "Redirect to Chapter 80 (tin and articles thereof) if tin is the predominant metal. Tin-lead solders where Sn > Pb → Ch.80. Lead-tin solders where Pb > Sn → Ch.78. If with flux core → heading 83.11 regardless of metal composition",
+            "keywords": ["tin lead solder", "solder alloy", "lead tin", "83.11", "80."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Subheading Note — Refined lead (≥99.9% Pb) vs lead alloy vs impure/antimonial lead",
+            "description": "'Refined lead' = ≥99.9% Pb and all individual impurity elements below specified table limits. 'Lead alloys' = lead-predominant substances where total other elements >0.1% by weight or any element meets/exceeds its specified limit. Common alloys by use: lead-antimony (2–10% Sb) → storage battery plates; lead-calcium (0.03–0.1% Ca) → maintenance-free batteries; hard/chemical lead (with Sb) → chemical plant equipment. These definitions drive subheading classification within 78.01.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: Ch.78 (lead metal) vs Ch.28 (lead compounds) vs 85.07 (lead-acid batteries)",
+            "description": "Three paths for lead-related goods: (1) Lead METAL in primary/semi-finished/article form → Ch.78. (2) Lead COMPOUNDS (chemical combination) → Ch.28/29. (3) Lead-acid STORAGE BATTERIES (complete functional assemblies) → heading 85.07. Active battery plates made of lead-antimony alloy presented separately → Ch.78 (78.06 as articles of lead). Complete lead-acid battery → 85.07. Spent/waste batteries → 85.48.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 78.04 (lead plates/sheets/foil/powders) — flat-rolled and particulate forms",
+            "description": "Unlike Ch.72 (iron/steel) or Ch.76 (aluminium), Chapter 78 does NOT split plates/foil by thickness into separate headings — heading 78.04 covers ALL thicknesses of lead plates, sheets, strip and foil together, as well as lead powders and flakes. The absence of a thickness-based split simplifies classification: any flat-rolled lead product → 78.04.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 78.06 (other articles of lead) vs Ch.83/Ch.73 (functional metal articles)",
+            "description": "Heading 78.06 is the residual heading for lead articles not covered by 78.01–78.05 or more specific functional headings. Lead articles with a specific description in Ch.82–96 → that functional heading takes priority. Lead radiation shielding panels (no more specific heading) → 78.06. Lead sinkers/weights for fishing → 78.06 (no more specific heading in Ch.95 covering these). Lead seals (used industrially) → 78.06. Lead type for printing → 78.06 (traditional use, now obsolete).",
+            "priority": 4
+        }
+    ]
+}

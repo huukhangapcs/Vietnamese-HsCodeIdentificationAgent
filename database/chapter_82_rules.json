@@ -1,0 +1,81 @@
+{
+    "chapter_code": "82",
+    "chapter_title": "Tools, implements, cutlery, spoons and forks, of base metal; parts thereof of base metal",
+    "scope_note": "Note 1: Chapter 82 covers ONLY articles with a blade, working edge, working surface or other working part of: (a) base metal; (b) metal carbides or cermets; (c) precious/semi-precious stones on a base metal/carbide/cermet support; or (d) abrasive materials on base metal support with cutting teeth/flutes/grooves of base metal that retain identity and function after abrasive application. EXCEPTIONS always included regardless: blow lamps, portable forges, grinding wheels with frameworks, manicure/pedicure sets, and goods of heading 82.09.",
+    "inclusions": [
+        "Heading 82.01 — Hand tools: spades, shovels, mattocks, picks, hoes, forks and rakes; axes, bill hooks and similar hewing tools; secateurs and pruners of any kind; scythes, sickles, hay knives, hedge shears, timber wedges and other tools of a kind used in agriculture, horticulture or forestry",
+        "Heading 82.02 — Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades)",
+        "Heading 82.03 — Files, rasps, pliers (including cutting pliers), pincers, tweezers, metal cutting shears, pipe-cutters, bolt croppers, perforating punches and similar hand tools",
+        "Heading 82.04 — Hand-operated spanners and wrenches (including torque meter wrenches but not including tap wrenches); interchangeable spanner sockets, with or without handles",
+        "Heading 82.05 — Hand tools (including glaziers' diamonds), not elsewhere specified or included; blow lamps; vices, clamps and the like, other than accessories for and parts of machine-tools or water-jet cutting machines; anvils; portable forges; hand- or pedal-operated grinding wheels with frameworks; base metal parts thereof",
+        "Heading 82.06 — Tools of two or more of the headings 82.02 to 82.05, put up in sets for retail sale",
+        "Heading 82.07 — Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (e.g., for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for wire drawing or extruding metal, and rock drilling or earth boring tools; base metal parts thereof",
+        "Heading 82.08 — Knives and cutting blades, for machines or for mechanical appliances",
+        "Heading 82.09 — Plates, sticks, tips and the like for tools, unmounted, of cermets",
+        "Heading 82.10 — Hand-operated mechanical appliances, weighing 10 kg or less, used in the preparation, conditioning or serving of food or drink",
+        "Heading 82.11 — Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor",
+        "Heading 82.12 — Razors and razor blades (including razor blade blanks in strips)",
+        "Heading 82.13 — Scissors, tailors' shears and similar shears, and blades therefor",
+        "Heading 82.14 — Other articles of cutlery (e.g., hair clippers, butchers' or kitchen cleavers, choppers and mincing knives, paper knives); manicure or pedicure sets and instruments (including nail files)",
+        "Heading 82.15 — Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware; manicure or pedicure sets (presented in combination per Note 3)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Articles with working parts NOT of base metal, metal carbides, cermets, precious stones on base metal, or abrasive on base metal with retaining teeth (i.e., the working part is of another material not listed in Note 1)",
+            "action": "Classify by constituent material of the working part — Note 1 defines coverage scope. Tools with working parts entirely of plastics, rubber, textile, ceramic → appropriate material chapter",
+            "keywords": ["plastic working tool", "rubber implement", "ceramic tool working part"]
+        },
+        {
+            "condition": "Parts of general use as defined in Note 2 to Section XV (screws, bolts, nuts, springs, wire rope, chain, etc.)",
+            "action": "Redirect to Section XV headings (73.12, 73.15, 73.17, 73.18, 73.20, etc.) — Note 2 explicitly excludes general-purpose base metal parts from Ch.82 even when used in/with Ch.82 articles",
+            "keywords": ["general purpose screw tool", "general spring implement", "bolt nut tool assembly", "73.17", "73.18", "73.20"]
+        },
+        {
+            "condition": "Tool-holders for hand tools",
+            "action": "Redirect to heading 84.66 (tool holders for machine-tools and hand tools) — Note 2 exception",
+            "keywords": ["tool holder hand tool", "chuck hand drill", "bit holder", "84.66"]
+        },
+        {
+            "condition": "Heads, blades and cutting plates for electric shavers or electric hair clippers",
+            "action": "Redirect to heading 85.10 — Note 2. Even though these are working blades, they are specifically classified with electric shavers/clippers in Ch.85",
+            "keywords": ["shaver head", "shaver blade", "electric razor blade", "clipper blade", "foil shaver", "85.10"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Chapter 82 scope: the 'working part' material test",
+            "description": "Chapter 82 coverage is determined by the material of the WORKING PART (blade, cutting edge, working surface): must be (a) base metal; (b) metal carbides/cermets; (c) precious/semi-precious stones on base metal/carbide/cermet support; or (d) abrasive on base metal support WITH retained cutting teeth/flutes/grooves of base metal. Always-included regardless of working part: blow lamps (82.05), portable forges (82.05), grinding wheels with frameworks (82.05), manicure/pedicure sets (82.14/82.15), and cermet plates/tips (82.09). Tools whose working part is entirely of wood, plastics, rubber, or textile → not Ch.82.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Parts classified with parent Ch.82 article; exceptions for general-use parts and tool-holders",
+            "description": "Base metal PARTS of Ch.82 articles → classified WITH the Ch.82 article (same heading). Two exceptions override this: (1) Parts separately specified as such (e.g., saw blades presented alone → 82.02; razor blades alone → 82.12). (2) Tool-holders for HAND TOOLS → heading 84.66. Also excluded from Ch.82 in all cases: parts of general use (Note 2 to Section XV) = screws, bolts, nuts, springs, chain, wire rope, etc. → stay in their Section XV headings.",
+            "priority": 2
+        },
+        {
+            "rule": "Note 3 — Sets of knives (82.11) + tableware (82.15): classified as 82.15",
+            "description": "Sets consisting of ONE OR MORE knives of heading 82.11 AND AT LEAST AN EQUAL NUMBER of articles of heading 82.15 (spoons, forks, etc.) → classified ENTIRELY in heading 82.15. The tableware character dominates when equal/greater in number. Example: a 6-piece cutlery set with 2 knives, 2 forks, 2 spoons → 82.15. A set of only knives (no 82.15 articles) → 82.11.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 82.07 (interchangeable/machine tool inserts) vs 82.08 (knife blades for machines) vs 82.09 (unmounted cermet tips)",
+            "description": "Three headings for cutting elements used in machinery: 82.07 = INTERCHANGEABLE TOOLS for hand or machine use (drill bits, milling inserts, tapping dies, threading tools, screwdriving bits, drawing dies — these install INTO a machine or hand tool). 82.08 = KNIFE/CUTTING BLADES for machines or mechanical appliances (slitter blades, granulator blades, paper cutting blades, food processing machine blades — these are fixed/mounted cutting components within the machine). 82.09 = UNMOUNTED cermet plates/sticks/tips/inserts — raw cutting material not yet assembled into a tool or machine.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 82.11 (knives with blade) vs 82.14 (other cutlery) vs 82.08 (machine knife blades) vs 82.13 (scissors/shears)",
+            "description": "Four headings for cutting utensils: 82.11 = knives with cutting blade (including serrated knives, pruning knives) for general use by hand. 82.12 = razors and razor blades specifically. 82.13 = scissors and shears (two-blade pivot action). 82.14 = other cutlery not covered above (cleavers, paper knives, hair clippers manual, manicure instruments). 82.08 = knife/blade for a MACHINE (not hand use). The hand-use vs. machine-use distinction separates 82.11 from 82.08; the blade type (single vs. scissor action) separates 82.11 from 82.13.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 82.05 (hand tools NES) vs 82.10 (hand-operated food preparation appliances ≤10 kg)",
+            "description": "Both cover hand-operated mechanical appliances. 82.10 is specific: hand-operated mechanical appliances ≤ 10 kg for preparation, conditioning or SERVING of food or drink (manual can openers, hand-powered meat grinders, manual juicers, salad spinners, hand mills for spices/coffee). 82.05 is residual: all other hand tools not elsewhere specified. Weight limit (10 kg) and food/drink function both must be met for 82.10.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 82.06 (tool sets for retail) — special set classification rule",
+            "description": "Heading 82.06 covers sets of tools from two or more of headings 82.02–82.05, put up for retail sale. This is an EXCEPTION to GRI 3 (the set rule): instead of classifying by the component giving essential character, ALL tools in a qualifying set → 82.06. Qualifying conditions: (1) tools from ≥2 different headings among 82.02–82.05; (2) put up together for retail sale. Tool sets combining Ch.82 tools with non-Ch.82 items (e.g., tools + measuring instruments) → assessed under GRI 3(b).",
+            "priority": 7
+        }
+    ]
+}

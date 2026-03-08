@@ -135,16 +135,18 @@ hscodever3/
 
 ## 🗄️ Knowledge Base — Database Status
 
-### 📊 Coverage Summary (as of 2026-03-07)
+### 📊 Coverage Summary (as of 2026-03-08)
 
 | Asset | Count | Details |
 |-------|-------|---------|
-| **Rules JSON** | **42 / 97 chapters** | Ch. 1–42 complete |
-| **Tree JSON** | **30 mono + 6 sub-trees** | Ch. 1–27, Ch. 36, Ch. 41–42 (mono); Ch. 28 (6 sub-trees) |
-| **ChromaDB size** | **~47 MB** | 9,300+ vector embeddings |
-| **Total inclusions** | **406** | Heading-level scope definitions |
-| **Total exclusions** | **285** | With keyword triggers for Gate A |
-| **Total classification rules** | **204** | Priority-ordered decision rules |
+| **Rules JSON** | **97 / 97 chapters** | All chapters complete |
+| **Tree JSON** | **30 mono + 7 sub-trees** | Ch. 1–27, Ch. 36, Ch. 42; Ch. 28 (6 sub-trees) |
+| **ChromaDB size** | **~72 MB** | 3,473 node embeddings + 2,455 rule chunk embeddings |
+| **Total inclusions** | **1,209** | Heading-level scope definitions (string format: `"Heading XX.XX — ..."`) |
+| **Total exclusions** | **584** | All with keyword triggers for Gate A filter |
+| **Total classification rules** | **595** | Avg **6.1 rules/chapter**, indexed into ChromaDB |
+| **Avg rule detail** | **~560 chars/rule** | Rebuilt Ch.1–11 avg 539–620 chars/rule |
+| **scope_note coverage** | **38/97 (39%)** | Official HS Notes embedded — pending for Ch.12–97 |
 
 ### 🗂️ Rules Coverage by Section
 
@@ -157,40 +159,54 @@ hscodever3/
 | **Section V** | 25–27 | Mineral products | ✅ Complete | ✅ Complete |
 | **Section VI** | 28–38 | Chemical products | ✅ Complete | ⚠️ Ch.28 only (sub-trees) |
 | **Section VII** | 39–40 | Plastics & Rubber | ✅ Complete | ❌ Pending |
-| **Section VIII** | 41–43 | Hides, leather, furs | ⚠️ Ch.41–42 done | ⚠️ Ch.41–42 done |
-| **Section IX** | 44–46 | Wood, cork, straw | ❌ Pending | ❌ Pending |
-| **Section X** | 47–49 | Pulp, paper, books | ❌ Pending | ❌ Pending |
-| **Section XI** | 50–63 | Textiles | ❌ Pending | ❌ Pending |
-| **Section XII** | 64–67 | Footwear, headgear | ❌ Pending | ❌ Pending |
-| **Section XIII** | 68–70 | Stone, ceramic, glass | ❌ Pending | ❌ Pending |
-| **Section XIV** | 71 | Precious metals, jewellery | ❌ Pending | ❌ Pending |
-| **Section XV** | 72–83 | Base metals | ❌ Pending | ❌ Pending |
-| **Section XVI** | 84–85 | Machinery & Electronics | ❌ Pending | ❌ Pending |
-| **Section XVII** | 86–89 | Transport | ❌ Pending | ❌ Pending |
-| **Section XVIII** | 90–92 | Instruments, clocks | ❌ Pending | ❌ Pending |
-| **Section XIX** | 93 | Arms & ammunition | ❌ Pending | ❌ Pending |
-| **Section XX** | 94–96 | Miscellaneous manufactured | ❌ Pending | ❌ Pending |
-| **Section XXI** | 97 | Works of art | ❌ Pending | ❌ Pending |
+| **Section VIII** | 41–43 | Hides, leather, furs | ✅ Complete | ⚠️ Ch.41–42 done |
+| **Section IX** | 44–46 | Wood, cork, straw | ✅ Complete | ❌ Pending |
+| **Section X** | 47–49 | Pulp, paper, books | ✅ Complete | ❌ Pending |
+| **Section XI** | 50–63 | Textiles | ✅ Complete | ❌ Pending |
+| **Section XII** | 64–67 | Footwear, headgear | ✅ Complete | ❌ Pending |
+| **Section XIII** | 68–70 | Stone, ceramic, glass | ✅ Complete | ❌ Pending |
+| **Section XIV** | 71 | Precious metals, jewellery | ✅ Complete | ❌ Pending |
+| **Section XV** | 72–83 | Base metals | ✅ Complete | ❌ Pending |
+| **Section XVI** | 84–85 | Machinery & Electronics | ✅ Complete | ❌ Pending |
+| **Section XVII** | 86–89 | Transport | ✅ Complete | ❌ Pending |
+| **Section XVIII** | 90–92 | Instruments, clocks | ✅ Complete | ❌ Pending |
+| **Section XIX** | 93 | Arms & ammunition | ✅ Complete | ❌ Pending |
+| **Section XX** | 94–96 | Miscellaneous manufactured | ✅ Complete | ❌ Pending |
+| **Section XXI** | 97 | Works of art | ✅ Complete | ❌ Pending |
 
-> **Note:** Chapters without Tree JSON are handled by the LLM reasoning path (Slow Path only) using ChromaDB embeddings + raw HS nomenclature from `hsdata.csv`.
+> **Note:** Chapters without Tree JSON are handled by the LLM reasoning path (Slow Path) using ChromaDB embeddings + `hsdata.csv`.
 
 ### `chapter_X_rules.json` Schema
 ```json
 {
-  "chapter_code": "39",
-  "inclusions": ["Heading 39.01 — Polymers of ethylene..."],
+  "chapter_code": "04",
+  "chapter_title": "Dairy produce; birds' eggs; natural honey...",
+  "scope_note": "Note 1: ... Note 2: yoghurt conditions ... (Official HS Notes)",
+  "inclusions": ["Heading 04.01 — Milk and cream, not concentrated..."],
   "exclusions": [
     {
-      "condition": "Lubricating preparations of heading 27.10...",
-      "action": "Redirect to 27.10",
-      "keywords": ["lubricant plastic", "27.10"]
+      "condition": "Products from whey with lactose ≥ 95%...",
+      "action": "Redirect to heading 17.02",
+      "keywords": ["pure lactose 95%", "17.02"]
     }
   ],
   "classification_rules": [
-    { "rule": "Note 1 — Definition of 'plastics'", "description": "...", "priority": 1 }
+    {
+      "rule": "Note 3 — Butter fat% thresholds",
+      "description": "Butter = milkfat 80–95%, water ≤16%...",
+      "priority": 1
+    }
   ]
 }
 ```
+
+**ChromaDB vector types** (indexed in `hs_rules` collection):
+
+| `type` metadata | Count | Searchable via |
+|-----------------|-------|---------------|
+| `exclusion` | ~584 | `query_legal_notes()` → `EXCLUSION: If ... -> ...` |
+| `inclusion` | ~1,209 | `query_legal_notes()` → `INCLUSION: ...` |
+| `classification_rule` | ~595 | `query_legal_notes()` → `RULE (priority N): ...` |
 
 ### `chapter_X_tree.json` Schema
 ```json

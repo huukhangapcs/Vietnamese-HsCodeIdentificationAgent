@@ -1,0 +1,57 @@
+{
+    "chapter_code": "60",
+    "chapter_title": "Knitted or crocheted fabrics",
+    "scope_note": "Note 2: Ch.60 includes fabrics made of metal thread used in apparel/furnishing. Note 3: throughout the Nomenclature, 'knitted' goods INCLUDES stitch-bonded goods where chain stitches are formed of textile yarn. Subheading Note 1: subheading 6005.35 = insecticide-impregnated warp knit fabric of polyethylene monofilament or polyester multifilament (30–55 g/m², mesh 20–100 holes/cm², specific listed insecticides).",
+    "inclusions": [
+        "Heading 60.01 — Pile fabrics, including 'long pile' fabrics and terry fabrics, knitted or crocheted. EXCEPTION per Note 1(c): knitted/crocheted pile fabrics that are impregnated, coated, covered or laminated REMAIN in 60.01 (unlike other coated knit fabrics which go to Ch.59)",
+        "Heading 60.02 — Knitted or crocheted fabrics of a width not exceeding 30 cm, containing by weight 5% or more of elastomeric yarn or rubber thread, other than those of heading 60.01",
+        "Heading 60.03 — Knitted or crocheted fabrics of a width not exceeding 30 cm, other than those of heading 60.01 or 60.02",
+        "Heading 60.04 — Knitted or crocheted fabrics of a width exceeding 30 cm, containing by weight 5% or more of elastomeric yarn or rubber thread, other than those of heading 60.01",
+        "Heading 60.05 — Warp knit fabrics (including those made on galloon knitting machines), other than those of headings 60.01 to 60.04. Subheading 6005.35: warp knit fabrics of PE monofilament or PET multifilament (30–55 g/m², mesh 20–100 holes/cm²) impregnated/coated with listed insecticides (alpha-cypermethrin, chlorfenapyr, deltamethrin, lambda-cyhalothrin, permethrin, pirimiphos-methyl)",
+        "Heading 60.06 — Other knitted or crocheted fabrics (weft knit, crochet — residual for fabrics not in 60.01–60.05)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Crochet lace (heading 58.04)",
+            "action": "Redirect to heading 58.04 (tulle and other net fabrics; lace in the piece) — Note 1(a). Crocheted lace fabric and net → 58.04, not Ch.60",
+            "keywords": ["crochet lace", "knitted lace fabric", "58.04"]
+        },
+        {
+            "condition": "Labels, badges and similar articles, knitted or crocheted, of heading 58.07",
+            "action": "Redirect to heading 58.07 (labels, badges and similar articles of textile) — Note 1(b). Knitted/crocheted woven labels → 58.07",
+            "keywords": ["knitted label", "woven badge", "knitted badge textile", "58.07"]
+        },
+        {
+            "condition": "Knitted or crocheted fabrics that are impregnated, coated, covered or laminated — EXCEPT knitted/crocheted pile fabrics",
+            "action": "Redirect to Chapter 59 (impregnated/coated/laminated textile fabrics) — Note 1(c). Coated knit base fabric → Ch.59. EXCEPTION: coated/impregnated PILE fabrics (terry, velour, long pile) stay in heading 60.01",
+            "keywords": ["coated knit fabric", "laminated knit fabric", "impregnated knitted fabric", "PU coated jersey", "59."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 3 — Definition of 'knitted': includes stitch-bonded goods with textile yarn chain stitches",
+            "description": "Ch.60 (and the Nomenclature generally) interprets 'knitted' broadly to include STITCH-BONDED fabrics where the chain stitches are formed of TEXTILE YARN. This means certain technical non-woven-like structures that are held together by knitted yarn chains → classified as knitted fabrics. Plain bonded/glued non-wovens without yarn stitching → Ch.56 (56.03 non-wovens). Stitch-bonded fabrics with yarn chains → Ch.60.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 1(c) exception — Coated pile fabrics stay in 60.01",
+            "description": "A critical exception: normally, coated/impregnated/laminated knitted fabrics → Ch.59 (Note 1(c)). BUT knitted or crocheted PILE fabrics (terry, velour, long pile) that are impregnated/coated/laminated → REMAIN in heading 60.01. This is the only case where coating does not redirect knitted fabric from Ch.60 to Ch.59. For example: a terry knit fabric with waterproof laminate → 60.01. A plain jersey fabric with PU coating → Ch.59.",
+            "priority": 2
+        },
+        {
+            "rule": "Ch.60 classification matrix: width × elastomeric content × knit type",
+            "description": "Ch.60 headings structured by three criteria: (1) WIDTH: ≤30 cm (narrow) → 60.02/60.03; >30 cm (wide) → 60.04/60.05/60.06. (2) ELASTOMERIC YARN/RUBBER THREAD content: ≥5% by weight → 60.02 (narrow) or 60.04 (wide). <5% elastomeric → 60.03 (narrow) or 60.05/60.06 (wide). (3) KNIT TYPE for wide fabric: WARP KNIT → 60.05. OTHER (weft knit, circular knit, crochet) → 60.06. Pile fabrics always → 60.01 (overrides width/elastomeric splits if pile character).",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: Ch.60 (knitted fabrics in piece) vs Ch.61 (made-up knitted garments) vs Ch.59 (coated technical fabrics)",
+            "description": "Ch.60 covers knitted FABRICS in piece/roll form — not yet made up into garments. When knitted fabric is cut and assembled into garments → Ch.61. When knitted fabric is impregnated/coated/laminated (except pile) → Ch.59. The key sequence: raw knit yarn → Ch.54/55 (man-made) or Ch.51/52/53 (natural); knitted fabric in piece → Ch.60; coated knit fabric → Ch.59; made-up garment → Ch.61; worn used knit garment in bulk → Ch.63 (63.09).",
+            "priority": 4
+        },
+        {
+            "rule": "Subheading Note 1 — Insecticide-treated warp knit for mosquito nets (subheading 6005.35)",
+            "description": "Subheading 6005.35 covers a very specific product: warp knit fabrics of POLYETHYLENE MONOFILAMENT or POLYESTER MULTIFILAMENT, weighing 30–55 g/m², mesh size 20–100 holes/cm², impregnated or coated with one of the LISTED INSECTICIDES (alpha-cypermethrin, chlorfenapyr, deltamethrin, lambda-cyhalothrin, permethrin, pirimiphos-methyl). This matches the base fabric for mosquito nets (the fabric before being made up into nets). Made-up mosquito nets from this fabric → Ch.63 (heading 63.04 subheading 6304.20).",
+            "priority": 5
+        }
+    ]
+}

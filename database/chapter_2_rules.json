@@ -1,53 +1,71 @@
 {
     "chapter_code": "02",
+    "chapter_title": "Meat and edible meat offal",
+    "scope_note": "Note 1: Ch.02 does NOT cover: (a) products of 02.01–02.08/02.10 unfit/unsuitable for human consumption → Ch.05 or 23.01; (b) edible non-living insects → 04.10; (c) guts/bladders/stomachs of animals → 05.04; animal blood → 05.11 or 30.02; (d) animal fat OTHER than products of 02.09 → Ch.15. Chapter 2 covers meat and edible offal fresh, chilled, frozen, salted, in brine, dried or smoked.",
     "inclusions": [
-        "Meat and edible meat offal"
+        "Heading 02.01 — Meat of bovine animals, fresh or chilled: carcasses, half-carcasses, compensated quarters, forequarters, hindquarters, cuts with bone in, boneless. Specific cuts: loin, rump, ribs, chuck, brisket, shin/shank",
+        "Heading 02.02 — Meat of bovine animals, frozen (same cuts as 02.01 but frozen)",
+        "Heading 02.03 — Meat of swine, fresh, chilled or frozen: carcasses, hams, shoulders, bellies/streaky, loins, other cuts — with bone in or boneless",
+        "Heading 02.04 — Meat of sheep or goats, fresh, chilled or frozen: carcasses, half-carcasses, short-forequarters, chined and/or collared, legs, other cuts",
+        "Heading 02.05 — Meat of horses, asses, mules or hinnies, fresh, chilled or frozen",
+        "Heading 02.06 — Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen: tongues, livers, hearts, kidneys, lights (lungs), cheeks/jowls, tails, feet/trotters, ears, snouts, brains, sweetbreads (thymus/pancreas), diaphragm, thick skirt",
+        "Heading 02.07 — Meat and edible offal of poultry (01.05) — fresh, chilled or frozen: carcasses, cuts, livers, giblets. Includes chickens, ducks, geese, turkeys, guinea fowl",
+        "Heading 02.08 — Other meat and edible offal of rabbits, hares, pigeons, game animals (deer, wild boar), other — fresh, chilled or frozen. Also includes frog legs",
+        "Heading 02.09 — Pig fat free of lean meat and poultry fat — not rendered, fresh/chilled/frozen/salted/in brine/dried/smoked: lard back fat, jowl fat — as trimmed fat portions",
+        "Heading 02.10 — Meat and edible offal, salted, in brine, dried or smoked; edible flours and meals of meat or edible offal: salted beef, dry-cured ham (prosciutto/Serrano), smoked tongue, biltong/jerky, meat flour"
     ],
     "exclusions": [
         {
-            "condition": "Products unfit or unsuitable for human consumption",
-            "action": "Redirect to Chapter 5 or Chapter 23",
-            "keywords": [
-                "unfit",
-                "unsuitable",
-                "human consumption"
-            ]
+            "condition": "Meat preparations that are cooked or mixed with other food ingredients (sausages, pâté, canned meat, meat in sauce)",
+            "action": "Redirect to Chapter 16 — cooked sausages → 16.01. Canned meat stew → 16.02. Pâté → 16.02. The key test: COOKED or mixed with non-meat food ingredients? Yes → Ch.16. Uncooked salted/dried meat → stays in 02.10",
+            "keywords": ["cooked sausage", "canned meat", "meat pate", "meat preparation cooked", "16.01", "16.02"]
         },
         {
-            "condition": "Edible, non-living insects",
-            "action": "Redirect to Heading 04.10",
-            "keywords": [
-                "edible insects",
-                "non-living insects",
-                "04.10"
-            ]
+            "condition": "Edible non-living insects (Note 1(b))",
+            "action": "Redirect to heading 04.10 — edible non-living insects (whole/parts, fresh/chilled/frozen/dried/smoked/salted/in brine) are EXPLICITLY in Ch.04 (04.10), NOT in Ch.02. This is a common error: insects are NOT meat. Insect flours fit for human consumption → 04.10",
+            "keywords": ["edible insects food", "cricket food", "mealworm edible", "insect food", "04.10"]
         },
         {
-            "condition": "Guts, bladders or stomachs of animals",
-            "action": "Redirect to Heading 05.04",
-            "keywords": [
-                "guts",
-                "bladders",
-                "stomachs",
-                "05.04"
-            ]
+            "condition": "Guts, bladders and stomachs of animals (whole and pieces, not the mucous lining eaten as tripe)",
+            "action": "Redirect to heading 05.04 (Note 1(c)) — whole guts for natural sausage casings, bladders for traditional use → 05.04. Tripe (mucous lining of rumen prepared for eating) → 02.06 (edible offal food). The distinction: whole organ used as packaging/casing → 05.04; edible portion prepared as food → 02.06",
+            "keywords": ["animal guts sausage casing", "natural casing", "bladder whole organ", "05.04"]
         },
         {
-            "condition": "Animal blood",
-            "action": "Redirect to Heading 05.11 or 30.02",
-            "keywords": [
-                "animal blood",
-                "05.11",
-                "30.02"
-            ]
+            "condition": "Animal blood (liquid or dried)",
+            "action": "Redirect to heading 05.11 (inedible blood, general) or 30.02 (blood for pharmaceutical use: plasma, antisera). Note 1(c): animal blood → 05.11 or 30.02. Blood meal (dried blood for fertiliser/feed) → 23.01. Note: the original HS Note makes no exception for edible blood in Ch.02 — blood is always excluded by Note 1(c)",
+            "keywords": ["animal blood liquid", "dried blood", "blood plasma", "blood meal", "05.11", "30.02", "23.01"]
         },
         {
-            "condition": "Animal fat, other than products of heading 02.09",
-            "action": "Redirect to Chapter 15",
-            "keywords": [
-                "animal fat",
-                "chapter 15"
-            ]
+            "condition": "Rendered animal fat (lard, tallow, poultry fat — melted/rendered, not the unrendered fat of 02.09)",
+            "action": "Redirect to Chapter 15 — Note 1(d): animal fat OTHER than products of 02.09 → Ch.15. 02.09 = unrendered pig fat (trimmed solid fat blocks) and unrendered poultry fat. Once rendered by melting → 15.01 (lard/poultry fat rendered) or 15.02 (tallow)",
+            "keywords": ["rendered lard", "tallow rendered", "rendered animal fat", "15.01", "15.02"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Fresh/chilled/frozen vs. salted/dried/smoked — all within Ch.02; cooking moves to Ch.16",
+            "description": "Chapter 2 retains meat through ALL SIMPLE PRESERVATION METHODS: FRESH (no treatment), CHILLED (refrigerated), FROZEN (below -18°C), SALTED or IN BRINE (salt-cured, not cooked), DRIED (desiccated without cooking), SMOKED (cold-smoked without full cooking) → all stay in Ch.02 (02.10 for salted/dried/smoked). When preservation ALSO INVOLVES COOKING or MIXING WITH NON-MEAT FOOD INGREDIENTS → Ch.16. Salted raw ham (prosciutto crudo) → 02.10. Cooked ham → 16.02. Hot-smoked fish analogy: hot-smoked = cooked = Ch.16 boundary applies.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: Ch.02 (raw/simple-preserved) vs Ch.16 (prepared/cooked) — the 'cooking test'",
+            "description": "Primary Ch.02/Ch.16 boundary is COOKING STATUS + MIXING STATUS: NOT cooked AND NOT mixed with non-meat food ingredients (except salt/spices in minor amounts) → Ch.02. COOKED OR mixed with other food ingredients → Ch.16. Examples: Raw salami/fermented sausage (not heat-cooked but cured) → 02.10 if presented as raw cured meat. Cooked pepperoni → 16.01. Raw frozen hamburger patty (pure meat + salt) → 02.03. Frozen ready-meal with meat + sauce → 16.02. Uncooked fresh pork sausage (pork + salt only) → may be 02.03. Cooked sausage/frankfurter → 16.01.",
+            "priority": 2
+        },
+        {
+            "rule": "Edible offal (02.06) vs non-edible by-products (Ch.05) — the edibility and common-use test",
+            "description": "EDIBLE (→ 02.06): liver, kidney, heart, tongue, brain, sweetbreads (thymus/pancreas), diaphragm, tripe (stomach lining cleaned for food), feet/trotters (cleaned edible), ears, snouts, tail. NOT edible offal (→ Ch.05): hides/skins (Ch.41/43), bones for industrial use (05.06), horns/hooves (05.07), whole stomach used as casing (05.04), sinews/tendons for industrial use (05.11). BLOOD → 05.11 or 30.02 always per Note 1(c). The test: is this commonly used as food in at least some markets? Yes → 02.06. No → Ch.05.",
+            "priority": 3
+        },
+        {
+            "rule": "02.09 (unrendered pig fat/poultry fat) vs 15.01 (rendered lard): rendering is the critical process",
+            "description": "Pig fat classification depends on RENDERING (melting): UNRENDERED pig fat (trimmed solid fat — belly fat, back fat, jowl fat — not melted, in its natural solid form) → 02.09. RENDERED lard (fat melted/heated to extract pure fat, re-solidified in tubs) → 15.01. UNRENDERED poultry fat (as part of trimmed portions, not extracted) → 02.09. RENDERED poultry fat → 15.01. The test: was the fat melted at any point? If yes → rendered → Ch.15.",
+            "priority": 4
+        },
+        {
+            "rule": "Note 1(b) — Edible non-living insects → 04.10: insects are NOT classified as Ch.02 meat",
+            "description": "HS Note 1(b) explicitly excludes EDIBLE NON-LIVING INSECTS from Ch.02 and directs them to 04.10. This is crucial: insects (crickets, mealworms, grasshoppers, black soldier fly larvae etc.) are arthropods — not mammals, birds, fish or reptiles. Their edible forms (whole, powdered, dried for human food) = 04.10. Only insects UNFIT for human consumption (industrial use, animal feed) → 05.11. The exclusion is binary: fit for food → 04.10. Unfit → 05.11. Never Ch.02.",
+            "priority": 5
         }
     ]
 }

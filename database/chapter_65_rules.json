@@ -1,0 +1,57 @@
+{
+    "chapter_code": "65",
+    "chapter_title": "Headgear and parts thereof",
+    "inclusions": [
+        "Heading 65.01 — Hat-forms, hat bodies and hoods of felt, neither blocked to shape nor with made brims; plateaux and manchons (including slit manchons), of felt",
+        "Heading 65.02 — Hat-shapes, plaited or made by assembling strips of any material, neither blocked to shape, lined nor trimmed. Note 2: 65.02 does NOT cover hat-shapes made by SEWING, other than those obtained simply by sewing strips in spirals",
+        "Heading 65.03 — Felt hats and other felt headgear, made from the hat bodies, hoods or plateaux of heading 65.01, whether or not lined or trimmed",
+        "Heading 65.04 — Hats and other headgear, plaited or made by assembling strips of any material, whether or not lined or trimmed",
+        "Heading 65.05 — Hats and other headgear, knitted or crocheted, or made up from lace, felt or other textile fabric, in the piece (but not in strips), including hairnets with or without any trimming",
+        "Heading 65.06 — Other headgear, whether or not lined or trimmed: safety headgear (hard hats, helmets), other headgear of rubber, plastics, fur, leather, base metal, wood, cork or other materials",
+        "Heading 65.07 — Head-bands, linings, covers, hat foundations, hat frames, peaks and chinstraps, for headgear"
+    ],
+    "exclusions": [
+        {
+            "condition": "Worn (used) headgear of heading 63.09",
+            "action": "Redirect to heading 63.09 (worn clothing and other worn articles) — Note 1(a). Second-hand/worn hats → 63.09",
+            "keywords": ["worn hat", "used headgear", "second-hand cap", "63.09"]
+        },
+        {
+            "condition": "Asbestos headgear (protective headgear made of asbestos material)",
+            "action": "Redirect to heading 68.12 (fabricated asbestos fibres and articles thereof) — Note 1(b)",
+            "keywords": ["asbestos hat", "asbestos headgear", "asbestos helmet", "68.12"]
+        },
+        {
+            "condition": "Dolls' hats, toy hats or carnival headgear articles",
+            "action": "Redirect to Chapter 95 (toys, games and sports requisites) — Note 1(c). Party hats, costume hats for carnival → Ch.95. Full-scale fancy dress headgear for theatrical use → may remain Ch.65 if classifiable as real headgear",
+            "keywords": ["toy hat doll", "carnival hat costume", "party hat novelty", "95."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 2 — Heading 65.02: hat-shapes assembled by sewing excluded (except spiral strip-sewn)",
+            "description": "Heading 65.02 covers hat-shapes made by PLAITING or ASSEMBLING STRIPS (straw, raffia, synthetic strips etc.) — but excludes hat-shapes made by SEWING unless the sewing method is simply sewing strips IN SPIRALS (e.g., straw hat bodies where strips are coiled and stitched). Hat-shapes made by conventional sewing of fabric panels → NOT 65.02 (those → 65.05 if knitted/fabric or 65.06 if other methods).",
+            "priority": 1
+        },
+        {
+            "rule": "Classification matrix for complete headgear: material × construction method",
+            "description": "Chapter 65 headings for finished headgear are determined by MATERIAL and CONSTRUCTION METHOD: 65.03 = felt hats (made from 65.01 felt forms). 65.04 = plaited/assembled-strip hats (straw hats, Panama, raffia — finished form of 65.02). 65.05 = KNITTED or CROCHETED headgear; OR made from lace/felt/textile FABRIC 'in the piece' (beanies, knit caps, military berets from fabric, hairnets). 65.06 = ALL OTHER headgear not in 65.03–65.05 (hard hats/helmets, caps of leather/rubber/plastics/metal/wood, fur hats, baseball caps of woven synthetic not knitted).",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 65.05 (textile/knit headgear) vs 65.06 (other headgear) — fabric in piece vs other construction",
+            "description": "65.05 covers headgear made from fabric/textile 'in the piece' (cut and sewn from flat fabric, or knitted/crocheted): knit beanies/toques → 65.05; berets cut and sewn from woven wool fabric → 65.05; peaked caps with fabric crown sewn from panels → borderline (65.05 if textile fabric character; 65.06 if predominantly non-textile). 65.06 = everything else: hard hats (HDPE/fibreglass → 65.06), baseball caps with woven polyester panels sew together, helmets of metal or plastics, fur hats (not textile in piece), cork sun helmets. Baseball caps are typically 65.05 (textile fabric crown) or 65.06 depending on construction.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 65.06 safety headgear (helmets) vs Ch.90 (protective helmets for specific sports) vs Ch.87/88/89 (vehicle-use helmets)",
+            "description": "Heading 65.06 covers ALL protective headgear (industrial hard hats, cycling helmets, motorcycle helmets, riding helmets, ski helmets, military helmets) regardless of material. There is NO exclusion in Ch.65 for protective sports helmets → they classify in 65.06. Exception check: Ch.95 Note 1(d) exempts sports headgear from Ch.95 back to Ch.65. Therefore: cycling/motorcycle/riding/ski helmets → 65.06. Sports headgear that are toys → Ch.95. Headgear for specific industrial respiratory protection combined with breathing apparatus → potentially Ch.90.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 65.07 (headgear parts) vs Ch.56/59/63 (textile components) vs Ch.39/40 (rubber/plastics components)",
+            "description": "Heading 65.07 covers specific headgear PARTS: head-bands, hat linings, covers, hat foundations, hat frames (internal stiffening structures), peaks/visors, chinstraps. These stay in 65.07 when recognisably parts of headgear. EXCLUDED from 65.07 per the Note 2 rationale: general textile components (plain fabric strips for linings → textile chapter). Chinstraps of textile → 65.07 if clearly designed for headgear. Plastic visor peak → 65.07.",
+            "priority": 5
+        }
+    ]
+}

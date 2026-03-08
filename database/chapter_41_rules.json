@@ -1,5 +1,6 @@
 {
     "chapter_code": "41",
+    "chapter_title": "Raw hides and skins (other than furskins) and leather",
     "inclusions": [
         "Heading 41.01 — Raw hides and skins of bovine (including buffalo) or equine animals: fresh, salted, dried, limed, pickled or otherwise preserved — BUT NOT tanned, parchment-dressed or further prepared; whether or not dehaired or split",
         "Heading 41.02 — Raw skins of sheep or lambs: fresh, salted, dried, limed, pickled or otherwise preserved, but not tanned/parchment-dressed/further prepared; with or without wool on or split. Excludes premium furskins named in Note 1(c) (Astrakhan, Broadtail, Caracul, Persian/similar lambs, Indian/Chinese/Mongolian/Tibetan lambs)",
@@ -17,32 +18,71 @@
         {
             "condition": "Parings or similar waste of raw hides or skins",
             "action": "Redirect to heading 05.11 (animal products NES, including raw hide waste) — Note 1(a)",
-            "keywords": ["raw hide waste", "raw skin parings", "leather waste raw", "05.11"]
+            "keywords": [
+                "raw hide waste",
+                "raw skin parings",
+                "leather waste raw",
+                "05.11"
+            ]
         },
         {
             "condition": "Birdskins or parts of birdskins with feathers or down still attached",
             "action": "Redirect to heading 05.05 (feathers/down) or 67.01 (birdskin articles with feathers) — Note 1(b)",
-            "keywords": ["birdskin", "bird skin feather", "duck skin feather", "goose skin down", "05.05", "67.01"]
+            "keywords": [
+                "birdskin",
+                "bird skin feather",
+                "duck skin feather",
+                "goose skin down",
+                "05.05",
+                "67.01"
+            ]
         },
         {
             "condition": "Premium furskins WITH hair/wool on — Chapter 43 animals: Astrakhan, Broadtail, Caracul, Persian lambs; Indian/Chinese/Mongolian/Tibetan lambs; Yemen/Mongolian/Tibetan goats & kids",
             "action": "Redirect to Chapter 43 (furskins and artificial fur) — Note 1(c). NOTE: Most common livestock hides WITH hair (bovine, equine, swine, chamois, regular sheep, goats, deer, camel) STAY in 41.01 or 41.03",
-            "keywords": ["Astrakhan", "Broadtail", "Caracul", "Persian lamb", "karakul", "Tibet lamb", "Mongolia lamb", "furskin", "43."]
+            "keywords": [
+                "Astrakhan",
+                "Broadtail",
+                "Caracul",
+                "Persian lamb",
+                "karakul",
+                "Tibet lamb",
+                "Mongolia lamb",
+                "furskin",
+                "43."
+            ]
         },
         {
             "condition": "Hides/skins with hair/wool that have been TANNED or DRESSED — if they are furskin species (Ch.43)",
             "action": "Redirect to Chapter 43 — Note 1(c). But tanned bovine/equine/swine/chamois/deer hides with hair can stay in Ch.41 only if falling within the permitted species list of Note 1(c)",
-            "keywords": ["tanned furskin", "dressed furskin", "fur pelt tanned"]
+            "keywords": [
+                "tanned furskin",
+                "dressed furskin",
+                "fur pelt tanned"
+            ]
         },
         {
             "condition": "Reversibly tanned (pre-tanned) hides — tanning process is reversible",
             "action": "Redirect back to headings 41.01–41.03 as appropriate — Note 2(A). Headings 41.04–41.06 require IRREVERSIBLE tanning. Reversibly tanned hides are treated as raw",
-            "keywords": ["reversible tan", "pre-tanned reversible", "pickled hide tanned"]
+            "keywords": [
+                "reversible tan",
+                "pre-tanned reversible",
+                "pickled hide tanned"
+            ]
         },
         {
             "condition": "Leather articles (footwear, handbags, saddlery, garments) — worked leather beyond slab/sheet/strip form",
             "action": "Redirect to the appropriate article chapter: footwear → Ch.64; handbags → Ch.42; saddlery → Ch.42; leather garments → Ch.43 (leather clothing) or Ch.61/62",
-            "keywords": ["leather shoe", "leather bag", "leather handbag", "leather jacket", "leather glove", "leather belt", "42.", "64."]
+            "keywords": [
+                "leather shoe",
+                "leather bag",
+                "leather handbag",
+                "leather jacket",
+                "leather glove",
+                "leather belt",
+                "42.",
+                "64."
+            ]
         }
     ],
     "classification_rules": [

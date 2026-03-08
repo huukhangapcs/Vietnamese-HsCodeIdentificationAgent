@@ -1,0 +1,75 @@
+{
+    "chapter_code": "43",
+    "chapter_title": "Furskins and artificial fur; manufactures thereof",
+    "scope_note": "Note 1: 'furskins' (except raw furskins of 43.01) = hides or skins of ANY animals that have been TANNED or DRESSED with hair or wool ON. Note 5: 'artificial fur' = imitation furskin with wool/hair/fibres GUMMED or SEWN on to leather, woven fabric or other materials. EXCLUDES imitation furskins obtained by WEAVING or KNITTING (→ 58.01 woven pile or 60.01 knitted pile). Note 4: garments/accessories lined with furskin or with furskin on outside (not mere trimming) → 43.03/43.04.",
+    "inclusions": [
+        "Heading 43.01 — Raw furskins (including heads, tails, paws and other pieces or cuttings, suitable for furriers' use): mink, fox, rabbit, chinchilla, beaver, sable, astrakhan/karakul, nutria, sealskin, skunk, etc. Includes raw (untanned) furskins with hair intact",
+        "Heading 43.02 — Tanned or dressed furskins (including heads, tails, paws and other pieces or cuttings), unassembled, or assembled (without the addition of other materials) other than those of heading 43.03: whole skins tanned/dressed with fur on; assembled furskin plates/crosses/strips for further manufacturing",
+        "Heading 43.03 — Articles of apparel, clothing accessories and other articles of furskin. Note 3: includes furskins assembled with other materials; furskins sewn into garments, garment parts, accessories, or other articles. Note 4: garments lined with furskin (not merely trimmed) → 43.03",
+        "Heading 43.04 — Artificial fur and articles thereof. Note 5: artificial fur = wool/hair/fibres GUMMED or SEWN on to base material. Garments/articles with artificial fur lining or outer (not mere trimming) → 43.04"
+    ],
+    "exclusions": [
+        {
+            "condition": "Birdskins or parts of birdskins with their feathers or down",
+            "action": "Redirect to heading 05.05 (raw birdskins with feathers) or 67.01 (prepared feathers/skins) — Note 2(a). Feathered birdskins → 05.05. Dressed feathered skins for ornamentation → 67.01. Bird skins/down are NOT furskins",
+            "keywords": ["birdskin feathers", "duck skin feathers", "goose skin down", "05.05", "67.01"]
+        },
+        {
+            "condition": "Raw hides or skins with hair or wool on, that fall under Chapter 41",
+            "action": "Redirect to Chapter 41 — Note 2(b). Bovine hides with hair (not for fur trade) → Ch.41. Sheepskins with wool on (for leather industry, not dressed as furskin) → Ch.41. Ch.41 Note 1(c) identifies which hairy hides stay in Ch.41",
+            "keywords": ["raw hairy hide bovine", "sheepskin with wool raw", "41."]
+        },
+        {
+            "condition": "Gloves, mittens and mitts of combined leather AND furskin or leather AND artificial fur",
+            "action": "Redirect to heading 42.03 — Note 2(c). Leather gloves with fur lining → 42.03 (not 43.03). Pure fur gloves → 43.03. The leather/fur combination → always 42.03",
+            "keywords": ["leather fur gloves", "fur lined leather glove", "42.03"]
+        },
+        {
+            "condition": "Footwear made with furskin (fur boots, fur-lined shoes)",
+            "action": "Redirect to Chapter 64 — Note 2(d). Fur boots → Ch.64. Fur-lined snow boots → Ch.64",
+            "keywords": ["fur boot", "fur lined shoe", "64."]
+        },
+        {
+            "condition": "Headgear made with furskin (fur hats, Russian ushanka hats)",
+            "action": "Redirect to Chapter 65 — Note 2(e). Fur hats, ushanka → Ch.65. Fur earmuffs attached to headband → Ch.65",
+            "keywords": ["fur hat ushanka", "fur cap", "mink hat", "65."]
+        },
+        {
+            "condition": "Imitation furskin obtained by WEAVING or KNITTING (pile fabrics imitating fur)",
+            "action": "Redirect to heading 58.01 (woven pile fabric) or 60.01 (knitted pile fabric) — Note 5. Fake fur fabric made on a weaving machine or knitting machine → 58.01 or 60.01. Only gummed/sewn hair-on-backing → genuine artificial fur (43.04)",
+            "keywords": ["fake fur knitted fabric", "imitation fur woven pile", "faux fur knit", "58.01", "60.01"]
+        },
+        {
+            "condition": "Furskin trimming on garments where the fur is MERELY DECORATIVE TRIMMING (small amount)",
+            "action": "When fur/artificial fur is 'mere trimming' only → classify the garment by its primary material (Ch.61/62 for apparel). When the fur is a lining or substantial outside element → Note 4 → 43.03/43.04. 'Mere trimming' = very small fur trim on collar/cuff not affecting the character of the garment",
+            "keywords": ["fur trim collar small", "minimal fur trimming garment", "61.", "62."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — 'Furskins' definition: tanned/dressed with hair ON — condition of the skin",
+            "description": "The key characteristic for Ch.43 (tanned/dressed furskins): the skin must have been TANNED OR DRESSED (converted from raw hide to leather) WITH THE HAIR OR WOOL STILL ON. Raw (untanned) furskins → 43.01. Tanned but hair removed → Ch.41 leather. Tanned with hair on → Ch.43. This applies to ANY animal species: mink, fox, rabbit, chinchilla, beaver, sable, seal, nutria, lamb (astrakhan/Persian lamb/mouton) — any animal whose dressed skin-with-hair is commercially used as fur.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 5 — 'Artificial fur' definition: gummed/sewn vs woven/knitted pile — critical construction test",
+            "description": "ARTIFICIAL FUR (43.04) = imitation furskin made by GUMMING or SEWING fibres/hair/wool onto a leather, woven fabric or other base material. The construction involves individually attaching or implanting fibres into a backing. EXCLUDED from artificial fur: pile fabrics produced by WEAVING or KNITTING (even if they look like fur) → 58.01 (woven pile like velvet) or 60.01 (knitted pile like fleece/faux fur knit). The test: was the pile formed by weaving/knitting loop structure? → Not artificial fur. Was it formed by gumming/tufting/sewing into a separate base? → Artificial fur (43.04).",
+            "priority": 2
+        },
+        {
+            "rule": "Note 4 — Garments with furskin/artificial fur: lining or substantial outside → 43.03/43.04; 'mere trimming' stays in garment chapter",
+            "description": "Clothing classification when fur is involved: LINING of furskin or artificial fur → 43.03 or 43.04 (regardless of outer material). Fur on OUTSIDE in substantial area (not merely trimming) → 43.03 or 43.04. 'MERE TRIMMING' only (small collar strip, cuff decoration) → garment stays in Ch.61 or Ch.62 classified by primary outer material. The threshold between 'substantial fur' and 'mere trimming' depends on the proportional extent of the fur element relative to the garment as a whole.",
+            "priority": 3
+        },
+        {
+            "rule": "43.01 (raw furskin) vs 43.02 (tanned/dressed unassembled) vs 43.03 (articles of furskin): processing stage",
+            "description": "Three-stage chain for natural furskins: 43.01 = RAW (pelts straight from slaughter, may be dried/chilled/salted for transport — NOT tanned). 43.02 = TANNED/DRESSED furskins that are UNASSEMBLED (individual tanned pelts, or assembled only from furskin pieces without adding other materials — plates, strips, crosses of fur pieces). 43.03 = ARTICLES made from furskin (combined with other materials, or sewn into garments/accessories — the finished article stage).",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: Ch.43 (furskins/fur articles) vs Ch.41 (leather from furless hides) vs Ch.42 (leather articles) vs Ch.51 (animal hair textiles)",
+            "description": "Animal skin material in multiple chapters: Ch.43 = skin with HAIR/FUR INTACT + tanned/dressed (the hair is the defining commercial feature). Ch.41 = skin with hair REMOVED, or hairy hides not classified as furskins → rawhide, wet-blue, finished leather. Ch.42 = articles of LEATHER (handbags, belts, wallets — from Ch.41 leather without fur). Ch.51 = animal HAIR separated from the skin, spun into yarn or woven. The combination pivot: fur + hide = Ch.43; hide without fur = Ch.41; hair without hide = Ch.51.",
+            "priority": 5
+        }
+    ]
+}

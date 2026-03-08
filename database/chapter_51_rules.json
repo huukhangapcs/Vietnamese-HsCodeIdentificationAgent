@@ -1,0 +1,74 @@
+{
+    "chapter_code": "51",
+    "chapter_title": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+    "scope_note": "Note 1 — Global Nomenclature definitions: (a) 'WOOL' = natural fibre grown by SHEEP or LAMBS only. (b) 'FINE ANIMAL HAIR' = alpaca, llama, vicuna, camel (incl. dromedary), yak, Angora goat, Tibetan goat, Kashmir goat, similar goats (NOT common goats), rabbit (incl. Angora rabbit), hare, beaver, nutria, musk-rat. (c) 'COARSE ANIMAL HAIR' = hair of ALL OTHER animals not listed above — EXCLUDES brush-making hair/bristles (→ 05.02) and horsehair (→ 05.11).",
+    "inclusions": [
+        "Heading 51.01 — Wool, not carded or combed: greasy (shorn/fleece wool with grease/suint), degreased (scoured), carbonised. Includes wool on the skin",
+        "Heading 51.02 — Fine or coarse animal hair, not carded or combed: (a) fine animal hair (alpaca, llama, vicuna, camel, yak, Kashmir/Angora/Tibetan goats, rabbit incl. Angora, hare, beaver, nutria, musk-rat); (b) coarse animal hair (other animals not listed as fine hair, excluding bristles/horsehair)",
+        "Heading 51.03 — Waste of wool or of fine or coarse animal hair, including yarn waste but excluding garnetted stock",
+        "Heading 51.04 — Garnetted stock of wool or of fine or coarse animal hair",
+        "Heading 51.05 — Wool and fine or coarse animal hair, carded or combed (including combed wool in fragments)",
+        "Heading 51.06 — Yarn of carded wool, not put up for retail sale",
+        "Heading 51.07 — Yarn of combed wool, not put up for retail sale",
+        "Heading 51.08 — Yarn of fine animal hair (carded or combed), not put up for retail sale",
+        "Heading 51.09 — Yarn of wool or of fine animal hair, put up for retail sale",
+        "Heading 51.10 — Yarn of coarse animal hair or of horsehair (including gimped horsehair yarn), whether or not put up for retail sale",
+        "Heading 51.11 — Woven fabrics of carded wool or of carded fine animal hair",
+        "Heading 51.12 — Woven fabrics of combed wool or of combed fine animal hair",
+        "Heading 51.13 — Woven fabrics of coarse animal hair or of horsehair"
+    ],
+    "exclusions": [
+        {
+            "condition": "Horsehair (mane and tail hair of equine and bovine animals) in raw form",
+            "action": "Redirect to heading 05.11 (animal products NES — including horsehair) — Note 1(c). Horsehair is not 'coarse animal hair' of Ch.51 in raw form; raw horsehair → 05.11. Horsehair YARN and WOVEN FABRIC → back to 51.10/51.13",
+            "keywords": ["horsehair raw", "equine mane hair", "bovine tail hair raw", "05.11"]
+        },
+        {
+            "condition": "Brush-making hair and bristles of animal origin",
+            "action": "Redirect to heading 05.02 (pigs', hogs' or boars' bristles and hair; badger hair and other brush-making hair) — Note 1(c). Boar bristles, badger hair, toothbrush-grade hair → 05.02, not Ch.51",
+            "keywords": ["boar bristle", "brush making hair", "badger hair", "pig bristle", "05.02"]
+        },
+        {
+            "condition": "Common goat hair (not Kashmir/Angora/Tibetan/similar specialty goats)",
+            "action": "Common/domestic goat hair is COARSE ANIMAL HAIR — but Note 1(b) explicitly states fine animal hair excludes common goats. Common goat hair → coarse animal hair category (51.02(b)/51.10/51.13) not fine hair. If uncertainty: Kashmir goat → fine; common dairy/meat goat → coarse",
+            "keywords": ["common goat hair", "domestic goat hair not cashmere", "goat hair non-specialty"]
+        },
+        {
+            "condition": "Knitted or crocheted fabrics of wool or animal hair",
+            "action": "Redirect to Chapter 60 (knitted fabrics) or Chapter 61 (knitted garments). Knitted wool fabric → Ch.60. Wool sweater → Ch.61. Ch.51 covers only WOVEN fabrics and raw/yarn forms",
+            "keywords": ["knitted wool fabric", "wool jersey knit", "cashmere knitwear", "60.", "61."]
+        },
+        {
+            "condition": "Wool or animal hair woven fabrics that are impregnated, coated or laminated",
+            "action": "Redirect to Chapter 59 (coated/impregnated textile fabrics). Rubberised wool fabric → 59.06. Plastics-coated wool fabric → 59.03",
+            "keywords": ["coated wool fabric", "laminated cashmere", "rubber coated animal hair fabric", "59."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Three-tier animal hair classification: wool / fine animal hair / coarse animal hair",
+            "description": "The foundational classification within Ch.51 divides animal hair into three tiers by Note 1: WOOL (51.01, 51.05, 51.06/51.07, 51.09, 51.11/51.12) = sheep/lamb only. FINE ANIMAL HAIR (51.02(a), 51.05, 51.08, 51.09, 51.11/51.12) = the specific listed luxury fibres (cashmere, mohair, alpaca, camel, vicuna etc.). COARSE ANIMAL HAIR (51.02(b), 51.10, 51.13) = all other non-excluded animals. This 3-tier system flows through every stage of processing. Mixed wool + fine hair → typically fine hair character.",
+            "priority": 1
+        },
+        {
+            "rule": "Processing stage chain: raw → garnetted/waste → carded/combed → yarn → woven fabric",
+            "description": "Ch.51 spans the full production chain: (1) RAW (not processed): 51.01 (wool) + 51.02 (animal hair). (2) WASTE: 51.03 (all wool/animal hair waste). (3) GARNETTED STOCK: 51.04 (reclaimed/pulled fibres). (4) CARDED OR COMBED: 51.05 (wool + fine animal hair prepared for spinning). (5) YARN: 51.06 (carded wool, not retail), 51.07 (combed wool, not retail), 51.08 (fine animal hair, not retail), 51.09 (wool or fine hair, retail), 51.10 (coarse hair or horsehair, any presentation). (6) WOVEN FABRICS: 51.11 (carded wool/fine hair), 51.12 (combed wool/fine hair), 51.13 (coarse hair/horsehair).",
+            "priority": 2
+        },
+        {
+            "rule": "Carded vs combed wool: 51.06/51.11 (carded) vs 51.07/51.12 (combed) — production process distinction",
+            "description": "CARDED wool (51.06 yarn; 51.11 fabric) = wool processed by carding (short, mixed-length fibres matted together in random orientation) → produces woollen-spun yarn resulting in soft, bulky fabrics (tweeds, flannels, loden). COMBED wool (51.07 yarn; 51.12 fabric) = wool processed by combing after carding (long parallel fibres, short fibres removed as noils) → produces worsted yarn resulting in smooth, fine fabrics (gabardine, worsted suiting, crepe). The process (carded vs. worsted system) determines the heading. Fine animal hair: no separate carded/combed split — all in 51.08 (yarn) and 51.11/51.12 by the processing method used.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 51.09 (retail yarn, wool/fine hair) vs 51.06/51.07/51.08 (industrial yarn) vs 51.10 (coarse/horsehair yarn, any)",
+            "description": "Yarn presentation distinction: 51.06 (carded wool, not retail), 51.07 (combed wool, not retail), 51.08 (fine animal hair, not retail) = industrial packages (large cones/cheeses for mills). 51.09 = wool or fine animal hair yarn PUT UP FOR RETAIL SALE (small balls, hanks, skeins for home knitting — includes both carded and combed types). 51.10 = COARSE ANIMAL HAIR or HORSEHAIR yarn — retail or non-retail (no retail split). Horsehair gimped yarn → 51.10.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: Ch.51 (wool/animal hair) vs Ch.43 (fur) vs Ch.05 (raw animal products)",
+            "description": "Animal fibre chapters distinction: Ch.51 = TEXTILE FIBRES spun/woven from wool and animal hair (separated from hides/skins). Ch.43 = FUR SKINS (where hair remains on skin — pelts, furskins, garments with fur). Ch.05 = RAW ANIMAL PRODUCTS: 05.02 (bristles/badger/brush hair), 05.11 (horsehair in raw form, worms, sinews). The processing state matters: raw horsehair → 05.11; horsehair spun into yarn → 51.10; woven horsehair fabric → 51.13.",
+            "priority": 5
+        }
+    ]
+}

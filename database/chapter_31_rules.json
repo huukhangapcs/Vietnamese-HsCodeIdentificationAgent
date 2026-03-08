@@ -1,5 +1,6 @@
 {
     "chapter_code": "31",
+    "chapter_title": "Fertilisers",
     "inclusions": [
         "Heading 31.01 — Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products",
         "Heading 31.02 — Mineral or chemical fertilisers, nitrogenous — specifically: (a) sodium nitrate; ammonium nitrate; double salts of ammonium sulphate/ammonium nitrate; ammonium sulphate; double salts/mixtures of Ca(NO3)2+NH4NO3; Ca(NO3)2+Mg(NO3)2; calcium cyanamide; urea — each whether or not pure; (b) mixtures of the above; (c) above mixed with chalk/gypsum/inorganic non-fertilising substances; (d) liquid fertilisers of ammonium nitrate or urea in aqueous/ammoniacal solution",
@@ -13,27 +14,57 @@
         {
             "condition": "Animal blood of heading 05.11 (used as fertiliser but classified separately)",
             "action": "Redirect to heading 05.11 — animal blood and other animal products primarily goes to Chapter 5",
-            "keywords": ["animal blood", "blood meal", "dried blood", "05.11"]
+            "keywords": [
+                "animal blood",
+                "blood meal",
+                "dried blood",
+                "05.11"
+            ]
         },
         {
             "condition": "Separate chemically defined compounds — EXCEPT those specifically captured in Notes 2(a), 3(a), 4(a) or 5 (i.e., sodium nitrate, ammonium nitrate, ammonium sulphate, urea, calcium cyanamide, potassium chloride, potassium sulphate, MAP, DAP, etc.)",
             "action": "Redirect to the appropriate chapter for the chemically defined compound — e.g., pure ammonium sulphate NOT for fertiliser use → Ch.28 (28.33); pure potassium salts → Ch.28",
-            "keywords": ["chemically defined compound", "pure compound", "laboratory grade", "reagent grade", "analytical grade"]
+            "keywords": [
+                "chemically defined compound",
+                "pure compound",
+                "laboratory grade",
+                "reagent grade",
+                "analytical grade"
+            ]
         },
         {
             "condition": "Cultured potassium chloride crystals (other than optical elements) weighing not less than 2.5 g each",
             "action": "Redirect to heading 38.24",
-            "keywords": ["cultured crystal", "potassium chloride crystal", "KCl crystal", "synthetic crystal KCl", "38.24"]
+            "keywords": [
+                "cultured crystal",
+                "potassium chloride crystal",
+                "KCl crystal",
+                "synthetic crystal KCl",
+                "38.24"
+            ]
         },
         {
             "condition": "Optical elements of potassium chloride (KCl optical windows, lenses, prisms)",
             "action": "Redirect to heading 90.01",
-            "keywords": ["optical element", "KCl window", "potassium chloride optical", "infrared window", "90.01"]
+            "keywords": [
+                "optical element",
+                "KCl window",
+                "potassium chloride optical",
+                "infrared window",
+                "90.01"
+            ]
         },
         {
             "condition": "Natural phosphates of heading 25.10 that are NOT calcined or further heat-treated beyond removal of impurities — i.e., raw/crude natural phosphate rock",
             "action": "Redirect to heading 25.10 (Chapter 25 — Mineral products). Only calcined/heat-treated natural phosphates upgrading to fertiliser go to 31.03",
-            "keywords": ["natural phosphate rock", "crude phosphate", "phosphate ore", "rock phosphate", "phosphorite", "25.10"]
+            "keywords": [
+                "natural phosphate rock",
+                "crude phosphate",
+                "phosphate ore",
+                "rock phosphate",
+                "phosphorite",
+                "25.10"
+            ]
         }
     ],
     "classification_rules": [

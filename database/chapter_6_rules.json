@@ -1,43 +1,65 @@
 {
     "chapter_code": "06",
+    "chapter_title": "Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",
+    "scope_note": "Chapter 6 covers living plants and plant propagation materials for ORNAMENTAL/HORTICULTURAL use, AND cut/prepared plant materials for floral decoration. The chapter is for nursery/florist trade and horticulture — not for food/agricultural produce (those → Ch.07–12). Cut flowers both fresh and dried/preserved for decorative purposes are included.",
     "inclusions": [
-        "Live trees and other plants",
-        "Bulbs, roots and the like",
-        "Cut flowers and ornamental foliage",
-        "Cultures of micro-organisms and other products of heading 30.02",
-        "Live trees and goods (including seedling vegetables) of a kind commonly supplied by nursery gardeners or florists for planting or for ornamental use",
-        "Bouquets, floral baskets, wreaths and similar articles made wholly or partly of goods of heading 06.03 or 06.04"
+        "Heading 06.01 — Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12: tulip bulbs, daffodil bulbs, hyacinth bulbs, dahlia tubers, iris rhizomes, anemone corms, begonia tubers — for ornamental planting. Dormant (dry) or in active growth. Chicory plants including roots (not chicory root for inulin → 12.12)",
+        "Heading 06.02 — Other live plants (including their roots), cuttings and slips; mushroom spawn: trees, shrubs, hedges, roses, orchids, potted plants, seedling vegetables (before transplant to food production — when supplied by nursery), rooted cuttings, unrooted slips, grafted plants. Mushroom spawn (mycelium on grain/substrate) → 06.02",
+        "Heading 06.03 — Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared: fresh roses, carnations, chrysanthemums, lilies, orchid cut flowers — also dried flowers (lavender, immortelle, lotus pods), bleached/dyed flowers for decoration",
+        "Heading 06.04 — Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared: fresh foliage (ferns, eucalyptus, ruscus), dried grasses (pampas grass), decorative branches, preserved (glycerined) eucalyptus, reindeer moss, Spanish moss"
     ],
     "exclusions": [
         {
-            "condition": "Potatoes, onions, shallots, garlic or other products of Chapter 7",
-            "action": "Redirect to Chapter 7",
-            "keywords": [
-                "potatoes",
-                "onions",
-                "shallots",
-                "garlic",
-                "chapter 7"
-            ]
+            "condition": "Vegetable bulbs, roots and corms primarily for FOOD use — onions, shallots, garlic, potatoes, sweet potatoes, yams",
+            "action": "Redirect to Chapter 7 (edible vegetables) — onion sets for planting → 07.03 (not Ch.06). Seed potatoes → 07.01. The test: is the primary commercial use FOOD or ORNAMENTAL? Food-use bulbs/tubers → Ch.07. Ornamental tulip/daffodil bulbs → Ch.06",
+            "keywords": ["onion sets planting", "seed potatoes", "garlic cloves food", "yam tuber food", "07.01", "07.03"]
         },
         {
-            "condition": "Collages or similar decorative plaques of heading 97.01 made wholly or partly of flowers/leaves",
-            "action": "Redirect to Heading 97.01",
-            "keywords": [
-                "collages",
-                "decorative plaques",
-                "97.01"
-            ]
+            "condition": "Bamboo, rattan and other plants primarily used as raw plaiting material (in rough form)",
+            "action": "Redirect to Chapter 14 (vegetable plaiting materials) heading 14.01 — raw bamboo for baskets/furniture, osier/willow for wickerwork → 14.01. Ornamental bamboo as a potted plant → 06.02",
+            "keywords": ["bamboo plaiting raw", "osier willow basket material", "rattan crude", "14.01"]
         },
         {
-            "condition": "Roots of heading 12.12 (e.g. chicory roots, manioc roots if not falling in Chapter 6)",
-            "action": "Redirect to Heading 12.12",
-            "keywords": [
-                "roots",
-                "chicory roots",
-                "manioc roots",
-                "12.12"
-            ]
+            "condition": "Chicory roots used for inulin/chicory extract production (industrial/food ingredient use)",
+            "action": "Redirect to heading 12.12 — industrial chicory roots (for inulin, chicory coffee substitute) → 12.12. Chicory plant/leaves as vegetable → Ch.07. Heading 06.01 specifically excludes 'roots of heading 12.12'",
+            "keywords": ["chicory root industrial inulin", "chicory coffee extract root", "12.12"]
+        },
+        {
+            "condition": "Artificial flowers, leaves and fruits made of plastic, paper, feathers or other materials",
+            "action": "Redirect to heading 67.02 (artificial flowers/foliage/fruit and parts thereof; articles made from artificial flowers). Silk flower arrangements → 67.02. Plastic Christmas tree branches → 67.02. Only NATURAL plant materials → Ch.06",
+            "keywords": ["artificial flowers plastic", "fake flowers silk", "plastic foliage", "67.02"]
+        },
+        {
+            "condition": "Pressed botanical specimens, herbarium collections, botanical collections for science",
+            "action": "Redirect to heading 97.05 (collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical or archaeological interest). Scientific herbarium specimens → 97.05",
+            "keywords": ["pressed botanical specimen", "herbarium collection", "botanical scientific specimen", "97.05"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "06.01 (propagation material: bulbs/tubers) vs 07.xx (food bulbs/tubers): ornamental vs food use intent",
+            "description": "The key boundary for bulbs/tubers between Ch.06 and Ch.07 is the COMMERCIAL PURPOSE: ORNAMENTAL/HORTICULTURAL (tulip bulbs, daffodil bulbs, hyacinth, dahlia) → 06.01. FOOD PRODUCTION (onion sets for food growing, seed garlic, seed potatoes, yam tubers for food) → Ch.07. DUAL-USE plants: chicory plants/roots for ornamental → 06.01; chicory roots for industrial inulin → 12.12; chicory leaves as vegetable → Ch.07. The declared commercial purpose and typical trade characterisation determines the chapter for ambiguous cases.",
+            "priority": 1
+        },
+        {
+            "rule": "06.02 (live plants/cuttings) vs 12.11 (plants for pharmacy/perfumery/insecticidal use): end use",
+            "description": "Live plants in active growth → 06.02 regardless of species, including medicinal plants growing (e.g., pot of aloe vera, live lavender plant). Plants CUT OR DRIED and being traded as PHARMACEUTICAL/PERFUMERY/BOTANICAL RAW MATERIALS (lavender flowers, chamomile flowers, dried officinal herbs) → 12.11 or Ch.09. Growing plant traded as horticultural product → 06.02. The living/growing state generally confirms Ch.06 regardless of ultimate end use.",
+            "priority": 2
+        },
+        {
+            "rule": "Cut flowers and plant materials: fresh vs dyed/dried vs artificial",
+            "description": "Three categories of flower/foliage products: (1) Ch.06 (06.03/06.04) = NATURAL plant materials in any preservation state FOR ORNAMENTAL USE: fresh, chilled, frozen, dried, bleached, dyed, impregnated with preservative (glycerin), silicone-coated — but must be made from REAL PLANT MATERIAL. (2) Ch.67 (67.02) = ARTIFICIAL flowers/foliage made from any material (plastic, paper, feathers, fabric, shell). (3) Food-dried plant parts (dried herbs/spices for consumption → Ch.09). The 'natural plant material + ornamental/decorative purpose' is Ch.06's domain.",
+            "priority": 3
+        },
+        {
+            "rule": "Mushroom spawn (06.02) vs live mushrooms for food (07.09) vs dried mushrooms (07.12)",
+            "description": "Mushrooms appear in different chapters by development stage and use: MUSHROOM SPAWN (mycelium growing on growth medium — grain spawn, block spawn, dowel spawn — sold to growers for mushroom cultivation) → 06.02 (treated as planting material). FRESH/CHILLED MUSHROOMS for food → 07.09 (07.09.51 for cultivated; 07.09.59 for wild). DRIED MUSHROOMS for food → 07.12. MUSHROOM EXTRACT (for pharmaceutical/flavour) → Ch.21 or Ch.13.",
+            "priority": 4
+        },
+        {
+            "rule": "06.04 (decorative foliage/branches) vs Ch.14 (plaiting material) vs Ch.44 (wood/bamboo): form and use",
+            "description": "Foliage and branches at the boundary: ORNAMENTAL FOLIAGE in spray/bouquet form for florists (eucalyptus, ruscus, pittosporum, conifer branches for wreaths) → 06.04. DRIED GRASSES (pampas, millet, wheat decorative) → 06.04 if sold as ornamental floristry item. PLAITING MATERIAL (bamboo splits, osier, rattan — sold as raw wickerwork material) → Ch.14. CHRISTMAS TREES (conifer trees live or cut, temporarily imported for holiday season) → 06.02 (live trees) or 06.04 (cut branches). IMITATION/ARTIFICIAL Christmas tree → usually Ch.95 (festive article) or Ch.67. Real cut conifer Christmas tree → 06.04.",
+            "priority": 5
         }
     ]
 }

@@ -1,5 +1,6 @@
 {
     "chapter_code": "12",
+    "chapter_title": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal plants; straw and fodder",
     "inclusions": [
         "Oil seeds and oleaginous fruits (soya beans, ground-nuts, copra, linseed, rape/colza seeds, sunflower seeds, palm nuts and kernels, cotton seeds, castor oil seeds, sesamum seeds, mustard seeds, safflower seeds, melon seeds, poppy seeds, etc.)",
         "Flours and meals of oil seeds or oleaginous fruits, other than those of mustard (heading 12.08)",
@@ -130,6 +131,18 @@
                 "31.01",
                 "31.05"
             ]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Key boundary: Ch.12 (seeds/grains for specific use) vs Ch.07 (edible vegetables) vs Ch.10 (cereals)",
+            "description": "Chapter 12 = oil seeds and oleaginous fruits; miscellaneous grains, seeds; industrial/medicinal plants; straw and fodder. Oil seeds (soya, sunflower, rapeseed) even when edible → Ch.12. Edible leguminous vegetables (beans, lentils) → Ch.07. Cereals (wheat, rice) → Ch.10.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: seeds for sowing vs seeds for other purposes",
+            "description": "Seeds of heading 12.09 = seeds, fruit and spores of a kind used for sowing (certified seed grade). Other seeds of the same species used for food or oil extraction → classified by their primary use heading (Ch.12 oil seeds, Ch.07 vegetables). Seeds for sowing of any plant species fall in 12.09 regardless of the plant's normal chapter.",
+            "priority": 2
         }
     ]
 }

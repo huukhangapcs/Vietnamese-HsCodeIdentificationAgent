@@ -1,12 +1,75 @@
 {
-  "chapter_code": "08",
-  "inclusions": [
-    "Edible fruit and nuts; peel of citrus fruit or melons"
-  ],
-  "exclusions": [
-    {
-      "condition": "The item is specifically described as INEDIBLE nuts or fruits",
-      "action": "Redirect to another heading (not in Chapter 8)"
-    }
-  ]
+    "chapter_code": "08",
+    "chapter_title": "Edible fruit and nuts; peel of citrus fruit or melons",
+    "scope_note": "Note 1: Ch.08 does NOT cover INEDIBLE nuts or fruits. Note 2: CHILLED fruits and nuts are classified in the SAME HEADINGS as the corresponding FRESH fruits and nuts (chilled = same heading as fresh). Note 3: DRIED fruit or dried nuts of this Chapter may be PARTIALLY REHYDRATED or TREATED for: (a) additional preservation/stabilisation (moderate heat, sulphuring, sorbic acid/potassium sorbate addition); or (b) to improve/maintain appearance (vegetable oil addition, small quantities of glucose syrup addition) — PROVIDED they RETAIN THE CHARACTER of dried fruit or dried nuts. Such treated dried fruit stays in Ch.08. Note 4: Heading 08.12 applies to fruit/nuts treated SOLELY to ensure provisional preservation during transport/storage (SO2/brine/sulphur water/other preservative solutions) PROVIDED they remain unsuitable for immediate consumption in that state.",
+    "inclusions": [
+        "Heading 08.01 — Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled: coconuts (fresh/desiccated coconut flesh → differentiated from coconut oil Ch.15), Brazil nuts in shell/shelled, cashew nuts (raw cashew in shell → 08.01; shelled raw cashew → 08.01; roasted cashew → Ch.20)",
+        "Heading 08.02 — Other nuts, fresh or dried, whether or not shelled or peeled: almonds, hazelnuts/filberts, walnuts, chestnuts, pistachios, macadamia, pecans, pine nuts — all in shell or shelled (raw/unprocessed). Excludes roasted/salted nuts",
+        "Heading 08.03 — Bananas, including plantains, fresh or dried: dessert bananas, plantains (cooking bananas), dried banana slices",
+        "Heading 08.04 — Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried",
+        "Heading 08.05 — Citrus fruit, fresh or dried: oranges, mandarins/clementines/satsumas, lemons, limes, grapefruit, pomelo, citrons — whole fresh fruit",
+        "Heading 08.06 — Grapes, fresh or dried (raisins): table grapes, wine grapes (for eating not for wine-making at classification), dried grapes/raisins/sultanas/currants",
+        "Heading 08.07 — Melons (including watermelons) and papaws (papayas), fresh",
+        "Heading 08.08 — Apples, pears and quinces, fresh",
+        "Heading 08.09 — Apricots, cherries, peaches (including nectarines), plums and sloe plums, fresh",
+        "Heading 08.10 — Other fruit, fresh: strawberries, raspberries, blackberries, cranberries, blueberries, kiwifruit, passion fruit, star fruit, lychees, longans, jackfruit, durian, tamarind, pomegranate",
+        "Heading 08.11 — Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter: IQF strawberries, frozen mango chunks, frozen mixed berries — all without other processing",
+        "Heading 08.12 — Fruit and nuts, provisionally preserved (e.g., by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions) but unsuitable in that state for immediate consumption",
+        "Heading 08.13 — Fruit, dried, other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter: prunes (dried plums), dried apricots, dried peaches, dried figs (classified here unlike fresh figs in 08.04), mixed dried fruit, trail mix of nuts and dried fruits",
+        "Heading 08.14 — Peel of citrus fruit or of melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions: citrus zest strips, candied peel BEFORE final sugaring process"
+    ],
+    "exclusions": [
+        {
+            "condition": "Cooked, prepared or preserved fruits (jams, jellies, marmalades, fruit purées, fruit in sugar syrup, compotes)",
+            "action": "Redirect to Chapter 20: jams/marmalades → 20.07. Fruit in sugar syrup (canned peaches, canned mandarin segments) → 20.08. Fruit purée/paste (tomato paste → 20.02; fruit purée for baby food → 20.08). Dried fruit with added sugar coating → 20.08. Ch.08 = natural/minimal preservation only",
+            "keywords": ["jam marmalade", "canned fruit syrup", "fruit puree prepared", "fruit confiture", "20.07", "20.08"]
+        },
+        {
+            "condition": "Roasted, salted, sugared or flavoured nuts (processed beyond raw/dried)",
+            "action": "Redirect to heading 20.08 (nuts otherwise prepared or preserved). Roasted peanuts → 20.08. Salted macadamia → 20.08. Honey-roasted almonds → 20.08. Raw/plain dried nuts (regardless of species) → Ch.08",
+            "keywords": ["roasted nuts", "salted nuts", "flavoured almonds", "honey roasted cashew", "20.08"]
+        },
+        {
+            "condition": "Oleaginous fruits (used primarily for oil extraction — groundnuts, olives, oil palm fruit, soybeans, sunflower seeds as agricultural commodity)",
+            "action": "Redirect to Chapter 12 (oil seeds and oleaginous fruits) when used primarily for oil: groundnuts (peanuts) as agricultural oil-seed commodity → 12.02. Olives (if for oil production in bulk) → borderline; table olives preserved → Ch.20; olive oil → Ch.15. Edible groundnuts for direct consumption → 08.02 or 12.02 depending on commercial presentation",
+            "keywords": ["groundnut peanut commodity", "soybean oilseed", "sunflower seed oilseed", "12.02"]
+        },
+        {
+            "condition": "Fruit juices, grape must, concentrated fruit juices, smoothies",
+            "action": "Redirect to Chapter 20 (20.09): orange juice, apple juice, grape juice, tomato juice → 20.09. Fruit nectar → 20.09. Grape must for wine → 22.04. Whole/pieces of fruit are Ch.08; extracted juice is Ch.20/22",
+            "keywords": ["orange juice", "apple juice", "fruit juice", "grape must", "20.09", "22.04"]
+        },
+        {
+            "condition": "Peanut butter, almond butter, other nut pastes",
+            "action": "Redirect to heading 20.08 (peanut butter/nut paste) — processed by grinding/roasting nuts into a paste → 20.08. Raw/shelled peanuts (unroasted, unprocessed) → 08.02 or 12.02",
+            "keywords": ["peanut butter", "almond butter", "nut paste", "tahini sesame paste", "20.08"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Fresh vs. frozen vs. dried — all Ch.08 if simply preserved (not cooked, not sweetened with sugar as primary process)",
+            "description": "Chapter 8 spans all MINIMAL PRESERVATION STATES for fruit/nuts: FRESH (living/just harvested). CHILLED (refrigerated, not frozen). FROZEN (08.11 — uncooked or steam/boiled for blanching only, may have added sweetener). DRIED (08.01–08.06 for specific fruits; 08.13 for other dried fruits — by sun, air, mechanical drying). PROVISIONALLY PRESERVED by gas/brine/sulphur water (08.12 — too harsh to eat directly but not cooked). The common characteristic: the FRUIT/NUT retains its natural identity. When transformed by cooking, sugaring substantially, or mixing with other food ingredients → Ch.20.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: raw/dried nuts (Ch.08) vs roasted nuts (Ch.20) vs nut oil (Ch.15) vs oilseed commodity (Ch.12)",
+            "description": "Nuts appear across 4 chapters by processing level: RAW, DRIED (natural) → 08.01/08.02 (unroasted, uncoated, unprocessed — including plain shelled raw cashew, raw almond, raw walnut). ROASTED/FLAVOURED → 20.08 (any heat treatment beyond the nut's own drying, or any salt/flavour/sugar coating). NUT OIL (extracted) → Ch.15 (almond oil → 15.15; walnut oil → 15.15; peanut oil → 15.08). OILSEED COMMODITY (groundnuts/peanuts grown for oil industry, traded bulk before any processing) → 12.02. The processing threshold is whether the nut has been HEAT-TREATED (roasted) or COATED after harvest — if yes → Ch.20.",
+            "priority": 2
+        },
+        {
+            "rule": "Fresh figs vs dried figs: heading assignment differs",
+            "description": "FRESH figs (and fresh dates, pineapples, avocados, guavas, mangoes, mangosteens) → 08.04. DRIED FIGS → 08.13 (NOT 08.04 — dried figs fall in the 'fruit dried, other' heading). This differs from grapes/raisins (08.06 covers both fresh grapes AND raisins). For consistent classification: fresh = 08.04/08.05/08.08/08.09/08.10 by species. Dried = 08.01 (coconuts/Brazil/cashew), 08.02 (other nuts), 08.03 (bananas), 08.06 (grapes/raisins), 08.13 (all other dried fruits including figs). Mixed dried fruit → 08.13.",
+            "priority": 3
+        },
+        {
+            "rule": "Coconut products: the fresh→copra→oil chain and classification at each stage",
+            "description": "Coconut products span multiple chapters: FRESH COCONUT (whole, fresh, with husk/without husk, mature or immature drinking coconut) → 08.01. DESICCATED COCONUT (coconut flesh dried without oil extraction, for baking/cooking) → 08.01. COPRA (dried coconut meat for oil extraction, traded as oilseed commodity) → 12.03 (oilseeds/oleaginous fruits). COCONUT OIL (extracted) → 15.13. COCONUT MILK/CREAM (aqueous emulsion extracted from coconut flesh) → 20.08. COCONUT WATER (natural juice from fresh coconut) → borderline 08.01 or 20.09; if packaged as juice → 20.09. The key: whole/desiccated coconut flesh for food → 08.01. Traded for oil extraction → 12.03.",
+            "priority": 4
+        },
+        {
+            "rule": "08.14 (citrus peel and melon rind) vs sugared/candied peel in Ch.20: the sugaring process boundary",
+            "description": "Citrus peel and melon rind appear in Ch.08 and Ch.20: 08.14 = peel that is FRESH, FROZEN, DRIED or PROVISIONALLY PRESERVED only (not yet candied/sugared for confectionery use). CANDIED PEEL (boiled in sugar syrup, partially or fully crystallised with sugar) → 20.08. The sugaring/candying process is the boundary: peel simply dried or preserved with SO2/brine (still not edible directly as confectionery) → 08.14. Peel that has been processed into candied/glazed confectionery ingredient → 20.08. Fresh citrus zest strips (culinary use) → 08.14.",
+            "priority": 5
+        }
+    ]
 }

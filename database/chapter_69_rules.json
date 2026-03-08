@@ -1,0 +1,100 @@
+{
+    "chapter_code": "69",
+    "chapter_title": "Ceramic products",
+    "scope_note": "Note 1: Chapter 69 applies ONLY to ceramic products that have been FIRED AFTER SHAPING. Note 1(b): products heated to <800°C merely for curing resins, accelerating hydration or removing water/volatiles are NOT considered 'fired' → excluded from Ch.69. Note 1(c): ceramic articles are obtained by firing inorganic, non-metallic materials (clays, siliceous materials, high-melting-point oxides/carbides/nitrides/graphite, sometimes with binders).",
+    "inclusions": [
+        "Heading 69.01 — Bricks, blocks, tiles and other ceramic goods of siliceous fossil meals (e.g., kieselguhr, tripolite or diatomite) or of similar siliceous earths",
+        "Heading 69.02 — Refractory bricks, blocks, tiles and similar refractory ceramic constructional goods, other than those of siliceous fossil meals or of similar siliceous earths",
+        "Heading 69.03 — Other refractory ceramic goods (e.g., retorts, crucibles, muffles, nozzles, plugs, supports, cupels, tubes, pipes, sheaths and rods), other than those of siliceous fossil meals or of similar siliceous earths",
+        "Heading 69.04 — Ceramic building bricks, flooring blocks, support or filler tiles and the like",
+        "Heading 69.05 — Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments and other constructional goods, of ceramic",
+        "Heading 69.06 — Ceramic pipes, conduits, guttering and pipe fittings",
+        "Heading 69.07 — Ceramic flags and paving, hearth or wall tiles; ceramic mosaic cubes and the like, whether or not on a backing; finishing ceramics (including unglazed, glazed, porcelain/china)",
+        "Heading 69.08 — [Combined with 69.07 in recent WCO versions — glazed ceramic flags, paving, hearth or wall tiles; ceramic mosaic cubes]",
+        "Heading 69.09 — Ceramic wares for laboratory, chemical or other technical uses; ceramic troughs, tubs and similar receptacles of a kind used in agriculture; ceramic pots, jars and similar articles of a kind used for conveyance or packing of goods",
+        "Heading 69.10 — Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures",
+        "Heading 69.11 — Tableware, kitchenware, other household articles and toilet articles, of porcelain or china",
+        "Heading 69.12 — Tableware, kitchenware, other household articles and toilet articles, of ceramic (other than porcelain or china)",
+        "Heading 69.13 — Statuettes and other ornamental ceramic articles",
+        "Heading 69.14 — Other ceramic articles (residual)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Ceramic products NOT fired after shaping, OR heated to <800°C only for curing resins/hydration/drying — not truly fired",
+            "action": "Exclude from Ch.69 entirely — Note 1(a)(b). Such products classified by their material composition in other chapters (e.g., unfired clay articles, gypsum articles → Ch.68)",
+            "keywords": ["unfired ceramic", "sun dried clay", "cured resin ceramic", "green ceramic unfired", "68."]
+        },
+        {
+            "condition": "Radioactive ceramic products (products of heading 28.44)",
+            "action": "Redirect to heading 28.44 — Note 2(a). Radioactive ceramic elements → Ch.28",
+            "keywords": ["radioactive ceramic", "nuclear ceramic", "28.44"]
+        },
+        {
+            "condition": "Millstones, grindstones, grinding wheels and similar articles of ceramic (heading 68.04)",
+            "action": "Redirect to heading 68.04 — Note 2(b). Ceramic abrasive grinding wheels → 68.04, not Ch.69",
+            "keywords": ["ceramic grinding wheel", "ceramic millstone", "ceramic grindstone", "abrasive ceramic wheel", "68.04"]
+        },
+        {
+            "condition": "Articles of Chapter 71 (e.g., imitation jewellery of ceramic, ceramic beads for jewellery not yet assembled)",
+            "action": "Redirect to Chapter 71 — Note 2(c). Imitation jewellery articles incorporating ceramic → 71.17. Raw ceramic beads for jewellery → Ch.69 (69.14). Assembled imitation jewellery with ceramic → 71.17",
+            "keywords": ["ceramic imitation jewellery", "ceramic fashion jewellery ring", "71.17"]
+        },
+        {
+            "condition": "Cermets (ceramic-metal composites) of heading 81.13",
+            "action": "Redirect to heading 81.13 — Note 2(d). Cermets are NOT purely ceramic — they are metal-ceramic composites classified in Ch.81",
+            "keywords": ["cermet", "ceramic metal composite", "WC cobalt", "81.13"]
+        },
+        {
+            "condition": "Articles of Chapter 82 (tools with ceramic working parts — e.g., ceramic-tipped cutting tools)",
+            "action": "Redirect to Chapter 82 — Note 2(e). Ceramic cutting inserts unmounted → 82.09 (cermet tips) OR remains Ch.69 if pure ceramic. Ceramic knife → Ch.82 if it qualifies (working part of ceramic counts per Ch.82 scope). Tools with ceramic working part → Ch.82",
+            "keywords": ["ceramic knife tool", "ceramic cutting insert", "ceramic tipped tool", "82."]
+        },
+        {
+            "condition": "Electrical insulators of ceramic (heading 85.46) or fittings of ceramic insulating material (heading 85.47)",
+            "action": "Redirect to heading 85.46 or 85.47 — Note 2(f). Porcelain power line insulators → 85.46. Ceramic terminal blocks/boards → 85.47",
+            "keywords": ["ceramic electrical insulator", "porcelain insulator", "ceramic terminal board", "85.46", "85.47"]
+        },
+        {
+            "condition": "Artificial teeth of ceramic (heading 90.21)",
+            "action": "Redirect to heading 90.21 (orthopaedic/prosthetic appliances) — Note 2(g). Dental ceramic crowns, dental porcelain → 90.21",
+            "keywords": ["ceramic dental crown", "porcelain tooth", "artificial tooth ceramic", "dental porcelain", "90.21"]
+        },
+        {
+            "condition": "Articles of Chapter 94: ceramic furniture (e.g., ceramic garden stools used as furniture), ceramic luminaires, prefabricated buildings",
+            "action": "Redirect to Chapter 94 — Note 2(ij). Ceramic garden stool used as furniture → 94.03. Ceramic luminaires → 94.05. Prefabricated buildings with ceramic components → 94.06",
+            "keywords": ["ceramic furniture stool", "ceramic lamp shade luminaire", "94.03", "94.05"]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Mandatory firing test: only fired ceramic enters Ch.69",
+            "description": "Chapter 69 ONLY covers ceramic products FIRED after shaping. Two critical exclusions from 'fired': (1) Articles heated to <800°C for curing resins, accelerating hydration, or removing water → NOT fired → excluded from Ch.69. (2) The firing must transform the inorganic non-metallic material through a high-temperature sintering/vitrification process. Green (unfired) clay products, air-dried or sun-dried ceramics, resin-bonded ceramic composites → NOT Ch.69. Only after firing verification should Ch.69 be applied.",
+            "priority": 1
+        },
+        {
+            "rule": "Key boundary: 69.01–69.03 (refractories/special technical ceramics) vs 69.04–69.14 (general ceramics)",
+            "description": "Note 1(a): headings 69.04–69.14 apply ONLY to ceramic goods NOT classifiable in 69.01–69.03. So 69.01–69.03 have priority: 69.01 = siliceous fossil meal ceramics (kieselguhr, diatomite — special siliceous raw material). 69.02 = refractory CONSTRUCTIONAL goods (bricks, blocks, tiles for furnace lining, >withstand high temperature). 69.03 = other refractory goods (crucibles, nozzles, tubes, sheaths, retorts — functional refractories). If any of these apply → classify in 69.01–69.03. Only if none applies → move to 69.04–69.14.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 69.04 (building bricks/blocks) vs 69.05 (roofing/architectural ceramics) vs 69.06 (ceramic pipes) vs 69.07 (tiles/paving)",
+            "description": "Within structural/constructional ceramics (69.04–69.07): 69.04 = BRICKS and building blocks (walling, flooring blocks, filler tiles). 69.05 = ROOFING TILES, chimney pots, architectural ornaments (decorative/functional roof elements). 69.06 = PIPES, conduits, guttering and fittings (for drainage, sewage, conduits). 69.07 = FLAGS and WALL/FLOOR TILES and MOSAICS (flat tiles for floor, wall or mosaic; includes porcelain, glazed, unglazed). The functional use in construction and the physical form (brick vs. tile vs. pipe vs. roof element) determine the heading.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 69.11 (porcelain/china tableware) vs 69.12 (other ceramic tableware) vs 69.10 (sanitary ceramic) vs 69.13 (ornamental ceramic)",
+            "description": "Four headings for finished ceramic articles: 69.10 = SANITARY FIXTURES of ceramic (sinks, baths, toilets, bidets, cisterns) regardless of ceramic type. 69.11 = TABLE/KITCHEN/HOUSEHOLD/TOILET articles of PORCELAIN OR CHINA specifically (fine ceramic). 69.12 = same use articles of OTHER ceramics (earthenware, stoneware, faience — not porcelain). 69.13 = STATUETTES and ORNAMENTAL ceramic articles (decorative purpose, not functional household use). An ornamental porcelain vase sold for decoration → 69.13. A porcelain dinner set → 69.11. A stoneware mug → 69.12.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 69.09 (technical/agricultural/packing ceramics) vs 69.10 (sanitary) vs 69.14 (other)",
+            "description": "Heading 69.09 is specifically for: (a) LABORATORY/CHEMICAL/TECHNICAL ceramic wares (crucibles, evaporators, filtering tubes, labware — excluding 69.03 refractories); (b) AGRICULTURAL ceramic receptacles (troughs, tubs); (c) PACKING/CONVEYANCE ceramic pots and jars. NOT sanitary fixtures (→ 69.10). NOT ornamental (→ 69.13). Residual → 69.14. The technical/agricultural/packing function distinguishes 69.09 from household use (69.11/69.12).",
+            "priority": 5
+        },
+        {
+            "rule": "Porcelain/china vs other ceramics: the material distinction for tableware and household articles",
+            "description": "Headings 69.11 and 69.12 both cover tableware and household articles but differ by CERAMIC TYPE: 69.11 = PORCELAIN OR CHINA only (vitrified, translucent, high-fired, hard-paste or bone china). 69.12 = ALL OTHER ceramics (earthenware/faience — opaque, lower-fired; stoneware — dense but not necessarily translucent; majolica; terracotta). Distinguishing porcelain/china from other ceramics: porcelain is typically translucent in thin section, white, fully vitrified. Earthenware/stoneware → 69.12.",
+            "priority": 6
+        }
+    ]
+}

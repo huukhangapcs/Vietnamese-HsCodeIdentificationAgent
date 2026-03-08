@@ -1,5 +1,6 @@
 {
     "chapter_code": "34",
+    "chapter_title": "Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster",
     "inclusions": [
         "Heading 34.01 — Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes; paper, wadding, felt and nonwovens impregnated/coated/covered with soap or detergent; shaving products (shaving cream, foam); scouring powders and similar preparations; whether or not containing soap",
         "Heading 34.02 — Organic surface-active agents (other than soap); surface-active preparations, washing preparations (including auxiliary washing preparations) and cleaning preparations, whether or not containing soap, other than those of heading 33.07",
@@ -13,27 +14,63 @@
         {
             "condition": "Lubricating preparations containing ≥70% by weight of petroleum oils or oils from bituminous minerals as basic constituents",
             "action": "Redirect to heading 27.10 (petroleum oils and preparations thereof)",
-            "keywords": ["petroleum lubricant", "mineral oil lubricant", "motor oil", "engine oil", "hydraulic oil", "gear oil", "lubricating oil petroleum", "27.10"]
+            "keywords": [
+                "petroleum lubricant",
+                "mineral oil lubricant",
+                "motor oil",
+                "engine oil",
+                "hydraulic oil",
+                "gear oil",
+                "lubricating oil petroleum",
+                "27.10"
+            ]
         },
         {
             "condition": "Soap or soap-containing products of heading 34.01 — even with medicaments or perfume added",
             "action": "Stay in Chapter 34 (34.01). NOTE: soap with added medicaments does NOT go to Ch.30 (Ch.30 Note 1(f) excludes it)",
-            "keywords": []
+            "keywords": [
+                "soap bar containing",
+                "soap product liquid",
+                "organic surface active",
+                "34.01"
+            ]
         },
         {
             "condition": "Prepared room deodorisers, personal deodorants, shaving preparations",
             "action": "Redirect to heading 33.07 (Chapter 33)",
-            "keywords": ["room deodoriser", "room deodorant", "air freshener", "personal deodorant", "antiperspirant", "shaving cream", "aftershave", "33.07"]
+            "keywords": [
+                "room deodoriser",
+                "room deodorant",
+                "air freshener",
+                "personal deodorant",
+                "antiperspirant",
+                "shaving cream",
+                "aftershave",
+                "33.07"
+            ]
         },
         {
             "condition": "Natural waxes — beeswax, carnauba wax, Japan wax, spermaceti — whether refined or not",
             "action": "Natural animal/vegetable waxes → Chapter 15 (15.21). Mineral waxes (ozokerite, ceresine) → 27.12. Chapter 34.04 only covers ARTIFICIAL and PREPARED waxes",
-            "keywords": ["beeswax", "carnauba wax", "Japan wax", "spermaceti", "paraffin wax crude", "15.21", "27.12"]
+            "keywords": [
+                "beeswax",
+                "carnauba wax",
+                "Japan wax",
+                "spermaceti",
+                "paraffin wax crude",
+                "15.21",
+                "27.12"
+            ]
         },
         {
             "condition": "Dental impression compounds/dental wax NOT put up in sets, retail packings, or in specific shapes — bulk industrial dental materials",
             "action": "May redirect to heading 38.24 or Ch.90 depending on specific use and presentation",
-            "keywords": []
+            "keywords": [
+                "dental impression compound",
+                "dental wax sets",
+                "dental specific professional",
+                "90.18"
+            ]
         }
     ],
     "classification_rules": [

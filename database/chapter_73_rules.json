@@ -1,0 +1,96 @@
+{
+    "chapter_code": "73",
+    "chapter_title": "Articles of iron or steel",
+    "inclusions": [
+        "Heading 73.01 — Sheet piling of iron or steel, whether or not drilled, punched or made from assembled elements; welded angles, shapes and sections, of iron or steel",
+        "Heading 73.02 — Railway or tramway track construction material of iron or steel: rails, check-rails and rack rails, switch blades, crossing frogs, point rods and other crossing pieces, sleepers (cross-ties), fish-plates, chairs, chair wedges, sole plates (base plates), rail clips, bedplates, ties and other material specialised for jointing or fixing rails",
+        "Heading 73.03 — Tubes, pipes and hollow profiles, of cast iron",
+        "Heading 73.04 — Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel",
+        "Heading 73.05 — Other tubes and pipes (e.g., welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel",
+        "Heading 73.06 — Other tubes, pipes and hollow profiles (e.g., open seam or welded, riveted or similarly closed), of iron or steel",
+        "Heading 73.07 — Tube or pipe fittings (e.g., couplings, elbows, sleeves), of iron or steel",
+        "Heading 73.08 — Structures (excluding prefabricated buildings of heading 94.06) and parts of structures (e.g., bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel",
+        "Heading 73.09 — Reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment",
+        "Heading 73.10 — Tanks, casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment",
+        "Heading 73.11 — Containers for compressed or liquefied gas, of iron or steel",
+        "Heading 73.12 — Stranded wire, ropes, cables, plaited bands, slings and the like, of iron or steel, not electrically insulated",
+        "Heading 73.13 — Barbed wire of iron or steel; twisted hoop or single flat wire, barbed or not, and loosely twisted double wire, of a kind used for fencing, of iron or steel",
+        "Heading 73.14 — Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal or iron or steel",
+        "Heading 73.15 — Chain and parts thereof, of iron or steel",
+        "Heading 73.16 — Anchors, grapnels and parts thereof, of iron or steel",
+        "Heading 73.17 — Nails, tacks, drawing pins, corrugated nails, staples (other than those of heading 83.05) and similar articles, of iron or steel, whether or not with heads of other material, but excluding such articles with heads of copper",
+        "Heading 73.18 — Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of iron or steel",
+        "Heading 73.19 — Sewing needles, knitting needles, bodkins, crochet hooks, embroidery stilettos and similar articles, for use in the hand, of iron or steel; safety pins and other pins of iron or steel, not elsewhere specified or included",
+        "Heading 73.20 — Springs and leaves for springs, of iron or steel",
+        "Heading 73.21 — Stoves, ranges, grates, cookers (including those with subsidiary boilers for central heating), barbecues, braziers, gas-rings, plate warmers and similar non-electric domestic appliances, and parts thereof, of iron or steel",
+        "Heading 73.22 — Radiators for central heating, not electrically heated, and parts thereof, of iron or steel; air heaters and hot air distributors (including distributors which can also distribute fresh or conditioned air), not electrically heated, incorporating a motor-driven fan or blower, and parts thereof, of iron or steel",
+        "Heading 73.23 — Table, kitchen or other household articles and parts thereof, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel",
+        "Heading 73.24 — Sanitary ware and parts thereof, of iron or steel",
+        "Heading 73.25 — Other cast articles of iron or steel",
+        "Heading 73.26 — Other articles of iron or steel (catch-all within Ch.73)"
+    ],
+    "exclusions": [
+        {
+            "condition": "Iron or steel articles that correspond to descriptions in Chapter 72 (iron and steel as raw/semi-finished material: ingots, billets, bars, rods, flat-rolled products, wire rod, etc.)",
+            "action": "Redirect to Chapter 72 — the distinction is between raw/semi-finished iron/steel IN MATERIAL FORM (Ch.72) and ARTICLES made from iron/steel (Ch.73). Wire rod coil → Ch.72. Bolt → Ch.73 (73.18)",
+            "keywords": ["wire rod", "steel ingot", "steel billet", "steel slab", "flat-rolled coil", "72."]
+        },
+        {
+            "condition": "Prefabricated buildings of iron or steel",
+            "action": "Redirect to heading 94.06 — Note to 73.08 explicitly excludes prefabricated buildings. Steel structural sections prepared for buildings → 73.08. Complete prefabricated steel building → 94.06",
+            "keywords": ["prefabricated building steel", "modular building steel", "portable cabin steel", "94.06"]
+        },
+        {
+            "condition": "Electrically insulated steel wire rope or cable",
+            "action": "Redirect to heading 85.44 (insulated wire and cable). Bare steel wire rope → 73.12. Insulated electrical cable with steel conductors → 85.44",
+            "keywords": ["insulated steel wire", "insulated steel cable", "85.44"]
+        },
+        {
+            "condition": "Railway/tramway vehicles and rolling stock (even if partly made of iron/steel)",
+            "action": "Redirect to Chapter 86 (railway locomotives and rolling stock). Steel structural parts of railway vehicles → Ch.86 as components of railway vehicles, not Ch.73",
+            "keywords": ["railway wagon", "train carriage", "locomotive", "rolling stock", "86."]
+        }
+    ],
+    "classification_rules": [
+        {
+            "rule": "Note 1 — Definition of 'cast iron' in Ch.73",
+            "description": "'Cast iron' in Ch.73 = products obtained by CASTING in which iron predominates by weight over each other element AND which do NOT comply with the steel composition defined in Ch.72 Note 1(d) (i.e., too high carbon content for steel). Cast iron articles → 73.03 (cast iron tubes) or 73.25 (other cast iron articles). Steel castings → classified by the article type (73.26 or specific headings) not by 73.25. The casting process AND chemical composition (not steel) determine 'cast iron'.",
+            "priority": 1
+        },
+        {
+            "rule": "Note 2 — Definition of 'wire' in Ch.73: cross-sectional dimension ≤16 mm",
+            "description": "'Wire' in Ch.73 = hot or cold-formed products of ANY cross-sectional shape where NO cross-sectional dimension exceeds 16 mm. This is WIDER than the default Section XV Note 9(c) definition (which uses 'circle that would enclose' concept). Steel wire for heading 73.12, 73.13, 73.14, 73.17, 73.19 must meet this ≤16 mm test. Products with cross-sectional dimension >16 mm → bars, rods, profiles in Ch.72.",
+            "priority": 2
+        },
+        {
+            "rule": "Key boundary: 73.08 (structures/structural parts) vs 73.09/73.10 (containers) vs 94.06 (prefabricated buildings)",
+            "description": "73.08 = steel structural ELEMENTS and PARTS: bridges, towers, lattice masts, roofs, door/window frames, gates (prepared for use in structures but not complete buildings). 73.09 = steel TANKS/RESERVOIRS for any material (not gas), capacity >300 L — no mechanical/thermal equipment. 73.10 = steel DRUMS/CANS/BOXES for any material (not gas), capacity ≤300 L. 73.11 = steel containers for COMPRESSED or LIQUEFIED GAS (any capacity). 94.06 = COMPLETE prefabricated steel building. The capacity, content type, and completeness determine which heading applies.",
+            "priority": 3
+        },
+        {
+            "rule": "Key boundary: 73.04/73.05/73.06 (tubes/pipes) vs 73.07 (fittings) — and split by type",
+            "description": "Three headings for steel tubular forms: 73.03 = cast iron tubes/pipes. 73.04 = SEAMLESS tubes/pipes of iron or steel (not cast iron). 73.05 = welded/riveted tubes with CIRCULAR cross-section and EXTERNAL DIAMETER >406.4 mm. 73.06 = all OTHER tubes/pipes (welded, riveted, open seam — not meeting 73.04 or 73.05 criteria). 73.07 = tube/pipe FITTINGS (connectors, elbows, tees, reducers — not tubes themselves). The production method (seamless vs. welded), diameter, and cross-section shape drive the split among 73.04/73.05/73.06.",
+            "priority": 4
+        },
+        {
+            "rule": "Key boundary: 73.17 (nails/tacks/staples) vs 73.18 (screws/bolts/nuts/rivets) vs 73.19 (needles/pins)",
+            "description": "Three headings for iron/steel fasteners and small articles: 73.17 = simple fasteners driven in by impact: nails, tacks, drawing pins, corrugated nails, staples (not with copper heads — those → 74.15). 73.18 = threaded/formed fasteners: screws, bolts, nuts, coach screws, rivets, washers, cotters. 73.19 = needles and pins for hand use: sewing needles, knitting needles, safety pins. The mechanism of fastening (impact-driven vs. threaded vs. piercing) distinguishes these headings.",
+            "priority": 5
+        },
+        {
+            "rule": "Key boundary: 73.21 (domestic stoves/cookers/grates) vs 73.22 (heating radiators/air heaters) vs Ch.85 (electric heating)",
+            "description": "73.21 = NON-ELECTRIC domestic stoves, ranges, grates, cookers, barbecues using gas, solid fuel or oil — including those with subsidiary boilers for central heating. 73.22 = NON-ELECTRIC central heating RADIATORS (hot water/steam) and fan-equipped air heaters/distributors, of iron/steel. Both excludes electric heating (those → Ch.85: 85.16 for domestic electro-thermic; 85.16 for storage heaters). The fuel type (non-electric vs. electric) and function (cooking vs. space heating) separate these headings.",
+            "priority": 6
+        },
+        {
+            "rule": "Key boundary: 73.25 (other cast articles) vs 73.26 (other articles) — cast vs non-cast",
+            "description": "Both 73.25 and 73.26 are residual headings within Ch.73. The split is by PRODUCTION METHOD: 73.25 = articles produced specifically by CASTING (cast iron or cast steel articles not described in specific earlier headings). 73.26 = all OTHER iron/steel articles not produced exclusively by casting and not described in 73.01–73.24. Steel stampings, forgings, machined parts with no specific heading → 73.26. Cast iron manhole covers → 73.25. Steel mesh that is not wire mesh → 73.26.",
+            "priority": 7
+        },
+        {
+            "rule": "Key boundary: Ch.73 (articles of iron/steel) vs Ch.82 (tools) vs Ch.83 (misc. base metal articles) vs Ch.84 (machinery)",
+            "description": "Chapter 73 is secondary to more specific functional chapters. When a steel article corresponds to: Ch.82 (tools, implements, cutlery) → Ch.82. Ch.83 (padlocks, safes, fittings, misc. base metal articles) → Ch.83. Ch.84 (machinery and mechanical appliances) → Ch.84. Ch.85 (electrical machinery) → Ch.85. The functional/specific chapter always takes priority over Ch.73 for steel articles with a defined function described elsewhere. Ch.73 applies when no specific functional heading is available.",
+            "priority": 8
+        }
+    ]
+}
