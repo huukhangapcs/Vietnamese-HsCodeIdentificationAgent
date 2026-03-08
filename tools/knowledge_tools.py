@@ -538,7 +538,9 @@ def get_chapter_title(chapter_id: str) -> str:
         rules = get_chapter_rules_raw(ch_id_str)
         inclusions = rules.get("inclusions", [])
         if inclusions:
-            title = inclusions[0][:150]
+            first_inc = inclusions[0]
+            desc = first_inc.get("description", str(first_inc)) if isinstance(first_inc, dict) else str(first_inc)
+            title = desc[:150]
         elif tree_data:
             title = tree_data[0].get("description_en", f"Chapter {ch_id_str}")
         else:
