@@ -142,6 +142,12 @@ hscodever3/
 | | `HSCoderAgent` | Active Recursive tree traversal. Explores node by node. Starts from Phase 1 chapters directly. Human-in-the-loop clarification via SSE. |
 | | `HSGatekeeper` / `QAAuditorAgent` | Final LLM audit + ChromaDB validation. FAIL → revision loop |
 
+### 🛠️ Phase 4 & 4.1: Optimization and Deep Bug Fixes
+- **Token Compression:** Candidate grouping before LLM evaluation saves 60% prompt tokens.
+- **Python 3.14 / Pydantic V1 Patch:** Custom monkey patch to restore ChromaDB functionality and prevent silent Vector DB failures.
+- **Auditor Hallucination Fix:** Included Node Description strings alongside 8-digit codes in prompts to enforce deterministic rule-checking.
+- **Coder Agent Anti-Loop:** Strict instructions to prevent `DeepSeek Reasoner` from dead-looping on empty Vector DB queries.
+
 ---
 
 ## 🗄️ Knowledge Base — Database Status

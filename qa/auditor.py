@@ -78,12 +78,14 @@ class QAAuditorAgent:
             print(f"[Auditor] ChromaDB RAG warning: {e}. Falling back to no-context mode.")
             legal_notes_text = f"[VectorDB không khả dụng. Chỉ dựa vào suy luận của Coder Agent]"
 
+        description = draft_result.get("description", "Unknown")
+
         user_prompt = f"""
 [ITEM DESCRIPTION]
 {item_description}
 
-[PROPOSED HS CODE]
-{hs_code}
+[PROPOSED HS CODE AND OFFICIAL DESCRIPTION]
+{hs_code} - {description}
 
 [CODER REASONING]
 {reasoning}

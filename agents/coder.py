@@ -70,6 +70,7 @@ Before making any tool calls, you MUST explicitly analyze the item description:
 [CRITICAL INSTRUCTIONS (Based on GIRs - 6 Quy tắc vàng)]
 1. GIR 1: Phân loại phải dựa vào nội dung Nhóm hàng và Chú giải (Section/Chapter Notes).
    IMMEDIATELY call query_legal_notes(query, "TBD", "{primary_chap}") to check EXCLUSIONS.
+   [ANTI-LOOP]: NẾU query_legal_notes trả về "Không tìm thấy ghi chú...", BẠN KHÔNG ĐƯỢC LẶP LẠI query đó! Hãy đổi query (rút gọn) hoặc lập tức chuyển sang dùng search_hs_nodes() hoặc get_children()!
 2. MULTI-PATH & GLOBAL SEARCH: DO NOT GUESS HS CODES. You should call search_hs_nodes(query, chapter_id=None) for GLOBAL SEARCH using a highly descriptive semantic query. If you suspect a specific candidate chapter, pass its chapter_id.
 3. CHAPTER/PATH JUMPING: If the results in one candidate chapter hit an Exclusion Note or do not fit, switch to the next candidate chapter immediately.
 4. If stuck between distinct valid options and lacking info, CALL ask_user_clarification(question).

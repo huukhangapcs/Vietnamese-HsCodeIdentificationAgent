@@ -349,8 +349,13 @@ class HSPipeline:
                 # Chạy qua Gatekeeper và Auditor
                 is_valid, linter_msg = self.gatekeeper.check(chosen_code, item_description, extracted_features)
                 if is_valid:
-                    draft_mock = {"hs_code": chosen_code, "reasoning": reasoning}
-                    audit_res = self.auditor.audit(item_description, draft_mock)
+                    chosen_cand = next((c for c in candidate_pool if c["hs_code"] == chosen_code), None)
+                    draft_result_for_auditor = {
+                        "hs_code": chosen_code,
+                        "description": chosen_cand.get("description", "") if chosen_cand else "Unknown",
+                        "reasoning": judge_res.get("reasoning", "")
+                    }
+                    audit_res = self.auditor.audit(item_description, draft_result_for_auditor)
                     if audit_res.get("status") != "FAIL":
                         # Thành công 100% - BYPASS CODER LOOP
                         print("\n[Pipeline V3] 🎉 THÀNH CÔNG NHỜ RERANKER! Bỏ qua Slow Path.")
@@ -396,16 +401,6 @@ class HSPipeline:
         revision = 0
         current_feedback = judge_feedback # Truyền feedback của Judge/Auditor xuống cho Coder bắt đầu
         
-        # Lấy Top Chapters từ Rổ Ứng Viên để Bypass Router
-        candidate_chapters = []
-        if candidate_pool:
-            unique_ch = set()
-            for cand in candidate_pool:
-                ch = cand["hs_code"][:2]
-                if ch not in unique_ch:
-                    unique_ch.add(ch)
-                    candidate_chapters.append(ch)
-        
         while revision <= max_revisions:
             if revision > 0:
                 print(f"\n--- BẮT ĐẦU REVISION {revision} ---")
@@ -435,19 +430,6 @@ class HSPipeline:
                     enhanced_desc += f"- Function: {extracted_features.get('function', 'Unknown')}\n"
                 
                 enhanced_desc += f"\n\n[LƯU Ý ĐẶC BIỆT TỪ FAST PATH]:\nHệ thống đã lexical keyword search với độ tự tin cao và nghi ngờ hàng hóa thuộc nhóm {fast_path_hint_node}.\n**TUY NHIÊN, ĐÂY CHỈ LÀ GỢI Ý (HINT)**. Trách nhiệm của bạn là phải ĐÁNH GIÁ LẠI xem nhóm {fast_path_hint_node} này CÓ THỰC SỰ ĐÚNG với mô tả hàng hóa không. Nếu ĐÚNG, hãy đi sâu vào nhánh con. Nếu THẤY SAI HOÀN TOÀN, hãy mạnh dạn YÊU CẦU THÊM THÔNG TIN (Clarification) hoặc tìm nhóm khác chứ KHÔNG bị ép buộc chốt mã ở đây."
-            elif revision == 0 and candidate_chapters:
-                print(f"Bỏ qua Tier-1 Router, sử dụng danh sách Chương từ V3 Reranker: {candidate_chapters[:3]}")
-                if stream_callback:
-                    stream_callback({"type": "info", "message": f"💡 Bỏ qua phân tích sơ bộ, hệ thống khoanh vùng được các Chương {candidate_chapters[:3]}"})
-                starting_node_ids = candidate_chapters[:3]
-                
-                enhanced_desc = f"Tên hàng: {item_description}\n"
-                if extracted_features:
-                    enhanced_desc += f"\n[Step 0 - Basics Extraction (Reference)]\n"
-                    enhanced_desc += f"- Item Name: {extracted_features.get('item_name', 'Unknown')}\n"
-                    enhanced_desc += f"- State/Condition: {extracted_features.get('state_or_condition', 'Unknown')}\n"
-                    enhanced_desc += f"- Material: {extracted_features.get('material', 'Unknown')}\n"
-                    enhanced_desc += f"- Function: {extracted_features.get('function', 'Unknown')}\n"
             else:
                 # Bổ sung kết quả Step 0 vào chuỗi nội dung cho LLM dễ suy luận
                 enhanced_desc = f"Tên hàng: {item_description}\n"

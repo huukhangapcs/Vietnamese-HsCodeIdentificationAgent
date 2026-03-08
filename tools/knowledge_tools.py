@@ -32,6 +32,26 @@ def _get_vector_collections():
     if _chroma_client is None:
         # Lazy imports — kept here so the module loads fine on Python 3.14
         # even when chromadb/pydantic-v1 is broken in that environment.
+        import warnings
+        warnings.filterwarnings("ignore", category=UserWarning, module="pydantic")
+        try:
+            import pydantic.v1.fields as _pv1_fields
+            import typing as _typing
+            _orig_sdnt = _pv1_fields.ModelField._set_default_and_type
+            def _patched_sdnt(self):
+                try:
+                    _orig_sdnt(self)
+                except Exception:
+                    from pydantic.v1.fields import Required
+                    self.outer_type_ = _typing.Any
+                    self.type_ = _typing.Any
+                    self.required = False
+                    if self.default is Required:
+                        self.default = None
+            _pv1_fields.ModelField._set_default_and_type = _patched_sdnt
+        except Exception:
+            pass
+            
         import chromadb as _chromadb
         from chromadb.utils import embedding_functions as _emb_fns
         from sentence_transformers import SentenceTransformer as _ST
