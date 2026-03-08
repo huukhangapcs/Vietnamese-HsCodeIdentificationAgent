@@ -130,16 +130,16 @@ hscodever3/
 
 | Step | Component | Description |
 |------|-----------|-------------|
-| Phase 1 | Candidate Gen | **0 LLM**: Merge Top 5 Keyword search results + Top 5 ChromaDB Vector matches into a candidate pool |
-| Phase 2 | `JudgeAgent` | **1 LLM**: Receives pool + fetched legal notes. "One-off" evaluation to eliminate bad matches by rules and select the single BEST HS code |
+| Phase 1 | Candidate Gen | **0 LLM**: Merge Top 5 Keyword search results + Top 5 ChromaDB Vector matches into a candidate pool. Notes caching applied. |
+| Phase 2 | `JudgeAgent` | **1 LLM**: Receives pool + fetched legal notes. "One-off" evaluation to eliminate bad matches by rules and select the single BEST HS code. **(Token Compressed via Chapter Grouping)** |
 | Validation | `HSGatekeeper` / `QAAuditorAgent` | Linter + Red-team audit of Judge's decision. PASS → Return ✅ |
 
 ### 🧠 Slow Path Fallback (10–30s)
 
 | Step | Component | Description |
 |------|-----------|-------------|
-| Phase 3 | `Tier1Router` | Agent is activated ONLY IF Phase 2 Judge fails to find a valid code. Routes Section → Chapter |
-| | `HSCoderAgent` | Active Recursive tree traversal. Explores node by node. Human-in-the-loop clarification via SSE |
+| Phase 3 | `Tier1Router` | **Bypassed automatically** if Candidate Pool exists. Otherwise, routes Section → Chapter. |
+| | `HSCoderAgent` | Active Recursive tree traversal. Explores node by node. Starts from Phase 1 chapters directly. Human-in-the-loop clarification via SSE. |
 | | `HSGatekeeper` / `QAAuditorAgent` | Final LLM audit + ChromaDB validation. FAIL → revision loop |
 
 ---
