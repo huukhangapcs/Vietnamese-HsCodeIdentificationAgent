@@ -3,36 +3,88 @@
     "chapter_title": "Products of animal origin, not elsewhere specified or included",
     "scope_note": "Note 1: Ch.05 does NOT cover: (a) edible products (EXCEPT guts/bladders/stomachs and animal blood liquid/dried); (b) hides/skins (except goods of 05.05 and parings/waste of 05.11) → Ch.41 or 43; (c) animal textile materials except horsehair/horsehair waste → Section XI; (d) prepared knots/tufts for brush-making → 96.03. Note 2: sorting human hair by length does NOT constitute 'working'. Note 3: elephant, hippo, walrus, narwhal, wild boar tusks; rhinoceros horns; ALL animal teeth = 'ivory' throughout the Nomenclature. Note 4: 'horsehair' = hair of manes or tails of equine OR bovine animals — 05.11 covers horsehair and horsehair waste whether or not put up as a layer with or without supporting material.",
     "inclusions": [
-        "Heading 05.01 — Human hair, unworked (whether or not washed/scoured); waste of human hair. Note 2: sorting by length is NOT 'working' — sorted hair still in Ch.05. Excludes wigs (67.03) and worked hair articles (67.04)",
-        "Heading 05.02 — Pigs', hogs' or boars' bristles/hair; badger hair and other brush-making hair; waste. For paint brushes, toothbrushes, shaving brushes, artist brushes",
-        "Heading 05.04 — Guts, bladders and stomachs of animals (other than fish), whole and pieces, fresh/chilled/frozen/salted/in brine/dried/smoked: natural sausage casings (sheep/hog/beef casings), cattle bladders, rumen/stomach for rennet extraction. PERMITTED exclusion from general Ch.02 edibility rule",
-        "Heading 05.05 — Skins and other parts of birds with their feathers or down; feathers/parts of feathers (quills may be trimmed) and down — not further worked than cleaned, disinfected or treated for preservation; powder and waste thereof: raw duck/goose down, raw decorative feathers, raw feather powder. Excludes dressed/prepared feathers → 67.01",
-        "Heading 05.06 — Bones and horn-cores, unworked, defatted, simply prepared (but NOT cut to shape), treated with acid or degelatinised; powder and waste: raw cattle/pig/poultry bones for gelatin/glue/bone meal production, horn-cores",
-        "Heading 05.07 — Ivory (Note 3: = ALL tusks/rhino horn/all animal teeth); tortoiseshell; whalebone and whalebone hair; horns; antlers; hooves; nails; claws; beaks — unworked or simply prepared but NOT cut to shape; powder and waste. Elephant/hippo/walrus/narwhal tusks → 05.07. ALL animal teeth → 05.07. Rhinoceros horns → 05.07",
-        "Heading 05.08 — Coral and similar materials, unworked or simply prepared but not otherwise worked; shells of molluscs/crustaceans/echinoderms and cuttlebone — unworked or simply prepared but not cut to shape; powder/waste: raw coral (red/white/pink), oyster shells, scallop shells, mother-of-pearl shells, cuttlebone (for pet birds)",
-        "Heading 05.09 — Natural sponges of animal origin: Mediterranean/Caribbean bath sponges (Spongia/Hippospongia species), cleaned/bleached natural sponges — still animal-origin material, not synthetic",
-        "Heading 05.11 — Animal products NES; dead animals of Ch.01 or Ch.03 unfit for human consumption: horsehair and horsehair waste (Note 4: mane/tail hair of equine OR bovine), whether or not in layers with/without supporting material; animal blood (inedible); parings/waste of raw hides; sinews/tendons; unborn calf skins; animal semen (AI straws); fish waste (inedible); embryos for transplantation"
+        {
+            "heading": "05.01",
+            "description": "Human hair, unworked (whether or not washed/scoured); waste of human hair. Note 2: sorting by length is NOT 'working' — sorted hair still in Ch.05. Excludes wigs (67.03) and worked hair articles (67.04)"
+        },
+        {
+            "heading": "05.02",
+            "description": "Pigs', hogs' or boars' bristles/hair; badger hair and other brush-making hair; waste. For paint brushes, toothbrushes, shaving brushes, artist brushes"
+        },
+        {
+            "heading": "05.04",
+            "description": "Guts, bladders and stomachs of animals (other than fish), whole and pieces, fresh/chilled/frozen/salted/in brine/dried/smoked: natural sausage casings (sheep/hog/beef casings), cattle bladders, rumen/stomach for rennet extraction. PERMITTED exclusion from general Ch.02 edibility rule"
+        },
+        {
+            "heading": "05.05",
+            "description": "Skins and other parts of birds with their feathers or down; feathers/parts of feathers (quills may be trimmed) and down — not further worked than cleaned, disinfected or treated for preservation; powder and waste thereof: raw duck/goose down, raw decorative feathers, raw feather powder. Excludes dressed/prepared feathers → 67.01"
+        },
+        {
+            "heading": "05.06",
+            "description": "Bones and horn-cores, unworked, defatted, simply prepared (but NOT cut to shape), treated with acid or degelatinised; powder and waste: raw cattle/pig/poultry bones for gelatin/glue/bone meal production, horn-cores"
+        },
+        {
+            "heading": "05.07",
+            "description": "Ivory (Note 3: = ALL tusks/rhino horn/all animal teeth); tortoiseshell; whalebone and whalebone hair; horns; antlers; hooves; nails; claws; beaks — unworked or simply prepared but NOT cut to shape; powder and waste. Elephant/hippo/walrus/narwhal tusks → 05.07. ALL animal teeth → 05.07. Rhinoceros horns → 05.07"
+        },
+        {
+            "heading": "05.08",
+            "description": "Coral and similar materials, unworked or simply prepared but not otherwise worked; shells of molluscs/crustaceans/echinoderms and cuttlebone — unworked or simply prepared but not cut to shape; powder/waste: raw coral (red/white/pink), oyster shells, scallop shells, mother-of-pearl shells, cuttlebone (for pet birds)"
+        },
+        {
+            "heading": "05.09",
+            "description": "Natural sponges of animal origin: Mediterranean/Caribbean bath sponges (Spongia/Hippospongia species), cleaned/bleached natural sponges — still animal-origin material, not synthetic"
+        },
+        {
+            "heading": "05.11",
+            "description": "Animal products NES; dead animals of Ch.01 or Ch.03 unfit for human consumption: horsehair and horsehair waste (Note 4: mane/tail hair of equine OR bovine), whether or not in layers with/without supporting material; animal blood (inedible); parings/waste of raw hides; sinews/tendons; unborn calf skins; animal semen (AI straws); fish waste (inedible); embryos for transplantation"
+        }
     ],
     "exclusions": [
         {
             "condition": "Edible products intended for human consumption — EXCEPT guts/bladders/stomachs (05.04) and animal blood (liquid/dried) which are specifically kept in Ch.05 by Note 1 exception",
             "action": "Redirect to Ch.02 (meat/offal), Ch.03 (fish/seafood), Ch.04 (dairy/eggs/honey/insects). Note 1(a) makes a crucial exception: guts (05.04) and animal blood (05.11/30.02) remain in Ch.05 even though they may be edible in some cultures. Tripe (edible stomach lining prepared as food) → 02.06. Whole stomach as casing → 05.04.",
-            "keywords": ["edible meat offal", "edible fish food", "eggs honey food", "02.", "03.", "04."]
+            "keywords": [
+                "edible meat offal",
+                "edible fish food",
+                "eggs honey food",
+                "02.",
+                "03.",
+                "04."
+            ]
         },
         {
             "condition": "Hides or skins of any animals (including furskins) — EXCEPT birdskins with feathers (05.05) and parings/waste of raw hides (05.11)",
             "action": "Redirect to Chapter 41 (leather/raw hides without fur) or Chapter 43 (furskins tanned with hair on). Raw cattle/pig hide → Ch.41. Mink pelt → Ch.43. Sheepskin with wool (for leathermaking) → Ch.41. Remember: only BIRDSKINS with FEATHERS → 05.05. PARINGS/WASTE of raw hides → 05.11",
-            "keywords": ["cattle hide raw", "pig skin hide", "sheepskin leather", "furskin pelt", "41.", "43."]
+            "keywords": [
+                "cattle hide raw",
+                "pig skin hide",
+                "sheepskin leather",
+                "furskin pelt",
+                "41.",
+                "43."
+            ]
         },
         {
             "condition": "Animal textile materials other than horsehair and horsehair waste",
             "action": "Redirect to Section XI (textiles): wool → Ch.51. Cashmere/mohair → Ch.51. Raw silk/silk waste for spinning → Ch.50. HORSEHAIR specifically stays in Ch.05 (05.11) per Note 1(c) exception — horsehair is NOT a textile material in HS classification. Reminder: 'horsehair' = mane/tail hair of equine or bovine (Note 4)",
-            "keywords": ["wool textile", "cashmere mohair textile", "raw silk spinning", "51.", "50."]
+            "keywords": [
+                "wool textile",
+                "cashmere mohair textile",
+                "raw silk spinning",
+                "51.",
+                "50."
+            ]
         },
         {
             "condition": "Prepared knots or tufts of bristles for broom or brush making (ready-to-insert brush head bundles)",
             "action": "Redirect to heading 96.03 — Note 1(d). RAW BRISTLES not yet prepared into brush bundles → 05.02. PREPARED KNOTS/TUFTS (cut to size, tied, cleaned, shaped for insertion into brush handles) → 96.03",
-            "keywords": ["prepared brush knot", "brush tufts ready", "horsehair brush bundle", "96.03"]
+            "keywords": [
+                "prepared brush knot",
+                "brush tufts ready",
+                "horsehair brush bundle",
+                "96.03"
+            ]
         }
     ],
     "classification_rules": [

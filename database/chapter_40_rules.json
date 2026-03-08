@@ -2,23 +2,74 @@
     "chapter_code": "40",
     "chapter_title": "Rubber and articles thereof",
     "inclusions": [
-        "Heading 40.01 — Natural rubber, balata, gutta-percha, guayule, chicle and similar natural gums, in primary forms or in plates, sheets or strip. Primary forms: latex (pre-vulcanised or not), blocks, lumps, bales, powders, granules, crumbs. Note 5(B) permitted additives only (emulsifiers, anti-tack agents, antioxidants, stabilisers, viscosity agents in very small amounts)",
-        "Heading 40.02 — Synthetic rubber and factice derived from oils, in primary forms or in plates, sheets or strip; mixtures of any product of heading 40.01 with any product of this heading. Definition of synthetic rubber per Note 4: (a) unsaturated synthetic substances irreversibly vulcanisable with sulphur → non-thermoplastic, no break at 3× length at 18–29°C, recovery to ≤1.5× after 2× stretch; (b) Thioplasts (TM); (c) graft/blended modified natural rubber, depolymerised natural rubber, mixtures of unsaturated synthetic + saturated synthetic high polymers — all complying with Note 4(a) test. Key types: SBR, NBR, EPDM, CR (neoprene), IIR (butyl), BIIR, CIIR, BR, IR, CSM, ACM, AEM, ECO, silicone rubber (gum)",
-        "Heading 40.03 — Reclaimed rubber in primary forms or in plates, sheets or strip",
-        "Heading 40.04 — Waste, parings and scrap of rubber (Note 6: from manufacture/working of rubber, definitely not usable as such — due to cutting, wear or other reasons); powders and granules obtained therefrom",
-        "Heading 40.05 — Compounded rubber, unvulcanised, in primary forms or in plates, sheets or strip: rubber mixed with vulcanising agents, fillers, pigments, plasticisers etc. (Note 5(A) items that disqualify from 40.01/40.02). This is the 'rubber compound ready to process' heading",
-        "Heading 40.06 — Other forms (e.g., rods, tubes and profile shapes) and articles (e.g., discs and rings) of unvulcanised rubber; granules of unvulcanised rubber",
-        "Heading 40.07 — Vulcanised rubber thread and cord",
-        "Heading 40.08 — Plates, sheets, strip, rods and profile shapes of vulcanised rubber (other than hard rubber). Note 9: plates/sheets/strip = uncut or simply cut to rectangles; rods/profile shapes = cut to length or surface-worked only. Note 7: vulcanised rubber thread with any cross-sectional dimension >5mm → 40.08 as strip/rod/profile shape",
-        "Heading 40.09 — Tubes, pipes and hoses of vulcanised rubber other than hard rubber, with or without their fittings (e.g., joints, elbows, flanges)",
-        "Heading 40.10 — Conveyor or transmission belts or belting of vulcanised rubber. Note 8: includes textile fabric belts impregnated/coated/covered/laminated with rubber, or belts made from rubber-coated textile yarn/cord",
-        "Heading 40.11 — New pneumatic tyres of rubber",
-        "Heading 40.12 — Retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps of rubber",
-        "Heading 40.13 — Inner tubes of rubber",
-        "Heading 40.14 — Hygienic or pharmaceutical articles (including teats) of vulcanised rubber other than hard rubber, with or without fittings of hard rubber: condoms; gloves for medical use; hot water bottles; ice bags; teats/nipples; other pharmaceutical rubber articles",
-        "Heading 40.15 — Articles of apparel and clothing accessories (including gloves, mittens and mitts) for all purposes, of vulcanised rubber other than hard rubber: surgical/examination gloves; industrial protective gloves; diving suits; aprons; rubber clothing",
-        "Heading 40.16 — Other articles of vulcanised rubber other than hard rubber: erasers; gaskets and washers; rubber bands; rubber stoppers; inflatable articles; rubber mats and matting; rubber buffers and bumpers; other articles NES",
-        "Heading 40.17 — Hard rubber (ebonite) in all forms, including waste and scrap; articles of hard rubber"
+        {
+            "heading": "40.01",
+            "description": "Natural rubber, balata, gutta-percha, guayule, chicle and similar natural gums, in primary forms or in plates, sheets or strip. Primary forms: latex (pre-vulcanised or not), blocks, lumps, bales, powders, granules, crumbs. Note 5(B) permitted additives only (emulsifiers, anti-tack agents, antioxidants, stabilisers, viscosity agents in very small amounts)"
+        },
+        {
+            "heading": "40.02",
+            "description": "Synthetic rubber and factice derived from oils, in primary forms or in plates, sheets or strip; mixtures of any product of heading 40.01 with any product of this heading. Definition of synthetic rubber per Note 4: (a) unsaturated synthetic substances irreversibly vulcanisable with sulphur → non-thermoplastic, no break at 3× length at 18–29°C, recovery to ≤1.5× after 2× stretch; (b) Thioplasts (TM); (c) graft/blended modified natural rubber, depolymerised natural rubber, mixtures of unsaturated synthetic + saturated synthetic high polymers — all complying with Note 4(a) test. Key types: SBR, NBR, EPDM, CR (neoprene), IIR (butyl), BIIR, CIIR, BR, IR, CSM, ACM, AEM, ECO, silicone rubber (gum)"
+        },
+        {
+            "heading": "40.03",
+            "description": "Reclaimed rubber in primary forms or in plates, sheets or strip"
+        },
+        {
+            "heading": "40.04",
+            "description": "Waste, parings and scrap of rubber (Note 6: from manufacture/working of rubber, definitely not usable as such — due to cutting, wear or other reasons); powders and granules obtained therefrom"
+        },
+        {
+            "heading": "40.05",
+            "description": "Compounded rubber, unvulcanised, in primary forms or in plates, sheets or strip: rubber mixed with vulcanising agents, fillers, pigments, plasticisers etc. (Note 5(A) items that disqualify from 40.01/40.02). This is the 'rubber compound ready to process' heading"
+        },
+        {
+            "heading": "40.06",
+            "description": "Other forms (e.g., rods, tubes and profile shapes) and articles (e.g., discs and rings) of unvulcanised rubber; granules of unvulcanised rubber"
+        },
+        {
+            "heading": "40.07",
+            "description": "Vulcanised rubber thread and cord"
+        },
+        {
+            "heading": "40.08",
+            "description": "Plates, sheets, strip, rods and profile shapes of vulcanised rubber (other than hard rubber). Note 9: plates/sheets/strip = uncut or simply cut to rectangles; rods/profile shapes = cut to length or surface-worked only. Note 7: vulcanised rubber thread with any cross-sectional dimension >5mm → 40.08 as strip/rod/profile shape"
+        },
+        {
+            "heading": "40.09",
+            "description": "Tubes, pipes and hoses of vulcanised rubber other than hard rubber, with or without their fittings (e.g., joints, elbows, flanges)"
+        },
+        {
+            "heading": "40.10",
+            "description": "Conveyor or transmission belts or belting of vulcanised rubber. Note 8: includes textile fabric belts impregnated/coated/covered/laminated with rubber, or belts made from rubber-coated textile yarn/cord"
+        },
+        {
+            "heading": "40.11",
+            "description": "New pneumatic tyres of rubber"
+        },
+        {
+            "heading": "40.12",
+            "description": "Retreaded or used pneumatic tyres of rubber; solid or cushion tyres, tyre treads and tyre flaps of rubber"
+        },
+        {
+            "heading": "40.13",
+            "description": "Inner tubes of rubber"
+        },
+        {
+            "heading": "40.14",
+            "description": "Hygienic or pharmaceutical articles (including teats) of vulcanised rubber other than hard rubber, with or without fittings of hard rubber: condoms; gloves for medical use; hot water bottles; ice bags; teats/nipples; other pharmaceutical rubber articles"
+        },
+        {
+            "heading": "40.15",
+            "description": "Articles of apparel and clothing accessories (including gloves, mittens and mitts) for all purposes, of vulcanised rubber other than hard rubber: surgical/examination gloves; industrial protective gloves; diving suits; aprons; rubber clothing"
+        },
+        {
+            "heading": "40.16",
+            "description": "Other articles of vulcanised rubber other than hard rubber: erasers; gaskets and washers; rubber bands; rubber stoppers; inflatable articles; rubber mats and matting; rubber buffers and bumpers; other articles NES"
+        },
+        {
+            "heading": "40.17",
+            "description": "Hard rubber (ebonite) in all forms, including waste and scrap; articles of hard rubber"
+        }
     ],
     "exclusions": [
         {

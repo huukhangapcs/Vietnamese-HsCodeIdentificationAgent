@@ -3,32 +3,84 @@
     "chapter_title": "Other made up textile articles; sets; worn clothing and worn textile articles; rags",
     "scope_note": "Note 1: Sub-Chapter I (63.01–63.08) applies only to MADE-UP ARTICLES of any textile fabric. Note 2: Sub-Chapter I does NOT cover goods of Ch.56–62 or worn clothing of 63.09. Subheading Note 1: 6304.20 = articles from warp knit fabrics impregnated/coated with specified insecticides (alpha-cypermethrin, chlorfenapyr, deltamethrin, lambda-cyhalothrin, permethrin, pirimiphos-methyl).",
     "inclusions": [
-        "Heading 63.01 — Blankets and travelling rugs (of all textile materials — wool, cotton, man-made fibres, etc.)",
-        "Heading 63.02 — Bed linen, table linen, toilet linen and kitchen linen",
-        "Heading 63.03 — Curtains (including drapes) and interior blinds; curtain or bed valances",
-        "Heading 63.04 — Other furnishing articles, excluding those of heading 94.04 (bedding): bedspreads, cushion covers, wall hangings, mosquito nets. Subheading 6304.20: mosquito nets of warp knit fabric impregnated/coated with listed insecticides",
-        "Heading 63.05 — Sacks and bags, of a kind used for the packing of goods (jute bags, polypropylene woven bags, cotton sacks, etc.)",
-        "Heading 63.06 — Tarpaulins, awnings and sunblinds; tents (including temporary canopies and similar articles); sails for boats, sailboards or land craft; camping goods (e.g., pneumatic mattresses of textile)",
-        "Heading 63.07 — Other made up articles, including dress patterns: floorcloths, dishcloths, dusters, face cloths, shoe-cleaning cloths, life jackets and life belts, flags, banners, pennants, hunting, labels, badges, motifs",
-        "Heading 63.08 — Sets consisting of woven fabric and yarn, whether or not with accessories, for making up into rugs, tapestries, embroidered tablecloths or serviettes, or similar textile articles, put up in packings for retail sale",
-        "Heading 63.09 — Worn clothing and other worn articles. Note 3: 63.09 applies ONLY to: (a)(i) clothing/accessories and parts thereof; (a)(ii) blankets and travelling rugs; (a)(iii) bed/table/toilet/kitchen linen; (a)(iv) furnishing articles (not carpets 57.01–57.05 or tapestries 58.05); (b) footwear and headgear of any material (not asbestos). BOTH conditions required: (i) must show signs of APPRECIABLE WEAR; AND (ii) must be presented IN BULK or in bales, sacks or similar packings",
-        "Heading 63.10 — Used or new rags, scrap twine, cordage, rope and cables and worn out articles of twine, cordage, rope or cables, of textile materials"
+        {
+            "heading": "63.01",
+            "description": "Blankets and travelling rugs (of all textile materials — wool, cotton, man-made fibres, etc.)"
+        },
+        {
+            "heading": "63.02",
+            "description": "Bed linen, table linen, toilet linen and kitchen linen"
+        },
+        {
+            "heading": "63.03",
+            "description": "Curtains (including drapes) and interior blinds; curtain or bed valances"
+        },
+        {
+            "heading": "63.04",
+            "description": "Other furnishing articles, excluding those of heading 94.04 (bedding): bedspreads, cushion covers, wall hangings, mosquito nets. Subheading 6304.20: mosquito nets of warp knit fabric impregnated/coated with listed insecticides"
+        },
+        {
+            "heading": "63.05",
+            "description": "Sacks and bags, of a kind used for the packing of goods (jute bags, polypropylene woven bags, cotton sacks, etc.)"
+        },
+        {
+            "heading": "63.06",
+            "description": "Tarpaulins, awnings and sunblinds; tents (including temporary canopies and similar articles); sails for boats, sailboards or land craft; camping goods (e.g., pneumatic mattresses of textile)"
+        },
+        {
+            "heading": "63.07",
+            "description": "Other made up articles, including dress patterns: floorcloths, dishcloths, dusters, face cloths, shoe-cleaning cloths, life jackets and life belts, flags, banners, pennants, hunting, labels, badges, motifs"
+        },
+        {
+            "heading": "63.08",
+            "description": "Sets consisting of woven fabric and yarn, whether or not with accessories, for making up into rugs, tapestries, embroidered tablecloths or serviettes, or similar textile articles, put up in packings for retail sale"
+        },
+        {
+            "heading": "63.09",
+            "description": "Worn clothing and other worn articles. Note 3: 63.09 applies ONLY to: (a)(i) clothing/accessories and parts thereof; (a)(ii) blankets and travelling rugs; (a)(iii) bed/table/toilet/kitchen linen; (a)(iv) furnishing articles (not carpets 57.01–57.05 or tapestries 58.05); (b) footwear and headgear of any material (not asbestos). BOTH conditions required: (i) must show signs of APPRECIABLE WEAR; AND (ii) must be presented IN BULK or in bales, sacks or similar packings"
+        },
+        {
+            "heading": "63.10",
+            "description": "Used or new rags, scrap twine, cordage, rope and cables and worn out articles of twine, cordage, rope or cables, of textile materials"
+        }
     ],
     "exclusions": [
         {
             "condition": "Goods of Chapters 56–62 that happen to be made-up textile articles",
             "action": "Remain in Ch.56–62 — Note 2(a). Sub-Chapter I (63.01–63.08) specifically gives way to Ch.56–62. Knitted clothing → Ch.61. Woven clothing → Ch.62. Wadding, felt articles → Ch.56. Textile floor coverings → Ch.57. Special textile fabrics → Ch.58/59",
-            "keywords": ["clothing knitted", "clothing woven", "felt article", "floor covering textile", "61.", "62.", "56.", "57.", "58.", "59."]
+            "keywords": [
+                "clothing knitted",
+                "clothing woven",
+                "felt article",
+                "floor covering textile",
+                "61.",
+                "62.",
+                "56.",
+                "57.",
+                "58.",
+                "59."
+            ]
         },
         {
             "condition": "Worn clothing or other worn articles meeting 63.09 criteria, presented within Sub-Chapter I context",
             "action": "Redirect to heading 63.09 — Note 2(b). Used/worn items that show appreciable wear AND are in bulk — always → 63.09 regardless of article type",
-            "keywords": ["worn clothing bulk", "used textile bulk", "second-hand clothing bale", "63.09"]
+            "keywords": [
+                "worn clothing bulk",
+                "used textile bulk",
+                "second-hand clothing bale",
+                "63.09"
+            ]
         },
         {
             "condition": "Bedding articles (mattress supports, mattresses, pillows, sleeping bags) — functional bedding",
             "action": "Redirect to heading 94.04 (mattress supports; articles of bedding and similar furnishing) — Bedspreads and cushion covers → 63.04. But STUFFED/FILLED functional bedding (pillows, duvets, sleeping bags, mattresses) → 94.04",
-            "keywords": ["pillow stuffed", "duvet filled", "sleeping bag", "mattress", "94.04"]
+            "keywords": [
+                "pillow stuffed",
+                "duvet filled",
+                "sleeping bag",
+                "mattress",
+                "94.04"
+            ]
         }
     ],
     "classification_rules": [

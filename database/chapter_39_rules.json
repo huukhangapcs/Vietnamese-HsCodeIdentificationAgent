@@ -2,32 +2,110 @@
     "chapter_code": "39",
     "chapter_title": "Plastics and articles thereof",
     "inclusions": [
-        "Heading 39.01 — Polymers of ethylene in primary forms: LDPE, HDPE, LLDPE, VLDPE; EVA (ethylene-vinyl acetate copolymers ≥95%); ethylene-alpha-olefin copolymers; liquid synthetic polyolefins with <60% vol distilling at 300°C",
-        "Heading 39.02 — Polymers of propylene or of other olefins in primary forms: polypropylene (PP); polyisobutylene; propylene copolymers; other polyolefins",
-        "Heading 39.03 — Polymers of styrene in primary forms: polystyrene (PS), expandable; ABS (acrylonitrile-butadiene-styrene ≥95%); SAN (styrene-acrylonitrile ≥95%); other styrene copolymers",
-        "Heading 39.04 — Polymers of vinyl chloride or other halogenated olefins in primary forms: PVC (polyvinyl chloride); vinyl chloride-vinyl acetate copolymers (≥95%); PVDC (polyvinylidene chloride); PTFE, FEP and other fluoropolymers; vinyl chloride copolymers",
-        "Heading 39.05 — Polymers of vinyl acetate or other vinyl esters in primary forms; other vinyl polymers: PVA (polyvinyl acetate); PVOH (polyvinyl alcohol); PVB (polyvinyl butyral); other vinyl polymers",
-        "Heading 39.06 — Acrylic polymers in primary forms: PMMA (polymethyl methacrylate); polyacrylic acid; polyacrylates; polyacrylamide; acrylonitrile polymers; acrylic copolymers",
-        "Heading 39.07 — Polyacetals, other polyethers and epoxide resins in primary forms; polycarbonates, alkyd resins, polyallyl esters and other polyesters in primary forms: POM (polyacetal/polyoxymethylene); PEG/PPG (polyethylene/propylene glycols); epoxy resins; PET/PBT/PTT (polyesters); polycarbonate (PC); alkyd resins",
-        "Heading 39.08 — Polyamides in primary forms: nylon-6; nylon-6,6; nylon-11; nylon-12; other polyamides",
-        "Heading 39.09 — Amino-resins, phenolic resins and polyurethanes in primary forms: urea-formaldehyde (UF) resins; melamine-formaldehyde (MF) resins; phenol-formaldehyde (PF) resins; polyurethanes (PU) — rigid and flexible; resols and other prepolymers",
-        "Heading 39.10 — Silicones in primary forms: polydimethylsiloxane (PDMS); silicone oils, emulsions, resins in primary form",
-        "Heading 39.11 — Petroleum resins, coumarone-indene resins, polyterpenes, polysulphides, polysulphones and other products specified in Note 3 of this Chapter, not elsewhere specified or included, in primary forms. Includes: hydrocarbon resins; coumarone-indene resins even if not highly polymerised; poly(2,6-dimethyl-1,4-phenylene oxide); poly(phenylene sulphide)",
-        "Heading 39.12 — Cellulose and its chemical derivatives in primary forms: cellulose acetate; cellulose acetate-butyrate; cellulose nitrate; CMC (carboxymethylcellulose); HPMC; ethylcellulose; methylcellulose; viscose",
-        "Heading 39.13 — Natural polymers (e.g., alginic acid) and modified natural polymers (e.g., hardened proteins, chemical derivatives of natural rubber) in primary forms, NES",
-        "Heading 39.14 — Ion-exchangers based on polymers of headings 39.01 to 39.13, in primary forms",
-        "Heading 39.15 — Waste, parings and scrap of plastics. NOTE: excludes waste of a single thermoplastic material converted back into primary forms (→ 39.01–39.14 per Note 7)",
-        "Heading 39.16 — Monofilament of which any cross-sectional dimension exceeds 1 mm, rods, sticks and profile shapes, of plastics",
-        "Heading 39.17 — Tubes, pipes and hoses and fittings therefor (e.g., joints, elbows, flanges) of plastics. Includes sausage casings and lay-flat tubing. Round/oval/rectangular/regular polygon cross-section required (except lay-flat; others → 39.16 profile shapes)",
-        "Heading 39.18 — Floor coverings of plastics, whether or not self-adhesive, in rolls or in the form of tiles; wall or ceiling coverings of plastics (Note 9: in rolls ≥45 cm wide, with decorated plastic face on non-paper backing)",
-        "Heading 39.19 — Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes, of plastics, whether or not in rolls",
-        "Heading 39.20 — Other plates, sheets, film, foil and strip, of plastics, NOT self-adhesive, NOT cellular, uncut or cut into rectangles only (Note 10). Combined with non-textile backing materials",
-        "Heading 39.21 — Other plates, sheets, film, foil and strip of plastics — cellular (foam) or combined with other materials (not eligible for 39.20)",
-        "Heading 39.22 — Baths, shower-baths, washbasins, bidets, lavatory pans, seats and covers, flushing cisterns and similar sanitary ware of plastics",
-        "Heading 39.23 — Articles for the conveyance or packing of goods of plastics: boxes, crates, trays, sacks, bags, containers; spools, bobbins, cops and similar supports",
-        "Heading 39.24 — Tableware, kitchenware, other household articles and hygienic or toilet articles of plastics",
-        "Heading 39.25 — Builders' ware of plastics NES (Note 11 exhaustive list): tanks/reservoirs/vats >300L; structural elements (floors, walls, ceilings, roofs); gutters; doors/windows/frames/thresholds; balconies/balustrades/fencing/gates; shutters/blinds; large-scale shelving for permanent installation; ornamental architectural features; fittings/mountings for permanent installation in buildings (knobs, handles, hooks, switch-plates)",
-        "Heading 39.26 — Other articles of plastics and articles of other materials of headings 39.01 to 39.14: stoppers, lids, caps; office/school supplies; clothing/apparel accessories; fittings for furniture, coachwork or the like; statuettes and other ornamental articles; transmission or conveyor belts or belting; other articles NES"
+        {
+            "heading": "39.01",
+            "description": "Polymers of ethylene in primary forms: LDPE, HDPE, LLDPE, VLDPE; EVA (ethylene-vinyl acetate copolymers ≥95%); ethylene-alpha-olefin copolymers; liquid synthetic polyolefins with <60% vol distilling at 300°C"
+        },
+        {
+            "heading": "39.02",
+            "description": "Polymers of propylene or of other olefins in primary forms: polypropylene (PP); polyisobutylene; propylene copolymers; other polyolefins"
+        },
+        {
+            "heading": "39.03",
+            "description": "Polymers of styrene in primary forms: polystyrene (PS), expandable; ABS (acrylonitrile-butadiene-styrene ≥95%); SAN (styrene-acrylonitrile ≥95%); other styrene copolymers"
+        },
+        {
+            "heading": "39.04",
+            "description": "Polymers of vinyl chloride or other halogenated olefins in primary forms: PVC (polyvinyl chloride); vinyl chloride-vinyl acetate copolymers (≥95%); PVDC (polyvinylidene chloride); PTFE, FEP and other fluoropolymers; vinyl chloride copolymers"
+        },
+        {
+            "heading": "39.05",
+            "description": "Polymers of vinyl acetate or other vinyl esters in primary forms; other vinyl polymers: PVA (polyvinyl acetate); PVOH (polyvinyl alcohol); PVB (polyvinyl butyral); other vinyl polymers"
+        },
+        {
+            "heading": "39.06",
+            "description": "Acrylic polymers in primary forms: PMMA (polymethyl methacrylate); polyacrylic acid; polyacrylates; polyacrylamide; acrylonitrile polymers; acrylic copolymers"
+        },
+        {
+            "heading": "39.07",
+            "description": "Polyacetals, other polyethers and epoxide resins in primary forms; polycarbonates, alkyd resins, polyallyl esters and other polyesters in primary forms: POM (polyacetal/polyoxymethylene); PEG/PPG (polyethylene/propylene glycols); epoxy resins; PET/PBT/PTT (polyesters); polycarbonate (PC); alkyd resins"
+        },
+        {
+            "heading": "39.08",
+            "description": "Polyamides in primary forms: nylon-6; nylon-6,6; nylon-11; nylon-12; other polyamides"
+        },
+        {
+            "heading": "39.09",
+            "description": "Amino-resins, phenolic resins and polyurethanes in primary forms: urea-formaldehyde (UF) resins; melamine-formaldehyde (MF) resins; phenol-formaldehyde (PF) resins; polyurethanes (PU) — rigid and flexible; resols and other prepolymers"
+        },
+        {
+            "heading": "39.10",
+            "description": "Silicones in primary forms: polydimethylsiloxane (PDMS); silicone oils, emulsions, resins in primary form"
+        },
+        {
+            "heading": "39.11",
+            "description": "Petroleum resins, coumarone-indene resins, polyterpenes, polysulphides, polysulphones and other products specified in Note 3 of this Chapter, not elsewhere specified or included, in primary forms. Includes: hydrocarbon resins; coumarone-indene resins even if not highly polymerised; poly(2,6-dimethyl-1,4-phenylene oxide); poly(phenylene sulphide)"
+        },
+        {
+            "heading": "39.12",
+            "description": "Cellulose and its chemical derivatives in primary forms: cellulose acetate; cellulose acetate-butyrate; cellulose nitrate; CMC (carboxymethylcellulose); HPMC; ethylcellulose; methylcellulose; viscose"
+        },
+        {
+            "heading": "39.13",
+            "description": "Natural polymers (e.g., alginic acid) and modified natural polymers (e.g., hardened proteins, chemical derivatives of natural rubber) in primary forms, NES"
+        },
+        {
+            "heading": "39.14",
+            "description": "Ion-exchangers based on polymers of headings 39.01 to 39.13, in primary forms"
+        },
+        {
+            "heading": "39.15",
+            "description": "Waste, parings and scrap of plastics. NOTE: excludes waste of a single thermoplastic material converted back into primary forms (→ 39.01–39.14 per Note 7)"
+        },
+        {
+            "heading": "39.16",
+            "description": "Monofilament of which any cross-sectional dimension exceeds 1 mm, rods, sticks and profile shapes, of plastics"
+        },
+        {
+            "heading": "39.17",
+            "description": "Tubes, pipes and hoses and fittings therefor (e.g., joints, elbows, flanges) of plastics. Includes sausage casings and lay-flat tubing. Round/oval/rectangular/regular polygon cross-section required (except lay-flat; others → 39.16 profile shapes)"
+        },
+        {
+            "heading": "39.18",
+            "description": "Floor coverings of plastics, whether or not self-adhesive, in rolls or in the form of tiles; wall or ceiling coverings of plastics (Note 9: in rolls ≥45 cm wide, with decorated plastic face on non-paper backing)"
+        },
+        {
+            "heading": "39.19",
+            "description": "Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes, of plastics, whether or not in rolls"
+        },
+        {
+            "heading": "39.20",
+            "description": "Other plates, sheets, film, foil and strip, of plastics, NOT self-adhesive, NOT cellular, uncut or cut into rectangles only (Note 10). Combined with non-textile backing materials"
+        },
+        {
+            "heading": "39.21",
+            "description": "Other plates, sheets, film, foil and strip of plastics — cellular (foam) or combined with other materials (not eligible for 39.20)"
+        },
+        {
+            "heading": "39.22",
+            "description": "Baths, shower-baths, washbasins, bidets, lavatory pans, seats and covers, flushing cisterns and similar sanitary ware of plastics"
+        },
+        {
+            "heading": "39.23",
+            "description": "Articles for the conveyance or packing of goods of plastics: boxes, crates, trays, sacks, bags, containers; spools, bobbins, cops and similar supports"
+        },
+        {
+            "heading": "39.24",
+            "description": "Tableware, kitchenware, other household articles and hygienic or toilet articles of plastics"
+        },
+        {
+            "heading": "39.25",
+            "description": "Builders' ware of plastics NES (Note 11 exhaustive list): tanks/reservoirs/vats >300L; structural elements (floors, walls, ceilings, roofs); gutters; doors/windows/frames/thresholds; balconies/balustrades/fencing/gates; shutters/blinds; large-scale shelving for permanent installation; ornamental architectural features; fittings/mountings for permanent installation in buildings (knobs, handles, hooks, switch-plates)"
+        },
+        {
+            "heading": "39.26",
+            "description": "Other articles of plastics and articles of other materials of headings 39.01 to 39.14: stoppers, lids, caps; office/school supplies; clothing/apparel accessories; fittings for furniture, coachwork or the like; statuettes and other ornamental articles; transmission or conveyor belts or belting; other articles NES"
+        }
     ],
     "exclusions": [
         {

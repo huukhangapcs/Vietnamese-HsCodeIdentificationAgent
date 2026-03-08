@@ -2,13 +2,34 @@
     "chapter_code": "34",
     "chapter_title": "Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, 'dental waxes' and dental preparations with a basis of plaster",
     "inclusions": [
-        "Heading 34.01 — Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes; paper, wadding, felt and nonwovens impregnated/coated/covered with soap or detergent; shaving products (shaving cream, foam); scouring powders and similar preparations; whether or not containing soap",
-        "Heading 34.02 — Organic surface-active agents (other than soap); surface-active preparations, washing preparations (including auxiliary washing preparations) and cleaning preparations, whether or not containing soap, other than those of heading 33.07",
-        "Heading 34.03 — Lubricating preparations (including cutting-oil preparations, bolt loosening preparations, anti-rust or anti-corrosion preparations and mould release preparations) based on lubricants and also preparations of a kind used for oil or grease treatment of textile materials, leather, furskins or other materials; BUT excluding preparations containing, as basic constituents, 70% or more by weight of petroleum oils or oils from bituminous minerals",
-        "Heading 34.04 — Artificial waxes and prepared waxes: polyethylene glycol wax; waxes of silicone; waxes from Ch.15 mixed with other parts; lignite wax, peat wax, other mineral waxes; prepared waxes not elsewhere specified",
-        "Heading 34.05 — Polishes and creams for footwear, furniture, floors, coachwork, glass, metal; scouring pastes and powders and similar preparations (whether or not in the form of paper, wadding, felt, nonwovens, cellular plastics/rubber impregnated/coated with these preparations); excluding waxes of heading 34.04",
-        "Heading 34.06 — Candles, tapers and the like",
-        "Heading 34.07 — Modelling pastes, including those put up for children's amusement; preparations known as 'dental wax' or as 'dental impression compounds', put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms; other preparations for use in dentistry, with a basis of plaster"
+        {
+            "heading": "34.01",
+            "description": "Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes; paper, wadding, felt and nonwovens impregnated/coated/covered with soap or detergent; shaving products (shaving cream, foam); scouring powders and similar preparations; whether or not containing soap"
+        },
+        {
+            "heading": "34.02",
+            "description": "Organic surface-active agents (other than soap); surface-active preparations, washing preparations (including auxiliary washing preparations) and cleaning preparations, whether or not containing soap, other than those of heading 33.07"
+        },
+        {
+            "heading": "34.03",
+            "description": "Lubricating preparations (including cutting-oil preparations, bolt loosening preparations, anti-rust or anti-corrosion preparations and mould release preparations) based on lubricants and also preparations of a kind used for oil or grease treatment of textile materials, leather, furskins or other materials; BUT excluding preparations containing, as basic constituents, 70% or more by weight of petroleum oils or oils from bituminous minerals"
+        },
+        {
+            "heading": "34.04",
+            "description": "Artificial waxes and prepared waxes: polyethylene glycol wax; waxes of silicone; waxes from Ch.15 mixed with other parts; lignite wax, peat wax, other mineral waxes; prepared waxes not elsewhere specified"
+        },
+        {
+            "heading": "34.05",
+            "description": "Polishes and creams for footwear, furniture, floors, coachwork, glass, metal; scouring pastes and powders and similar preparations (whether or not in the form of paper, wadding, felt, nonwovens, cellular plastics/rubber impregnated/coated with these preparations); excluding waxes of heading 34.04"
+        },
+        {
+            "heading": "34.06",
+            "description": "Candles, tapers and the like"
+        },
+        {
+            "heading": "34.07",
+            "description": "Modelling pastes, including those put up for children's amusement; preparations known as 'dental wax' or as 'dental impression compounds', put up in sets, in packings for retail sale or in plates, horseshoe shapes, sticks or similar forms; other preparations for use in dentistry, with a basis of plaster"
+        }
     ],
     "exclusions": [
         {

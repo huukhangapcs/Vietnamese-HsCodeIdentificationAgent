@@ -2,24 +2,60 @@
     "chapter_code": "79",
     "chapter_title": "Zinc and articles thereof",
     "inclusions": [
-        "Heading 79.01 — Unwrought zinc. Subheading Note definitions: (a) Zinc, not alloyed = metal ≥97.5% zinc by weight; (b) Zinc alloys = metallic substances where zinc predominates by weight over each other element AND total other elements >2.5% by weight; (c) Zinc dust = dust from condensation of zinc vapour, spherical particles with ≥80% by weight passing 63µm sieve, containing ≥85% metallic zinc by weight",
-        "Heading 79.02 — Zinc waste and scrap",
-        "Heading 79.03 — Zinc dust, powders and flakes (Subheading Note 1(c) defines zinc dust specifically by particle size and zinc purity)",
-        "Heading 79.04 — Zinc bars, rods, profiles and wire",
-        "Heading 79.05 — Zinc plates, sheets, strip and foil",
-        "Heading 79.06 — Zinc tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)",
-        "Heading 79.07 — Other articles of zinc: gutters, roof capping, skylight frames, zinc-based die castings, zinc anodes, zinc alloy wheels, monuments/ornaments of zinc"
+        {
+            "heading": "79.01",
+            "description": "Unwrought zinc. Subheading Note definitions: (a) Zinc, not alloyed = metal ≥97.5% zinc by weight; (b) Zinc alloys = metallic substances where zinc predominates by weight over each other element AND total other elements >2.5% by weight; (c) Zinc dust = dust from condensation of zinc vapour, spherical particles with ≥80% by weight passing 63µm sieve, containing ≥85% metallic zinc by weight"
+        },
+        {
+            "heading": "79.02",
+            "description": "Zinc waste and scrap"
+        },
+        {
+            "heading": "79.03",
+            "description": "Zinc dust, powders and flakes (Subheading Note 1(c) defines zinc dust specifically by particle size and zinc purity)"
+        },
+        {
+            "heading": "79.04",
+            "description": "Zinc bars, rods, profiles and wire"
+        },
+        {
+            "heading": "79.05",
+            "description": "Zinc plates, sheets, strip and foil"
+        },
+        {
+            "heading": "79.06",
+            "description": "Zinc tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)"
+        },
+        {
+            "heading": "79.07",
+            "description": "Other articles of zinc: gutters, roof capping, skylight frames, zinc-based die castings, zinc anodes, zinc alloy wheels, monuments/ornaments of zinc"
+        }
     ],
     "exclusions": [
         {
             "condition": "Zinc compounds (zinc oxide, zinc sulphate, zinc chloride, zinc phosphate, etc.)",
             "action": "Redirect to Chapter 28 (inorganic zinc compounds) or Chapter 29 (organic zinc compounds). Metallic zinc → Ch.79; chemical compounds of zinc → Ch.28/29",
-            "keywords": ["zinc oxide", "zinc sulphate", "zinc chloride", "zinc phosphate", "zinc carbonate", "28.", "29."]
+            "keywords": [
+                "zinc oxide",
+                "zinc sulphate",
+                "zinc chloride",
+                "zinc phosphate",
+                "zinc carbonate",
+                "28.",
+                "29."
+            ]
         },
         {
             "condition": "Zinc-coated (galvanised) steel or other base metals — zinc applied as coating/plating",
             "action": "Redirect to the base metal substrate chapter: galvanised steel → Ch.72 (heading 72.10 or 72.14 etc.), galvanised copper → Ch.74. The zinc coating is incidental; the article is classified by the substrate metal",
-            "keywords": ["galvanised steel", "zinc coated steel", "galvanized iron", "zinc plated steel", "72.10", "72.14"]
+            "keywords": [
+                "galvanised steel",
+                "zinc coated steel",
+                "galvanized iron",
+                "zinc plated steel",
+                "72.10",
+                "72.14"
+            ]
         }
     ],
     "classification_rules": [

@@ -3,34 +3,88 @@
     "chapter_title": "Cotton",
     "scope_note": "Chapter 52 covers ALL cotton products from raw fibre to woven fabric. Subheading Note 1: 'denim' for subheadings 5209.42 and 5211.42 = fabrics of yarns of different colours, 3-thread or 4-thread twill (including broken twill), WARP FACED; warp yarns of ONE AND SAME colour; weft yarns unbleached, bleached, dyed grey or a LIGHTER SHADE than warp.",
     "inclusions": [
-        "Heading 52.01 — Cotton, not carded or combed (raw cotton, ginned but not carded/combed; linters of cotton)",
-        "Heading 52.02 — Cotton waste (including yarn waste and garnetted stock)",
-        "Heading 52.03 — Cotton, carded or combed",
-        "Heading 52.04 — Cotton sewing thread, whether or not put up for retail sale",
-        "Heading 52.05 — Cotton yarn (other than sewing thread) containing 85% or more by weight of cotton, not put up for retail sale",
-        "Heading 52.06 — Cotton yarn (other than sewing thread) containing less than 85% by weight of cotton, not put up for retail sale",
-        "Heading 52.07 — Cotton yarn (other than sewing thread), put up for retail sale (both ≥85% and <85% cotton)",
-        "Heading 52.08 — Woven fabrics of cotton, containing 85% or more by weight of cotton, weighing not more than 200 g/m2",
-        "Heading 52.09 — Woven fabrics of cotton, containing 85% or more by weight of cotton, weighing more than 200 g/m2. Subheading 5209.42: denim fabrics (warp-faced 3/4-thread twill, different colour warp/weft, lighter weft shade)",
-        "Heading 52.10 — Woven fabrics of cotton, containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing not more than 200 g/m2",
-        "Heading 52.11 — Woven fabrics of cotton, containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing more than 200 g/m2. Subheading 5211.42: denim (same definition as 5209.42 but <85% cotton)",
-        "Heading 52.12 — Other woven fabrics of cotton (containing <85% cotton, mixed with fibres other than man-made — e.g., with wool, linen, silk)"
+        {
+            "heading": "52.01",
+            "description": "Cotton, not carded or combed (raw cotton, ginned but not carded/combed; linters of cotton)"
+        },
+        {
+            "heading": "52.02",
+            "description": "Cotton waste (including yarn waste and garnetted stock)"
+        },
+        {
+            "heading": "52.03",
+            "description": "Cotton, carded or combed"
+        },
+        {
+            "heading": "52.04",
+            "description": "Cotton sewing thread, whether or not put up for retail sale"
+        },
+        {
+            "heading": "52.05",
+            "description": "Cotton yarn (other than sewing thread) containing 85% or more by weight of cotton, not put up for retail sale"
+        },
+        {
+            "heading": "52.06",
+            "description": "Cotton yarn (other than sewing thread) containing less than 85% by weight of cotton, not put up for retail sale"
+        },
+        {
+            "heading": "52.07",
+            "description": "Cotton yarn (other than sewing thread), put up for retail sale (both ≥85% and <85% cotton)"
+        },
+        {
+            "heading": "52.08",
+            "description": "Woven fabrics of cotton, containing 85% or more by weight of cotton, weighing not more than 200 g/m2"
+        },
+        {
+            "heading": "52.09",
+            "description": "Woven fabrics of cotton, containing 85% or more by weight of cotton, weighing more than 200 g/m2. Subheading 5209.42: denim fabrics (warp-faced 3/4-thread twill, different colour warp/weft, lighter weft shade)"
+        },
+        {
+            "heading": "52.10",
+            "description": "Woven fabrics of cotton, containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing not more than 200 g/m2"
+        },
+        {
+            "heading": "52.11",
+            "description": "Woven fabrics of cotton, containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing more than 200 g/m2. Subheading 5211.42: denim (same definition as 5209.42 but <85% cotton)"
+        },
+        {
+            "heading": "52.12",
+            "description": "Other woven fabrics of cotton (containing <85% cotton, mixed with fibres other than man-made — e.g., with wool, linen, silk)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Cotton products that are knitted or crocheted",
             "action": "Knitted cotton fabrics → Chapter 60. Knitted cotton garments → Chapter 61 (if knit) or 62 (if woven). Chapter 52 covers only WOVEN fabrics and raw/yarn cotton products",
-            "keywords": ["knitted cotton fabric", "cotton jersey knit", "cotton knitwear", "60.", "61."]
+            "keywords": [
+                "knitted cotton fabric",
+                "cotton jersey knit",
+                "cotton knitwear",
+                "60.",
+                "61."
+            ]
         },
         {
             "condition": "Cotton woven fabrics that are impregnated, coated, covered or laminated",
             "action": "Redirect to Chapter 59. PU-coated cotton fabric → 59.03. Rubber-coated cotton fabric → 59.06. Bitumen-coated cotton canvas → 59.07",
-            "keywords": ["coated cotton fabric", "laminated cotton", "rubber coated cotton", "59.03", "59.06"]
+            "keywords": [
+                "coated cotton fabric",
+                "laminated cotton",
+                "rubber coated cotton",
+                "59.03",
+                "59.06"
+            ]
         },
         {
             "condition": "Wadding and textile fill articles of cotton used for medical/sanitary purposes",
             "action": "Redirect to heading 96.19 (sanitary towels/tampons/diapers) or Ch.30 (pharmaceutical) if medically prepared. Raw cotton wadding → 56.01. Medicated cotton wool → Ch.30",
-            "keywords": ["cotton wool sanitary", "cotton sanitary pad", "cotton tampon", "96.19", "30."]
+            "keywords": [
+                "cotton wool sanitary",
+                "cotton sanitary pad",
+                "cotton tampon",
+                "96.19",
+                "30."
+            ]
         }
     ],
     "classification_rules": [

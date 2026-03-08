@@ -2,13 +2,34 @@
     "chapter_code": "35",
     "chapter_title": "Albuminoidal substances; modified starches; glues; enzymes",
     "inclusions": [
-        "Heading 35.01 — Casein, caseinates and other casein derivatives; casein glues",
-        "Heading 35.02 — Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives — includes: ovalbumin, lactalbumin, blood albumin (for non-therapeutic/non-prophylactic use)",
-        "Heading 35.03 — Gelatin (including gelatin in rectangular/square sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading 35.01",
-        "Heading 35.04 — Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed",
-        "Heading 35.05 — Dextrins and other modified starches (e.g., pregelatinised or esterified starches); glues based on starches or dextrins or on other modified starches",
-        "Heading 35.06 — Prepared glues and other prepared adhesives, not elsewhere specified or included; products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg",
-        "Heading 35.07 — Enzymes; prepared enzymes, not elsewhere specified or included"
+        {
+            "heading": "35.01",
+            "description": "Casein, caseinates and other casein derivatives; casein glues"
+        },
+        {
+            "heading": "35.02",
+            "description": "Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins, calculated on the dry matter), albuminates and other albumin derivatives — includes: ovalbumin, lactalbumin, blood albumin (for non-therapeutic/non-prophylactic use)"
+        },
+        {
+            "heading": "35.03",
+            "description": "Gelatin (including gelatin in rectangular/square sheets, whether or not surface-worked or coloured) and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading 35.01"
+        },
+        {
+            "heading": "35.04",
+            "description": "Peptones and their derivatives; other protein substances and their derivatives, not elsewhere specified or included; hide powder, whether or not chromed"
+        },
+        {
+            "heading": "35.05",
+            "description": "Dextrins and other modified starches (e.g., pregelatinised or esterified starches); glues based on starches or dextrins or on other modified starches"
+        },
+        {
+            "heading": "35.06",
+            "description": "Prepared glues and other prepared adhesives, not elsewhere specified or included; products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg"
+        },
+        {
+            "heading": "35.07",
+            "description": "Enzymes; prepared enzymes, not elsewhere specified or included"
+        }
     ],
     "exclusions": [
         {

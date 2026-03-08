@@ -2,14 +2,38 @@
     "chapter_code": "89",
     "chapter_title": "Ships, boats and floating structures",
     "inclusions": [
-        "Heading 89.01 — Cruise ships, excursion boats, ferry-boats, cargo ships, barges and similar vessels for the transport of persons or goods",
-        "Heading 89.02 — Fishing vessels; factory ships and other vessels for processing or preserving fishery products",
-        "Heading 89.03 — Yachts and other vessels for pleasure or sports; rowing boats and canoes",
-        "Heading 89.04 — Tugs and pusher craft",
-        "Heading 89.05 — Light-vessels, fire-floats, dredgers, floating cranes and other vessels the navigability of which is subsidiary to their main function; floating docks; floating or submersible drilling or production platforms",
-        "Heading 89.06 — Other vessels, including warships and lifeboats other than rowing boats. ALSO: hulls, unfinished/incomplete vessels (assembled, unassembled or disassembled), and complete vessels presented unassembled or disassembled — WHEN they do not have the essential character of a vessel of a particular kind (Note 1)",
-        "Heading 89.07 — Other floating structures (e.g., rafts, tanks, cofferdams, landing stages, buoys and beacons)",
-        "Heading 89.08 — Vessels and other floating structures for breaking up"
+        {
+            "heading": "89.01",
+            "description": "Cruise ships, excursion boats, ferry-boats, cargo ships, barges and similar vessels for the transport of persons or goods"
+        },
+        {
+            "heading": "89.02",
+            "description": "Fishing vessels; factory ships and other vessels for processing or preserving fishery products"
+        },
+        {
+            "heading": "89.03",
+            "description": "Yachts and other vessels for pleasure or sports; rowing boats and canoes"
+        },
+        {
+            "heading": "89.04",
+            "description": "Tugs and pusher craft"
+        },
+        {
+            "heading": "89.05",
+            "description": "Light-vessels, fire-floats, dredgers, floating cranes and other vessels the navigability of which is subsidiary to their main function; floating docks; floating or submersible drilling or production platforms"
+        },
+        {
+            "heading": "89.06",
+            "description": "Other vessels, including warships and lifeboats other than rowing boats. ALSO: hulls, unfinished/incomplete vessels (assembled, unassembled or disassembled), and complete vessels presented unassembled or disassembled — WHEN they do not have the essential character of a vessel of a particular kind (Note 1)"
+        },
+        {
+            "heading": "89.07",
+            "description": "Other floating structures (e.g., rafts, tanks, cofferdams, landing stages, buoys and beacons)"
+        },
+        {
+            "heading": "89.08",
+            "description": "Vessels and other floating structures for breaking up"
+        }
     ],
     "exclusions": [],
     "classification_rules": [

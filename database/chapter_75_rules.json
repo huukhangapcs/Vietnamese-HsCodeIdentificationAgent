@@ -2,35 +2,83 @@
     "chapter_code": "75",
     "chapter_title": "Nickel and articles thereof",
     "inclusions": [
-        "Heading 75.01 — Nickel mattes, nickel oxide sinters and other intermediate products of nickel metallurgy",
-        "Heading 75.02 — Unwrought nickel. Subheading Note 1(a): 'Nickel, not alloyed' = metal containing ≥99% (Ni + Co) by weight, with Co ≤1.5% and all other elements below specified limits. Subheading Note 1(b): 'Nickel alloys' = metallic substances where Ni predominates over each other element by weight AND any of: (i) Co >1.5%; (ii) at least one other element exceeds its table limit; or (iii) total elements other than Ni+Co >1%. Common alloys: Monel (Ni-Cu), Inconel (Ni-Cr-Fe), Hastelloy (Ni-Mo-Cr), Nimonic, Nichrome",
-        "Heading 75.03 — Nickel waste and scrap",
-        "Heading 75.04 — Nickel powders and flakes",
-        "Heading 75.05 — Nickel bars, rods, profiles and wire. Subheading Note 2 (7508.10): for subheading 7508.10 the term 'wire' applies only to products (coils or not) of any cross-sectional shape where NO cross-sectional dimension exceeds 6 mm",
-        "Heading 75.06 — Nickel plates, sheets, strip and foil",
-        "Heading 75.07 — Nickel tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)",
-        "Heading 75.08 — Other articles of nickel: Subheading Note 2 applies for 7508.10 wire classification"
+        {
+            "heading": "75.01",
+            "description": "Nickel mattes, nickel oxide sinters and other intermediate products of nickel metallurgy"
+        },
+        {
+            "heading": "75.02",
+            "description": "Unwrought nickel. Subheading Note 1(a): 'Nickel, not alloyed' = metal containing ≥99% (Ni + Co) by weight, with Co ≤1.5% and all other elements below specified limits. Subheading Note 1(b): 'Nickel alloys' = metallic substances where Ni predominates over each other element by weight AND any of: (i) Co >1.5%; (ii) at least one other element exceeds its table limit; or (iii) total elements other than Ni+Co >1%. Common alloys: Monel (Ni-Cu), Inconel (Ni-Cr-Fe), Hastelloy (Ni-Mo-Cr), Nimonic, Nichrome"
+        },
+        {
+            "heading": "75.03",
+            "description": "Nickel waste and scrap"
+        },
+        {
+            "heading": "75.04",
+            "description": "Nickel powders and flakes"
+        },
+        {
+            "heading": "75.05",
+            "description": "Nickel bars, rods, profiles and wire. Subheading Note 2 (7508.10): for subheading 7508.10 the term 'wire' applies only to products (coils or not) of any cross-sectional shape where NO cross-sectional dimension exceeds 6 mm"
+        },
+        {
+            "heading": "75.06",
+            "description": "Nickel plates, sheets, strip and foil"
+        },
+        {
+            "heading": "75.07",
+            "description": "Nickel tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)"
+        },
+        {
+            "heading": "75.08",
+            "description": "Other articles of nickel: Subheading Note 2 applies for 7508.10 wire classification"
+        }
     ],
     "exclusions": [
         {
             "condition": "Nickel compounds (nickel oxide, nickel sulphate, nickel chloride, nickel acetate, nickel carbonyl, etc.)",
             "action": "Redirect to Chapter 28 (inorganic nickel compounds) or Chapter 29 (organic). Nickel metal → Ch.75; nickel compounds → Ch.28/29",
-            "keywords": ["nickel oxide", "nickel sulphate", "nickel chloride", "nickel acetate", "nickel carbonyl", "nickel nitrate", "28.", "29."]
+            "keywords": [
+                "nickel oxide",
+                "nickel sulphate",
+                "nickel chloride",
+                "nickel acetate",
+                "nickel carbonyl",
+                "nickel nitrate",
+                "28.",
+                "29."
+            ]
         },
         {
             "condition": "Nickel-coated or nickel-plated articles of other base metals",
             "action": "Redirect to the base metal substrate chapter. Nickel-plated steel → Ch.72/73. The nickel coating is incidental; classify by substrate metal",
-            "keywords": ["nickel plated steel", "nickel coated iron", "nickel plated copper", "nickel coated base metal"]
+            "keywords": [
+                "nickel plated steel",
+                "nickel coated iron",
+                "nickel plated copper",
+                "nickel coated base metal"
+            ]
         },
         {
             "condition": "Ferro-nickel (iron-nickel alloy where iron content is significant, classified as ferro-alloy)",
             "action": "Redirect to heading 72.02 (ferro-alloys). Ferro-nickel = Fe-Ni alloy used in steelmaking → 72.02, not Ch.75",
-            "keywords": ["ferro-nickel", "ferronickel", "iron nickel alloy steelmaking", "72.02"]
+            "keywords": [
+                "ferro-nickel",
+                "ferronickel",
+                "iron nickel alloy steelmaking",
+                "72.02"
+            ]
         },
         {
             "condition": "Electrically insulated nickel wire or cable",
             "action": "Redirect to heading 85.44 (insulated wire and cable). Bare nickel wire/strip for electrical resistance elements → 75.05/75.06. Insulated → 85.44",
-            "keywords": ["insulated nickel wire", "nichrome heating wire insulated", "nickel resistance wire insulated", "85.44"]
+            "keywords": [
+                "insulated nickel wire",
+                "nichrome heating wire insulated",
+                "nickel resistance wire insulated",
+                "85.44"
+            ]
         }
     ],
     "classification_rules": [

@@ -3,34 +3,79 @@
     "chapter_title": "Silk",
     "scope_note": "Chapter 50 covers silk in all forms from raw cocoons to woven silk fabrics. Silk is the natural protein filament produced by Bombyx mori (mulberry silkworm) and other silkworms (tussah/wild silk). The chapter covers both cultivated silk and wild/tussah silk throughout the processing chain. No specific notes beyond the chapter title.",
     "inclusions": [
-        "Heading 50.01 — Silk-worm cocoons suitable for reeling",
-        "Heading 50.02 — Raw silk (not thrown): continuous filament reeled from cocoons, without further processing — the most basic form of silk yarn/thread",
-        "Heading 50.03 — Silk waste (including cocoons unsuitable for reeling, yarn waste and garnetted stock): used to produce spun silk",
-        "Heading 50.04 — Silk yarn (other than yarn spun from silk waste) not put up for retail sale: thrown silk (organzine, tram, crepe twist) and reeled silk yarn — industrial packages",
-        "Heading 50.05 — Yarn spun from silk waste, not put up for retail sale: spun silk yarn (schappe) and noil silk yarn — made from waste fibres, industrial packages",
-        "Heading 50.06 — Silk yarn and yarn spun from silk waste, put up for retail sale; silk-worm gut",
-        "Heading 50.07 — Woven fabrics of silk or of silk waste: including taffeta, crepe de chine, satin, georgette, chiffon, organza, dupioni, shantung, habutai and all other woven silk fabrics. Includes fabrics of both cultivated and wild/tussah silk"
+        {
+            "heading": "50.01",
+            "description": "Silk-worm cocoons suitable for reeling"
+        },
+        {
+            "heading": "50.02",
+            "description": "Raw silk (not thrown): continuous filament reeled from cocoons, without further processing — the most basic form of silk yarn/thread"
+        },
+        {
+            "heading": "50.03",
+            "description": "Silk waste (including cocoons unsuitable for reeling, yarn waste and garnetted stock): used to produce spun silk"
+        },
+        {
+            "heading": "50.04",
+            "description": "Silk yarn (other than yarn spun from silk waste) not put up for retail sale: thrown silk (organzine, tram, crepe twist) and reeled silk yarn — industrial packages"
+        },
+        {
+            "heading": "50.05",
+            "description": "Yarn spun from silk waste, not put up for retail sale: spun silk yarn (schappe) and noil silk yarn — made from waste fibres, industrial packages"
+        },
+        {
+            "heading": "50.06",
+            "description": "Silk yarn and yarn spun from silk waste, put up for retail sale; silk-worm gut"
+        },
+        {
+            "heading": "50.07",
+            "description": "Woven fabrics of silk or of silk waste: including taffeta, crepe de chine, satin, georgette, chiffon, organza, dupioni, shantung, habutai and all other woven silk fabrics. Includes fabrics of both cultivated and wild/tussah silk"
+        }
     ],
     "exclusions": [
         {
             "condition": "Knitted or crocheted fabrics of silk",
             "action": "Redirect to Chapter 60 (knitted or crocheted fabrics). Knitted silk fabric → Ch.60. Knitted silk garments → Ch.61/62. Ch.50 covers only WOVEN fabrics and raw/yarn forms",
-            "keywords": ["knitted silk", "crocheted silk", "silk jersey", "60.", "61."]
+            "keywords": [
+                "knitted silk",
+                "crocheted silk",
+                "silk jersey",
+                "60.",
+                "61."
+            ]
         },
         {
             "condition": "Woven silk fabrics that are impregnated, coated, covered or laminated",
             "action": "Redirect to Chapter 59 (impregnated/coated/laminated fabrics). Rubberised silk fabric → 59.06. Plastics-coated silk → 59.03",
-            "keywords": ["coated silk fabric", "laminated silk", "rubber silk", "59."]
+            "keywords": [
+                "coated silk fabric",
+                "laminated silk",
+                "rubber silk",
+                "59."
+            ]
         },
         {
             "condition": "Special woven fabrics of silk: pile fabrics, gauze, lace, embroidery, narrow woven fabrics, labels",
             "action": "Redirect to Chapter 58. Silk velvet → 58.01. Silk lace → 58.04. Silk embroidery → 58.10. Silk narrow fabric → 58.06. Silk labels → 58.07",
-            "keywords": ["silk velvet", "silk lace", "silk embroidery", "silk ribbon narrow", "58.01", "58.04", "58.10"]
+            "keywords": [
+                "silk velvet",
+                "silk lace",
+                "silk embroidery",
+                "silk ribbon narrow",
+                "58.01",
+                "58.04",
+                "58.10"
+            ]
         },
         {
             "condition": "Silk-worm cocoons NOT suitable for reeling (damaged, defective cocoons)",
             "action": "Redirect to heading 50.03 (silk waste) — defective cocoons unsuitable for reeling are classified as waste. Only reelable-quality cocoons go to 50.01",
-            "keywords": ["damaged cocoon", "defective silkworm cocoon", "cocoon unsuitable reeling", "50.03"]
+            "keywords": [
+                "damaged cocoon",
+                "defective silkworm cocoon",
+                "cocoon unsuitable reeling",
+                "50.03"
+            ]
         }
     ],
     "classification_rules": [

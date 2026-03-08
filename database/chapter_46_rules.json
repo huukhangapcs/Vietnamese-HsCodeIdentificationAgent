@@ -3,39 +3,78 @@
     "chapter_title": "Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
     "scope_note": "Note 1: 'plaiting materials' = materials suitable for plaiting/interlacing: straw, osier/willow, bamboo, rattan, rushes, reeds, strips of wood, strips of other vegetable material (bark strips, narrow leaves, raffia, broad-leaf strips), UNSPUN natural textile fibres, monofilament and strip of PLASTICS, strips of PAPER. EXCLUDES: strips of leather/composition leather, felt/nonwovens, human hair, horsehair, SPUN textile rovings/yarns, monofilament/strip of Ch.54. Note 3: 'bound together in parallel strands' = plaiting materials placed side by side and bound together in sheet form (binding material may be spun textile).",
     "inclusions": [
-        "Heading 46.01 — Plaits and similar products of plaiting materials, whether or not assembled into strips; plaiting materials, plaits and similar products of plaiting materials, bound together in parallel strands or woven, in sheet form, whether or not being finished articles (for example, mats, matting, screens). Note 3: 'bound together in parallel strands' = placed side by side and bound in sheet form. Includes straw plaits, rush plaits, bamboo mats, seagrass sheets, rattan strips",
-        "Heading 46.02 — Basketwork, wickerwork and other articles, made directly to shape from plaiting materials or made up from goods of heading 46.01; articles of loofah. Includes baskets, handbags, shopping bags, hats, containers, trays, mats — of rattan, willow/wicker, bamboo, straw, rush, seagrass, raffia, paper strips, plastic strips, etc. Also articles of loofah (vegetable sponge)"
+        {
+            "heading": "46.01",
+            "description": "Plaits and similar products of plaiting materials, whether or not assembled into strips; plaiting materials, plaits and similar products of plaiting materials, bound together in parallel strands or woven, in sheet form, whether or not being finished articles (for example, mats, matting, screens). Note 3: 'bound together in parallel strands' = placed side by side and bound in sheet form. Includes straw plaits, rush plaits, bamboo mats, seagrass sheets, rattan strips"
+        },
+        {
+            "heading": "46.02",
+            "description": "Basketwork, wickerwork and other articles, made directly to shape from plaiting materials or made up from goods of heading 46.01; articles of loofah. Includes baskets, handbags, shopping bags, hats, containers, trays, mats — of rattan, willow/wicker, bamboo, straw, rush, seagrass, raffia, paper strips, plastic strips, etc. Also articles of loofah (vegetable sponge)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Wall coverings of paper with plaiting material surface (heading 48.14)",
             "action": "Redirect to heading 48.14 (wallpaper/wall coverings) — Note 2(a). Wallpaper with woven rush/seagrass surface bonded to paper backing → 48.14. Separate plaited panels meant for wall art → borderline",
-            "keywords": ["wall covering plaited material paper", "seagrass wallpaper", "woven rush wallpaper", "48.14"]
+            "keywords": [
+                "wall covering plaited material paper",
+                "seagrass wallpaper",
+                "woven rush wallpaper",
+                "48.14"
+            ]
         },
         {
             "condition": "Twine, cordage, ropes or cables, whether or not plaited",
             "action": "Redirect to heading 56.07 — Note 2(b). Plaited rope of natural fibres → 56.07. A braided decorative cord → 56.07 not Ch.46",
-            "keywords": ["plaited rope", "braided cord natural fibre", "twine cordage", "56.07"]
+            "keywords": [
+                "plaited rope",
+                "braided cord natural fibre",
+                "twine cordage",
+                "56.07"
+            ]
         },
         {
             "condition": "Footwear or headgear of plaiting materials, or parts thereof",
             "action": "Redirect to Chapter 64 (footwear) or Chapter 65 (headgear) — Note 2(c). Straw hats → Ch.65 (65.04). Woven-fibre footwear with applied sole → Ch.64. 'Hat-shapes' plaited for 65.04 heading",
-            "keywords": ["straw hat", "woven sandal sole", "plaited footwear", "basket weave shoe", "65.04", "64."]
+            "keywords": [
+                "straw hat",
+                "woven sandal sole",
+                "plaited footwear",
+                "basket weave shoe",
+                "65.04",
+                "64."
+            ]
         },
         {
             "condition": "Basketwork vehicles or vehicle bodies (wicker car bodies, bicycle baskets as vehicle accessories)",
             "action": "Redirect to Chapter 87 (vehicles) — Note 2(d). Wicker car body → Ch.87. Standalone wicker bicycle basket (accessory) → Ch.46",
-            "keywords": ["basketware vehicle body", "wicker vehicle", "87."]
+            "keywords": [
+                "basketware vehicle body",
+                "wicker vehicle",
+                "87."
+            ]
         },
         {
             "condition": "Furniture, lamps/luminaires of basketwork/wickerwork",
             "action": "Redirect to Chapter 94 (furniture, lamps) — Note 2(e). Wicker/rattan chairs, tables, sofas, beds → Ch.94 (94.01/94.03). Wicker lamp shades → 94.05. Decorative baskets used as flower pots/containers → Ch.46. Storage baskets/shopping baskets → Ch.46",
-            "keywords": ["wicker chair", "rattan sofa", "wicker table", "bamboo furniture", "94.01", "94.03"]
+            "keywords": [
+                "wicker chair",
+                "rattan sofa",
+                "wicker table",
+                "bamboo furniture",
+                "94.01",
+                "94.03"
+            ]
         },
         {
             "condition": "Articles of plaiting materials that are part of Ch.64/65 (hats, footwear): hat-shapes that are completed into hats",
             "action": "Plaited hat-shapes still unfinished → 46.01. When assembled/shaped/trimmed into a finished hat → Chapter 65 (65.04 for plaited hats). The completion step is the boundary",
-            "keywords": ["plaited hat shape unfinished", "straw hat form", "hat braid unfinished", "65.04"]
+            "keywords": [
+                "plaited hat shape unfinished",
+                "straw hat form",
+                "hat braid unfinished",
+                "65.04"
+            ]
         }
     ],
     "classification_rules": [

@@ -3,35 +3,87 @@
     "chapter_title": "Cereals",
     "scope_note": "Note 1(A): Ch.10 products are classified here ONLY if grains are present (in ear, on stalk, or loose grain). Note 1(B): Ch.10 does NOT cover hulled or otherwise worked grains — EXCEPTION: rice in all milled states (husked, milled, polished, glazed, parboiled, broken) stays in 10.06. Quinoa with pericarp removed to separate saponin (but no other processing) stays in 10.08. Note 2: 10.05 (maize) does NOT cover sweet corn → Chapter 7.",
     "inclusions": [
-        "Heading 10.01 — Wheat and meslin: common wheat (Triticum aestivum — bread wheat), durum wheat (Triticum durum — pasta wheat, 28 chromosomes per Subheading Note), meslin (wheat+rye mix). Subheadings: durum wheat vs. other wheat (common/bread/soft). In grain form only",
-        "Heading 10.02 — Rye, in grain form: rye (Secale cereale) — for bread, rye whisky, animal feed",
-        "Heading 10.03 — Barley, in grain form: two-row and six-row barley — including malting barley and feed barley. Malted barley → Ch.11 (11.07)",
-        "Heading 10.04 — Oats, in grain form: common oats (Avena sativa) — for rolled oats production, animal feed, oat flour",
-        "Heading 10.05 — Maize (corn), in grain form: field corn/yellow corn, white corn — for food, feed, starch, ethanol. EXCLUDES sweet corn (Zea mays var. saccharata) → Chapter 7",
-        "Heading 10.06 — Rice: paddy rice (with husk = rough/unhusked rice), husked rice (brown rice — husk removed), milled/semi-milled rice (polished/white rice), glazed or polished rice, parboiled rice, broken rice. Rice in ALL processing stages from paddy to milled grain stays in 10.06 per Note 1(B)",
-        "Heading 10.07 — Grain sorghum: sorghum (Sorghum bicolor) — for human food, animal feed, syrup production in some markets",
-        "Heading 10.08 — Buckwheat, millet and canary seed, and other cereals; quinoa: buckwheat (Fagopyrum esculentum), millet (various Panicum/Setaria/Eleusine species), canary seed (Phalaris canariensis), quinoa (Chenopodium quinoa — note: pericarp removal for saponin → still 10.08). Also: fonio, teff, Job's tears, wild rice (Zizania)"
+        {
+            "heading": "10.01",
+            "description": "Wheat and meslin: common wheat (Triticum aestivum — bread wheat), durum wheat (Triticum durum — pasta wheat, 28 chromosomes per Subheading Note), meslin (wheat+rye mix). Subheadings: durum wheat vs. other wheat (common/bread/soft). In grain form only"
+        },
+        {
+            "heading": "10.02",
+            "description": "Rye, in grain form: rye (Secale cereale) — for bread, rye whisky, animal feed"
+        },
+        {
+            "heading": "10.03",
+            "description": "Barley, in grain form: two-row and six-row barley — including malting barley and feed barley. Malted barley → Ch.11 (11.07)"
+        },
+        {
+            "heading": "10.04",
+            "description": "Oats, in grain form: common oats (Avena sativa) — for rolled oats production, animal feed, oat flour"
+        },
+        {
+            "heading": "10.05",
+            "description": "Maize (corn), in grain form: field corn/yellow corn, white corn — for food, feed, starch, ethanol. EXCLUDES sweet corn (Zea mays var. saccharata) → Chapter 7"
+        },
+        {
+            "heading": "10.06",
+            "description": "Rice: paddy rice (with husk = rough/unhusked rice), husked rice (brown rice — husk removed), milled/semi-milled rice (polished/white rice), glazed or polished rice, parboiled rice, broken rice. Rice in ALL processing stages from paddy to milled grain stays in 10.06 per Note 1(B)"
+        },
+        {
+            "heading": "10.07",
+            "description": "Grain sorghum: sorghum (Sorghum bicolor) — for human food, animal feed, syrup production in some markets"
+        },
+        {
+            "heading": "10.08",
+            "description": "Buckwheat, millet and canary seed, and other cereals; quinoa: buckwheat (Fagopyrum esculentum), millet (various Panicum/Setaria/Eleusine species), canary seed (Phalaris canariensis), quinoa (Chenopodium quinoa — note: pericarp removal for saponin → still 10.08). Also: fonio, teff, Job's tears, wild rice (Zizania)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Grains that have been hulled, worked, rolled, flaked, pearled, chopped or milled into flour/meal (EXCEPT rice and saponin-treated quinoa)",
             "action": "Redirect to Chapter 11 (milling industry products): rolled oats → 11.04; barley flour → 11.02; wheat flour → 11.01; buckwheat flour → 11.02; pearl barley → 11.03; oat flakes → 11.04. The only exception: rice in any form stays in 10.06. Note 1(B) is explicit — worked grains generally leave Ch.10",
-            "keywords": ["rolled oats", "pearl barley", "oat flakes", "barley flour", "buckwheat flour", "11.01", "11.02", "11.03", "11.04"]
+            "keywords": [
+                "rolled oats",
+                "pearl barley",
+                "oat flakes",
+                "barley flour",
+                "buckwheat flour",
+                "11.01",
+                "11.02",
+                "11.03",
+                "11.04"
+            ]
         },
         {
             "condition": "Sweet corn (Zea mays var. saccharata) — corn with high sugar content eaten as vegetable",
             "action": "Redirect to Chapter 7 (07.09 fresh sweet corn; 07.10 frozen sweet corn; 20.05 canned sweet corn). Note 2 to Ch.10 explicitly excludes sweet corn. Field corn/maize for grain → 10.05",
-            "keywords": ["sweet corn vegetable", "corn on cob ear", "Zea mays saccharata", "07.09", "20.05"]
+            "keywords": [
+                "sweet corn vegetable",
+                "corn on cob ear",
+                "Zea mays saccharata",
+                "07.09",
+                "20.05"
+            ]
         },
         {
             "condition": "Malted barley or malted wheat (kiln-dried, germinated grain)",
             "action": "Redirect to heading 11.07 (malt, whether or not roasted). Germinated and kilned barley → 11.07. Green malt → 11.07. Roasted malt → 11.07 or 09.01 (if as coffee substitute). Raw un-malted barley → 10.03",
-            "keywords": ["malted barley", "malt kilned", "green malt", "11.07"]
+            "keywords": [
+                "malted barley",
+                "malt kilned",
+                "green malt",
+                "11.07"
+            ]
         },
         {
             "condition": "Wheat/rice preparations for food (pasta, bread, pastry, noodles, cereal breakfast flakes)",
             "action": "Redirect to Chapter 19: pasta/noodles of wheat semolina → 19.02. Bread/pastry → 19.05. Breakfast cereals (Corn Flakes, Rice Krispies type) → 19.04. Prepared rice dishes → Ch.19/21. The grain must remain in natural grain form to stay in Ch.10",
-            "keywords": ["pasta noodles", "bread wheat", "breakfast cereal flakes", "19.02", "19.04", "19.05"]
+            "keywords": [
+                "pasta noodles",
+                "bread wheat",
+                "breakfast cereal flakes",
+                "19.02",
+                "19.04",
+                "19.05"
+            ]
         }
     ],
     "classification_rules": [

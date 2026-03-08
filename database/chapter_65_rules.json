@@ -2,29 +2,65 @@
     "chapter_code": "65",
     "chapter_title": "Headgear and parts thereof",
     "inclusions": [
-        "Heading 65.01 — Hat-forms, hat bodies and hoods of felt, neither blocked to shape nor with made brims; plateaux and manchons (including slit manchons), of felt",
-        "Heading 65.02 — Hat-shapes, plaited or made by assembling strips of any material, neither blocked to shape, lined nor trimmed. Note 2: 65.02 does NOT cover hat-shapes made by SEWING, other than those obtained simply by sewing strips in spirals",
-        "Heading 65.03 — Felt hats and other felt headgear, made from the hat bodies, hoods or plateaux of heading 65.01, whether or not lined or trimmed",
-        "Heading 65.04 — Hats and other headgear, plaited or made by assembling strips of any material, whether or not lined or trimmed",
-        "Heading 65.05 — Hats and other headgear, knitted or crocheted, or made up from lace, felt or other textile fabric, in the piece (but not in strips), including hairnets with or without any trimming",
-        "Heading 65.06 — Other headgear, whether or not lined or trimmed: safety headgear (hard hats, helmets), other headgear of rubber, plastics, fur, leather, base metal, wood, cork or other materials",
-        "Heading 65.07 — Head-bands, linings, covers, hat foundations, hat frames, peaks and chinstraps, for headgear"
+        {
+            "heading": "65.01",
+            "description": "Hat-forms, hat bodies and hoods of felt, neither blocked to shape nor with made brims; plateaux and manchons (including slit manchons), of felt"
+        },
+        {
+            "heading": "65.02",
+            "description": "Hat-shapes, plaited or made by assembling strips of any material, neither blocked to shape, lined nor trimmed. Note 2: 65.02 does NOT cover hat-shapes made by SEWING, other than those obtained simply by sewing strips in spirals"
+        },
+        {
+            "heading": "65.03",
+            "description": "Felt hats and other felt headgear, made from the hat bodies, hoods or plateaux of heading 65.01, whether or not lined or trimmed"
+        },
+        {
+            "heading": "65.04",
+            "description": "Hats and other headgear, plaited or made by assembling strips of any material, whether or not lined or trimmed"
+        },
+        {
+            "heading": "65.05",
+            "description": "Hats and other headgear, knitted or crocheted, or made up from lace, felt or other textile fabric, in the piece (but not in strips), including hairnets with or without any trimming"
+        },
+        {
+            "heading": "65.06",
+            "description": "Other headgear, whether or not lined or trimmed: safety headgear (hard hats, helmets), other headgear of rubber, plastics, fur, leather, base metal, wood, cork or other materials"
+        },
+        {
+            "heading": "65.07",
+            "description": "Head-bands, linings, covers, hat foundations, hat frames, peaks and chinstraps, for headgear"
+        }
     ],
     "exclusions": [
         {
             "condition": "Worn (used) headgear of heading 63.09",
             "action": "Redirect to heading 63.09 (worn clothing and other worn articles) — Note 1(a). Second-hand/worn hats → 63.09",
-            "keywords": ["worn hat", "used headgear", "second-hand cap", "63.09"]
+            "keywords": [
+                "worn hat",
+                "used headgear",
+                "second-hand cap",
+                "63.09"
+            ]
         },
         {
             "condition": "Asbestos headgear (protective headgear made of asbestos material)",
             "action": "Redirect to heading 68.12 (fabricated asbestos fibres and articles thereof) — Note 1(b)",
-            "keywords": ["asbestos hat", "asbestos headgear", "asbestos helmet", "68.12"]
+            "keywords": [
+                "asbestos hat",
+                "asbestos headgear",
+                "asbestos helmet",
+                "68.12"
+            ]
         },
         {
             "condition": "Dolls' hats, toy hats or carnival headgear articles",
             "action": "Redirect to Chapter 95 (toys, games and sports requisites) — Note 1(c). Party hats, costume hats for carnival → Ch.95. Full-scale fancy dress headgear for theatrical use → may remain Ch.65 if classifiable as real headgear",
-            "keywords": ["toy hat doll", "carnival hat costume", "party hat novelty", "95."]
+            "keywords": [
+                "toy hat doll",
+                "carnival hat costume",
+                "party hat novelty",
+                "95."
+            ]
         }
     ],
     "classification_rules": [

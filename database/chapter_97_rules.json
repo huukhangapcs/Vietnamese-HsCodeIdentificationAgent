@@ -2,42 +2,104 @@
     "chapter_code": "97",
     "chapter_title": "Works of art, collectors' pieces and antiques",
     "inclusions": [
-        "Heading 97.01 — Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 49.06 and other than hand-painted or hand-decorated manufactured articles; collages and similar decorative plaques. NOTE: does NOT apply to mass-produced reproductions, casts or works of conventional craftsmanship of a commercial character, even if designed/created by artists (Note 2)",
-        "Heading 97.02 — Original engravings, prints and lithographs: impressions produced directly (black/white or colour) from one or several plates wholly executed by hand by the artist — irrespective of process or material. EXCLUDES any mechanical or photomechanical reproduction process (Note 3)",
-        "Heading 97.03 — Original sculptures and statuary, in any material. NOTE: does NOT apply to mass-produced reproductions or works of conventional craftsmanship of a commercial character, even if designed/created by artists (Note 4)",
-        "Heading 97.05 — Collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest",
-        "Heading 97.06 — Antiques of an age exceeding 100 years. NOTE: heading 97.06 does NOT apply to articles of headings 97.01–97.05 (Note 5(B))"
+        {
+            "heading": "97.01",
+            "description": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 49.06 and other than hand-painted or hand-decorated manufactured articles; collages and similar decorative plaques. NOTE: does NOT apply to mass-produced reproductions, casts or works of conventional craftsmanship of a commercial character, even if designed/created by artists (Note 2)"
+        },
+        {
+            "heading": "97.02",
+            "description": "Original engravings, prints and lithographs: impressions produced directly (black/white or colour) from one or several plates wholly executed by hand by the artist — irrespective of process or material. EXCLUDES any mechanical or photomechanical reproduction process (Note 3)"
+        },
+        {
+            "heading": "97.03",
+            "description": "Original sculptures and statuary, in any material. NOTE: does NOT apply to mass-produced reproductions or works of conventional craftsmanship of a commercial character, even if designed/created by artists (Note 4)"
+        },
+        {
+            "heading": "97.05",
+            "description": "Collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest"
+        },
+        {
+            "heading": "97.06",
+            "description": "Antiques of an age exceeding 100 years. NOTE: heading 97.06 does NOT apply to articles of headings 97.01–97.05 (Note 5(B))"
+        }
     ],
     "exclusions": [
         {
             "condition": "Unused postage or revenue stamps, postal stationery (stamped paper) or the like",
             "action": "Redirect to heading 49.07 — Note 1(a). Unused collectible stamps in mint condition → 49.07. Used stamps / stamp collections of numismatic/philatelic interest → potentially 97.05",
-            "keywords": ["unused stamp", "mint stamp", "postage stamp unused", "revenue stamp", "postal stationery", "49.07"]
+            "keywords": [
+                "unused stamp",
+                "mint stamp",
+                "postage stamp unused",
+                "revenue stamp",
+                "postal stationery",
+                "49.07"
+            ]
         },
         {
             "condition": "Theatrical scenery, studio back-cloths or the like, of painted canvas — UNLESS classifiable as heading 97.06 (antiques over 100 years)",
             "action": "Redirect to heading 59.07 (textile fabric coated/covered/impregnated) — Note 1(b). Exception: antique painted theatrical canvas over 100 years old → 97.06",
-            "keywords": ["stage scenery", "theatrical backdrop", "studio backcloth", "painted canvas backdrop", "59.07"]
+            "keywords": [
+                "stage scenery",
+                "theatrical backdrop",
+                "studio backcloth",
+                "painted canvas backdrop",
+                "59.07"
+            ]
         },
         {
             "condition": "Pearls (natural or cultured) or precious or semi-precious stones (presented separately, not as part of an artwork)",
             "action": "Redirect to headings 71.01 to 71.03 — Note 1(c). Loose gemstones, even if historically significant → Ch.71. Gemstones permanently incorporated in an artwork/antique → the whole item assessed as one",
-            "keywords": ["natural pearl", "cultured pearl", "precious stone loose", "semi-precious stone", "loose gemstone", "71.01", "71.02", "71.03"]
+            "keywords": [
+                "natural pearl",
+                "cultured pearl",
+                "precious stone loose",
+                "semi-precious stone",
+                "loose gemstone",
+                "71.01",
+                "71.02",
+                "71.03"
+            ]
         },
         {
             "condition": "Mass-produced reproductions, casts or works of conventional craftsmanship of a commercial character — even if designed or created by artists",
             "action": "Redirect to appropriate chapter by material or function — Notes 2 and 4. Printed poster/reproduction → Ch.49. Resin cast figurine → Ch.39. Factory ceramic figurine → 69.13. The 'mass-produced' characteristic overrides any artistic designer credit",
-            "keywords": ["mass produced", "reproduction", "commercial replica", "cast replica", "edition print", "print run", "commercial craft", "factory figurine", "49.", "39.", "69.13"]
+            "keywords": [
+                "mass produced",
+                "reproduction",
+                "commercial replica",
+                "cast replica",
+                "edition print",
+                "print run",
+                "commercial craft",
+                "factory figurine",
+                "49.",
+                "39.",
+                "69.13"
+            ]
         },
         {
             "condition": "Mechanical or photomechanical reproductions of engravings, prints or lithographs",
             "action": "Redirect to Chapter 49 (printed matter) — Note 3. Digital prints, giclée prints, offset reproductions of artworks → Ch.49 regardless of quality or limited edition status",
-            "keywords": ["mechanical reproduction", "photomechanical print", "offset lithograph", "digital print art", "giclee", "photo reproduction", "49."]
+            "keywords": [
+                "mechanical reproduction",
+                "photomechanical print",
+                "offset lithograph",
+                "digital print art",
+                "giclee",
+                "photo reproduction",
+                "49."
+            ]
         },
         {
             "condition": "Articles already classifiable in headings 97.01–97.05 — cannot also be classified in 97.06",
             "action": "Classify in the specific heading 97.01–97.05 per Note 5(B). Heading 97.06 is strictly residual within Ch.97: an original painting over 100 years → 97.01 (not 97.06)",
-            "keywords": ["97.01", "97.02", "97.03", "97.05"]
+            "keywords": [
+                "97.01",
+                "97.02",
+                "97.03",
+                "97.05"
+            ]
         }
     ],
     "classification_rules": [

@@ -3,43 +3,107 @@
     "chapter_title": "Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",
     "scope_note": "Note 2: 'printed' includes reproduced by duplicating machine, ADP machine, embossed, photographed, photocopied, thermocopied or typewritten. Note 3: newspapers/journals bound otherwise than in paper, or sets comprising >1 number under single cover → 49.01. Note 4: 49.01 also covers pictorial reproductions with text (numbered pages for binding), pictorial supplements to bound volumes, and printed parts of books in assembled/separate sheets. Note 5: publications ESSENTIALLY devoted to advertising → 49.11 (not 49.01).",
     "inclusions": [
-        "Heading 49.01 — Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets. Includes: collections of art reproductions with text (numbered for binding); pictorial supplements to bound volumes; printed book parts (assembled/separate signatures). Note 3: news/journals bound non-paper or multi-issue under single cover → 49.01. Note 5 EXCEPTION: essentially advertising publications → 49.11",
-        "Heading 49.02 — Newspapers, journals and periodicals, whether or not illustrated or containing advertising material (printed at least four times a week — regular frequency publications)",
-        "Heading 49.03 — Children's picture books and picture drawing or colouring books. Note 6: 'children's picture books' = books where PICTURES form the PRINCIPAL INTEREST and text is SUBSIDIARY",
-        "Heading 49.04 — Music, printed or in manuscript, whether or not bound or illustrated",
-        "Heading 49.05 — Maps and hydrographical or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed",
-        "Heading 49.06 — Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; hand-written texts; photographic reproductions on sensitised paper and carbon copies of the foregoing",
-        "Heading 49.07 — Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title",
-        "Heading 49.08 — Transfers (decalcomanias)",
-        "Heading 49.09 — Printed or illustrated postcards; printed cards bearing personal greetings, messages or announcements, whether or not illustrated, with or without envelopes or trimmings",
-        "Heading 49.10 — Calendars of any kind, printed, including calendar blocks",
-        "Heading 49.11 — Other printed matter, including printed pictures and photographs: advertising material (brochures, leaflets, trade catalogues, tourist propaganda — per Note 5); printed pictures/illustrations without text (whether in signatures or separate sheets — per Note 4 last paragraph); photographs commercially printed"
+        {
+            "heading": "49.01",
+            "description": "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets. Includes: collections of art reproductions with text (numbered for binding); pictorial supplements to bound volumes; printed book parts (assembled/separate signatures). Note 3: news/journals bound non-paper or multi-issue under single cover → 49.01. Note 5 EXCEPTION: essentially advertising publications → 49.11"
+        },
+        {
+            "heading": "49.02",
+            "description": "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material (printed at least four times a week — regular frequency publications)"
+        },
+        {
+            "heading": "49.03",
+            "description": "Children's picture books and picture drawing or colouring books. Note 6: 'children's picture books' = books where PICTURES form the PRINCIPAL INTEREST and text is SUBSIDIARY"
+        },
+        {
+            "heading": "49.04",
+            "description": "Music, printed or in manuscript, whether or not bound or illustrated"
+        },
+        {
+            "heading": "49.05",
+            "description": "Maps and hydrographical or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed"
+        },
+        {
+            "heading": "49.06",
+            "description": "Plans and drawings for architectural, engineering, industrial, commercial, topographical or similar purposes, being originals drawn by hand; hand-written texts; photographic reproductions on sensitised paper and carbon copies of the foregoing"
+        },
+        {
+            "heading": "49.07",
+            "description": "Unused postage, revenue or similar stamps of current or new issue in the country in which they have, or will have, a recognised face value; stamp-impressed paper; banknotes; cheque forms; stock, share or bond certificates and similar documents of title"
+        },
+        {
+            "heading": "49.08",
+            "description": "Transfers (decalcomanias)"
+        },
+        {
+            "heading": "49.09",
+            "description": "Printed or illustrated postcards; printed cards bearing personal greetings, messages or announcements, whether or not illustrated, with or without envelopes or trimmings"
+        },
+        {
+            "heading": "49.10",
+            "description": "Calendars of any kind, printed, including calendar blocks"
+        },
+        {
+            "heading": "49.11",
+            "description": "Other printed matter, including printed pictures and photographs: advertising material (brochures, leaflets, trade catalogues, tourist propaganda — per Note 5); printed pictures/illustrations without text (whether in signatures or separate sheets — per Note 4 last paragraph); photographs commercially printed"
+        }
     ],
     "exclusions": [
         {
             "condition": "Photographic negatives or positives on transparent bases (photographic film)",
             "action": "Redirect to Chapter 37 (photographic or cinematographic goods) — Note 1(a). Exposed/unexposed photographic film → Ch.37",
-            "keywords": ["photographic negative", "photographic film", "transparencies", "37."]
+            "keywords": [
+                "photographic negative",
+                "photographic film",
+                "transparencies",
+                "37."
+            ]
         },
         {
             "condition": "Maps, plans or globes IN RELIEF (three-dimensional raised surface), whether or not printed",
             "action": "Redirect to heading 90.23 (instruments, apparatus and models, for demonstrational purposes) — Note 1(b). 3D relief maps and globes → 90.23. Flat printed maps → 49.05",
-            "keywords": ["relief map 3D", "globe relief raised", "raised surface map", "90.23"]
+            "keywords": [
+                "relief map 3D",
+                "globe relief raised",
+                "raised surface map",
+                "90.23"
+            ]
         },
         {
             "condition": "Playing cards or other goods of Chapter 95 (toys, games, sports requisites)",
             "action": "Redirect to Chapter 95 — Note 1(c). Playing cards (tarot, poker cards) → 95.04. Board game cards/pieces → 95.04. Puzzle books that are primarily toys → Ch.95",
-            "keywords": ["playing cards", "tarot cards", "poker deck", "board game cards", "95.04"]
+            "keywords": [
+                "playing cards",
+                "tarot cards",
+                "poker deck",
+                "board game cards",
+                "95.04"
+            ]
         },
         {
             "condition": "Original engravings, lithographs, postage/revenue stamps (used), first-day covers, antiques >100 years",
             "action": "Redirect to Chapter 97 — Note 1(d). Original artistic prints/lithographs (hand-pulled, limited edition) → 97.02. Used stamps and philatelic items → 97.04. Antique books/prints >100 years → 97.06. UNUSED stamps of current issue → 49.07",
-            "keywords": ["original lithograph", "original engraving", "used stamp philatelic", "first day cover", "antique book", "97.02", "97.04", "97.06"]
+            "keywords": [
+                "original lithograph",
+                "original engraving",
+                "used stamp philatelic",
+                "first day cover",
+                "antique book",
+                "97.02",
+                "97.04",
+                "97.06"
+            ]
         },
         {
             "condition": "Publications essentially devoted to advertising (brochures, pamphlets, leaflets, trade catalogues, tourist propaganda)",
             "action": "Redirect to heading 49.11 — Note 5. Key test: is the PRIMARY PURPOSE advertising? If yes → 49.11. Books that happen to contain some advertising → 49.01. Exception: newspapers/journals containing advertising → stay in 49.02 per Note 3",
-            "keywords": ["advertising brochure", "trade catalogue", "promotional pamphlet", "tourist leaflet", "49.11"]
+            "keywords": [
+                "advertising brochure",
+                "trade catalogue",
+                "promotional pamphlet",
+                "tourist leaflet",
+                "49.11"
+            ]
         }
     ],
     "classification_rules": [

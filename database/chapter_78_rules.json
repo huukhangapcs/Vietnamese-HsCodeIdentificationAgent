@@ -2,28 +2,68 @@
     "chapter_code": "78",
     "chapter_title": "Lead and articles thereof",
     "inclusions": [
-        "Heading 78.01 — Unwrought lead. Subheading Note: 'Refined lead' = metal containing ≥99.9% lead by weight, with no other element exceeding specified limits. 'Lead alloys' = metallic substances where lead predominates over each other element by weight and total other elements >0.1% or any single element meets/exceeds specified limits. Common lead alloys: lead-antimony (battery plates), lead-calcium (maintenance-free batteries), lead-tin solder alloys",
-        "Heading 78.02 — Lead waste and scrap",
-        "Heading 78.03 — Lead bars, rods, profiles and wire",
-        "Heading 78.04 — Lead plates, sheets, strip and foil; lead powders and flakes",
-        "Heading 78.05 — Lead tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)",
-        "Heading 78.06 — Other articles of lead: lead weights (fishing, diving, sash weights), lead shot, lead lining for tanks/vessels, radiation shielding of lead, lead type for printing (legacy), lead seals"
+        {
+            "heading": "78.01",
+            "description": "Unwrought lead. Subheading Note: 'Refined lead' = metal containing ≥99.9% lead by weight, with no other element exceeding specified limits. 'Lead alloys' = metallic substances where lead predominates over each other element by weight and total other elements >0.1% or any single element meets/exceeds specified limits. Common lead alloys: lead-antimony (battery plates), lead-calcium (maintenance-free batteries), lead-tin solder alloys"
+        },
+        {
+            "heading": "78.02",
+            "description": "Lead waste and scrap"
+        },
+        {
+            "heading": "78.03",
+            "description": "Lead bars, rods, profiles and wire"
+        },
+        {
+            "heading": "78.04",
+            "description": "Lead plates, sheets, strip and foil; lead powders and flakes"
+        },
+        {
+            "heading": "78.05",
+            "description": "Lead tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)"
+        },
+        {
+            "heading": "78.06",
+            "description": "Other articles of lead: lead weights (fishing, diving, sash weights), lead shot, lead lining for tanks/vessels, radiation shielding of lead, lead type for printing (legacy), lead seals"
+        }
     ],
     "exclusions": [
         {
             "condition": "Lead compounds (lead oxide/litharge, lead sulphate, lead nitrate, lead acetate, lead chromate, organo-lead compounds, lead azide, etc.)",
             "action": "Redirect to Chapter 28 (inorganic lead compounds) or Chapter 29 (organic lead compounds). Metallic lead → Ch.78; chemical compounds → Ch.28/29",
-            "keywords": ["lead oxide", "litharge", "red lead", "lead sulphate", "lead nitrate", "lead chromate", "lead acetate", "lead azide", "28.", "29."]
+            "keywords": [
+                "lead oxide",
+                "litharge",
+                "red lead",
+                "lead sulphate",
+                "lead nitrate",
+                "lead chromate",
+                "lead acetate",
+                "lead azide",
+                "28.",
+                "29."
+            ]
         },
         {
             "condition": "Waste and scrap of lead-acid batteries (spent batteries)",
             "action": "Redirect to heading 85.48 (waste and scrap of electric accumulators) as spent batteries are classified with electrical waste. The lead content does not redirect to Ch.78",
-            "keywords": ["spent battery lead", "battery scrap lead", "acid battery waste", "85.48"]
+            "keywords": [
+                "spent battery lead",
+                "battery scrap lead",
+                "acid battery waste",
+                "85.48"
+            ]
         },
         {
             "condition": "Tin-lead solder (where tin predominates by weight over lead and each other element)",
             "action": "Redirect to Chapter 80 (tin and articles thereof) if tin is the predominant metal. Tin-lead solders where Sn > Pb → Ch.80. Lead-tin solders where Pb > Sn → Ch.78. If with flux core → heading 83.11 regardless of metal composition",
-            "keywords": ["tin lead solder", "solder alloy", "lead tin", "83.11", "80."]
+            "keywords": [
+                "tin lead solder",
+                "solder alloy",
+                "lead tin",
+                "83.11",
+                "80."
+            ]
         }
     ],
     "classification_rules": [

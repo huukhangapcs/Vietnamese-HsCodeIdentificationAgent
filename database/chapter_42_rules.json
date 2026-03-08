@@ -2,11 +2,26 @@
     "chapter_code": "42",
     "chapter_title": "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",
     "inclusions": [
-        "Heading 42.01 — Saddlery and harness for ANY animal (including traces, leads, knee pads, muzzles, saddle cloths, saddle bags, dog coats and the like), of ANY material",
-        "Heading 42.02 — Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food/beverage bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers — of leather/composition leather, plastics sheeting, textile materials, vulcanised fibre or paperboard, or wholly/mainly covered with such materials or paper. Subheadings classified by: outer surface material (leather; plastics/textile; other) AND container type.",
-        "Heading 42.03 — Articles of apparel and clothing accessories of leather or composition leather: Note 4 defines scope — includes gloves (sports, protective), mittens, mitts, aprons, protective clothing, braces, belts, bandoliers, wrist straps. Excludes watch straps (91.13)",
-        "Heading 42.05 — Other articles of leather or of composition leather: boot laces, mats, industrial safety belts/harnesses, leather strings/cords for jewellery, articles for machinery/technical uses, other",
-        "Heading 42.06 — Articles of gut (other than silk-worm gut), of goldbeater's skin, of bladders or of tendons"
+        {
+            "heading": "42.01",
+            "description": "Saddlery and harness for ANY animal (including traces, leads, knee pads, muzzles, saddle cloths, saddle bags, dog coats and the like), of ANY material"
+        },
+        {
+            "heading": "42.02",
+            "description": "Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food/beverage bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers — of leather/composition leather, plastics sheeting, textile materials, vulcanised fibre or paperboard, or wholly/mainly covered with such materials or paper. Subheadings classified by: outer surface material (leather; plastics/textile; other) AND container type."
+        },
+        {
+            "heading": "42.03",
+            "description": "Articles of apparel and clothing accessories of leather or composition leather: Note 4 defines scope — includes gloves (sports, protective), mittens, mitts, aprons, protective clothing, braces, belts, bandoliers, wrist straps. Excludes watch straps (91.13)"
+        },
+        {
+            "heading": "42.05",
+            "description": "Other articles of leather or of composition leather: boot laces, mats, industrial safety belts/harnesses, leather strings/cords for jewellery, articles for machinery/technical uses, other"
+        },
+        {
+            "heading": "42.06",
+            "description": "Articles of gut (other than silk-worm gut), of goldbeater's skin, of bladders or of tendons"
+        }
     ],
     "exclusions": [
         {

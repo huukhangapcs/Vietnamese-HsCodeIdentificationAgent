@@ -3,35 +3,82 @@
     "chapter_title": "Man-made filaments; strip and the like of man-made textile materials",
     "scope_note": "Note 1: 'man-made fibres' = organic polymer fibres produced by: (a) SYNTHETIC: polymerisation of organic monomers (polyamides, polyesters, polyolefins, polyurethanes, PVA etc.) OR chemical modification thereof; (b) ARTIFICIAL: dissolution/chemical treatment of natural organic polymers (cellulose → viscose/cupro, cellulose acetate, alginates, casein etc.). Strip and the like of 54.04/54.05 are NOT man-made fibres. Note 2: 54.02/54.03 do NOT apply to filament tow of Ch.55.",
     "inclusions": [
-        "Heading 54.01 — Sewing thread of man-made filaments, whether or not put up for retail sale",
-        "Heading 54.02 — Synthetic filament yarn (other than sewing thread), not put up for retail sale, including synthetic monofilament of less than 67 decitex: high-tenacity yarn of nylon or other polyamides; high-tenacity yarn of polyesters; textured yarn (polyamide, polyester, polypropylene); other yarn (single, multiple or cabled). Note 2: excludes synthetic filament tow of Ch.55",
-        "Heading 54.03 — Artificial filament yarn (other than sewing thread), not put up for retail sale, including artificial monofilament of less than 67 decitex: high-tenacity viscose yarn; textured viscose yarn; other artificial yarn (viscose, cupro, modal, lyocell, acetate). Note 2: excludes artificial filament tow of Ch.55",
-        "Heading 54.04 — Synthetic monofilament of 67 decitex or more and of which no cross-sectional dimension exceeds 1 mm; strip and the like (for example, artificial straw) of synthetic textile materials of an apparent width not exceeding 5 mm",
-        "Heading 54.05 — Artificial monofilament of 67 decitex or more and of which no cross-sectional dimension exceeds 1 mm; strip and the like of artificial textile materials of an apparent width not exceeding 5 mm",
-        "Heading 54.06 — Man-made filament yarn (other than sewing thread), put up for retail sale",
-        "Heading 54.07 — Woven fabrics of synthetic filament yarn, including woven fabrics obtained from materials of heading 54.04 (e.g., woven fabrics of strips)",
-        "Heading 54.08 — Woven fabrics of artificial filament yarn, including woven fabrics obtained from materials of heading 54.05"
+        {
+            "heading": "54.01",
+            "description": "Sewing thread of man-made filaments, whether or not put up for retail sale"
+        },
+        {
+            "heading": "54.02",
+            "description": "Synthetic filament yarn (other than sewing thread), not put up for retail sale, including synthetic monofilament of less than 67 decitex: high-tenacity yarn of nylon or other polyamides; high-tenacity yarn of polyesters; textured yarn (polyamide, polyester, polypropylene); other yarn (single, multiple or cabled). Note 2: excludes synthetic filament tow of Ch.55"
+        },
+        {
+            "heading": "54.03",
+            "description": "Artificial filament yarn (other than sewing thread), not put up for retail sale, including artificial monofilament of less than 67 decitex: high-tenacity viscose yarn; textured viscose yarn; other artificial yarn (viscose, cupro, modal, lyocell, acetate). Note 2: excludes artificial filament tow of Ch.55"
+        },
+        {
+            "heading": "54.04",
+            "description": "Synthetic monofilament of 67 decitex or more and of which no cross-sectional dimension exceeds 1 mm; strip and the like (for example, artificial straw) of synthetic textile materials of an apparent width not exceeding 5 mm"
+        },
+        {
+            "heading": "54.05",
+            "description": "Artificial monofilament of 67 decitex or more and of which no cross-sectional dimension exceeds 1 mm; strip and the like of artificial textile materials of an apparent width not exceeding 5 mm"
+        },
+        {
+            "heading": "54.06",
+            "description": "Man-made filament yarn (other than sewing thread), put up for retail sale"
+        },
+        {
+            "heading": "54.07",
+            "description": "Woven fabrics of synthetic filament yarn, including woven fabrics obtained from materials of heading 54.04 (e.g., woven fabrics of strips)"
+        },
+        {
+            "heading": "54.08",
+            "description": "Woven fabrics of artificial filament yarn, including woven fabrics obtained from materials of heading 54.05"
+        }
     ],
     "exclusions": [
         {
             "condition": "Synthetic or artificial filament tow (multiple parallel filaments forming a bundle) of Chapter 55",
             "action": "Redirect to Chapter 55 (headings 55.01/55.02) — Note 2. Filament tow meeting Ch.55 Note 1 specs (>2m, <5 turns/m, <67 dtex/filament, drawn for synthetic, total >20,000 dtex) → Ch.55. 54.02/54.03 exclude tow",
-            "keywords": ["filament tow synthetic", "viscose tow artificial", "polyester tow", "55.01", "55.02"]
+            "keywords": [
+                "filament tow synthetic",
+                "viscose tow artificial",
+                "polyester tow",
+                "55.01",
+                "55.02"
+            ]
         },
         {
             "condition": "Man-made monofilament of 67 decitex or more, or strip/tape wider than 5 mm",
             "action": "Monofilament ≥67 dtex → 54.04 (synthetic) or 54.05 (artificial) if cross-section ≤1mm. Strip/tape wider than 5mm apparent width → NOT Ch.54 strip; classified by plastic or material chapter. Cross-section >1mm → classified as plastic rod/tube/strip → Ch.39",
-            "keywords": ["monofilament thick 67 dtex", "strip wider 5mm", "plastic rod", "39."]
+            "keywords": [
+                "monofilament thick 67 dtex",
+                "strip wider 5mm",
+                "plastic rod",
+                "39."
+            ]
         },
         {
             "condition": "Woven fabrics of man-made filaments that are impregnated, coated, covered or laminated",
             "action": "Redirect to Chapter 59 (coated/laminated textile fabrics). PU-coated polyester filament fabric → 59.03. Rubberised nylon fabric → 59.06",
-            "keywords": ["coated polyester fabric", "laminated nylon fabric", "PU coated filament fabric", "59.03", "59.06"]
+            "keywords": [
+                "coated polyester fabric",
+                "laminated nylon fabric",
+                "PU coated filament fabric",
+                "59.03",
+                "59.06"
+            ]
         },
         {
             "condition": "Knitted or crocheted fabrics of man-made filament yarn",
             "action": "Redirect to Chapter 60 (knitted or crocheted fabrics). Man-made filament knit fabric → Ch.60. Made-up knitted garments → Ch.61",
-            "keywords": ["knitted nylon fabric", "crochet polyester", "knit jersey man-made", "60.", "61."]
+            "keywords": [
+                "knitted nylon fabric",
+                "crochet polyester",
+                "knit jersey man-made",
+                "60.",
+                "61."
+            ]
         }
     ],
     "classification_rules": [

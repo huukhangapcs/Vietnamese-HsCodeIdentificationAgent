@@ -2,32 +2,110 @@
     "chapter_code": "38",
     "chapter_title": "Miscellaneous chemical products",
     "inclusions": [
-        "Heading 38.01 — Artificial graphite; colloidal or semi-colloidal graphite; preparations based on graphite or other carbon in the form of pastes, blocks, plates or other semi-manufactures",
-        "Heading 38.02 — Activated carbon; activated natural mineral products; animal black (including spent animal black)",
-        "Heading 38.03 — Tall oil, whether or not refined",
-        "Heading 38.04 — Residual lyes from manufacture of wood pulp, whether or not concentrated, desugared or chemically treated, including lignin sulphonates (excludes tall oil of 38.03)",
-        "Heading 38.05 — Gum, wood or sulphate turpentine and other terpenic oils; crude dipentene; sulphite turpentine; pine oil",
-        "Heading 38.06 — Rosin and resin acids and derivatives; rosin spirit and oils; run gums",
-        "Heading 38.07 — Wood tar; wood tar oils; wood creosote; wood naphtha; vegetable pitch; brewers' pitch and similar preparations based on rosin/resin acids/vegetable pitch",
-        "Heading 38.08 — Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products, plant-growth regulators, disinfectants and similar — PUT UP in forms for retail sale or as preparations/articles. Subheadings 3808.52/59: goods containing specific banned POPs (DDT, aldrin, dieldrin, endosulfan, HCH/lindane, parathion, mercury compounds, ethylene oxide, etc.). Subheadings 3808.61–69: goods containing specific pyrethroids (alpha-cypermethrin, deltamethrin, lambda-cyhalothrin, malathion, etc.)",
-        "Heading 38.09 — Finishing agents, dye carriers, dressings, mordants for textile/paper/leather industries, NES",
-        "Heading 38.10 — Pickling preparations for metal surfaces; fluxes for soldering/brazing/welding; soldering/brazing/welding pastes; electrode core/coating preparations",
-        "Heading 38.11 — Anti-knock preparations; oxidation inhibitors; gum inhibitors; viscosity improvers; anti-corrosive preparations and other prepared additives for mineral oils or similar liquids",
-        "Heading 38.12 — Prepared rubber accelerators; compound plasticisers for rubber/plastics NES; anti-oxidising preparations and compound stabilisers for rubber or plastics",
-        "Heading 38.13 — Preparations and charges for fire-extinguishers; charged fire-extinguishing grenades",
-        "Heading 38.14 — Organic composite solvents and thinners NES; prepared paint or varnish removers",
-        "Heading 38.15 — Reaction initiators, reaction accelerators and catalytic preparations NES",
-        "Heading 38.16 — Refractory cements, mortars, concretes and similar compositions (other than 38.01)",
-        "Heading 38.17 — Mixed alkylbenzenes and mixed alkylnaphthalenes (other than heading 27.07 or 29.02)",
-        "Heading 38.18 — Chemical elements doped for electronics in the form of DISCS, WAFERS or similar forms; chemical compounds doped for electronics",
-        "Heading 38.19 — Hydraulic brake fluids and other prepared liquids for hydraulic transmission containing <70% petroleum oils",
-        "Heading 38.20 — Anti-freezing preparations and prepared de-icing fluids",
-        "Heading 38.21 — Prepared culture media for development/maintenance of micro-organisms, viruses, plant/human/animal cells",
-        "Heading 38.22 — In-vitro diagnostic or laboratory reagents on a backing; prepared diagnostic/laboratory reagents whether or not on a backing (other than 30.02/30.06); CERTIFIED REFERENCE MATERIALS (Note 2): heading 38.22 takes precedence over ANY other heading (except Ch.28 or Ch.29) for certified reference materials",
-        "Heading 38.23 — Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols",
-        "Heading 38.24 — Prepared binders for foundry moulds or cores; chemical products NES of chemical/allied industries; residual products NES. Specifically by Note 3: (a) cultured crystals (not optical) ≥2.5g of MgO or halides of alkali/alkaline-earth metals; (b) fusel oil and Dippel's oil; (c) ink removers in retail packings; (d) stencil correctors, correction fluids and correction tapes (other than 96.12) in retail packings; (e) ceramic firing testers (Seger cones). Also: mixed alkyl phosphates; non-agglomerated metal carbides with metallic binders; municipal waste; sewage sludge; clinical waste",
-        "Heading 38.25 — Residual products of the chemical or allied industries NES: sewage sludge (from urban effluent treatment — Note 5); clinical waste (Note 6(a) — contaminated waste from medical/surgical/dental/veterinary procedures containing pathogens); waste organic solvents (Note 6(b) and 4 — wastes containing mainly organic solvents not fit for further use as primary products); wastes of metal pickling liquors, hydraulic fluids, brake fluids, anti-freezing fluids (Note 6(c)); other wastes from chemical/allied industries (Note 6(d))",
-        "Heading 38.26 — Biodiesel (Note 7): mono-alkyl esters of fatty acids used as fuel, derived from animal/vegetable/microbial fats and oils whether or not used; mixtures containing biodiesel"
+        {
+            "heading": "38.01",
+            "description": "Artificial graphite; colloidal or semi-colloidal graphite; preparations based on graphite or other carbon in the form of pastes, blocks, plates or other semi-manufactures"
+        },
+        {
+            "heading": "38.02",
+            "description": "Activated carbon; activated natural mineral products; animal black (including spent animal black)"
+        },
+        {
+            "heading": "38.03",
+            "description": "Tall oil, whether or not refined"
+        },
+        {
+            "heading": "38.04",
+            "description": "Residual lyes from manufacture of wood pulp, whether or not concentrated, desugared or chemically treated, including lignin sulphonates (excludes tall oil of 38.03)"
+        },
+        {
+            "heading": "38.05",
+            "description": "Gum, wood or sulphate turpentine and other terpenic oils; crude dipentene; sulphite turpentine; pine oil"
+        },
+        {
+            "heading": "38.06",
+            "description": "Rosin and resin acids and derivatives; rosin spirit and oils; run gums"
+        },
+        {
+            "heading": "38.07",
+            "description": "Wood tar; wood tar oils; wood creosote; wood naphtha; vegetable pitch; brewers' pitch and similar preparations based on rosin/resin acids/vegetable pitch"
+        },
+        {
+            "heading": "38.08",
+            "description": "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products, plant-growth regulators, disinfectants and similar — PUT UP in forms for retail sale or as preparations/articles. Subheadings 3808.52/59: goods containing specific banned POPs (DDT, aldrin, dieldrin, endosulfan, HCH/lindane, parathion, mercury compounds, ethylene oxide, etc.). Subheadings 3808.61–69: goods containing specific pyrethroids (alpha-cypermethrin, deltamethrin, lambda-cyhalothrin, malathion, etc.)"
+        },
+        {
+            "heading": "38.09",
+            "description": "Finishing agents, dye carriers, dressings, mordants for textile/paper/leather industries, NES"
+        },
+        {
+            "heading": "38.10",
+            "description": "Pickling preparations for metal surfaces; fluxes for soldering/brazing/welding; soldering/brazing/welding pastes; electrode core/coating preparations"
+        },
+        {
+            "heading": "38.11",
+            "description": "Anti-knock preparations; oxidation inhibitors; gum inhibitors; viscosity improvers; anti-corrosive preparations and other prepared additives for mineral oils or similar liquids"
+        },
+        {
+            "heading": "38.12",
+            "description": "Prepared rubber accelerators; compound plasticisers for rubber/plastics NES; anti-oxidising preparations and compound stabilisers for rubber or plastics"
+        },
+        {
+            "heading": "38.13",
+            "description": "Preparations and charges for fire-extinguishers; charged fire-extinguishing grenades"
+        },
+        {
+            "heading": "38.14",
+            "description": "Organic composite solvents and thinners NES; prepared paint or varnish removers"
+        },
+        {
+            "heading": "38.15",
+            "description": "Reaction initiators, reaction accelerators and catalytic preparations NES"
+        },
+        {
+            "heading": "38.16",
+            "description": "Refractory cements, mortars, concretes and similar compositions (other than 38.01)"
+        },
+        {
+            "heading": "38.17",
+            "description": "Mixed alkylbenzenes and mixed alkylnaphthalenes (other than heading 27.07 or 29.02)"
+        },
+        {
+            "heading": "38.18",
+            "description": "Chemical elements doped for electronics in the form of DISCS, WAFERS or similar forms; chemical compounds doped for electronics"
+        },
+        {
+            "heading": "38.19",
+            "description": "Hydraulic brake fluids and other prepared liquids for hydraulic transmission containing <70% petroleum oils"
+        },
+        {
+            "heading": "38.20",
+            "description": "Anti-freezing preparations and prepared de-icing fluids"
+        },
+        {
+            "heading": "38.21",
+            "description": "Prepared culture media for development/maintenance of micro-organisms, viruses, plant/human/animal cells"
+        },
+        {
+            "heading": "38.22",
+            "description": "In-vitro diagnostic or laboratory reagents on a backing; prepared diagnostic/laboratory reagents whether or not on a backing (other than 30.02/30.06); CERTIFIED REFERENCE MATERIALS (Note 2): heading 38.22 takes precedence over ANY other heading (except Ch.28 or Ch.29) for certified reference materials"
+        },
+        {
+            "heading": "38.23",
+            "description": "Industrial monocarboxylic fatty acids; acid oils from refining; industrial fatty alcohols"
+        },
+        {
+            "heading": "38.24",
+            "description": "Prepared binders for foundry moulds or cores; chemical products NES of chemical/allied industries; residual products NES. Specifically by Note 3: (a) cultured crystals (not optical) ≥2.5g of MgO or halides of alkali/alkaline-earth metals; (b) fusel oil and Dippel's oil; (c) ink removers in retail packings; (d) stencil correctors, correction fluids and correction tapes (other than 96.12) in retail packings; (e) ceramic firing testers (Seger cones). Also: mixed alkyl phosphates; non-agglomerated metal carbides with metallic binders; municipal waste; sewage sludge; clinical waste"
+        },
+        {
+            "heading": "38.25",
+            "description": "Residual products of the chemical or allied industries NES: sewage sludge (from urban effluent treatment — Note 5); clinical waste (Note 6(a) — contaminated waste from medical/surgical/dental/veterinary procedures containing pathogens); waste organic solvents (Note 6(b) and 4 — wastes containing mainly organic solvents not fit for further use as primary products); wastes of metal pickling liquors, hydraulic fluids, brake fluids, anti-freezing fluids (Note 6(c)); other wastes from chemical/allied industries (Note 6(d))"
+        },
+        {
+            "heading": "38.26",
+            "description": "Biodiesel (Note 7): mono-alkyl esters of fatty acids used as fuel, derived from animal/vegetable/microbial fats and oils whether or not used; mixtures containing biodiesel"
+        }
     ],
     "exclusions": [
         {

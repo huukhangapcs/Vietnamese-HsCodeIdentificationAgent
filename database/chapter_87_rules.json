@@ -2,46 +2,110 @@
     "chapter_code": "87",
     "chapter_title": "Vehicles other than railway or tramway rolling-stock, and parts and accessories thereof",
     "inclusions": [
-        "Heading 87.01 — Tractors (wheeled and crawler), including pedestrian-controlled tractors, agricultural tractors, road tractors for semi-trailers",
-        "Heading 87.02 — Motor vehicles for the transport of 10 or more persons, including driver (buses, minibuses, coaches, trolleybuses)",
-        "Heading 87.03 — Motor cars and other motor vehicles principally designed for the transport of persons (other than 87.02), including station wagons, racing cars",
-        "Heading 87.04 — Motor vehicles for the transport of goods (lorries/trucks, vans, pick-ups, including refrigerator vehicles, breakdown lorries)",
-        "Heading 87.05 — Special-purpose motor vehicles (crane lorries, fire-fighting vehicles, concrete-mixer lorries, road-sweeping vehicles, spraying vehicles, mobile workshops, mobile radiology units)",
-        "Heading 87.06 — Chassis fitted with engines for motor vehicles of headings 87.01 to 87.05 (WITHOUT cabs)",
-        "Heading 87.07 — Bodies (including cabs) for motor vehicles of headings 87.01 to 87.05",
-        "Heading 87.08 — Parts and accessories for motor vehicles of headings 87.01 to 87.05 (including bumpers, seat belts, safety airbags, brakes, gearboxes, axles, wheels, suspension, steering wheels, dashboards, silencers, exhaust pipes, clutches, radiators, windscreen wipers, framed/heated windows per Subheading Note 1)",
-        "Heading 87.09 — Works trucks, self-propelled, not fitted with lifting or handling equipment, of the type used in factories/warehouses/airports/dockyards for short-distance goods transport; tractors used on railway-station platforms",
-        "Heading 87.10 — Tanks and other armoured fighting vehicles, motorised, whether or not armed; parts thereof",
-        "Heading 87.11 — Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, whether or not fitted with side-cars; side-cars",
-        "Heading 87.12 — Bicycles and other cycles (including delivery tricycles), not motorised — INCLUDES ALL CHILDREN'S BICYCLES (Note 4)",
-        "Heading 87.13 — Invalid carriages, whether or not motorised or otherwise mechanically propelled",
-        "Heading 87.14 — Parts and accessories for vehicles of headings 87.09 to 87.13",
-        "Heading 87.15 — Baby carriages and parts thereof",
-        "Heading 87.16 — Trailers and semi-trailers; other vehicles not mechanically propelled; parts thereof"
+        {
+            "heading": "87.01",
+            "description": "Tractors (wheeled and crawler), including pedestrian-controlled tractors, agricultural tractors, road tractors for semi-trailers"
+        },
+        {
+            "heading": "87.02",
+            "description": "Motor vehicles for the transport of 10 or more persons, including driver (buses, minibuses, coaches, trolleybuses)"
+        },
+        {
+            "heading": "87.03",
+            "description": "Motor cars and other motor vehicles principally designed for the transport of persons (other than 87.02), including station wagons, racing cars"
+        },
+        {
+            "heading": "87.04",
+            "description": "Motor vehicles for the transport of goods (lorries/trucks, vans, pick-ups, including refrigerator vehicles, breakdown lorries)"
+        },
+        {
+            "heading": "87.05",
+            "description": "Special-purpose motor vehicles (crane lorries, fire-fighting vehicles, concrete-mixer lorries, road-sweeping vehicles, spraying vehicles, mobile workshops, mobile radiology units)"
+        },
+        {
+            "heading": "87.06",
+            "description": "Chassis fitted with engines for motor vehicles of headings 87.01 to 87.05 (WITHOUT cabs)"
+        },
+        {
+            "heading": "87.07",
+            "description": "Bodies (including cabs) for motor vehicles of headings 87.01 to 87.05"
+        },
+        {
+            "heading": "87.08",
+            "description": "Parts and accessories for motor vehicles of headings 87.01 to 87.05 (including bumpers, seat belts, safety airbags, brakes, gearboxes, axles, wheels, suspension, steering wheels, dashboards, silencers, exhaust pipes, clutches, radiators, windscreen wipers, framed/heated windows per Subheading Note 1)"
+        },
+        {
+            "heading": "87.09",
+            "description": "Works trucks, self-propelled, not fitted with lifting or handling equipment, of the type used in factories/warehouses/airports/dockyards for short-distance goods transport; tractors used on railway-station platforms"
+        },
+        {
+            "heading": "87.10",
+            "description": "Tanks and other armoured fighting vehicles, motorised, whether or not armed; parts thereof"
+        },
+        {
+            "heading": "87.11",
+            "description": "Motorcycles (including mopeds) and cycles fitted with an auxiliary motor, whether or not fitted with side-cars; side-cars"
+        },
+        {
+            "heading": "87.12",
+            "description": "Bicycles and other cycles (including delivery tricycles), not motorised — INCLUDES ALL CHILDREN'S BICYCLES (Note 4)"
+        },
+        {
+            "heading": "87.13",
+            "description": "Invalid carriages, whether or not motorised or otherwise mechanically propelled"
+        },
+        {
+            "heading": "87.14",
+            "description": "Parts and accessories for vehicles of headings 87.09 to 87.13"
+        },
+        {
+            "heading": "87.15",
+            "description": "Baby carriages and parts thereof"
+        },
+        {
+            "heading": "87.16",
+            "description": "Trailers and semi-trailers; other vehicles not mechanically propelled; parts thereof"
+        }
     ],
     "exclusions": [
         {
             "condition": "Railway or tramway rolling-stock designed solely for running on rails",
             "action": "Redirect to Chapter 86 — Note 1. Vehicles exclusively designed for rail use → Ch.86 regardless of propulsion type",
             "keywords": [
-                "railway vehicle", "tramway vehicle", "rolling stock", "rail locomotive", "rail car",
-                "train wagon", "Chapter 86", "86."
+                "railway vehicle",
+                "tramway vehicle",
+                "rolling stock",
+                "rail locomotive",
+                "rail car",
+                "train wagon",
+                "Chapter 86",
+                "86."
             ]
         },
         {
             "condition": "Children's cycles OTHER THAN bicycles (e.g., tricycles, pedal cars, scooters for children)",
             "action": "Redirect to heading 95.03 (toys) — Note 4. Only children's BICYCLES stay in 87.12; other children's cycles (tricycles with pedals, pedal cars) → 95.03",
             "keywords": [
-                "children tricycle", "kids tricycle", "pedal car", "children scooter non-motor",
-                "toy cycle", "child bicycle toy", "95.03"
+                "children tricycle",
+                "kids tricycle",
+                "pedal car",
+                "children scooter non-motor",
+                "toy cycle",
+                "child bicycle toy",
+                "95.03"
             ]
         },
         {
             "condition": "Machines and working tools designed for fitting to tractors of heading 87.01 as interchangeable equipment (e.g., ploughs, mowers, harrows), even if presented with the tractor or mounted on it",
             "action": "Remain classified in their respective headings (e.g., Ch.84 for agricultural machines) — Note 2 para 2. Attachment does NOT pull them into 87.01",
             "keywords": [
-                "tractor attachment", "tractor implement", "plough tractor", "mower tractor", "harrow tractor",
-                "tractor working tool", "interchangeable tractor equipment"
+                "tractor attachment",
+                "tractor implement",
+                "plough tractor",
+                "mower tractor",
+                "harrow tractor",
+                "tractor working tool",
+                "interchangeable tractor equipment"
             ]
         }
     ],

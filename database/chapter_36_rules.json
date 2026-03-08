@@ -2,12 +2,30 @@
     "chapter_code": "36",
     "chapter_title": "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations",
     "inclusions": [
-        "Heading 36.01 — Propellent powders (propellants)",
-        "Heading 36.02 — Prepared explosives, other than propellent powders",
-        "Heading 36.03 — Safety fuses; detonating fuses; percussion or detonating caps; igniters; electric detonators",
-        "Heading 36.04 — Fireworks, signalling flares, rain rockets, fog signals and other pyrotechnic articles",
-        "Heading 36.05 — Matches, other than pyrotechnic articles of heading 36.04",
-        "Heading 36.06 — Ferro-cerium and other pyrophoric alloys in all forms; articles of combustible materials (Note 2): (a) metaldehyde, hexamethylenetetramine and similar substances in tablet/stick/similar forms for use as fuels; fuels with basis of alcohol and similar prepared fuels in solid or semi-solid form; (b) liquid or liquefied-gas fuels in containers ≤300 cm3 for cigarette or similar lighters; (c) resin torches, firelighters and the like"
+        {
+            "heading": "36.01",
+            "description": "Propellent powders (propellants)"
+        },
+        {
+            "heading": "36.02",
+            "description": "Prepared explosives, other than propellent powders"
+        },
+        {
+            "heading": "36.03",
+            "description": "Safety fuses; detonating fuses; percussion or detonating caps; igniters; electric detonators"
+        },
+        {
+            "heading": "36.04",
+            "description": "Fireworks, signalling flares, rain rockets, fog signals and other pyrotechnic articles"
+        },
+        {
+            "heading": "36.05",
+            "description": "Matches, other than pyrotechnic articles of heading 36.04"
+        },
+        {
+            "heading": "36.06",
+            "description": "Ferro-cerium and other pyrophoric alloys in all forms; articles of combustible materials (Note 2): (a) metaldehyde, hexamethylenetetramine and similar substances in tablet/stick/similar forms for use as fuels; fuels with basis of alcohol and similar prepared fuels in solid or semi-solid form; (b) liquid or liquefied-gas fuels in containers ≤300 cm3 for cigarette or similar lighters; (c) resin torches, firelighters and the like"
+        }
     ],
     "exclusions": [
         {

@@ -2,21 +2,66 @@
     "chapter_code": "32",
     "chapter_title": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints and varnishes; putty and other mastics; inks",
     "inclusions": [
-        "Heading 32.01 — Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives",
-        "Heading 32.02 — Synthetic organic tanning substances; inorganic tanning substances; tanning preparations, whether or not containing natural tanning substances; enzymatic preparations for pre-tanning",
-        "Heading 32.03 — Colouring matter of vegetable or animal origin (including dyeing extracts but excluding animal black), whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin of a kind used for colouring any material or as ingredients in colouring preparations",
-        "Heading 32.04 — Synthetic organic colouring matter, whether or not chemically defined; preparations based on synthetic organic colouring matter of a kind used for colouring any material or as ingredients in manufacture of colouring preparations; synthetic organic products of a kind used as fluorescent brightening agents or as luminophores; includes mixtures of stabilised diazonium salts and couplers for azo dyes",
-        "Heading 32.05 — Colour lakes; preparations based on colour lakes of a kind used for colouring any material or as ingredients in the manufacture of colouring preparations",
-        "Heading 32.06 — Other colouring matter; preparations as specified, other than those of headings 32.03, 32.04 or 32.05; inorganic products of a kind used as luminophores; includes titanium dioxide pigments, chrome pigments, ultramarine, carbon black, and other inorganic pigments",
-        "Heading 32.07 — Prepared pigments, prepared opacifiers and prepared colours, vitrifiable enamels and glazes, engobes (slips), liquid lustres and similar preparations; glass frit and other glass in powder/granule/flake form",
-        "Heading 32.08 — Paints and varnishes (including enamels and lacquers) based on synthetic polymers or chemically modified natural polymers, dispersed or dissolved in a non-aqueous medium; solutions of products of headings 39.01–39.13 in volatile organic solvents (>50% solvent by weight)",
-        "Heading 32.09 — Paints and varnishes (including enamels and lacquers) based on synthetic polymers or chemically modified natural polymers, dispersed or dissolved in an aqueous medium",
-        "Heading 32.10 — Other paints and varnishes (including enamels, lacquers and distempers); prepared water pigments of a kind used for finishing leather",
-        "Heading 32.11 — Prepared driers",
-        "Heading 32.12 — Pigments (including metallic powders and flakes) dispersed in non-aqueous media, in liquid or paste form, used in manufacture of paints (including enamels); stamping foils; dyes and other colouring matter put up in forms/packings for retail sale",
-        "Heading 32.13 — Artists', students' or signboard painters' colours, modifying tints, amusement colours and the like, in tablets, tubes, jars, bottles, pans or similar forms or packings",
-        "Heading 32.14 — Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics; painters' fillings; non-refractory surfacing preparations for facades, indoor walls, floors, ceilings or the like",
-        "Heading 32.15 — Printing ink, writing or drawing ink and other inks, whether or not concentrated or solid"
+        {
+            "heading": "32.01",
+            "description": "Tanning extracts of vegetable origin; tannins and their salts, ethers, esters and other derivatives"
+        },
+        {
+            "heading": "32.02",
+            "description": "Synthetic organic tanning substances; inorganic tanning substances; tanning preparations, whether or not containing natural tanning substances; enzymatic preparations for pre-tanning"
+        },
+        {
+            "heading": "32.03",
+            "description": "Colouring matter of vegetable or animal origin (including dyeing extracts but excluding animal black), whether or not chemically defined; preparations based on colouring matter of vegetable or animal origin of a kind used for colouring any material or as ingredients in colouring preparations"
+        },
+        {
+            "heading": "32.04",
+            "description": "Synthetic organic colouring matter, whether or not chemically defined; preparations based on synthetic organic colouring matter of a kind used for colouring any material or as ingredients in manufacture of colouring preparations; synthetic organic products of a kind used as fluorescent brightening agents or as luminophores; includes mixtures of stabilised diazonium salts and couplers for azo dyes"
+        },
+        {
+            "heading": "32.05",
+            "description": "Colour lakes; preparations based on colour lakes of a kind used for colouring any material or as ingredients in the manufacture of colouring preparations"
+        },
+        {
+            "heading": "32.06",
+            "description": "Other colouring matter; preparations as specified, other than those of headings 32.03, 32.04 or 32.05; inorganic products of a kind used as luminophores; includes titanium dioxide pigments, chrome pigments, ultramarine, carbon black, and other inorganic pigments"
+        },
+        {
+            "heading": "32.07",
+            "description": "Prepared pigments, prepared opacifiers and prepared colours, vitrifiable enamels and glazes, engobes (slips), liquid lustres and similar preparations; glass frit and other glass in powder/granule/flake form"
+        },
+        {
+            "heading": "32.08",
+            "description": "Paints and varnishes (including enamels and lacquers) based on synthetic polymers or chemically modified natural polymers, dispersed or dissolved in a non-aqueous medium; solutions of products of headings 39.01–39.13 in volatile organic solvents (>50% solvent by weight)"
+        },
+        {
+            "heading": "32.09",
+            "description": "Paints and varnishes (including enamels and lacquers) based on synthetic polymers or chemically modified natural polymers, dispersed or dissolved in an aqueous medium"
+        },
+        {
+            "heading": "32.10",
+            "description": "Other paints and varnishes (including enamels, lacquers and distempers); prepared water pigments of a kind used for finishing leather"
+        },
+        {
+            "heading": "32.11",
+            "description": "Prepared driers"
+        },
+        {
+            "heading": "32.12",
+            "description": "Pigments (including metallic powders and flakes) dispersed in non-aqueous media, in liquid or paste form, used in manufacture of paints (including enamels); stamping foils; dyes and other colouring matter put up in forms/packings for retail sale"
+        },
+        {
+            "heading": "32.13",
+            "description": "Artists', students' or signboard painters' colours, modifying tints, amusement colours and the like, in tablets, tubes, jars, bottles, pans or similar forms or packings"
+        },
+        {
+            "heading": "32.14",
+            "description": "Glaziers' putty, grafting putty, resin cements, caulking compounds and other mastics; painters' fillings; non-refractory surfacing preparations for facades, indoor walls, floors, ceilings or the like"
+        },
+        {
+            "heading": "32.15",
+            "description": "Printing ink, writing or drawing ink and other inks, whether or not concentrated or solid"
+        }
     ],
     "exclusions": [
         {

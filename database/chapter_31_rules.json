@@ -2,11 +2,26 @@
     "chapter_code": "31",
     "chapter_title": "Fertilisers",
     "inclusions": [
-        "Heading 31.01 — Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products",
-        "Heading 31.02 — Mineral or chemical fertilisers, nitrogenous — specifically: (a) sodium nitrate; ammonium nitrate; double salts of ammonium sulphate/ammonium nitrate; ammonium sulphate; double salts/mixtures of Ca(NO3)2+NH4NO3; Ca(NO3)2+Mg(NO3)2; calcium cyanamide; urea — each whether or not pure; (b) mixtures of the above; (c) above mixed with chalk/gypsum/inorganic non-fertilising substances; (d) liquid fertilisers of ammonium nitrate or urea in aqueous/ammoniacal solution",
-        "Heading 31.03 — Mineral or chemical fertilisers, phosphatic — specifically: (a) basic slag; calcined/heat-treated natural phosphates; superphosphates (single/double/triple); calcium hydrogenorthophosphate with ≥0.2% fluorine (dry basis); (b) mixtures of the above; (c) mixtures with chalk/gypsum/inorganic non-fertilising substances",
-        "Heading 31.04 — Mineral or chemical fertilisers, potassic — specifically: (a) crude natural potassium salts (carnallite, kainite, sylvite); potassium chloride (except cultured crystals ≥2.5g → 38.24); potassium sulphate; magnesium potassium sulphate — each whether or not pure; (b) mixtures of the above",
-        "Heading 31.05 — Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods in tablets or similar forms or in packages of a gross weight not exceeding 10 kg — specifically includes: monoammonium phosphate (MAP); diammonium phosphate (DAP); MAP+DAP intermixtures",
+        {
+            "heading": "31.01",
+            "description": "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products"
+        },
+        {
+            "heading": "31.02",
+            "description": "Mineral or chemical fertilisers, nitrogenous — specifically: (a) sodium nitrate; ammonium nitrate; double salts of ammonium sulphate/ammonium nitrate; ammonium sulphate; double salts/mixtures of Ca(NO3)2+NH4NO3; Ca(NO3)2+Mg(NO3)2; calcium cyanamide; urea — each whether or not pure; (b) mixtures of the above; (c) above mixed with chalk/gypsum/inorganic non-fertilising substances; (d) liquid fertilisers of ammonium nitrate or urea in aqueous/ammoniacal solution"
+        },
+        {
+            "heading": "31.03",
+            "description": "Mineral or chemical fertilisers, phosphatic — specifically: (a) basic slag; calcined/heat-treated natural phosphates; superphosphates (single/double/triple); calcium hydrogenorthophosphate with ≥0.2% fluorine (dry basis); (b) mixtures of the above; (c) mixtures with chalk/gypsum/inorganic non-fertilising substances"
+        },
+        {
+            "heading": "31.04",
+            "description": "Mineral or chemical fertilisers, potassic — specifically: (a) crude natural potassium salts (carnallite, kainite, sylvite); potassium chloride (except cultured crystals ≥2.5g → 38.24); potassium sulphate; magnesium potassium sulphate — each whether or not pure; (b) mixtures of the above"
+        },
+        {
+            "heading": "31.05",
+            "description": "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods in tablets or similar forms or in packages of a gross weight not exceeding 10 kg — specifically includes: monoammonium phosphate (MAP); diammonium phosphate (DAP); MAP+DAP intermixtures"
+        },
         "Note 5 — Monoammonium phosphate (MAP) and diammonium phosphate (DAP), whether or not pure, and their intermixtures → mandatory classification in heading 31.05 (NOT 31.02 or 31.03)",
         "Note 6 — 'Other fertilisers' in 31.05 = products used as fertilisers containing at least one of N, P, or K as an essential constituent"
     ],

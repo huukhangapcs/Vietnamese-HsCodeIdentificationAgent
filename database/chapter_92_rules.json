@@ -1,41 +1,94 @@
 {
     "chapter_code": "92",
     "chapter_title": "Musical instruments; parts and accessories of such articles",
-
     "inclusions": [
-        "Heading 92.01 — Pianos, including automatic pianos; harpsichords and other keyboard stringed instruments",
-        "Heading 92.02 — Other string musical instruments (e.g., guitars, violins, harps, lutes, banjos, mandolins, ukuleles)",
-        "Heading 92.05 — Wind musical instruments (e.g., keyboard pipe organs, harmoniums, accordions, clarinets, trumpets, bagpipes, flutes, oboes, horns, saxophones)",
-        "Heading 92.06 — Percussion musical instruments (e.g., drums, xylophones, cymbals, castanets, maracas)",
-        "Heading 92.07 — Musical instruments, the sound of which is produced or must be amplified electrically (e.g., organs, guitars, accordions, electric pianos, synthesisers, theremins)",
-        "Heading 92.08 — Musical boxes, fairground organs, mechanical street organs, mechanical singing birds, musical saws and other musical instruments not falling in any other heading of Chapter 92; decoy calls of all kinds; whistles, call horns and other mouth-blown sound-signalling instruments",
-        "Heading 92.09 — Parts and accessories for musical instruments of headings 92.01 to 92.08 (e.g., cards, discs and rolls for mechanical instruments; metronomes, tuning forks and pitch pipes; strings for musical instruments; guitar picks, piano hammers, bridges, pegs, mouthpieces, reeds)"
+        {
+            "heading": "92.01",
+            "description": "Pianos, including automatic pianos; harpsichords and other keyboard stringed instruments"
+        },
+        {
+            "heading": "92.02",
+            "description": "Other string musical instruments (e.g., guitars, violins, harps, lutes, banjos, mandolins, ukuleles)"
+        },
+        {
+            "heading": "92.05",
+            "description": "Wind musical instruments (e.g., keyboard pipe organs, harmoniums, accordions, clarinets, trumpets, bagpipes, flutes, oboes, horns, saxophones)"
+        },
+        {
+            "heading": "92.06",
+            "description": "Percussion musical instruments (e.g., drums, xylophones, cymbals, castanets, maracas)"
+        },
+        {
+            "heading": "92.07",
+            "description": "Musical instruments, the sound of which is produced or must be amplified electrically (e.g., organs, guitars, accordions, electric pianos, synthesisers, theremins)"
+        },
+        {
+            "heading": "92.08",
+            "description": "Musical boxes, fairground organs, mechanical street organs, mechanical singing birds, musical saws and other musical instruments not falling in any other heading of Chapter 92; decoy calls of all kinds; whistles, call horns and other mouth-blown sound-signalling instruments"
+        },
+        {
+            "heading": "92.09",
+            "description": "Parts and accessories for musical instruments of headings 92.01 to 92.08 (e.g., cards, discs and rolls for mechanical instruments; metronomes, tuning forks and pitch pipes; strings for musical instruments; guitar picks, piano hammers, bridges, pegs, mouthpieces, reeds)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Parts of general use (as defined in Note 2 to Section XV) of base metal, or similar goods of plastics",
             "action": "Redirect to Section XV (base metal parts) or Chapter 39 (plastics) — Note 1(a). General-purpose fasteners, springs, nuts, bolts, etc. are not Ch.92 parts even if used in musical instruments",
-            "keywords": ["general purpose screw", "general purpose spring bolt", "39.", "Section XV"]
+            "keywords": [
+                "general purpose screw",
+                "general purpose spring bolt",
+                "39.",
+                "Section XV"
+            ]
         },
         {
             "condition": "Microphones, amplifiers, loudspeakers, headphones, switches, stroboscopes or other accessory instruments/apparatus/equipment of Chapter 85 or 90, FOR USE WITH but NOT INCORPORATED IN or housed in the same cabinet as musical instruments of Chapter 92",
             "action": "Redirect to Chapter 85 or 90 — Note 1(b). Key test: if the accessory is physically incorporated into or housed in the SAME CABINET as the instrument → stays in Ch.92 as part/accessory (92.09). If it is a SEPARATE unit used alongside the instrument → Ch.85 or Ch.90",
-            "keywords": ["external amplifier guitar", "standalone microphone music", "separate loudspeaker instrument", "headphone music standalone", "stroboscope tuner", "85.", "90."]
+            "keywords": [
+                "external amplifier guitar",
+                "standalone microphone music",
+                "separate loudspeaker instrument",
+                "headphone music standalone",
+                "stroboscope tuner",
+                "85.",
+                "90."
+            ]
         },
         {
             "condition": "Toy instruments or apparatus",
             "action": "Redirect to heading 95.03 (toys) — Note 1(c). Instruments designed for children's amusement rather than genuine musical performance → 95.03. Genuine student-grade instruments → Ch.92",
-            "keywords": ["toy piano", "toy drum", "toy xylophone", "toy guitar", "children toy instrument", "95.03"]
+            "keywords": [
+                "toy piano",
+                "toy drum",
+                "toy xylophone",
+                "toy guitar",
+                "children toy instrument",
+                "95.03"
+            ]
         },
         {
             "condition": "Brushes for cleaning musical instruments, OR monopods, bipods, tripods and similar articles",
             "action": "Redirect to heading 96.03 (brushes) or 96.20 (monopods/bipods/tripods) — Note 1(d). Instrument cleaning brushes → 96.03. Camera/instrument stands and tripods, even if designed for musical instrument use → 96.20",
-            "keywords": ["instrument cleaning brush", "brass instrument brush", "guitar stand tripod", "microphone stand tripod", "96.03", "96.20"]
+            "keywords": [
+                "instrument cleaning brush",
+                "brass instrument brush",
+                "guitar stand tripod",
+                "microphone stand tripod",
+                "96.03",
+                "96.20"
+            ]
         },
         {
             "condition": "Collectors' pieces or antiques of musical instruments",
             "action": "Redirect to heading 97.05 (collectors' pieces) or 97.06 (antiques) — Note 1(e)",
-            "keywords": ["antique violin", "antique piano collector", "museum instrument", "97.05", "97.06"]
+            "keywords": [
+                "antique violin",
+                "antique piano collector",
+                "museum instrument",
+                "97.05",
+                "97.06"
+            ]
         }
     ],
     "classification_rules": [

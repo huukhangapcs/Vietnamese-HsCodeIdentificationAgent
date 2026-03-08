@@ -2,49 +2,118 @@
     "chapter_code": "93",
     "chapter_title": "Arms and ammunition; parts and accessories thereof",
     "inclusions": [
-        "Heading 93.01 — Military weapons, other than revolvers, pistols and the arms of heading 93.07 (e.g., artillery weapons such as cannons, howitzers, mortars; rocket launchers; flame-throwers; grenade launchers; torpedo tubes and similar projectors)",
-        "Heading 93.02 — Revolvers and pistols (other than those of heading 93.03 or 93.04)",
-        "Heading 93.03 — Other firearms and similar devices which operate by the firing of an explosive charge (e.g., sporting, hunting or target-shooting shotguns and rifles; muzzle-loading firearms; signal pistols; pistols and revolvers for firing blank cartridges; captive-bolt humane killers; line-throwing guns)",
-        "Heading 93.04 — Other arms (e.g., spring, air or gas guns and pistols; truncheons), excluding those of heading 93.07",
-        "Heading 93.05 — Parts and accessories of articles of headings 93.01 to 93.04 (e.g., gun stocks, barrels, silencers, magazines, bipods, sights not being optical — optical sights mounted on or presented with the firearm also classified here)",
-        "Heading 93.06 — Bombs, grenades, torpedoes, mines, missiles and similar munitions of war and parts thereof; cartridges and other ammunition and projectiles and parts thereof, including shot and cartridge wads — NOTE: 'parts thereof' does NOT include radio or radar apparatus of heading 85.26 (Note 2)",
-        "Heading 93.07 — Swords, cutlasses, bayonets, lances and similar arms and parts thereof and scabbards and sheaths therefor"
+        {
+            "heading": "93.01",
+            "description": "Military weapons, other than revolvers, pistols and the arms of heading 93.07 (e.g., artillery weapons such as cannons, howitzers, mortars; rocket launchers; flame-throwers; grenade launchers; torpedo tubes and similar projectors)"
+        },
+        {
+            "heading": "93.02",
+            "description": "Revolvers and pistols (other than those of heading 93.03 or 93.04)"
+        },
+        {
+            "heading": "93.03",
+            "description": "Other firearms and similar devices which operate by the firing of an explosive charge (e.g., sporting, hunting or target-shooting shotguns and rifles; muzzle-loading firearms; signal pistols; pistols and revolvers for firing blank cartridges; captive-bolt humane killers; line-throwing guns)"
+        },
+        {
+            "heading": "93.04",
+            "description": "Other arms (e.g., spring, air or gas guns and pistols; truncheons), excluding those of heading 93.07"
+        },
+        {
+            "heading": "93.05",
+            "description": "Parts and accessories of articles of headings 93.01 to 93.04 (e.g., gun stocks, barrels, silencers, magazines, bipods, sights not being optical — optical sights mounted on or presented with the firearm also classified here)"
+        },
+        {
+            "heading": "93.06",
+            "description": "Bombs, grenades, torpedoes, mines, missiles and similar munitions of war and parts thereof; cartridges and other ammunition and projectiles and parts thereof, including shot and cartridge wads — NOTE: 'parts thereof' does NOT include radio or radar apparatus of heading 85.26 (Note 2)"
+        },
+        {
+            "heading": "93.07",
+            "description": "Swords, cutlasses, bayonets, lances and similar arms and parts thereof and scabbards and sheaths therefor"
+        }
     ],
     "exclusions": [
         {
             "condition": "Percussion caps, detonators, signalling flares and similar pyrotechnic/explosive goods",
             "action": "Redirect to Chapter 36 (explosives, pyrotechnics, matches) — Note 1(a). Detonators, blasting caps, signal flares → Ch.36 not Ch.93 even if associated with weapons",
-            "keywords": ["percussion cap", "detonator", "blasting cap", "signal flare", "pyrotechnic", "36."]
+            "keywords": [
+                "percussion cap",
+                "detonator",
+                "blasting cap",
+                "signal flare",
+                "pyrotechnic",
+                "36."
+            ]
         },
         {
             "condition": "Parts of general use (as defined in Note 2 to Section XV) of base metal, or similar goods of plastics",
             "action": "Redirect to Section XV (base metal) or Chapter 39 (plastics) — Note 1(b). General-purpose springs, screws, bolts, nuts used in arms → classified by material, not as arms parts",
-            "keywords": ["general purpose screw arms", "general purpose spring weapon", "39.", "Section XV"]
+            "keywords": [
+                "general purpose screw arms",
+                "general purpose spring weapon",
+                "39.",
+                "Section XV"
+            ]
         },
         {
             "condition": "Armoured fighting vehicles (tanks, armoured personnel carriers, etc.)",
             "action": "Redirect to heading 87.10 (tanks and other armoured fighting vehicles, motorised) — Note 1(c). Even though armoured vehicles are military weapons platforms, they are classified in Ch.87",
-            "keywords": ["tank", "armoured vehicle", "armored fighting vehicle", "APC", "armoured personnel carrier", "87.10"]
+            "keywords": [
+                "tank",
+                "armoured vehicle",
+                "armored fighting vehicle",
+                "APC",
+                "armoured personnel carrier",
+                "87.10"
+            ]
         },
         {
             "condition": "Telescopic sights or other optical devices suitable for use with arms — UNLESS mounted on a firearm OR presented with the firearm on which they are designed to be mounted",
             "action": "Redirect to Chapter 90 (optical instruments) — Note 1(d). Key test: (1) mounted on a firearm at presentation → Chapter 93 (93.05). (2) presented together with the specific firearm it is designed for → Chapter 93. (3) presented separately → Chapter 90 (heading 90.13)",
-            "keywords": ["rifle scope", "telescopic sight", "gun scope", "optical sight separate", "sniper scope", "90.13", "Chapter 90"]
+            "keywords": [
+                "rifle scope",
+                "telescopic sight",
+                "gun scope",
+                "optical sight separate",
+                "sniper scope",
+                "90.13",
+                "Chapter 90"
+            ]
         },
         {
             "condition": "Bows, arrows, fencing foils or toys",
             "action": "Redirect to Chapter 95 (toys, games and sports equipment) — Note 1(e). Bows and arrows as sporting/recreational equipment → 95.06. Fencing foils → 95.06. Toy guns, toy weapons → 95.03",
-            "keywords": ["bow arrow sport", "archery bow", "fencing foil", "toy gun", "toy sword", "95.03", "95.06"]
+            "keywords": [
+                "bow arrow sport",
+                "archery bow",
+                "fencing foil",
+                "toy gun",
+                "toy sword",
+                "95.03",
+                "95.06"
+            ]
         },
         {
             "condition": "Collectors' pieces or antiques (arms or ammunition of historical/collectible value)",
             "action": "Redirect to heading 97.05 (collectors' pieces) or 97.06 (antiques of more than 100 years old) — Note 1(f)",
-            "keywords": ["antique gun", "antique rifle", "collector firearm", "historical weapon", "97.05", "97.06"]
+            "keywords": [
+                "antique gun",
+                "antique rifle",
+                "collector firearm",
+                "historical weapon",
+                "97.05",
+                "97.06"
+            ]
         },
         {
             "condition": "Radio or radar apparatus presented as parts of bombs, grenades, torpedoes, missiles or other munitions of heading 93.06",
             "action": "Redirect to heading 85.26 (radar, radio navigational aid apparatus) — Note 2. The reference to 'parts thereof' in 93.06 explicitly excludes radio/radar apparatus, which stays in Ch.85 regardless of its intended use in a munition",
-            "keywords": ["radar fuse", "radio fuse missile", "proximity fuse radar", "guidance radar", "85.26"]
+            "keywords": [
+                "radar fuse",
+                "radio fuse missile",
+                "proximity fuse radar",
+                "guidance radar",
+                "85.26"
+            ]
         }
     ],
     "classification_rules": [

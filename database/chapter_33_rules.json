@@ -2,13 +2,34 @@
     "chapter_code": "33",
     "chapter_title": "Essential oils and resinoids; perfumery, cosmetic or toilet preparations",
     "inclusions": [
-        "Heading 33.01 — Essential oils (whether or not terpeneless), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats/fixed oils/waxes/the like; terpenic by-products; aqueous distillates and aqueous solutions of essential oils",
-        "Heading 33.02 — Mixtures of odoriferous substances and mixtures (including alcoholic solutions) based on these substances, of a kind used as raw materials in industry; other preparations based on odoriferous substances, of a kind used for the manufacture of beverages",
-        "Heading 33.03 — Perfumes and toilet waters",
-        "Heading 33.04 — Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen or sun tan preparations; manicure or pedicure preparations",
-        "Heading 33.05 — Preparations for use on the hair",
-        "Heading 33.06 — Preparations for oral or dental hygiene, including denture fixative pastes and powders; yarn used to clean between the teeth (dental floss), in individual retail packages",
-        "Heading 33.07 — Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery or toilet preparations not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties"
+        {
+            "heading": "33.01",
+            "description": "Essential oils (whether or not terpeneless), including concretes and absolutes; resinoids; extracted oleoresins; concentrates of essential oils in fats/fixed oils/waxes/the like; terpenic by-products; aqueous distillates and aqueous solutions of essential oils"
+        },
+        {
+            "heading": "33.02",
+            "description": "Mixtures of odoriferous substances and mixtures (including alcoholic solutions) based on these substances, of a kind used as raw materials in industry; other preparations based on odoriferous substances, of a kind used for the manufacture of beverages"
+        },
+        {
+            "heading": "33.03",
+            "description": "Perfumes and toilet waters"
+        },
+        {
+            "heading": "33.04",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen or sun tan preparations; manicure or pedicure preparations"
+        },
+        {
+            "heading": "33.05",
+            "description": "Preparations for use on the hair"
+        },
+        {
+            "heading": "33.06",
+            "description": "Preparations for oral or dental hygiene, including denture fixative pastes and powders; yarn used to clean between the teeth (dental floss), in individual retail packages"
+        },
+        {
+            "heading": "33.07",
+            "description": "Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery or toilet preparations not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties"
+        }
     ],
     "exclusions": [
         {

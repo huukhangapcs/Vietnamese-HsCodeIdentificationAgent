@@ -3,29 +3,66 @@
     "chapter_title": "Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard",
     "scope_note": "Note 1: 'chemical wood pulp, dissolving grades' (47.02) = chemical wood pulp with INSOLUBLE FRACTION ≥92% (soda/sulphate pulp) or ≥88% (sulphite pulp) after 1 hour in 18% NaOH at 20°C; AND for sulphite pulp: ash content ≤0.15% by weight. Chapter 47 covers upstream raw materials (pulp) for paper/paperboard production (Ch.48) or for man-made fibre production (Ch.54/55).",
     "inclusions": [
-        "Heading 47.01 — Mechanical wood pulp: groundwood, thermomechanical (TMP), chemi-thermomechanical (CTMP). Produced by grinding/refining wood without chemical treatment. High yield but lower quality (used for newsprint, tissue)",
-        "Heading 47.02 — Chemical wood pulp, dissolving grades. Note 1: soda/sulphate pulp with ≥92% insoluble fraction in 18% NaOH; OR sulphite pulp ≥88% insoluble fraction + ash ≤0.15%. Used for viscose/rayon and cellulose acetate production (feeds Ch.54/55 man-made fibres)",
-        "Heading 47.03 — Chemical wood pulp, soda or sulphate, other than dissolving grades: unbleached and bleached/semi-bleached varieties. High purity, used for quality paper/paperboard (kraft paper, bleached board for packaging)",
-        "Heading 47.04 — Chemical wood pulp, sulphite, other than dissolving grades: unbleached and bleached/semi-bleached. Lower lignin content than soda/sulphate, used for fine papers",
-        "Heading 47.05 — Semi-chemical wood pulp: produced by combining chemi-mechanical methods. NSSC (Neutral Sulphite Semi-Chemical) is the main type, used primarily for corrugating medium",
-        "Heading 47.06 — Pulps of fibres derived by recovering and recycling waste paper or paperboard, including pulps of other fibrous cellulosic materials (cotton linters pulp, flax pulp, esparto/alfa pulp, straw pulp, bamboo pulp, sugarcane bagasse pulp)",
-        "Heading 47.07 — Recovered (waste and scrap) paper or paperboard: sorted paper waste (old newspapers ONP, old corrugated containers OCC, office waste, mixed paper) collected for recycling into new pulp/paper"
+        {
+            "heading": "47.01",
+            "description": "Mechanical wood pulp: groundwood, thermomechanical (TMP), chemi-thermomechanical (CTMP). Produced by grinding/refining wood without chemical treatment. High yield but lower quality (used for newsprint, tissue)"
+        },
+        {
+            "heading": "47.02",
+            "description": "Chemical wood pulp, dissolving grades. Note 1: soda/sulphate pulp with ≥92% insoluble fraction in 18% NaOH; OR sulphite pulp ≥88% insoluble fraction + ash ≤0.15%. Used for viscose/rayon and cellulose acetate production (feeds Ch.54/55 man-made fibres)"
+        },
+        {
+            "heading": "47.03",
+            "description": "Chemical wood pulp, soda or sulphate, other than dissolving grades: unbleached and bleached/semi-bleached varieties. High purity, used for quality paper/paperboard (kraft paper, bleached board for packaging)"
+        },
+        {
+            "heading": "47.04",
+            "description": "Chemical wood pulp, sulphite, other than dissolving grades: unbleached and bleached/semi-bleached. Lower lignin content than soda/sulphate, used for fine papers"
+        },
+        {
+            "heading": "47.05",
+            "description": "Semi-chemical wood pulp: produced by combining chemi-mechanical methods. NSSC (Neutral Sulphite Semi-Chemical) is the main type, used primarily for corrugating medium"
+        },
+        {
+            "heading": "47.06",
+            "description": "Pulps of fibres derived by recovering and recycling waste paper or paperboard, including pulps of other fibrous cellulosic materials (cotton linters pulp, flax pulp, esparto/alfa pulp, straw pulp, bamboo pulp, sugarcane bagasse pulp)"
+        },
+        {
+            "heading": "47.07",
+            "description": "Recovered (waste and scrap) paper or paperboard: sorted paper waste (old newspapers ONP, old corrugated containers OCC, office waste, mixed paper) collected for recycling into new pulp/paper"
+        }
     ],
     "exclusions": [
         {
             "condition": "Wood in log/chip/sawdust form (pre-pulping raw wood materials)",
             "action": "Redirect to Chapter 44 (wood and articles of wood). Wood chips for pulping → 44.01. Only after pulping process does wood become Ch.47 pulp",
-            "keywords": ["wood chip", "sawdust wood", "wood log", "44.01", "44."]
+            "keywords": [
+                "wood chip",
+                "sawdust wood",
+                "wood log",
+                "44.01",
+                "44."
+            ]
         },
         {
             "condition": "Paper and paperboard (finished product from pulp)",
             "action": "Redirect to Chapter 48 (paper and paperboard). Pulp → Ch.47. Paper made from pulp → Ch.48. The conversion process (wet forming on paper machine) moves material from Ch.47 to Ch.48",
-            "keywords": ["paper roll", "paperboard", "tissue paper", "48."]
+            "keywords": [
+                "paper roll",
+                "paperboard",
+                "tissue paper",
+                "48."
+            ]
         },
         {
             "condition": "Chemical wood pulp, dissolving grades (47.02) used as man-made fibre raw material — note on downstream use",
             "action": "47.02 itself stays in Ch.47. The DOWNSTREAM product (viscose/rayon/cellulose acetate) → Ch.54/55. The dissolving pulp is used as the cellulosic raw material for artificial man-made fibres",
-            "keywords": ["dissolving pulp downstream", "cellulose for viscose", "54.", "55."]
+            "keywords": [
+                "dissolving pulp downstream",
+                "cellulose for viscose",
+                "54.",
+                "55."
+            ]
         }
     ],
     "classification_rules": [

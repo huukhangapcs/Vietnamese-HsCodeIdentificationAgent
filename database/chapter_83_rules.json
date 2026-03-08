@@ -2,23 +2,67 @@
     "chapter_code": "83",
     "chapter_title": "Miscellaneous articles of base metal",
     "inclusions": [
-        "Heading 83.01 — Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal",
-        "Heading 83.02 — Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal (Note 2: 'castors' = wheels with diameter ≤75mm, OR diameter >75mm but wheel/tyre width <30mm); automatic door closers of base metal",
-        "Heading 83.03 — Armoured or reinforced safes, strong-boxes and doors and safe deposit lockers for strong-rooms, cash or deed boxes and the like, of base metal",
-        "Heading 83.04 — Filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading 94.03",
-        "Heading 83.05 — Fittings for loose-leaf binders or files, letter clips, letter corners, paper clips, indexing tags and similar office articles, of base metal; staples in strips (e.g., for offices, upholstery, packaging), of base metal",
-        "Heading 83.06 — Bells, gongs and the like, non-electric, of base metal; statuettes and other ornaments, of base metal; photograph, picture or similar frames, of base metal; mirrors of base metal",
-        "Heading 83.07 — Flexible tubing of base metal, with or without fittings",
-        "Heading 83.08 — Clasps, frames with clasps, buckles, buckle-clasps, hooks, eyes, eyelets and the like, of base metal, of a kind used for clothing, footwear, awnings, handbags, travel goods or other made-up articles; tubular or bifurcated rivets, of base metal; beads and spangles, of base metal",
-        "Heading 83.09 — Stoppers, caps and lids (including crown corks, screw caps and pouring stoppers), capsules for bottles, threaded bungs, bung covers, seals and other packing accessories, of base metal",
-        "Heading 83.10 — Sign-plates, name-plates, address-plates and similar plates, numbers, letters and other symbols, and parts thereof, of base metal, excluding those of heading 94.05",
-        "Heading 83.11 — Wire, rods, tubes, plates, electrodes and similar products, of base metal or of metal carbides, coated or cored with flux material, of a kind used for soldering, brazing, welding or deposition of metal or of metal carbides; wire and rods, of agglomerated base metal powder, used for metal spraying; parts thereof"
+        {
+            "heading": "83.01",
+            "description": "Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal"
+        },
+        {
+            "heading": "83.02",
+            "description": "Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal (Note 2: 'castors' = wheels with diameter ≤75mm, OR diameter >75mm but wheel/tyre width <30mm); automatic door closers of base metal"
+        },
+        {
+            "heading": "83.03",
+            "description": "Armoured or reinforced safes, strong-boxes and doors and safe deposit lockers for strong-rooms, cash or deed boxes and the like, of base metal"
+        },
+        {
+            "heading": "83.04",
+            "description": "Filing cabinets, card-index cabinets, paper trays, paper rests, pen trays, office-stamp stands and similar office or desk equipment, of base metal, other than office furniture of heading 94.03"
+        },
+        {
+            "heading": "83.05",
+            "description": "Fittings for loose-leaf binders or files, letter clips, letter corners, paper clips, indexing tags and similar office articles, of base metal; staples in strips (e.g., for offices, upholstery, packaging), of base metal"
+        },
+        {
+            "heading": "83.06",
+            "description": "Bells, gongs and the like, non-electric, of base metal; statuettes and other ornaments, of base metal; photograph, picture or similar frames, of base metal; mirrors of base metal"
+        },
+        {
+            "heading": "83.07",
+            "description": "Flexible tubing of base metal, with or without fittings"
+        },
+        {
+            "heading": "83.08",
+            "description": "Clasps, frames with clasps, buckles, buckle-clasps, hooks, eyes, eyelets and the like, of base metal, of a kind used for clothing, footwear, awnings, handbags, travel goods or other made-up articles; tubular or bifurcated rivets, of base metal; beads and spangles, of base metal"
+        },
+        {
+            "heading": "83.09",
+            "description": "Stoppers, caps and lids (including crown corks, screw caps and pouring stoppers), capsules for bottles, threaded bungs, bung covers, seals and other packing accessories, of base metal"
+        },
+        {
+            "heading": "83.10",
+            "description": "Sign-plates, name-plates, address-plates and similar plates, numbers, letters and other symbols, and parts thereof, of base metal, excluding those of heading 94.05"
+        },
+        {
+            "heading": "83.11",
+            "description": "Wire, rods, tubes, plates, electrodes and similar products, of base metal or of metal carbides, coated or cored with flux material, of a kind used for soldering, brazing, welding or deposition of metal or of metal carbides; wire and rods, of agglomerated base metal powder, used for metal spraying; parts thereof"
+        }
     ],
     "exclusions": [
         {
             "condition": "Articles of iron or steel of headings 73.12 (stranded wire/rope/cables), 73.15 (chain), 73.17 (nails/tacks/staples), 73.18 (screws/bolts/nuts) or 73.20 (springs), or similar articles of other base metals (Ch.74–76 and 78–81)",
             "action": "Redirect to respective headings — Note 1. These general-use base metal articles are NOT treated as 'parts' of Ch.83 articles even if used in/with them",
-            "keywords": ["wire rope iron", "steel chain 73.15", "nails tacks steel", "screws bolts nuts", "springs steel", "73.12", "73.15", "73.17", "73.18", "73.20"]
+            "keywords": [
+                "wire rope iron",
+                "steel chain 73.15",
+                "nails tacks steel",
+                "screws bolts nuts",
+                "springs steel",
+                "73.12",
+                "73.15",
+                "73.17",
+                "73.18",
+                "73.20"
+            ]
         }
     ],
     "classification_rules": [

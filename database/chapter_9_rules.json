@@ -3,37 +3,87 @@
     "chapter_title": "Coffee, tea, maté and spices",
     "scope_note": "Note 1 — Spice mixture rules: (a) mixtures of two or more products of the SAME heading → classified in that heading. (b) mixtures of products from DIFFERENT headings (09.04–09.10) → classified in heading 09.10. EXCEPTION: Addition of other substances to 09.04–09.10 products (or their mixtures) does NOT affect classification PROVIDED the resulting mixture retains essential character of the goods. If essential character lost → NOT in Ch.09; mixed condiments/seasonings → 21.03. Note 2: Cubeb pepper (Piper cubeba) → 12.11, not Ch.09.",
     "inclusions": [
-        "Heading 09.01 — Coffee, whether or not roasted or decaffeinated; coffee husks/skins; coffee substitutes containing coffee in any proportion: green (unroasted) beans, roasted coffee (whole bean/ground, any roast level), decaffeinated (green or roasted), coffee husks, coffee cherry skin (cascara). Coffee SUBSTITUTES (chicory+coffee blend) → 09.01 if containing coffee in any proportion",
-        "Heading 09.02 — Tea, whether or not flavoured: any Camellia sinensis tea — green, black, white, oolong, pu-erh, yellow — fermented/oxidised or not; flavoured with natural flavouring (jasmine, bergamot/Earl Grey) → stays 09.02 if tea character retained",
-        "Heading 09.03 — Maté: dried/prepared leaves of Ilex paraguariensis",
-        "Heading 09.04 — Pepper of the genus Piper (black/white/green/pink peppercorns — whole, crushed, ground) AND dried or crushed or ground fruits of the genus Capsicum or Pimenta (chilli powder, cayenne, paprika, dried chilli flakes). EXCLUDES fresh/frozen Capsicum → 07.09",
-        "Heading 09.05 — Vanilla: whole dried vanilla pods/beans (Vanilla planifolia), cut vanilla beans, vanilla beans with or without seeds",
-        "Heading 09.06 — Cinnamon and cinnamon-tree flowers: Ceylon/true cinnamon (Cinnamomum verum), cassia bark (C. aromaticum, C. loureirii) — sticks/quills/broken/ground",
-        "Heading 09.07 — Cloves (whole fruit, cloves and stems): dried flower buds of Syzygium aromaticum, clove stems, mother cloves",
-        "Heading 09.08 — Nutmeg, mace and cardamoms: nutmeg (whole/ground), mace (dried aril of nutmeg, whole/ground), cardamom pods/seeds/ground",
-        "Heading 09.09 — Seeds of anise, badian (star anise), fennel, coriander, cumin, caraway, juniper berries — whole/crushed/ground dried seeds. Excludes fresh fennel bulb/herb → 07.09",
-        "Heading 09.10 — Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices AND MIXTURES: dried ginger (whole/ground), saffron threads/powder, turmeric/curcuma (rhizomes/powder), dried thyme, dried bay leaves, curry powder (Note 1(b) mixture → 09.10). OTHER SPICES not elsewhere classified: fenugreek seeds, liquorice root (spice use), sumac, berbere, etc."
+        {
+            "heading": "09.01",
+            "description": "Coffee, whether or not roasted or decaffeinated; coffee husks/skins; coffee substitutes containing coffee in any proportion: green (unroasted) beans, roasted coffee (whole bean/ground, any roast level), decaffeinated (green or roasted), coffee husks, coffee cherry skin (cascara). Coffee SUBSTITUTES (chicory+coffee blend) → 09.01 if containing coffee in any proportion"
+        },
+        {
+            "heading": "09.02",
+            "description": "Tea, whether or not flavoured: any Camellia sinensis tea — green, black, white, oolong, pu-erh, yellow — fermented/oxidised or not; flavoured with natural flavouring (jasmine, bergamot/Earl Grey) → stays 09.02 if tea character retained"
+        },
+        {
+            "heading": "09.03",
+            "description": "Maté: dried/prepared leaves of Ilex paraguariensis"
+        },
+        {
+            "heading": "09.04",
+            "description": "Pepper of the genus Piper (black/white/green/pink peppercorns — whole, crushed, ground) AND dried or crushed or ground fruits of the genus Capsicum or Pimenta (chilli powder, cayenne, paprika, dried chilli flakes). EXCLUDES fresh/frozen Capsicum → 07.09"
+        },
+        {
+            "heading": "09.05",
+            "description": "Vanilla: whole dried vanilla pods/beans (Vanilla planifolia), cut vanilla beans, vanilla beans with or without seeds"
+        },
+        {
+            "heading": "09.06",
+            "description": "Cinnamon and cinnamon-tree flowers: Ceylon/true cinnamon (Cinnamomum verum), cassia bark (C. aromaticum, C. loureirii) — sticks/quills/broken/ground"
+        },
+        {
+            "heading": "09.07",
+            "description": "Cloves (whole fruit, cloves and stems): dried flower buds of Syzygium aromaticum, clove stems, mother cloves"
+        },
+        {
+            "heading": "09.08",
+            "description": "Nutmeg, mace and cardamoms: nutmeg (whole/ground), mace (dried aril of nutmeg, whole/ground), cardamom pods/seeds/ground"
+        },
+        {
+            "heading": "09.09",
+            "description": "Seeds of anise, badian (star anise), fennel, coriander, cumin, caraway, juniper berries — whole/crushed/ground dried seeds. Excludes fresh fennel bulb/herb → 07.09"
+        },
+        {
+            "heading": "09.10",
+            "description": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices AND MIXTURES: dried ginger (whole/ground), saffron threads/powder, turmeric/curcuma (rhizomes/powder), dried thyme, dried bay leaves, curry powder (Note 1(b) mixture → 09.10). OTHER SPICES not elsewhere classified: fenugreek seeds, liquorice root (spice use), sumac, berbere, etc."
+        }
     ],
     "exclusions": [
         {
             "condition": "Cubeb pepper (Piper cubeba) and other products of heading 12.11",
             "action": "Redirect to heading 12.11 (plants/parts used in pharmacy/perfumery/insecticidal purposes) — Note 2. Cubeb (Piper cubeba, used medicinally/as aromatic) → 12.11. Black pepper (Piper nigrum) → 09.04. Long pepper (Piper longum) → 09.04. Only CUBEB is excluded, not all Piper species",
-            "keywords": ["cubeb pepper Piper cubeba", "12.11"]
+            "keywords": [
+                "cubeb pepper Piper cubeba",
+                "12.11"
+            ]
         },
         {
             "condition": "Coffee extracts, essences and instant/soluble coffee (coffee processed into a concentrate/soluble form)",
             "action": "Redirect to heading 21.01 — instant/soluble coffee (spray-dried, freeze-dried granules), liquid coffee concentrate, coffee essence → 21.01. Ch.09 covers coffee in BEAN/GROUND form only — roasted or unroasted. The extraction step (dissolving into water then drying again) → 21.01",
-            "keywords": ["instant coffee soluble", "coffee extract liquid", "coffee concentrate", "21.01"]
+            "keywords": [
+                "instant coffee soluble",
+                "coffee extract liquid",
+                "coffee concentrate",
+                "21.01"
+            ]
         },
         {
             "condition": "Herbal teas, tisanes, fruit infusions NOT containing Camellia sinensis",
             "action": "Redirect to heading 21.12 (herbal and fruit infusions) for retail packaged herbal teas. Bulk dried medicinal/aromatic herbs → 12.11. Chamomile tea bags → 21.12. Peppermint herbal infusion → 21.12. Rooibos → 21.12. Products MIXED with true tea (Camellia sinensis) → assess dominant character",
-            "keywords": ["chamomile herbal tea", "tisane non-tea", "herbal infusion", "rooibos", "21.12", "12.11"]
+            "keywords": [
+                "chamomile herbal tea",
+                "tisane non-tea",
+                "herbal infusion",
+                "rooibos",
+                "21.12",
+                "12.11"
+            ]
         },
         {
             "condition": "Mixed condiments/seasonings where the spice essential character is LOST due to other substances added",
             "action": "Redirect to heading 21.03 — Note 1 final paragraph: if additions to spices/spice mixtures cause the mixture to LOSE the essential character of the heading goods → not Ch.09 → 21.03 (mixed condiments and seasonings). Example: curry powder (only spices) → 09.10. Curry powder + significant maltodextrin/salt/MSG/oil/starch → tests essential character → if spice character lost → 21.03",
-            "keywords": ["seasoning blend non-spice", "mixed condiment maltodextrin", "sauce powder base", "21.03"]
+            "keywords": [
+                "seasoning blend non-spice",
+                "mixed condiment maltodextrin",
+                "sauce powder base",
+                "21.03"
+            ]
         }
     ],
     "classification_rules": [

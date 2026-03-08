@@ -2,53 +2,153 @@
     "chapter_code": "73",
     "chapter_title": "Articles of iron or steel",
     "inclusions": [
-        "Heading 73.01 — Sheet piling of iron or steel, whether or not drilled, punched or made from assembled elements; welded angles, shapes and sections, of iron or steel",
-        "Heading 73.02 — Railway or tramway track construction material of iron or steel: rails, check-rails and rack rails, switch blades, crossing frogs, point rods and other crossing pieces, sleepers (cross-ties), fish-plates, chairs, chair wedges, sole plates (base plates), rail clips, bedplates, ties and other material specialised for jointing or fixing rails",
-        "Heading 73.03 — Tubes, pipes and hollow profiles, of cast iron",
-        "Heading 73.04 — Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel",
-        "Heading 73.05 — Other tubes and pipes (e.g., welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel",
-        "Heading 73.06 — Other tubes, pipes and hollow profiles (e.g., open seam or welded, riveted or similarly closed), of iron or steel",
-        "Heading 73.07 — Tube or pipe fittings (e.g., couplings, elbows, sleeves), of iron or steel",
-        "Heading 73.08 — Structures (excluding prefabricated buildings of heading 94.06) and parts of structures (e.g., bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel",
-        "Heading 73.09 — Reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment",
-        "Heading 73.10 — Tanks, casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment",
-        "Heading 73.11 — Containers for compressed or liquefied gas, of iron or steel",
-        "Heading 73.12 — Stranded wire, ropes, cables, plaited bands, slings and the like, of iron or steel, not electrically insulated",
-        "Heading 73.13 — Barbed wire of iron or steel; twisted hoop or single flat wire, barbed or not, and loosely twisted double wire, of a kind used for fencing, of iron or steel",
-        "Heading 73.14 — Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal or iron or steel",
-        "Heading 73.15 — Chain and parts thereof, of iron or steel",
-        "Heading 73.16 — Anchors, grapnels and parts thereof, of iron or steel",
-        "Heading 73.17 — Nails, tacks, drawing pins, corrugated nails, staples (other than those of heading 83.05) and similar articles, of iron or steel, whether or not with heads of other material, but excluding such articles with heads of copper",
-        "Heading 73.18 — Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of iron or steel",
-        "Heading 73.19 — Sewing needles, knitting needles, bodkins, crochet hooks, embroidery stilettos and similar articles, for use in the hand, of iron or steel; safety pins and other pins of iron or steel, not elsewhere specified or included",
-        "Heading 73.20 — Springs and leaves for springs, of iron or steel",
-        "Heading 73.21 — Stoves, ranges, grates, cookers (including those with subsidiary boilers for central heating), barbecues, braziers, gas-rings, plate warmers and similar non-electric domestic appliances, and parts thereof, of iron or steel",
-        "Heading 73.22 — Radiators for central heating, not electrically heated, and parts thereof, of iron or steel; air heaters and hot air distributors (including distributors which can also distribute fresh or conditioned air), not electrically heated, incorporating a motor-driven fan or blower, and parts thereof, of iron or steel",
-        "Heading 73.23 — Table, kitchen or other household articles and parts thereof, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel",
-        "Heading 73.24 — Sanitary ware and parts thereof, of iron or steel",
-        "Heading 73.25 — Other cast articles of iron or steel",
-        "Heading 73.26 — Other articles of iron or steel (catch-all within Ch.73)"
+        {
+            "heading": "73.01",
+            "description": "Sheet piling of iron or steel, whether or not drilled, punched or made from assembled elements; welded angles, shapes and sections, of iron or steel"
+        },
+        {
+            "heading": "73.02",
+            "description": "Railway or tramway track construction material of iron or steel: rails, check-rails and rack rails, switch blades, crossing frogs, point rods and other crossing pieces, sleepers (cross-ties), fish-plates, chairs, chair wedges, sole plates (base plates), rail clips, bedplates, ties and other material specialised for jointing or fixing rails"
+        },
+        {
+            "heading": "73.03",
+            "description": "Tubes, pipes and hollow profiles, of cast iron"
+        },
+        {
+            "heading": "73.04",
+            "description": "Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel"
+        },
+        {
+            "heading": "73.05",
+            "description": "Other tubes and pipes (e.g., welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel"
+        },
+        {
+            "heading": "73.06",
+            "description": "Other tubes, pipes and hollow profiles (e.g., open seam or welded, riveted or similarly closed), of iron or steel"
+        },
+        {
+            "heading": "73.07",
+            "description": "Tube or pipe fittings (e.g., couplings, elbows, sleeves), of iron or steel"
+        },
+        {
+            "heading": "73.08",
+            "description": "Structures (excluding prefabricated buildings of heading 94.06) and parts of structures (e.g., bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel"
+        },
+        {
+            "heading": "73.09",
+            "description": "Reservoirs, tanks, vats and similar containers, for any material (other than compressed or liquefied gas), of iron or steel, of a capacity exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+        },
+        {
+            "heading": "73.10",
+            "description": "Tanks, casks, drums, cans, boxes and similar containers (including rigid or collapsible tubular containers), for any material (other than compressed or liquefied gas), of iron or steel, of a capacity not exceeding 300 litres, whether or not lined or heat-insulated, but not fitted with mechanical or thermal equipment"
+        },
+        {
+            "heading": "73.11",
+            "description": "Containers for compressed or liquefied gas, of iron or steel"
+        },
+        {
+            "heading": "73.12",
+            "description": "Stranded wire, ropes, cables, plaited bands, slings and the like, of iron or steel, not electrically insulated"
+        },
+        {
+            "heading": "73.13",
+            "description": "Barbed wire of iron or steel; twisted hoop or single flat wire, barbed or not, and loosely twisted double wire, of a kind used for fencing, of iron or steel"
+        },
+        {
+            "heading": "73.14",
+            "description": "Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal or iron or steel"
+        },
+        {
+            "heading": "73.15",
+            "description": "Chain and parts thereof, of iron or steel"
+        },
+        {
+            "heading": "73.16",
+            "description": "Anchors, grapnels and parts thereof, of iron or steel"
+        },
+        {
+            "heading": "73.17",
+            "description": "Nails, tacks, drawing pins, corrugated nails, staples (other than those of heading 83.05) and similar articles, of iron or steel, whether or not with heads of other material, but excluding such articles with heads of copper"
+        },
+        {
+            "heading": "73.18",
+            "description": "Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of iron or steel"
+        },
+        {
+            "heading": "73.19",
+            "description": "Sewing needles, knitting needles, bodkins, crochet hooks, embroidery stilettos and similar articles, for use in the hand, of iron or steel; safety pins and other pins of iron or steel, not elsewhere specified or included"
+        },
+        {
+            "heading": "73.20",
+            "description": "Springs and leaves for springs, of iron or steel"
+        },
+        {
+            "heading": "73.21",
+            "description": "Stoves, ranges, grates, cookers (including those with subsidiary boilers for central heating), barbecues, braziers, gas-rings, plate warmers and similar non-electric domestic appliances, and parts thereof, of iron or steel"
+        },
+        {
+            "heading": "73.22",
+            "description": "Radiators for central heating, not electrically heated, and parts thereof, of iron or steel; air heaters and hot air distributors (including distributors which can also distribute fresh or conditioned air), not electrically heated, incorporating a motor-driven fan or blower, and parts thereof, of iron or steel"
+        },
+        {
+            "heading": "73.23",
+            "description": "Table, kitchen or other household articles and parts thereof, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel"
+        },
+        {
+            "heading": "73.24",
+            "description": "Sanitary ware and parts thereof, of iron or steel"
+        },
+        {
+            "heading": "73.25",
+            "description": "Other cast articles of iron or steel"
+        },
+        {
+            "heading": "73.26",
+            "description": "Other articles of iron or steel (catch-all within Ch.73)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Iron or steel articles that correspond to descriptions in Chapter 72 (iron and steel as raw/semi-finished material: ingots, billets, bars, rods, flat-rolled products, wire rod, etc.)",
             "action": "Redirect to Chapter 72 — the distinction is between raw/semi-finished iron/steel IN MATERIAL FORM (Ch.72) and ARTICLES made from iron/steel (Ch.73). Wire rod coil → Ch.72. Bolt → Ch.73 (73.18)",
-            "keywords": ["wire rod", "steel ingot", "steel billet", "steel slab", "flat-rolled coil", "72."]
+            "keywords": [
+                "wire rod",
+                "steel ingot",
+                "steel billet",
+                "steel slab",
+                "flat-rolled coil",
+                "72."
+            ]
         },
         {
             "condition": "Prefabricated buildings of iron or steel",
             "action": "Redirect to heading 94.06 — Note to 73.08 explicitly excludes prefabricated buildings. Steel structural sections prepared for buildings → 73.08. Complete prefabricated steel building → 94.06",
-            "keywords": ["prefabricated building steel", "modular building steel", "portable cabin steel", "94.06"]
+            "keywords": [
+                "prefabricated building steel",
+                "modular building steel",
+                "portable cabin steel",
+                "94.06"
+            ]
         },
         {
             "condition": "Electrically insulated steel wire rope or cable",
             "action": "Redirect to heading 85.44 (insulated wire and cable). Bare steel wire rope → 73.12. Insulated electrical cable with steel conductors → 85.44",
-            "keywords": ["insulated steel wire", "insulated steel cable", "85.44"]
+            "keywords": [
+                "insulated steel wire",
+                "insulated steel cable",
+                "85.44"
+            ]
         },
         {
             "condition": "Railway/tramway vehicles and rolling stock (even if partly made of iron/steel)",
             "action": "Redirect to Chapter 86 (railway locomotives and rolling stock). Steel structural parts of railway vehicles → Ch.86 as components of railway vehicles, not Ch.73",
-            "keywords": ["railway wagon", "train carriage", "locomotive", "rolling stock", "86."]
+            "keywords": [
+                "railway wagon",
+                "train carriage",
+                "locomotive",
+                "rolling stock",
+                "86."
+            ]
         }
     ],
     "classification_rules": [

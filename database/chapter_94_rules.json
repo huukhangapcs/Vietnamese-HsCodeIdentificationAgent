@@ -2,73 +2,166 @@
     "chapter_code": "94",
     "chapter_title": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; luminaires and lighting fittings, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like; prefabricated buildings",
     "inclusions": [
-        "Heading 94.01 — Seats (whether or not convertible into beds) and parts thereof: chairs, sofas, armchairs, stools, benches, airline seats, vehicle seats (other than of heading 87.14), barber/dental chairs WITHOUT dental appliances",
-        "Heading 94.02 — Medical, surgical, dental or veterinary furniture (e.g., operating tables, examination tables, hospital beds with mechanical fittings); barbers' chairs and similar chairs having rotating as well as both reclining and elevating movements; parts of the foregoing",
-        "Heading 94.03 — Other furniture and parts thereof: desks, office furniture, kitchen furniture, bedroom furniture, shop furniture, laboratory benches, shelving units, wardrobes, bookcases, wall-mounted units, outdoor furniture",
-        "Heading 94.04 — Mattress supports; articles of bedding and similar furnishing (e.g., mattresses, quilts, eiderdowns, cushions, pouffes and pillows) fitted with springs or stuffed or internally fitted with any material or of cellular rubber or plastics, whether or not covered (excluding pneumatic/water mattresses → Ch.39/40/63)",
-        "Heading 94.05 — Luminaires (light fittings) and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included",
-        "Heading 94.06 — Prefabricated buildings: buildings finished in the factory or put up as elements presented together to be assembled on site — including housing, worksite accommodation, offices, schools, shops, sheds, garages; also 'modular building units' of steel (container-sized, substantially/completely pre-fitted internally, designed to be assembled into permanent buildings) — Note 4"
+        {
+            "heading": "94.01",
+            "description": "Seats (whether or not convertible into beds) and parts thereof: chairs, sofas, armchairs, stools, benches, airline seats, vehicle seats (other than of heading 87.14), barber/dental chairs WITHOUT dental appliances"
+        },
+        {
+            "heading": "94.02",
+            "description": "Medical, surgical, dental or veterinary furniture (e.g., operating tables, examination tables, hospital beds with mechanical fittings); barbers' chairs and similar chairs having rotating as well as both reclining and elevating movements; parts of the foregoing"
+        },
+        {
+            "heading": "94.03",
+            "description": "Other furniture and parts thereof: desks, office furniture, kitchen furniture, bedroom furniture, shop furniture, laboratory benches, shelving units, wardrobes, bookcases, wall-mounted units, outdoor furniture"
+        },
+        {
+            "heading": "94.04",
+            "description": "Mattress supports; articles of bedding and similar furnishing (e.g., mattresses, quilts, eiderdowns, cushions, pouffes and pillows) fitted with springs or stuffed or internally fitted with any material or of cellular rubber or plastics, whether or not covered (excluding pneumatic/water mattresses → Ch.39/40/63)"
+        },
+        {
+            "heading": "94.05",
+            "description": "Luminaires (light fittings) and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included"
+        },
+        {
+            "heading": "94.06",
+            "description": "Prefabricated buildings: buildings finished in the factory or put up as elements presented together to be assembled on site — including housing, worksite accommodation, offices, schools, shops, sheds, garages; also 'modular building units' of steel (container-sized, substantially/completely pre-fitted internally, designed to be assembled into permanent buildings) — Note 4"
+        }
     ],
     "exclusions": [
         {
             "condition": "Pneumatic or water mattresses, pillows or cushions",
             "action": "Redirect to Chapter 39 (plastics), Chapter 40 (rubber) or Chapter 63 (textile made-up articles) depending on constituent material — Note 1(a)",
-            "keywords": ["inflatable mattress", "air mattress", "water mattress", "pneumatic pillow", "inflatable cushion", "39.", "40.", "63."]
+            "keywords": [
+                "inflatable mattress",
+                "air mattress",
+                "water mattress",
+                "pneumatic pillow",
+                "inflatable cushion",
+                "39.",
+                "40.",
+                "63."
+            ]
         },
         {
             "condition": "Mirrors designed for placing on the floor or ground (cheval-glasses, swing-mirrors)",
             "action": "Redirect to heading 70.09 (glass mirrors) — Note 1(b). Floor-standing mirrors are excluded from Ch.94 furniture despite their floor placement",
-            "keywords": ["cheval glass", "swing mirror", "floor mirror", "full length mirror standing", "70.09"]
+            "keywords": [
+                "cheval glass",
+                "swing mirror",
+                "floor mirror",
+                "full length mirror standing",
+                "70.09"
+            ]
         },
         {
             "condition": "Articles of Chapter 71 (jewellery, precious metal items, imitation jewellery)",
             "action": "Redirect to Chapter 71 — Note 1(c)",
-            "keywords": ["jewellery box precious metal", "71."]
+            "keywords": [
+                "jewellery box precious metal",
+                "71."
+            ]
         },
         {
             "condition": "Parts of general use (Note 2 to Section XV) of base metal, or similar goods of plastics, or safes of heading 83.03",
             "action": "Redirect to Section XV (base metal), Chapter 39 (plastics), or heading 83.03 (safes) — Note 1(d). General-purpose screws, hinges, bolts used in furniture → Section XV",
-            "keywords": ["furniture hinge general metal", "furniture screw", "safe strongbox", "83.03", "39.", "Section XV"]
+            "keywords": [
+                "furniture hinge general metal",
+                "furniture screw",
+                "safe strongbox",
+                "83.03",
+                "39.",
+                "Section XV"
+            ]
         },
         {
             "condition": "Furniture specially designed as parts of refrigerating/freezing equipment (84.18) or sewing machines (84.52)",
             "action": "Redirect to heading 84.18 or 84.52 — Note 1(e). Furniture that is an integral part of a specific machine → classified with the machine",
-            "keywords": ["refrigerator cabinet furniture", "freezer cabinet unit", "sewing machine table integrated", "84.18", "84.52"]
+            "keywords": [
+                "refrigerator cabinet furniture",
+                "freezer cabinet unit",
+                "sewing machine table integrated",
+                "84.18",
+                "84.52"
+            ]
         },
         {
             "condition": "Lamps or light sources and parts thereof",
             "action": "Redirect to Chapter 85 — Note 1(f). Light SOURCES (bulbs, tubes, LEDs as components) → Ch.85. Complete LUMINAIRES (fittings that hold and direct light) → 94.05",
-            "keywords": ["light bulb", "LED chip", "fluorescent tube", "lamp source", "85."]
+            "keywords": [
+                "light bulb",
+                "LED chip",
+                "fluorescent tube",
+                "lamp source",
+                "85."
+            ]
         },
         {
             "condition": "Furniture specially designed as parts of audio equipment (85.18), audio/video recording apparatus (85.19 or 85.21), or broadcast/receiver apparatus (85.25–85.28)",
             "action": "Redirect to heading 85.18, 85.22 or 85.29 respectively — Note 1(g). Speaker enclosures designed as part of a 85.18 apparatus → 85.18. TV cabinet integrated with the TV → 85.29",
-            "keywords": ["speaker cabinet integrated", "TV cabinet built-in", "AV rack integrated", "85.18", "85.22", "85.29"]
+            "keywords": [
+                "speaker cabinet integrated",
+                "TV cabinet built-in",
+                "AV rack integrated",
+                "85.18",
+                "85.22",
+                "85.29"
+            ]
         },
         {
             "condition": "Articles of heading 87.14 (parts and accessories for vehicles of 87.09–87.13)",
             "action": "Redirect to heading 87.14 — Note 1(h). Baby seats for bicycles, wheelchair accessories → 87.14",
-            "keywords": ["bicycle baby seat", "wheelchair accessory", "87.14"]
+            "keywords": [
+                "bicycle baby seat",
+                "wheelchair accessory",
+                "87.14"
+            ]
         },
         {
             "condition": "Dentists' chairs incorporating dental appliances of heading 90.18, or dentists' spittoons",
             "action": "Redirect to heading 90.18 (medical/dental instruments and appliances) — Note 1(ij). A dentist chair with integrated drill/suction unit is classified as dental apparatus, not furniture",
-            "keywords": ["dentist chair with drill", "dental unit chair", "dental spittoon", "90.18"]
+            "keywords": [
+                "dentist chair with drill",
+                "dental unit chair",
+                "dental spittoon",
+                "90.18"
+            ]
         },
         {
             "condition": "Articles of Chapter 91 (clocks and clock cases)",
             "action": "Redirect to Chapter 91 — Note 1(k). Grandfather clock cases → 91.12 (clock cases), not Ch.94 furniture",
-            "keywords": ["grandfather clock case", "clock cabinet case", "mantel clock case", "91.12", "91."]
+            "keywords": [
+                "grandfather clock case",
+                "clock cabinet case",
+                "mantel clock case",
+                "91.12",
+                "91."
+            ]
         },
         {
             "condition": "Toy furniture, toy luminaires and lighting fittings; billiard tables or other furniture specially constructed for games; furniture for conjuring tricks or decorations (other than lighting strings) such as Chinese lanterns",
             "action": "Redirect to heading 95.03 (toy furniture/luminaires), 95.04 (game furniture/billiard tables), or 95.05 (festive/conjuring articles) — Note 1(l)",
-            "keywords": ["toy furniture", "doll house furniture", "toy lamp", "billiard table", "pool table", "Chinese lantern", "party decoration", "95.03", "95.04", "95.05"]
+            "keywords": [
+                "toy furniture",
+                "doll house furniture",
+                "toy lamp",
+                "billiard table",
+                "pool table",
+                "Chinese lantern",
+                "party decoration",
+                "95.03",
+                "95.04",
+                "95.05"
+            ]
         },
         {
             "condition": "Monopods, bipods, tripods and similar articles",
             "action": "Redirect to heading 96.20 — Note 1(m)",
-            "keywords": ["tripod", "bipod", "monopod", "96.20"]
+            "keywords": [
+                "tripod",
+                "bipod",
+                "monopod",
+                "96.20"
+            ]
         }
     ],
     "classification_rules": [

@@ -151,6 +151,12 @@ def build_rules():
             sections_data = json.load(f)
             
         for sec_id, data in sections_data.items():
+            sec_title = data.get("title", sec_id)
+            doc = f"Section Title for {sec_id}: {sec_title}"
+            documents.append(doc)
+            metadatas.append({"level": "section", "section_id": sec_id, "type": "title", "description": sec_title})
+            ids.append(str(uuid.uuid4()))
+
             structured_notes = data.get("structured_notes", {})
             for idx, excl in enumerate(structured_notes.get("exclusions", [])):
                 condition = excl.get("condition", "")
@@ -165,7 +171,22 @@ def build_rules():
                 desc = inc if isinstance(inc, str) else inc.get("description", "")
                 doc = f"Inclusion Note for {sec_id}: Specifically includes {desc}"
                 documents.append(doc)
-                metadatas.append({"level": "section", "section_id": sec_id, "type": "inclusion", "description": desc})
+                metadatas.append({"level": "section", "section_id": sec_id, "type": "inclusion", "description": desc[:500]})
+                ids.append(str(uuid.uuid4()))
+
+            for idx, defi in enumerate(structured_notes.get("definitions", [])):
+                term = defi.get("term", "")
+                meaning = defi.get("meaning", "")
+                doc = f"Legal Definition in {sec_id} for '{term}': {meaning}"
+                documents.append(doc)
+                metadatas.append({"level": "section", "section_id": sec_id, "type": "definition", "term": term[:100], "description": meaning[:500]})
+                ids.append(str(uuid.uuid4()))
+                
+            for idx, crule in enumerate(structured_notes.get("classification_rules", [])):
+                rule = crule.get("rule", "")
+                doc = f"Classification Rule for {sec_id}: {rule}"
+                documents.append(doc)
+                metadatas.append({"level": "section", "section_id": sec_id, "type": "classification_rule", "description": rule[:500]})
                 ids.append(str(uuid.uuid4()))
 
     # 2. Chapter Rules
@@ -176,6 +197,30 @@ def build_rules():
             
             with open(filepath, 'r', encoding='utf-8') as f:
                 rules_data = json.load(f)
+
+            chapter_title = rules_data.get("chapter_title", "")
+            if chapter_title:
+                doc = f"Title for Chapter {chapter_id}: {chapter_title}"
+                documents.append(doc)
+                metadatas.append({
+                    "level": "chapter",
+                    "chapter_id": chapter_id,
+                    "type": "title",
+                    "description": chapter_title[:500]
+                })
+                ids.append(str(uuid.uuid4()))
+                
+            scope_note = rules_data.get("scope_note", "")
+            if scope_note:
+                doc = f"Scope Notes and Legal Notes for Chapter {chapter_id}: {scope_note}"
+                documents.append(doc)
+                metadatas.append({
+                    "level": "chapter", 
+                    "chapter_id": chapter_id, 
+                    "type": "scope_note",
+                    "description": scope_note[:500]
+                })
+                ids.append(str(uuid.uuid4()))
                 
             for idx, excl in enumerate(rules_data.get("exclusions", [])):
                 condition = excl.get("condition", "")
@@ -187,10 +232,17 @@ def build_rules():
                 ids.append(str(uuid.uuid4()))
                 
             for idx, inc in enumerate(rules_data.get("inclusions", [])):
-                desc = inc if isinstance(inc, str) else inc.get("description", "")
-                doc = f"Inclusion Rule for Chapter {chapter_id}: Covers {desc}"
+                if isinstance(inc, str):
+                    desc = inc
+                    doc = f"Inclusion Rule for Chapter {chapter_id}: Covers {desc}"
+                    metadatas.append({"level": "chapter", "chapter_id": chapter_id, "type": "inclusion", "description": desc[:500]})
+                else:
+                    heading = inc.get("heading", "")
+                    desc = inc.get("description", "")
+                    doc = f"Inclusion Rule for Chapter {chapter_id}, Heading {heading}: Covers {desc}" if heading else f"Inclusion Rule for Chapter {chapter_id}: Covers {desc}"
+                    metadatas.append({"level": "chapter", "chapter_id": chapter_id, "type": "inclusion", "heading": heading, "description": desc[:500]})
+                    
                 documents.append(doc)
-                metadatas.append({"level": "chapter", "chapter_id": chapter_id, "type": "inclusion", "description": desc})
                 ids.append(str(uuid.uuid4()))
 
             # P1 FIX: Index classification_rules into hs_rules collection

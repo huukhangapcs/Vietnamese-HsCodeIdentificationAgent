@@ -2,30 +2,63 @@
     "chapter_code": "66",
     "chapter_title": "Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops, and parts thereof",
     "inclusions": [
-        "Heading 66.01 — Umbrellas and sun umbrellas (including walking-stick umbrellas, garden umbrellas and similar umbrellas)",
-        "Heading 66.02 — Walking-sticks, seat-sticks, whips, riding-crops and the like",
-        "Heading 66.03 — Parts, trimmings and accessories of articles of heading 66.01 or 66.02: handles and knobs; umbrella frames (including frames mounted on shafts); umbrella shafts; ribs and stretchers. Note 2: 66.03 does NOT cover parts/trimmings/accessories of TEXTILE MATERIAL (covers, tassels, thongs, umbrella cases, etc.) even when presented with 66.01/66.02 articles — those are classified separately"
+        {
+            "heading": "66.01",
+            "description": "Umbrellas and sun umbrellas (including walking-stick umbrellas, garden umbrellas and similar umbrellas)"
+        },
+        {
+            "heading": "66.02",
+            "description": "Walking-sticks, seat-sticks, whips, riding-crops and the like"
+        },
+        {
+            "heading": "66.03",
+            "description": "Parts, trimmings and accessories of articles of heading 66.01 or 66.02: handles and knobs; umbrella frames (including frames mounted on shafts); umbrella shafts; ribs and stretchers. Note 2: 66.03 does NOT cover parts/trimmings/accessories of TEXTILE MATERIAL (covers, tassels, thongs, umbrella cases, etc.) even when presented with 66.01/66.02 articles — those are classified separately"
+        }
     ],
     "exclusions": [
         {
             "condition": "Measure walking-sticks, folding rules incorporated in walking-sticks and the like",
             "action": "Redirect to heading 90.17 (drawing instruments, measuring instruments) — Note 1(a). Walking-sticks with integral measuring function → 90.17",
-            "keywords": ["measure walking stick", "ruler walking stick", "measuring cane", "folding rule stick", "90.17"]
+            "keywords": [
+                "measure walking stick",
+                "ruler walking stick",
+                "measuring cane",
+                "folding rule stick",
+                "90.17"
+            ]
         },
         {
             "condition": "Firearm-sticks (gun-sticks), sword-sticks, loaded walking-sticks or the like",
             "action": "Redirect to Chapter 93 (arms and ammunition) — Note 1(b). These function as weapons despite cane appearance",
-            "keywords": ["sword stick", "gun stick", "firearm walking stick", "loaded cane weapon", "93."]
+            "keywords": [
+                "sword stick",
+                "gun stick",
+                "firearm walking stick",
+                "loaded cane weapon",
+                "93."
+            ]
         },
         {
             "condition": "Toy umbrellas, toy sun umbrellas and other goods of Chapter 95",
             "action": "Redirect to Chapter 95 (toys, games and sports requisites) — Note 1(c). Small decorative/toy umbrellas → 95.03",
-            "keywords": ["toy umbrella", "toy parasol", "miniature umbrella toy", "95.03", "95."]
+            "keywords": [
+                "toy umbrella",
+                "toy parasol",
+                "miniature umbrella toy",
+                "95.03",
+                "95."
+            ]
         },
         {
             "condition": "Parts, trimmings or accessories of textile material for umbrellas/walking-sticks; umbrella covers, cases, tassels, thongs — even when presented WITH the umbrella/stick but not fitted to it",
             "action": "Classify separately by material — Note 2. Umbrella cover of nylon presented separately from umbrella frame → Ch.63 or appropriate textile chapter. NOT treated as part of 66.01/66.02. If fitted/assembled onto the umbrella → part of the complete article (66.01)",
-            "keywords": ["umbrella cover separate", "umbrella case textile", "umbrella tassel", "umbrella thong separate", "63."]
+            "keywords": [
+                "umbrella cover separate",
+                "umbrella case textile",
+                "umbrella tassel",
+                "umbrella thong separate",
+                "63."
+            ]
         }
     ],
     "classification_rules": [

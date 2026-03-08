@@ -2,13 +2,34 @@
     "chapter_code": "30",
     "chapter_title": "Pharmaceutical products",
     "inclusions": [
-        "Heading 30.01 — Glands and other organs for organo-therapeutic uses, dried or not; extracts of glands or other organs or their secretions; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses",
-        "Heading 30.02 — Human blood; animal blood for therapeutic/prophylactic/diagnostic uses; antisera; other blood fractions and immunological products (whether or not modified or obtained by biotechnological processes); vaccines; toxins; cultures of micro-organisms; similar products",
-        "Heading 30.02 — Immunological products: monoclonal antibodies (MAB), antibody fragments, antibody conjugates, interleukins, interferons (IFN), chemokines, tumor necrosis factors (TNF), growth factors (GF), hematopoietins, colony stimulating factors (CSF)",
-        "Heading 30.03 — Medicaments (not in measured doses, not for retail sale): consisting of two or more constituents mixed together for therapeutic or prophylactic uses",
-        "Heading 30.04 — Medicaments (in measured doses or packaged for retail sale): for therapeutic or prophylactic uses, for human or veterinary use",
-        "Heading 30.05 — Wadding, gauze, bandages and similar articles (e.g. dressings, adhesive plasters, poultices) impregnated or coated with pharmaceutical substances or put up for retail sale for medical, surgical, dental or veterinary purposes",
-        "Heading 30.06 — Pharmaceutical goods specified in Note 4 to Chapter 30 ONLY: surgical catgut; sterile suture materials; sterile tissue adhesives; sterile laminaria; haemostatics; X-ray opacifying preparations; diagnostic reagents for patient administration; placebos; clinical trial kits; dental cements; bone cements; first-aid boxes; chemical contraceptives (hormones/spermicides); lubricant gels for medical use; waste pharmaceuticals; ostomy appliances",
+        {
+            "heading": "30.01",
+            "description": "Glands and other organs for organo-therapeutic uses, dried or not; extracts of glands or other organs or their secretions; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses"
+        },
+        {
+            "heading": "30.02",
+            "description": "Human blood; animal blood for therapeutic/prophylactic/diagnostic uses; antisera; other blood fractions and immunological products (whether or not modified or obtained by biotechnological processes); vaccines; toxins; cultures of micro-organisms; similar products"
+        },
+        {
+            "heading": "30.02",
+            "description": "Immunological products: monoclonal antibodies (MAB), antibody fragments, antibody conjugates, interleukins, interferons (IFN), chemokines, tumor necrosis factors (TNF), growth factors (GF), hematopoietins, colony stimulating factors (CSF)"
+        },
+        {
+            "heading": "30.03",
+            "description": "Medicaments (not in measured doses, not for retail sale): consisting of two or more constituents mixed together for therapeutic or prophylactic uses"
+        },
+        {
+            "heading": "30.04",
+            "description": "Medicaments (in measured doses or packaged for retail sale): for therapeutic or prophylactic uses, for human or veterinary use"
+        },
+        {
+            "heading": "30.05",
+            "description": "Wadding, gauze, bandages and similar articles (e.g. dressings, adhesive plasters, poultices) impregnated or coated with pharmaceutical substances or put up for retail sale for medical, surgical, dental or veterinary purposes"
+        },
+        {
+            "heading": "30.06",
+            "description": "Pharmaceutical goods specified in Note 4 to Chapter 30 ONLY: surgical catgut; sterile suture materials; sterile tissue adhesives; sterile laminaria; haemostatics; X-ray opacifying preparations; diagnostic reagents for patient administration; placebos; clinical trial kits; dental cements; bone cements; first-aid boxes; chemical contraceptives (hormones/spermicides); lubricant gels for medical use; waste pharmaceuticals; ostomy appliances"
+        },
         "Subheadings 3003.60 / 3004.60 — Antimalarial medicaments containing artemisinin or specific antimalarial active principles (amodiaquine, artemether, artesunate, chloroquine, dihydroartemisinin, lumefantrine, mefloquine, piperaquine, pyrimethamine, sulfadoxine)"
     ],
     "exclusions": [

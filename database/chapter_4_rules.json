@@ -3,42 +3,101 @@
     "chapter_title": "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
     "scope_note": "Note 1: 'milk' = full cream or partially/completely skimmed milk. Note 2: yoghurt may be concentrated/flavoured/sweetened/with added fruit-nuts-cocoa-cereals PROVIDED any addition does not REPLACE milk constituent and product retains yoghurt essential character. Note 3(a): 'butter' = milkfat 80–95%, milk solids-not-fat ≤2%, water ≤16%, no added emulsifiers. Note 3(b): 'dairy spreads' = milkfat 39–<80%. Note 4: whey concentrate products → 04.06 as cheese if: milkfat on dry matter ≥5%, dry matter 70–85%, and moulded or capable of being moulded. Subheading Note 1: 'modified whey' = whey with all/part lactose/proteins/minerals removed or natural constituents added.",
     "inclusions": [
-        "Heading 04.01 — Milk and cream, not concentrated nor containing added sugar: raw milk, pasteurised/homogenised milk, full-fat (>6% fat = cream), semi-skimmed (>1–6%), skimmed (≤1%). Fat content determines subheadings",
-        "Heading 04.02 — Milk and cream, concentrated or containing added sugar: evaporated milk (unsweetened concentrated), sweetened condensed milk, skimmed milk powder (≤1.5% fat), whole milk powder (≥26% fat), cream powder, infant formula base (milk + vitamins/minerals only)",
-        "Heading 04.03 — Buttermilk, curdled milk and cream, yogurt, kephir and other fermented or acidified milk: plain/flavoured/fruit yoghurt (Note 2: stays here if additions don't replace milk constituents and yoghurt character retained), drinking yoghurt, kefir, soured cream, cultured buttermilk, acidified cream",
-        "Heading 04.04 — Whey, whether or not concentrated or containing added sugar; products consisting of natural milk constituents NES: sweet/acid whey powder, demineralised whey, whey protein concentrate (WPC ≤80% protein on dry matter), modified whey (Subheading Note 1: lactose/proteins/minerals removed or constituents added), whey permeate",
-        "Heading 04.05 — Butter and other fats/oils derived from milk; dairy spreads: natural butter (milkfat 80–95% per Note 3(a)), salted/unsalted/whey butter, recombined butter, ghee/butter oil/AMF (subheading 0405.90 — NOT butter under subheading Note 2); dairy spreads (milkfat 39–<80% per Note 3(b))",
-        "Heading 04.06 — Cheese and curd: fresh cheese (ricotta, cottage, cream cheese, fresh mozzarella), processed cheese (natural cheese + emulsifying salts), blue-veined (Roquefort, Gorgonzola), hard/semi-hard (Cheddar, Gouda, Parmesan), soft (Brie, Camembert). ALSO: whey concentrate products meeting Note 4 criteria (milkfat on DM ≥5%, DM 70–85%, moulded/mouldable) → 04.06 as cheese",
-        "Heading 04.07 — Birds' eggs, in shell, fresh, preserved or cooked: hen eggs, duck/quail/goose eggs in shell. Includes preserved (century eggs, salt-preserved eggs) and hard-boiled in shell",
-        "Heading 04.08 — Birds' eggs, not in shell, and egg yolks: liquid whole egg (pasteurised), frozen egg white, spray-dried egg yolk, sugared egg yolk, dried/frozen whole egg. NOT egg albumin → 35.02",
-        "Heading 04.09 — Natural honey (bee honey): raw or pasteurised, unifloral/polyfloral, filtered/unfiltered, with or without comb",
-        "Heading 04.10 — Edible non-living insects and other edible products of animal origin NES: insects (whole/parts; fresh, chilled, frozen, dried, smoked, salted/in brine); insect flours/meals fit for human consumption (Note 6). Also: royal jelly, propolis (edible form), bird's nests (Swiftlet nests — edible)"
+        {
+            "heading": "04.01",
+            "description": "Milk and cream, not concentrated nor containing added sugar: raw milk, pasteurised/homogenised milk, full-fat (>6% fat = cream), semi-skimmed (>1–6%), skimmed (≤1%). Fat content determines subheadings"
+        },
+        {
+            "heading": "04.02",
+            "description": "Milk and cream, concentrated or containing added sugar: evaporated milk (unsweetened concentrated), sweetened condensed milk, skimmed milk powder (≤1.5% fat), whole milk powder (≥26% fat), cream powder, infant formula base (milk + vitamins/minerals only)"
+        },
+        {
+            "heading": "04.03",
+            "description": "Buttermilk, curdled milk and cream, yogurt, kephir and other fermented or acidified milk: plain/flavoured/fruit yoghurt (Note 2: stays here if additions don't replace milk constituents and yoghurt character retained), drinking yoghurt, kefir, soured cream, cultured buttermilk, acidified cream"
+        },
+        {
+            "heading": "04.04",
+            "description": "Whey, whether or not concentrated or containing added sugar; products consisting of natural milk constituents NES: sweet/acid whey powder, demineralised whey, whey protein concentrate (WPC ≤80% protein on dry matter), modified whey (Subheading Note 1: lactose/proteins/minerals removed or constituents added), whey permeate"
+        },
+        {
+            "heading": "04.05",
+            "description": "Butter and other fats/oils derived from milk; dairy spreads: natural butter (milkfat 80–95% per Note 3(a)), salted/unsalted/whey butter, recombined butter, ghee/butter oil/AMF (subheading 0405.90 — NOT butter under subheading Note 2); dairy spreads (milkfat 39–<80% per Note 3(b))"
+        },
+        {
+            "heading": "04.06",
+            "description": "Cheese and curd: fresh cheese (ricotta, cottage, cream cheese, fresh mozzarella), processed cheese (natural cheese + emulsifying salts), blue-veined (Roquefort, Gorgonzola), hard/semi-hard (Cheddar, Gouda, Parmesan), soft (Brie, Camembert). ALSO: whey concentrate products meeting Note 4 criteria (milkfat on DM ≥5%, DM 70–85%, moulded/mouldable) → 04.06 as cheese"
+        },
+        {
+            "heading": "04.07",
+            "description": "Birds' eggs, in shell, fresh, preserved or cooked: hen eggs, duck/quail/goose eggs in shell. Includes preserved (century eggs, salt-preserved eggs) and hard-boiled in shell"
+        },
+        {
+            "heading": "04.08",
+            "description": "Birds' eggs, not in shell, and egg yolks: liquid whole egg (pasteurised), frozen egg white, spray-dried egg yolk, sugared egg yolk, dried/frozen whole egg. NOT egg albumin → 35.02"
+        },
+        {
+            "heading": "04.09",
+            "description": "Natural honey (bee honey): raw or pasteurised, unifloral/polyfloral, filtered/unfiltered, with or without comb"
+        },
+        {
+            "heading": "04.10",
+            "description": "Edible non-living insects and other edible products of animal origin NES: insects (whole/parts; fresh, chilled, frozen, dried, smoked, salted/in brine); insect flours/meals fit for human consumption (Note 6). Also: royal jelly, propolis (edible form), bird's nests (Swiftlet nests — edible)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Non-living insects that are UNFIT for human consumption (inedible insect species, industrial-grade insect material)",
             "action": "Redirect to heading 05.11 — Note 5(a): non-living insects UNFIT for human consumption → 05.11. 04.10 only covers edible insects. Industrial dried insects (e.g. for fishing bait, animal feed) when classified as unfit for humans → 05.11. Ch.23 (23.09) if specifically as animal feed",
-            "keywords": ["inedible insects industrial", "insects unfit consumption", "fishing bait insects", "05.11"]
+            "keywords": [
+                "inedible insects industrial",
+                "insects unfit consumption",
+                "fishing bait insects",
+                "05.11"
+            ]
         },
         {
             "condition": "Edible non-living insects FURTHER PREPARED or PRESERVED beyond basic forms (seasoned, flavoured, chocolate-coated, mixed into bars/snacks)",
             "action": "Redirect to Section IV appropriate heading — Note 6 to Ch.04 excludes insects 'otherwise prepared or preserved' from 04.10. Seasoned/flavoured crickets → 21.06. Chocolate-covered insects → Ch.18. Insect protein bars → 21.06. Only BASIC preservation (dried, frozen, salted, smoked — no cooking/seasoning/mixing) → 04.10",
-            "keywords": ["seasoned crickets", "chocolate insect", "insect protein bar", "flavoured mealworm", "21.06", "18."]
+            "keywords": [
+                "seasoned crickets",
+                "chocolate insect",
+                "insect protein bar",
+                "flavoured mealworm",
+                "21.06",
+                "18."
+            ]
         },
         {
             "condition": "Products from whey with lactose ≥95% by weight (as anhydrous lactose on dry matter basis)",
             "action": "Redirect to heading 17.02 (other sugars including lactose) — Note 5(b). Pure isolated lactose from whey → 17.02. Whey PRODUCTS where the product is still characterised as 'whey' (even high-lactose) → 04.04. WPC/modified whey → 04.04. Pure crystallised lactose → 17.02",
-            "keywords": ["pure lactose whey 95%", "isolated lactose crystallised", "17.02"]
+            "keywords": [
+                "pure lactose whey 95%",
+                "isolated lactose crystallised",
+                "17.02"
+            ]
         },
         {
             "condition": "Products replacing one or more natural milk constituents with another substance (dairy analogues with vegetable fat replacing milkfat)",
             "action": "Redirect to heading 19.01 or 21.06 — Note 5(c). Dairy ANALOGUE where butyric fat replaced with oleic fat (vegetable oil replacing butter fat) → 19.01 or 21.06. Natural dairy with ALL NATURAL milk constituents (even if concentrated/modified) → stays in Ch.04. The key: replacement of constituent by non-dairy substance → out of Ch.04",
-            "keywords": ["dairy analogue vegetable fat", "milk fat substitute oleic", "recombined non-dairy", "19.01", "21.06"]
+            "keywords": [
+                "dairy analogue vegetable fat",
+                "milk fat substitute oleic",
+                "recombined non-dairy",
+                "19.01",
+                "21.06"
+            ]
         },
         {
             "condition": "Albumins (egg albumin/ovalbumin; whey protein concentrate >80% protein on dry matter) and globulins",
             "action": "Redirect to heading 35.02 (albumins) or 35.04 (globulins) — Note 5(d). Egg albumin (ovalbumin) → 35.02. WPC with >80% whey protein (on dry matter) → 35.02. WPC with ≤80% whey protein → 04.04. Lactalbumin → 35.02 if >80%. Caseins (milk protein) → 35.01 (not Ch.04)",
-            "keywords": ["egg albumin ovalbumin", "WPC 80% protein", "lactalbumin", "casein", "35.02", "35.04"]
+            "keywords": [
+                "egg albumin ovalbumin",
+                "WPC 80% protein",
+                "lactalbumin",
+                "casein",
+                "35.02",
+                "35.04"
+            ]
         }
     ],
     "classification_rules": [

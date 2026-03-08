@@ -3,26 +3,57 @@
     "chapter_title": "Cork and articles of cork",
     "scope_note": "Chapter 45 covers natural and agglomerated cork in all forms, from raw bark to finished articles. Cork is the bark of Quercus suber (cork oak), harvested without killing the tree. The chapter excludes footwear, headgear and toys made of cork.",
     "inclusions": [
-        "Heading 45.01 — Natural cork, raw or simply prepared; waste cork; crushed, granulated or ground cork",
-        "Heading 45.02 — Natural cork, debacked or roughly squared, or in rectangular (including square) blocks, plates, sheets or strip (including sharp-edged blanks for corks or stoppers)",
-        "Heading 45.03 — Articles of natural cork: corks and stoppers, discs, cubes, tiles, sheets with original surface retained, natural cork flooring tiles, life buoys, etc.",
-        "Heading 45.04 — Agglomerated cork (with or without a binding substance) and articles of agglomerated cork: floor tiles, sheets, rolls of agglomerated cork; agglomerated cork stoppers; wine bottle corks of agglomerated cork; insulation boards/sheets of agglomerated cork; gaskets and washers"
+        {
+            "heading": "45.01",
+            "description": "Natural cork, raw or simply prepared; waste cork; crushed, granulated or ground cork"
+        },
+        {
+            "heading": "45.02",
+            "description": "Natural cork, debacked or roughly squared, or in rectangular (including square) blocks, plates, sheets or strip (including sharp-edged blanks for corks or stoppers)"
+        },
+        {
+            "heading": "45.03",
+            "description": "Articles of natural cork: corks and stoppers, discs, cubes, tiles, sheets with original surface retained, natural cork flooring tiles, life buoys, etc."
+        },
+        {
+            "heading": "45.04",
+            "description": "Agglomerated cork (with or without a binding substance) and articles of agglomerated cork: floor tiles, sheets, rolls of agglomerated cork; agglomerated cork stoppers; wine bottle corks of agglomerated cork; insulation boards/sheets of agglomerated cork; gaskets and washers"
+        }
     ],
     "exclusions": [
         {
             "condition": "Footwear or parts of footwear (shoe soles, insoles, wedge heels) of cork",
             "action": "Redirect to Chapter 64 (footwear) — Note 1(a). Cork-soled sandals → Ch.64. Cork shoe insoles → 64.06. Complete cork-wedge sandals → Ch.64",
-            "keywords": ["cork sole footwear", "cork sandal", "cork wedge shoe", "cork insole", "64.", "64.06"]
+            "keywords": [
+                "cork sole footwear",
+                "cork sandal",
+                "cork wedge shoe",
+                "cork insole",
+                "64.",
+                "64.06"
+            ]
         },
         {
             "condition": "Headgear or headgear parts of cork (cork helmets, cork sun topees/pith helmets)",
             "action": "Redirect to Chapter 65 (headgear) — Note 1(b). Cork tropical helmets/pith helmets → 65.06 (other headgear). Cork hat brim → 65.07",
-            "keywords": ["cork helmet", "pith helmet cork", "cork hat", "65.06", "65."]
+            "keywords": [
+                "cork helmet",
+                "pith helmet cork",
+                "cork hat",
+                "65.06",
+                "65."
+            ]
         },
         {
             "condition": "Toys, games and sports articles of cork (badminton shuttlecocks, toy corks)",
             "action": "Redirect to Chapter 95 — Note 1(c). Badminton shuttlecock cork base → 95.06. Cork dart board → 95.04",
-            "keywords": ["shuttlecock cork", "cork dart board", "toy cork", "95.04", "95.06"]
+            "keywords": [
+                "shuttlecock cork",
+                "cork dart board",
+                "toy cork",
+                "95.04",
+                "95.06"
+            ]
         }
     ],
     "classification_rules": [

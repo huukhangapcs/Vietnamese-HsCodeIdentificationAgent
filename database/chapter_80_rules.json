@@ -2,29 +2,72 @@
     "chapter_code": "80",
     "chapter_title": "Tin and articles thereof",
     "inclusions": [
-        "Heading 80.01 — Unwrought tin: (a) Tin, not alloyed — metal containing ≥99% tin by weight, with bismuth and copper content below specified limits (Subheading Note 1(a)); (b) Tin alloys — metallic substances where tin predominates over each other element by weight AND either total other elements >1% by weight OR bismuth/copper content is at/above the specified limit (Subheading Note 1(b))",
-        "Heading 80.02 — Tin waste and scrap",
-        "Heading 80.03 — Tin bars, rods, profiles and wire",
-        "Heading 80.04 — Tin plates, sheets and strip, of a thickness exceeding 0.2 mm",
-        "Heading 80.05 — Tin foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials), of a thickness (excluding any backing) not exceeding 0.2 mm; tin powders and flakes",
-        "Heading 80.06 — Tin tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)",
-        "Heading 80.07 — Other articles of tin"
+        {
+            "heading": "80.01",
+            "description": "Unwrought tin: (a) Tin, not alloyed — metal containing ≥99% tin by weight, with bismuth and copper content below specified limits (Subheading Note 1(a)); (b) Tin alloys — metallic substances where tin predominates over each other element by weight AND either total other elements >1% by weight OR bismuth/copper content is at/above the specified limit (Subheading Note 1(b))"
+        },
+        {
+            "heading": "80.02",
+            "description": "Tin waste and scrap"
+        },
+        {
+            "heading": "80.03",
+            "description": "Tin bars, rods, profiles and wire"
+        },
+        {
+            "heading": "80.04",
+            "description": "Tin plates, sheets and strip, of a thickness exceeding 0.2 mm"
+        },
+        {
+            "heading": "80.05",
+            "description": "Tin foil (whether or not printed or backed with paper, paperboard, plastics or similar backing materials), of a thickness (excluding any backing) not exceeding 0.2 mm; tin powders and flakes"
+        },
+        {
+            "heading": "80.06",
+            "description": "Tin tubes, pipes and tube or pipe fittings (e.g., couplings, elbows, sleeves)"
+        },
+        {
+            "heading": "80.07",
+            "description": "Other articles of tin"
+        }
     ],
     "exclusions": [
         {
             "condition": "Tin compounds (stannic oxide, stannous chloride, tin salts, organotin compounds, etc.)",
             "action": "Redirect to Chapter 28 (inorganic tin compounds) or Chapter 29 (organic tin compounds). Pure tin metal → Ch.80; chemical compounds of tin → Ch.28 or Ch.29",
-            "keywords": ["stannic oxide", "stannous chloride", "tin oxide", "tin salt", "organotin", "tributyltin", "28.", "29."]
+            "keywords": [
+                "stannic oxide",
+                "stannous chloride",
+                "tin oxide",
+                "tin salt",
+                "organotin",
+                "tributyltin",
+                "28.",
+                "29."
+            ]
         },
         {
             "condition": "Tinplate (steel coated with tin) and tin-coated base metals",
             "action": "Redirect to Chapter 72 (iron and steel) or respective base metal chapters. Tinplate = steel substrate with thin tin coating → 72.10. The article is classified by the BASE METAL substrate, not the tin coating",
-            "keywords": ["tinplate", "tin coated steel", "tin-plated steel", "tin coated iron", "72.10"]
+            "keywords": [
+                "tinplate",
+                "tin coated steel",
+                "tin-plated steel",
+                "tin coated iron",
+                "72.10"
+            ]
         },
         {
             "condition": "Soldering wire or sticks containing tin (tin-lead or tin-silver solder)",
             "action": "Redirect to heading 83.11 (wire and rods coated/cored with flux for soldering/brazing/welding) if with flux core, OR classified as an alloy of the predominant metal. Pure tin solder wire WITHOUT flux → 80.03. Tin-lead solder (if lead predominates) → Ch.78. Tin solder with flux core → 83.11",
-            "keywords": ["solder wire", "tin lead solder", "tin silver solder", "flux core solder", "83.11", "78."]
+            "keywords": [
+                "solder wire",
+                "tin lead solder",
+                "tin silver solder",
+                "flux core solder",
+                "83.11",
+                "78."
+            ]
         }
     ],
     "classification_rules": [

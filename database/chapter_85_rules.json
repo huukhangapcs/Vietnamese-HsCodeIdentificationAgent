@@ -2,81 +2,259 @@
     "chapter_code": "85",
     "chapter_title": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles",
     "inclusions": [
-        "Heading 85.01 — Electric motors and generators (excluding generating sets)",
-        "Heading 85.02 — Electric generating sets and rotary converters",
-        "Heading 85.03 — Parts suitable for use solely or principally with machines of headings 85.01 or 85.02",
-        "Heading 85.04 — Electrical transformers, static converters (e.g., rectifiers) and inductors. NOTE: metal tank mercury arc rectifiers remain in 85.04 even though Note 2 excludes 85.01–85.04 from applying to 85.11/85.12/85.40–85.42",
-        "Heading 85.05 — Electromagnets; permanent magnets and articles intended to become permanent magnets after magnetisation; electromagnetic or permanent magnet chucks, clamps and similar holding devices; electromagnetic couplings, clutches and brakes; electromagnetic lifting heads; parts thereof",
-        "Heading 85.06 — Primary cells and primary batteries and parts thereof",
-        "Heading 85.07 — Electric accumulators (storage batteries), including separators therefor, whether or not rectangular (including square); parts thereof. Note 3: includes accumulators presented with ancillary components (connectors, thermistors, circuit protection devices, portion of protective housing) that contribute to the accumulator's function of storing/supplying energy or protect it from damage",
-        "Heading 85.08 — Vacuum cleaners",
-        "Heading 85.09 — Electro-mechanical domestic appliances, with self-contained electric motor (Note 4): (a) floor polishers, food grinders/mixers, fruit/vegetable juice extractors — any weight; (b) other domestic machines ≤ 20 kg. EXCLUDES: fans/hoods (84.14), centrifugal clothes-dryers (84.21), dishwashers (84.22), washing machines (84.50), ironing machines (84.20/84.51), sewing machines (84.52), electric scissors (84.67), electro-thermic appliances (85.16)",
-        "Heading 85.10 — Shavers, hair clippers and hair-removing appliances, with self-contained electric motor; parts thereof",
-        "Heading 85.11 — Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (e.g., magnetos, dynamos, coils, sparking plugs, glow plugs, starters); generators and cut-outs used in conjunction with such engines; parts thereof",
-        "Heading 85.12 — Electrical lighting or signalling equipment (excluding articles of heading 85.39), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles; parts thereof",
-        "Heading 85.13 — Portable electric lamps designed to function by their own source of energy (e.g., dry batteries, accumulators, magnetos) (excluding lighting equipment of heading 85.12); parts thereof",
-        "Heading 85.14 — Industrial or laboratory electric furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory induction or dielectric heating equipment; parts thereof",
-        "Heading 85.15 — Electric (including electrically heated gas), laser or other light or photon beam, ultrasonic, electron beam, magnetic pulse or plasma arc soldering, brazing or welding machines and apparatus; electric machines and apparatus for hot spraying of metals or cermets; parts thereof",
-        "Heading 85.16 — Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electro-thermic hair-dressing apparatus (e.g., hair dryers, hair curlers, curling tong heaters) and hand dryers; electric smoothing irons; other electro-thermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading 85.45; parts thereof",
-        "Heading 85.17 — Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network. Note 5: 'smartphones' = telephones for cellular networks equipped with a mobile OS designed to perform ADP functions (downloading/running multiple apps simultaneously including third-party apps), whether or not with digital camera or navigation",
-        "Heading 85.18 — Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets; parts thereof",
-        "Heading 85.19 — Sound recording or reproducing apparatus",
-        "Heading 85.20 — [Reserved/merged — legacy heading for magnetic tape recorders]",
-        "Heading 85.21 — Video recording or reproducing apparatus, whether or not incorporating a video tuner",
-        "Heading 85.22 — Parts and accessories suitable for use solely or principally with the apparatus of headings 85.19 to 85.21",
-        "Heading 85.23 — Discs, tapes, solid-state non-volatile storage devices, 'smart cards' and other media for recording sound or other phenomena (recorded or not). Note 6(a): solid-state non-volatile storage devices = storage devices with connecting socket housing one or more flash memories on PCB, may include controller IC and passive components. Note 6(b): smart cards = cards with embedded ICs (microprocessor, RAM, ROM as chips), may have contacts/magnetic stripe/antenna but no other active/passive circuits. NOTE: heading 85.24 (flat panel display modules) takes precedence over 85.23 per Note 7",
-        "Heading 85.24 — Flat panel display modules. Note 7: devices/apparatus for display of information with at minimum a display screen, designed to be incorporated into articles of other headings prior to use. Screens may be flat, curved, flexible, foldable or stretchable. May include elements for receiving video signals and pixel allocation. EXCLUDES modules with components for converting video signals (scaler IC, decoder IC, application processor) or modules that have assumed character of other goods. PRIORITY: heading 85.24 takes precedence over ANY other heading in the Nomenclature",
-        "Heading 85.25 — Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders. Subheading Note 1 (8525.81): high-speed cameras with writing speed >0.5mm/µs OR time resolution ≤50ns OR frame rate >225,000 fps. Subheading Note 2 (8525.82): radiation-hardened cameras (≥50×10³ Gy(Si)). Subheading Note 3 (8525.83): night vision cameras using photocathode",
-        "Heading 85.26 — Radar apparatus, radio navigational aid apparatus and radio remote control apparatus",
-        "Heading 85.27 — Reception apparatus for radio-broadcasting, whether or not combined in the same housing with sound recording or reproducing apparatus or a clock. Subheading Note 4 (8527.12): cassette-players with built-in amplifier, without built-in loudspeaker, operable without external power, dimensions ≤170×100×45mm",
-        "Heading 85.28 — Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus",
-        "Heading 85.29 — Parts suitable for use solely or principally with the apparatus of headings 85.25 to 85.28",
-        "Heading 85.30 — Electrical signalling, safety or traffic control equipment for railways, tramways, roads, inland waterways, parking facilities, port installations or airfields (other than those of heading 86.08)",
-        "Heading 85.31 — Electric sound or visual signalling apparatus (e.g., bells, sirens, indicator panels, burglar/fire alarms)",
-        "Heading 85.32 — Electrical capacitors, fixed, variable or adjustable (pre-set); parts thereof",
-        "Heading 85.33 — Electrical resistors (including rheostats and potentiometers), other than heating resistors; parts thereof",
-        "Heading 85.34 — Printed circuits. Note 8: circuits obtained by forming conductor elements/contacts/printed components on insulating base by printing process or film circuit technique — NOT elements that produce, rectify, modulate or amplify (→ 85.42). No other discrete components except non-printed connecting elements. Thin/thick-film circuits with passive AND active elements from same process → 85.42",
-        "Heading 85.35 — Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (e.g., switches, fuses, lightning arresters, voltage limiters, surge suppressors, plugs and junction boxes): for a voltage exceeding 1,000 V",
-        "Heading 85.36 — Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (e.g., switches, relays, fuses, transient voltage suppressors, plugs, sockets, lamp-holders, connectors for optical fibres): for a voltage not exceeding 1,000 V. Note 9: 'connectors for optical fibres/bundles/cables' = connectors that ONLY mechanically align fibres end-to-end — no amplification, regeneration or signal modification",
-        "Heading 85.37 — Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of headings 85.35 or 85.36, for electric control or distribution of electricity. Note 10: EXCLUDES cordless infrared remote control devices → 85.43",
-        "Heading 85.38 — Parts suitable for use solely or principally with the apparatus of headings 85.35, 85.36 or 85.37",
-        "Heading 85.39 — Electric filament or discharge lamps including sealed beam lamp units and ultra-violet or infra-red lamps; arc lamps; LED light sources. Note 11: LED light sources = (a) LED modules: electrical light sources with LED circuits + electrical/mechanical/thermal/optical elements + active/passive elements or 85.36/85.42 articles for power supply/control — NO cap for easy luminaire installation; (b) LED lamps: contain one or more LED modules — HAVE a cap for easy installation/replacement in luminaire",
-        "Heading 85.40 — Thermionic, cold cathode or photo-cathode valves and tubes (e.g., vacuum or vapour or gas-filled valves and tubes, mercury arc rectifying valves and tubes, cathode-ray tubes, television camera tubes)",
-        "Heading 85.41 — Semiconductor devices; light-emitting diodes (LED), whether or not assembled with other LEDs; photosensitive semiconductor devices; piezo-electric crystals. Note 12: LED of 85.41 do NOT incorporate power supply/control elements (those → 85.39)",
-        "Heading 85.42 — Electronic integrated circuits. Note 12: (i) monolithic ICs; (ii) hybrid ICs; (iii) multichip ICs; (iv) multi-component integrated circuits (MCOs). PRIORITY: 85.41 and 85.42 take precedence over any other heading EXCEPT heading 85.23 (which may cover them by reference to function)",
-        "Heading 85.43 — Electrical machines and apparatus, having individual functions, not specified or included elsewhere in Chapter 85 (including cordless infrared remote control devices per Note 10)",
-        "Heading 85.44 — Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors; optical fibre cables",
-        "Heading 85.45 — Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbon, with or without metal, of a kind used for electrical purposes",
-        "Heading 85.46 — Electrical insulators of any material",
-        "Heading 85.47 — Insulating fittings for electrical machines, appliances or equipment, being fittings wholly of insulating material apart from any minor components of metal (e.g., threaded sockets) incorporated during moulding solely for the purposes of assembly",
-        "Heading 85.48 — Waste and scrap of primary cells, primary batteries and electric accumulators; spent primary cells, spent primary batteries and spent electric accumulators; electrical parts of machinery or apparatus, not specified or included elsewhere in Chapter 85. Subheading Note 5 (8549.11–8549.19): 'spent' = not usable due to breakage/cutting-up/wear or other reasons AND not capable of being recharged",
-        "Heading 85.49 — Electrical and electronic waste and scrap"
+        {
+            "heading": "85.01",
+            "description": "Electric motors and generators (excluding generating sets)"
+        },
+        {
+            "heading": "85.02",
+            "description": "Electric generating sets and rotary converters"
+        },
+        {
+            "heading": "85.03",
+            "description": "Parts suitable for use solely or principally with machines of headings 85.01 or 85.02"
+        },
+        {
+            "heading": "85.04",
+            "description": "Electrical transformers, static converters (e.g., rectifiers) and inductors. NOTE: metal tank mercury arc rectifiers remain in 85.04 even though Note 2 excludes 85.01–85.04 from applying to 85.11/85.12/85.40–85.42"
+        },
+        {
+            "heading": "85.05",
+            "description": "Electromagnets; permanent magnets and articles intended to become permanent magnets after magnetisation; electromagnetic or permanent magnet chucks, clamps and similar holding devices; electromagnetic couplings, clutches and brakes; electromagnetic lifting heads; parts thereof"
+        },
+        {
+            "heading": "85.06",
+            "description": "Primary cells and primary batteries and parts thereof"
+        },
+        {
+            "heading": "85.07",
+            "description": "Electric accumulators (storage batteries), including separators therefor, whether or not rectangular (including square); parts thereof. Note 3: includes accumulators presented with ancillary components (connectors, thermistors, circuit protection devices, portion of protective housing) that contribute to the accumulator's function of storing/supplying energy or protect it from damage"
+        },
+        {
+            "heading": "85.08",
+            "description": "Vacuum cleaners"
+        },
+        {
+            "heading": "85.09",
+            "description": "Electro-mechanical domestic appliances, with self-contained electric motor (Note 4): (a) floor polishers, food grinders/mixers, fruit/vegetable juice extractors — any weight; (b) other domestic machines ≤ 20 kg. EXCLUDES: fans/hoods (84.14), centrifugal clothes-dryers (84.21), dishwashers (84.22), washing machines (84.50), ironing machines (84.20/84.51), sewing machines (84.52), electric scissors (84.67), electro-thermic appliances (85.16)"
+        },
+        {
+            "heading": "85.10",
+            "description": "Shavers, hair clippers and hair-removing appliances, with self-contained electric motor; parts thereof"
+        },
+        {
+            "heading": "85.11",
+            "description": "Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (e.g., magnetos, dynamos, coils, sparking plugs, glow plugs, starters); generators and cut-outs used in conjunction with such engines; parts thereof"
+        },
+        {
+            "heading": "85.12",
+            "description": "Electrical lighting or signalling equipment (excluding articles of heading 85.39), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles; parts thereof"
+        },
+        {
+            "heading": "85.13",
+            "description": "Portable electric lamps designed to function by their own source of energy (e.g., dry batteries, accumulators, magnetos) (excluding lighting equipment of heading 85.12); parts thereof"
+        },
+        {
+            "heading": "85.14",
+            "description": "Industrial or laboratory electric furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory induction or dielectric heating equipment; parts thereof"
+        },
+        {
+            "heading": "85.15",
+            "description": "Electric (including electrically heated gas), laser or other light or photon beam, ultrasonic, electron beam, magnetic pulse or plasma arc soldering, brazing or welding machines and apparatus; electric machines and apparatus for hot spraying of metals or cermets; parts thereof"
+        },
+        {
+            "heading": "85.16",
+            "description": "Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electro-thermic hair-dressing apparatus (e.g., hair dryers, hair curlers, curling tong heaters) and hand dryers; electric smoothing irons; other electro-thermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading 85.45; parts thereof"
+        },
+        {
+            "heading": "85.17",
+            "description": "Telephone sets, including smartphones and other telephones for cellular networks or for other wireless networks; other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network. Note 5: 'smartphones' = telephones for cellular networks equipped with a mobile OS designed to perform ADP functions (downloading/running multiple apps simultaneously including third-party apps), whether or not with digital camera or navigation"
+        },
+        {
+            "heading": "85.18",
+            "description": "Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets; parts thereof"
+        },
+        {
+            "heading": "85.19",
+            "description": "Sound recording or reproducing apparatus"
+        },
+        {
+            "heading": "85.20",
+            "description": "[Reserved/merged — legacy heading for magnetic tape recorders]"
+        },
+        {
+            "heading": "85.21",
+            "description": "Video recording or reproducing apparatus, whether or not incorporating a video tuner"
+        },
+        {
+            "heading": "85.22",
+            "description": "Parts and accessories suitable for use solely or principally with the apparatus of headings 85.19 to 85.21"
+        },
+        {
+            "heading": "85.23",
+            "description": "Discs, tapes, solid-state non-volatile storage devices, 'smart cards' and other media for recording sound or other phenomena (recorded or not). Note 6(a): solid-state non-volatile storage devices = storage devices with connecting socket housing one or more flash memories on PCB, may include controller IC and passive components. Note 6(b): smart cards = cards with embedded ICs (microprocessor, RAM, ROM as chips), may have contacts/magnetic stripe/antenna but no other active/passive circuits. NOTE: heading 85.24 (flat panel display modules) takes precedence over 85.23 per Note 7"
+        },
+        {
+            "heading": "85.24",
+            "description": "Flat panel display modules. Note 7: devices/apparatus for display of information with at minimum a display screen, designed to be incorporated into articles of other headings prior to use. Screens may be flat, curved, flexible, foldable or stretchable. May include elements for receiving video signals and pixel allocation. EXCLUDES modules with components for converting video signals (scaler IC, decoder IC, application processor) or modules that have assumed character of other goods. PRIORITY: heading 85.24 takes precedence over ANY other heading in the Nomenclature"
+        },
+        {
+            "heading": "85.25",
+            "description": "Transmission apparatus for radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras, digital cameras and video camera recorders. Subheading Note 1 (8525.81): high-speed cameras with writing speed >0.5mm/µs OR time resolution ≤50ns OR frame rate >225,000 fps. Subheading Note 2 (8525.82): radiation-hardened cameras (≥50×10³ Gy(Si)). Subheading Note 3 (8525.83): night vision cameras using photocathode"
+        },
+        {
+            "heading": "85.26",
+            "description": "Radar apparatus, radio navigational aid apparatus and radio remote control apparatus"
+        },
+        {
+            "heading": "85.27",
+            "description": "Reception apparatus for radio-broadcasting, whether or not combined in the same housing with sound recording or reproducing apparatus or a clock. Subheading Note 4 (8527.12): cassette-players with built-in amplifier, without built-in loudspeaker, operable without external power, dimensions ≤170×100×45mm"
+        },
+        {
+            "heading": "85.28",
+            "description": "Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus"
+        },
+        {
+            "heading": "85.29",
+            "description": "Parts suitable for use solely or principally with the apparatus of headings 85.25 to 85.28"
+        },
+        {
+            "heading": "85.30",
+            "description": "Electrical signalling, safety or traffic control equipment for railways, tramways, roads, inland waterways, parking facilities, port installations or airfields (other than those of heading 86.08)"
+        },
+        {
+            "heading": "85.31",
+            "description": "Electric sound or visual signalling apparatus (e.g., bells, sirens, indicator panels, burglar/fire alarms)"
+        },
+        {
+            "heading": "85.32",
+            "description": "Electrical capacitors, fixed, variable or adjustable (pre-set); parts thereof"
+        },
+        {
+            "heading": "85.33",
+            "description": "Electrical resistors (including rheostats and potentiometers), other than heating resistors; parts thereof"
+        },
+        {
+            "heading": "85.34",
+            "description": "Printed circuits. Note 8: circuits obtained by forming conductor elements/contacts/printed components on insulating base by printing process or film circuit technique — NOT elements that produce, rectify, modulate or amplify (→ 85.42). No other discrete components except non-printed connecting elements. Thin/thick-film circuits with passive AND active elements from same process → 85.42"
+        },
+        {
+            "heading": "85.35",
+            "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (e.g., switches, fuses, lightning arresters, voltage limiters, surge suppressors, plugs and junction boxes): for a voltage exceeding 1,000 V"
+        },
+        {
+            "heading": "85.36",
+            "description": "Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (e.g., switches, relays, fuses, transient voltage suppressors, plugs, sockets, lamp-holders, connectors for optical fibres): for a voltage not exceeding 1,000 V. Note 9: 'connectors for optical fibres/bundles/cables' = connectors that ONLY mechanically align fibres end-to-end — no amplification, regeneration or signal modification"
+        },
+        {
+            "heading": "85.37",
+            "description": "Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of headings 85.35 or 85.36, for electric control or distribution of electricity. Note 10: EXCLUDES cordless infrared remote control devices → 85.43"
+        },
+        {
+            "heading": "85.38",
+            "description": "Parts suitable for use solely or principally with the apparatus of headings 85.35, 85.36 or 85.37"
+        },
+        {
+            "heading": "85.39",
+            "description": "Electric filament or discharge lamps including sealed beam lamp units and ultra-violet or infra-red lamps; arc lamps; LED light sources. Note 11: LED light sources = (a) LED modules: electrical light sources with LED circuits + electrical/mechanical/thermal/optical elements + active/passive elements or 85.36/85.42 articles for power supply/control — NO cap for easy luminaire installation; (b) LED lamps: contain one or more LED modules — HAVE a cap for easy installation/replacement in luminaire"
+        },
+        {
+            "heading": "85.40",
+            "description": "Thermionic, cold cathode or photo-cathode valves and tubes (e.g., vacuum or vapour or gas-filled valves and tubes, mercury arc rectifying valves and tubes, cathode-ray tubes, television camera tubes)"
+        },
+        {
+            "heading": "85.41",
+            "description": "Semiconductor devices; light-emitting diodes (LED), whether or not assembled with other LEDs; photosensitive semiconductor devices; piezo-electric crystals. Note 12: LED of 85.41 do NOT incorporate power supply/control elements (those → 85.39)"
+        },
+        {
+            "heading": "85.42",
+            "description": "Electronic integrated circuits. Note 12: (i) monolithic ICs; (ii) hybrid ICs; (iii) multichip ICs; (iv) multi-component integrated circuits (MCOs). PRIORITY: 85.41 and 85.42 take precedence over any other heading EXCEPT heading 85.23 (which may cover them by reference to function)"
+        },
+        {
+            "heading": "85.43",
+            "description": "Electrical machines and apparatus, having individual functions, not specified or included elsewhere in Chapter 85 (including cordless infrared remote control devices per Note 10)"
+        },
+        {
+            "heading": "85.44",
+            "description": "Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors; optical fibre cables"
+        },
+        {
+            "heading": "85.45",
+            "description": "Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbon, with or without metal, of a kind used for electrical purposes"
+        },
+        {
+            "heading": "85.46",
+            "description": "Electrical insulators of any material"
+        },
+        {
+            "heading": "85.47",
+            "description": "Insulating fittings for electrical machines, appliances or equipment, being fittings wholly of insulating material apart from any minor components of metal (e.g., threaded sockets) incorporated during moulding solely for the purposes of assembly"
+        },
+        {
+            "heading": "85.48",
+            "description": "Waste and scrap of primary cells, primary batteries and electric accumulators; spent primary cells, spent primary batteries and spent electric accumulators; electrical parts of machinery or apparatus, not specified or included elsewhere in Chapter 85. Subheading Note 5 (8549.11–8549.19): 'spent' = not usable due to breakage/cutting-up/wear or other reasons AND not capable of being recharged"
+        },
+        {
+            "heading": "85.49",
+            "description": "Electrical and electronic waste and scrap"
+        }
     ],
     "exclusions": [
         {
             "condition": "Electrically warmed blankets, bed pads, foot-muffs or the like; electrically warmed clothing, footwear or ear pads or other electrically warmed articles worn on or about the person",
             "action": "Redirect to their respective constituent material chapters (textiles → Ch.61/62/63; footwear → Ch.64) — Note 1(a). The heating element does not override the material-based classification for wearable/bedding articles",
-            "keywords": ["electric blanket", "heated blanket", "electric bed pad", "heated clothing", "heated jacket", "heated insole", "heated glove", "electric foot warmer"]
+            "keywords": [
+                "electric blanket",
+                "heated blanket",
+                "electric bed pad",
+                "heated clothing",
+                "heated jacket",
+                "heated insole",
+                "heated glove",
+                "electric foot warmer"
+            ]
         },
         {
             "condition": "Articles of glass of heading 70.11 (glass envelopes/bulbs for electric lamps, discharge tubes, etc.)",
             "action": "Redirect to heading 70.11 — Note 1(b)",
-            "keywords": ["glass bulb envelope", "glass lamp envelope", "discharge tube glass", "70.11"]
+            "keywords": [
+                "glass bulb envelope",
+                "glass lamp envelope",
+                "discharge tube glass",
+                "70.11"
+            ]
         },
         {
             "condition": "Machines and apparatus of heading 84.86 (machines for manufacture of semiconductor devices, electronic ICs, flat panel displays, etc.)",
             "action": "Redirect to heading 84.86 — Note 1(c)",
-            "keywords": ["semiconductor manufacturing machine", "IC fabrication machine", "wafer processing", "PCB manufacturing machine", "flat panel display manufacturing", "84.86"]
+            "keywords": [
+                "semiconductor manufacturing machine",
+                "IC fabrication machine",
+                "wafer processing",
+                "PCB manufacturing machine",
+                "flat panel display manufacturing",
+                "84.86"
+            ]
         },
         {
             "condition": "Vacuum apparatus of a kind used in medical, surgical, dental or veterinary sciences",
             "action": "Redirect to heading 90.18 — Note 1(d). Medical suction/vacuum devices → 90.18",
-            "keywords": ["medical vacuum apparatus", "surgical suction", "dental vacuum", "90.18"]
+            "keywords": [
+                "medical vacuum apparatus",
+                "surgical suction",
+                "dental vacuum",
+                "90.18"
+            ]
         },
         {
             "condition": "Electrically heated furniture",
             "action": "Redirect to Chapter 94 (furniture) — Note 1(e). Heated floors/panels integrated in furniture → Ch.94",
-            "keywords": ["heated chair", "electric heated sofa", "electrically heated furniture", "94."]
+            "keywords": [
+                "heated chair",
+                "electric heated sofa",
+                "electrically heated furniture",
+                "94."
+            ]
         }
     ],
     "classification_rules": [

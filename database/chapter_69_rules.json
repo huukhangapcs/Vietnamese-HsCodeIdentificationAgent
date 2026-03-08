@@ -3,66 +3,155 @@
     "chapter_title": "Ceramic products",
     "scope_note": "Note 1: Chapter 69 applies ONLY to ceramic products that have been FIRED AFTER SHAPING. Note 1(b): products heated to <800°C merely for curing resins, accelerating hydration or removing water/volatiles are NOT considered 'fired' → excluded from Ch.69. Note 1(c): ceramic articles are obtained by firing inorganic, non-metallic materials (clays, siliceous materials, high-melting-point oxides/carbides/nitrides/graphite, sometimes with binders).",
     "inclusions": [
-        "Heading 69.01 — Bricks, blocks, tiles and other ceramic goods of siliceous fossil meals (e.g., kieselguhr, tripolite or diatomite) or of similar siliceous earths",
-        "Heading 69.02 — Refractory bricks, blocks, tiles and similar refractory ceramic constructional goods, other than those of siliceous fossil meals or of similar siliceous earths",
-        "Heading 69.03 — Other refractory ceramic goods (e.g., retorts, crucibles, muffles, nozzles, plugs, supports, cupels, tubes, pipes, sheaths and rods), other than those of siliceous fossil meals or of similar siliceous earths",
-        "Heading 69.04 — Ceramic building bricks, flooring blocks, support or filler tiles and the like",
-        "Heading 69.05 — Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments and other constructional goods, of ceramic",
-        "Heading 69.06 — Ceramic pipes, conduits, guttering and pipe fittings",
-        "Heading 69.07 — Ceramic flags and paving, hearth or wall tiles; ceramic mosaic cubes and the like, whether or not on a backing; finishing ceramics (including unglazed, glazed, porcelain/china)",
-        "Heading 69.08 — [Combined with 69.07 in recent WCO versions — glazed ceramic flags, paving, hearth or wall tiles; ceramic mosaic cubes]",
-        "Heading 69.09 — Ceramic wares for laboratory, chemical or other technical uses; ceramic troughs, tubs and similar receptacles of a kind used in agriculture; ceramic pots, jars and similar articles of a kind used for conveyance or packing of goods",
-        "Heading 69.10 — Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures",
-        "Heading 69.11 — Tableware, kitchenware, other household articles and toilet articles, of porcelain or china",
-        "Heading 69.12 — Tableware, kitchenware, other household articles and toilet articles, of ceramic (other than porcelain or china)",
-        "Heading 69.13 — Statuettes and other ornamental ceramic articles",
-        "Heading 69.14 — Other ceramic articles (residual)"
+        {
+            "heading": "69.01",
+            "description": "Bricks, blocks, tiles and other ceramic goods of siliceous fossil meals (e.g., kieselguhr, tripolite or diatomite) or of similar siliceous earths"
+        },
+        {
+            "heading": "69.02",
+            "description": "Refractory bricks, blocks, tiles and similar refractory ceramic constructional goods, other than those of siliceous fossil meals or of similar siliceous earths"
+        },
+        {
+            "heading": "69.03",
+            "description": "Other refractory ceramic goods (e.g., retorts, crucibles, muffles, nozzles, plugs, supports, cupels, tubes, pipes, sheaths and rods), other than those of siliceous fossil meals or of similar siliceous earths"
+        },
+        {
+            "heading": "69.04",
+            "description": "Ceramic building bricks, flooring blocks, support or filler tiles and the like"
+        },
+        {
+            "heading": "69.05",
+            "description": "Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments and other constructional goods, of ceramic"
+        },
+        {
+            "heading": "69.06",
+            "description": "Ceramic pipes, conduits, guttering and pipe fittings"
+        },
+        {
+            "heading": "69.07",
+            "description": "Ceramic flags and paving, hearth or wall tiles; ceramic mosaic cubes and the like, whether or not on a backing; finishing ceramics (including unglazed, glazed, porcelain/china)"
+        },
+        {
+            "heading": "69.08",
+            "description": "[Combined with 69.07 in recent WCO versions — glazed ceramic flags, paving, hearth or wall tiles; ceramic mosaic cubes]"
+        },
+        {
+            "heading": "69.09",
+            "description": "Ceramic wares for laboratory, chemical or other technical uses; ceramic troughs, tubs and similar receptacles of a kind used in agriculture; ceramic pots, jars and similar articles of a kind used for conveyance or packing of goods"
+        },
+        {
+            "heading": "69.10",
+            "description": "Ceramic sinks, wash basins, wash basin pedestals, baths, bidets, water closet pans, flushing cisterns, urinals and similar sanitary fixtures"
+        },
+        {
+            "heading": "69.11",
+            "description": "Tableware, kitchenware, other household articles and toilet articles, of porcelain or china"
+        },
+        {
+            "heading": "69.12",
+            "description": "Tableware, kitchenware, other household articles and toilet articles, of ceramic (other than porcelain or china)"
+        },
+        {
+            "heading": "69.13",
+            "description": "Statuettes and other ornamental ceramic articles"
+        },
+        {
+            "heading": "69.14",
+            "description": "Other ceramic articles (residual)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Ceramic products NOT fired after shaping, OR heated to <800°C only for curing resins/hydration/drying — not truly fired",
             "action": "Exclude from Ch.69 entirely — Note 1(a)(b). Such products classified by their material composition in other chapters (e.g., unfired clay articles, gypsum articles → Ch.68)",
-            "keywords": ["unfired ceramic", "sun dried clay", "cured resin ceramic", "green ceramic unfired", "68."]
+            "keywords": [
+                "unfired ceramic",
+                "sun dried clay",
+                "cured resin ceramic",
+                "green ceramic unfired",
+                "68."
+            ]
         },
         {
             "condition": "Radioactive ceramic products (products of heading 28.44)",
             "action": "Redirect to heading 28.44 — Note 2(a). Radioactive ceramic elements → Ch.28",
-            "keywords": ["radioactive ceramic", "nuclear ceramic", "28.44"]
+            "keywords": [
+                "radioactive ceramic",
+                "nuclear ceramic",
+                "28.44"
+            ]
         },
         {
             "condition": "Millstones, grindstones, grinding wheels and similar articles of ceramic (heading 68.04)",
             "action": "Redirect to heading 68.04 — Note 2(b). Ceramic abrasive grinding wheels → 68.04, not Ch.69",
-            "keywords": ["ceramic grinding wheel", "ceramic millstone", "ceramic grindstone", "abrasive ceramic wheel", "68.04"]
+            "keywords": [
+                "ceramic grinding wheel",
+                "ceramic millstone",
+                "ceramic grindstone",
+                "abrasive ceramic wheel",
+                "68.04"
+            ]
         },
         {
             "condition": "Articles of Chapter 71 (e.g., imitation jewellery of ceramic, ceramic beads for jewellery not yet assembled)",
             "action": "Redirect to Chapter 71 — Note 2(c). Imitation jewellery articles incorporating ceramic → 71.17. Raw ceramic beads for jewellery → Ch.69 (69.14). Assembled imitation jewellery with ceramic → 71.17",
-            "keywords": ["ceramic imitation jewellery", "ceramic fashion jewellery ring", "71.17"]
+            "keywords": [
+                "ceramic imitation jewellery",
+                "ceramic fashion jewellery ring",
+                "71.17"
+            ]
         },
         {
             "condition": "Cermets (ceramic-metal composites) of heading 81.13",
             "action": "Redirect to heading 81.13 — Note 2(d). Cermets are NOT purely ceramic — they are metal-ceramic composites classified in Ch.81",
-            "keywords": ["cermet", "ceramic metal composite", "WC cobalt", "81.13"]
+            "keywords": [
+                "cermet",
+                "ceramic metal composite",
+                "WC cobalt",
+                "81.13"
+            ]
         },
         {
             "condition": "Articles of Chapter 82 (tools with ceramic working parts — e.g., ceramic-tipped cutting tools)",
             "action": "Redirect to Chapter 82 — Note 2(e). Ceramic cutting inserts unmounted → 82.09 (cermet tips) OR remains Ch.69 if pure ceramic. Ceramic knife → Ch.82 if it qualifies (working part of ceramic counts per Ch.82 scope). Tools with ceramic working part → Ch.82",
-            "keywords": ["ceramic knife tool", "ceramic cutting insert", "ceramic tipped tool", "82."]
+            "keywords": [
+                "ceramic knife tool",
+                "ceramic cutting insert",
+                "ceramic tipped tool",
+                "82."
+            ]
         },
         {
             "condition": "Electrical insulators of ceramic (heading 85.46) or fittings of ceramic insulating material (heading 85.47)",
             "action": "Redirect to heading 85.46 or 85.47 — Note 2(f). Porcelain power line insulators → 85.46. Ceramic terminal blocks/boards → 85.47",
-            "keywords": ["ceramic electrical insulator", "porcelain insulator", "ceramic terminal board", "85.46", "85.47"]
+            "keywords": [
+                "ceramic electrical insulator",
+                "porcelain insulator",
+                "ceramic terminal board",
+                "85.46",
+                "85.47"
+            ]
         },
         {
             "condition": "Artificial teeth of ceramic (heading 90.21)",
             "action": "Redirect to heading 90.21 (orthopaedic/prosthetic appliances) — Note 2(g). Dental ceramic crowns, dental porcelain → 90.21",
-            "keywords": ["ceramic dental crown", "porcelain tooth", "artificial tooth ceramic", "dental porcelain", "90.21"]
+            "keywords": [
+                "ceramic dental crown",
+                "porcelain tooth",
+                "artificial tooth ceramic",
+                "dental porcelain",
+                "90.21"
+            ]
         },
         {
             "condition": "Articles of Chapter 94: ceramic furniture (e.g., ceramic garden stools used as furniture), ceramic luminaires, prefabricated buildings",
             "action": "Redirect to Chapter 94 — Note 2(ij). Ceramic garden stool used as furniture → 94.03. Ceramic luminaires → 94.05. Prefabricated buildings with ceramic components → 94.06",
-            "keywords": ["ceramic furniture stool", "ceramic lamp shade luminaire", "94.03", "94.05"]
+            "keywords": [
+                "ceramic furniture stool",
+                "ceramic lamp shade luminaire",
+                "94.03",
+                "94.05"
+            ]
         }
     ],
     "classification_rules": [

@@ -2,128 +2,290 @@
     "chapter_code": "95",
     "chapter_title": "Toys, games and sports requisites; parts and accessories thereof",
     "inclusions": [
-        "Heading 95.03 — Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size ('scale') models and similar recreational models, working or not; puzzles of all kinds. Note 4: heading 95.03 applies to toys combined with items that, if separate, would go elsewhere, provided put up for retail sale and the combination has essential character of toys. Note 5: does NOT cover articles identifiable as exclusively for animals (pet toys)",
-        "Heading 95.04 — Video game consoles and machines; articles for funfair, table or parlour games including pintables, billiards, special tables for casino games. Subheading 9504.50: (a) video game consoles reproducing image on external TV/monitor/screen; (b) video game machines with self-contained screen — EXCLUDES coin/banknote/token-operated machines (→ 9504.30)",
-        "Heading 95.05 — Festive, carnival or other entertainment articles, including conjuring tricks and novelty jokes",
-        "Heading 95.06 — Articles and equipment for general physical exercise, gymnastics, athletics, other sports (including table-tennis) or outdoor games; swimming pools and paddling pools. Includes: bows and arrows; archery equipment; fishing rods and tackle; ice/roller skates with boots attached; bobsleighs and toboggans; fencing equipment",
-        "Heading 95.07 — Fishing rods, fish-hooks and other line fishing tackle; fish landing nets, butterfly nets and similar nets; decoy 'birds' (other than of heading 92.08 or 97.05) and similar hunting or shooting requisites",
-        "Heading 95.08 — Roundabouts, swings, shooting galleries and other amusement park rides; travelling circuses and travelling menageries; travelling theatres. Per Note 6: 'amusement park rides' = devices carrying persons over fixed/restricted course or defined area for amusement (NOT residential/playground equipment). 'Water park amusements' = water-area specific devices (specially designed for water parks). 'Fairground amusements' = games of chance/strength/skill with operator (NOT 95.04 equipment)"
+        {
+            "heading": "95.03",
+            "description": "Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size ('scale') models and similar recreational models, working or not; puzzles of all kinds. Note 4: heading 95.03 applies to toys combined with items that, if separate, would go elsewhere, provided put up for retail sale and the combination has essential character of toys. Note 5: does NOT cover articles identifiable as exclusively for animals (pet toys)"
+        },
+        {
+            "heading": "95.04",
+            "description": "Video game consoles and machines; articles for funfair, table or parlour games including pintables, billiards, special tables for casino games. Subheading 9504.50: (a) video game consoles reproducing image on external TV/monitor/screen; (b) video game machines with self-contained screen — EXCLUDES coin/banknote/token-operated machines (→ 9504.30)"
+        },
+        {
+            "heading": "95.05",
+            "description": "Festive, carnival or other entertainment articles, including conjuring tricks and novelty jokes"
+        },
+        {
+            "heading": "95.06",
+            "description": "Articles and equipment for general physical exercise, gymnastics, athletics, other sports (including table-tennis) or outdoor games; swimming pools and paddling pools. Includes: bows and arrows; archery equipment; fishing rods and tackle; ice/roller skates with boots attached; bobsleighs and toboggans; fencing equipment"
+        },
+        {
+            "heading": "95.07",
+            "description": "Fishing rods, fish-hooks and other line fishing tackle; fish landing nets, butterfly nets and similar nets; decoy 'birds' (other than of heading 92.08 or 97.05) and similar hunting or shooting requisites"
+        },
+        {
+            "heading": "95.08",
+            "description": "Roundabouts, swings, shooting galleries and other amusement park rides; travelling circuses and travelling menageries; travelling theatres. Per Note 6: 'amusement park rides' = devices carrying persons over fixed/restricted course or defined area for amusement (NOT residential/playground equipment). 'Water park amusements' = water-area specific devices (specially designed for water parks). 'Fairground amusements' = games of chance/strength/skill with operator (NOT 95.04 equipment)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Candles",
             "action": "Redirect to heading 34.06 — Note 1(a)",
-            "keywords": ["candle", "wax candle", "birthday candle", "34.06"]
+            "keywords": [
+                "candle",
+                "wax candle",
+                "birthday candle",
+                "34.06"
+            ]
         },
         {
             "condition": "Fireworks or other pyrotechnic articles",
             "action": "Redirect to heading 36.04 — Note 1(b)",
-            "keywords": ["firework", "firecracker", "pyrotechnic", "banger", "36.04"]
+            "keywords": [
+                "firework",
+                "firecracker",
+                "pyrotechnic",
+                "banger",
+                "36.04"
+            ]
         },
         {
             "condition": "Yarns, monofilament, cords or gut for fishing, cut to length but NOT made up into fishing lines",
             "action": "Redirect to Chapter 39 (plastics), heading 42.06 (gut articles) or Section XI (textiles) — Note 1(c). Only MADE-UP fishing lines (with eyes, hooks, floats, etc.) → Ch.95; raw cut line material → by material",
-            "keywords": ["monofilament fishing line raw", "fishing cord cut", "fishing gut unfinished", "39.", "42.06"]
+            "keywords": [
+                "monofilament fishing line raw",
+                "fishing cord cut",
+                "fishing gut unfinished",
+                "39.",
+                "42.06"
+            ]
         },
         {
             "condition": "Sports bags or other containers",
             "action": "Redirect to heading 42.02 (sports bags of leather/plastic/textile), 43.03 (furskin containers) or 43.04 (artificial fur containers) — Note 1(d)",
-            "keywords": ["sports bag", "gym bag", "tennis bag", "golf bag", "42.02", "43.03", "43.04"]
+            "keywords": [
+                "sports bag",
+                "gym bag",
+                "tennis bag",
+                "golf bag",
+                "42.02",
+                "43.03",
+                "43.04"
+            ]
         },
         {
             "condition": "Fancy dress of textiles; sports clothing and special articles of apparel of textiles (whether or not incorporating incidental protective pads at elbow, knee or groin — e.g., fencing clothing, goalkeeper jerseys)",
             "action": "Redirect to Chapter 61 (knitted apparel) or Chapter 62 (woven apparel) — Note 1(e). Textile sportswear → Ch.61/62 regardless of protective padding. Only non-textile protective equipment stays in Ch.95",
-            "keywords": ["sports jersey", "fencing suit", "goalkeeper jersey", "fancy dress costume textile", "sportswear textile", "61.", "62."]
+            "keywords": [
+                "sports jersey",
+                "fencing suit",
+                "goalkeeper jersey",
+                "fancy dress costume textile",
+                "sportswear textile",
+                "61.",
+                "62."
+            ]
         },
         {
             "condition": "Textile flags or bunting; sails for boats, sailboards or land craft",
             "action": "Redirect to Chapter 63 (made-up textile articles) — Note 1(f)",
-            "keywords": ["flag textile", "bunting", "sail boat", "windsurfer sail", "63."]
+            "keywords": [
+                "flag textile",
+                "bunting",
+                "sail boat",
+                "windsurfer sail",
+                "63."
+            ]
         },
         {
             "condition": "Sports footwear OTHER THAN skating boots with ice or roller skates ATTACHED; sports headgear",
             "action": "Redirect to Chapter 64 (footwear) or Chapter 65 (headgear) — Note 1(g). Exception: skating BOOTS with blades/wheels already attached → 95.06. Plain sports shoes without skates → Ch.64",
-            "keywords": ["sports shoe", "running shoe", "football boot", "sports helmet", "ski boot without bindings", "64.", "65."]
+            "keywords": [
+                "sports shoe",
+                "running shoe",
+                "football boot",
+                "sports helmet",
+                "ski boot without bindings",
+                "64.",
+                "65."
+            ]
         },
         {
             "condition": "Walking-sticks, whips, riding-crops or the like",
             "action": "Redirect to heading 66.02 (walking-sticks, whips, etc.) or 66.03 (parts) — Note 1(h)",
-            "keywords": ["walking stick", "whip", "riding crop", "66.02", "66.03"]
+            "keywords": [
+                "walking stick",
+                "whip",
+                "riding crop",
+                "66.02",
+                "66.03"
+            ]
         },
         {
             "condition": "Unmounted glass eyes for dolls or other toys",
             "action": "Redirect to heading 70.18 — Note 1(ij). Once mounted into the doll → part of toy (Ch.95)",
-            "keywords": ["glass eye doll", "toy glass eye", "70.18"]
+            "keywords": [
+                "glass eye doll",
+                "toy glass eye",
+                "70.18"
+            ]
         },
         {
             "condition": "Parts of general use (Note 2 to Section XV) of base metal, or similar goods of plastics",
             "action": "Redirect to Section XV or Chapter 39 — Note 1(k)",
-            "keywords": ["general purpose screw toy", "plastic hinge toy", "39.", "Section XV"]
+            "keywords": [
+                "general purpose screw toy",
+                "plastic hinge toy",
+                "39.",
+                "Section XV"
+            ]
         },
         {
             "condition": "Bells, gongs or the like",
             "action": "Redirect to heading 83.06 — Note 1(l)",
-            "keywords": ["bell", "gong", "handbell", "83.06"]
+            "keywords": [
+                "bell",
+                "gong",
+                "handbell",
+                "83.06"
+            ]
         },
         {
             "condition": "Pumps for liquids (84.13); filtering/purifying machinery (84.21); electric motors (85.01); electric transformers (85.04); recording media/solid-state storage/smart cards (85.23); radio remote control apparatus (85.26); cordless infrared remote control devices (85.43)",
             "action": "Redirect to respective headings in Ch.84 or Ch.85 — Note 1(m). These components remain in their own headings even when used in toys or games",
-            "keywords": ["toy pump liquid", "toy electric motor", "toy transformer", "remote control radio", "IR remote", "game cartridge", "smart card game", "84.13", "84.21", "85.01", "85.04", "85.23", "85.26", "85.43"]
+            "keywords": [
+                "toy pump liquid",
+                "toy electric motor",
+                "toy transformer",
+                "remote control radio",
+                "IR remote",
+                "game cartridge",
+                "smart card game",
+                "84.13",
+                "84.21",
+                "85.01",
+                "85.04",
+                "85.23",
+                "85.26",
+                "85.43"
+            ]
         },
         {
             "condition": "Sports vehicles OTHER THAN bobsleighs, toboggans and the like",
             "action": "Redirect to Section XVII (vehicles) — Note 1(n). Cars, motorcycles used for sport → Section XVII. Bobsleighs/toboggans (non-motorised) → 95.06",
-            "keywords": ["race car sport", "sports motorcycle", "sports car", "go-kart motorised", "Section XVII"]
+            "keywords": [
+                "race car sport",
+                "sports motorcycle",
+                "sports car",
+                "go-kart motorised",
+                "Section XVII"
+            ]
         },
         {
             "condition": "Children's bicycles",
             "action": "Redirect to heading 87.12 — Note 1(o). Children's BICYCLES (two wheels, pedal-driven) → 87.12 always. Children's OTHER CYCLES (tricycles, pedal cars) → 95.03",
-            "keywords": ["children bicycle", "kids bicycle", "child bike", "87.12"]
+            "keywords": [
+                "children bicycle",
+                "kids bicycle",
+                "child bike",
+                "87.12"
+            ]
         },
         {
             "condition": "Unmanned aircraft (drones with utilitarian function)",
             "action": "Redirect to heading 88.06 — Note 1(p). Drones with payload capability or permanently integrated camera for utilitarian use → 88.06. Flying toys solely for amusement → 95.03",
-            "keywords": ["drone UAV", "unmanned aircraft", "commercial drone", "88.06"]
+            "keywords": [
+                "drone UAV",
+                "unmanned aircraft",
+                "commercial drone",
+                "88.06"
+            ]
         },
         {
             "condition": "Sports craft such as canoes and skiffs; their means of propulsion (paddles, oars of wood)",
             "action": "Redirect to Chapter 89 (vessels) or Chapter 44 (wooden paddles/oars) — Note 1(q). Kayaks, canoes, rowing boats used for sport → Ch.89",
-            "keywords": ["canoe sport", "kayak", "rowing skiff", "sports boat", "wooden paddle", "89.", "44."]
+            "keywords": [
+                "canoe sport",
+                "kayak",
+                "rowing skiff",
+                "sports boat",
+                "wooden paddle",
+                "89.",
+                "44."
+            ]
         },
         {
             "condition": "Spectacles, goggles or the like for sports or outdoor games",
             "action": "Redirect to heading 90.04 (spectacles and goggles) — Note 1(r). Sports goggles, swimming goggles, ski goggles → 90.04",
-            "keywords": ["sports goggles", "swimming goggles", "ski goggles", "cycling glasses", "90.04"]
+            "keywords": [
+                "sports goggles",
+                "swimming goggles",
+                "ski goggles",
+                "cycling glasses",
+                "90.04"
+            ]
         },
         {
             "condition": "Decoy calls or whistles",
             "action": "Redirect to heading 92.08 — Note 1(s). Bird calls, duck calls, game whistles → 92.08",
-            "keywords": ["bird decoy call", "duck call", "game whistle", "92.08"]
+            "keywords": [
+                "bird decoy call",
+                "duck call",
+                "game whistle",
+                "92.08"
+            ]
         },
         {
             "condition": "Arms or other articles of Chapter 93",
             "action": "Redirect to Chapter 93 — Note 1(t). Functional firearms, ammunition, edged weapons → Ch.93 even if used for sport",
-            "keywords": ["sporting firearm", "hunting rifle", "sporting shotgun", "93."]
+            "keywords": [
+                "sporting firearm",
+                "hunting rifle",
+                "sporting shotgun",
+                "93."
+            ]
         },
         {
             "condition": "Lighting strings of all kinds (e.g., Christmas/fairy lights)",
             "action": "Redirect to heading 94.05 (luminaires and lighting fittings) — Note 1(u). Decorative lighting strings → 94.05 not Ch.95",
-            "keywords": ["fairy lights", "Christmas lights", "lighting string", "string lights", "94.05"]
+            "keywords": [
+                "fairy lights",
+                "Christmas lights",
+                "lighting string",
+                "string lights",
+                "94.05"
+            ]
         },
         {
             "condition": "Monopods, bipods, tripods and similar articles",
             "action": "Redirect to heading 96.20 — Note 1(v)",
-            "keywords": ["tripod", "bipod", "monopod", "96.20"]
+            "keywords": [
+                "tripod",
+                "bipod",
+                "monopod",
+                "96.20"
+            ]
         },
         {
             "condition": "Racket strings; tents or other camping goods; gloves, mittens and mitts",
             "action": "Classify according to constituent material — Note 1(w). Tennis/badminton racket strings → textile or plastics heading. Tents → Ch.63. Gloves/mitts → by material (leather → Ch.42, textile → Ch.61/62)",
-            "keywords": ["racket string", "tennis string", "camping tent", "sports glove leather", "sports mitt textile"]
+            "keywords": [
+                "racket string",
+                "tennis string",
+                "camping tent",
+                "sports glove leather",
+                "sports mitt textile"
+            ]
         },
         {
             "condition": "Tableware, kitchenware, toilet articles, carpets, apparel, bed/table/toilet/kitchen linen and similar articles having a UTILITARIAN FUNCTION",
             "action": "Classify according to constituent material — Note 1(x). Sports-themed tableware, novelty kitchenware → functional articles classified by material, not as toys. Only purely decorative/play articles → Ch.95",
-            "keywords": ["sports themed mug", "novelty kitchenware", "themed bedding", "themed tablecloth utilitarian"]
+            "keywords": [
+                "sports themed mug",
+                "novelty kitchenware",
+                "themed bedding",
+                "themed tablecloth utilitarian"
+            ]
         }
     ],
     "classification_rules": [

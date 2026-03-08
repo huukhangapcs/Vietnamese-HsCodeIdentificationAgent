@@ -2,62 +2,152 @@
     "chapter_code": "68",
     "chapter_title": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
     "inclusions": [
-        "Heading 68.01 — Setts, curbstones and flagstones, of natural stone (except slate)",
-        "Heading 68.02 — Worked monumental or building stone (except slate) and articles thereof, other than goods of heading 68.01; mosaic cubes and the like, of natural stone (including slate); artificially coloured granules, chippings and powder, of natural stone (including slate). Note 2: 'worked monumental or building stone' covers all natural stone worked similarly (quartzite, flint, dolomite, steatite, etc.) — but NOT slate",
-        "Heading 68.03 — Worked slate and articles of slate or of agglomerated slate",
-        "Heading 68.04 — Millstones, grindstones, grinding wheels and the like, without frameworks, for grinding, sharpening, polishing, trueing or cutting, hand sharpening or polishing stones, and parts thereof, of natural stone, of agglomerated natural or artificial abrasives, or of ceramics, with or without parts of other materials",
-        "Heading 68.05 — Natural or artificial abrasive powder or grain, on a support of textile material, of paper, of paperboard or of other materials, whether or not cut to shape or sewn or otherwise made up",
-        "Heading 68.06 — Slag wool, rock wool and similar mineral wools; exfoliated vermiculite, expanded clays, foamed slag and similar expanded mineral materials; mixtures and articles of heat-insulating, sound-insulating or sound-absorbing mineral materials, other than those of heading 68.11 or 68.12 or of Chapter 69",
-        "Heading 68.07 — Articles of asphalt or of similar material (for example, petroleum bitumen or coal tar pitch)",
-        "Heading 68.08 — Panels, boards, tiles, blocks and similar articles of vegetable fibre, of straw or of shavings, chips, particles, sawdust or other waste, of wood, agglomerated with cement, plaster or other mineral binders",
-        "Heading 68.09 — Articles of plaster or of compositions based on plaster: boards, sheets, panels, tiles and similar articles, not ornamented; other articles",
-        "Heading 68.10 — Articles of cement, of concrete or of artificial stone, whether or not reinforced",
-        "Heading 68.11 — Articles of asbestos-cement, of cellulose fibre-cement or the like",
-        "Heading 68.12 — Fabricated asbestos fibres; mixtures with a basis of asbestos or with a basis of asbestos and magnesium carbonate; articles of such mixtures or of asbestos (e.g., thread, woven fabric, clothing, headgear, footwear, gaskets), whether or not reinforced, other than goods of heading 68.11 or 68.13",
-        "Heading 68.13 — Friction material and articles thereof (for example, sheets, rolls, strips, segments, discs, washers, pads), not mounted, for brakes, for clutches or the like, with a basis of asbestos, of other mineral substances or of cellulose, whether or not combined with textile or other materials",
-        "Heading 68.14 — Worked mica and articles of mica, including agglomerated or reconstituted mica, whether or not on a support of paper, paperboard or other materials",
-        "Heading 68.15 — Articles of stone or of other mineral substances (including carbon fibres, articles of carbon fibres and articles of peat), not elsewhere specified or included"
+        {
+            "heading": "68.01",
+            "description": "Setts, curbstones and flagstones, of natural stone (except slate)"
+        },
+        {
+            "heading": "68.02",
+            "description": "Worked monumental or building stone (except slate) and articles thereof, other than goods of heading 68.01; mosaic cubes and the like, of natural stone (including slate); artificially coloured granules, chippings and powder, of natural stone (including slate). Note 2: 'worked monumental or building stone' covers all natural stone worked similarly (quartzite, flint, dolomite, steatite, etc.) — but NOT slate"
+        },
+        {
+            "heading": "68.03",
+            "description": "Worked slate and articles of slate or of agglomerated slate"
+        },
+        {
+            "heading": "68.04",
+            "description": "Millstones, grindstones, grinding wheels and the like, without frameworks, for grinding, sharpening, polishing, trueing or cutting, hand sharpening or polishing stones, and parts thereof, of natural stone, of agglomerated natural or artificial abrasives, or of ceramics, with or without parts of other materials"
+        },
+        {
+            "heading": "68.05",
+            "description": "Natural or artificial abrasive powder or grain, on a support of textile material, of paper, of paperboard or of other materials, whether or not cut to shape or sewn or otherwise made up"
+        },
+        {
+            "heading": "68.06",
+            "description": "Slag wool, rock wool and similar mineral wools; exfoliated vermiculite, expanded clays, foamed slag and similar expanded mineral materials; mixtures and articles of heat-insulating, sound-insulating or sound-absorbing mineral materials, other than those of heading 68.11 or 68.12 or of Chapter 69"
+        },
+        {
+            "heading": "68.07",
+            "description": "Articles of asphalt or of similar material (for example, petroleum bitumen or coal tar pitch)"
+        },
+        {
+            "heading": "68.08",
+            "description": "Panels, boards, tiles, blocks and similar articles of vegetable fibre, of straw or of shavings, chips, particles, sawdust or other waste, of wood, agglomerated with cement, plaster or other mineral binders"
+        },
+        {
+            "heading": "68.09",
+            "description": "Articles of plaster or of compositions based on plaster: boards, sheets, panels, tiles and similar articles, not ornamented; other articles"
+        },
+        {
+            "heading": "68.10",
+            "description": "Articles of cement, of concrete or of artificial stone, whether or not reinforced"
+        },
+        {
+            "heading": "68.11",
+            "description": "Articles of asbestos-cement, of cellulose fibre-cement or the like"
+        },
+        {
+            "heading": "68.12",
+            "description": "Fabricated asbestos fibres; mixtures with a basis of asbestos or with a basis of asbestos and magnesium carbonate; articles of such mixtures or of asbestos (e.g., thread, woven fabric, clothing, headgear, footwear, gaskets), whether or not reinforced, other than goods of heading 68.11 or 68.13"
+        },
+        {
+            "heading": "68.13",
+            "description": "Friction material and articles thereof (for example, sheets, rolls, strips, segments, discs, washers, pads), not mounted, for brakes, for clutches or the like, with a basis of asbestos, of other mineral substances or of cellulose, whether or not combined with textile or other materials"
+        },
+        {
+            "heading": "68.14",
+            "description": "Worked mica and articles of mica, including agglomerated or reconstituted mica, whether or not on a support of paper, paperboard or other materials"
+        },
+        {
+            "heading": "68.15",
+            "description": "Articles of stone or of other mineral substances (including carbon fibres, articles of carbon fibres and articles of peat), not elsewhere specified or included"
+        }
     ],
     "exclusions": [
         {
             "condition": "Natural stone, rock, sand, gravel, mineral earths in raw/unworked primary form",
             "action": "Redirect to Chapter 25 (salt, sulphur, earths and stone) — Note 1(a). Raw quarried stone → Ch.25. Worked/manufactured stone articles → Ch.68",
-            "keywords": ["raw stone unworked", "natural gravel", "raw marble block", "stone in rough", "25.15", "25.16", "25."]
+            "keywords": [
+                "raw stone unworked",
+                "natural gravel",
+                "raw marble block",
+                "stone in rough",
+                "25.15",
+                "25.16",
+                "25."
+            ]
         },
         {
             "condition": "Paper or paperboard coated, impregnated or covered with mica powder, graphite, bitumen or asphalt",
             "action": "Redirect to heading 48.10 or 48.11 (coated paper and paperboard) — Note 1(b). The paper substrate dominates classification",
-            "keywords": ["mica coated paper", "bituminised paper", "asphalted paper", "graphite coated paper", "48.10", "48.11"]
+            "keywords": [
+                "mica coated paper",
+                "bituminised paper",
+                "asphalted paper",
+                "graphite coated paper",
+                "48.10",
+                "48.11"
+            ]
         },
         {
             "condition": "Textile fabric coated or covered with mica powder, bitumen or asphalt",
             "action": "Redirect to Chapter 56 or Chapter 59 (coated/impregnated textile fabrics) — Note 1(c). The textile substrate dominates",
-            "keywords": ["mica coated fabric", "bituminised textile", "asphalted fabric", "bitumen impregnated cloth", "56.", "59."]
+            "keywords": [
+                "mica coated fabric",
+                "bituminised textile",
+                "asphalted fabric",
+                "bitumen impregnated cloth",
+                "56.",
+                "59."
+            ]
         },
         {
             "condition": "Articles of Chapter 71 (jewellery, precious stones, imitation jewellery made from stone or mineral)",
             "action": "Redirect to Chapter 71 — Note 1(d). Gemstones → Ch.71. Ornamental mineral stones as jewellery → Ch.71",
-            "keywords": ["gemstone jewellery", "mineral imitation jewellery", "71."]
+            "keywords": [
+                "gemstone jewellery",
+                "mineral imitation jewellery",
+                "71."
+            ]
         },
         {
             "condition": "Tools or parts of tools of Chapter 82, including those with stone/abrasive working parts",
             "action": "Redirect to Chapter 82 — Note 1(e). Diamond-tipped drill bits → 82.07. Stone cutting blades for machines → 82.08. Exception: millstones, grindstones and grinding wheels → 68.04 (NOT Ch.82 — heading 68.04 is explicitly in Ch.68)",
-            "keywords": ["diamond drill bit", "stone cutting blade machine", "abrasive tool Ch82", "82.07", "82.08"]
+            "keywords": [
+                "diamond drill bit",
+                "stone cutting blade machine",
+                "abrasive tool Ch82",
+                "82.07",
+                "82.08"
+            ]
         },
         {
             "condition": "Lithographic stones used for printing (heading 84.42)",
             "action": "Redirect to heading 84.42 (printing machinery type-setting machines) — Note 1(f). Lithographic stones prepared for printing use → 84.42, not 68.02",
-            "keywords": ["lithographic stone printing", "litho stone", "84.42"]
+            "keywords": [
+                "lithographic stone printing",
+                "litho stone",
+                "84.42"
+            ]
         },
         {
             "condition": "Electrical insulators of stone/mineral material (heading 85.46) or fittings of insulating material (heading 85.47)",
             "action": "Redirect to 85.46 or 85.47 — Note 1(g). Stone/ceramic electrical insulators → 85.46 (see also Ch.69 Note 2(f))",
-            "keywords": ["stone electrical insulator", "mineral insulator electrical", "85.46", "85.47"]
+            "keywords": [
+                "stone electrical insulator",
+                "mineral insulator electrical",
+                "85.46",
+                "85.47"
+            ]
         },
         {
             "condition": "Dental burrs of stone or abrasive material",
             "action": "Redirect to heading 90.18 (instruments used in medical/dental/veterinary sciences) — Note 1(h). Dental drill burrs → 90.18 regardless of abrasive material",
-            "keywords": ["dental burr", "dental drill stone", "90.18"]
+            "keywords": [
+                "dental burr",
+                "dental drill stone",
+                "90.18"
+            ]
         }
     ],
     "classification_rules": [

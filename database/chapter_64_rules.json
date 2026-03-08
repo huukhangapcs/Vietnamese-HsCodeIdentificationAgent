@@ -3,43 +3,94 @@
     "chapter_title": "Footwear, gaiters and the like; parts of such articles",
     "scope_note": "Note 3(a): 'rubber' and 'plastics' include woven fabrics with EXTERNAL LAYER of rubber or plastics visible to naked eye. Note 3(b): 'leather' = goods of headings 41.07 and 41.12–41.14. Note 4: upper material = constituent material with GREATEST EXTERNAL SURFACE AREA (ignoring accessories/reinforcements). Outer sole material = material with GREATEST SURFACE AREA IN CONTACT WITH GROUND (ignoring spikes, nails, etc.).",
     "inclusions": [
-        "Heading 64.01 — Waterproof footwear with outer soles and uppers of rubber or plastics, the uppers of which are neither fixed to the sole nor assembled by stitching, riveting, nailing, screwing, plugging or similar processes",
-        "Heading 64.02 — Other footwear with outer soles and uppers of rubber or plastics. Subheading Note 1(a)(b): 'sports footwear' = footwear designed for sporting activity with or with provision for spikes/sprigs/stops/clips/bars; OR skating boots, ski-boots, cross-country ski footwear, snowboard boots, wrestling boots, boxing boots and cycling shoes",
-        "Heading 64.03 — Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather",
-        "Heading 64.04 — Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials",
-        "Heading 64.05 — Other footwear (outer soles and uppers of other materials: wood, cork, rope, cardboard, felt, wicker, etc.)",
-        "Heading 64.06 — Parts of footwear (including uppers, whether or not attached to soles other than outer soles); removable in-soles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof. Note 2: 'parts' does NOT include pegs, protectors, eyelets, hooks, buckles, ornaments, braid, laces, pompons or other trimmings (→ own headings) or buttons/Ch.96.06 articles"
+        {
+            "heading": "64.01",
+            "description": "Waterproof footwear with outer soles and uppers of rubber or plastics, the uppers of which are neither fixed to the sole nor assembled by stitching, riveting, nailing, screwing, plugging or similar processes"
+        },
+        {
+            "heading": "64.02",
+            "description": "Other footwear with outer soles and uppers of rubber or plastics. Subheading Note 1(a)(b): 'sports footwear' = footwear designed for sporting activity with or with provision for spikes/sprigs/stops/clips/bars; OR skating boots, ski-boots, cross-country ski footwear, snowboard boots, wrestling boots, boxing boots and cycling shoes"
+        },
+        {
+            "heading": "64.03",
+            "description": "Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather"
+        },
+        {
+            "heading": "64.04",
+            "description": "Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials"
+        },
+        {
+            "heading": "64.05",
+            "description": "Other footwear (outer soles and uppers of other materials: wood, cork, rope, cardboard, felt, wicker, etc.)"
+        },
+        {
+            "heading": "64.06",
+            "description": "Parts of footwear (including uppers, whether or not attached to soles other than outer soles); removable in-soles, heel cushions and similar articles; gaiters, leggings and similar articles, and parts thereof. Note 2: 'parts' does NOT include pegs, protectors, eyelets, hooks, buckles, ornaments, braid, laces, pompons or other trimmings (→ own headings) or buttons/Ch.96.06 articles"
+        }
     ],
     "exclusions": [
         {
             "condition": "Disposable foot or shoe coverings of flimsy material (paper, plastics sheeting) WITHOUT applied soles",
             "action": "Classify by constituent material — Note 1(a). Paper shoe covers → Ch.48. Plastic film shoe covers (without sole) → Ch.39. If they have an affixed sole → Ch.64",
-            "keywords": ["disposable shoe cover", "plastic shoe cover no sole", "paper shoe cover", "hygiene shoe cover flimsy", "48.", "39."]
+            "keywords": [
+                "disposable shoe cover",
+                "plastic shoe cover no sole",
+                "paper shoe cover",
+                "hygiene shoe cover flimsy",
+                "48.",
+                "39."
+            ]
         },
         {
             "condition": "Footwear of textile material WITHOUT an outer sole glued, sewn or affixed to the upper",
             "action": "Redirect to Section XI (textile chapters) — Note 1(b). Textile socks shaped like footwear but without an applied outer sole → Ch.61/62 (as hosiery/socks) or other textile heading. An outer sole must be affixed by ANY method (glue, stitch, nail, etc.) for footwear to stay in Ch.64",
-            "keywords": ["textile shoe no sole", "sock slipper no sole", "knit bootie no sole", "fabric shoe cover no affixed sole"]
+            "keywords": [
+                "textile shoe no sole",
+                "sock slipper no sole",
+                "knit bootie no sole",
+                "fabric shoe cover no affixed sole"
+            ]
         },
         {
             "condition": "Worn (used) footwear of heading 63.09",
             "action": "Redirect to heading 63.09 (worn clothing and other worn articles) — Note 1(c). Second-hand shoes in bulk → 63.09",
-            "keywords": ["worn shoes", "used footwear", "second-hand boots", "63.09"]
+            "keywords": [
+                "worn shoes",
+                "used footwear",
+                "second-hand boots",
+                "63.09"
+            ]
         },
         {
             "condition": "Footwear made of asbestos material",
             "action": "Redirect to heading 68.12 (fabricated asbestos articles) — Note 1(d)",
-            "keywords": ["asbestos footwear", "asbestos shoe boot", "68.12"]
+            "keywords": [
+                "asbestos footwear",
+                "asbestos shoe boot",
+                "68.12"
+            ]
         },
         {
             "condition": "Orthopaedic footwear or orthopaedic appliances (shoe inserts, arch supports, corrective footwear prescribed medically)",
             "action": "Redirect to heading 90.21 (orthopaedic appliances) — Note 1(e). Custom orthopaedic shoes → 90.21. Mass-produced comfort shoes/footbeds → stay in Ch.64. The medical/corrective purpose and custom fit determine 90.21",
-            "keywords": ["orthopaedic shoe", "orthopaedic insole", "corrective footwear medical", "arch support orthopaedic", "90.21"]
+            "keywords": [
+                "orthopaedic shoe",
+                "orthopaedic insole",
+                "corrective footwear medical",
+                "arch support orthopaedic",
+                "90.21"
+            ]
         },
         {
             "condition": "Toy footwear; skating boots WITH ice or roller skates already attached; shin-guards or similar protective sportswear",
             "action": "Redirect to Chapter 95 — Note 1(f). Toy shoes → Ch.95. Skating boots already assembled WITH blades/wheels → Ch.95 (complete sports equipment). Detached skating boots without blades → 64.02 (Subheading Note 1: skating boots = sports footwear). Shin guards → Ch.95",
-            "keywords": ["toy shoes", "ice skates complete with boot", "roller skates complete", "shin guard protective", "95."]
+            "keywords": [
+                "toy shoes",
+                "ice skates complete with boot",
+                "roller skates complete",
+                "shin guard protective",
+                "95."
+            ]
         }
     ],
     "classification_rules": [

@@ -3,28 +3,69 @@
     "chapter_title": "Live animals",
     "scope_note": "Chapter 1 covers ALL live animals with specific exceptions. Note: live fish/crustaceans/molluscs/aquatic invertebrates → Ch.03 (not Ch.01). Cultures of micro-organisms → heading 30.02. Circus/menagerie animals → 95.08.",
     "inclusions": [
-        "Heading 01.01 — Live horses, asses, mules and hinnies: pure-bred breeding horses (01.01.21), other horses for slaughter, other horses NES, asses, mules/hinnies",
-        "Heading 01.02 — Live bovine animals: pure-bred breeding cattle (01.02.21), other cattle (dairy heifers, feeder cattle, beef cattle), buffalo",
-        "Heading 01.03 — Live swine: pure-bred breeding swine (01.03.10), other swine <50kg, other swine ≥50kg",
-        "Heading 01.04 — Live sheep and goats: sheep (pure-bred breeding 01.04.10, other), goats",
-        "Heading 01.05 — Live poultry: fowls of species Gallus domesticus (chickens, broilers, layers), ducks, geese, turkeys, guinea fowls — whether or not pure-bred. Weight thresholds apply to subheadings",
-        "Heading 01.06 — Other live animals: mammals (primates, whales/dolphins, rabbits/hares, reindeer, camels, dogs, cats, other mammals), reptiles (snakes, turtles, lizards, crocodilians), birds (raptors, psittaciformes/parrots, ostriches, other birds), insects (bees, butterflies), other (frogs, etc.)"
+        {
+            "heading": "01.01",
+            "description": "Live horses, asses, mules and hinnies: pure-bred breeding horses (01.01.21), other horses for slaughter, other horses NES, asses, mules/hinnies"
+        },
+        {
+            "heading": "01.02",
+            "description": "Live bovine animals: pure-bred breeding cattle (01.02.21), other cattle (dairy heifers, feeder cattle, beef cattle), buffalo"
+        },
+        {
+            "heading": "01.03",
+            "description": "Live swine: pure-bred breeding swine (01.03.10), other swine <50kg, other swine ≥50kg"
+        },
+        {
+            "heading": "01.04",
+            "description": "Live sheep and goats: sheep (pure-bred breeding 01.04.10, other), goats"
+        },
+        {
+            "heading": "01.05",
+            "description": "Live poultry: fowls of species Gallus domesticus (chickens, broilers, layers), ducks, geese, turkeys, guinea fowls — whether or not pure-bred. Weight thresholds apply to subheadings"
+        },
+        {
+            "heading": "01.06",
+            "description": "Other live animals: mammals (primates, whales/dolphins, rabbits/hares, reindeer, camels, dogs, cats, other mammals), reptiles (snakes, turtles, lizards, crocodilians), birds (raptors, psittaciformes/parrots, ostriches, other birds), insects (bees, butterflies), other (frogs, etc.)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Live fish, crustaceans, molluscs and other aquatic invertebrates",
             "action": "Redirect to Chapter 3: live fish → 03.01; live crustaceans (lobster, shrimp, crab) → 03.06; live molluscs (oysters, mussels, scallops) → 03.07; live aquatic invertebrates (sea urchin, sea cucumber) → 03.08. Chapter 1 explicitly excludes ALL live aquatic animals in these categories",
-            "keywords": ["live fish", "live lobster", "live shrimp", "live crab", "live oyster", "live mussel", "live squid", "03.01", "03.06", "03.07", "03.08"]
+            "keywords": [
+                "live fish",
+                "live lobster",
+                "live shrimp",
+                "live crab",
+                "live oyster",
+                "live mussel",
+                "live squid",
+                "03.01",
+                "03.06",
+                "03.07",
+                "03.08"
+            ]
         },
         {
             "condition": "Cultures of micro-organisms and other products of heading 30.02 (vaccines, blood, antisera)",
             "action": "Redirect to heading 30.02 — live cultures of bacteria, viruses, yeasts used for pharmaceutical purposes → 30.02. Live yeasts for baking → 21.02. The micro-organism must be a macroscopic animal to qualify for Ch.01",
-            "keywords": ["bacterial culture", "virus culture", "micro-organism live", "vaccine seed culture", "30.02"]
+            "keywords": [
+                "bacterial culture",
+                "virus culture",
+                "micro-organism live",
+                "vaccine seed culture",
+                "30.02"
+            ]
         },
         {
             "condition": "Animals of travelling circuses, travelling menageries and travelling theatres",
             "action": "Redirect to heading 95.08 — circus/travelling fair animals classified with the circus equipment as one entity → 95.08. Permanent zoo animals → Ch.01 (01.06)",
-            "keywords": ["circus animal", "menagerie travelling", "travelling fair animals", "95.08"]
+            "keywords": [
+                "circus animal",
+                "menagerie travelling",
+                "travelling fair animals",
+                "95.08"
+            ]
         }
     ],
     "classification_rules": [

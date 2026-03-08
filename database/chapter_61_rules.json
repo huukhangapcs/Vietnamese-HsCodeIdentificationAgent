@@ -3,39 +3,107 @@
     "chapter_title": "Articles of apparel and clothing accessories, knitted or crocheted",
     "scope_note": "Note 1: Ch.61 applies ONLY to made-up KNITTED OR CROCHETED articles. Note 9: left-over-right front closure = men's/boys'; right-over-left = women's/girls'; unidentifiable → women's/girls'. Note 10: articles may be made of metal thread.",
     "inclusions": [
-        "Heading 61.01 — Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 61.03",
-        "Heading 61.02 — Women's or girls' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 61.04",
-        "Heading 61.03 — Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts, knitted or crocheted. Note 3(a): 'suit' = 2–3 pieces identical fabric, coat/jacket (≥4 panels) + lower garment (no braces/bibs). Includes morning dress, evening dress, dinner jacket suits. Note 3(b): 'ensemble' = several pieces identical fabric (not suits or 61.07/61.08/61.09), one upper + 1–2 lower garments — NOT track suits or ski suits (→ 61.12)",
-        "Heading 61.04 — Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts, knitted or crocheted",
-        "Heading 61.05 — Men's or boys' shirts, knitted or crocheted. Note 4: 61.05 excludes garments with pockets below waist, ribbed waistband/tightening at bottom, sleeveless garments, OR AVERAGE <10 stitches per linear cm (in each direction, 10×10 cm²). 'Shirts' = upper body, sleeves (long/short), full/partial opening from neckline",
-        "Heading 61.06 — Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted. Note 4: 61.06 excludes garments with pockets below waist or ribbed waistband/tightening at bottom, or <10 stitches per linear cm. 'Blouses' may be sleeveless",
-        "Heading 61.07 — Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted",
-        "Heading 61.08 — Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles, knitted or crocheted",
-        "Heading 61.09 — T-shirts, singlets and other vests, knitted or crocheted. Note 5: 61.09 does NOT cover garments with a drawstring, ribbed waistband or other means of tightening at the bottom",
-        "Heading 61.10 — Jerseys, pullovers, sweatshirts, waistcoats (vests) and similar articles, knitted or crocheted",
-        "Heading 61.11 — Babies' garments and clothing accessories, knitted or crocheted. Note 6(a): 'babies'' = body height ≤86 cm. Note 6(b): prima facie classifiable in BOTH 61.11 and another Ch.61 heading → ALWAYS 61.11",
-        "Heading 61.12 — Track suits, ski suits and swimwear, knitted or crocheted. Note 7: 'ski suits' = overall (one-piece) or ski ensemble (anorak/windcheater with zipper + trousers/breeches, same texture/style/composition, compatible sizes)",
-        "Heading 61.13 — Garments made up of knitted or crocheted fabrics of heading 59.03, 59.06 or 59.07. Note 8: prima facie classifiable in both 61.13 and other Ch.61 headings (except 61.11) → classify in 61.13",
-        "Heading 61.14 — Other garments, knitted or crocheted",
-        "Heading 61.15 — Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (e.g., stockings for varicose veins) and footwear without applied soles, knitted or crocheted",
-        "Heading 61.16 — Gloves, mittens and mitts, knitted or crocheted",
-        "Heading 61.17 — Other made up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories"
+        {
+            "heading": "61.01",
+            "description": "Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 61.03"
+        },
+        {
+            "heading": "61.02",
+            "description": "Women's or girls' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, knitted or crocheted, other than those of heading 61.04"
+        },
+        {
+            "heading": "61.03",
+            "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts, knitted or crocheted. Note 3(a): 'suit' = 2–3 pieces identical fabric, coat/jacket (≥4 panels) + lower garment (no braces/bibs). Includes morning dress, evening dress, dinner jacket suits. Note 3(b): 'ensemble' = several pieces identical fabric (not suits or 61.07/61.08/61.09), one upper + 1–2 lower garments — NOT track suits or ski suits (→ 61.12)"
+        },
+        {
+            "heading": "61.04",
+            "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts, knitted or crocheted"
+        },
+        {
+            "heading": "61.05",
+            "description": "Men's or boys' shirts, knitted or crocheted. Note 4: 61.05 excludes garments with pockets below waist, ribbed waistband/tightening at bottom, sleeveless garments, OR AVERAGE <10 stitches per linear cm (in each direction, 10×10 cm²). 'Shirts' = upper body, sleeves (long/short), full/partial opening from neckline"
+        },
+        {
+            "heading": "61.06",
+            "description": "Women's or girls' blouses, shirts and shirt-blouses, knitted or crocheted. Note 4: 61.06 excludes garments with pockets below waist or ribbed waistband/tightening at bottom, or <10 stitches per linear cm. 'Blouses' may be sleeveless"
+        },
+        {
+            "heading": "61.07",
+            "description": "Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted"
+        },
+        {
+            "heading": "61.08",
+            "description": "Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles, knitted or crocheted"
+        },
+        {
+            "heading": "61.09",
+            "description": "T-shirts, singlets and other vests, knitted or crocheted. Note 5: 61.09 does NOT cover garments with a drawstring, ribbed waistband or other means of tightening at the bottom"
+        },
+        {
+            "heading": "61.10",
+            "description": "Jerseys, pullovers, sweatshirts, waistcoats (vests) and similar articles, knitted or crocheted"
+        },
+        {
+            "heading": "61.11",
+            "description": "Babies' garments and clothing accessories, knitted or crocheted. Note 6(a): 'babies'' = body height ≤86 cm. Note 6(b): prima facie classifiable in BOTH 61.11 and another Ch.61 heading → ALWAYS 61.11"
+        },
+        {
+            "heading": "61.12",
+            "description": "Track suits, ski suits and swimwear, knitted or crocheted. Note 7: 'ski suits' = overall (one-piece) or ski ensemble (anorak/windcheater with zipper + trousers/breeches, same texture/style/composition, compatible sizes)"
+        },
+        {
+            "heading": "61.13",
+            "description": "Garments made up of knitted or crocheted fabrics of heading 59.03, 59.06 or 59.07. Note 8: prima facie classifiable in both 61.13 and other Ch.61 headings (except 61.11) → classify in 61.13"
+        },
+        {
+            "heading": "61.14",
+            "description": "Other garments, knitted or crocheted"
+        },
+        {
+            "heading": "61.15",
+            "description": "Pantyhose, tights, stockings, socks and other hosiery, including graduated compression hosiery (e.g., stockings for varicose veins) and footwear without applied soles, knitted or crocheted"
+        },
+        {
+            "heading": "61.16",
+            "description": "Gloves, mittens and mitts, knitted or crocheted"
+        },
+        {
+            "heading": "61.17",
+            "description": "Other made up clothing accessories, knitted or crocheted; knitted or crocheted parts of garments or of clothing accessories"
+        }
     ],
     "exclusions": [
         {
             "condition": "Goods of heading 62.12 (brassieres, girdles, corsets, braces, suspenders, garters)",
             "action": "Redirect to heading 62.12 — Note 2(a). Heading 62.12 covers both knitted AND non-knitted corsetry — it belongs to Ch.62 and is excluded from Ch.61",
-            "keywords": ["brassiere", "bra", "girdle corset", "suspender belt", "garter belt", "62.12"]
+            "keywords": [
+                "brassiere",
+                "bra",
+                "girdle corset",
+                "suspender belt",
+                "garter belt",
+                "62.12"
+            ]
         },
         {
             "condition": "Worn clothing or other worn articles showing appreciable wear presented in bulk",
             "action": "Redirect to heading 63.09 — Note 2(b). Used/worn knitted garments in bales/bulk → 63.09",
-            "keywords": ["worn knitted clothing", "used knitwear bulk", "second-hand sweater bale", "63.09"]
+            "keywords": [
+                "worn knitted clothing",
+                "used knitwear bulk",
+                "second-hand sweater bale",
+                "63.09"
+            ]
         },
         {
             "condition": "Orthopaedic appliances, surgical belts, trusses and similar, even if of knitted material",
             "action": "Redirect to heading 90.21 — Note 2(c). Knitted compression stockings prescribed as orthopaedic → 90.21. General graduated compression hosiery sold commercially → 61.15",
-            "keywords": ["orthopaedic knit support", "surgical compression stocking medical", "truss knitted", "90.21"]
+            "keywords": [
+                "orthopaedic knit support",
+                "surgical compression stocking medical",
+                "truss knitted",
+                "90.21"
+            ]
         }
     ],
     "classification_rules": [

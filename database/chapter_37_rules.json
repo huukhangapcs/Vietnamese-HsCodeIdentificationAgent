@@ -2,13 +2,34 @@
     "chapter_code": "37",
     "chapter_title": "Photographic or cinematographic goods",
     "inclusions": [
-        "Heading 37.01 — Photographic plates and film in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in the flat, sensitised, unexposed, whether or not in packs",
-        "Heading 37.02 — Photographic film in rolls, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in rolls, sensitised, unexposed",
-        "Heading 37.03 — Photographic paper, paperboard and textiles, sensitised, unexposed",
-        "Heading 37.04 — Photographic plates, film, paper, paperboard and textiles, exposed but not developed",
-        "Heading 37.05 — Photographic plates and film, exposed and developed, other than cinematographic film",
-        "Heading 37.06 — Cinematographic film, exposed and developed, whether or not incorporating soundtrack or consisting only of soundtrack",
-        "Heading 37.07 — Chemical preparations for photographic uses (other than varnishes, glues, adhesives and similar preparations); unmixed products for photographic uses, put up in measured portions or put up for retail sale in a form ready for use"
+        {
+            "heading": "37.01",
+            "description": "Photographic plates and film in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in the flat, sensitised, unexposed, whether or not in packs"
+        },
+        {
+            "heading": "37.02",
+            "description": "Photographic film in rolls, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in rolls, sensitised, unexposed"
+        },
+        {
+            "heading": "37.03",
+            "description": "Photographic paper, paperboard and textiles, sensitised, unexposed"
+        },
+        {
+            "heading": "37.04",
+            "description": "Photographic plates, film, paper, paperboard and textiles, exposed but not developed"
+        },
+        {
+            "heading": "37.05",
+            "description": "Photographic plates and film, exposed and developed, other than cinematographic film"
+        },
+        {
+            "heading": "37.06",
+            "description": "Cinematographic film, exposed and developed, whether or not incorporating soundtrack or consisting only of soundtrack"
+        },
+        {
+            "heading": "37.07",
+            "description": "Chemical preparations for photographic uses (other than varnishes, glues, adhesives and similar preparations); unmixed products for photographic uses, put up in measured portions or put up for retail sale in a form ready for use"
+        }
     ],
     "exclusions": [
         {

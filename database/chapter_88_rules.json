@@ -2,20 +2,44 @@
     "chapter_code": "88",
     "chapter_title": "Aircraft, spacecraft, and parts thereof",
     "inclusions": [
-        "Heading 88.01 — Balloons and dirigibles; gliders, hang-gliders and other non-powered aircraft",
-        "Heading 88.02 — Other aircraft (e.g., helicopters, aeroplanes); spacecraft (including satellites) and suborbital and spacecraft launch vehicles. Subheadings 8802.11–8802.40 classified by UNLADEN WEIGHT (weight of machine in normal flying order, excluding crew, fuel, and non-permanently fitted equipment)",
-        "Heading 88.03 — Parts of goods of heading 88.01 or 88.02",
-        "Heading 88.04 — Parachutes (including dirigible parachutes and paragliders) and rotochutes; parts thereof and accessories thereto",
-        "Heading 88.05 — Aircraft launching gear; deck-arrestor or similar gear; ground flying trainers; parts of the foregoing articles",
-        "Heading 88.06 — Unmanned aircraft. Subheadings 8806.21–8806.24 and 8806.91–8806.94 classified by MAXIMUM TAKE-OFF WEIGHT (weight at take-off including payload, equipment and fuel). Includes drones designed to carry a payload OR equipped with permanently integrated digital cameras or other equipment for utilitarian functions during flight"
+        {
+            "heading": "88.01",
+            "description": "Balloons and dirigibles; gliders, hang-gliders and other non-powered aircraft"
+        },
+        {
+            "heading": "88.02",
+            "description": "Other aircraft (e.g., helicopters, aeroplanes); spacecraft (including satellites) and suborbital and spacecraft launch vehicles. Subheadings 8802.11–8802.40 classified by UNLADEN WEIGHT (weight of machine in normal flying order, excluding crew, fuel, and non-permanently fitted equipment)"
+        },
+        {
+            "heading": "88.03",
+            "description": "Parts of goods of heading 88.01 or 88.02"
+        },
+        {
+            "heading": "88.04",
+            "description": "Parachutes (including dirigible parachutes and paragliders) and rotochutes; parts thereof and accessories thereto"
+        },
+        {
+            "heading": "88.05",
+            "description": "Aircraft launching gear; deck-arrestor or similar gear; ground flying trainers; parts of the foregoing articles"
+        },
+        {
+            "heading": "88.06",
+            "description": "Unmanned aircraft. Subheadings 8806.21–8806.24 and 8806.91–8806.94 classified by MAXIMUM TAKE-OFF WEIGHT (weight at take-off including payload, equipment and fuel). Includes drones designed to carry a payload OR equipped with permanently integrated digital cameras or other equipment for utilitarian functions during flight"
+        }
     ],
     "exclusions": [
         {
             "condition": "Flying toys designed SOLELY for amusement purposes",
             "action": "Redirect to heading 95.03 (toys) — Note 1 para 2. Even if the toy flies or resembles a drone, if designed solely for amusement → 95.03. Key test: UTILITARIAN FUNCTION vs. AMUSEMENT ONLY",
             "keywords": [
-                "toy drone", "toy airplane", "toy helicopter", "flying toy", "amusement drone",
-                "toy aircraft", "children flying toy", "95.03"
+                "toy drone",
+                "toy airplane",
+                "toy helicopter",
+                "flying toy",
+                "amusement drone",
+                "toy aircraft",
+                "children flying toy",
+                "95.03"
             ]
         }
     ],

@@ -2,87 +2,209 @@
     "chapter_code": "96",
     "chapter_title": "Miscellaneous manufactured articles",
     "inclusions": [
-        "Heading 96.01 — Worked ivory, bone, tortoise-shell, horn, antlers, coral, mother-of-pearl and other animal carving material, and articles of these materials (including articles obtained by moulding)",
-        "Heading 96.02 — Worked vegetable or mineral carving material and articles of these materials; moulded or carved articles of wax, of stearin, of natural gums or natural resins or of modelling pastes, and other moulded or carved articles not elsewhere specified or included; worked, unhardened gelatin (except gelatin of heading 35.03) and articles of unhardened gelatin. Note 2: 'vegetable or mineral carving material' = (a) hard seeds, pips, hulls, nuts (e.g., corozo/dom); (b) amber, meerschaum, agglomerated amber/meerschaum, jet and mineral substitutes for jet",
-        "Heading 96.03 — Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers not motorised, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers; squeegees. Note 3: 'prepared knots and tufts for broom/brush making' = unmounted, ready for incorporation without division, or requiring only minor trimming",
-        "Heading 96.04 — Hand sieves and hand riddles",
-        "Heading 96.05 — Travel sets for personal toilet, sewing or shoe or clothes cleaning",
-        "Heading 96.06 — Buttons, press-fasteners, snap-fasteners and press-studs, button moulds and other parts of these articles; button blanks",
-        "Heading 96.07 — Slide fasteners and parts thereof",
-        "Heading 96.08 — Ball point pens; felt tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 96.09",
-        "Heading 96.09 — Pencils (other than pencils of heading 96.08), crayons, pencil leads, pastels, drawing charcoals, writing or drawing chalks and tailors' chalks",
-        "Heading 96.10 — Slates and boards, with writing or drawing surfaces, whether or not framed",
-        "Heading 96.11 — Date, sealing or numbering stamps, and the like (including devices for printing or embossing labels), designed for operating in the hand; hand-operated composing sticks and hand printing sets incorporating such composing sticks",
-        "Heading 96.12 — Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or not on spools or in cartridges; ink-pads, whether or not inked, with or without boxes",
-        "Heading 96.13 — Cigarette lighters and other lighters, whether or not mechanical or electrical, and parts thereof, other than flints and wicks",
-        "Heading 96.14 — Smoking pipes (including pipe bowls) and cigar or cigarette holders, and parts thereof",
-        "Heading 96.15 — Combs, hair-slides and the like; hairpins, curling pins, curling grips, hair-curlers and the like, other than those of heading 85.16, and parts thereof",
-        "Heading 96.16 — Scent sprays and similar toilet sprays, and mounts and heads therefor; powder-puffs and pads for the application of cosmetics or toilet preparations",
-        "Heading 96.17 — Vacuum flasks and other vacuum vessels, complete with cases; parts thereof other than glass inners",
-        "Heading 96.18 — Tailors' dummies and other lay figures; automata and other animated displays used for shop window dressing",
-        "Heading 96.19 — Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles, of any material",
-        "Heading 96.20 — Monopods, bipods, tripods and similar articles"
+        {
+            "heading": "96.01",
+            "description": "Worked ivory, bone, tortoise-shell, horn, antlers, coral, mother-of-pearl and other animal carving material, and articles of these materials (including articles obtained by moulding)"
+        },
+        {
+            "heading": "96.02",
+            "description": "Worked vegetable or mineral carving material and articles of these materials; moulded or carved articles of wax, of stearin, of natural gums or natural resins or of modelling pastes, and other moulded or carved articles not elsewhere specified or included; worked, unhardened gelatin (except gelatin of heading 35.03) and articles of unhardened gelatin. Note 2: 'vegetable or mineral carving material' = (a) hard seeds, pips, hulls, nuts (e.g., corozo/dom); (b) amber, meerschaum, agglomerated amber/meerschaum, jet and mineral substitutes for jet"
+        },
+        {
+            "heading": "96.03",
+            "description": "Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers not motorised, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers; squeegees. Note 3: 'prepared knots and tufts for broom/brush making' = unmounted, ready for incorporation without division, or requiring only minor trimming"
+        },
+        {
+            "heading": "96.04",
+            "description": "Hand sieves and hand riddles"
+        },
+        {
+            "heading": "96.05",
+            "description": "Travel sets for personal toilet, sewing or shoe or clothes cleaning"
+        },
+        {
+            "heading": "96.06",
+            "description": "Buttons, press-fasteners, snap-fasteners and press-studs, button moulds and other parts of these articles; button blanks"
+        },
+        {
+            "heading": "96.07",
+            "description": "Slide fasteners and parts thereof"
+        },
+        {
+            "heading": "96.08",
+            "description": "Ball point pens; felt tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 96.09"
+        },
+        {
+            "heading": "96.09",
+            "description": "Pencils (other than pencils of heading 96.08), crayons, pencil leads, pastels, drawing charcoals, writing or drawing chalks and tailors' chalks"
+        },
+        {
+            "heading": "96.10",
+            "description": "Slates and boards, with writing or drawing surfaces, whether or not framed"
+        },
+        {
+            "heading": "96.11",
+            "description": "Date, sealing or numbering stamps, and the like (including devices for printing or embossing labels), designed for operating in the hand; hand-operated composing sticks and hand printing sets incorporating such composing sticks"
+        },
+        {
+            "heading": "96.12",
+            "description": "Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or not on spools or in cartridges; ink-pads, whether or not inked, with or without boxes"
+        },
+        {
+            "heading": "96.13",
+            "description": "Cigarette lighters and other lighters, whether or not mechanical or electrical, and parts thereof, other than flints and wicks"
+        },
+        {
+            "heading": "96.14",
+            "description": "Smoking pipes (including pipe bowls) and cigar or cigarette holders, and parts thereof"
+        },
+        {
+            "heading": "96.15",
+            "description": "Combs, hair-slides and the like; hairpins, curling pins, curling grips, hair-curlers and the like, other than those of heading 85.16, and parts thereof"
+        },
+        {
+            "heading": "96.16",
+            "description": "Scent sprays and similar toilet sprays, and mounts and heads therefor; powder-puffs and pads for the application of cosmetics or toilet preparations"
+        },
+        {
+            "heading": "96.17",
+            "description": "Vacuum flasks and other vacuum vessels, complete with cases; parts thereof other than glass inners"
+        },
+        {
+            "heading": "96.18",
+            "description": "Tailors' dummies and other lay figures; automata and other animated displays used for shop window dressing"
+        },
+        {
+            "heading": "96.19",
+            "description": "Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles, of any material"
+        },
+        {
+            "heading": "96.20",
+            "description": "Monopods, bipods, tripods and similar articles"
+        }
     ],
     "exclusions": [
         {
             "condition": "Pencils for cosmetic or toilet uses (e.g., eyebrow pencils, lip liner pencils)",
             "action": "Redirect to Chapter 33 (cosmetics/toilet preparations) — Note 1(a). Cosmetic pencils → Ch.33; writing/drawing pencils → 96.09",
-            "keywords": ["eyebrow pencil", "lip liner", "eyeliner pencil", "cosmetic pencil", "kohl pencil", "33."]
+            "keywords": [
+                "eyebrow pencil",
+                "lip liner",
+                "eyeliner pencil",
+                "cosmetic pencil",
+                "kohl pencil",
+                "33."
+            ]
         },
         {
             "condition": "Articles of Chapter 66 (umbrellas, walking-sticks, parts thereof)",
             "action": "Redirect to Chapter 66 — Note 1(b)",
-            "keywords": ["umbrella part", "walking stick part", "parasol", "66."]
+            "keywords": [
+                "umbrella part",
+                "walking stick part",
+                "parasol",
+                "66."
+            ]
         },
         {
             "condition": "Imitation jewellery",
             "action": "Redirect to heading 71.17 — Note 1(c). Decorative brooches, novelty pins, fashion accessories that are imitation jewellery → 71.17",
-            "keywords": ["imitation jewellery", "fashion jewellery", "costume jewellery", "71.17"]
+            "keywords": [
+                "imitation jewellery",
+                "fashion jewellery",
+                "costume jewellery",
+                "71.17"
+            ]
         },
         {
             "condition": "Parts of general use (Note 2 to Section XV) of base metal, or similar goods of plastics",
             "action": "Redirect to Section XV or Chapter 39 — Note 1(d)",
-            "keywords": ["general purpose screw", "general purpose hinge", "39.", "Section XV"]
+            "keywords": [
+                "general purpose screw",
+                "general purpose hinge",
+                "39.",
+                "Section XV"
+            ]
         },
         {
             "condition": "Cutlery or other articles of Chapter 82 WITH handles or parts of carving/moulding material — presented as complete articles",
             "action": "Redirect to Chapter 82 (cutlery/tools with carved handles) — Note 1(e). EXCEPTION: separately presented carved handles or parts of Ch.82 articles → 96.01 or 96.02",
-            "keywords": ["carved handle knife", "ivory handle cutlery", "bone handle knife", "82."]
+            "keywords": [
+                "carved handle knife",
+                "ivory handle cutlery",
+                "bone handle knife",
+                "82."
+            ]
         },
         {
             "condition": "Articles of Chapter 90 (spectacle frames, mathematical drawing pens, medical/dental/surgical/veterinary brushes)",
             "action": "Redirect to Chapter 90 — Note 1(f): spectacle frames → 90.03; mathematical drawing pens → 90.17; specialised dental/medical brushes → 90.18",
-            "keywords": ["spectacle frame", "glasses frame", "mathematical pen", "dental brush", "surgical brush", "90.03", "90.17", "90.18"]
+            "keywords": [
+                "spectacle frame",
+                "glasses frame",
+                "mathematical pen",
+                "dental brush",
+                "surgical brush",
+                "90.03",
+                "90.17",
+                "90.18"
+            ]
         },
         {
             "condition": "Articles of Chapter 91 (clock or watch cases)",
             "action": "Redirect to Chapter 91 — Note 1(g)",
-            "keywords": ["clock case", "watch case", "91."]
+            "keywords": [
+                "clock case",
+                "watch case",
+                "91."
+            ]
         },
         {
             "condition": "Musical instruments or parts or accessories thereof",
             "action": "Redirect to Chapter 92 — Note 1(h)",
-            "keywords": ["musical instrument part", "92."]
+            "keywords": [
+                "musical instrument part",
+                "92."
+            ]
         },
         {
             "condition": "Articles of Chapter 93 (arms and parts thereof)",
             "action": "Redirect to Chapter 93 — Note 1(ij)",
-            "keywords": ["weapon part", "firearm part", "93."]
+            "keywords": [
+                "weapon part",
+                "firearm part",
+                "93."
+            ]
         },
         {
             "condition": "Articles of Chapter 94 (furniture, luminaires and lighting fittings)",
             "action": "Redirect to Chapter 94 — Note 1(k)",
-            "keywords": ["furniture", "luminaire", "lighting fitting", "94."]
+            "keywords": [
+                "furniture",
+                "luminaire",
+                "lighting fitting",
+                "94."
+            ]
         },
         {
             "condition": "Articles of Chapter 95 (toys, games, sports requisites)",
             "action": "Redirect to Chapter 95 — Note 1(l)",
-            "keywords": ["toy", "game", "sports requisite", "95."]
+            "keywords": [
+                "toy",
+                "game",
+                "sports requisite",
+                "95."
+            ]
         },
         {
             "condition": "Works of art, collectors' pieces or antiques",
             "action": "Redirect to Chapter 97 — Note 1(m)",
-            "keywords": ["artwork", "collectors piece", "antique", "97."]
+            "keywords": [
+                "artwork",
+                "collectors piece",
+                "antique",
+                "97."
+            ]
         }
     ],
     "classification_rules": [

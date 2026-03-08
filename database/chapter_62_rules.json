@@ -3,39 +3,107 @@
     "chapter_title": "Articles of apparel and clothing accessories, not knitted or crocheted",
     "scope_note": "Note 1: Ch.62 applies only to MADE-UP articles of any textile fabric (other than wadding), EXCLUDING knitted or crocheted articles (except 62.12 brassieres/corsets/etc.). Note 9: left-over-right front closure = men's/boys'; right-over-left = women's/girls'; unidentifiable → women's/girls'. Note 10: articles may be made of metal thread.",
     "inclusions": [
-        "Heading 62.01 — Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading 62.03",
-        "Heading 62.02 — Women's or girls' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading 62.04",
-        "Heading 62.03 — Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear). Note 3(a): 'suit' = 2–3 pieces of identical fabric including a coat/jacket (≥4 panels, upper body) + lower garment (trousers/breeches/shorts/skirt — no braces/bibs). Includes morning dress, evening dress (tailcoat), dinner jacket suits. If multiple lower garments presented together → one pair trousers counts as the suit's lower part",
-        "Heading 62.04 — Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear). Note 3(b): 'ensemble' = several pieces of identical fabric (not suits or 62.07/62.08) comprising one upper garment + one or two lower garments of compatible size and style",
-        "Heading 62.05 — Men's or boys' shirts. Note 4: 62.05 does NOT cover garments with pockets below the waist, ribbed waistband/tightening at bottom, OR sleeveless garments. 'Shirts' = upper body garments with long/short sleeves and full/partial opening from neckline",
-        "Heading 62.06 — Women's or girls' blouses, shirts and shirt-blouses. Note 4: 62.06 does NOT cover garments with pockets below the waist or ribbed waistband/tightening at bottom. 'Blouses' may be sleeveless. 'Shirt-blouses' and 'blouses' may have a collar",
-        "Heading 62.07 — Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles",
-        "Heading 62.08 — Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles",
-        "Heading 62.09 — Babies' garments and clothing accessories. Note 5(a): 'babies'' = young children with body height ≤86 cm. Note 5(b): articles classifiable prima facie in both 62.09 and another Ch.62 heading → ALWAYS classify in 62.09",
-        "Heading 62.10 — Garments made up of fabrics of heading 56.02, 56.03, 59.03, 59.06 or 59.07. Note 6: garments prima facie classifiable in both 62.10 and other Ch.62 headings (except 62.09) → classify in 62.10",
-        "Heading 62.11 — Track suits, ski suits and swimwear; other garments. Note 7: 'ski suits' = overall (one-piece) or ski ensemble (anorak/windcheater with zipper + trousers/breeches, all same fabric texture/style/composition, compatible sizes)",
-        "Heading 62.12 — Brassieres, girdles, corsets, braces, suspenders, garters and similar articles and parts thereof, whether or not knitted or crocheted",
-        "Heading 62.13 — Handkerchiefs. Note 8: scarves/scarf-type articles square or approx. square with NO SIDE EXCEEDING 60 cm → classified as handkerchiefs (62.13)",
-        "Heading 62.14 — Shawls, scarves, mufflers, mantillas, veils and the like. Note 8: handkerchiefs with ANY SIDE EXCEEDING 60 cm → 62.14",
-        "Heading 62.15 — Ties, bow ties and cravats",
-        "Heading 62.16 — Gloves, mittens and mitts",
-        "Heading 62.17 — Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 62.12"
+        {
+            "heading": "62.01",
+            "description": "Men's or boys' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading 62.03"
+        },
+        {
+            "heading": "62.02",
+            "description": "Women's or girls' overcoats, car coats, capes, cloaks, anoraks (including ski jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading 62.04"
+        },
+        {
+            "heading": "62.03",
+            "description": "Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear). Note 3(a): 'suit' = 2–3 pieces of identical fabric including a coat/jacket (≥4 panels, upper body) + lower garment (trousers/breeches/shorts/skirt — no braces/bibs). Includes morning dress, evening dress (tailcoat), dinner jacket suits. If multiple lower garments presented together → one pair trousers counts as the suit's lower part"
+        },
+        {
+            "heading": "62.04",
+            "description": "Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear). Note 3(b): 'ensemble' = several pieces of identical fabric (not suits or 62.07/62.08) comprising one upper garment + one or two lower garments of compatible size and style"
+        },
+        {
+            "heading": "62.05",
+            "description": "Men's or boys' shirts. Note 4: 62.05 does NOT cover garments with pockets below the waist, ribbed waistband/tightening at bottom, OR sleeveless garments. 'Shirts' = upper body garments with long/short sleeves and full/partial opening from neckline"
+        },
+        {
+            "heading": "62.06",
+            "description": "Women's or girls' blouses, shirts and shirt-blouses. Note 4: 62.06 does NOT cover garments with pockets below the waist or ribbed waistband/tightening at bottom. 'Blouses' may be sleeveless. 'Shirt-blouses' and 'blouses' may have a collar"
+        },
+        {
+            "heading": "62.07",
+            "description": "Men's or boys' singlets and other vests, underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles"
+        },
+        {
+            "heading": "62.08",
+            "description": "Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, négligés, bathrobes, dressing gowns and similar articles"
+        },
+        {
+            "heading": "62.09",
+            "description": "Babies' garments and clothing accessories. Note 5(a): 'babies'' = young children with body height ≤86 cm. Note 5(b): articles classifiable prima facie in both 62.09 and another Ch.62 heading → ALWAYS classify in 62.09"
+        },
+        {
+            "heading": "62.10",
+            "description": "Garments made up of fabrics of heading 56.02, 56.03, 59.03, 59.06 or 59.07. Note 6: garments prima facie classifiable in both 62.10 and other Ch.62 headings (except 62.09) → classify in 62.10"
+        },
+        {
+            "heading": "62.11",
+            "description": "Track suits, ski suits and swimwear; other garments. Note 7: 'ski suits' = overall (one-piece) or ski ensemble (anorak/windcheater with zipper + trousers/breeches, all same fabric texture/style/composition, compatible sizes)"
+        },
+        {
+            "heading": "62.12",
+            "description": "Brassieres, girdles, corsets, braces, suspenders, garters and similar articles and parts thereof, whether or not knitted or crocheted"
+        },
+        {
+            "heading": "62.13",
+            "description": "Handkerchiefs. Note 8: scarves/scarf-type articles square or approx. square with NO SIDE EXCEEDING 60 cm → classified as handkerchiefs (62.13)"
+        },
+        {
+            "heading": "62.14",
+            "description": "Shawls, scarves, mufflers, mantillas, veils and the like. Note 8: handkerchiefs with ANY SIDE EXCEEDING 60 cm → 62.14"
+        },
+        {
+            "heading": "62.15",
+            "description": "Ties, bow ties and cravats"
+        },
+        {
+            "heading": "62.16",
+            "description": "Gloves, mittens and mitts"
+        },
+        {
+            "heading": "62.17",
+            "description": "Other made up clothing accessories; parts of garments or of clothing accessories, other than those of heading 62.12"
+        }
     ],
     "exclusions": [
         {
             "condition": "Knitted or crocheted articles of apparel (other than 62.12)",
             "action": "Redirect to Chapter 61 (knitted or crocheted clothing) — Note 1. Woven non-knit → Ch.62. Knit/crochet → Ch.61. Exception: 62.12 (brassieres, girdles, corsets) covers both knitted AND non-knitted",
-            "keywords": ["knitted clothing", "crocheted garment", "knitwear", "jersey sweater", "61."]
+            "keywords": [
+                "knitted clothing",
+                "crocheted garment",
+                "knitwear",
+                "jersey sweater",
+                "61."
+            ]
         },
         {
             "condition": "Worn clothing or other worn articles showing appreciable wear presented in bulk",
             "action": "Redirect to heading 63.09 — Note 2(a). Used/worn woven garments in bales → 63.09",
-            "keywords": ["worn clothing woven", "used apparel bulk", "second-hand clothing bale", "63.09"]
+            "keywords": [
+                "worn clothing woven",
+                "used apparel bulk",
+                "second-hand clothing bale",
+                "63.09"
+            ]
         },
         {
             "condition": "Orthopaedic appliances, surgical belts, trusses and similar",
             "action": "Redirect to heading 90.21 — Note 2(b). Surgical abdominal belts, hernia trusses, orthopaedic supports even if made of textile → 90.21",
-            "keywords": ["surgical belt", "hernia truss", "orthopaedic support garment", "medical compression belt", "90.21"]
+            "keywords": [
+                "surgical belt",
+                "hernia truss",
+                "orthopaedic support garment",
+                "medical compression belt",
+                "90.21"
+            ]
         }
     ],
     "classification_rules": [

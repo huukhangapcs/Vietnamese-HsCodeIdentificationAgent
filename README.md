@@ -141,12 +141,12 @@ hscodever3/
 |-------|-------|---------|
 | **Rules JSON** | **97 / 97 chapters** | All chapters complete |
 | **Tree JSON** | **30 mono + 7 sub-trees** | Ch. 1–27, Ch. 36, Ch. 42; Ch. 28 (6 sub-trees) |
-| **ChromaDB size** | **~72 MB** | 3,473 node embeddings + 2,455 rule chunk embeddings |
-| **Total inclusions** | **1,209** | Heading-level scope definitions (string format: `"Heading XX.XX — ..."`) |
+| **ChromaDB size** | **~72 MB** | 3,473 node embeddings + 2,668 rule chunk embeddings |
+| **Total inclusions** | **1,209** | Heading-level scope definitions (structured JSON format: `{"heading": "XX.XX", "description": "..."}`) |
 | **Total exclusions** | **584** | All with keyword triggers for Gate A filter |
 | **Total classification rules** | **595** | Avg **6.1 rules/chapter**, indexed into ChromaDB |
 | **Avg rule detail** | **~560 chars/rule** | Rebuilt Ch.1–11 avg 539–620 chars/rule |
-| **scope_note coverage** | **38/97 (39%)** | Official HS Notes embedded — pending for Ch.12–97 |
+| **Vectorized Metadata** | **100% Coverage** | All `scope_note`, `chapter_title`, Section rules, and Section definitions are indexed |
 
 ### 🗂️ Rules Coverage by Section
 
@@ -182,7 +182,12 @@ hscodever3/
   "chapter_code": "04",
   "chapter_title": "Dairy produce; birds' eggs; natural honey...",
   "scope_note": "Note 1: ... Note 2: yoghurt conditions ... (Official HS Notes)",
-  "inclusions": ["Heading 04.01 — Milk and cream, not concentrated..."],
+  "inclusions": [
+    {
+      "heading": "04.01",
+      "description": "Milk and cream, not concentrated..."
+    }
+  ],
   "exclusions": [
     {
       "condition": "Products from whey with lactose ≥ 95%...",

@@ -3,27 +3,58 @@
     "chapter_title": "Carpets and other textile floor coverings",
     "scope_note": "Note 1: 'carpets and other textile floor coverings' = floor coverings where textile materials serve as the EXPOSED SURFACE when in use. Also includes articles with characteristics of textile floor coverings but intended for OTHER purposes (e.g., carpet used as wall hanging — still Ch.57). Note 2: floor covering UNDERLAYS are EXCLUDED from Ch.57.",
     "inclusions": [
-        "Heading 57.01 — Carpets and other textile floor coverings, knotted, whether or not made up",
-        "Heading 57.02 — Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including 'Kelem', 'Schumacks', 'Karamanie' and similar hand-woven rugs",
-        "Heading 57.03 — Carpets and other textile floor coverings, tufted, whether or not made up",
-        "Heading 57.04 — Carpets and other textile floor coverings, of felt, not tufted or flocked, whether or not made up",
-        "Heading 57.05 — Other carpets and other textile floor coverings, whether or not made up (including coconut fibre/coir mats, braided mats, needle-punched carpets, flocked carpets)"
+        {
+            "heading": "57.01",
+            "description": "Carpets and other textile floor coverings, knotted, whether or not made up"
+        },
+        {
+            "heading": "57.02",
+            "description": "Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including 'Kelem', 'Schumacks', 'Karamanie' and similar hand-woven rugs"
+        },
+        {
+            "heading": "57.03",
+            "description": "Carpets and other textile floor coverings, tufted, whether or not made up"
+        },
+        {
+            "heading": "57.04",
+            "description": "Carpets and other textile floor coverings, of felt, not tufted or flocked, whether or not made up"
+        },
+        {
+            "heading": "57.05",
+            "description": "Other carpets and other textile floor coverings, whether or not made up (including coconut fibre/coir mats, braided mats, needle-punched carpets, flocked carpets)"
+        }
     ],
     "exclusions": [
         {
             "condition": "Floor covering underlays (rubber, foam, felt, textile — used UNDER carpets)",
             "action": "Excluded from Ch.57 by Note 2. Carpet underlay of foam rubber → Ch.40. Underlay of non-woven textile → Ch.56. Underlay of felt → Ch.56 (56.02). The underlay is not the exposed surface when in use",
-            "keywords": ["carpet underlay", "carpet pad foam", "carpet backing underlay", "rug underlay", "40.", "56."]
+            "keywords": [
+                "carpet underlay",
+                "carpet pad foam",
+                "carpet backing underlay",
+                "rug underlay",
+                "40.",
+                "56."
+            ]
         },
         {
             "condition": "Tufted textile fabrics NOT for use as floor coverings (tufted towelling, tufted dress fabrics, tufted furnishing fabrics)",
             "action": "Redirect to heading 58.02 (terry/tufted textile fabrics for non-floor uses) — when tufted fabric does not serve as floor covering. Tufted bathrobes → Ch.61/62. Tufted bathroom rug → Ch.57. The 'floor covering' intended use is key",
-            "keywords": ["tufted towelling", "tufted dress fabric", "tufted furnishing not floor", "58.02"]
+            "keywords": [
+                "tufted towelling",
+                "tufted dress fabric",
+                "tufted furnishing not floor",
+                "58.02"
+            ]
         },
         {
             "condition": "Textile floor coverings presented as art works or collectors' pieces",
             "action": "Redirect to Chapter 97 (works of art, collectors' pieces, antiques) — antique carpets >100 years or authentic collectors' carpets → 97.06. Modern carpets regardless of value → Ch.57",
-            "keywords": ["antique carpet 100 years", "collectors carpet antique", "97.06"]
+            "keywords": [
+                "antique carpet 100 years",
+                "collectors carpet antique",
+                "97.06"
+            ]
         }
     ],
     "classification_rules": [

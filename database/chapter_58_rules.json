@@ -3,38 +3,92 @@
     "chapter_title": "Special woven fabrics; tufted textile fabrics; lace; tapestries; trimmings; embroidery",
     "scope_note": "Note 1: Ch.58 does NOT apply to Ch.59 fabrics (impregnated/coated/laminated — even those with Ch.58 base fabrics). Note 7: Ch.58 includes articles of metal thread of a kind used in apparel/furnishing (in addition to heading 58.09 products).",
     "inclusions": [
-        "Heading 58.01 — Woven pile fabrics and chenille fabrics, other than fabrics of heading 58.02 or 58.06, including weft pile fabrics not yet cut (Note 2). Velvet, plush, corduroy",
-        "Heading 58.02 — Terry towelling and similar woven terry fabrics, other than narrow woven fabrics of heading 58.06; tufted textile fabrics, other than products of heading 57.03",
-        "Heading 58.03 — Gauze, other than narrow fabrics of heading 58.06. Note 3: 'gauze' = fabric with warp of standing/ground threads AND crossing/doup threads making half or full turns to form loops through which weft passes",
-        "Heading 58.04 — Tulles and other net fabrics, not including woven, knitted or crocheted fabrics; lace in the piece, in strips or in motifs, other than fabrics of headings 60.02 to 60.06. Note 4: 58.04 does NOT cover knotted net fabrics of twine/cordage/rope (→ 56.08)",
-        "Heading 58.05 — Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up",
-        "Heading 58.06 — Narrow woven fabrics, other than goods of heading 58.07. Note 5: 'narrow woven fabrics' = (a) woven fabrics ≤30 cm width with selvedges on both edges (woven-as-such or cut from wider pieces); (b) tubular woven fabrics with flattened width ≤30 cm; (c) bias binding with folded edges, unfolded width ≤30 cm. Narrow fabrics WITH woven fringes → heading 58.08",
-        "Heading 58.07 — Labels, badges and similar articles of textile material, in the piece, in strips or cut to shape or size, not embroidered",
-        "Heading 58.08 — Braids in the piece; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted; tassels, pompons and similar articles. Also includes narrow woven fabrics with woven fringes (per Note 5 last paragraph)",
-        "Heading 58.09 — Woven fabrics of metal thread and woven fabrics of metallised yarn of heading 56.05, of a kind used in apparel, as furnishing fabrics or for similar purposes, not elsewhere specified or included",
-        "Heading 58.10 — Embroidery in the piece, in strips or in motifs. Note 6: 'embroidery' includes embroidery with metal/glass thread on visible textile ground; and sewn appliqué work of sequins, beads or ornamental motifs of textile or other materials. Excludes needlework tapestry (→ 58.05)",
-        "Heading 58.11 — Quilted textile products in the piece, composed of one or more layers of textile materials assembled with padding by stitching or otherwise, other than embroidery of heading 58.10"
+        {
+            "heading": "58.01",
+            "description": "Woven pile fabrics and chenille fabrics, other than fabrics of heading 58.02 or 58.06, including weft pile fabrics not yet cut (Note 2). Velvet, plush, corduroy"
+        },
+        {
+            "heading": "58.02",
+            "description": "Terry towelling and similar woven terry fabrics, other than narrow woven fabrics of heading 58.06; tufted textile fabrics, other than products of heading 57.03"
+        },
+        {
+            "heading": "58.03",
+            "description": "Gauze, other than narrow fabrics of heading 58.06. Note 3: 'gauze' = fabric with warp of standing/ground threads AND crossing/doup threads making half or full turns to form loops through which weft passes"
+        },
+        {
+            "heading": "58.04",
+            "description": "Tulles and other net fabrics, not including woven, knitted or crocheted fabrics; lace in the piece, in strips or in motifs, other than fabrics of headings 60.02 to 60.06. Note 4: 58.04 does NOT cover knotted net fabrics of twine/cordage/rope (→ 56.08)"
+        },
+        {
+            "heading": "58.05",
+            "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up"
+        },
+        {
+            "heading": "58.06",
+            "description": "Narrow woven fabrics, other than goods of heading 58.07. Note 5: 'narrow woven fabrics' = (a) woven fabrics ≤30 cm width with selvedges on both edges (woven-as-such or cut from wider pieces); (b) tubular woven fabrics with flattened width ≤30 cm; (c) bias binding with folded edges, unfolded width ≤30 cm. Narrow fabrics WITH woven fringes → heading 58.08"
+        },
+        {
+            "heading": "58.07",
+            "description": "Labels, badges and similar articles of textile material, in the piece, in strips or cut to shape or size, not embroidered"
+        },
+        {
+            "heading": "58.08",
+            "description": "Braids in the piece; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted; tassels, pompons and similar articles. Also includes narrow woven fabrics with woven fringes (per Note 5 last paragraph)"
+        },
+        {
+            "heading": "58.09",
+            "description": "Woven fabrics of metal thread and woven fabrics of metallised yarn of heading 56.05, of a kind used in apparel, as furnishing fabrics or for similar purposes, not elsewhere specified or included"
+        },
+        {
+            "heading": "58.10",
+            "description": "Embroidery in the piece, in strips or in motifs. Note 6: 'embroidery' includes embroidery with metal/glass thread on visible textile ground; and sewn appliqué work of sequins, beads or ornamental motifs of textile or other materials. Excludes needlework tapestry (→ 58.05)"
+        },
+        {
+            "heading": "58.11",
+            "description": "Quilted textile products in the piece, composed of one or more layers of textile materials assembled with padding by stitching or otherwise, other than embroidery of heading 58.10"
+        }
     ],
     "exclusions": [
         {
             "condition": "Ch.58 fabrics that are impregnated, coated, covered or laminated (other than heading 58.11 items referenced in Ch.59 Notes)",
             "action": "Redirect to Chapter 59 — Note 1. A pile fabric coated with plastics → 59.03 (excepting Ch.60 Note 1(c) for knitted pile). Gauze impregnated → 59.07. The coating moves the fabric from Ch.58 to Ch.59",
-            "keywords": ["coated lace", "impregnated gauze", "laminated pile fabric", "coated tapestry", "59."]
+            "keywords": [
+                "coated lace",
+                "impregnated gauze",
+                "laminated pile fabric",
+                "coated tapestry",
+                "59."
+            ]
         },
         {
             "condition": "Knotted net fabrics of twine, cordage or rope",
             "action": "Redirect to heading 56.08 (knotted netting) — Note 4. Fishing nets, cargo nets made by knotting → 56.08. Tulle and net fabrics produced by twisting threads without knotting → 58.04",
-            "keywords": ["knotted net", "fishing net knotted", "cargo net twine", "56.08"]
+            "keywords": [
+                "knotted net",
+                "fishing net knotted",
+                "cargo net twine",
+                "56.08"
+            ]
         },
         {
             "condition": "Needlework tapestry (petit point, cross stitch) classified as embroidery",
             "action": "Redirect to heading 58.05 — Note 6. Needlework tapestries that could be described as embroidery → always 58.05. Hand-woven tapestries (Gobelins, Aubusson, Flanders type) → 58.05",
-            "keywords": ["needlework tapestry", "petit point", "cross stitch tapestry", "gobelin tapestry", "58.05"]
+            "keywords": [
+                "needlework tapestry",
+                "petit point",
+                "cross stitch tapestry",
+                "gobelin tapestry",
+                "58.05"
+            ]
         },
         {
             "condition": "Tufted textile fabrics of a kind used as floor coverings (carpet-type tufted)",
             "action": "Redirect to heading 57.03 (tufted textile floor coverings) — Note 58.02 scope excludes 57.03 products. Tufted carpeting → 57.03. Tufted terry towelling → 58.02",
-            "keywords": ["tufted carpet", "tufted floor covering", "57.03"]
+            "keywords": [
+                "tufted carpet",
+                "tufted floor covering",
+                "57.03"
+            ]
         }
     ],
     "classification_rules": [
