@@ -54,15 +54,29 @@ class JudgeAgent:
         print(f"\n--- BẮT ĐẦU JUDGE AGENT (Reranking) ---")
         print(f"Đánh giá {len(candidate_pool)} ứng viên...")
         
-        # Build prompt payload
+        # Build prompt payload (Token Compressed by Grouping By Chapter)
+        chapters_map = {}
+        for cand in candidate_pool:
+            ch_id = cand.get('hs_code', '')[:2]
+            if not ch_id:
+                continue
+                
+            if ch_id not in chapters_map:
+                chapters_map[ch_id] = {
+                    "legal_notes": cand.get('legal_notes', '') or 'Không có ràng buộc đặc biệt.',
+                    "candidates": []
+                }
+            chapters_map[ch_id]["candidates"].append(cand)
+            
         pool_text = ""
-        for i, cand in enumerate(candidate_pool, 1):
-            pool_text += f"\n[CANDIDATE {i}] HS Code: {cand.get('hs_code')}\n"
-            pool_text += f"Tên nhóm: {cand.get('description')}\n"
-            if cand.get('legal_notes'):
-                pool_text += f"Legal Notes:\n{cand.get('legal_notes')}\n"
-            else:
-                pool_text += "Legal Notes: Không có ràng buộc đặc biệt.\n"
+        cand_idx = 1
+        for ch_id, ch_data in chapters_map.items():
+            pool_text += f"\n=== CHƯƠNG {ch_id} ===\n"
+            pool_text += f"[Legal Notes chung của Chương {ch_id}]:\n{ch_data['legal_notes']}\n"
+            pool_text += f"[Ứng viên thuộc Chương {ch_id}]:\n"
+            for cand in ch_data["candidates"]:
+                pool_text += f" - [CANDIDATE {cand_idx}] HS Code: {cand.get('hs_code')} | Tên nhóm: {cand.get('description')}\n"
+                cand_idx += 1
                 
         user_prompt = f"[TARGET ITEM]\n{item_description}\n"
         if extracted_features:
