@@ -336,6 +336,38 @@ pytest tests/ -v
 
 ---
 
+## 🧠 Gap Analysis: System vs. Logistics Expert Reasoning
+
+Hệ thống hiện tại là một **pattern-matching engine với legal notes** — mạnh với các hàng "clear-cut" nhưng còn khoảng cách đáng kể so với tư duy của chuyên gia hải quan.
+
+### Cách chuyên gia logistics tư duy (3 tầng bắt buộc)
+
+1. **Xác định danh tính vật lý** trước: Chất liệu, trạng thái gia công, mục đích sử dụng
+2. **Áp dụng GIR Decision Tree tuần tự** (GIR 1 → 2 → 3 → 4, không được nhảy cấp)
+3. **Falsification check**: *"Có Note nào loại trừ mã này không?"* — chủ động tìm lý do bác bỏ, không chỉ tìm lý do chọn
+
+### Bảng so sánh
+
+| Chiều tư duy | Chuyên gia logistics | Hệ thống hiện tại |
+|---|---|---|
+| **Điểm xuất phát** | Bản chất vật lý hàng hóa | Từ khóa & vector similarity |
+| **Áp dụng GIR** | Tuần tự bắt buộc GIR 1→2→3→4 | Prompt hint, không enforce cứng |
+| **Thứ bậc Notes** | Section Note > Chapter Note > Heading Note | LLM tự cân bằng |
+| **Hàng hỗn hợp** | GIR 3(b): xác định "essential character" | Không có framework định lượng |
+| **Hàng chưa lắp ráp** | GIR 2(a): vẫn phân loại theo hàng hoàn chỉnh | Không xử lý được |
+| **Ngữ cảnh hồ sơ** | Dùng invoice, C/O, specs để phân loại | Chỉ dựa vào tên mặt hàng |
+| **Confidence** | Biết rõ khi cần thêm chứng từ | Tự ra quyết định dù thiếu info |
+| **Sub-heading notes** | Áp dụng lại GIR trong phạm vi heading | Nhảy thẳng xuống 8 số |
+
+### Các Gap lớn nhất cần cải tiến về sau
+
+1. **GIR 2(a) & GIR 3(b):** Chưa xử lý hàng chưa hoàn chỉnh, hàng hỗn hợp/combo
+2. **Context-Aware:** Cần bổ sung intake form (loại giao dịch, nước xuất xứ, C/O)
+3. **Deductive Falsification:** Sau khi chọn mã, tự hỏi "Có Note nào loại trừ không?" theo checklist (không phải chỉ semantic search)
+4. **Sub-heading Notes:** Index và enforce legal notes riêng cho cấp sub-heading (6 số)
+
+---
+
 ## 📄 License
 
 Internal use — Vietnamese Customs HS Code Classification System.
