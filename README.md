@@ -157,8 +157,8 @@ hscodever3/
 | Asset | Count | Details |
 |-------|-------|---------|
 | **Rules JSON** | **97 / 97 chapters** | All chapters complete |
-| **Tree JSON** | **31 mono + 7 sub-trees** | Ch. 1–27, Ch. 36, Ch. 42, Ch. 43; Ch. 28 (6 sub-trees) |
-| **ChromaDB size** | **~72 MB** | 3,473 node embeddings + 2,668 rule chunk embeddings |
+| **Tree JSON** | **40 mono + 19 sub-trees** | Ch. 1–27, Ch. 30–38, Ch. 41–43, Ch. 97; Ch. 28 (6 sub-trees), Ch. 29 (13 sub-trees) |
+| **ChromaDB size** | **~153 MB** | 100% embeddings coverage for available rule JSONs |
 | **Total inclusions** | **1,209** | Heading-level scope definitions (structured JSON format: `{"heading": "XX.XX", "description": "..."}`) |
 | **Total exclusions** | **584** | All with keyword triggers for Gate A filter |
 | **Total classification rules** | **595** | Avg **6.1 rules/chapter**, indexed into ChromaDB |
@@ -174,7 +174,7 @@ hscodever3/
 | **Section III** | 15 | Animal or vegetable fats and oils | ✅ Complete | ✅ Complete |
 | **Section IV** | 16–24 | Prepared foodstuffs | ✅ Complete | ✅ Complete |
 | **Section V** | 25–27 | Mineral products | ✅ Complete | ✅ Complete |
-| **Section VI** | 28–38 | Chemical products | ✅ Complete | ⚠️ Ch.28 only (sub-trees) |
+| **Section VI** | 28–38 | Chemical products | ✅ Complete | ✅ Complete (with sub-trees) |
 | **Section VII** | 39–40 | Plastics & Rubber | ✅ Complete | ❌ Pending |
 | **Section VIII** | 41–43 | Hides, leather, furs | ✅ Complete | ✅ Complete |
 | **Section IX** | 44–46 | Wood, cork, straw | ✅ Complete | ❌ Pending |
@@ -189,7 +189,7 @@ hscodever3/
 | **Section XVIII** | 90–92 | Instruments, clocks | ✅ Complete | ❌ Pending |
 | **Section XIX** | 93 | Arms & ammunition | ✅ Complete | ❌ Pending |
 | **Section XX** | 94–96 | Miscellaneous manufactured | ✅ Complete | ❌ Pending |
-| **Section XXI** | 97 | Works of art | ✅ Complete | ❌ Pending |
+| **Section XXI** | 97 | Works of art | ✅ Complete | ✅ Complete |
 
 > **Note:** Chapters without Tree JSON are handled by the LLM reasoning path (Slow Path) using ChromaDB embeddings + `hsdata.csv`.
 
@@ -338,7 +338,7 @@ pytest tests/ -v
 
 ## 🧠 Gap Analysis: System vs. Logistics Expert Reasoning
 
-Hệ thống hiện tại là một **pattern-matching engine với legal notes** — mạnh với các hàng "clear-cut" nhưng còn khoảng cách đáng kể so với tư duy của chuyên gia hải quan.
+Hệ thống hiện tại là một **pattern-matching engine với legal notes** — mạnh với các hàng "clear-cut" nhưng còn khoảng cách đáng kể so với tư duy của chuyên gia hải quan. Khoảng cách này được thể hiện rõ ràng trong phần thiết kế CSDL (JSON schema hiện tại ưu tiên Deterministic Filtering trên Slow-path reasoning).
 
 ### Cách chuyên gia logistics tư duy (3 tầng bắt buộc)
 
@@ -359,15 +359,17 @@ Hệ thống hiện tại là một **pattern-matching engine với legal notes*
 | **Confidence** | Biết rõ khi cần thêm chứng từ | Tự ra quyết định dù thiếu info |
 | **Sub-heading notes** | Áp dụng lại GIR trong phạm vi heading | Nhảy thẳng xuống 8 số |
 
-### Các Gap lớn nhất cần cải tiến về sau
+### Các Gap lớn nhất cần cải tiến kiến trúc Schema phía sau
 
-1. **GIR 2(a) & GIR 3(b):** Chưa xử lý hàng chưa hoàn chỉnh, hàng hỗn hợp/combo
-2. **Context-Aware:** Cần bổ sung intake form (loại giao dịch, nước xuất xứ, C/O)
-3. **Deductive Falsification:** Sau khi chọn mã, tự hỏi "Có Note nào loại trừ không?" theo checklist (không phải chỉ semantic search)
-4. **Sub-heading Notes:** Index và enforce legal notes riêng cho cấp sub-heading (6 số)
+1. **Sub-heading Notes Schema:** Trong `chapter_X_rules.json`, hầu hết các rules vẫn tập trung phân tích Note cấp độ Heading (4 số). Cần bổ sung một trường `"subheading_notes"` biệt lập trong cấu trúc Data Schema để buộc LLM áp dụng chặt chẽ GIR 6.
+2. **Logic Hàng hỗn hợp / Chưa hoàn chỉnh (GIR 2(a) & GIR 3(b)):** Có thể cần bổ sung cấu trúc phân rã `materials_composition` bên trong `inclusions`/`rules` để dẫn đường LLM suy luận "Essential Character".
+3. **Vietnamese Rules Translation:** Hiện nay, các rules vẫn bằng tiếng Anh (dù `hsdata_searchable.json` có `description_vn`). Để giảm lỗi suy luận và hướng tới Local Vietnamese LLM Agent, cần thiết kế cấu trúc đa ngữ `"rule_en"`, `"rule_vn"`.
+4. **Context-Aware Forms:** Cần có hệ thống hỏi đáp ban đầu qua form (loại giao dịch, xuất xứ, C/O...) thay vì chỉ phụ thuộc vào chuỗi truy vấn text.
+5. **Deductive Falsification Enforced:** Đưa thêm trường `"falsification_checklist"` bắt buộc sau khi LLM duyệt qua mã để tự hỏi "Có Note nào loại trừ không?".
 
 ---
 
 ## 📄 License
 
 Internal use — Vietnamese Customs HS Code Classification System.
+
