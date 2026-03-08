@@ -151,7 +151,7 @@ hscodever3/
 | Asset | Count | Details |
 |-------|-------|---------|
 | **Rules JSON** | **97 / 97 chapters** | All chapters complete |
-| **Tree JSON** | **30 mono + 7 sub-trees** | Ch. 1–27, Ch. 36, Ch. 42; Ch. 28 (6 sub-trees) |
+| **Tree JSON** | **31 mono + 7 sub-trees** | Ch. 1–27, Ch. 36, Ch. 42, Ch. 43; Ch. 28 (6 sub-trees) |
 | **ChromaDB size** | **~72 MB** | 3,473 node embeddings + 2,668 rule chunk embeddings |
 | **Total inclusions** | **1,209** | Heading-level scope definitions (structured JSON format: `{"heading": "XX.XX", "description": "..."}`) |
 | **Total exclusions** | **584** | All with keyword triggers for Gate A filter |
@@ -170,7 +170,7 @@ hscodever3/
 | **Section V** | 25–27 | Mineral products | ✅ Complete | ✅ Complete |
 | **Section VI** | 28–38 | Chemical products | ✅ Complete | ⚠️ Ch.28 only (sub-trees) |
 | **Section VII** | 39–40 | Plastics & Rubber | ✅ Complete | ❌ Pending |
-| **Section VIII** | 41–43 | Hides, leather, furs | ✅ Complete | ⚠️ Ch.41–42 done |
+| **Section VIII** | 41–43 | Hides, leather, furs | ✅ Complete | ✅ Complete |
 | **Section IX** | 44–46 | Wood, cork, straw | ✅ Complete | ❌ Pending |
 | **Section X** | 47–49 | Pulp, paper, books | ✅ Complete | ❌ Pending |
 | **Section XI** | 50–63 | Textiles | ✅ Complete | ❌ Pending |

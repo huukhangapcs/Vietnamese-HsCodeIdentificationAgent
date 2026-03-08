@@ -1,0 +1,170 @@
+[
+  {
+    "level": 0,
+    "hs_code": "4301",
+    "description_en": "Raw furskins (including heads, tails, paws and other pieces or cuttings, suitable for furriers' use), other than raw hides and skins of heading 41.01, 41.02 or 41.03",
+    "description_vn": "Da lông sống (kể cả đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt khác, thích hợp cho việc thuộc da lông), trừ da sống trong nhóm 41.01, 41.02 hoặc 41.03",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "43011000",
+        "description_en": "- Of mink, whole, with or without head, tail or paws",
+        "description_vn": "- Của loài chồn vizôn, da nguyên con, có hoặc không có đầu, đuôi hoặc bàn chân",
+        "children": []
+      },
+      {
+        "level": 1,
+        "hs_code": "43013000",
+        "description_en": "- Of lamb, the following: Astrakhan, Broadtail, Caracul, Persian and similar lamb, Indian, Chinese, Mongolian or Tibetan lamb, whole, with or without head, tail or paws",
+        "description_vn": "- Của các giống cừu như: Astrakhan, Broadtail, Caracul, Ba Tư và các giống cừu tương tự, cừu Ấn Độ, Trung Quốc, Mông Cổ hoặc Tây Tạng, da nguyên con, có hoặc không có đầu, đuôi hoặc bàn chân",
+        "children": []
+      },
+      {
+        "level": 1,
+        "hs_code": "43016000",
+        "description_en": "- Of fox, whole, with or without head, tail or paws",
+        "description_vn": "- Của loài cáo, da nguyên con, có hoặc không có đầu, đuôi hoặc bàn chân",
+        "children": []
+      },
+      {
+        "level": 1,
+        "hs_code": "43018000",
+        "description_en": "- Other furskins, whole, with or without head, tail or paws",
+        "description_vn": "- Của loài động vật khác, da nguyên con, có hoặc không có đầu, đuôi hoặc bàn chân",
+        "children": []
+      },
+      {
+        "level": 1,
+        "hs_code": "43019000",
+        "description_en": "- Heads, tails, paws and other pieces or cuttings, suitable for furriers' use",
+        "description_vn": "- Đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt khác, thích hợp cho việc thuộc da lông",
+        "children": []
+      }
+    ]
+  },
+  {
+    "level": 0,
+    "hs_code": "4302",
+    "description_en": "Tanned or dressed furskins (including heads, tails, paws and other pieces or cuttings), unassembled, or assembled (without the addition of other materials) other than those of heading 43.03",
+    "description_vn": "Da lông đã thuộc hoặc chuội (kể cả đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt khác), đã hoặc chưa ghép nối (không có thêm các vật liệu phụ trợ khác) trừ loại thuộc nhóm 43.03",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "",
+        "description_en": "- Whole skins, with or without head, tail or paws, not assembled:",
+        "description_vn": "- Loại da nguyên con, có hoặc không có đầu, đuôi hoặc bàn chân, chưa ghép nối:",
+        "children": [
+          {
+             "level": 2,
+             "hs_code": "43021100",
+             "description_en": "- - Of mink",
+             "description_vn": "- - Của loài chồn vizôn",
+             "children": []
+          },
+          {
+             "level": 2,
+             "hs_code": "43021900",
+             "description_en": "- - Other",
+             "description_vn": "- - Loại khác",
+             "children": []
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "hs_code": "43022000",
+        "description_en": "- Heads, tails, paws and other pieces or cuttings, not assembled",
+        "description_vn": "- Đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt, chưa ghép nối",
+        "children": []
+      },
+      {
+        "level": 1,
+        "hs_code": "43023000",
+        "description_en": "- Whole skins and pieces or cuttings thereof, assembled",
+        "description_vn": "- Loại da nguyên con và các mẩu hoặc các mảnh cắt của chúng, đã ghép nối",
+        "children": []
+      }
+    ]
+  },
+  {
+    "level": 0,
+    "hs_code": "4303",
+    "description_en": "Articles of apparel, clothing accessories and other articles of furskin",
+    "description_vn": "Hàng may mặc, đồ phụ trợ quần áo và các vật phẩm khác bằng da lông",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "43031000",
+        "description_en": "- Articles of apparel and clothing accessories",
+        "description_vn": "- Hàng may mặc và đồ phụ trợ quần áo",
+        "children": []
+      },
+      {
+        "level": 1,
+        "hs_code": "430390",
+        "description_en": "- Other:",
+        "description_vn": "- Loại khác:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "43039020",
+            "description_en": "- - Articles for industrial uses",
+            "description_vn": "- - Sản phẩm dùng cho mục đích công nghiệp",
+            "children": []
+          },
+          {
+            "level": 2,
+            "hs_code": "43039090",
+            "description_en": "- - Other",
+            "description_vn": "- - Loại khác",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 0,
+    "hs_code": "4304",
+    "description_en": "Artificial fur and articles thereof.",
+    "description_vn": "Da lông nhân tạo và các sản phẩm làm bằng da lông nhân tạo",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "43040010",
+        "description_en": "- Artificial fur",
+        "description_vn": "- Da lông nhân tạo",
+        "children": []
+      },
+      {
+        "level": 1,
+        "hs_code": "43040020",
+        "description_en": "- Articles for industrial uses",
+        "description_vn": "- Sản phẩm dùng cho mục đích công nghiệp",
+        "children": []
+      },
+      {
+        "level": 1,
+        "hs_code": "",
+        "description_en": "- Other:",
+        "description_vn": "- Loại khác:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "43040091",
+            "description_en": "- - Sports bags",
+            "description_vn": "- - Túi thể thao",
+            "children": []
+          },
+          {
+            "level": 2,
+            "hs_code": "43040099",
+            "description_en": "- - Other",
+            "description_vn": "- - Loại khác",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]
