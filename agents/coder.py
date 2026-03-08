@@ -8,7 +8,7 @@ sys.path.append(BASE_DIR)
 
 from core.llm_provider import get_llm_client
 from core.schemas import CODER_TOOLS
-from tools.knowledge_tools import navigate_node, get_section_notes, get_chapter_rules, get_general_rules, search_hs_nodes, query_legal_notes
+from tools.knowledge_tools import get_section_notes, get_chapter_rules, get_general_rules, search_hs_nodes, query_legal_notes
 
 class HSCoderAgent:
     def __init__(self):
@@ -17,10 +17,7 @@ class HSCoderAgent:
         self.tools = CODER_TOOLS
         
     def execute_tool(self, function_name, arguments):
-        if function_name == "navigate_node":
-            node_id = arguments.get("node_id")
-            return json.dumps(navigate_node(node_id), ensure_ascii=False)
-        elif function_name == "get_section_notes":
+        if function_name == "get_section_notes":
             section_id = arguments.get("section_id")
             return json.dumps(get_section_notes(section_id), ensure_ascii=False)
         elif function_name == "get_chapter_rules":
@@ -47,36 +44,39 @@ class HSCoderAgent:
         else:
             return f"Error: function {function_name} not found."
 
-    def classify_item(self, item_description: str, starting_node_id: str, max_steps: int = 5, current_feedback: str = "", stream_callback=None, input_callback=None) -> dict:
+    def classify_item(self, item_description: str, starting_node_ids: list, max_steps: int = 5, current_feedback: str = "", stream_callback=None, input_callback=None) -> dict:
         """
-        Runs the ReAct loop to classify the item, starting straight from a localized node.
+        Runs the ReAct loop to classify the item, starting straight from localized nodes.
         """
+        # Đảm bảo starting_node_ids là list
+        if isinstance(starting_node_ids, str):
+            starting_node_ids = [starting_node_ids]
+            
+        candidate_chapters_str = ", ".join(starting_node_ids)
+        primary_chap = starting_node_ids[0] if starting_node_ids else "01"
+
         system_prompt = f"""You are the 'Coder Agent' for Customs HS Code Classification.
 Your job is to determine the correct HS Code (up to 4, 6 or 8 digits) for a given item.
 
-[GENERAL INTERPRETATIVE RULE 1 (GIR 1) - THE SUPREME RULE]
-The titles of Sections, Chapters and sub-Chapters are provided for ease of reference only.
-For legal purposes, classification shall be determined exclusively according to the terms of the headings and any relative Section or Chapter Notes.
-If the Legal Notes state that an item belongs to another chapter (e.g., 9508 instead of 0106), you MUST obey the Note over the Chapter Name.
-[EXPERT REASONING FRAMEWORK - THE 3 GOLDEN QUESTIONS]
-Before making any tool calls, you MUST explicitly analyze the item description by answering these 3 questions in your thought process (do not skip this step):
-1. Material (Chất liệu chính là gì?): Determines the Chapter (e.g., Plastic -> 39, Wood -> 44).
-2. Function/Purpose (Công dụng chính để làm gì?): Determines the Heading (e.g., Plastic used for Seating -> 9401 instead of 3926).
-3. Specific Characteristics (Đặc tính riêng biệt?): Determines the Subheading (e.g., Swivel chair -> 9401.30 vs Wooden chair -> 9401.61).
-Focus on the essence of the good, NEVER be overly influenced by marketing names. If the user's description is missing crucial info that is ACTUALLY RELEVANT to classify this specific object, use the `ask_user_clarification` tool. 
-⚠️ EXCEPTION TO MATERIAL QUESTION: Do NOT ask the user for "Material" if the item is obviously a Live Animal, Plant, Food, Chemical, or a highly Complex Machine/Vehicle where the physical "material composition" (like plastic/metal) is completely irrelevant to the HS Code.
-[CRITICAL INSTRUCTIONS (Based on GIRs - 6 Quy tắc vàng)]
-1. GIR 1 (LUÔN ÁP DỤNG TRƯỚC TIÊN): Phân loại phải dựa vào nội dung Nhóm hàng và Chú giải (Section/Chapter Notes). Tên chương, phần chỉ để tham khảo.
-   IMMEDIATELY call query_legal_notes(query, "TBD", "{str(starting_node_id)[:2]}") to check EXCLUSIONS. You MUST ensure your item is not legally excluded from the current Chapter.
-2. GIR 2a, 3a, 4, 5: Call get_general_rules if dealing with unassembled, mixture, or packaging goods.
-3. VECTOR SEARCH NAVIGATION: DO NOT GUESS HS CODES. You MUST call search_hs_nodes(query, chapter_id) using a highly descriptive semantic query (e.g. 'smartwatch bluetooth electronic') to retrieve the top 5 relevant subheadings from the database. 
-4. CHAPTER JUMPING: If the vector search returns highly relevant Results with distances < 1.0 that belong to a DIFFERENT Chapter, and they fit your Material/Function analysis better, you ARE AUTHORIZED to switch your focus to that new Chapter.
-5. If stuck between distinct valid options to move forward and lacking info, CALL ask_user_clarification(question).
-6. ANTI-LOOP MECHANISM: If you have called `search_hs_nodes` 2 or 3 times and still cannot find a perfectly matching HS code, DO NOT keep searching. STOP searching immediately. Use your best expert judgment based on the context you have gathered to determine the most likely 4, 6, or 8-digit HS code and return your final answer.
+[Top 3 Candidate Chapters from Router]: {candidate_chapters_str}
+(These are your starting points, but you have the freedom to explore globally if they do not fit the Material or Function perfectly.)
 
-Once you reach a leaf node, hit an explicit Exclusion Rule, or exhaust your 3 search attempts, return your final answer in JSON format:
+[EXPERT REASONING FRAMEWORK - THE 3 GOLDEN QUESTIONS]
+Before making any tool calls, you MUST explicitly analyze the item description:
+1. Material (Chất liệu chính là gì?): Determines the Chapter.
+2. Function/Purpose (Công dụng chính để làm gì?): Determines the Heading.
+3. Specific Characteristics (Đặc tính riêng biệt?): Determines the Subheading.
+
+[CRITICAL INSTRUCTIONS (Based on GIRs - 6 Quy tắc vàng)]
+1. GIR 1: Phân loại phải dựa vào nội dung Nhóm hàng và Chú giải (Section/Chapter Notes).
+   IMMEDIATELY call query_legal_notes(query, "TBD", "{primary_chap}") to check EXCLUSIONS.
+2. MULTI-PATH & GLOBAL SEARCH: DO NOT GUESS HS CODES. You should call search_hs_nodes(query, chapter_id=None) for GLOBAL SEARCH using a highly descriptive semantic query. If you suspect a specific candidate chapter, pass its chapter_id.
+3. CHAPTER/PATH JUMPING: If the results in one candidate chapter hit an Exclusion Note or do not fit, switch to the next candidate chapter immediately.
+4. If stuck between distinct valid options and lacking info, CALL ask_user_clarification(question).
+5. ANTI-LOOP MECHANISM (CRITICAL): If you have called tools 3 times without finding a matching heading/subheading, STOP SEARCHING IMMEDIATELY. Make a best-effort prediction using available info, or return "UNKNOWN"/ask_user_clarification. DO NOT retry the exact same query twice.
+
+Return your final answer in JSON format:
 {{"hs_code": "01012100", "reasoning": "Detailed explanation citing the specific heading texts and any Legal Notes applied..."}}
-Do not return any other markdown outside the JSON block.
 """
         
         messages = [
@@ -195,7 +195,7 @@ Do not return any other markdown outside the JSON block.
                 # Thay vì xóa cứng các message cũ (dễ làm Agent "mất trí nhớ"),
                 # ta tóm tắt lại các bước đã đi thành 1 context message gọn.
                 # ---------------------------------------------------------
-                HISTORY_THRESHOLD = 10  # Tăng lên 10 để cho Agent nhiều context hơn
+                HISTORY_THRESHOLD = 3  # Giảm xuống 3 để tránh bùng nổ Token
                 if len(messages) > HISTORY_THRESHOLD:
                     # Thu thập tất cả các tool calls + results cũ (trừ system + user prompt gốc)
                     old_pairs = messages[2:]  # Bỏ qua index 0 (system) và 1 (user prompt)
@@ -221,7 +221,7 @@ Do not return any other markdown outside the JSON block.
                             summary_lines.append(f"  → Result: {content_preview}")
 
                     if summary_lines:
-                        summary_text = "CONTEXT MEMORY (Các bước đã thực hiện):\n" + "\n".join(summary_lines[-20:])  # Max 20 dòng
+                        summary_text = "CONTEXT MEMORY (Các bước đã thực hiện):\n" + "\n".join(summary_lines[-10:])  # Max 10 dòng
                         # Reset messages: giữ system + user prompt gốc + summary
                         messages = [
                             messages[0],  # system

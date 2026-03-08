@@ -4,57 +4,60 @@ An **agentic AI system** for automatic HS (Harmonized System) Code classificatio
 
 ---
 
-## 📐 Architecture Overview
+## 📐 Architecture Overview (Pipeline V3: Hybrid Reranker)
 
 ```
 User Query (Vietnamese/English)
         │
         ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                        FastAPI Server (app.py)                   │
-│  SSE Streaming  │  Session Management  │  Rate Limiting + Auth   │
+│                        FastAPI Server (app.py)                  │
+│  SSE Streaming  │  Session Management  │  Rate Limiting + Auth  │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                              ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                      HSPipeline (core/pipeline.py)              │
-│                                                                  │
+│                                                                 │
 │  Step 0: ItemAnalyzer ──► Validate + Extract Features (1 LLM)   │
-│              │                                                   │
-│              ├─── Invalid ──► FAST REJECT                        │
-│              │                                                   │
-│              ▼                                                   │
-│  Step 0.5: CacheManager ──► Cache Hit? ──► Return Cached Result  │
-│              │                                                   │
-│              ▼                                                   │
-│  Step 0.8: Keyword Search (RapidFuzz) ─────────────────────────►│
+│              │                                                  │
+│              ├─── Invalid / Vague ──► FAST REJECT / CLARIFY     │
+│              │                                                  │
+│              ▼                                                  │
+│  Step 0.5: CacheManager ──► Cache Hit? ──► Return Cached Result │
+│              │                                                  │
+│              ▼                                                  │
+│  Step 0.8: Keyword Search (RapidFuzz) ────────────────────────► │
 │              │                            ┌─── Gate A (no LLM)  │
-│              │  Score ≥ 75/80?            │   Hardcoded rules    │
-│              │                            │   Chapter exclusions │
+│              │  Score ≥ 75/80?            │   Hardcoded rules   │
+│              │                            │   Chapter exclusions│
 │              ├── YES ──► Gate A ──PASS──► Gate B (QA Auditor)   │
-│              │              │              1 LLM + ChromaDB      │
-│              │           FAIL             │                      │
-│              │              │             ├── PASS ──► Return ✅  │
-│              │              ▼             └── FAIL ──► Slow Path │
-│              │         Slow Path                                  │
-│              └── NO ──► Slow Path                                │
-│                              │                                   │
+│              │              │              1 LLM + ChromaDB     │
+│              │           FAIL             │                     │
+│              │              │             ├── PASS ──► Return ✅ │
+│              │              ▼             └── FAIL ──► Phase 1  │
+│              │          Phase 1                                 │
+│              └── NO ──► Phase 1                                 │
+│                              │                                  │
 │  ┌───────────────────────────▼──────────────────────────────┐   │
-│  │                      SLOW PATH                            │   │
-│  │                                                           │   │
+│  │           PHASE 1: HYBRID CANDIDATE GENERATION           │   │
+│  │  Merge Top 5 RapidFuzz + Top 5 ChromaDB Vector matches   │   │
+│  │  Fetch specific Legal Notes for all Candidates in Pool   │   │
+│  └───────────────────────────┬──────────────────────────────┘   │
+│                              │                                  │
+│  ┌───────────────────────────▼──────────────────────────────┐   │
+│  │           PHASE 2: LLM JUDGE "ONE-SHOT" ELIMINATION      │   │
+│  │  1 LLM evaluates all candidates & Eliminates by Rule     │   │
+│  │        │── PASS ──► Gatekeeper & QA Auditor ──► Return ✅ │   │
+│  │        └── FAIL (All candidates rejected) ──► Phase 3    │   │
+│  └───────────────────────────┬──────────────────────────────┘   │
+│                              │                                  │
+│  ┌───────────────────────────▼──────────────────────────────┐   │
+│  │           PHASE 3: THE SLOW PATH FALLBACK (AGENTIC)      │   │
 │  │  Tier1Router: Section → Chapter (2 LLM + RAG ChromaDB)   │   │
-│  │        │                                                  │   │
-│  │        ▼                                                  │   │
-│  │  HSCoderAgent: Tree traversal + Human-in-the-Loop         │   │
-│  │        │         (up to 8 steps, clarification Q&A)       │   │
-│  │        ▼                                                  │   │
-│  │  HSGatekeeper (Linter): Hardcoded rule check              │   │
-│  │        │── FAIL ──► Revision (max 2) ──► back to Router   │   │
-│  │        ▼                                                  │   │
-│  │  QAAuditorAgent: Red-team verification (1 LLM + ChromaDB) │   │
-│  │        │── FAIL ──► Revision                              │   │
-│  │        └── PASS ──► Cache + Return ✅                     │   │
-│  └───────────────────────────────────────────────────────────┘   │
+│  │  HSCoderAgent: Recursive HS tree traversal + human Q&A   │   │
+│  │  HSGatekeeper & QAAuditorAgent: Final Verification       │   │
+│  └──────────────────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -75,9 +78,10 @@ hscodever3/
 │   └── security.py           # Rate limiting, input sanitization, prompt injection defense
 │
 ├── agents/
-│   ├── analyzer.py           # ItemAnalyzer — Step 0: validate + extract features (1 LLM call)
-│   ├── tier1_router.py       # Tier1Router — Section → Chapter routing (2 LLM + RAG)
-│   └── coder.py              # HSCoderAgent — recursive HS tree traversal + clarification loop
+│   ├── analyzer.py           # ItemAnalyzer — Step 0: validate + extract features
+│   ├── judge.py              # JudgeAgent — Phase 2: One-shot LLM elimination over Candidate Pool
+│   ├── tier1_router.py       # Tier1Router — Phase 3 Fallback Section → Chapter routing
+│   └── coder.py              # HSCoderAgent — Phase 3 Fallback recursive tree traversal
 │
 ├── linter/
 │   └── gatekeeper.py         # HSGatekeeper — deterministic hardcoded rule enforcement
@@ -116,20 +120,27 @@ hscodever3/
 
 | Step | Component | Description |
 |------|-----------|-------------|
-| 0 | `ItemAnalyzer` | Heuristic fast-fail → 1 LLM call: validate input + extract 4 features + generate search keywords |
+| 0 | `ItemAnalyzer` | Heuristic fast-fail → 1 LLM call: validate input, check vagueness, extract features + generate search keywords |
 | 0.5 | `CacheManager` | Redis/in-memory cache lookup. Cache hit → instant return |
-| 0.8 | Keyword Search | RapidFuzz fuzzy search on `hsdata_searchable.json`. Score ≥ 75 (2+ results) or ≥ 80 (1 result) → Fast Path |
+| 0.8 | Keyword Search | RapidFuzz fuzzy search on `hsdata_searchable.json`. Score ≥ 75/80 → Fast Path |
 | Gate A | `_fast_path_gate_a` | **0 LLM**: check hardcoded linter rules + JSON chapter exclusion keywords |
 | Gate B | `QAAuditorAgent` | **1 LLM + ChromaDB**: red-team audit of keyword match candidate |
 
-### 🧠 Slow Path (10–30s)
+### 🕵️‍♂️ V3 Hybrid Reranker Path (5–8s)
 
 | Step | Component | Description |
 |------|-----------|-------------|
-| 1 | `Tier1Router` | 2-step zero-shot routing: Top-3 Sections → RAG legal notes → final Section → Chapter |
-| 2 | `HSCoderAgent` | Recursive tree traversal from target Chapter. Up to 8 steps. Human-in-the-loop clarification via SSE |
-| 3 | `HSGatekeeper` | Deterministic linting. FAIL → revision loop (max 2 revisions) |
-| 4 | `QAAuditorAgent` | Final red-team LLM audit + ChromaDB. PASS → cache write + return |
+| Phase 1 | Candidate Gen | **0 LLM**: Merge Top 5 Keyword search results + Top 5 ChromaDB Vector matches into a candidate pool |
+| Phase 2 | `JudgeAgent` | **1 LLM**: Receives pool + fetched legal notes. "One-off" evaluation to eliminate bad matches by rules and select the single BEST HS code |
+| Validation | `HSGatekeeper` / `QAAuditorAgent` | Linter + Red-team audit of Judge's decision. PASS → Return ✅ |
+
+### 🧠 Slow Path Fallback (10–30s)
+
+| Step | Component | Description |
+|------|-----------|-------------|
+| Phase 3 | `Tier1Router` | Agent is activated ONLY IF Phase 2 Judge fails to find a valid code. Routes Section → Chapter |
+| | `HSCoderAgent` | Active Recursive tree traversal. Explores node by node. Human-in-the-loop clarification via SSE |
+| | `HSGatekeeper` / `QAAuditorAgent` | Final LLM audit + ChromaDB validation. FAIL → revision loop |
 
 ---
 

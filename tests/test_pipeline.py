@@ -163,6 +163,75 @@ class TestKnowledgeTools:
         assert title1 == title2
         assert len(knowledge_tools._titles_cache) == cached_count  # Không tăng thêm
 
+    def test_fast_search_db_schema_migration(self):
+        """Sau migration, tất cả records phải có chapter_id, is_leaf, aliases."""
+        from tools import knowledge_tools
+        knowledge_tools._fast_search_cache = None  # Reset cache
+        knowledge_tools._load_fast_search_cache()
+        cache = knowledge_tools._fast_search_cache
+        assert cache, "Cache chưa được load"
+        sample = cache[0]
+        assert "chapter_id" in sample, "Thiếu field chapter_id sau migration"
+        assert "is_leaf" in sample, "Thiếu field is_leaf sau migration"
+        assert "aliases" in sample, "Thiếu field aliases sau migration"
+
+    def test_fast_search_leaf_only_returns_8digit(self):
+        """leaf_only=True không trả về heading nodes (hs_code < 8 chữ số)."""
+        from tools.knowledge_tools import fast_keyword_search
+        results = fast_keyword_search(["live horse pure bred"], top_k=5, leaf_only=True)
+        for r in results:
+            digits = "".join(c for c in r["hs_code"] if c.isdigit())
+            assert len(digits) == 8, f"Non-leaf node returned: {r['hs_code']}"
+
+    def test_fast_search_chapter_filter(self):
+        """chapter_id filter chỉ trả kết quả trong chapter đƳ́ chỉ định."""
+        from tools.knowledge_tools import fast_keyword_search
+        results = fast_keyword_search(["bovine cattle beef"], top_k=5, chapter_id="02")
+        for r in results:
+            assert r["hs_code"].startswith("02"), f"Wrong chapter: {r['hs_code']}"
+
+    def test_pipeline_fast_path_hinting(self):
+        """Test cơ chế Fast Path Hinting chuyển giao mã 4/6 số cho CoderAgent."""
+        from core.pipeline import HSPipeline
+        from unittest.mock import patch
+        
+        pipeline = HSPipeline()
+        pipeline.cache_manager._json_cache.clear()  # Ensure cache is empty for this test
+        
+        # Mock extracted features to bypass LLM step 0
+        mock_features = {
+            "is_valid": True,
+            "search_keywords": ["office seat", "swivel chair"]
+        }
+        
+        with patch('tools.knowledge_tools.fast_keyword_search') as mock_fks:
+            # Mock Fast Path to return a high score 4-digit node
+            mock_fks.return_value = [{
+                "hs_code": "9401",
+                "description_en": "Seats (other than those of heading 94.02)",
+                "description_vn": "Ghế ngồi",
+                "score": 90,
+                "is_leaf": False
+            }]
+            
+            with patch.object(pipeline.coder, 'classify_item') as mock_coder:
+                mock_coder.return_value = {"hs_code": "94013000", "reasoning": "Mock final result"}
+                with patch.object(pipeline.judge, 'evaluate_candidates', return_value={"status": "FAIL"}):
+                    with patch.object(pipeline.gatekeeper, 'check', return_value=(True, "")):
+                        with patch.object(pipeline.auditor, 'audit', return_value={"status": "PASS"}):
+                            res = pipeline.classify("Ghế xoay văn phòng", extracted_features=mock_features)
+                            
+                            # Verify fast_keyword_search called with leaf_only=False
+                            mock_fks.assert_called_once()
+                            _, kwargs = mock_fks.call_args
+                            assert kwargs.get("leaf_only", True) is False
+                            
+                            # Verify Coder was called with starting_node_ids = ['9401']
+                            mock_coder.assert_called_once()
+                            args, _ = mock_coder.call_args
+                            assert args[1] == ["9401"]  # starting_node_ids
+                            assert res.get("status") == "SUCCESS"
+
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # INTEGRATION TESTS — Cần LLM API (đánh dấu để có thể skip)

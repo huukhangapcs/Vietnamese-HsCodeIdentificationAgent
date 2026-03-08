@@ -17,6 +17,10 @@ sys.path.append(BASE_DIR)
 
 from core.pipeline import HSPipeline
 from core.security import rate_limiter, start_rate_limiter_cleanup
+from tools.knowledge_tools import preload_vector_db
+
+# Nạp trước VectorDB vào RAM lúc khởi động để tránh Cold-start latency
+preload_vector_db()
 
 import uuid
 from pydantic import BaseModel, field_validator
@@ -136,21 +140,31 @@ async def stream_agent(q: str, session_id: str, request: Request):
     q_stream = queue.Queue()
     input_q = queue.Queue()
     
-    # Đăng ký session với timestamp để TTL cleanup có thể xóa nếu client disconnect
-    active_sessions[session_id] = {"queue": input_q, "created_at": time.time()}
+    # Đăng ký session với stop_event để có thể abort Thread nếu client disconnect
+    active_sessions[session_id] = {
+        "queue": input_q, 
+        "stop_event": threading.Event(), 
+        "created_at": time.time()
+    }
 
     def stream_callback(data):
+        if session_id in active_sessions and active_sessions[session_id]["stop_event"].is_set():
+            raise ChildProcessError("Client Disconnected. Task Cancelled.")
         q_stream.put(data)
         
     def input_callback():
+        if session_id in active_sessions and active_sessions[session_id]["stop_event"].is_set():
+            raise ChildProcessError("Client Disconnected. Task Cancelled.")
         # Block luồng (Thread) Agent lại, chờ người dùng gọi API /submit_answer
-        # Timeout 25 phút để không block mãi mãi nếu user bỏ đi
         return input_q.get(timeout=SESSION_TTL_SECONDS - 300)
 
     def run_pipeline():
         try:
             pipeline.classify(q, stream_callback=stream_callback, input_callback=input_callback)
             q_stream.put(None) # EOF
+        except ChildProcessError:
+            print(f"🛑 [app.py] Tiến trình LLM của session {session_id} đã bị dập do người dùng ngắt kết nối.")
+            q_stream.put(None)
         except Exception as e:
             q_stream.put({"type": "error", "message": str(e)})
             q_stream.put(None)
@@ -163,14 +177,26 @@ async def stream_agent(q: str, session_id: str, request: Request):
     threading.Thread(target=run_pipeline, daemon=True).start()
 
     async def event_generator():
-        while True:
-            # Non-blocking read queued objects using asyncio.to_thread
-            event = await asyncio.to_thread(q_stream.get)
-            if event is None:
-                break
+        try:
+            while True:
+                if await request.is_disconnected():
+                    print(f"📡 Client ngắt kết nối [{session_id}]. Đang kích hoạt tín hiệu Hủy Thread...")
+                    if session_id in active_sessions:
+                        active_sessions[session_id]["stop_event"].set()
+                    break
                 
-            yield f"data: {json.dumps(event, ensure_ascii=False)}\n\n"
-            await asyncio.sleep(0.01)
+                try:
+                    # Non-blocking read queued objects using asyncio.to_thread with timeout
+                    event = await asyncio.to_thread(q_stream.get, timeout=1.0)
+                    if event is None:
+                        break
+                    yield f"data: {json.dumps(event, ensure_ascii=False)}\n\n"
+                except queue.Empty:
+                    # Timeout queue.get, loop lại để check await request.is_disconnected()
+                    continue
+        finally:
+            if session_id in active_sessions:
+                active_sessions[session_id].get("stop_event", threading.Event()).set()
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
 

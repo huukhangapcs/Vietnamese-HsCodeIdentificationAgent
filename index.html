@@ -23,6 +23,7 @@
             --text-muted: #94a3b8;
             --success-color: #10b981;
             --warning-color: #f59e0b;
+            --error-color: #f87171;
         }
 
         body,
@@ -259,8 +260,24 @@
         }
 
         .log-error {
-            color: #f87171;
+            color: var(--error-color);
             font-weight: bold;
+        }
+
+        .log-warning {
+            color: #fb923c;
+            font-weight: 600;
+        }
+
+        .log-hint {
+            color: #fcd34d;
+            font-weight: 500;
+            padding: 8px 12px;
+            background: rgba(251, 191, 36, 0.1);
+            border-radius: 6px;
+            border-left: 3px solid #fbbf24;
+            margin: 8px 0;
+            line-height: 1.5;
         }
 
         .log-final {
@@ -376,6 +393,12 @@
         .result-badge.fast {
             background: rgba(16, 185, 129, 0.2);
             color: #34d399;
+        }
+
+        .result-badge.judge {
+            background: rgba(245, 158, 11, 0.2);
+            color: #fbbf24;
+            box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
         }
 
         .section-code {
@@ -595,11 +618,39 @@
         }
 
         function displayResult(data, isFastPath) {
-            pathBadge.textContent = isFastPath ? "FAST PATH EVAL" : "DEEP AGENTIC PATH";
-            pathBadge.className = `result-badge ${isFastPath ? 'fast' : ''}`;
+            let badgeText = isFastPath ? "FAST PATH EVAL" : "DEEP AGENTIC PATH";
+            let badgeClass = isFastPath ? 'fast' : '';
+            
+            if (data.confidence && data.confidence.includes("CACHE")) {
+                badgeText = "⚡ FAST PATH CACHE";
+                badgeClass = 'fast';
+            } else if (data.confidence && data.confidence.includes("LLM Judge")) {
+                badgeText = "⚖️ V3 LLM JUDGE RERANKER";
+                badgeClass = 'judge';
+            }
+            
+            pathBadge.textContent = badgeText;
+            pathBadge.className = `result-badge ${badgeClass}`;
 
-            sectionCode.textContent = data.final_section_id || "ERROR";
+            let sectionIdStr = data.final_section_id || "ERROR";
+            if (sectionIdStr === "CLARIFICATION_NEEDED") {
+                sectionCode.textContent = "THIẾU THÔNG TIN";
+                sectionCode.style.fontSize = "32px";
+                sectionCode.style.color = "var(--warning-color)";
+            } else if (sectionIdStr === "UNKNOWN") {
+                sectionCode.textContent = "TỪ CHỐI";
+                sectionCode.style.fontSize = "36px";
+                sectionCode.style.color = "var(--error-color)";
+            } else {
+                sectionCode.textContent = sectionIdStr;
+                sectionCode.style.fontSize = "48px";
+                sectionCode.style.color = ""; // reset
+            }
+
             confidenceScore.textContent = data.confidence || "N/A";
+            if (data.confidence === "CACHE") {
+                confidenceScore.textContent = "100% (Từ bộ nhớ Cache)";
+            }
 
             // XSS FIX: safeRenderText() escape HTML rồi mới render
             const text = data.reasoning || "Không có lời giải.";
@@ -613,8 +664,13 @@
             }
 
             lastQuery = finalQueryStr;
-            lastHsCode = data.final_section_id || "ERROR";
-            approveBtn.style.display = 'block';
+            lastHsCode = sectionIdStr;
+            
+            if (sectionIdStr !== "CLARIFICATION_NEEDED" && sectionIdStr !== "UNKNOWN" && sectionIdStr !== "ERROR") {
+                approveBtn.style.display = 'block';
+            } else {
+                approveBtn.style.display = 'none';
+            }
 
             panel.classList.add('active');
             appendLog(`[SYSTEM] Trả kết quả lên giao diện thành công.`, 'log-success');
@@ -641,7 +697,15 @@
 
                 switch (payload.type) {
                     case 'info':
-                        appendLog(payload.message, 'log-info');
+                        if (payload.message.includes("💡") || payload.message.includes("HINT")) {
+                            appendLog(payload.message, 'log-hint');
+                        } else if (payload.message.includes("⚠️") || payload.message.includes("⛔") || payload.message.includes("🛑") || payload.message.includes("VAGUENESS")) {
+                            appendLog(payload.message, 'log-warning');
+                        } else if (payload.message.includes("⚡") || payload.message.includes("CACHE")) {
+                            appendLog(payload.message, 'log-success');
+                        } else {
+                            appendLog(payload.message, 'log-info');
+                        }
                         break;
                     case 'error':
                         appendLog(payload.message, 'log-error');

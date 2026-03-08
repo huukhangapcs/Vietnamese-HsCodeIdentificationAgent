@@ -190,18 +190,21 @@ Do not respond with anything else. No reasoning, no markdown formatting."""
 
 
         system_prompt = f"""You are the Tier-1 Router for Customs HS Code Classification.
-Your task is to route the item to the correct Chapter (Chương) within the established Section {section_id}.
+Your task is to route the item to the Top 3 most likely Chapters (Chương) within the established Section {section_id}.
 [CRITICAL ROUTING INSTRUCTIONS]
 1. Ignore marketing names. Focus entirely on answering two questions: What is it made of (Material)? and What does it do (Function)?
 2. Remember that Chapter/Section Notes have paramount legal authority.{notes_prompt}
 
-Strictly respond with the EXACT Chapter ID (e.g., '01', '85') that most specifically describes the item.
+Respond STRICTLY with a JSON object containing EXACTLY this key:
+{{
+  "candidates": ["01", "02", "03"]
+}}
 Do not respond with anything else.
 
 Available Chapters in {section_id}:
 {options_text}{feedback_prompt}
 
-Remember, you must ONLY output the EXACT Chapter ID from the list above. No reasoning, no markdown formatting."""
+Remember, you must ONLY output a valid JSON object. No reasoning, no markdown formatting."""
 
         messages = [
             {"role": "system", "content": system_prompt},
@@ -216,31 +219,32 @@ Remember, you must ONLY output the EXACT Chapter ID from the list above. No reas
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=messages,
-                max_tokens=20,
+                response_format={"type": "json_object"},
                 temperature=0.0
             )
-            chapter_id = response.choices[0].message.content.strip()
-            chapter_id = chapter_id.replace("```", "").replace("'", "").replace('"', "").strip()
+            content = response.choices[0].message.content.strip()
+            if content.startswith("```"):
+                content = '\n'.join([l for l in content.split('\n') if not l.startswith("```")])
+            result = json.loads(content.strip())
+            candidate_chapters = result.get("candidates", [])
             
-            if chapter_id in chapters:
-                print(f"  ✅ Nhánh Chapter Zero-shot: {chapter_id}")
+            # Chuẩn hóa (zfill 2)
+            all_valid_chapters = [ch for chs in SECTION_TO_CHAPTERS.values() for ch in chs]
+            normalized_candidates = []
+            for ch in candidate_chapters:
+                ch_norm = str(ch).zfill(2)
+                if ch_norm in all_valid_chapters:
+                    normalized_candidates.append(ch_norm)
+            
+            if normalized_candidates:
+                print(f"  ✅ Nhánh Chapter Zero-shot: {normalized_candidates}")
                 if stream_callback:
-                    stream_callback({"type": "info", "message": f"  🎯 Đã khoá mục tiêu Chương: {chapter_id}"})
-                return chapter_id
+                    stream_callback({"type": "info", "message": f"  🎯 Đã khoanh vùng Top {len(normalized_candidates)} Chương khả năng cao: {', '.join(normalized_candidates)}"})
+                return normalized_candidates
             else:
-                # [BUG FIX] Kiểm tra xem chapter LLM gợi ý có hợp lệ toàn cục không.
-                # Nếu có, có thể Router đã chọn sai Section — trust LLM chapter gợi ý.
-                all_valid_chapters = [ch for chs in SECTION_TO_CHAPTERS.values() for ch in chs]
-                ch_normalized = str(chapter_id).zfill(2)
-                if ch_normalized in all_valid_chapters:
-                    print(f"  ⚠️ LLM đề xuất '{ch_normalized}' nằm ngoài {section_id}, nhưng hợp lệ toàn cục → Trust LLM.")
-                    if stream_callback:
-                        stream_callback({"type": "info", "message": f"  ⚠️ Cross-section chapter detected: {ch_normalized} → Trust LLM."})
-                    return ch_normalized
-                else:
-                    fallback_ch = chapters[0] if chapters else "UNKNOWN"
-                    print(f"  ❌ LLM trả về mã không hợp lệ: '{chapter_id}', fallback về {fallback_ch}")
-                    return fallback_ch
+                fallback = [chapters[0]] if chapters else []
+                print(f"  ❌ LLM trả về JSON rác, fallback về {fallback}")
+                return fallback
 
         except Exception as e:
             print(f"  ❌ Lỗi kết nối API: {e}")

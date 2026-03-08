@@ -1,0 +1,207 @@
+[
+  {
+    "level": 0,
+    "hs_code": "9701",
+    "description_en": "Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 49.06 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_97_0",
+        "description_en": "Of an age exceeding 100 years:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "97012100",
+            "description_en": "Paintings, drawings and pastels",
+            "children": [],
+            "semantic_path": "Paintings, drawings and pastels, executed entirely by hand > Of an age exceeding 100 years > Paintings, drawings and pastels"
+          },
+          {
+            "level": 2,
+            "hs_code": "97012200",
+            "description_en": "Mosaics",
+            "children": [],
+            "semantic_path": "Paintings, drawings and pastels, executed entirely by hand > Of an age exceeding 100 years > Mosaics"
+          },
+          {
+            "level": 2,
+            "hs_code": "97012900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Paintings, drawings and pastels, executed entirely by hand > Of an age exceeding 100 years > Other"
+          }
+        ],
+        "semantic_path": "Paintings, drawings and pastels, executed entirely by hand > Of an age exceeding 100 years"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_97_1",
+        "description_en": "Other:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "97019100",
+            "description_en": "Paintings, drawings and pastels",
+            "children": [],
+            "semantic_path": "Paintings, drawings and pastels, executed entirely by hand > Other > Paintings, drawings and pastels"
+          },
+          {
+            "level": 2,
+            "hs_code": "97019200",
+            "description_en": "Mosaics",
+            "children": [],
+            "semantic_path": "Paintings, drawings and pastels, executed entirely by hand > Other > Mosaics"
+          },
+          {
+            "level": 2,
+            "hs_code": "97019900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Paintings, drawings and pastels, executed entirely by hand > Other > Other"
+          }
+        ],
+        "semantic_path": "Paintings, drawings and pastels, executed entirely by hand > Other"
+      }
+    ],
+    "semantic_path": "Paintings, drawings and pastels, executed entirely by hand"
+  },
+  {
+    "level": 0,
+    "hs_code": "9702",
+    "description_en": "Original engravings, prints and lithographs",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "97021000",
+        "description_en": "Of an age exceeding 100 years",
+        "children": [],
+        "semantic_path": "Original engravings, prints and lithographs > Of an age exceeding 100 years"
+      },
+      {
+        "level": 1,
+        "hs_code": "97029000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Original engravings, prints and lithographs > Other"
+      }
+    ],
+    "semantic_path": "Original engravings, prints and lithographs"
+  },
+  {
+    "level": 0,
+    "hs_code": "9703",
+    "description_en": "Original sculpture and statuary, in any material",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "97031000",
+        "description_en": "Of an age exceeding 100 years",
+        "children": [],
+        "semantic_path": "Original sculpture and statuary, in any material > Of an age exceeding 100 years"
+      },
+      {
+        "level": 1,
+        "hs_code": "97039000",
+        "description_en": "Other",
+        "children": [],
+        "semantic_path": "Original sculpture and statuary, in any material > Other"
+      }
+    ],
+    "semantic_path": "Original sculpture and statuary, in any material"
+  },
+  {
+    "level": 0,
+    "hs_code": "97040000",
+    "description_en": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 49.07",
+    "children": [],
+    "semantic_path": "Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery, used or unused collector stamps"
+  },
+  {
+    "level": 0,
+    "hs_code": "9705",
+    "description_en": "Collections and collectors' pieces of archaeological, ethnographic, historical, zoological, botanical, mineralogical, anatomical, paleontological or numismatic interest",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "97051000",
+        "description_en": "Collections and collectors' pieces of archaeological, ethnographic or historical interest",
+        "children": [],
+        "semantic_path": "Collections and collectors' pieces > Archaeological, ethnographic or historical interest"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_97_2",
+        "description_en": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical or paleontological interest:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "97052100",
+            "description_en": "Human specimens and parts thereof",
+            "children": [],
+            "semantic_path": "Collections and collectors' pieces > Zoological, botanical, mineralogical, anatomical or paleontological > Human specimens and parts thereof"
+          },
+          {
+            "level": 2,
+            "hs_code": "97052200",
+            "description_en": "Extinct or endangered species and parts thereof",
+            "children": [],
+            "semantic_path": "Collections and collectors' pieces > Zoological, botanical, mineralogical, anatomical or paleontological > Extinct or endangered species and parts thereof"
+          },
+          {
+            "level": 2,
+            "hs_code": "97052900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Collections and collectors' pieces > Zoological, botanical, mineralogical, anatomical or paleontological > Other"
+          }
+        ],
+        "semantic_path": "Collections and collectors' pieces > Zoological, botanical, mineralogical, anatomical or paleontological interest"
+      },
+      {
+        "level": 1,
+        "hs_code": "PSEUDO_NODE_97_3",
+        "description_en": "Collections and collectors' pieces of numismatic interest:",
+        "children": [
+          {
+            "level": 2,
+            "hs_code": "97053100",
+            "description_en": "Of an age exceeding 100 years",
+            "children": [],
+            "semantic_path": "Collections and collectors' pieces > Numismatic interest > Of an age exceeding 100 years"
+          },
+          {
+            "level": 2,
+            "hs_code": "97053900",
+            "description_en": "Other",
+            "children": [],
+            "semantic_path": "Collections and collectors' pieces > Numismatic interest > Other"
+          }
+        ],
+        "semantic_path": "Collections and collectors' pieces > Numismatic interest"
+      }
+    ],
+    "semantic_path": "Collections and collectors' pieces of archaeological, ethnographic, historical, zoological, botanical, mineralogical, anatomical, paleontological or numismatic interest"
+  },
+  {
+    "level": 0,
+    "hs_code": "9706",
+    "description_en": "Antiques of an age exceeding 100 years",
+    "children": [
+      {
+        "level": 1,
+        "hs_code": "97061000",
+        "description_en": "Of an age exceeding 250 years",
+        "children": [],
+        "semantic_path": "Antiques of an age exceeding 100 years > Of an age exceeding 250 years"
+      },
+      {
+        "level": 1,
+        "hs_code": "97069000",
+        "description_en": "Other (antiques of an age exceeding 100 years but not 250 years)",
+        "children": [],
+        "semantic_path": "Antiques of an age exceeding 100 years > Other"
+      }
+    ],
+    "semantic_path": "Antiques of an age exceeding 100 years"
+  }
+]

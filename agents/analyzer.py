@@ -29,6 +29,8 @@ Respond STRICTLY with ONE JSON object containing ALL these keys:
   "state_or_condition": "Physical state (e.g. fresh, frozen, live, new, used, liquid, powder). Write 'Unknown' if not mentioned, or '' if invalid",
   "material": "Primary material (e.g. plastic, wood, steel, cotton). Write 'Not Applicable' if irrelevant, or '' if invalid",
   "function": "Main function/purpose in English, or '' if invalid",
+  "broad_category": "Vật liệu thô / Máy móc / Đồ tiêu dùng / Thực phẩm / Động vật, v.v...",
+  "customs_perspective": "Sản phẩm này thường được phân loại dựa trên: Chất liệu / Chức năng / Tình trạng (ví dụ: Tươi/Đông/Sấy)?",
   "search_keywords": ["list of 2-4 strategic English phrases to strictly fuzzy-search the HS Nomenclature database (e.g. ['frozen whole chicken', 'poultry meat']). Generate only if valid."]
 }
 Do NOT output any text outside the JSON block."""
@@ -96,6 +98,7 @@ class ItemAnalyzer:
             print(f"  👉 State/Condition: {result.get('state_or_condition', 'Unknown')}")
             print(f"  👉 Material: {result.get('material', 'Unknown')}")
             print(f"  👉 Function: {result.get('function', 'Unknown')}")
+            print(f"  🧠 Micro-Thinking: [{result.get('broad_category', 'Unknown')}] - {result.get('customs_perspective', 'Unknown')}")
             print(f"  🔑 Search Keywords: {result.get('search_keywords', [])}")
             result["is_valid"] = True
             return result
